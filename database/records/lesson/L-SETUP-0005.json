@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:46:51.642724Z",
+    "created_by": "SETUP",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:47:31.712329Z",
+    "updated_by": "SETUP"
+  },
+  "action": "dxfkit.save_pdf restores the paper size (tested in tests/test_drawings.py); pass color=BYLAYER to hatch fills; review every sheet with pdfinfo + zoomed pdftoppm crops before issue",
+  "context": "Owner drawings DWG-001/002 printed at about 150 x 120 mm instead of A3/A1: ezdxf finalize() shrinks the matplotlib figure; pattern hatches came out black (set_pattern_fill defaults to colour 7); hatch islands need the OUTERMOST path flag",
+  "date": "2026-09-27",
+  "id": "L-SETUP-0005",
+  "lesson": "A drawing is verified only after checking the PDF page size (pdfinfo) and zoomed crops of labels, legend and title block; low-resolution previews hide wrong colours and hide overlaps",
+  "status": "active",
+  "tags": [
+    "drawings",
+    "pdf",
+    "verification"
+  ],
+  "title": "Check drawing PDFs at print size and zoom, not by thumbnail"
+}

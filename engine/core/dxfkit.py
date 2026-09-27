@@ -59,6 +59,8 @@ def save_pdf(doc, path, paper_mm=(420, 297)):
     ax.set_axis_off()
     cfg = Configuration(background_policy=BackgroundPolicy.WHITE, color_policy=ColorPolicy.COLOR)
     Frontend(RenderContext(doc), MatplotlibBackend(ax), config=cfg).draw_layout(doc.modelspace(), finalize=True)
+    # ezdxf's finalize() shrinks the figure to a default 4.8 in height; restore the paper size
+    fig.set_size_inches(paper_mm[0] / 25.4, paper_mm[1] / 25.4)
     fig.savefig(path, dpi=200)
     plt.close(fig)
     return path

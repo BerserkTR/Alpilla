@@ -2,13 +2,14 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:57.269075Z",
     "created_by": "OWNR",
-    "rev": 1,
-    "updated_at": "2026-09-27T17:13:57.269075Z",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:45:59.142812Z",
     "updated_by": "OWNR"
   },
   "available_by": "2027-04-30",
   "basis_refs": [
-    "source:SRC-OWNR-0005"
+    "source:SRC-OWNR-0005",
+    "source:SRC-OWNR-0010"
   ],
   "contract": "ALP-EPC-001",
   "contractor_side": "Outfall pipeline and diffuser",

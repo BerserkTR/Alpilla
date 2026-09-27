@@ -2,16 +2,16 @@
   "_meta": {
     "created_at": "2026-09-27T17:11:46.218550Z",
     "created_by": "OWNR",
-    "rev": 1,
-    "updated_at": "2026-09-27T17:11:46.218550Z",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:45:38.112950Z",
     "updated_by": "OWNR"
   },
   "doc_ref": "ALP-OWN-FUL-001",
-  "file": "sources/owner/ALP-OWN-FUL-001_fuel_gas_quality.md",
+  "file": "sources/owner/ALP-OWN-FUL-001_Rev0.pdf",
   "id": "SRC-OWNR-0003",
   "originator": "Alpilla Enerji Uretim A.S. (Owner)",
   "received_date": "2026-09-08",
-  "remarks": "Owner-provided document (case study, fictional)",
+  "remarks": "Owner-provided document (case study, fictional). Issued PDF; native Word file sources/owner/ALP-OWN-FUL-001_Rev0.docx; tabulated data in Excel sources/owner/ALP-OWN-FUL-001_Rev0_data.xlsx.",
   "revision": "0",
   "title": "Natural gas quality and supply conditions"
 }

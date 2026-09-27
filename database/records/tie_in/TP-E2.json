@@ -2,13 +2,15 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:57.266153Z",
     "created_by": "OWNR",
-    "rev": 1,
-    "updated_at": "2026-09-27T17:13:57.266153Z",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:45:59.281538Z",
     "updated_by": "OWNR"
   },
   "available_by": "2027-02-28",
   "basis_refs": [
-    "source:SRC-OWNR-0005"
+    "source:SRC-OWNR-0005",
+    "source:SRC-OWNR-0010",
+    "source:SRC-OWNR-0009"
   ],
   "contract": "ALP-EPC-001",
   "contractor_side": "Construction substations and distribution",

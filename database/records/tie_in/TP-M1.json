@@ -2,14 +2,16 @@
   "_meta": {
     "created_at": "2026-09-27T17:17:25.194422Z",
     "created_by": "OWNR",
-    "rev": 2,
-    "updated_at": "2026-09-27T17:18:44.690481Z",
+    "rev": 3,
+    "updated_at": "2026-09-27T17:45:59.446667Z",
     "updated_by": "OWNR"
   },
   "available_by": "2027-09-30",
   "basis_refs": [
     "source:SRC-OWNR-0005",
-    "source:SRC-OWNR-0007"
+    "source:SRC-OWNR-0007",
+    "source:SRC-OWNR-0010",
+    "source:SRC-OWNR-0009"
   ],
   "contract": "ALP-EPC-001",
   "contractor_side": "Design, construction, operation and removal of the landing; marine works only 1 October - 30 April",

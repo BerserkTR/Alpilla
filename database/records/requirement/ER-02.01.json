@@ -2,19 +2,21 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:09.694443Z",
     "created_by": "CASE",
-    "rev": 3,
-    "updated_at": "2026-09-27T17:17:25.476939Z",
+    "rev": 4,
+    "updated_at": "2026-09-27T17:45:59.673303Z",
     "updated_by": "OWNR"
   },
   "basis_refs": [
-    "source:SRC-OWNR-0005"
+    "source:SRC-OWNR-0005",
+    "source:SRC-OWNR-0010",
+    "source:SRC-OWNR-0009"
   ],
   "contract": "ALP-EPC-001",
   "discipline": "civil",
   "id": "ER-02.01",
   "section": "ER-02 Site conditions and design data",
   "status": "contractual",
-  "text": "The Site is a 12.0 ha plot (400 m east-west x 300 m north-south) on the northern Marmara coast, levelled by the Owner to +15.0 m, plant grid origin at the south-west corner, plant north = true north. The usable area after the 60 m public coastal strip, the 10 m stream-channel buffer on the west boundary and the 5 m landscaping strip is about 10.6 ha. A further 5 ha temporary construction area north of the plot is provided by the Owner (tie-in TP-A1). Details and existing features per ALP-OWN-GEN-001.",
+  "text": "The Site is a 12.0 ha plot (400 m east-west x 300 m north-south) on the northern Marmara coast, levelled by the Owner to +15.0 m, plant grid origin at the south-west corner, plant north = true north. The usable area inside the 10 m stream-channel buffer on the west boundary and the 5 m landscaping strip is about 10.6 ha (E 20-395, N 12-295); the 60 m public coastal strip lies between the plot and the shoreline. A further 5.04 ha temporary construction area north of the plot (E 0-180, N 320-600) is provided by the Owner (tie-in TP-A1). Details and existing features per ALP-OWN-GEN-001 and drawings ALP-OWN-DWG-001 (external connections) and ALP-OWN-DWG-002 (site and construction area plan).",
   "title": "Site location and area",
   "verification": "inspection"
 }

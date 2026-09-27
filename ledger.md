@@ -5,6 +5,11 @@
 Read before working. Add a lesson whenever something went wrong or a better way was found:
 `python -m engine db add lesson --set title="..." --set lesson="..." --reason "..."`
 
+### L-SETUP-0005 (2026-09-27) Check drawing PDFs at print size and zoom, not by thumbnail [drawings, pdf, verification]
+- Context: Owner drawings DWG-001/002 printed at about 150 x 120 mm instead of A3/A1: ezdxf finalize() shrinks the matplotlib figure; pattern hatches came out black (set_pattern_fill defaults to colour 7); hatch islands need the OUTERMOST path flag
+- Lesson: A drawing is verified only after checking the PDF page size (pdfinfo) and zoomed crops of labels, legend and title block; low-resolution previews hide wrong colours and hide overlaps
+- Action: dxfkit.save_pdf restores the paper size (tested in tests/test_drawings.py); pass color=BYLAYER to hatch fills; review every sheet with pdfinfo + zoomed pdftoppm crops before issue
+
 ### L-SETUP-0004 (2026-09-27) Cross-check Owner documents against the Employer's Requirements before signature [contract, requirements]
 - Context: Contract case ALP-EPC-001: the Owner's own documents contradicted the draft contract in 16 places (stack height, seawater reference, gas LHV/pressure, sewer, grid date, LDO quality ...)
 - Lesson: Conflicts between Owner data and requirements surface only when each requirement is traced to its source; resolved before signature they cost EUR 1.48M, after signature they become claims

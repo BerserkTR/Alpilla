@@ -2,16 +2,16 @@
   "_meta": {
     "created_at": "2026-09-27T17:11:46.218963Z",
     "created_by": "OWNR",
-    "rev": 1,
-    "updated_at": "2026-09-27T17:11:46.218963Z",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:45:38.195272Z",
     "updated_by": "OWNR"
   },
   "doc_ref": "ALP-OWN-GEN-001",
-  "file": "sources/owner/ALP-OWN-GEN-001_site_infrastructure_tie_ins.md",
+  "file": "sources/owner/ALP-OWN-GEN-001_Rev1.pdf",
   "id": "SRC-OWNR-0005",
   "originator": "Alpilla Enerji Uretim A.S. (Owner)",
-  "received_date": "2026-09-14",
-  "remarks": "Owner-provided document (case study, fictional)",
-  "revision": "0",
+  "received_date": "2026-09-27",
+  "remarks": "Owner-provided document (case study, fictional). Issued PDF; native Word file sources/owner/ALP-OWN-GEN-001_Rev1.docx. Rev 1: drawings ALP-OWN-DWG-001/002 added, temporary construction area E 0-180 / N 320-600 defined, TQ answers incorporated.",
+  "revision": "1",
   "title": "Site, existing infrastructure and tie-in points"
 }

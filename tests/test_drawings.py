@@ -61,3 +61,15 @@ def test_plot_plan(project):
     assert xs == [7750, 12250] and ys == [4200, 5800]
     assert "10LAB10BR001  DN150-D1A" in texts(doc)
     assert msp.query('LWPOLYLINE[layer=="PIPE"]')
+
+
+def test_pdf_print_keeps_paper_size(tmp_path):
+    """ezdxf's finalize() resizes the matplotlib figure; the PDF must still be printed on the requested paper."""
+    import re
+
+    from engine.core import dxfkit
+    doc = dxfkit.new_doc()
+    doc.modelspace().add_line((0, 0), (420, 297))
+    pdf = dxfkit.save_pdf(doc, tmp_path / "a3.pdf", (420, 297)).read_bytes()
+    box = [float(v) for v in re.search(rb"/MediaBox \[\s*([\d.\s]+)\]", pdf).group(1).split()]
+    assert abs(box[2] - 420 / 25.4 * 72) < 1 and abs(box[3] - 297 / 25.4 * 72) < 1

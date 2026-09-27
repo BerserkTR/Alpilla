@@ -2,13 +2,14 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:57.269302Z",
     "created_by": "OWNR",
-    "rev": 1,
-    "updated_at": "2026-09-27T17:13:57.269302Z",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:45:59.187229Z",
     "updated_by": "OWNR"
   },
   "available_by": "2026-11-02",
   "basis_refs": [
-    "source:SRC-OWNR-0005"
+    "source:SRC-OWNR-0005",
+    "source:SRC-OWNR-0010"
   ],
   "contract": "ALP-EPC-001",
   "contractor_side": "Site drainage, oil interceptors, outlet structure",
