@@ -11,3 +11,6 @@ database/changelog/*.jsonl merge=union
 *.docx binary
 *.xlsx binary
 *.pdf binary
+# Engine outputs: never hand-merge. On conflict take either side, then re-run the engine.
+output/** -merge -diff
+output/**/_manifest.json text eol=lf -merge

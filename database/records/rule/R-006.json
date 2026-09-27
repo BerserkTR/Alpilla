@@ -2,14 +2,14 @@
   "_meta": {
     "created_at": "2026-09-27T15:24:30.480076Z",
     "created_by": "SETUP",
-    "rev": 1,
-    "updated_at": "2026-09-27T15:24:30.480076Z",
+    "rev": 2,
+    "updated_at": "2026-09-27T15:48:28.442974Z",
     "updated_by": "SETUP"
   },
   "id": "R-006",
   "rationale": "Prevents unofficial side channels that bypass R-001 and R-002.",
   "severity": "mandatory",
-  "statement": "`temporary_codes/` is for experiments only (not committed). Nothing there may write to the database, output or deliveries, or produce a deliverable. Useful code is promoted into an engine or CLI command with a test.",
+  "statement": "`temporary_codes/` is committed and visible to the whole team (no personal scripts). Nothing there may write to the database, output or deliveries, or produce a deliverable. Useful code is promoted into an engine or CLI command with a test; dead scratch is deleted.",
   "status": "active",
-  "title": "Scratch stays scratch"
+  "title": "Scratch is shared, never a side channel"
 }

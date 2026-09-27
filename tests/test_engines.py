@@ -162,3 +162,16 @@ def test_cli_read_commands(project, capsys):
     assert "rated_power" in capsys.readouterr().out
     assert main(["status"]) == 0
     assert main(["engines"]) == 0
+
+
+def test_run_stale_only_reruns_outdated(project, capsys):
+    s = Store(project, who())
+    seed(s)
+    assert main(["run", "--all"]) == 0
+    capsys.readouterr()
+    assert main(["run", "--stale"]) == 0 and "all outputs are current" in capsys.readouterr().out
+    s.update("design_parameter", "DP-AAA-0001", {"value": 46}, "site data rev 2")
+    assert main(["run", "--stale"]) == 0
+    out = capsys.readouterr().out
+    assert "design_basis:" in out and "equipment_list" not in out
+    assert validate.run(project).warnings == []

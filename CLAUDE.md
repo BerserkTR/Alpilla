@@ -1,6 +1,6 @@
 # Alpilla - Gas / Combined-Cycle Power Plant Engineering & Design
 
-Shared, multi-user project. The database is the single source of truth (SSOT); engines are the
+Team project - no personal work: everything is committed and pushed to the shared branch. The database is the single source of truth (SSOT); engines are the
 only way to produce outputs. The rules and lessons below are loaded into every session
 (start, resume, /clear, compaction) and are binding.
 
@@ -13,7 +13,7 @@ only way to produce outputs. The rules and lessons below are loaded into every s
    `python -m engine db list <entity> --where "..."`, `db get <entity> <id>`, `db query "SELECT ..."`.
    Fields/units: `python -m engine db schema <entity>`.
 3. Change data only via `python -m engine db add|update|delete|import ... --reason "..."`.
-4. Generate outputs only via `python -m engine run <engine>`; issue via `python -m engine deliver ...`.
+4. Generate outputs only via `python -m engine run <engine>` (`run --stale` after pulling); issue via `python -m engine deliver ...`.
 5. New output type = new engine in `engine/engines/` (+ template in `templates/`, + test in `tests/`).
 6. Record lessons as they happen: `python -m engine db add lesson --set title=... --set lesson=... --reason ...`.
 7. `python -m engine validate` must pass before commit (pre-commit hook enforces it). Commit small, push often.
@@ -28,6 +28,6 @@ only way to produce outputs. The rules and lessons below are loaded into every s
 | `templates/` | Jinja/Word templates used by engines | people |
 | `sources/` | inputs received (client/vendor/site), registered as `source` records | people |
 | `references/` | codes, standards, literature, registered as `reference` records | people |
-| `output/` | generated files + manifest (not committed) | engines only |
+| `output/` | generated files + manifest (committed, shared) | engines only |
 | `internal_deliveries/` | frozen issued packages + transmittal | `engine deliver` only |
-| `temporary_codes/` | scratch scripts, never deliverables (not committed) | anyone |
+| `temporary_codes/` | shared scratch scripts, never deliverables | anyone |

@@ -12,7 +12,7 @@
     python -m engine db import <entity> <file.csv|.json> [--update] --reason "..."
     python -m engine db reconcile <entity> <id>|--all --reason "..."
     python -m engine engines                       list engines
-    python -m engine run <engine>|--all [--option k=v]
+    python -m engine run <engine>|--all|--stale [--option k=v]
     python -m engine deliver <engine> --title T --purpose P --to R --reason "..." [--files GLOB]
     python -m engine setup                         one-time per clone (git hooks, user code)
 """
@@ -78,9 +78,19 @@ def cmd_status(p: Project, a) -> int:
         print(rep.text(limit=8))
     g = lambda *x: subprocess.run(["git", "-C", str(p.root), *x], capture_output=True, text=True).stdout.strip()
     branch, dirty = g("branch", "--show-current"), g("status", "--porcelain")
-    ab = g("rev-list", "--left-right", "--count", "HEAD...@{upstream}")
-    sync = f", ahead/behind upstream: {ab.replace(chr(9), '/')}" if ab else ""
-    print(f"git: {branch or '?'}{sync}, {len(dirty.splitlines())} uncommitted path(s)")
+    ab = g("rev-list", "--left-right", "--count", "HEAD...@{upstream}").split()
+    ahead, behind = (int(ab[0]), int(ab[1])) if len(ab) == 2 else (None, None)
+    print(f"git: {branch or '?'}, {len(dirty.splitlines())} uncommitted path(s)"
+          + (f", {ahead} unpushed / {behind} not pulled commit(s)" if ahead is not None else ", no upstream"))
+    # team-only project: nothing may stay on one machine
+    if dirty:
+        print("WARN: uncommitted work - validate, commit and push so the team works on the same data")
+    if ahead:
+        print("WARN: unpushed commits - push now (git push)")
+    if behind:
+        print("WARN: team changes not pulled - git pull, then python -m engine validate")
+    if ahead is None and branch:
+        print("WARN: branch has no upstream - push it to the shared repository (git push -u origin HEAD)")
     hooks = g("config", "core.hooksPath")
     if hooks != ".githooks":
         print("WARN: git hooks not active - run: python -m engine setup")
@@ -188,7 +198,14 @@ def cmd_run(p: Project, a) -> int:
     from .core.runner import run_engine
     from .engines import registry
     engines = registry()
-    names = [n for n in engines if n != "governance"] if a.all else [a.engine]
+    if a.stale:
+        from .core.runner import check_outputs
+        stale = {m.split("/")[1] for lvl, m in check_outputs(p, Store(p)) if "STALE" in m or "hand-" in m}
+        names = sorted(stale & set(engines))
+        if not names:
+            print("all outputs are current"); return 0
+    else:
+        names = [n for n in engines if n != "governance"] if a.all else [a.engine]
     opts = dict(o.split("=", 1) for o in a.option or [])
     store = Store(p)
     rc = 0
@@ -251,6 +268,7 @@ def main(argv=None) -> int:
     s = sub.add_parser("validate"); s.add_argument("--pre-commit", action="store_true")
     sub.add_parser("engines")
     s = sub.add_parser("run"); s.add_argument("engine", nargs="?"); s.add_argument("--all", action="store_true")
+    s.add_argument("--stale", action="store_true", help="re-run only engines whose outputs are stale or invalid")
     s.add_argument("--option", action="append", help="k=v passed to the engine")
     s = sub.add_parser("deliver"); s.add_argument("engine"); s.add_argument("--title", required=True)
     s.add_argument("--purpose", required=True, help="e.g. internal review, IFR, for information")
@@ -276,8 +294,8 @@ def main(argv=None) -> int:
     s.add_argument("--all", action="store_true"); s.add_argument("--reason", required=True)
 
     a = ap.parse_args(argv)
-    if a.cmd == "run" and not (a.engine or a.all):
-        ap.error("run needs an engine name or --all")
+    if a.cmd == "run" and not (a.engine or a.all or a.stale):
+        ap.error("run needs an engine name, --all or --stale")
     if a.cmd == "db" and a.op == "reconcile" and not (a.all or (a.entity and a.id)):
         ap.error("reconcile needs <entity> <id> or --all")
     p = Project.locate()

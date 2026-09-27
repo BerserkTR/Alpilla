@@ -7,6 +7,9 @@ people (and AI sessions) can work on one consistent data set.
 generated from it by an engine. Nothing in `output/` or `internal_deliveries/` is ever made or
 edited by hand. See [rules.md](rules.md) and [ledger.md](ledger.md).
 
+Team project: nobody keeps personal work. Everything (data, outputs, scratch) is committed and pushed to the
+shared branch; `python -m engine status` warns about anything uncommitted, unpushed or not yet pulled.
+
 ## First time (per clone)
 ```bash
 pip install -r requirements.txt          # LibreOffice (soffice) optional, for PDF
@@ -25,7 +28,7 @@ python -m engine db add equipment --id 10MBV10AP001 --set description="Lube oil 
        --set equipment_type=pump --set rated_power=75 --reason "GT OEM scope list rev B"
 python -m engine db import equipment my_list.csv --reason "..."      # CSV headers = field names
 python -m engine db list equipment --where "rated_power > 50"
-python -m engine run --all                                           # regenerate every output
+python -m engine run --stale                                         # regenerate outdated outputs
 python -m engine deliver equipment_list --title "Equipment list for review" --purpose "internal review" \
        --to "Mechanical lead" --reason "first issue"
 python -m engine validate && git add -A && git commit -m "..." && git push

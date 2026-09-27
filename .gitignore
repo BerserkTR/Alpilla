@@ -1,10 +1,6 @@
-# generated - rebuilt from the database by engines (never commit, never hand-edit)
-output/*
-!output/README.md
+# local query index only - everything else is shared with the team (no personal work)
 database/.cache/
-# scratch
-temporary_codes/*
-!temporary_codes/README.md
+output/.*.tmp/
 # python / os / office lock files
 __pycache__/
 *.pyc
