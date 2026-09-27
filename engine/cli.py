@@ -383,7 +383,7 @@ def cmd_setup(p: Project, a) -> int:
         return 1
     print(f"known user codes: {', '.join(sorted(taken)) or 'none yet'}")
     missing = []
-    for mod in ("openpyxl", "docx", "jinja2", "markdown"):
+    for mod in ("openpyxl", "docx", "jinja2", "markdown", "ezdxf", "ifcopenshell", "rdflib", "matplotlib"):
         try:
             __import__(mod)
         except ImportError:
