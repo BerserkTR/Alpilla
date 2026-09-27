@@ -68,6 +68,9 @@ python -m engine validate && git add -A && git commit -m "..." && git push
 Import: `python -m engine db import-pcf <file.pcf> --line <id> --reason "..."` reads routing from Plant 3D / E3D PCF.
 
 ## Tool interoperability (what is verified, what is not)
+The "Not verified here" column and the native CII / AFT / `.simx` exports are **frozen** by decision `DEC-SETUP-0001`
+(`python -m engine db get decision DEC-SETUP-0001`). Unfreeze by providing sample files and recording a new decision.
+
 | Target tool | Route | Verified here | Not verified here |
 |---|---|---|---|
 | AutoCAD Plant 3D | DXF (P&ID, plot plan), PCF, IFC | DXF audit-clean, blocks + attributes; PCF format + round trip | opening/importing in Plant 3D |

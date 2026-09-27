@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:36:11.659747Z",
+    "created_by": "SETUP",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:36:11.659747Z",
+    "updated_by": "SETUP"
+  },
+  "date": "2026-09-27",
+  "decided_by": "Project owner",
+  "decision": "Frozen until sample files from the team's own tool versions are provided: (1) native CAESAR II .cii export - stress route stays PCF + attribute map; (2) native AFT Fathom/Arrow files - hydraulic route stays PCF import; (3) AVEVA Process Simulation .simx - not generated, future route is importing APS results (Excel/CSV) as source data; (4) import testing of generated files inside Plant 3D, E3D, AVEVA Engineering, CAESAR II, AFT, MS Project and P6. Existing engines (pid, plot_plan, model_ifc, piping_pcf, aveva_export, schedule) stay as they are.",
+  "id": "DEC-SETUP-0001",
+  "rationale": "These formats and imports cannot be verified in the project environment; building them unverified would put unproven files into deliveries. Unfreeze by providing sample files and recording a new decision.",
+  "status": "agreed",
+  "title": "Freeze: native CII / AFT / APS .simx exports and in-tool import verification"
+}
