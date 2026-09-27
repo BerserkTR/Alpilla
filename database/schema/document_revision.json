@@ -1,0 +1,82 @@
+{
+  "entity": "document_revision",
+  "title": "Issued revision of a document (one per issue)",
+  "id_from": [
+    "document",
+    "revision"
+  ],
+  "display": [
+    "document",
+    "revision",
+    "purpose",
+    "issue_date",
+    "review_code"
+  ],
+  "fields": {
+    "document": {
+      "type": "ref",
+      "to": "document",
+      "required": true
+    },
+    "revision": {
+      "type": "string",
+      "required": true,
+      "pattern": "^[A-Z0-9]{1,3}$",
+      "description": "A, B, C ... / 0, 1, 2 ..."
+    },
+    "purpose": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "IFR",
+        "IFA",
+        "IFD",
+        "IFP",
+        "IFC",
+        "IFI",
+        "AB",
+        "VOID"
+      ],
+      "description": "IFR review, IFA approval, IFD design, IFP purchase, IFC construction, IFI information, AB as-built"
+    },
+    "issue_date": {
+      "type": "date",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "description": "reason for revision"
+    },
+    "prepared_by": {
+      "type": "string"
+    },
+    "checked_by": {
+      "type": "string"
+    },
+    "approved_by": {
+      "type": "string"
+    },
+    "delivery": {
+      "type": "ref",
+      "to": "delivery",
+      "description": "transmittal that issued it"
+    },
+    "file": {
+      "type": "string",
+      "description": "path of the issued file in the repository"
+    },
+    "review_code": {
+      "type": "enum",
+      "values": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "description": "client review: 1 approved, 2 approved with comments, 3 revise and resubmit, 4 for information"
+    },
+    "review_date": {
+      "type": "date"
+    }
+  }
+}

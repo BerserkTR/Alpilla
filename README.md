@@ -48,8 +48,25 @@ python -m engine validate && git add -A && git commit -m "..." && git push
 | pre-commit hook + Claude session/path hooks | all of the above slipping into git |
 
 ## Engines
-`python -m engine engines` lists them. Included: `equipment_list` (xlsx), `design_basis` (md + html),
-`equipment_datasheets` (docx + pdf), `governance` (rules.md / ledger.md).
+`python -m engine engines` lists them. Included:
+
+| Engine | Output |
+|---|---|
+| `equipment_list` | equipment list (xlsx) |
+| `equipment_datasheets` | datasheets (docx + pdf) |
+| `design_basis` | design basis report (md + html) with traceability |
+| `aveva_export` | AVEVA Engineering / E3D tag import workbook (one sheet per AVEVA class) |
+| `document_register` | master document register: latest issue, review codes, comments, lateness, progress (xlsx) |
+| `schedule` | CPM schedule: Excel Gantt, interactive HTML Gantt, MS Project XML (Primavera P6 import) |
+| `progress_report` | engineering progress S-curve (planned vs earned), KPIs, late documents (html) |
+| `governance` | rules.md / ledger.md |
+
+## Document control and planning
+`document` (MDR line with planned IFR/IFA/IFC dates and weight) -> `document_revision` (each issue: rev, purpose,
+date, review code, transmittal) -> `review_comment` (comment / response / close). `wbs` + `activity` (P6-style logic
+`E-1010`, `E-1020:SS+5`, `E-1030:FF-2`, constraints, actuals, % complete or progress from linked deliverables).
+`progress_rule` records set the % earned per issue step (contract specific). Schedule dates, float, document status
+and progress are always computed, never typed: `python -m engine plan` for a quick look.
 Add one by copying `engine/engines/equipment_list.py`; it is discovered automatically.
 
 ## Tests

@@ -13,6 +13,7 @@
     python -m engine db reconcile <entity> <id>|--all --reason "..."
     python -m engine lib find|show|attr|tree ...     AVEVA class library (classes, attributes, units, lists)
     python -m engine lib build <ttl> --reason "..."  recompile the class library from its source
+    python -m engine plan [--all]                   schedule status + critical path (computed)
     python -m engine engines                       list engines
     python -m engine run <engine>|--all|--stale [--option k=v]
     python -m engine deliver <engine> --title T --purpose P --to R --reason "..." [--files GLOB]
@@ -153,7 +154,8 @@ def cmd_db(p: Project, a) -> int:
     if op == "list":
         sch = store.schema(a.entity)
         cols = ["id"] + (a.fields.split(",") if a.fields else sch.display or list(sch.fields)[:5])
-        sql = f'SELECT {", ".join(cols)} FROM "{a.entity}"' + (f" WHERE {a.where}" if a.where else "") + " ORDER BY id"
+        quoted = ", ".join(f'"{c}"' for c in cols)
+        sql = f'SELECT {quoted} FROM "{a.entity}"' + (f" WHERE {a.where}" if a.where else "") + " ORDER BY id"
         c, rows, more = index.query(p, sql, a.limit)
         print(_table(c, rows, more)); return 0
     if op == "query":
@@ -273,6 +275,24 @@ def cmd_lib(p: Project, a) -> int:
     return 0
 
 
+def cmd_plan(p: Project, a) -> int:
+    """Compact schedule status: computed on the fly, nothing written."""
+    from .core import planning
+    store = Store(p)
+    acts, cal, dd = planning.compute(store)
+    if not acts:
+        print("no activities"); return 0
+    finish = max(cal.finish_date(x.ef, x.es) for x in acts)
+    crit = sorted((x for x in acts if x.critical), key=lambda x: (x.es, x.id))
+    print(f"data date {dd}  forecast finish {finish}  activities {len(acts)}  critical {len(crit)}  "
+          f"negative float {sum(1 for x in acts if x.tf < 0)}")
+    sel = crit if not a.all else sorted(acts, key=lambda x: (x.es, x.id))
+    rows = [(x.id, x.title[:40], cal.date(x.es), cal.finish_date(x.ef, x.es),
+             "done" if x.status == "completed" else x.tf, f"{x.pct:.0f}") for x in sel[:a.limit]]
+    print(_table(["id", "title", "start", "finish", "float", "%"], rows, len(sel) > a.limit))
+    return 0
+
+
 def cmd_engines(p: Project, a) -> int:
     from .engines import registry
     for name, e in registry().items():
@@ -353,6 +373,8 @@ def main(argv=None) -> int:
     s = sub.add_parser("status"); s.add_argument("--recent", type=int, default=5)
     s = sub.add_parser("validate"); s.add_argument("--pre-commit", action="store_true")
     sub.add_parser("engines")
+    s = sub.add_parser("plan", help="schedule status and critical path (computed, nothing written)")
+    s.add_argument("--all", action="store_true"); s.add_argument("--limit", type=int, default=40)
     s = sub.add_parser("run"); s.add_argument("engine", nargs="?"); s.add_argument("--all", action="store_true")
     s.add_argument("--stale", action="store_true", help="re-run only engines whose outputs are stale or invalid")
     s.add_argument("--option", action="append", help="k=v passed to the engine")
@@ -394,7 +416,7 @@ def main(argv=None) -> int:
     if a.cmd == "db" and a.op == "reconcile" and not (a.all or (a.entity and a.id)):
         ap.error("reconcile needs <entity> <id> or --all")
     p = Project.locate()
-    fn = {"status": cmd_status, "validate": cmd_validate, "db": cmd_db, "engines": cmd_engines, "lib": cmd_lib,
+    fn = {"status": cmd_status, "validate": cmd_validate, "db": cmd_db, "engines": cmd_engines, "lib": cmd_lib, "plan": cmd_plan,
           "run": cmd_run, "deliver": cmd_deliver, "setup": cmd_setup}[a.cmd]
     try:
         return fn(p, a)

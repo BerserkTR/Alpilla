@@ -100,6 +100,10 @@ class Store:
         return self.entity_hash(self.schemas)
 
     def resolve_ref(self, schema: Schema, fname: str, value: str) -> tuple[str, str] | None:
+        if schema.fields[fname]["type"] == "logic_list":
+            from .schema import LOGIC_RE
+            m = LOGIC_RE.match(value)
+            return (schema.targets(fname)[0], m["id"]) if m else None
         if schema.multi_target(fname):
             if ":" not in value:
                 return None
@@ -111,7 +115,7 @@ class Store:
         out = []
         for e, s in self.schemas.items():
             for f, spec in s.fields.items():
-                if spec["type"] not in ("ref", "ref_list") or entity not in s.targets(f):
+                if spec["type"] not in ("ref", "ref_list", "logic_list") or entity not in s.targets(f):
                     continue
                 for r in self.all()[e].values():
                     vals = r.get(f) or []
@@ -153,7 +157,7 @@ class Store:
         s = self.schema(entity)
         errs = []
         for f, spec in s.fields.items():
-            if spec["type"] not in ("ref", "ref_list") or rec.get(f) is None:
+            if spec["type"] not in ("ref", "ref_list", "logic_list") or rec.get(f) is None:
                 continue
             vals = rec[f] if isinstance(rec[f], list) else [rec[f]]
             for v in vals:
@@ -172,6 +176,13 @@ class Store:
         stem = f"{s.id_prefix}-{self.who.code}-"
         nums = [int(m.group(1)) for rid in self.all()[entity] if (m := re.fullmatch(re.escape(stem) + r"(\d+)", rid))]
         return f"{stem}{(max(nums) + 1 if nums else 1):04d}"
+
+    @staticmethod
+    def _id_from(s: Schema, data: dict) -> str:
+        missing = [f for f in s.id_from if not data.get(f)]
+        if missing:
+            raise StoreError(f"{s.entity}: id is built from {s.id_from}; missing {missing}")
+        return re.sub(r"[^A-Za-z0-9._-]", "-", "_".join(str(data[f]) for f in s.id_from))
 
     def _log(self, op: str, entity: str, rid: str, rev: int, h: str | None, reason: str, fields=None):
         if not reason or not reason.strip():
@@ -203,7 +214,7 @@ class Store:
     def create(self, entity: str, data: dict, reason: str) -> dict:
         s = self.schema(entity)
         data = {k: v for k, v in data.items() if v is not None}
-        rid = data.get("id") or self.next_id(entity)
+        rid = data.get("id") or (self._id_from(s, data) if s.id_from else self.next_id(entity))
         if rid in self.all()[entity] or self._case_clash(entity, rid):
             raise StoreError(f"{entity}/{rid} already exists (IDs are case-insensitive). Use update.")
         for f, spec in s.fields.items():

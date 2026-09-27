@@ -15,7 +15,7 @@ from .project import Project
 from .store import Store, read_changelog
 
 SQL_TYPES = {"number": "NUMERIC", "integer": "INTEGER", "boolean": "INTEGER"}
-INDEX_FORMAT = "3"  # bump when the index layout changes, forces a rebuild everywhere
+INDEX_FORMAT = "4"  # bump when the index layout changes, forces a rebuild everywhere
 
 
 def _fingerprint(p: Project) -> str:
@@ -48,7 +48,8 @@ def ensure(p: Project, store: Store | None = None, force: bool = False) -> bool:
     for entity, s in store.schemas.items():
         cols = [("id", "TEXT PRIMARY KEY")] + [(f, SQL_TYPES.get(spec["type"], "TEXT")) for f, spec in s.fields.items()]
         cols += [("meta_rev", "INTEGER"), ("meta_updated_by", "TEXT"), ("meta_updated_at", "TEXT")]
-        c.execute(f'CREATE TABLE "{entity}" ({", ".join(f"{n} {t}" for n, t in cols)})')
+        coldefs = ", ".join(f'"{n}" {t}' for n, t in cols)
+        c.execute(f'CREATE TABLE "{entity}" ({coldefs})')
         rows = []
         for r in store.records(entity):
             m = r.get("_meta", {})

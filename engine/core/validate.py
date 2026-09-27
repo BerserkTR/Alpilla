@@ -104,6 +104,21 @@ def deliveries(project: Project, rep: Report):
     rep.errors += delivery.check_deliveries(project)
 
 
+def planning_logic(store: Store, rep: Report):
+    """Activity network must be computable (no loops, calendar defined)."""
+    if not store.records("activity"):
+        return
+    from . import planning
+    try:
+        acts, _, _ = planning.compute(store)
+    except planning.PlanningError as e:
+        rep.errors.append(f"planning: {e}")
+        return
+    late = [a.id for a in acts if a.tf < 0]
+    if late:
+        rep.warnings.append(f"planning: negative float (constraint missed) on {', '.join(late[:10])}")
+
+
 def classlib(project: Project, rep: Report):
     """database/classlib is compiled reference data: must match its manifest and its source file."""
     folder = project.database / "classlib"
@@ -160,6 +175,8 @@ def run(project: Project, store: Store | None = None, pre_commit: bool = False) 
     classlib(project, rep)
     records(store, rep)
     integrity(store, rep)
+    if not rep.errors:
+        planning_logic(store, rep)
     governance(project, store, rep)
     deliveries(project, rep)
     outputs(project, store, rep)

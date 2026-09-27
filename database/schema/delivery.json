@@ -34,6 +34,11 @@
     },
     "db_hash": {
       "type": "string"
+    },
+    "revisions": {
+      "type": "ref_list",
+      "to": "document_revision",
+      "description": "document revisions issued with this transmittal"
     }
   }
 }

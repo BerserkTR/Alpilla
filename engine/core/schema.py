@@ -9,6 +9,8 @@ Field types:
   list      -> list of strings
   aveva_class -> AVEVA class name or AVEVA ID; "roots": [...] limits it to branches of the class tree
   aveva_attrs -> {"<AVEVA attribute>": value}; validated against the record's aveva_class (see classlib.py)
+  logic_list -> planning links "<id>[:FS|SS|FF|SF[+/-lag]]" to "to" entity, e.g. ["E-1010", "E-1020:SS+5"]
+Schema key "id_from": [fields] builds the id from those fields joined by "_" (e.g. document + revision).
 Common keys: required, unit, description, default, min, max, pattern.
 Unknown fields are rejected: the schema is the contract.
 """
@@ -22,7 +24,17 @@ from pathlib import Path
 
 ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$")
 TYPES = {"string", "text", "number", "integer", "boolean", "date", "enum", "ref", "ref_list", "list",
-         "aveva_class", "aveva_attrs"}
+         "aveva_class", "aveva_attrs", "logic_list"}
+LOGIC_RE = re.compile(r"^(?P<id>[A-Za-z0-9][A-Za-z0-9._-]*)(?::(?P<rel>FS|SS|FF|SF)(?P<lag>[+-]\d+)?)?$")
+
+
+def parse_logic(v: str) -> tuple[str, str, int]:
+    """'E-1010' -> (E-1010, FS, 0); 'E-1010:SS+5' -> (E-1010, SS, 5); lag in working days.
+    A lag needs an explicit link type ('E-1010:FS-3'), because IDs themselves contain '-' and digits."""
+    m = LOGIC_RE.match(v)
+    if not m:
+        raise ValueError(v)
+    return m["id"], m["rel"] or "FS", int(m["lag"] or 0)
 
 
 @dataclass
@@ -34,6 +46,7 @@ class Schema:
     fields: dict = field(default_factory=dict)
     display: list = field(default_factory=list)   # default columns for listings
     description: str = ""
+    id_from: list = field(default_factory=list)
 
     def targets(self, fname: str) -> list[str]:
         to = self.fields[fname].get("to")
@@ -57,10 +70,10 @@ def load_schemas(schema_dir: Path) -> dict[str, Schema]:
                 raise ValueError(f"{p.name}: field name '{fname}' is reserved")
         out[ent] = Schema(ent, raw.get("title", ent), raw.get("id_prefix"),
                           re.compile(raw["id_pattern"]) if raw.get("id_pattern") else None,
-                          raw["fields"], raw.get("display", []), raw.get("description", ""))
+                          raw["fields"], raw.get("display", []), raw.get("description", ""), raw.get("id_from", []))
     for s in out.values():  # ref targets must exist
         for fname, spec in s.fields.items():
-            if spec["type"] in ("ref", "ref_list"):
+            if spec["type"] in ("ref", "ref_list", "logic_list"):
                 for t in s.targets(fname):
                     if t not in out:
                         raise ValueError(f"{s.entity}.{fname}: ref target '{t}' has no schema")
@@ -72,7 +85,7 @@ def coerce(schema: Schema, fname: str, raw: str):
     if fname not in schema.fields:
         raise ValueError(f"{schema.entity}: unknown field '{fname}'. Fields: {', '.join(schema.fields)}")
     t = schema.fields[fname]["type"]
-    if raw.strip().startswith("[") and t in ("list", "ref_list"):
+    if raw.strip().startswith("[") and t in ("list", "ref_list", "logic_list"):
         return json.loads(raw)
     if t == "number":
         return float(raw) if any(c in raw for c in ".eE") else int(raw)
@@ -82,7 +95,7 @@ def coerce(schema: Schema, fname: str, raw: str):
         if raw.lower() in ("true", "yes", "1", "y"): return True
         if raw.lower() in ("false", "no", "0", "n"): return False
         raise ValueError(f"{fname}: not a boolean: {raw}")
-    if t in ("list", "ref_list"):
+    if t in ("list", "ref_list", "logic_list"):
         return [x.strip() for x in raw.split(",") if x.strip()]
     return raw
 
@@ -137,6 +150,11 @@ def _check_value(spec: dict, v) -> list[str]:
             return []
         except Exception:
             return [f"'{v}' is not YYYY-MM-DD"]
+    if t == "logic_list":
+        if not isinstance(v, list) or not all(isinstance(x, str) and LOGIC_RE.match(x) for x in v):
+            return ['must be a list like ["E-1010", "E-1020:SS+5", "E-1030:FF-2"]']
+        ids = [parse_logic(x)[0] for x in v]
+        return ["duplicate predecessor"] if len(set(ids)) != len(ids) else []
     if t in ("list", "ref_list"):
         if not isinstance(v, list) or not all(isinstance(x, str) and x.strip() for x in v):
             return ["must be a list of non-empty strings"]

@@ -1,0 +1,49 @@
+{
+  "entity": "review_comment",
+  "title": "Review comment on a document revision (comment -> response -> close)",
+  "id_prefix": "CMT",
+  "display": [
+    "revision",
+    "originator",
+    "status",
+    "closed_in"
+  ],
+  "fields": {
+    "revision": {
+      "type": "ref",
+      "to": "document_revision",
+      "required": true
+    },
+    "originator": {
+      "type": "string",
+      "required": true,
+      "description": "reviewer (person / organisation)"
+    },
+    "location": {
+      "type": "string",
+      "description": "section, page, sheet or tag"
+    },
+    "comment": {
+      "type": "text",
+      "required": true
+    },
+    "response": {
+      "type": "text"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "open",
+        "responded",
+        "closed",
+        "rejected"
+      ],
+      "default": "open"
+    },
+    "closed_in": {
+      "type": "ref",
+      "to": "document_revision",
+      "description": "revision that incorporates it"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "entity": "wbs",
+  "title": "Work breakdown structure node",
+  "id_pattern": "^[A-Z0-9][A-Z0-9._-]*$",
+  "display": [
+    "title",
+    "parent"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "parent": {
+      "type": "ref",
+      "to": "wbs"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

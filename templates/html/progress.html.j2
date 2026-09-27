@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ prj.id }} Progress</title>
+<style>
+{% include "html/_viz.css.j2" %}
+  svg.scurve text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-variant-numeric: tabular-nums; }
+  details summary { cursor: pointer; color: var(--text-secondary); margin: 8px 0; }
+  .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <h1>{{ prj.name }} - Engineering Progress</h1>
+  <div class="sub">Data date {{ dd.strftime("%d %b %Y") }} · weighted document progress (progress rules) · generated from the project database</div>
+  <div class="kpis">
+    <div class="kpi"><div class="v">{{ "%.1f" % planned_now }}%</div><div class="l">Planned at data date</div></div>
+    <div class="kpi"><div class="v">{{ "%.1f" % earned_now }}%</div><div class="l">Earned at data date</div></div>
+    <div class="kpi"><div class="v">{{ "%+.1f" % (earned_now - planned_now) }} pts</div><div class="l">Variance{% if earned_now < planned_now %} <span class="flag">▼ behind plan</span>{% endif %}</div></div>
+    <div class="kpi"><div class="v">{{ late | length }}</div><div class="l">Documents late (IFC){% if late %} <span class="flag">▲</span>{% endif %}</div></div>
+    <div class="kpi"><div class="v">{{ open_comments }}</div><div class="l">Open review comments</div></div>
+  </div>
+  <div class="card">
+    <div class="legend"><span><i class="sw" style="background:var(--series-1)"></i>Planned (cumulative)</span>
+      <span><i class="sw" style="background:var(--series-2)"></i>Earned (cumulative)</span><span>┆ Data date</span></div>
+    {{ svg }}
+    <details><summary>Table view (weekly values)</summary>
+      <table class="data"><tr><th>Week ending</th><th>Planned %</th><th>Earned %</th></tr>
+      {% for w, p, e in table %}<tr><td>{{ w.strftime("%d %b %Y") }}</td><td>{{ "%.1f" % p }}</td><td>{{ "-" if e is none else "%.1f" % e }}</td></tr>{% endfor %}
+      </table></details>
+  </div>
+  <div class="grid2">
+    <div class="card"><b>By discipline</b>
+      <table class="data"><tr><th>Discipline</th><th>Documents</th><th>IFC</th><th>Late</th><th>Progress %</th></tr>
+      {% for r in disc_rows %}<tr><td>{{ r.discipline }}</td><td>{{ r.n }}</td><td>{{ r.ifc }}</td><td>{{ r.late }}</td><td>{{ "%.1f" % r.progress }}</td></tr>{% endfor %}
+      </table></div>
+    <div class="card"><b>Late documents</b> (planned IFC passed, not issued IFC)
+      <table class="data"><tr><th>Document</th><th>Title</th><th>Planned IFC</th><th>Latest</th></tr>
+      {% for r in late %}<tr><td>{{ r.doc.id }}</td><td>{{ r.doc.title }}</td><td>{{ r.doc.planned_ifc }}</td><td>{{ (r.latest.revision ~ " " ~ r.latest.purpose) if r.latest else "not issued" }}</td></tr>
+      {% else %}<tr><td colspan="4">None</td></tr>{% endfor %}
+      </table></div>
+  </div>
+  <footer>Engine {{ engine.name }} v{{ engine.version }} · {{ stamp.generated_at[:19] }}Z by {{ stamp.generated_by }} · data {{ stamp.inputs_hash }} · git {{ stamp.git_commit }} · do not edit - regenerate with <code>python -m engine run progress_report</code></footer>
+</div>
+<div class="tip" id="tip"></div>
+<script>
+  const tip = document.getElementById("tip"), xh = document.getElementById("xh");
+  document.querySelectorAll("rect.hit").forEach(el => {
+    el.addEventListener("mousemove", ev => {
+      tip.textContent = el.getAttribute("data-tip").replace(/&#10;/g, "\n");
+      tip.style.whiteSpace = "pre-line"; tip.style.display = "block";
+      tip.style.left = Math.min(ev.clientX + 12, window.innerWidth - tip.offsetWidth - 8) + "px";
+      tip.style.top = (ev.clientY + 12) + "px";
+      xh.setAttribute("x1", el.dataset.x); xh.setAttribute("x2", el.dataset.x); xh.setAttribute("visibility", "visible");
+    });
+    el.addEventListener("mouseleave", () => { tip.style.display = "none"; xh.setAttribute("visibility", "hidden"); });
+  });
+</script>
+</body>
+</html>

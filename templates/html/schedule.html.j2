@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ prj.id }} Schedule</title>
+<style>
+{% include "html/_viz.css.j2" %}
+  svg.gantt text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  svg.gantt [data-tip] { cursor: default; }
+  svg.gantt [data-tip]:hover { stroke: var(--text-primary); stroke-width: 1.5; }
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <h1>{{ prj.name }} - Project Schedule</h1>
+  <div class="sub">Data date {{ dd.strftime("%d %b %Y") }} · critical path method, working days · generated from the project database</div>
+  <div class="kpis">
+    <div class="kpi"><div class="v">{{ finish.strftime("%d %b %Y") }}</div><div class="l">Forecast completion</div></div>
+    <div class="kpi"><div class="v">{{ n }}</div><div class="l">Activities</div></div>
+    <div class="kpi"><div class="v">{{ ncrit }}</div><div class="l">On the critical path</div></div>
+    <div class="kpi"><div class="v">{{ late | length }}</div><div class="l">Negative float{% if late %} <span class="flag">▲ constraint missed</span>{% endif %}</div></div>
+  </div>
+  <div class="card">
+    <div class="legend">
+      <span><i class="sw" style="background:var(--critical)"></i>Critical (float ≤ 0, labelled CRIT)</span>
+      <span><i class="sw" style="background:var(--series-1)"></i>Non-critical</span>
+      <span><i class="sw" style="background:var(--done)"></i>Completed</span>
+      <span><i class="sw" style="background:var(--text-primary);opacity:.55;height:3px"></i>% complete</span>
+      <span>◆ Milestone</span><span>┆ Data date</span>
+    </div>
+    {{ svg }}
+  </div>
+  <footer>Engine {{ engine.name }} v{{ engine.version }} · {{ stamp.generated_at[:19] }}Z by {{ stamp.generated_by }} · data {{ stamp.inputs_hash }} · git {{ stamp.git_commit }} · do not edit - regenerate with <code>python -m engine run schedule</code></footer>
+</div>
+<div class="tip" id="tip"></div>
+<script>
+  const tip = document.getElementById("tip");
+  document.querySelectorAll("[data-tip]").forEach(el => {
+    el.addEventListener("mousemove", ev => {
+      tip.textContent = el.getAttribute("data-tip");
+      tip.style.whiteSpace = "pre-line"; tip.style.display = "block";
+      const x = Math.min(ev.clientX + 12, window.innerWidth - tip.offsetWidth - 8);
+      tip.style.left = x + "px"; tip.style.top = (ev.clientY + 12) + "px";
+    });
+    el.addEventListener("mouseleave", () => { tip.style.display = "none"; });
+  });
+</script>
+</body>
+</html>

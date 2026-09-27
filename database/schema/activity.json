@@ -1,0 +1,111 @@
+{
+  "entity": "activity",
+  "title": "Schedule activity or milestone (CPM network)",
+  "id_pattern": "^[A-Z0-9][A-Z0-9._-]*$",
+  "display": [
+    "title",
+    "wbs",
+    "type",
+    "duration",
+    "predecessors",
+    "percent_complete"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "wbs": {
+      "type": "ref",
+      "to": "wbs",
+      "required": true
+    },
+    "type": {
+      "type": "enum",
+      "values": [
+        "task",
+        "start_milestone",
+        "finish_milestone"
+      ],
+      "default": "task"
+    },
+    "phase": {
+      "type": "enum",
+      "values": [
+        "management",
+        "engineering",
+        "procurement",
+        "construction",
+        "commissioning"
+      ],
+      "required": true
+    },
+    "discipline": {
+      "type": "enum",
+      "values": [
+        "general",
+        "process",
+        "mechanical",
+        "piping",
+        "electrical",
+        "i_and_c",
+        "civil",
+        "structural",
+        "hvac",
+        "hse",
+        "commissioning",
+        "project_control"
+      ]
+    },
+    "duration": {
+      "type": "integer",
+      "unit": "working days",
+      "min": 0,
+      "required": true
+    },
+    "predecessors": {
+      "type": "logic_list",
+      "to": "activity",
+      "description": "e.g. E-1010, E-1020:SS+5, E-1030:FF-2 (lag in working days, only after a link type)"
+    },
+    "constraint": {
+      "type": "enum",
+      "values": [
+        "start_no_earlier_than",
+        "finish_no_later_than"
+      ]
+    },
+    "constraint_date": {
+      "type": "date"
+    },
+    "actual_start": {
+      "type": "date"
+    },
+    "actual_finish": {
+      "type": "date"
+    },
+    "percent_complete": {
+      "type": "number",
+      "unit": "%",
+      "min": 0,
+      "max": 100,
+      "description": "manual progress; ignored when deliverables are linked (then computed from documents)"
+    },
+    "deliverables": {
+      "type": "ref_list",
+      "to": "document",
+      "description": "documents whose progress drives this activity"
+    },
+    "budget_hours": {
+      "type": "number",
+      "unit": "h",
+      "min": 0
+    },
+    "responsible": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

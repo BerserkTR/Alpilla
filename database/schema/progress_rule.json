@@ -1,0 +1,21 @@
+{
+  "entity": "progress_rule",
+  "title": "Document progress rule: % earned at each step (per contract)",
+  "id_pattern": "^(STARTED|IFR|IFA|IFD|IFP|IFC|IFI|AB)$",
+  "display": [
+    "percent",
+    "remarks"
+  ],
+  "fields": {
+    "percent": {
+      "type": "number",
+      "unit": "%",
+      "min": 0,
+      "max": 100,
+      "required": true
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

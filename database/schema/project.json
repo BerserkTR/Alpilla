@@ -55,6 +55,24 @@
     },
     "remarks": {
       "type": "text"
+    },
+    "schedule_start": {
+      "type": "date",
+      "description": "project start (CPM calendar origin)"
+    },
+    "data_date": {
+      "type": "date",
+      "description": "status date for progress and forecasts"
+    },
+    "work_days_per_week": {
+      "type": "integer",
+      "min": 5,
+      "max": 7,
+      "default": 5
+    },
+    "holidays": {
+      "type": "list",
+      "description": "non-working dates YYYY-MM-DD"
     }
   }
 }

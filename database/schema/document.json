@@ -1,13 +1,13 @@
 {
   "entity": "document",
-  "title": "Project document register entry",
+  "title": "Deliverable / document register entry (MDR line)",
   "id_pattern": "^[A-Z0-9][A-Z0-9._-]*$",
   "display": [
     "title",
     "discipline",
-    "revision",
+    "doc_type",
     "status",
-    "engine"
+    "planned_ifc"
   ],
   "fields": {
     "title": {
@@ -25,29 +25,89 @@
         "electrical",
         "i_and_c",
         "civil",
+        "structural",
+        "hvac",
         "hse",
-        "commissioning"
+        "commissioning",
+        "project_control"
       ]
     },
     "doc_type": {
-      "type": "string",
-      "description": "report, datasheet, list, drawing, calculation, specification ..."
+      "type": "enum",
+      "required": true,
+      "values": [
+        "report",
+        "specification",
+        "datasheet",
+        "list",
+        "calculation",
+        "drawing",
+        "diagram",
+        "layout",
+        "isometric",
+        "model",
+        "procedure",
+        "schedule",
+        "manual",
+        "study",
+        "other"
+      ]
     },
-    "revision": {
+    "aveva_class": {
+      "type": "aveva_class",
+      "roots": [
+        "Document"
+      ],
+      "description": "AVEVA class (python -m engine lib tree Document --depth 3)"
+    },
+    "aveva_attrs": {
+      "type": "aveva_attrs",
+      "class_field": "aveva_class"
+    },
+    "originator": {
       "type": "string",
-      "default": "A"
+      "description": "company producing the document"
+    },
+    "system": {
+      "type": "ref",
+      "to": "system"
+    },
+    "wbs": {
+      "type": "ref",
+      "to": "wbs"
+    },
+    "responsible": {
+      "type": "string",
+      "description": "user code of the responsible engineer"
     },
     "status": {
       "type": "enum",
       "values": [
         "planned",
         "in_progress",
-        "IFR",
-        "IFA",
-        "IFC",
-        "void"
+        "on_hold",
+        "cancelled"
       ],
-      "default": "planned"
+      "default": "planned",
+      "description": "work state; issue state comes from document_revision records"
+    },
+    "planned_ifr": {
+      "type": "date"
+    },
+    "planned_ifa": {
+      "type": "date"
+    },
+    "planned_ifc": {
+      "type": "date"
+    },
+    "forecast_ifc": {
+      "type": "date"
+    },
+    "weight": {
+      "type": "number",
+      "unit": "h",
+      "min": 0,
+      "description": "budget man-hours (progress weight)"
     },
     "engine": {
       "type": "string",
@@ -55,18 +115,6 @@
     },
     "remarks": {
       "type": "text"
-    },
-    "aveva_class": {
-      "type": "aveva_class",
-      "roots": [
-        "Document"
-      ],
-      "description": "AVEVA class (python -m engine lib find <text>)"
-    },
-    "aveva_attrs": {
-      "type": "aveva_attrs",
-      "class_field": "aveva_class",
-      "description": "attributes of the AVEVA class: --attr \"Name=value [unit]\""
     }
   }
 }
