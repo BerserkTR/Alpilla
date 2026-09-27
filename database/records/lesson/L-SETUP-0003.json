@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T15:55:54.180648Z",
+    "created_by": "SETUP",
+    "rev": 1,
+    "updated_at": "2026-09-27T15:55:54.180648Z",
+    "updated_by": "SETUP"
+  },
+  "action": "Add new source/reference folders under the existing -text rules; after adding a large source, verify with a fresh clone + python -m engine validate",
+  "context": "The AVEVA class library TTL has CRLF line endings; git's text normalisation would have changed its sha256 in every fresh clone",
+  "date": "2026-09-27",
+  "id": "L-SETUP-0003",
+  "lesson": "Any file whose hash is checked (sources, references, class library source) must be stored with -text in .gitattributes",
+  "status": "active",
+  "tags": [
+    "git",
+    "team"
+  ],
+  "title": "Keep source and reference files byte-for-byte in git"
+}

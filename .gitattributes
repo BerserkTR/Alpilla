@@ -17,5 +17,5 @@ output/**/_manifest.json text eol=lf -merge
 # Source documents are kept byte-for-byte (their sha256 is part of validation) - never normalise line endings
 sources/** -text
 references/** -text
-!references/README.md
-!sources/README.md
+references/README.md text eol=lf
+sources/README.md text eol=lf
