@@ -37,7 +37,7 @@ def records(store: Store, rep: Report):
             where = f"{entity}/{rid}"
             if rec.get("id") != rid:
                 rep.errors.append(f"{where}: file name and id '{rec.get('id')}' differ")
-            for e in check_record(store.schema(entity), rec) + store.ref_errors(entity, rec):
+            for e in check_record(store.schema(entity), rec) + store.ref_errors(entity, rec) + store.class_errors(entity, rec):
                 rep.errors.append(f"{where}: {e}")
             if not isinstance(rec.get("_meta"), dict) or "rev" not in rec["_meta"]:
                 rep.errors.append(f"{where}: missing _meta.rev (record not written by the engine)")
@@ -104,6 +104,26 @@ def deliveries(project: Project, rep: Report):
     rep.errors += delivery.check_deliveries(project)
 
 
+def classlib(project: Project, rep: Report):
+    """database/classlib is compiled reference data: must match its manifest and its source file."""
+    folder = project.database / "classlib"
+    mf = folder / "manifest.json"
+    if not mf.exists():
+        return
+    import json
+    from ..tools.build_classlib import sha256
+    m = json.loads(mf.read_text(encoding="utf-8"))
+    for name, h in m["files"].items():
+        f = folder / name
+        if not f.exists() or sha256(f) != h:
+            rep.errors.append(f"database/classlib/{name}: missing or edited by hand - rebuild with python -m engine lib build")
+    src = project.root / m["source"]
+    if not src.exists():
+        rep.warnings.append(f"class library source {m['source']} not found - cannot prove classlib matches it")
+    elif sha256(src) != m["source_sha256"]:
+        rep.errors.append(f"{m['source']} changed since the class library was compiled - run python -m engine lib build {m['source']}")
+
+
 def governance(project: Project, store: Store, rep: Report):
     from ..engines import governance as gov
     for path, text in gov.render(store).items():
@@ -137,6 +157,7 @@ def run(project: Project, store: Store | None = None, pre_commit: bool = False) 
     except Exception as e:  # broken schema / unreadable JSON / merge conflict markers
         rep.errors.append(f"database cannot be loaded: {e}")
         return rep
+    classlib(project, rep)
     records(store, rep)
     integrity(store, rep)
     governance(project, store, rep)

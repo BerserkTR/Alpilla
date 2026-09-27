@@ -7,6 +7,8 @@ Field types:
                "to": ["a", "b"]          value = "<entity>:<id>"
   ref_list  -> as ref, but a list of values
   list      -> list of strings
+  aveva_class -> AVEVA class name or AVEVA ID; "roots": [...] limits it to branches of the class tree
+  aveva_attrs -> {"<AVEVA attribute>": value}; validated against the record's aveva_class (see classlib.py)
 Common keys: required, unit, description, default, min, max, pattern.
 Unknown fields are rejected: the schema is the contract.
 """
@@ -19,7 +21,8 @@ from datetime import date
 from pathlib import Path
 
 ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$")
-TYPES = {"string", "text", "number", "integer", "boolean", "date", "enum", "ref", "ref_list", "list"}
+TYPES = {"string", "text", "number", "integer", "boolean", "date", "enum", "ref", "ref_list", "list",
+         "aveva_class", "aveva_attrs"}
 
 
 @dataclass
@@ -107,6 +110,10 @@ def check_record(schema: Schema, rec: dict) -> list[str]:
 
 def _check_value(spec: dict, v) -> list[str]:
     t = spec["type"]
+    if t == "aveva_class":
+        return [] if isinstance(v, str) and v.strip() else ["must be an AVEVA class name or ID"]
+    if t == "aveva_attrs":
+        return [] if isinstance(v, dict) and all(isinstance(k, str) for k in v) else ["must be an object {attribute: value}"]
     if t in ("string", "text", "ref"):
         if not isinstance(v, str) or not v.strip():
             return ["must be a non-empty string"]
@@ -148,6 +155,7 @@ def describe(schema: Schema) -> str:
         if s.get("required"): extra.append("required")
         if s.get("unit"): extra.append(f"unit={s['unit']}")
         if s.get("to"): extra.append(f"to={s['to']}")
+        if s.get("roots"): extra.append("AVEVA branch=" + "|".join(s["roots"]))
         if s.get("values"): extra.append("values=" + "|".join(s["values"]))
         lines.append(f"  {fname:<22} {s['type']:<9} {' '.join(extra)}")
     return "\n".join(lines)

@@ -99,6 +99,18 @@
     },
     "remarks": {
       "type": "text"
+    },
+    "aveva_class": {
+      "type": "aveva_class",
+      "roots": [
+        "Item"
+      ],
+      "description": "AVEVA class (python -m engine lib find <text>)"
+    },
+    "aveva_attrs": {
+      "type": "aveva_attrs",
+      "class_field": "aveva_class",
+      "description": "attributes of the AVEVA class: --attr \"Name=value [unit]\""
     }
   }
 }

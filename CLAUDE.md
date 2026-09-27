@@ -12,6 +12,8 @@ only way to produce outputs. The rules and lessons below are loaded into every s
 2. Look data up through the index, not by opening record files:
    `python -m engine db list <entity> --where "..."`, `db get <entity> <id>`, `db query "SELECT ..."`.
    Fields/units: `python -m engine db schema <entity>`.
+   AVEVA classes/attributes (project standard, from `references/aveva/`): `python -m engine lib find|show|attr|tree ...`;
+   classify tags with `--set aveva_class="..." --attr "Rated Power=3200 kW"`.
 3. Change data only via `python -m engine db add|update|delete|import ... --reason "..."`.
 4. Generate outputs only via `python -m engine run <engine>` (`run --stale` after pulling); issue via `python -m engine deliver ...`.
 5. New output type = new engine in `engine/engines/` (+ template in `templates/`, + test in `tests/`).
@@ -24,6 +26,7 @@ only way to produce outputs. The rules and lessons below are loaded into every s
 | `database/schema/` | entity definitions (fields, types, units) | people (reviewed change) |
 | `database/records/` | one JSON per record - the SSOT | engine CLI only |
 | `database/changelog/` | per-user append-only audit log | engine CLI only |
+| `database/classlib/` | AVEVA class library compiled from `references/aveva/*.ttl` | `engine lib build` only |
 | `engine/` | CLI, core, engines (the only output path) | people |
 | `templates/` | Jinja/Word templates used by engines | people |
 | `sources/` | inputs received (client/vendor/site), registered as `source` records | people |

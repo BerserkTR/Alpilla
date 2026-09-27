@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "associations": 1146,
+    "attributes": 10218,
+    "classes": 1533,
+    "enums": 850,
+    "quantities": 154
+  },
+  "files": {
+    "associations.jsonl": "59138e92bf11c1e09db6f0bd4e55e99a205885695036c5f70479ee013d40f96d",
+    "attributes.jsonl": "63db31052947d3fb50e8d6ff825a8ed3d3f638abb2098dfd13a9ded8d55d027d",
+    "classes.jsonl": "1fcc875d8028ed40a9949750e7279eaee9f17f73162da7e7a305719a1e5e47a1",
+    "enums.jsonl": "4cd7ba600285e796a60dd0fdecb3f46be92496c92aec839b00dd54eca2f5bde2",
+    "quantities.jsonl": "0f869196651b65608e0673fcded2898478486bfe4595cfb41e28cd68b2b0dab3"
+  },
+  "source": "references/aveva/DATABASE_STRUCTURE.ttl",
+  "source_sha256": "f3cb7e7762c9660622a45187c09cf5517d25aebdcacec71dbbc6b0aeba091123"
+}

@@ -1,0 +1,850 @@
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000001", "label": "Accuracy Class LOV", "values": ["10P10", "10P15", "10P20", "10P5", "10PR10", "10PR15", "10PR20", "10PR5", "10PX10", "10PX15", "10PX20", "10PX5", "5P10", "5P15", "5P20", "5P5", "5PR10", "5PR15", "5PR20", "5PR5", "5PX10", "5PX15", "5PX20", "5PX5", "B-0.1", "B-0.2", "B-0.5", "B-0.9", "B-1", "B-1.8", "B-2", "B-4", "B-8"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000002", "label": "Action LOV", "values": ["Bar", "Cam", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000003", "label": "Action Type LOV", "values": ["Opposed", "Parallel"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000004", "label": "Actuator Type LOV", "values": ["Hydraulic", "Multi Coil", "Pneumatic", "Single Coil"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000005", "label": "Adjustable Speed Drive Conditions LOV", "values": ["ASD Only Operation", "ASD Start Only", "ASD W-Bypass To Utility Power", "ASD w-DOL Start & Bypass To Utility", "ASD+DOL Start Capability", "Bypass At Utility Frequency"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000006", "label": "Agitator Symbol Type LOV", "values": ["Agitator (general)", "Anchor agitator", "Cross-beam agitator", "Disc agitator", "Flate-blade paddle agitator", "Gat paddle agitator", "Helical agitator", "Impeller agitator", "Propeller agitator", "Turbine agitator"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000007", "label": "Air Cooled Heat Exchanger Class Name LOV", "values": ["Air Cooled Heat Exchanger; Air Cooler", "Air Cooler"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000008", "label": "Air Filter Requirement LOV", "values": [" 10μm", "90%", "Air Filter Not Provided", "Other", "Provide Filters For WP-1", "Provision Only", "Required"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000009", "label": "Air Recirculation LOV", "values": ["External", "Internal", "None"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000010", "label": "Air Recirculation Over LOV", "values": ["End", "Side"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000011", "label": "Air Temperature Sensor Requirement LOV", "values": ["Not Required", "Required", "Same As Winding"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000012", "label": "Alarm-Shutdown-Trip LOV", "values": ["Alarm", "Alarm And Trip", "Alarm Trip Down", "Shut Down"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000013", "label": "Allowable Piping Forces And Moments LOV", "values": ["1.85 X Nema Sm23", "3 X Nema Sm23"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000014", "label": "Allowed-Not Allowed LOV", "values": ["Allowed", "Not Allowed"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000015", "label": "Ambient Conditions LOV", "values": ["Design", "Normal"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000016", "label": "Ampacity Temperature LOV", "values": ["30", "40"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000017", "label": "Annexure LOV", "values": ["ANNEX G.1", "ANNEX G.2"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000018", "label": "Annunciation System LOV", "values": ["Separate First-Our Indication Shall Be Provided", "Sequence Selected From ISA18.1 By Purchaser"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000019", "label": "Annunciator Furnished By LOV", "values": ["Other", "Purchaser", "Vendor"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000020", "label": "Annunciator Located On LOV", "values": ["Local Panel", "Main Control Board"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000021", "label": "Appendix H LOV", "values": ["Class A-7", "Class A-8", "Class C-6", "Class D-1", "Class I 1", "Class I-2", "Class S-1", "Class S-2", "Class S-3", "Class S-4", "Class S-5", "Class S-6", "Class S-7", "Class S-8", "Class S-9"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000022", "label": "Applicable Emission Level LOV", "values": ["Annual Rate", "Instantaneous"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000023", "label": "Applicable Hardness Standard LOV", "values": ["ISO 15156", "MRO0103", "MRO0175", "Na"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000024", "label": "Applicable NTL Standard LOV", "values": ["API-610", "ASME B73.1", "ASME B73.2", "ISO", "Other", "PIP RESP73H-97", "PIP RESP73V-97"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000025", "label": "Applicable Standard LOV", "values": ["Api 673", "Buyer'S Std", "IEC", "ISO", "Local Standards", "North American", "Other", "STD 685", "U.s"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000026", "label": "Applicable To LOV", "values": ["As Built", "As Designed", "Proposal", "Purchaser", "Purchaser Order", "Quotation"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000027", "label": "Application LOV", "values": ["New", "Retrofit", "Spared", "Unspared"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000028", "label": "Area Classification - Class LOV", "values": [" Class 2 ", " Class 3", "Class 1 "]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000029", "label": "Area Classification - Division LOV", "values": [" Disvision 3", " Division 2 ", "Division 0", "Division 1 ", "Safe"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000030", "label": "Area Classification - Gas Group (NEC) LOV", "values": [" Group 2 ", " Group 3", "Group 1 "]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000031", "label": "Area Classification - Gas Group LOV", "values": [" IIA ", " IIB ", " IIC", " IIIA", " IIIC", "A", "B", "C", "D", "E", "F", "G", "I ", "IA", "IB", "IC", "ID", "IIE", "IIF", "IIG", "III", "IIIB ", "Mining"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000032", "label": "Area Classification - Zone LOV", "values": [" Zone2 ", " Zone3", "Zone 1"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000033", "label": "Area Classification Division LOV", "values": ["0", "1", "2", "3", "Safe"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000034", "label": "Area Classification LOV", "values": ["I", "II", "III", "IV"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000035", "label": "ASD Supplied BY LOV", "values": ["Motor Supplier", "Purchaser"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000036", "label": "ASME Code Stamp LOV", "values": ["Country", "Province"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000037", "label": "ASME Section VIII Code Requirements LOV", "values": ["Design & Test", "Not Applicable", "Stamp"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000038", "label": "ATEX Category LOV", "values": ["1 ", "2"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000039", "label": "ATEX Environment LOV", "values": [" D", "G"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000040", "label": "ATEX Equipment Group LOV", "values": [" II", "I "]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000041", "label": "Atmospheric Condition LOV", "values": ["Tropicalization Required", "Winterization Required"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000042", "label": "Atomizing Medium LOV", "values": ["Air", "Mechanical", "Steam"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000043", "label": "Auto-Manual LOV", "values": ["Auto", "Manual"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000044", "label": "Auxiliary Box Enclosure LOV", "values": ["Stainless Steel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000045", "label": "Auxiliary Circulation Flanges Type LOV", "values": ["Slip On", "Socket Welded", "Weld Neck"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000046", "label": "Auxiliary Circulation Piping Fittings LOV", "values": ["Butt Welded", "Pipe Fitting", "S-W Flanged", "Socket Welded", "Tube Fittings"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000047", "label": "Auxiliary Circulation Piping Form LOV", "values": [".049 Wall Tubing", ".065 Wall Tubing", "0.35 Wall Tubing", "1.5 Wall Tubing", "2 Wall Tubing", "2.5 Wall Tubing", "Sch.80 Pipe", "Sch.80S Pipe"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000048", "label": "Auxiliary Circulation Piping Materials LOV", "values": ["316L Stainless Steel", "Carbon Steel", "Duplex Stainless Steel", "Galvanised", "Monel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000049", "label": "Auxiliary Circulation Piping Plan LOV", "values": ["1 S", "1-Sd", "11-S", "13-S", "13-Se", "2-S", "21-S", "23-S", "31-S", "31-Se", "32-S", "41-S", "53-S", "54-S"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000050", "label": "Auxiliary Terminal Box Cable Entry LOV", "values": ["Bottom", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000051", "label": "Axial Display LOV", "values": ["Other", "–1.0 To +1.0 Mm", "–40 To +40 Mils"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000052", "label": "Axial-Radial LOV", "values": ["Axial", "Radial"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000053", "label": "Balancing Acceptance Criteria LOV", "values": ["1.0 mm/s", "Grade 2.5", "ISO 11342"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000054", "label": "Barrier Liquid Volume LOV", "values": ["Minimum Of 0.2 l And Maximum Of 2.8 l", "Minimum Of 0.35 l And Maximum Of 5.1 l"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000055", "label": "Barring Device Type LOV", "values": ["Electric", "Manual", "Pneumatic"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000056", "label": "Base Plate Common In LOV", "values": ["Compressor Only", "Driver", "Gear"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000057", "label": "Base Plate Drainage LOV", "values": ["Entire Baseplate Drain Pan", "Entire Baseplate Drain Rim", "Partial Drain Pan"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000058", "label": "Base Plate Suitable For LOV", "values": ["Common", "Fan Alone", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000059", "label": "Base Plate-Sole Plate LOV", "values": ["Base Plate", "Sole Plate"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000060", "label": "Basic Cooling System For LOV", "values": ["Compressor Cylinder", "Oil Cooler", "Process Cooler", "Rod Packing"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000061", "label": "Basic System For Frame LOV", "values": ["Precision Sleeve", "Pressured", "Splash", "Tapered Roller"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000062", "label": "Basis For Reaction Rate LOV", "values": ["By Catalyst Weight", "By Volume"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000063", "label": "Basis Of Lateral Acceleration LOV", "values": ["Mapped Seismic Parameter", "Site Specific Procedures:MCE"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000064", "label": "Bearing Fitted With Sensors LOV", "values": ["Bull Gear Radial Bearing", "Pinion Radial Bearing", "Thrust Bearing"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000065", "label": "Bearing Housing Construction Type LOV", "values": ["Integral", "Separate"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000066", "label": "Bearing Housing Seismic Sensor LOV", "values": ["As Per API 670", "Installed", "Not Required", "Provision Only", "Supplier Decision "]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000067", "label": "Bearing Housing Type LOV", "values": ["Constant Level", "Not Required"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000068", "label": "Bearing Housing Vibration Switch Type LOV", "values": ["Electric Reset", "Manual Reset"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000069", "label": "Bearing Lubrication Type LOV", "values": ["Grease", "Oil Mist", "Ring Oil"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000070", "label": "Bearing Material LOV", "values": ["Aluminimum(Babbitted)", "Brass And Bronze(Babbitted)", "Carbon Steel(Babbitted)"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000071", "label": "Bearing Position LOV", "values": ["Drive End", "Non Drive End"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000072", "label": "Bearing Shielding LOV", "values": ["Double", "Sealed For Life", "Single"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000073", "label": "Bearing Type LOV", "values": ["Ball", "Roller", "Sleeve"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000074", "label": "Bidirectional Status LOV", "values": ["Master", "Slave"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000075", "label": "Blading LOV", "values": ["1 Row", "2 Row", "3 Row", "RateAU"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000076", "label": "Blower Symbol Type LOV", "values": ["Blower, fan (general)", "Blower, fan, axial type", "Blower, fan, radial type", "SEED_Blower, fan, root"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000077", "label": "Bolting LOV", "values": ["ASTM 153 Galvanised", "PTFE Coated", "Painted", "SS"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000078", "label": "Buffer Gas Required For LOV", "values": ["Air Run In", "Other"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000079", "label": "Burden Unit LOV", "values": ["Ohm", "VA"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000080", "label": "Busbar Service LOV", "values": ["Main Earthing Bar", "Neutral Busbar", "Substation Busbar", "Substation Busbar; Neutral Busbar; Main Earthing Bar; Earth Busbar"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000081", "label": "Button Mounting LOV", "values": ["Local Panel", "Main Board", "Separate Panel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000082", "label": "Buttweld Construction LOV", "values": ["Compressor", "Expander"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000083", "label": "Cable Arrangement", "values": [" on a surface or enclosed", "Bunched in air", "Single layer fixed directly under a wooden ceiling", "Single layer horizontal perforated trays", "Single layer ladder supports", "Single layer on wall or floor", "Single layer unperforated cable tray systems", "Single layer vertical perforated trays"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000084", "label": "Cable Core Class Name LOV", "values": [" Core", "Cable Core;", "Cable Core; Insulated Conductor; Core"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000085", "label": "Cable Core Service LOV", "values": ["Earthing Conductor", "Extraneous Conductive Part", "Live Part", "Neutral", "Neutral Conductor", "Pen Conductor", "Phase Conductor", "Protective Conductor;", "System Bus", "System Bus; Protective Conductor; Phase Conductor; Pen Conductor; Neutral Conductor; Neutral; Live Part; Extraneous Conductive Part; Earthing Conductor; Earth Conductor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000086", "label": "Cable Entering From LOV", "values": ["Bottom", "Drive End Side", "Non Drive End Side", "Other", "Removeable Plate on Bottom", "Top"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000087", "label": "Cable Gland Positions", "values": ["From End", "Required", "Spare", "To End"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000088", "label": "Cable Installation", "values": ["Ladder supports", "Perforated trays", "Unperforated trays", "Vertical perforated trays"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000089", "label": "Cable Power Flows", "values": ["From", "To"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000090", "label": "Cable Service LOV", "values": ["Main Cable"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000091", "label": "Cable Sizing Conductor Material LOV", "values": ["Aluminium", "Copper", "Nickel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000092", "label": "Cable Spaced", "values": ["Spaced", "Touching"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000093", "label": "Capacity Control Action LOV", "values": ["Direct", "Reverse"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000094", "label": "Capacity Control By LOV", "values": ["Both", "Manufacturer Capacity Control", "Purchaser Bypass"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000095", "label": "Capacity Control For LOV", "values": ["Part Loading Condition", "Start Up Only"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000096", "label": "Capacity Control LOV", "values": ["Combination", "Flow Bypass Only", "Variable Speed Only"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000097", "label": "Capacity Control Using LOV", "values": ["Fixed Volume Pocket", "Suction Valve Unloaders"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000098", "label": "Capacity Control With LOV", "values": ["Auto Immediate Unloading", "Auto Loading Delay Interlock"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000099", "label": "Capacity Modulation LOV", "values": ["Butterfly Valve", "Damper", "Globe Valve", "Inlet Throttle Device", "Variable Inlet Guide Vanes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000100", "label": "Carbon Steel Material LOV", "values": ["Compressor", "Expander"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000101", "label": "Cartridge Sets Per LOV", "values": ["Filter", "Service"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000102", "label": "Casing Drain Type LOV", "values": ["Flanged", "Flanged And Valved", "Flanged And Valved And Manifolded", "Plugged"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000103", "label": "Casing Mounting LOV", "values": ["Centerline", "Foot", "Vertical"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000104", "label": "Casing Split LOV", "values": ["Axial", "Radial"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000105", "label": "Casing Type LOV", "values": ["DIFFUSER", "MULTIPLE VOLUTE", "SINGLE VOLUTE"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000106", "label": "Casting Factors Used In Design LOV", "values": ["0.6", "0.8", "0.9", "1", "No", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000107", "label": "Category LOV", "values": ["Category 1", "Category 2", "Category 3"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000108", "label": "Centrifuge Symbol Type LOV", "values": ["Centrifuge (general)", "Centrifuge with perforated shell", "Centrifuge with solid shell", "Centrifuge, pusher type", "Centrifuge, screw-type with perforated shell", "Centrifuge, separator disc-type", "Centrifuge, skimmer type", "Decanter, centrifuge, screw type with solid shell"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000109", "label": "Channel Display LOV", "values": ["Acceleration", "Velocity"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000110", "label": "Channel Shutdown System LOV", "values": ["Single Voting Logic", "Standard Dual Voting Logic"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000111", "label": "Circuit Identification Methods", "values": ["Circuit Number Only", "Circuit Number/phase ID"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000112", "label": "Circuit-Breaker Class Name LOV", "values": ["Circuit-Breaker", "Circuit-Breaker; Circuit Breaker"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000113", "label": "Circuit-Breaker Service LOV", "values": ["Feeder Circuit-Breaker", "Generator Circuit-Breaker", "Switched Busbar Circuit-Breaker", "Transformer Circuit-Breaker", "Transformer Circuit-Breaker; Switched Busbar Circuit-Breaker; Generator Circuit-Breaker; Feeder Circuit-Breaker; Bus Coupler Circuit-Breaker"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000114", "label": "Circulating System Piping By LOV", "values": ["Closed Piping By Manufacturer", "Manufacturer", "Purchaser"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000115", "label": "Classification LOV", "values": ["Classified", "Explosion Proof", "Intrinsically Safe", "Non Classified", "Non Hazardous", "Non Incendive"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000116", "label": "Cleaning Medium LOV", "values": ["Steam", "Water"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000117", "label": "Clock Wise-Counter Clockwise LOV", "values": ["Bi-Directional", "ClockWise", "Counter Clockwise"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000118", "label": "Collar Type LOV", "values": ["Integral", "Replaceable"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000119", "label": "Column Class Name LOV", "values": ["Column; Tower", "Tower"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000120", "label": "Column Pipe Type LOV", "values": ["Flanged", "Threaded"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000121", "label": "Column Service LOV", "values": ["Extractor", "Extractor; Extraction Column"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000122", "label": "Combustion Engine Type LOV", "values": ["Diesel", "Spark Ignited"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000123", "label": "Combustor Type LOV", "values": ["Multiple", "Single"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000124", "label": "Communication Protocol Type LOV", "values": ["Modbus", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000125", "label": "Compressor Service LOV", "values": ["Recycle Gas Compressor", "Recycle Gas Compressor; Driven Equipment"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000126", "label": "Compressor Symbol Type LOV", "values": ["Compressor ejector type, vacuum pump jet type", "Compressor, centrifugal type", "Compressor, open displacement type", "Compressor, vacuum pump (general)", "Compressor, vacuum pump, diaphragm type", "Compressor, vacuum pump, liquid ring type", "Compressor, vacuum pump, reciprocating type", "Compressor, vacuum pump, roller vine type", "Compressor, vacuum pump, rotary piston type", "Compressor, vacuum pump, screw type", "Compressor, vacuum pump, turbo type", "SEED_Compressor, vane"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000127", "label": "Compressor Transmitter Type LOV", "values": ["Compressor Differential Pressure Transmitter", "Compressor Inlet Flow Transmitter"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000128", "label": "Compressor Valve Type LOV", "values": ["Blinded", "Manifold", "Valved"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000129", "label": "Conceptual Object Class Name LOV", "values": ["Conceptual Object", "Conceptual Object; Inanimate Physical Object"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000130", "label": "Condenser Option LOV", "values": ["External", "Internal", "None"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000131", "label": "Condition LOV", "values": ["Compressor Cylinder Flanges", "Compressor Discharge Flange", "Compressor Inlet Flange", "Customer Connection", "Pulse Devices"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000132", "label": "Conduit Box LOV", "values": ["In Same Conduit Box", "In Separate Conduit Box"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000133", "label": "Conduit Or Cable Entering From LOV", "values": ["Bottom", "Left", "Other", "Right Side Facing Non Drive End"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000134", "label": "Connection Bolting Coating LOV", "values": ["Fluoropolymer", "Galv. To A153", "Galv. To ISO 10684", "No-Use SS", "Painted"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000135", "label": "Connection To Load LOV", "values": ["Direct Coupled", "Through Gear Box", "V-Belt Connection"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000136", "label": "Console For Pressure Lube System LOV", "values": ["Multiple Console", "One Console"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000137", "label": "Console Unit LOV", "values": ["One Common to All Units", "One For Each Unit"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000138", "label": "Constant Level Oiler Vent LOV", "values": ["To Atmosphere", "To Bearing House"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000139", "label": "Contact Shall LOV", "values": ["Audible Warning", "Both", "Close To Sound Alarm And Be Normally", "Close To Sound Alarm And Be Normally De-Energized", "Close To Sound Alarm And Be Normally Energized", "Close To Trip And Be Normally", "De Energized", "Energized", "Flashing Light", "Open"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000140", "label": "Continuous-Intermittent LOV", "values": ["Continuous", "Intermittent", "Standby"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000141", "label": "Contract-Spares LOV", "values": ["Contract Unit", "Spares"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000142", "label": "Control By LOV", "values": ["Bypass Valve", "Louvers", "Variable Pitch Fans", "Variable Speed Fans"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000143", "label": "Control Console Type LOV", "values": ["Off Skid Local", "Off Skid Remote", "On-Skid"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000144", "label": "Control Location Type LOV", "values": ["Local", "Remote"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000145", "label": "Control Loop Class Name LOV", "values": ["Control Loop", "Control Loop; Instrument Loop"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000146", "label": "Control Method LOV", "values": ["Inlet Damper", "Inlet Guide Vanes", "Outlet Damper", "Variable Speed"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000147", "label": "Control Or Instrument Wiring LOV", "values": ["ARM. Cable", "Conduit"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000148", "label": "Control Signal Failure Mode LOV", "values": ["Autolock", "Close", "Open"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000149", "label": "Control Signal LOV", "values": ["Electronic", "Pneumatic"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000150", "label": "Control Strategy LOV", "values": ["Auto", "Manual"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000151", "label": "Control Switch Service LOV", "values": ["Selector (Role)"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000152", "label": "Control System Class Name LOV", "values": ["Control System", "Control System; Control And Monitoring System"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000153", "label": "Control Type LOV", "values": ["Automatic", "Manual"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000154", "label": "Control Valve Class Name LOV", "values": ["Control Valve", "Control Valve; Throttling Valve; Regulating Valve; Automatic Control Valve", "Regulating Valve", "Throttling Valve"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000155", "label": "Control Valve Service LOV", "values": ["Final Control Device"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000156", "label": "Control Wiring LOV", "values": ["Armored", "Metal Conduit"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000157", "label": "Controlled Uncontrolled LOV", "values": ["Controlled", "Uncontrolled"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000158", "label": "Controller Type LOV", "values": ["Other", "PID Controller"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000159", "label": "Conveyor Symbol Type LOV", "values": ["Belt, conveyor type in box", "Conveyer, bolt type bidirectional", "Conveyor", "Conveyor, belt type", "Conveyor, chain type", "Conveyor, screw type, general", "Conveyor, vibrating type, conveyor vibrating type, tubular", "Roller conveyor"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000160", "label": "Coolant Type LOV", "values": ["Air", "None", "Water"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000161", "label": "Cooler Inlet Outlet Location LOV", "values": ["Left Side", "Other", "Right Side", "Supplier Decision"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000162", "label": "Cooler Service LOV", "values": ["Intercooler", "Lube", "Lube / Seal", "Lubricating Oil Cooler", "Oil Cooler", "Oil Cooler; Lubricating Oil Cooler; Intercooler; Aftercooler", "Seperate Seal"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000163", "label": "Cooling Class LOV", "values": ["AA", "AA/FA", "AF", "AFA", "AN", "AN/AF", "ANAF", "ANAN", "ANV", "FOA", "FOW", "GA", "GF", "GN", "GNAF", "GNAN", "GNAN/GNAF", "KDWF", "KFAF", "KFAN", "KFAN/KFAF", "KFWF", "KNAN", "KNAN/KFAF/KFAF", "KNAN/KFAN/KFAF", "KNAN/KNAF", "KNAN/KNAF/KFAF", "KNAN/KNAF/KNAF", "KNWF", "KNWF/KNAN", "KNWN", "KNWN/KNAN", "LDAF", "LDWF", "LFAF", "LFAN", "LFAN/LFAF", "LFWF", "LNAN", "LNAN/LDAF/LDAF", "LNAN/LFAF/LFAF", "LNAN/LFAN/LFAF", "LNAN/LNAF", "LNAN/LNAF/LFAF", "LNAN/LNAF/LNAF", "LNWF", "LNWF/LNAN", "LNWN", "LNWN/LNAN", "OA/FA", "OA/FA/FA", "OA/FA/FOA", "OA/FOA/FOA", "ODWF", "OFAF", "OFAN", "OFAN/OFAF", "OFWF", "ONAN", "ONAN/ODAF/ODAF", "ONAN/OFAF/OFAF", "ONAN/OFAN/OFAF", "ONAN/ONAF", "ONAN/ONAF/OFAF", "ONAN/ONAF/ONAF", "ONWF", "ONWF/ONAN", "ONWN", "ONWN/ONAN", "OW", "OW/A", "Other", "V", "oa"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000164", "label": "Cooling Tower Symbol Type LOV", "values": ["Cooling tower (general)", "Dry cooling tower inducted draft", "Dry cooling tower with forced draft", "SEED_Air cooler", "SEED_Air cooler induced", "SEED_Air cooler natural", "Spray cooler", "Wet cooling tower natural draft", "Wet cooling tower, forced draft", "Wet cooling tower, inducted draft", "Wet-dry cooling tower, natural draft"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000165", "label": "Cooling Water Condition LOV", "values": ["No", "Other Cooling Water Conditions", "Water & Glycol Solution", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000166", "label": "Copper Bus Plating LOV", "values": ["Copper Ground Bus", "None", "Silver", "Supplier Decision", "Tin"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000167", "label": "Core Types", "values": ["C", "E", "GC", "N", "OAS", "S"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000168", "label": "Core Usages", "values": ["Conductor", "Neutral", "Protection"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000169", "label": "Coupling Balanced LOV", "values": ["B10", "L10"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000170", "label": "Coupling Constructed Standard LOV", "values": ["API 611", "API 671", "ISO 10441", "ISO 14691", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000171", "label": "Coupling Environment LOV", "values": ["Hydrogen Chloride", "Hydrogen Sulphide", "Other"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000172", "label": "Coupling Guard Material LOV", "values": ["Brass", "Non Metallic", "Other", "Steel"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000173", "label": "Coupling Guard Opening Type LOV", "values": ["Fully Enclosed", "Semi Open"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000174", "label": "Coupling Guard Shape Type LOV", "values": ["Base Mounted", "Cylindrical"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000175", "label": "Coupling Guard Tight Type LOV", "values": ["Air Tight", "Oil Tight"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000176", "label": "Coupling Guard Type LOV", "values": ["Flanged", "Fully Enclosed", "Keyed", "Keyless Hydraulic;", "Other", "Semi Open"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000177", "label": "Coupling Hub Attachment LOV", "values": ["Hydraulic Fit", "Keyed", "Straight", "Tapered"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000178", "label": "Coupling In Compliance With LOV", "values": ["API 610 Compliant", "API 671", "ISO 10441", "ISO 14691", "Manufacturer Standard"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000179", "label": "Coupling Manufacturer-Purchaser LOV", "values": ["Coupling Manufacturer", "Purchaser"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000180", "label": "Coupling Mounted By LOV", "values": ["Driven Equipment Supplier", "Generator Supplier", "Motor Supplier", "Other", "Purchaser"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000181", "label": "Coupling Specified By LOV", "values": ["Driver Equipment Manufacturer", "Motor Supplier", "Per API 671", "Purchaser"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000182", "label": "Coupling Standard LOV", "values": ["As Per STD 671", "Coupling Manufacturer's Standard"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000183", "label": "Coupling Supplied By LOV", "values": ["Driven Equipment Supplier", "Generator Supplier", "Motor Supplier", "Other", "Purchaser"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000184", "label": "Coupling Type LOV", "values": ["Diaphragm", "Disk Pack", "Flexible Element", "Gear", "Quill Shaft"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000185", "label": "Critical Speed Analysis LOV", "values": ["Damped", "Undamped"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000186", "label": "Crusher Symbol Type LOV", "values": ["Crusher (general)", "Crusher, cone type", "Crusher, hammer type", "Crusher, impact type", "Crusher, jaw type", "Crusher, roller type", "Crushing / Grinding machine (general)"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000187", "label": "Cylinder Construction LOV", "values": ["Lube", "Non-Lube"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000188", "label": "Damper Leaf Type LOV", "values": ["Multiple Leaf", "Single Leaf"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000189", "label": "Data Transmission LOV", "values": ["Data Link", "Discrete I Or O", "Network Type"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000190", "label": "Decking Type LOV", "values": ["Drip Rim", "Non Skid Decking", "Sloped Deck", "Subplate", "With Open Drain"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000191", "label": "Decouple Location LOV", "values": ["In Purchaser Mc", "In Purchaser Piping", "Local"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000192", "label": "Decouple Method LOV", "values": ["Flow Monitor", "Power Monitor"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000193", "label": "Deflection Type LOV", "values": ["Compression", "Prestretch"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000194", "label": "Delivery LOV", "values": ["Fca Factory", "Fob Site", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000195", "label": "Demister Service LOV", "values": ["High Pressure Seal", "Internal", "Low Pressure Seal", "Medium Pressure Seal", "Rundown Lube"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000196", "label": "Design Approach LOV", "values": ["Acoustic Simulation Study", "With Simplified Analysis Of Piping System"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000197", "label": "Design For Outdoor Installation LOV", "values": ["IEC 604529, Design Of IP65", "NEMA 250, Enclosure Type 4"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000198", "label": "Design Load Curve Condition LOV", "values": ["Loaded", "Partially Loaded", "Unloaded"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000199", "label": "Design LOV", "values": ["Non Precision", "Precision"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000200", "label": "Design Motor For LOV", "values": ["Fixed Speed", "Two-Speed", "Variable Frequency"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000201", "label": "Detector Install Quantity Per Bearing LOV", "values": ["Four", "Two"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000202", "label": "Detector per Rated Speed LOV", "values": ["Generators 1200 rpm and higher", "Generators less than 1200 rpm", "Motors 1200 rpm and higher", "Motors less than 1200 rpm"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000203", "label": "Diaphragm Axial Location Type LOV", "values": ["Individually", "Stacked"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000204", "label": "Diaphragm Blade Attach Type LOV", "values": ["Integrally Cast", "Welded"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000205", "label": "Differential Pressure Device Type LOV", "values": ["Combination Switch/Gauge", "Device Not Provided", "Differential Pressure Gauge", "Differential Pressure Switch", "Differential Pressure Transmitter", "Not Required", "Provision Only For WP-I", "Provision Required For  WP-II", "Provisions Only Supplied"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000206", "label": "Differential Protection Current Transformer Type LOV", "values": ["Full Differntial", "Self-Balancing"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000207", "label": "Diode Type LOV", "values": ["Light Emitting", "Liquid Crystal"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000208", "label": "Direction Of Thrust LOV", "values": ["Away From Coupling", "Toward Coupling"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000209", "label": "Discharge Head Material LOV", "values": ["Cast", "Fabricated"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000210", "label": "Disk Material LOV", "values": ["Coated With", "Stainless Steel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000211", "label": "Display Output LOV", "values": ["Display", "Output"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000212", "label": "Display Readout Range LOV", "values": ["Optional", "Standard"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000213", "label": "Display Type LOV", "values": ["Alphanumeric Display", "Analog", "Digital", "Mmi / Vdu", "Purchaser", "Temperature Monitor", "Vibration Monitor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000214", "label": "Distance Above Roof to Bottom of Conduit LOV", "values": ["0–13 mm (1⁄2 in.)", "Above 13 mm (1⁄2 in.)–90 mm (31⁄2 in.)", "Above 300 mm (12 in.)–900 mm (36 in.)", "Above 90 mm (31⁄2 in.)–300 mm (12 in.)"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000215", "label": "Distance Between Cables LOV", "values": ["0.125 m", "0.25 m", "0.5 m", "1.0 m", "One cable diameter", "Touching"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000216", "label": "Distance Piece Cover Type LOV", "values": ["Louvered", "Louvered Weather Covers", "Safety Guards", "Screen", "Solid Covers"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000217", "label": "Distance Piece Type LOV", "values": ["Type A", "Type B", "Type C", "Type D"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000218", "label": "Distillation Column Service LOV", "values": ["Splitter", "Stripper", "Stripper; Splitter; Prestripper"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000219", "label": "Domestic-Export LOV", "values": ["Contract Unit", "Domestic Shipment", "Export Shipment", "No", "Spares", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000220", "label": "Double Tube Leak Detection LOV", "values": ["Both Inner And Outer", "Inner Tube Leak Detecton Required", "Outer Tube Detection"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000221", "label": "Draught Type LOV", "values": ["Forced", "Induced", "Natural"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000222", "label": "Drive Mechanism Type LOV", "values": ["ASD", "Direct Coupled", "Gear", "Other", "V-Belt Or Cog"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000223", "label": "Drive System LOV", "values": ["Direct Coupled", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000224", "label": "Drive System Type LOV", "values": ["Direct Connected", "Direct Coupled", "Gear", "Gear And Coupled", "Other", "V-Belt"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000225", "label": "Driven By LOV", "values": [" Independent Motor", "Crankshaft", "Electrical Motor", "Hs Gear Shaft", "Main Motor Shaft", "Other", "Separate", "Steam Turbine", "Supplier Decision", "V-Belt"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000226", "label": "Driven Equipment Comperssor Type LOV", "values": ["Axial", "Centrifugal"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000227", "label": "Driven Equipment Type LOV", "values": ["Axial Compressor", "Centrifugal Pump", "Centrigugal Compressor", "Compressor", "Generator", "Induction Generator", "Sychronous Generator"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000228", "label": "Driven LOV", "values": ["Electric Motor", "Hydraulic Or Pneumatic Motor", "Other", "Steam Turbine"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000229", "label": "Driver End Fitting Type LOV", "values": ["Hydraulically Fitted", "Keyed"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000230", "label": "Driver End Type LOV", "values": ["Cylindrical", "Integral", "Taper"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000231", "label": "Driver Type LOV", "values": ["Electric Motor", "Engine", "Gas Turbine", "Gear", "Induction Motor", "Manufacturer", "Other", "Pneumatic", "Steam Turbine", "Synchronous Motor"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000232", "label": "Drum Orientation Option LOV", "values": ["Sphere", "Vertical Cylinder", "horizontal Cylinder"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000233", "label": "Drum Service LOV", "values": ["Knock Out Drum", "Knockout Drum", "Packaging Material", "Packaging Material; Knockout Drum; Knock Out Drum; High Pressure Flare Heade"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000234", "label": "Drum Type LOV", "values": ["Cyclone", "Horizontal", "Vertical"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000235", "label": "Dry Gas Seal Specifics LOV", "values": ["Double", "Single", "Tandem", "Tandem With Intermediate Laby"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000236", "label": "Dryer Symbol Type LOV", "values": ["Belt dryer, Roller-conveyor type dryer", "Disc dryer, moving shelf dryer, turbo dryer", "Dryer (general)", "Drying oven, drying chamber, shelf dryer", "Fluidized bed dryer", "Heat consumer", "Rotary drum dryer, rotary dryer, tumbling dryer", "SEED_Air Dryer", "Spray Dryer"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000237", "label": "Dual System Requirements LOV", "values": ["Gas/Gas", "Liquid/Gas", "Liquid/Liquid"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000238", "label": "Dual Voting Logic For LOV", "values": ["Active Thrust Bearing", "Each Radial Bearing", "Inactive Thrust Bearing", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000239", "label": "Duct Fitting LOV", "values": ["Bolted", "Welded"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000240", "label": "Duty LOV", "values": ["General Purpose", "Special Purpose"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000241", "label": "Duty Type LOV", "values": ["Basic", "Continous", "Other", "S1-Continuous Duty", "S2-Short-Time Duty", "S3-Intermittent Periodic Duty", "S4-Intermittent Periodic Duty With Starting", "S5-Intermittent Periodic Duty With Electric Braking", "S6-Continuous Operation With Intermittent Load", "S7-Continuous Operation With Electric Braking", "S8-Continuous Operation With Periodic Changes In Load And Speed", "Special"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000242", "label": "Earthing Mode", "values": ["IT", "TNC", "TNS", "TT"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000243", "label": "Eductor-Injection LOV", "values": ["Eductor", "Injection"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000244", "label": "Ejector Class Name LOV", "values": ["Ejector", "Ejector Pump", "Ejector; Strahlpumpe; Jet Pump; Ejektor; Ejector Pump", "Ejektor", "Strahlpumpe"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000245", "label": "Electric Control Switch Class Name LOV", "values": ["Electric Control Switch", "Electric Control Switch; Electric Switch (Control)"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000246", "label": "Electric Motor Efficiency LOV", "values": ["High", "Premium", "Standard"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000247", "label": "Electric Motor Type LOV", "values": ["API 541", "API 546", "IEEE 841", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000248", "label": "Electrical Component Class Name LOV", "values": ["Electrical Component", "Electrical Component; Electrical Item; Electrical Equipment; Electrical Device", "Electrical Equipment", "Electrical Item"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000249", "label": "Electrical Component Service LOV", "values": ["Exposed Conductive Part", "Exposed Conductive Part; Common Auxiliary Equipment"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000250", "label": "Electrical Isolation LOV", "values": ["Insulating Sleeve", "Insulating Wrap"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000251", "label": "Electrostatic Precipitator Class Name LOV", "values": ["ESP", "Electrostatic Precipitator; ESP"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000252", "label": "Enclosed Space Service LOV", "values": ["Packed Product Compartment"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000253", "label": "Enclosure Type LOV", "values": ["EEexd(e)", "EExe.", "EExpe", "Exnxp / ExN"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000254", "label": "End Connection Type LOV", "values": ["BW", "FLG", "SW", "THD"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000255", "label": "End Seal Type LOV", "values": ["Carbon Rings", "Carbon/Laby", "Double Contact", "Dry Gas", "Labyrinth"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000256", "label": "Energize-Deenergize LOV", "values": ["Deenergize", "Energize"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000257", "label": "Equipment Protection Level (EPL) LOV", "values": [" Da", " Db ", " Dc", " Gb ", " Gc", "Ga "]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000258", "label": "Equipment Service LOV", "values": ["Top Work", "Top Work; Measuring Equipment"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000259", "label": "ETAP Circuit Breaker Type LOV", "values": ["Insualated Case ", "Molded Case", "Power CB"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000260", "label": "ETAP Contactor Type LOV", "values": ["Contactor", "Starter"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000261", "label": "ETAP Earthing Type LOV", "values": ["IT-Collective", "IT-In Groups", "IT-Individual", "NEC", "TN-C", "TN-C-S", "TN-S", "TT"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000262", "label": "ETAP Filter Type LOV", "values": ["3rd Order C-Type", "3rd Order Damped", "By-Pass", "High-Pass (Damped)", "High-Pass (Undamped)", "Single-Tuned"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000263", "label": "ETAP Impedance Model LOV", "values": ["Balanced", "Unbalanced"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000264", "label": "ETAP Load Type LOV", "values": ["Cabinet", "HVAC", "Heat Trace", "Heater", "Instrument", "Lighting", "Other", "Resistor", "Socket Outlet"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000265", "label": "ETAP Operation Mode LOV", "values": ["Mvar Control", "PF Control", "Swing", "Voltage Control"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000266", "label": "ETAP Relay Type LOV", "values": ["Differential Relay", "Distance Relay", "Multi-function Relay", "OverCurrent Relay", "Overload/Motor Relay"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000267", "label": "ETAP Transformer Core Type LOV", "values": ["(3) 1-Phase", "Core, 3 Limb", "Core, 4 Limb", "Core, 5 Limb", "Shell "]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000268", "label": "Examination Type LOV", "values": ["Liquid Penetrant", "Magnetic Particle", "Radiographic", "Ultrasonic"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000269", "label": "Exchanger Location Or Orientation LOV", "values": ["Above Stator", "Other", "Supplier Decision"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000270", "label": "Excitation Field Type LOV", "values": [" Fixed Resistor Required", "Rheostat"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000271", "label": "Excitation LOV", "values": ["Brushless", "Slipring"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000272", "label": "Excitation System LOV", "values": ["High Intial Response Excitation System Required", "Permanent Magnet Generator Excitation Source"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000273", "label": "Exciter Power Supply LOV", "values": ["Constant Voltage Transformer", "Permanent Magnet Generator", "Permanent Magnet Motor", "Phase Controlled Rectifier"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000274", "label": "Exhaust Heat Recovery System LOV", "values": ["Multi Shaft", "Single Shaft"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000275", "label": "Exhaust Relief Valve Type LOV", "values": ["Diversion Valve", "Relief Valve"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000276", "label": "Explosion Protection Basis Of Label LOV", "values": ["Aex (US)", "Eex (CENELEC)", "Ex (Canada)", "Other", "Supplier Decision"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000277", "label": "Explosion Protection Labled Motor LOV", "values": ["Not Required", "Required", "Required As per Division"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000278", "label": "Explosion Protection Type Required LOV", "values": ["Ex d (Flame Proof)", "Ex e (increased Safety)", "Ex n (Non-Sparking)", "Ex p (pressurization)", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000279", "label": "Export Boxing Required LOV", "values": ["Contract Unit", "Manufacturer Standard Required", "No", "Not Required", "Spares", "User Spec Required", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000280", "label": "Extended Surface Type LOV", "values": ["Serrated Fins", "Solid Fins", "Studs"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000281", "label": "Extension Cable Protection LOV", "values": ["Optional Weather Proof Flexible Armor", "Standard Conduit"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000282", "label": "External Interface Device Format LOV", "values": ["Graphic Display", "Historical Archiving", "Tabular Data", "Trending"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000283", "label": "External Interface Device Type LOV", "values": ["CRT", "Modem", "Printer"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000284", "label": "Facing LOV", "values": ["FF", "NPT", "Other", "RF", "RTJ"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000285", "label": "Fan Direction Type LOV", "values": ["Reversible", "Uni-Directional"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000286", "label": "Fan Type LOV", "values": ["Bias Relay", "None", "Positioner"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000287", "label": "Fastner Material LOV", "values": ["SS 316 Series Through M12 For Offshore", "Stainless Steel 300 Series M12"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000288", "label": "Fibre Optic Cable Class Name LOV", "values": ["Fibre Optic Cable", "Fibre Optic Cable; Optical Fibre Cable; Fibre Optical Cable", "Optical Fibre Cable"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000289", "label": "Filter Service LOV", "values": ["Air Filter", "Dewaxing Filter", "Fuel Filter", "Sand Filter", "Sand Filter; Fuel Filter; Dewaxing Filter; Air Filter; After Filter"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000290", "label": "Filter Symbol Type LOV", "values": ["Bag filter of fixed type of gases", "Bag filter, candle filter, cartridge filter for gases", "Bag filter, candle filter, cartridge filter for liquids", "Bed filter of fixed type (general)", "Belt filter, roll filter", "Belt filter, roll filter for gases", "Biological filter (active mass filter)", "Filter device, fluid filter (general)", "Filter press, press filter", "Gas filter, air filter (general)", "High-efficiency submicron particulate air filter (HEPA)", "Ion exchanger filter", "Liquid filter (general)", "Rotary drum filter, rotary disk filter", "Rotary drum filter, rotary disk filter with scraper", "Suction filter"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000291", "label": "Fin Type LOV", "values": ["Longitudinal", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000292", "label": "Fire Extinguishing System LOV", "values": ["ISO 14520 Clean Agent", "ISO 6183 Carbon Dioxide", "NFPA 12 Carbon Dioxide", "NFPA 2001 Clean Agent", "NFPA 750 Water Mist"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000293", "label": "Fire Protection Type LOV", "values": ["CO2", "Water Mist"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000294", "label": "Fired Heat Transfer Equipment Class Name LOV", "values": ["Fired Heat Transfer Equipment", "Fired Heat Transfer Equipment; Fired Heat Exchanger"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000295", "label": "Flame Shape LOV", "values": ["Flat", "Round"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000296", "label": "Floatation Test Media LOV", "values": ["Product", "Water"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000297", "label": "Flotation Test LOV", "values": ["List Attached", "None"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000298", "label": "Flow Restriction LOV", "values": ["Dry Run Mechanical Seal", "Laby Seal", "Magnetic Seal", "Restrictive Bushing", "Torturous Path Isolator"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000299", "label": "Fluid Type LOV", "values": ["Flammable", "Hazardous", "Other", "Toxic"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000300", "label": "Frequency Of Transient LOV", "values": ["Events", "Time"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000301", "label": "Fuel Analyzer Equipment LOV", "values": ["Calorimeter", "Gas Chromatograph", "Wobbe Meter"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000302", "label": "Fuel System Type LOV", "values": ["Dual", "Gas", "Liquid"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000303", "label": "Full Load Current Sources", "values": ["Fed", "Supply"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000304", "label": "Fuse Type LOV", "values": ["aM", "gG"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000305", "label": "Gas Description LOV", "values": ["Entrained", "Other", "Slug Flow"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000306", "label": "Gas Expander Or Gas Turbine LOV", "values": ["Gas Expander", "Gas Turbine"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000307", "label": "Gear Box Service LOV", "values": ["Auxiliary Gear Box"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000308", "label": "Gear Box Shaft Type LOV", "values": ["Input", "Output"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000309", "label": "Gear Comply With LOV", "values": ["API 613", "API 677", "Manufacture Standard"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000310", "label": "Gear Hub Attachment Type LOV", "values": ["Fabricated", "Forged & Coped", "Forged Cylinder"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000311", "label": "Gear Shape LOV", "values": ["Double Helical", "Single Helical"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000312", "label": "Gear Stage LOV", "values": ["Double Stage", "Epicyclic", "Single Stage"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000313", "label": "Gear To Shaft Attachment Type LOV", "values": ["Integral", "Keyed Interference", "Keyless Interference"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000314", "label": "Gear to Shaft LOV", "values": ["Integral", "Shrunk-On"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000315", "label": "Gear Vendor-Other LOV", "values": ["Gear Vendor", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000316", "label": "Gearbox Applicable Specification LOV", "values": ["AGMA", "API 677", "Other"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000317", "label": "Gears Mounting LOV", "values": ["Overhing", "Straddle"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000318", "label": "Generator Shaft Extension LOV", "values": ["Cylindrical Fit", "Flange", "Taper Fit"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000319", "label": "Gland Vacuum Device LOV", "values": ["Steam Ejector", "Water Eductor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000320", "label": "Governor Enclosure LOV", "values": ["IP65", "NEMA 4X", "NEMA4", "Other"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000321", "label": "Governor Load Control Mode LOV", "values": ["Droop", "Isochronous"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000322", "label": "Governor Location LOV", "values": ["Induction", "Local", "Main Inlet", "Other", "Remote", "Remote Control Room"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000323", "label": "Governor Mounting LOV", "values": ["Flush Mount In Panel", "Surface Mount", "Vertial Rack"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000324", "label": "Governor Source LOV", "values": ["Dual", "Single"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000325", "label": "Governor Type LOV", "values": ["Digital Processor Based", "Duplex", "Electronic", "Hydraulic", "Other", "Simplex", "TMR"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000326", "label": "Grease Fitting Type LOV", "values": ["Alemite", "Other", "Plugged"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000327", "label": "Grouding Type LOV", "values": ["Open", "Reactor", "Resistor", "Solid", "Xfmr-Reactor", "Xfmr-Resistor"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000328", "label": "Grounding Connection LOV", "values": ["Delta", "Solidly Grounded", "Star"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000329", "label": "Grout Type LOV", "values": ["Cement", "Epoxy", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000330", "label": "Grouting Type LOV", "values": ["Cemented/Mortar Grout", "Direct Grouted"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000331", "label": "Guard Type LOV", "values": ["Calif Code", "Manufacturer Standard", "Non Sparking"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000332", "label": "H_B Service LOV", "values": ["EN", "ENO", "Q", "QEXT", "QEXTON", "QMAN", "QQEXT; QMAN; QEXTON; QEXT; Q; ENO; EN"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000333", "label": "Hardware System of Unit LOV", "values": ["SI (metric)", "Supplier Decision", "US/North American Customary"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000334", "label": "Hazard Group LOV", "values": ["I", "II", "III", "IV"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000335", "label": "Hazardous Area Code LOV", "values": ["IEC", "NEC 500", "NEC 505"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000336", "label": "HE Tube Type LOV", "values": ["Double-Pipe", "Multi-Tube"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000337", "label": "Header Box Location LOV", "values": ["Bolted Panel", "Hinged Door"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000338", "label": "Header Type LOV", "values": ["Header", "Junction"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000339", "label": "Heat Exchanger Nozzle Type LOV", "values": ["Cold Side Inlet", "Cold Side Outlet", "Drain", "Drain Shell Side", "Drain Tube Side", "Hot Side Inlet", "Hot Side Outlet", "Inlet", "Inlet Shell Side", "Inlet Tube Side", "Intermediate Shell Side", "Intermediate Tube Side", "Outlet", "Outlet Shell Side", "Outlet Tube Side", "Pressure Relief Shell Side", "Pressure Relief Tube Side", "Vent", "Vent Shell Tube", "Vent Tube Side"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000340", "label": "Heat Exchanger Service LOV", "values": ["Economiser"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000341", "label": "Heat Exchanger Symbol Type LOV", "values": ["Electric heater", "Evaporator, Heat exchanger type", "Heat exchanger (M-shape)", "Heat exchanger (general), condenser", "Heat exchanger of double-pipe tube", "Heat exchanger of floating type", "Heat exchanger of plate type", "Heat exchanger of spiral type", "Heat exchanger with U-shaped tubes", "Heat exchanger with coil-shaped tubes", "Heat exchanger with finned tube", "Heat exchanger with finned tube and fan", "Heat exchanger with straight tubes (fixed-tube plates)", "SEED_Fired heater", "SEED_Kettle re-boiler", "SEED_Re-Boiler", "Thin-film evaporators"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000342", "label": "Heat Tracing Type LOV", "values": ["Electrical", "Steam"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000343", "label": "Heat Transfer Equipment Service LOV", "values": ["Vaporiser"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000344", "label": "Heater Required For LOV", "values": ["Compressor Cylinder", "Cooling Water", "Cylindrical Lubricators", "Driver", "Electric", "Frame Lube Oil", "Gear Oil", "Oil Cooler", "Process Cooler", "Rod Packing", "Steam"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000345", "label": "Heater Type LOV", "values": ["Electric With Thermostat", "Steam"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000346", "label": "Heating Medium LOV", "values": ["Glycol Based", "Oil Based", "Other", "Steam"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000347", "label": "Heating Piping Material LOV", "values": ["Carbon Steel", "Stainless Steel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000348", "label": "Hi Speed-Low Speed LOV", "values": ["Hi Speed", "Low Speed"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000349", "label": "Hookup Component Usage", "values": ["Both", "Hookup", "Installation Details"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000350", "label": "Hookup Usage", "values": ["Hookup", "Installation Details"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000351", "label": "Horizontal-Vertical LOV", "values": ["Axial", "Flange Mounted", "Foot Mounted", "Horizontal", "Other", "Vertical"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000352", "label": "Housing Seal LOV", "values": ["Bearing Isolation Seal", "Std Labyrinth Seal"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000353", "label": "Hub Type LOV", "values": ["Keyed", "Shrink Fit", "Solid", "Split"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000354", "label": "Hydrodynamic And Thrust Bearing Temperature Device LOV", "values": ["Installed As per STD 670", "Provision Only"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000355", "label": "IC Engine Or Hydraulic LOV", "values": ["Hydraulic", "IC Engine"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000356", "label": "Ignition Type LOV", "values": ["Electronic", "FFG", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000357", "label": "Impact Test LOV", "values": ["ASME VIII Division 1", "En 13445"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000358", "label": "Impeller Type LOV", "values": ["Backward Leaning", "Closed", "Forward Leaning", "Open", "Radial", "Semi-Open"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000359", "label": "Impellers Individually Secured LOV", "values": ["Both Direction", "No", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000360", "label": "Inboard-Outboard LOV", "values": ["Inboard", "Outboard"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000361", "label": "Indoor-Outdoor LOV", "values": ["Indoor", "Outdoor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000362", "label": "Inert Buffer Purge Gas LOV", "values": ["Nitrogen", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000363", "label": "Inlet and Discharge Pressure Are At LOV", "values": ["Cylinder Flanges", "Pulsation Suppressor Flanges"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000364", "label": "Inlet Pressure Option LOV", "values": ["Balanced", "Minimum"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000365", "label": "Inlet Strainer Location LOV", "values": ["Initial Inlet", "Side Stream Inlet"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000366", "label": "Inlet-Outlet LOV", "values": ["Inlet", "Outlet"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000367", "label": "Inner Material LOV", "values": ["Other", "UNS N07718 For Type B", "UNS N07718 For Type C", "UNS N08020", "UNS N10276", "UNS N10276 Or N06455", "UNS S31600 Or S31635"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000368", "label": "Inner-Outer LOV", "values": ["Inner", "Outer", "Required"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000369", "label": "Input/Output Channel Class Name LOV", "values": ["Input/Output Channel", "Input/Output Channel; I/O Channel"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000370", "label": "Inside-Outside LOV", "values": ["Inside", "Outside"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000371", "label": "Inspection Class LOV", "values": ["Level 1", "Level-2", "Level-3"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000372", "label": "Installation Method", "values": ["Buried", "Enclosure or Ducting"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000373", "label": "Instrument Or Electrical Enclosures LOV", "values": ["Explosion Proof", "Weather Proof"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000374", "label": "Instrument Panel Mounting LOV", "values": ["BaseMount", "Free Standing"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000375", "label": "Instrument Service LOV", "values": ["Plant Instrument", "Stand Alone Instrument", "Stand Alone Instrument; Plant Instrument; Control Device"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000376", "label": "Insulation Class LOV", "values": ["B", "C", "F", "H", "Non Hygroscopic", "Tropicalized"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000377", "label": "Insulation Class SubType LOV", "values": ["Enclosed", "Flammable Liquid", "Less-Flam liquid", "Mineral Oil", "Non-Enclosed", "Non-Flam Liquid", "Non-Flam Synth Liq", "Non-Ventilated", "Other", "Sealed", "Synthetic Liq <= 300", "Synthetic Liq > 300", "Totally Enclosed", "Vent-Dry", "Ventilated"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000378", "label": "Insulation Class Type LOV", "values": ["Dry", "Liquid-Fill", "Liquid-Fill - C57-12"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000379", "label": "Insulation LOV", "values": ["Insulated", "Non-Insulated"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000380", "label": "Insulation Type LOV", "values": ["Mineral - Bare exposed to touch ", "Mineral - Bare not exposed to touch ", "Mineral - Sheath - PVC covered", "PVC", "XLPE/EPR"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000381", "label": "Integrally Geared Centrifugal Compressor Service LOV", "values": ["Integrally Geared Compressor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000382", "label": "Intercooler Mounting LOV", "values": ["Machine Mounted", "Off Mounted"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000383", "label": "Interference Class LOV", "values": ["CONTROL", "INSTRUMENT", "POWER", "SIGNAL"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000384", "label": "Internal Option LOV", "values": ["Process Tray", "Simple Tray"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000385", "label": "Internal Roof LOV", "values": ["Metallic Sandwich Panel", "Tubular Pontoon"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000386", "label": "Internal-External LOV", "values": ["Above Liquid Level", "Below Liquid Level", "External", "Internal", "Local", "Remote"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000387", "label": "Interstage DP LOV", "values": ["Coolers", "Piping", "Pulse Devices"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000388", "label": "Interstage Seal Type LOV", "values": ["Carbon", "Labyrinth"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000389", "label": "Inward Outward LOV", "values": ["Inward", "Outward"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000390", "label": "ISO 7 11994 Threads LOV", "values": ["Straight", "Tapered"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000391", "label": "Item Class Name LOV", "values": ["Item", "Item; Solid Item; Artefact", "Solid Item"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000392", "label": "Jacketing LOV", "values": ["Blanket", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000393", "label": "Key Phasor LOV", "values": ["Compressor", "Gear HS", "Gear LS", "No", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000394", "label": "KeyPhaser LOV", "values": ["Driven Equipment", "Gear", "Steam Turbine"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000395", "label": "KKS Electrical System LOV", "values": ["ABA", "ASU", "BAA", "BBA", "BFA", "BNY", "BRA", "BUV"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000396", "label": "KKS Location System LOV", "values": ["UAA", "UAB", "UAC", "UAD", "UAE", "UAF", "UAH", "UAZ", "UBA", "UBB", "UED", "UJC", "UJD"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000397", "label": "Labyrinth Shaft Seal Type LOV", "values": ["Double Port Buffered Labyrinth", "Single Port Buffered Labyrinth", "Triple Port Buffered Labyrinth"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000398", "label": "Lateral Analysis Report Required LOV", "values": ["Individual Body", "Train"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000399", "label": "L-B-C LOV", "values": ["Local Equipment Panel", "Locally Mount On Piping", "Remote Equipment Panel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000400", "label": "Leak Test Type LOV", "values": ["Assembly Yard", "Contract Terms", "Erected Position"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000401", "label": "Left-Right Side LOV", "values": ["Left Side", "Other", "Right Side", "Supplier Decision"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000402", "label": "Leg Type LOV", "values": ["Fixed Low Legs", "Leg Sleeves"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000403", "label": "Level Control LOV", "values": ["Float Switch", "Level Transmitter", "NA"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000404", "label": "Line Shaft Connection LOV", "values": ["Sleeve And Key", "Threaded"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000405", "label": "Line Shaft Type LOV", "values": ["Enclosed", "Open"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000406", "label": "Liquid End Component LOV", "values": ["Piston", "Plunger"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000407", "label": "Liquid End Cylinder Type LOV", "values": ["Double Acting", "Single Acting"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000408", "label": "Liquid End Liner LOV", "values": ["Liner", "Removable Liner"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000409", "label": "Liquid End Type LOV", "values": ["Diaphragm", "Duplex", "Multiplex", "Plunger", "Simplex"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000410", "label": "Liquid Ring Compressor Class Name LOV", "values": ["Liquid Ring Compressor", "Liquid Ring Compressor; Liquid Ring Type Vacuum Pump"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000411", "label": "Load Torque And Inertia Requirement LOV", "values": ["Per NEMA MG1 Part 20", "Per Specified Load Curve & Data"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000412", "label": "Load Type", "values": ["NO1", "NO2"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000413", "label": "Local Manual LOV", "values": ["Fully Oil Operated", "Local", "Remote"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000414", "label": "Local Panel Furnished By LOV", "values": ["Other", "Purchaser", "Supplier"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000415", "label": "Local-Remote-Main LOV", "values": ["Local Control Panel", "Main Control Room", "Remote Control Panel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000416", "label": "Location Grade Mezzanine LOV", "values": ["Grade", "Mezzanine"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000417", "label": "Location Heated Unheated LOV", "values": ["Heated", "Unheated"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000418", "label": "Location In Out LOV", "values": ["Grade", "Indoor", "Outdoor", "Winterization ReqD"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000419", "label": "Location Of Bearing Temp Sensor Wire Termination LOV", "values": ["Conduit Head At Bearing", "In the Stator RTD T Box", "Terminal Box At Generator Side", "Terminal Box At Motor Side"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000420", "label": "Location Of Bearing Temperature Detector Terminals LOV", "values": ["Separate T-Box", "Supplier Decision", "T-Box with Winding Temp. Det.", "Terminal Head"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000421", "label": "Location Of Sensor Wire Termination LOV", "values": ["Supplier Decision", "T-Box", "T-Box With Winding Temperature Detector", "Terminal Box At Generator Side", "Terminal Head", "Within Sensor Housing"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000422", "label": "Location Structure LOV", "values": ["Other", "Partial Sides", "Roof", "Under Roof", "With Out Roof"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000423", "label": "Loop Design Status", "values": ["Complete", "Incomplete"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000424", "label": "Loss Of Remote Signal LOV", "values": ["Goes To Maximum Continuous", "Goes To Minimum Continuous", "Locks On Last Value"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000425", "label": "Louvres Location LOV", "values": ["Bypass", "Inlet", "Outlet"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000426", "label": "Louvres Type LOV", "values": ["Close", "Lockup", "Open"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000427", "label": "Low Temp Carbon Steel Material LOV", "values": ["Compressor", "Expander"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000428", "label": "Lube And Seal Oil Circulation System LOV", "values": ["Lube System", "Other", "Seal Oil System"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000429", "label": "Lube LOV", "values": ["Grease", "Oil", "Pumpage", "Water"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000430", "label": "Lube Oil Viscosity Type LOV", "values": ["Synthetic"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000431", "label": "Lube Service LOV", "values": ["High Pressure Seal", "Low Pressure Seal", "Medium Pressure Seal", "Rundown lube"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000432", "label": "Lube System Common To LOV", "values": ["Auxiliaries", "Driven Equipment", "Free Power Turbine", "Gas Generator", "Load Gear"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000433", "label": "Lube System Comply With STD 614 LOV", "values": ["ISO 10438-1", "Part 2 Special Purpose", "Part 3 General Purpose"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000434", "label": "Lube System Supplied By LOV", "values": ["Driven Equipment Supplier", "End User", "Motor Supplier", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000435", "label": "Lube System Type LOV", "values": ["API 611", "API 614 Ch 2 SP", "API 614 Ch3 GP", "Circulating", "Vendor Standard"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000436", "label": "Lubricant Type LOV", "values": ["Common", "Dedicated System", "Hydrocarbon", "Synthetic"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000437", "label": "Lubrication Fluid Type LOV", "values": ["Crankcase Fluid", "Hydraulic Fluid", "Intermediate Fluid"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000438", "label": "Lubrication LOV", "values": ["Circulating", "Directed", "Flood", "Grease", "Pressure", "Pure Oil Mist", "Purge Oil Mist", "Ring Oiled", "Ringoiled", "Splash"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000439", "label": "Lubrication Method LOV", "values": ["Flinger", "Flood", "Grease", "Pure Oil Mist", "Purge Oil Mist", "Ring-Oiled"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000440", "label": "Lubrication Requirement LOV", "values": ["Continuous Oil Lube", "Grease", "Lubed", "Non-Lube", "None", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000441", "label": "Lubrication System Furnished LOV", "values": ["Other", "Turbine Manufacturer"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000442", "label": "Lubrication Type LOV", "values": ["Batch", "Circulating", "Common with Driven Equipment", "Continuous", "Directed", "External", "Flinger", "Flood", "Flooded", "Grease", "Non Lubricated", "Oil Food", "Oil Mist", "Pressure Lube", "Pressurized Lubrication", "Pumped Fluid", "Pure Oil Mist", "Purge Oil Mist", "Ring Oil", "Ring Type Self Lubrication"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000443", "label": "Lubricator Drive By LOV", "values": ["Chain From Crankshaft", "Compressor Crankshaft", "Electric Motor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000444", "label": "Lubricator Type LOV", "values": ["Divider Blocks", "Single Plunger Per Point"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000445", "label": "Machine Protection Logic Device LOV", "values": ["Speed Monitor", "Switch"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000446", "label": "Magnetic Coupling Type LOV", "values": ["Asynchronous", "Synchronous"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000447", "label": "Magnetic Driver Type LOV", "values": ["Motor", "Steam Turbine"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000448", "label": "Magnetic Material LOV", "values": ["Alnico 5", "Alnico 8", "NA (Torque ring)", "NdFeB", "sm1co5", "sm2Co17"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000449", "label": "Main Bearing Type LOV", "values": ["Antifriction", "Ball", "Bearing Constant-Level Oilers Required", "Hydrodynamics", "Oil Ring Required", "Roller", "Sleeve", "Split Sleeve", "Tilting Pad"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000450", "label": "Main Oil Pump Required LOV", "values": ["Integral Shaft Driven", "Oil Ring Not Provided", "Separate"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000451", "label": "Main Pump-Aux Pump LOV", "values": ["Auxiliary Pump", "Main Pump"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000452", "label": "Main Terminal Box Material LOV", "values": ["NEMA MG 1-20 Type II with Standoff Insulators and Insulated Silver Plated Copper Bus Bar ", "Tin Plated Bus Bar"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000453", "label": "Manifold Location LOV", "values": ["Inside Header Box", "Outside Header Box"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000454", "label": "Manifold Piping LOV", "values": ["Air/Gas Supply", "Drain", "Relief Valve", "Vent"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000455", "label": "Manual-Auto LOV", "values": ["Auto", "HOA Selector Switch", "Manual"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000456", "label": "Manufacturer Mount Excitation Control Package LOV", "values": ["Purchaser'S SwitchGear", "Vendor Furnished Panel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000457", "label": "Manufacturer Standard LOV", "values": ["Manufacturer Standard"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000458", "label": "Mating Flange Standard LOV", "values": ["ASME B16.47", "ASME B16.5"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000459", "label": "Mech Seal Capacity LOV", "values": ["12 L For Shaft Dia Less Than 60 L", "20 L For Shaft Dia More Than 60 L", "35 L For Shaft Dia More Than 60 L", "As Designed", "Other"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000460", "label": "Mech Seal Size LOV", "values": ["12mm For Shaft Dia Less Than 60mm", "20mm For Shaft Dia More Tham 60mm", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000461", "label": "Mechanical Component Class Name LOV", "values": ["Mechanical Component", "Mechanical Component; Mechanical Item"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000462", "label": "Metal Part LOV", "values": ["Other", "UNS N08020", "UNS N10276", "UNS S31600 Or S31635"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000463", "label": "Method Of Installation", "values": ["Method A1", "Method A2", "Method B1", "Method B2", "Method C", "Method D1", "Method D2", "Method E", "Method E Or F", "Method F", "Method G"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000464", "label": "Method Of System Grounding LOV", "values": ["Reactance", "Resistance", "Solid", "Un Grounded"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000465", "label": "Mill Symbol Type LOV", "values": ["Mill, impact type", "Mill, jet type", "Mill, pulverizer (general)", "Mill, pulverizer hammer type", "Mill, roller type", "Mill, vibration type", "SEED_Ball mill"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000466", "label": "Mineral Voltage LOV", "values": ["500", "750"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000467", "label": "Mixer Symbol Type LOV", "values": ["Kneader", "Mixer, dynamic type (general)", "Mixer, static type (general)", "Mixing path"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000468", "label": "Mod Service LOV", "values": ["EN", "ENO", "QV", "U1", "U2; U1; QV; ENO; EN"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000469", "label": "Moisture Removal Section Location LOV", "values": ["All Interstage Inlet", "Initial Inlet"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000470", "label": "Monitor Leakage Method LOV", "values": ["Fiber Optic", "Pressure", "Sight Glass", "Ultrasonic"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000471", "label": "Monitor Leakage Type LOV", "values": ["Local Indicator", "NA", "No", "Switch", "Transmitter", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000472", "label": "Monitor Temperature Method LOV", "values": ["Local Indicator", "Resistance Temperature Detector", "TC With Thermowell"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000473", "label": "Monitor Vibration Provision Required LOV", "values": ["Dimpled Only", "Flats For Magnetic Mount", "Threaded For Sensor Mount"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000474", "label": "Motor Design Condition LOV", "values": ["Loaded", "Partially Loaded", "Unloaded"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000475", "label": "Motor Enclosure LOV", "values": ["Explosion Proof", "TEAAC", "TEFC", "TENV", "TEPV", "TEW AC"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000476", "label": "Motor Half Coupling Mounted By LOV", "values": ["Driver Equipment Manufacturer", "Motor Supplier", "Other", "Purchaser"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000477", "label": "Motor Power Source LOV", "values": ["ASD Power", "Constant Frequency Sine Wave Power (direct on line starting)", "LCI Power", "Other", "Sine Wave power", "Solid State Soft Stater", "Utility-Grid"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000478", "label": "Motor Service Factor LOV", "values": ["1", "1.15", "NA"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000479", "label": "Motor Shaft Extension LOV", "values": ["Cylindrical Fit", "Flange", "Taper Fit"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000480", "label": "Motor Start Condition LOV", "values": ["Almost Closed-Valve (Unload) Start", "Open Valve (Fully Loaded)"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000481", "label": "Motor Starting LOV", "values": ["Loaded", "Un Loaded"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000482", "label": "Motor Starting Other Method LOV", "values": ["ASD", "AutoTransformer", "Captive Transformer", "Direct On Line", "Reactor", "Reduced Voltage Starter", "Solid State Soft Stater"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000483", "label": "Motor Type LOV", "values": ["IEC 60034-1", "STD 541", "STD 546"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000484", "label": "Motor Winding Insulation Class LOV", "values": ["C", "F", "H", "R"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000485", "label": "Motor-Turbine LOV", "values": ["Electric Motor", "Steam Turbine"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000486", "label": "Mount Coupling Halve LOV", "values": ["Driver", "Fan"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000487", "label": "Mounting Arrangement LOV", "values": ["Baseplate", "Column", "Console"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000488", "label": "Mounting Details LOV", "values": ["Base Plate", "Skid", "Sole Plate"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000489", "label": "Mounting Flange Details LOV", "values": ["Clearance Fit With Jackbolts", "Register Fit"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000490", "label": "Mounting Horizontal LOV", "values": ["Flange Mounted", "Foot Mounted", "Horizontal Flange Mounted", "Horizontal Foot Mounted"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000491", "label": "Mounting LOV", "values": ["Base Plate", "Between Bearings", "Bolted On Steel Work", "Bracket", "Casing", "Cementations Grouted", "Centerline", "Driver Side Of Coupling", "Epoxy Grouted", "Foot", "Four Point Mount", "Grouted", "In-Line", "Near Centerline", "Other", "Overhung", "Piping", "Separate Mounting Plate", "Separate Sole Plate", "Silt Mounted", "Still Mounted", "Sump Cover Plate", "Three Point Mount", "Vertical"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000492", "label": "Mounting Plate Mounted LOV", "values": ["Other", "Under Turbine Only"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000493", "label": "Mounting Plate Provided By LOV", "values": ["Driven Equipment Supplier", "Motor Supplier"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000494", "label": "Mounting Plate Section LOV", "values": ["Multi-Section", "Single Section"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000495", "label": "Mounting Plate Type LOV", "values": ["BasePlate", "Soleplates"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000496", "label": "Mounting Support LOV", "values": ["Other", "Piping"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000497", "label": "Mounting Type LOV", "values": ["Local Panel", "Locally Mounted", "Main Board", "Separate Panel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000498", "label": "Mounting Vertical LOV", "values": ["Hollow Shaft", "Non-Reverse Ratched", "Purchaser Preferred Mounting Vertical", "Shaft Down", "Shaft Up", "Solid Shaft", "Vertical Flange Mounted", "Vertical Foot Mounted"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000499", "label": "Multi Single Core", "values": ["Both", "MultiCore", "SingleCore"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000500", "label": "Name Plate Material LOV", "values": ["Other", "Stainless Steel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000501", "label": "Nameplate Units LOV", "values": ["SI", "U.S. Customary"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000502", "label": "NEC Installation Method LOV", "values": ["Bare or covered conductors in Free Air", "Insulated conductors in Raceway for temperatures 150°C through 250°C", "Insulated conductors in Raceway, Cable, or Earth (Directly Buried) for temperatures 60°C through 90°C", "Single Insulated conductors Supported on a Messenger", "Single-Insulated conductors in Free Air", "Single-Insulated conductors in Free Air for temperatures 150°C through 250°C"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000503", "label": "NEC Insulation Type LOV", "values": ["Bare", "Covered", "Type Z", "Types FEP, FEPB, PFA, SA", "Types MI, THHN, THHW, THW-2, THWN-2, RHH, RHW-2, USE-2, XHHW, XHHW-2, ZW-2", "Types PFAH, TFE", "Types RHW, THHW, THW, THWN, XHHW, USE", "Types RHW, THHW, THW, THWN, XHHW, USE, ZW", "Types RHW, THHW, THW, THWN, XHHW, ZW", "Types RHW, THW, THWN, THHW, XHHW", "Types TBS, SA, SIS, FEP, FEPB, MI, RHH, RHW-2, THHN, THHW, THW-2, THWN-2, USE-2, XHH, XHHW, XHHW-2, ZW-2", "Types TBS, SA, SIS, THHN, THHW, THW-2, THWN-2, RHH, RHW-2, USE-2, XHH, XHHW, XHHW-2, ZW-2", "Types TW, UF"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000504", "label": "NEC Motor Type LOV", "values": ["All", "Non Synchronous-Type", "Synchronous-Type"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000505", "label": "NEC Multi Single Core LOV", "values": ["MultiCore", "SingleCore"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000506", "label": "NEC Number Of Circuits LOV", "values": ["1-3", "10-20", "21-30", "31-40", "4-6", "41 and above", "7-9"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000507", "label": "NEC Touching Type LOV", "values": ["Both"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000508", "label": "NEMA CLASS LOV", "values": [" NEMA 12", " NEMA 12K", " NEMA 13", " NEMA 2 ", " NEMA 3 ", " NEMA 4 ", " NEMA 5 ", " NEMA 7 ", " NEMA 9", " NEMA6 ", "NEMA 1 "]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000509", "label": "NEMA Design LOV", "values": [" NEMA Design", "Squirrel Cage Induction"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000510", "label": "NEMA-IEC LOV", "values": ["IEC", "NEMA"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000511", "label": "NFPA LOV", "values": ["0", "1", "2", "3", "4"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000512", "label": "Noise Design LOV", "values": ["Low Noise", "Standard"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000513", "label": "Noise Limitation LOV", "values": ["Special", "Vendor Std"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000514", "label": "Nominal-Absolute LOV", "values": ["Absolute", "Minimum"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000515", "label": "NO-NC LOV", "values": ["NC", "NO"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000516", "label": "Nozzle Connection Type LOV", "values": ["SW", "SWF"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000517", "label": "Nozzle Service LOV", "values": ["Catalyst Drop Out Nozzle", "Cooling Connection", "Discharge Nozzle", "Feed Nozzle", "Feed Nozzle; Drain Nozzle", "Flushing Connection (Role)", "Instrument Nozzle", "Piping Component", "Process Nozzle", "Radial Nozzle", "Shell Nozzle", "Steam Out Nozzle", "Suction Nozzle", "Tangential Nozzle", "Vent Nozzle", "Vent Nozzle; Tangential Nozzle; Suction Nozzle; Steam Out Nozzle; Shell Nozzle; Radial Nozzle; Process Nozzle; Piping Component; Instrument Nozzle; Flushing Connection (Role); Feed Nozzle; Drain Nozzle; Discharge Nozzle; Cooling Connection; Catalyst Drop Out Nozzle; Axial Nozzle"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000518", "label": "Nozzle Standard LOV", "values": ["ANSI", "ASME B16.1", "ASME B16.42", "ASME B16.47 Series A", "ASME B16.47 Series B", "ASME B16.5", "ISO 70051", "ISO 70052", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000519", "label": "NPSH Available Datum LOV", "values": ["C.L. Impeller", "C.L. Suction Nozzle", "Top Of Foundation"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000520", "label": "Number Of Tiers Trays Cable Supports LOV", "values": ["1", "2", "3", "6"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000521", "label": "Nut Service LOV", "values": ["Compressor Valve Nut", "Impeller Nut"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000522", "label": "Observation LOV", "values": ["Non Witnessed", "None", "Observe", "Witnessed"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000523", "label": "Off-Load Tap Changer Number of Taps LOV", "values": ["None", "Off-load Tap"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000524", "label": "Oil Combination LOV", "values": ["Combined", "Lube Oil", "Seal Oil"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000525", "label": "Oil Cooler Type LOV", "values": ["Air Cooled", "Dual With Transfer Valve", "Fin Fan", "Flanged Vent And Drain Nozzle", "Plate Frame", "Refer to Specification", "Shell And Tube", "Single", "Special Sizing Crteria", "Suitable For Use With 150° C Coolant", "Supplier Standard", "Vents Piped to Reservoir", "Water Cooled"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000526", "label": "Oil Filter Type LOV", "values": ["Dual With Transfer Valve", "Single"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000527", "label": "Oil Heater Type LOV", "values": ["Electrical", "Steam"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000528", "label": "Oil Mist System LOV", "values": ["Pure Oil System", "Purge Oil System"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000529", "label": "Oil Mist Type LOV", "values": ["No", "Pure Mist", "Purge Mist", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000530", "label": "Oil Pump Casing Material LOV", "values": ["Cast Iron", "Steel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000531", "label": "Oil Pump Type LOV", "values": ["External Gear", "Internal Gear", "Lobe", "Motor Driven", "Screw", "Shaft Driven"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000532", "label": "Oil System Type LOV", "values": ["Console Type", "Mounted On Baseplate"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000533", "label": "Oil Trap Service LOV", "values": ["Float Trap", "High Pressure Seal", "Low Pressure Seal", "Medium Pressure Seal", "Rundown Lube"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000534", "label": "Oil Viscosity ISO Grade LOV", "values": ["100", "32", "46", "68", "NA"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000535", "label": "On-Load Tap Changer Number of Taps LOV", "values": ["Automatic On-load tap", "Manual On-load Tap", "Manual/Automatic On-load Tap", "None"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000536", "label": "Operation LOV", "values": ["Attended", "Continuous", "Intermittent", "StandBy", "UnAttended"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000537", "label": "Operator LOV", "values": ["Local", "Remote"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000538", "label": "Optional Thread Type LOV", "values": ["3/4-20 UNEF-2A", "M16 x 1.5"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000539", "label": "Orifice Plate Class Name LOV", "values": ["Orifice Plate", "Orifice Plate; Orifice (Plate)"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000540", "label": "Oscillator De Modulator Probes Manufacturer LOV", "values": ["Installed", "Supplier Decision"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000541", "label": "Oscillator Demodular Mounting Box Quantity LOV", "values": ["One Per Machine Case", "Other", "Two Per Machine Case"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000542", "label": "Oscillator Demodulator Location For Terminations LOV", "values": ["In OSC Demodulator Box", "In Sensor Housing", "Supplier Decision"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000543", "label": "Other Driver Type Required LOV", "values": ["Gas Driven", "Steam Turbine"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000544", "label": "Outer Material LOV", "values": ["Other", "UNS N07718 For Type B", "UNS N07718 For Type C", "UNS N08020", "UNS N10276", "UNS N10276 Or N06456", "UNS S31600 Or S31636"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000545", "label": "Output Type LOV", "values": ["  Graphic", "4 To 20 mA", "Analog", "Standard Digital Output"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000546", "label": "Over Speed Trip LOV", "values": ["Electronic", "Mechanical"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000547", "label": "Over Speed Trip Type LOV", "values": ["2 Out Of 3", "None"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000548", "label": "Over Temperature Protected LOV", "values": ["Type 1", "Type 2", "Type 3"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000549", "label": "Overspeed Shutdown Requirement LOV", "values": ["2 Out Of 3 Voting Logic", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000550", "label": "Painting LOV", "values": ["Buyer'S Spec", "Manufacturer Standard", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000551", "label": "Painting Specification LOV", "values": ["IEEE 841 Standard", "Other"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000552", "label": "Panel Feature Type LOV", "values": ["Internal Cooling", "Other", "Purge Connections", "Strip Heater", "Vibration Isolators", "Weatherhood"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000553", "label": "Panel Mounting LOV", "values": ["Free Standing", "Machine Mounted", "Mounted On"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000554", "label": "Panel-Main Board LOV", "values": ["Local Panel", "Remote Display"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000555", "label": "Parallel-Series LOV", "values": ["Parallel", "Series"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000556", "label": "Performance Data LOV", "values": ["BHP against Suction Pressure Curve", "Rod Load/Gas Load Charts", "Speed/Torque Curve Data", "Valve Failure Data Charted"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000557", "label": "Phase Lead In Terminal Box LOV", "values": ["Provide In<750kW (1000HP)", "Removable Links", "Required 750kW (1000HP) And Larger"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000558", "label": "Phase Type LOV", "values": ["Liquid 1", "Liquid 2", "Solid", "Vapor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000559", "label": "Physical Object Class Name LOV", "values": ["Physical Object", "Physical Object; Physical Thing"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000560", "label": "Physical Object Service LOV", "values": ["Connected Individual", "Consumable", "Cost Data", "Destination Item", "Installed", "Part Of Physical Object", "Protected", "Protector", "Redundant", "Referred Object", "Referring Object", "Resource", "Source Item", "Used In Connection", "Whole Physical Object", "Whole Physical Object; Used In Connection; Source Item; Resource; Referring Object; Referred Object; Redundant; Protector; Protected; Part Of Physical Object; Installed; Destination Item; Cost Data; Consumable; Connected Individual; Component"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000561", "label": "Pinion Gear LOV", "values": ["Gear", "Pinion"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000562", "label": "Pipe Connection Type LOV", "values": ["Straight", "Tapered"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000563", "label": "Pipe Taper Threads LOV", "values": ["ASME B1.20.1", "ISO 7"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000564", "label": "Piping And Appurtenances Connection Bolting LOV", "values": ["ASTM A153 Galvanized", "Cadmium Plated Bolts Prohibited", "PTFE Coating", "Painted", "Stainless Steel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000565", "label": "Piping Design LOV", "values": ["ASME B31.3", "ASME Code Stamp"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000566", "label": "Piping For Cooling Or Heating Furnished By LOV", "values": ["Other", "Pump Vendor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000567", "label": "Piping Material LOV", "values": ["Carbon Steel", "Stainless Steel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000568", "label": "Piping Plan LOV", "values": ["Plan 01", "Plan 02", "Plan 03", "Plan 11", "Plan 12", "Plan 13", "Plan 14", "Plan 21", "Plan 22", "Plan 23", "Plan 31", "Plan 32", "Plan 41", "Plan 51", "Plan 52", "Plan 53A", "Plan 53B", "Plan 53C", "Plan 54", "Plan 55", "Plan 61", "Plan 62", "Plan 65A", "Plan 65B", "Plan 66A", "Plan 66B", "Plan 71", "Plan 72", "Plan 74", "Plan 75", "Plan 76", "Plan 99"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000569", "label": "Piping Spool Construction LOV", "values": ["Buttweld/Weldneck", "Slip On/Socketweld", "Socketweld"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000570", "label": "Plain-Finned LOV", "values": ["Finned", "Plain"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000571", "label": "Plates", "values": ["Back", "Base", "Door Back", "Door Front", "Left", "Right", "Top"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000572", "label": "Plates LOV", "values": ["Baseplate", "Soleplate"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000573", "label": "Platform LOV", "values": ["Offshore", "Onshore"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000574", "label": "Plug Type Of Joint LOV", "values": ["Rolled Joint", "Welded"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000575", "label": "Polarity LOV", "values": ["+", "-"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000576", "label": "Pole Piece Type LOV", "values": ["Chisel", "Conical", "Cylindrical"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000577", "label": "Polymerization Characteristics LOV", "values": ["Clumps", "Sticky", "Stringy"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000578", "label": "Position LOV", "values": ["Bell", "Bottom", "End", "In Line", "Other", "Side", "Top"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000579", "label": "Positive Displacement LOV", "values": ["Pump", "Reciprocating Compressor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000580", "label": "Post Pressure Test LOV", "values": ["Broom Clean", "Dry Interior", "Potable Water Rinse"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000581", "label": "Pour Point-Freeze Point LOV", "values": ["Freeze Point", "Pour Point"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000582", "label": "Power End Lubrication Type LOV", "values": ["Gravity", "Positive Pressure", "Splash"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000583", "label": "Power Factor Unit", "values": ["LAG", "LEAD"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000584", "label": "Power Rating Specified By LOV", "values": ["OEM", "User/Project"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000585", "label": "Preparation For Grout LOV", "values": ["Bare For Field Blast", "Inorganic Zinc Silicate Coating", "Manufacturer Standard", "SSPC 6 Blast"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000586", "label": "Pressure Device Requirement LOV", "values": ["Differential Pressure Gauge", "Provision Only", "Required"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000587", "label": "Pressure Lube System To ISO 10438 Sub Section LOV", "values": ["2", "3"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000588", "label": "Pressure Transmitter Service LOV", "values": ["Vacuum Transmitter"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000589", "label": "Pressure-Flow  LOV", "values": ["Flow", "Pressure"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000590", "label": "Probe Location LOV", "values": ["Bottom Only", "Dual Probes Top And Bottom", "Horizontal For Diagnostics", "Top Only"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000591", "label": "Probe Type LOV", "values": ["Magnetic Sensor Sensing Multi-Tooth Surface", "Standard", "Standard Probe Sensing Multi-Tooth Surface"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000592", "label": "Probes Mounting on Stage of Impeller LOV", "values": ["1st Stage", "2nd Stage", "3rd Stage", "4th Stage", "Bearing Housing Pressure", "Intermediate Bleed", "Thrust Pressure", "Wheel Pressure"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000593", "label": "Probes Quantity LOV", "values": ["1", "4"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000594", "label": "Probes Supplied By LOV", "values": ["Other", "Supplier"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000595", "label": "Process Control Method LOV", "values": ["Cooled Bypass", "Discharge Blowoff", "Discharge Blowoff Or Recirculation", "Speed Variation", "Suction Throttling", "Variable Diffuser Guide Vanes", "Variable Inlet Guide Vanes"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000596", "label": "Process Control System Type LOV", "values": ["Electric", "Electronic", "Hydraulic", "Mech", "PNEU"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000597", "label": "Process Equipment Service LOV", "values": ["Absorber"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000598", "label": "Profibus Protocol LOV", "values": ["Fieldbus Foundation", "Profibus DP", "Profibus PA"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000599", "label": "Protection Logic Device LOV", "values": ["DCS", "PLC", "Speed Monitor", "Switch", "Vibration Monitor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000600", "label": "Provision For Operation LOV", "values": ["Automatic", "Manual"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000601", "label": "Provision-Installation LOV", "values": ["Installed", "Not Required", "Per API 670", "Provision Only", "Supplier Decision"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000602", "label": "Pump Class Name LOV", "values": ["Pump", "Pump; Pumpe"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000603", "label": "Pump Service LOV", "values": [" Stand By Pump", "Agricultural Spray Pump", "Aquarium Pump", "Armoured Pump", "Auxiliary Bilge Pump", "Auxiliary Pump", "Backwater Pump", "Bagasse Pump", "Ballast Pump", "Boiler Circulating Pump", "Boiler Feed Water Pump", "Booster Pump", "Booster Seal", "Brewery Pump", "Brine Drain Pump", "Brine Pump", "Brine Recirculating Pump", "Car Wash Pump", "Carbonisation Juice Pump", "Cargo Pump", "Charge Pump", "Chemical Pump", "Clarified Juice Pump", "Coal Washing Pump", "Condensate Extraction Pump", "Condensate Re-Entry Pump", "Coolant Pump", "Cooling Water Pump", "Cosmetic Pump", "Decary Heat Removal Pump", "Dewatering Pump", "Discharge Pump", "Drinking Water Pump", "Driven Equipment", "Duty Pump", "Final Effluent Pump", "Food Pump", "Fuel Element Cooling Pond Pump", "Fuel Pump", "Heating Jacket Pump", "Juice Pump", "Liquid Manure Pump", "Lube", "Lube / Seal", "Oil Burner Pump", "Oil Pump", "Priming Pump", "Process Pump", "Raw Juice Circulating Pump", "Raw Sludge Pump", "Reflux Pump", "Sample Conditioning Pump", "Seperate Seal Oil", "Sludge Liquor Pump", "Sludge Pump", "Sprinkler System Supply Pump", "Stock Water Pump", "Straw Pulp Pump", "Wash Oil Pump", "Wash Water Pump", "Washing Pump", "Washing Pump; Wash Water Pump; Wash Oil Pump; Straw Pulp Pump; Stock Water Pump; Stand By Pump; Sprinkler System Supply Pump; Sludge Pump; Sludge Liquor Pump; Sample Conditioning Pump; Reflux Pump; Raw Sludge Pump; Raw Juice Circulating Pump; Process Pump; Priming Pump; Oil Pump; Oil Burner Pump; Liquid Manure Pump; Juice Pump; Heating Jacket Pump; Fuel Pump; Fuel Element Cooling Pond Pump; Food Pump; Final Effluent Pump; Duty Pump; Driven Equipment; Drinking Water Pump; Discharge Pump; Dewatering Pump; Decary Heat Removal Pump; Cosmetic Pump; Cooling Water Pump; Coolant Pump; Condensate Re-Entry Pump; Condensate Extraction Pump; Coal Washing Pump; Clarified Juice Pump; Chemical Pump; Charge Pump; Cargo Pump; Carbonisation Juice Pump; Car Wash Pump; Brine Recirculating Pump; Brine Pump; Brine Drain Pump; Brewery Pump; Booster Pump; Boiler Feed Water Pump; Boiler Circulating Pump; Ballast Pump; Bagasse Pump; Backwater Pump; Auxiliary Pump; Auxiliary Bilge Pump; Armoured Pump; Aquarium Pump; Agricultural Spray Pump; Acid Pump; Accelerator (Hot Water)"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000604", "label": "Pump Symbol Type LOV", "values": ["Jet Pump, liquid type", "Pump, centrifugal type", "Pump, diaphragm type", "Pump, gear type", "Pump, helical rotor type", "Pump, liquid type (general)", "Pump, positive displacement type", "Pump, reciprocating type", "Pump, screw type", "SEED_Pump, peristaltic", "SEED_Pump, vane"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000605", "label": "Pump Type LOV", "values": ["Canned Motor", "Magnetic Driven"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000606", "label": "Pump-Filter Material LOV", "values": ["Carbon Steel", "Stainless Steel With Carbon Steel Flanges", "Stainless Steel With SS Flanges"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000607", "label": "Purchaser Connection LOV", "values": ["Brought Out To Terminal Boxes", "Made Directly By Purchaser"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000608", "label": "Purchaser Manufacturer LOV", "values": ["Manufacturer", "Not Required", "Other", "Purchaser", "Supplier"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000609", "label": "Purchaser-Vendor LOV", "values": ["Not Required", "Purchaser", "Vendor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000610", "label": "Pure Oil Mist Type LOV", "values": ["Oil Mist Provision", "Oil Mist Ready"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000611", "label": "Purge Conservation Device Type LOV", "values": ["Buoyancy", "None", "Velocity"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000612", "label": "Purge For LOV", "values": ["Bearing Housing", "Between Bearing And Seal", "Between Seal And Gas"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000613", "label": "Purge Gas LOV", "values": ["Instrument Air", "Nitrogen", "None"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000614", "label": "Purge Requirement LOV", "values": ["Type X", "Type Y", "Type Z"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000615", "label": "Purge Type LOV", "values": ["Type X", "Type Y", "Type Z"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000616", "label": "Radial Bearing Type LOV", "values": ["Active Magnetic Bearing", "Ball", "Double Row Ball", "Roller", "Single Row Ball", "Sleeve", "Tilt Pad"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000617", "label": "Radial Display LOV", "values": ["Optional 0 To 10 Mils", "Optional 0 To 250 Micrometers", "Standard 0 To 125 Micrometers", "Standard 0 To 5 Mils"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000618", "label": "Radiography LOV", "values": ["1", "No", "None", "Spot", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000619", "label": "Rated Speed LOV", "values": ["Nominal", "Specified"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000620", "label": "Rating LOV", "values": ["125", "150", "1500", "250", "300", "600", "900", "PN100", "PN150", "PN20", "PN250", "PN50", "PN68"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000621", "label": "Reactor Service LOV", "values": ["Hydrodesulphurizer Reactor", "Hydrotreater Reactor", "Loop Reactor", "Platformer Reactor", "Platformer Reactor; Loop Reactor; Hydrotreater Reactor; Hydrodesulphurizer Reactor; Hydrocracker Reactor"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000622", "label": "Reactor Symbol Type LOV", "values": ["Boiling water reactor", "Nuclear reactor", "Pressurised water reactor", "Reactor pressure vessel", "SEED_Bunker reactor", "SEED_Plug flow reactor", "SEED_Reactor column"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000623", "label": "Reboiler Option LOV", "values": ["External", "Internal", "None"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000624", "label": "Recording Option LOV", "values": ["Other", "Output Signal", "Recording ", "Recording Of Sensor Readings"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000625", "label": "Reducer-Increaser LOV", "values": ["Increaser", "Reducer"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000626", "label": "Redundant Circuit Requirement LOV", "values": ["Axial Position Channels", "Casing Vibration Channels", "Piston Rod Drop Channels", "Radial Vibration Channels", "Speed Indication Channels", "Temperature Channels"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000627", "label": "Reflex Indicator LOV", "values": ["Removable", "Weld Pad"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000628", "label": "Relief Valve Class Name LOV", "values": ["Relief Valve", "Relief Valve; Pressure Relief Valve"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000629", "label": "Relief Valve Location LOV", "values": ["Final Discharge", "Initial Inlet", "Interstage"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000630", "label": "Required Secondary Control Measure LOV", "values": ["Secondary Containment Design", "Secondary Containment System", "Secondary Control Design", "Secondary Control System"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000631", "label": "Required-Not Required LOV", "values": ["Not Required", "Required"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000632", "label": "Reservation And Spare Types", "values": ["None", "Reserved Left", "Reserved Left And Right", "Reserved Left And Spare Right", "Reserved Right", "Spare Left", "Spare Left And Reserved Right", "Spare Left And Right", "Spare Right"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000633", "label": "Reservoir Service LOV", "values": ["Combined", "Reservoir Tank", "Reservoir Tank; Barrier Reservoir", "Seperate Lube", "Seperate Seal"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000634", "label": "Reservoir Type LOV", "values": ["Gear Casing", "Separate"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000635", "label": "Reset Type LOV", "values": ["Electric Reset", "Hydraulic Reset", "Manual Reset", "Purchaser Defined", "Supplier Decision"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000636", "label": "Roof Drain Piping LOV", "values": ["Armored Flexible Pipe", "Manufacturer Standard", "Swivels in Rigid Pipe"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000637", "label": "Roof Erector Floatation Test LOV", "values": ["At Completion Of Roof", "At Later Date", "Not Required", "With Tank Hydro"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000638", "label": "Roof Support Column LOV", "values": ["Pipe", "Structural Shape"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000639", "label": "Roof Type LOV", "values": ["Double Check", "Single Deck Pontoon"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000640", "label": "Rotary Compressor Class Name LOV", "values": ["Rotary Compressor", "Rotary Compressor; Rotary Positive Displacement Compressor"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000641", "label": "Rotary Pump Type LOV", "values": ["3 Screw", "External Gear", "Internal Gear", "Lobe", "Progressing Cavity", "Rotary Gear Type", "Twin Screw", "Vane"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000642", "label": "Rotating Equipment Class Name LOV", "values": ["Rotating Equipment", "Rotating Equipment; Turbo Machinery; Running Equipment", "Turbo Machinery"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000643", "label": "Rotating Equipment Service LOV", "values": ["Driver", "Generator (Role)", "Generator (Role); Driver; Driven Equipment"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000644", "label": "Rotation LOV", "values": ["Bi Directional", "CCW", "CW"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000645", "label": "Rotor Arrangement LOV", "values": ["1", "2", "3", "Between Bearings", "OverHung"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000646", "label": "Rotor Construction Type LOV", "values": ["Built up", "solid"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000647", "label": "Rotor Type LOV", "values": [" Laminated Cylindrical", " Salient-Pole \"Star\" Punching Type", " Salient-Pole Solid ", " Shrunk Onto Shaft", "Salient-Pole Dove-Tail Or T-Tail Attachment To Shaft", "Salient-Pole Laminated/Bolted", "Solid Cylindrical"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000648", "label": "Rupture Strength LOV", "values": ["Average", "Minimum"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000649", "label": "Seal Face Material LOV", "values": ["Carbon SiC", "Other", "RBSiC", "SSiC", "SiC"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000650", "label": "Seal Type LOV", "values": ["Envelope", "None", "Shoe", "Wiper", "Wiper/Compression Plate"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000651", "label": "Secondary Seal Material LOV", "values": ["FFKM", "FKM", "NBR", "Other", "Spiral Wound Gasket"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000652", "label": "Seismic Sensor Location For Terminations LOV", "values": ["In Sensor Housing", "Supplier Decision", "Terminal Box", "Terminal Head"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000653", "label": "Seismic Sensor Manufacturer LOV", "values": ["Purchaser Defined", "Supplier Decision"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000654", "label": "Separate Control Devices As Checked For Mounting LOV", "values": ["Purchaser'S SwitchGear", "Vendor Furnished Panel"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000655", "label": "Separate Motor Driver Applicable Specification LOV", "values": ["API 547", "IEC60034", "IEEE 841", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000656", "label": "Separate-Combined LOV", "values": ["Combined", "Separate"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000657", "label": "Separation Type LOV", "values": ["Equilibrium", "Non Equilibrium"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000658", "label": "Separator Service LOV", "values": ["Fourth Stage Separator", "Second Stage Separator", "Third Stage Separator", "Third Stage Separator; Second Stage Separator; Fourth Stage Separator; First Stage Separator"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000659", "label": "Separator Symbol Type LOV", "values": ["Dry Separator (general)", "Electromagnetic separator", "Gravity Separator, settling chamber", "Impact separator", "Permanent magnetic separator", "Precipitator wet, electrostatic pipe", "Separator / Sifter (general)", "Separator, cyclone type", "Separator, precipitator electrostatic pipe", "Separator, scrubber venturi type", "Solidifier (closed type)", "Solidifier for waste water treatment plant (open type)", "Spray scrubber with conical bottom", "Wet Separator, wet scrubber (general)"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000660", "label": "Service Accumulator LOV", "values": ["Control Oil", "Lube Oil", "Seal Oil", "Seal-Oil Booster"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000661", "label": "Service Application LOV", "values": ["Booster Pump Discharge Oil", "Control", "Lube", "Lube And Seal", "Separate Control Oil", "Separate Coupling oil", "Separate Seal Oil"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000662", "label": "Service Type LOV", "values": ["Continuous", "Dry Screw", "Flooded Screw", "General Purpose", "Intermittent", "Special Purpose", "Standby"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000663", "label": "Set Point Units (LOV)", "values": [" %", " Ambient", " BTU/SCF", " LEL", " MILS", " MW", " Nm3/min", " Patm", " SCFM", " USGal", " USGal/h", " USGal/min", " V", " V/in", " V/mm", " W", " bar", " bar-a", " bar-d", " bar-g", " cm", " ft", " ft/s", " ft3/d", " ft3/h", " ft3/min", " ft3/s", " hp", " in", " in/s", " inH2O", " inHg", " kVA", " kW", " kg/d", " kg/h", " kg/min", " kg/s", " kpa", " kpa-a", " kpa-d", " kpa-g", " l", " l/h", " l/min", " lb/d", " lb/h", " lb/min", " lb/s", " m", " m/s", " m3/d", " m3/h", " m3/min", " m3/s", " mV", " mV/in/s", " mV/mil", " mV/psi", " mbar", " mills", " mm", " mm/s", " mmH2O", " mmHg", " pC/psi", " psi-a", " psi-d", " psi-g", " r/min", " °", " °C", " °F", "psi"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000664", "label": "Setpoint Multiplier Function LOV", "values": ["Standard Option 2X", "Standard Option 3X"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000665", "label": "SetPoint Units LOV", "values": ["Ambient", "atm", "bar", "bara", "barg", "ft", "in", "inH2O", "inHg", "kpa", "mbara", "mbarg", "mm", "mmH2O", "mmHg", "psi", "psia", "psig", "°C", "°F"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000666", "label": "Shaft Direction Side LOV", "values": [" Inactive", "Active"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000667", "label": "Shaft End Keyed LOV", "values": ["Double", "Keyed", "Single"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000668", "label": "Shaft End LOV", "values": ["1 Key", "2 Keys", "Cylindrical", "Hyd.Taper", "Integral Flange", "Splined", "Taper", "Tapered"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000669", "label": "Shaft End Type LOV", "values": ["Cylindrical", "Internal Flange", "Straight", "Taper"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000670", "label": "Shaft Fit Type LOV", "values": ["Hydraulic Fit", "Integral flange"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000671", "label": "Shaft Placing LOV", "values": ["One On Input Shaft", "One On Output Shaft"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000672", "label": "Shaft Type LOV", "values": ["Built Up", "One Piece"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000673", "label": "Shell And Tube Heat Exchanger Class Name LOV", "values": ["Shell And Tube Heat Exchanger", "Shell And Tube Heat Exchanger; Tubular Heat Exchanger"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000674", "label": "Shell And Tube Heat Exchanger Service LOV", "values": ["Reboiler (Role)"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000675", "label": "Shell Height LOV", "values": ["1\\3H", "2\\3H", "H ", "Top of Each Shell Course", "Top of the Tank"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000676", "label": "Shipment LOV", "values": ["Domestic", "Export", "Export boxing Requied", "Outdoor Storage More Than 6 Months Domestic Shipment", "Outdoor Storage Over 6 Months"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000677", "label": "Shipment Storage LOV", "values": ["Indoor", "Outdoor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000678", "label": "Shipment Type At Erection LOV", "values": ["Assembled", "Other", "Partly Assembled"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000679", "label": "Shipment Type LOV", "values": ["Domestic", "Export", "Export Boxing Required", "Outdoor Storage More Than 6 Months", "Special"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000680", "label": "Sides", "values": ["Bottom", "Left", "None", "Right", "Top"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000681", "label": "Sight Flow Indicator Required For LOV", "values": ["Aftercooler", "Cylindrical Jacket Coolant", "Intercooler", "Oil Cooler", "Rod Pressure Packing Coolant"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000682", "label": "Signal Service LOV", "values": ["Command", "Computer Input", "Computer Output", "Logic Input", "Logic Output", "PLC Input", "PLC Output", "PLC Output; PLC Input; Logic Output; Logic Input; Computer Output; Computer Input; Command; Alarm Signal"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000683", "label": "Signal Type LOV", "values": ["AI", "AO", "DI", "DO", "Electronic", "Other", "Pneumatic"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000684", "label": "Simulation Source", "values": ["AVEVA PROII", "AVEVA SimCentral"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000685", "label": "Single Core Alignment LOV", "values": ["Horizontal", "Vertical"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000686", "label": "Slip On Construction LOV", "values": ["Compressor", "Expander"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000687", "label": "Smokeless Definition LOV", "values": ["R0", "R1", "R2"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000688", "label": "Socket Weld Construction LOV", "values": ["Compressor", "Expander"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000689", "label": "Solenoid Type LOV", "values": ["De-Energize To Trip", "Energize To Trip"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000690", "label": "Soleplates For LOV", "values": ["Bearing Pedestals", "Column", "Driver", "Fan Housing Supports", "Gear", "Perimeter Support"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000691", "label": "Source Of Material Properties LOV", "values": ["ASTM", "En", "ISO", "JIS", "No", "Other", "UNS", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000692", "label": "Source Of Variable Speed LOV", "values": ["AFD", "Gear Coupling", "Hydraulic Drive", "Mechanical Drive", "Motor", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000693", "label": "Spare Assembly LOV", "values": ["Drive Rotor", "Not Applicable", "Rotor", "Stator", "Wet-End Cartridge"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000694", "label": "Spare Part Supply LOV", "values": ["2 Years Supply", "Gasket", "O-Rings", "Rotor Assembly", "Seals", "Start-Up/Commissioning"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000695", "label": "Spare Rotor Assembly Package Type LOV", "values": ["Domestic", "Export", "Horizontal Storage", "Metal Storage Container", "N2 Purge", "Vertical Storage", "Wooden Shipping Container"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000696", "label": "Special Corrosion Protection LOV", "values": ["Manufacturer Standard", "No", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000697", "label": "Special Equipment LOV", "values": ["Air Preheater", "Fan", "Other", "Soot Blower"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000698", "label": "Special Hardness Limitation LOV", "values": ["Shell & Heads", "Shell & Heads, Weld", "Welds"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000699", "label": "Special Tool Packaging LOV", "values": ["Metal Storage Container", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000700", "label": "Speed Control LOV", "values": ["Governor", "Pressure Regulator"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000701", "label": "Speed Detector Type LOV", "values": ["Eddy Current", "Electromagnetic", "Non Contact Probe", "Other", "Speed Switch"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000702", "label": "Speed Pickup Sensors Installation LOV", "values": ["Dual", "Installed Spare", "Triple"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000703", "label": "Speed Reducer Support LOV", "values": ["Pedestal", "Structure"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000704", "label": "Speed Reducer Type LOV", "values": ["Integral", "Separate"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000705", "label": "Spreader Beam LOV", "values": ["On Loan", "Purchase"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000706", "label": "Stainless Steel Material LOV", "values": ["Compressor", "Expander"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000707", "label": "Standard Digital Display LOV", "values": ["Light Emitting Diodes", "Liquid Crystal Display", "Other"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000708", "label": "Standard ETAP Type LOV", "values": ["ANSI", "IEC"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000709", "label": "Standard LOV", "values": ["ASME", "ISO", "ISO/R775", "Other", "US Standard"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000710", "label": "Standard Option LOV", "values": ["Top And Bottom", "X-Y"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000711", "label": "Standard Per LOV", "values": ["ANSI B15.1", "EN 953", "ISO 14120"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000712", "label": "Standard Type LOV", "values": ["Standard 541", "Standard 546", "Standard 611", "Standard 612"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000713", "label": "Standard-Specification LOV", "values": ["Purchaser Specification", "Vendor Standard"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000714", "label": "Start Up LOV", "values": ["From Settling Out Condition", "Normal Suction Pressure", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000715", "label": "Starting Method LOV", "values": ["Closed-Valve (Unloaded) Start", "Open Valve(Fully Loaded)"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000716", "label": "Starting Requirement LOV", "values": ["Across The Line", "Soft Start"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000717", "label": "Starting System Type LOV", "values": ["Automatic", "Manual", "Semi Automatic"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000718", "label": "Starting Voltage LOV", "values": ["Full Voltage", "Loaded", "Reduced Voltage", "Unloaded"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000719", "label": "Starts Per Time LOV", "values": ["Day", "Hour", "Month", "Week", "Year"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000720", "label": "Stator Type LOV", "values": ["Adjustable", "Fixed", "Movable"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000721", "label": "STD Base Plate Number LOV", "values": ["0.5", "1", "1.5", "10", "11", "11.5", "12", "2", "3", "3.5", "4", "5", "5.5", "6", "6.5", "7", "7.5", "8", "9", "9.5"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000722", "label": "STD Pump Type LOV", "values": ["BB1", "BB2", "BB3", "BB4", "BB5", "OH1", "OH2", "OH3", "OH4", "OH5", "OH6", "Oh1A", "Oh2A", "VS1", "VS2", "VS3", "VS4", "VS5", "VS6", "VS7"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000723", "label": "Step Number LOV", "values": ["Five", "One", "Three"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000724", "label": "Stress Analysis Criteria LOV", "values": ["", "C", "NR", "V"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000725", "label": "Structure Mounting LOV", "values": ["Grade", "Other", "Pipe Rack"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000726", "label": "Subatmospheric Seals For LOV", "values": ["Eductor", "Injection"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000727", "label": "Submit Inspection Check List LOV", "values": ["No", "Not Required", "Required", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000728", "label": "Suction Vessel LOV", "values": ["Closed", "Vented To Atmos"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000729", "label": "Suction Vessel Pressure Maintained By", "values": ["Atmospheric Pressure", "Fluid Vapor Pressure", "Inter Gas Blanket", "Pipe Line Pressure"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000730", "label": "Suitable For LOV", "values": ["Column", "Perimeter Support"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000731", "label": "Sump Option LOV", "values": ["None", "Single"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000732", "label": "Supplied/Mounted By LOV", "values": ["Buyer", "Driver Vendor", "Packager", "Pump Vendor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000733", "label": "Supplier With Unit Responsibility LOV", "values": ["Other", "Pump Manufacturer"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000734", "label": "Supplier-Purchaser-NA LOV", "values": ["Not Required", "Purchaser", "Supplier"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000735", "label": "Supply Arrangement LOV", "values": ["Combined Module For Train", "Module Mounted On Compressor Baseplate", "Separate Modules For Each Casing"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000736", "label": "Supply Classes", "values": ["ES", "NG", "SS"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000737", "label": "Support Location LOV", "values": ["Bottom", "End", "Top"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000738", "label": "Support-Decking LOV", "values": ["Full Top Decking", "Open Beam Support", "Open Decking", "Partial Top Decking", "Pipe", "Rolled Plate"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000739", "label": "Surface", "values": ["Buried", "Free Air"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000740", "label": "Switches Shall Be Wired To LOV", "values": ["", "Close", "Open", "To Initiate Alarm And Shutdown"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000741", "label": "Switch-Transmitter LOV", "values": ["Switch", "Transmitter"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000742", "label": "System Action LOV", "values": ["Opening Of Anti Surge Valve", "Other", "Shutdown Of Main Driver"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000743", "label": "System Contact LOV", "values": ["Normally Closed", "Normally Open"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000744", "label": "System Requirement LOV", "values": ["Power", "Pressure"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000745", "label": "Tachometer Type Ana Or Digi LOV", "values": ["Analog", "Digital"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000746", "label": "Tachometer Type Electrical LOV", "values": ["Electrical", "Electronic"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000747", "label": "Tag Criticality LOV", "values": ["Criticality-1", "Criticality-2", "Criticality-3", "Criticality-4"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000748", "label": "Tank Orientation option LOV", "values": ["Horizontal", "Vertical"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000749", "label": "Tank Symbol Type LOV", "values": ["Bag", "Barrel, drum", "Container for solids, liquids, gases", "Container, tank, cistern for atmospheric pressure", "Gas cylinder", "Open bulk storage", "Tank", "Tank with conical roof and flat bottom", "Tank with dished ends", "Tank with dished roof and flat bottom"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000750", "label": "TEAAC Tube Material LOV", "values": ["Aluminium", "Aluminium Alloy", "Copper", "Copper Alloy", "Stainless Steel", "Stainless Steel 300 Series", "Stainless Steel 316 Series"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000751", "label": "Temperature Class LOV", "values": ["T1", "T2", "T2A", "T2B", "T2C", "T2D", "T3", "T3A", "T3B", "T3C", "T4", "T4A", "T5", "T6"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000752", "label": "Temperature Code LOV", "values": [" T2 ", " T3 ", " T4 ", " T5 ", " T6", "T1 "]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000753", "label": "Temperature Detector Type LOV", "values": ["Duplex", "Simplex", "Type J", "Type K", "Type N"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000754", "label": "Temperature Detectors LOV", "values": ["Journal", "Thrust"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000755", "label": "Temperature Rise Class LOV", "values": ["B", "F", "H"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000756", "label": "Terminal Box Mounting LOV", "values": ["F-1", "F-2"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000757", "label": "Terminal Rail Profile", "values": ["TS-15", "TS-20", "TS-27", "TS-32", "TS-35"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000758", "label": "TEWAC Tube Material LOV", "values": ["Alum. Alloy", "Aluminium", "CU-Ni", "Copper", "Copper Alloy", "Other"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000759", "label": "Thermal Resistivity", "values": ["0.5", "0.7", "1.0", "1.5", "2.0", "2.5", "3.0"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000760", "label": "Thermistor Type LOV", "values": [" NEG. TEMP. COEFF", "POS. TEMP. COEFF."]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000761", "label": "Thermocouple / RTD LOV", "values": ["RTD Type", "TC"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000762", "label": "Thrust Bearing Lubrication LOV", "values": ["Grease Lubricated", "Oil Lubricated", "Supplier Decision"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000763", "label": "Thrust Bearing Type LOV", "values": ["Active Magnetic Thrust Bearing", "Ball", "Double Row Ball", "Dual Bell", "Duplex", "Flat Land", "Roller", "Sleeve", "Tapered Land", "Tapered Land Thrust Bearing", "Tilt Pad"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000764", "label": "Thrust Collar Type LOV", "values": ["Integral", "Replaceable", "Separate"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000765", "label": "Thrust LOV", "values": ["Down", "None", "Up", "Up Or Down"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000766", "label": "Top Bottom Side LOV", "values": ["Bottom", "Side", "Top"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000767", "label": "Torque Design LOV", "values": ["A", "B", "C", "D"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000768", "label": "Touching Type LOV", "values": ["Laid Flat", "Trefoil"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000769", "label": "Transducer Arrangement LOV", "values": ["Deviation From Standard", "Standard"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000770", "label": "Transmitter LOV", "values": ["Capacity.", "Hydrostatic", "Ultrasonic"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000771", "label": "Trip Position LOV", "values": ["Closed", "Open"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000772", "label": "Trip Valve Location LOV", "values": ["Induction", "Main Inlet"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000773", "label": "Trip Valve LOV", "values": ["Integral Body", "Separate Body"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000774", "label": "Trip Valve Material LOV", "values": ["Carbon Steel", "Low Temperature Carbon Steel", "Stainless Steel"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000775", "label": "Trip Valve Type LOV", "values": ["Butterfly Valve", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000776", "label": "Tripped Signal LOV", "values": ["Mechanical Switch", "Proximity Switch"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000777", "label": "Tube Closure Type LOV", "values": ["Separate Head Rod Through", "Standard", "Welded"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000778", "label": "Tube Construction LOV", "values": ["Double Tube", "Single Tube"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000779", "label": "Tube Layout LOV", "values": ["In Line", "Staggered"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000780", "label": "Tube Pitch Type LOV", "values": ["Lockup", "Maximum", "Minimum", "Square", "Triangular"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000781", "label": "Tube Supports Location LOV", "values": ["Bottom", "Ends", "Top"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000782", "label": "Tube Type LOV", "values": ["Finned", "Other", "Plain"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000783", "label": "Turbine Cycle LOV", "values": ["Regen", "Simple"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000784", "label": "Turbine Shaft Type LOV", "values": ["Built-up", "Combination", "Cylindrical", "Double Extended", "Hydraulic Fit Hub", "Taper", "integral Wheels"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000785", "label": "Turbine Supplier LOV", "values": ["Others", "Supplier", "Turbine Supplier"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000786", "label": "Turbine Type LOV", "values": ["Back Pressure", "Condensing", "Extraction", "Induction", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000787", "label": "Turbine-Gear LOV", "values": ["Driven Equipment And Turbine", "Driven Euipment And Turbine And Gear", "Other", "Turbine", "Turbine & Gear"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000788", "label": "Turning Gear Function LOV", "values": ["Auto", "Manual Engage", "Start From Rest"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000789", "label": "Type Of Decking LOV", "values": ["Drip Rim", "Non Skid", "Open Construction", "Open Drain"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000790", "label": "Type of Load LOV", "values": ["Centrifugal Compressor", "Centrifugal Fan", "Centrifugal Pump", "Compressor", "Fan", "Other", "Pump"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000791", "label": "Type Of Nozzle LOV", "values": ["2nd Drain", "Atmospheric Blowoff", "Balance/Leak Off", "Bearing Housing", "Between Bearing And Seal", "Between Seal And Gas", "Case Pressure", "Casing", "Casing Drain", "Cooling Water", "Cooling Water Inlet", "Cooling Water Outlet", "Discharge", "Drain", "Exhaust", "Expander Drain", "Expander Inlet", "Expander Outlet", "External", "Extraction", "Filter Outlet", "Gas Exhaust", "Gas Inlet", "Gland Flush", "High Pressure Drain", "Induction", "Induction / Extraction", "Intermediate", "Intermediate Bleed", "Jacket", "Liquid Injection", "Lube Oil Inlet", "Lube Oil Outlet", "Oil Injection", "Package Outlet", "Pressure", "Pressure Gauge", "Pressure Sensor", "Purge For", "Purge/Flush Out", "Seal Gas Inlet", "Seal Gas Outlet", "Seal Oil Inlet", "Seal Oil Outlet", "Skid Inlet", "Skid Outlet", "Solvent Injection", "Stage Drain", "Suction", "Temperature", "Temperature Gauge", "Temperature Sensor", "Vent", "Warm Up Line", "Wheel Pressure"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000792", "label": "Type Of Operation LOV", "values": ["Dry", "Flooded"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000793", "label": "Type Of Operator LOV", "values": ["Cable", "Pneumatic"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000794", "label": "Type of Protection (ATEX) LOV", "values": [" Ex de", " Ex e", " Ex ia ", " Ex ib", " Ex n ", " Ex p ", "Ex d "]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000795", "label": "Type of Protection LOV", "values": [" AEX pzc", " AEXpxb", " AEx  nC ", " AEx db ", " AEx eb", " AEx ia", " AEx ib ", " AEx ic", " AEx mb ", " AEx nA ", " AEx nL ", " AEx nR", " AEx o AEX q", " AEx pyb", " AEx ta ", " AEx tb ", " AEx tc", " Aex mc  ", "AEx da ", "AEx dc", "AEx ec "]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000796", "label": "Type of Stator Slot Wedge used LOV", "values": ["Magnetic", "Non-magnetic"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000797", "label": "Typical Diagram", "values": ["TD1", "TD2", "TD3"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000798", "label": "Unit Operation LOV", "values": ["Centrifugal", "Reciprocating", "Rotary"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000799", "label": "Units Of Measure LOV", "values": ["MKS", "Project Units", "SI", "USC"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000800", "label": "Unloader Type LOV", "values": ["Finger", "Plug"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000801", "label": "Unloading Medium LOV", "values": ["Air", "Nitrogen"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000802", "label": "Unusual Conditions LOV", "values": ["Corrosive Conditions", "Dust", "Dust And Fumes", "Fumes", "Other", "Salt Atmosphere"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000803", "label": "Utilisations", "values": ["Continuous", "Intermittent", "Spare", "Standby"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000804", "label": "Utility Manifolded LOV", "values": ["Air", "Cooling Water", "Other"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000805", "label": "Valve Flow Type LOV", "values": ["Compressible", "Flow Range Calculations", "Incompressible"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000806", "label": "Valve Material LOV", "values": ["Body", "Plug or Ball", "Trim"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000807", "label": "Valve Operation LOV", "values": ["CSC", "CSO", "FO", "FP", "LC", "LO", "NC", "NO"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000808", "label": "Valve Provided For LOV", "values": ["For Water-Cooled Exchangers", "Other"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000809", "label": "Valve Symbol Type LOV", "values": ["SEED_Actuated valve", "Valve, general"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000810", "label": "Valve Type LOV", "values": ["Ball", "Disc", "Double Ported", "Wing"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000811", "label": "Vector Group LOV", "values": ["Dd0", "Dd10", "Dd2", "Dd4", "Dd6", "Dd8", "Dy1", "Dy11", "Dy5", "Dy7", "Dyn1", "Dyn11", "Dyn5", "Dyn7", "YNd1", "YNd11", "YNd5", "YNd7", "YNy0", "YNy6", "YNyn0", "YNyn6", "Yd1", "Yd11", "Yd5", "Yd7", "Yy0", "Yy6", "Yyn0", "Yyn6"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000812", "label": "Vendor Buyer LOV", "values": ["Buyer", "Other", "Vendor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000813", "label": "Vendor Furnished Relief Valve LOV", "values": ["External", "Internal", "No", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000814", "label": "Vendor LOV", "values": ["Driven Equipment Vendor", "Other", "Turbine Vendor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000815", "label": "Vendor Purchaser LOV", "values": ["Other", "Purchaser", "Vendor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000816", "label": "Vendor Responsibility LOV", "values": ["Vendor Responsible For Installation", "Vendor Responsible For Scope Of Supply", "Vendor Responsible For System Design"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000817", "label": "Vendor Submit Test Procedures LOV", "values": ["No", "Not Required", "Required", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000818", "label": "Vendor To Provide Mounting Detail LOV", "values": ["Free Standing", "On Unit", "Other"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000819", "label": "Vendor-Manuf LOV", "values": ["Compressor Vendor", "Driver Manufacturer"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000820", "label": "Vendor-Other LOV", "values": ["Other", "Pump Vendor"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000821", "label": "Vent Connection LOV", "values": ["NA", "No", "Rating And Facing", "Vent Connection Dn 25 Flanged", "Vent Connection Dn 25 With Filter/Breather", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000822", "label": "Venting Type LOV", "values": ["Forced Air Draft", "Natural Air Draft", "With High Temperature Alarm"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000823", "label": "Vertical Centrifugal Pump Type LOV", "values": ["VS1", "VS2", "VS3", "VS4", "VS5", "VS6"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000824", "label": "Vertical Motor Guide Bearing LOV", "values": ["Grease Lubrication", "Oil Sump Lubrication", "Other", "Supplier Decision"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000825", "label": "Vertical Motor Thrust Bearing LOV", "values": ["Grease Lubrication", "Oil Sump Lubrication", "Supplier Decision"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000826", "label": "Vertical-Horizontal LOV", "values": ["Horizontal", "Vertical"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000827", "label": "Vessel Symbol Type LOV", "values": ["Open vessel with conical bottom, bunker", "Pressure vessel with pit", "Spherical vessel", "Vessel", "Vessel with conical roof and bottom", "Vessel with conical roof and flat bottom", "Vessel with dished ends", "Vessel with dished roof and conical bottom", "Vessel with dished roof and flat bottom", "Vessel with flat roof and conical bottom, bunker", "Vessel with two different diameters"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000828", "label": "Vibration Detector Type LOV", "values": ["Eddy Current", "Inductive"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000829", "label": "Vibration Signal Cable LOV", "values": ["Multiple Circuit Cable", "Single Circuit Cable"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000830", "label": "Voltage Design LOV", "values": ["Dual Voltage Design", "Single Voltage Design"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000831", "label": "Voltage Regulator Type LOV", "values": ["Dual with Automatic Matching Feature", "Dual with Null Adjustment", "Single"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000832", "label": "Voltage Requirement Connect Terminal LOV", "values": ["2300 Volts", "4000 Volts"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000833", "label": "Voltage Type LOV", "values": ["D", "L", "S", "T", "TN"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000834", "label": "VS 6 Drain LOV", "values": ["External", "Internal", "NA"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000835", "label": "Water Quality LOV", "values": ["Other", "Potable"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000836", "label": "Water Wash Type LOV", "values": [" Off Line", "On Line"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000837", "label": "Weather Protection Type LOV", "values": ["Drip Proof Gaurded", "Type 1", "Type 2"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000838", "label": "Welded Flush Type LOV", "values": ["Cleanout Fitting", "Shell Connection"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000839", "label": "Welding Codes LOV", "values": ["Allowed", "NA"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000840", "label": "Wet-Dry LOV", "values": ["Dry", "Wet"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000841", "label": "Wind Turbine Generator Operation Mode LOV", "values": ["Induction Generator", "Mvar Control", "Voltage Control"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000842", "label": "WireTypes", "values": ["Long", "Normal", "Short"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000843", "label": "Wiring Installation LOV", "values": ["Cable Tray", "Enclosure", "Metal Conduit"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000844", "label": "Witnessed-Observed LOV", "values": ["Observed", "Witnessed"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000845", "label": "X Y Probes Bearing LOV", "values": ["Blind End", "Coupling End"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000846", "label": "Yes-No LOV", "values": ["No", "Yes"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000847", "label": "Yes-No-2 LOV", "values": ["No", "Yes"]}
+{"closed": false, "id": "AVEVA-1.0.1-LOV-000848", "label": "Yes-No-Alternate LOV", "values": ["Alternate", "No", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000849", "label": "Yes-No-NA LOV", "values": ["NA", "No", "Yes"]}
+{"closed": true, "id": "AVEVA-1.0.1-LOV-000850", "label": "Yes-No-Provision LOV", "values": ["No", "Provision Only", "Yes"]}

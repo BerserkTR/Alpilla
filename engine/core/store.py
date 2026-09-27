@@ -121,6 +121,34 @@ class Store:
                             out.append(f"{e}/{r['id']}.{f}")
         return out
 
+    @property
+    def lib(self):
+        from . import classlib
+        return classlib.get(self.p)
+
+    def class_errors(self, entity: str, rec: dict) -> list[str]:
+        s = self.schema(entity)
+        errs = []
+        for f, spec in s.fields.items():
+            if spec["type"] != "aveva_class" or not rec.get(f):
+                continue
+            if self.lib is None:
+                return [f"{f}: AVEVA class library not built (python -m engine lib build <ttl> --reason ...)"]
+            try:
+                cls = self.lib.resolve(rec[f])
+            except KeyError as e:
+                errs.append(f"{f}: {e.args[0]}")
+                continue
+            if spec.get("roots") and not self.lib.is_under(cls, spec["roots"]):
+                errs.append(f"{f}: '{cls['label']}' is not under {spec['roots']} in the AVEVA class tree")
+            for af, aspec in s.fields.items():
+                if aspec["type"] == "aveva_attrs" and aspec.get("class_field") == f and rec.get(af):
+                    errs += [f"{af}: {e}" for e in self.lib.attr_errors(cls, rec[af])]
+        for af, aspec in s.fields.items():
+            if aspec["type"] == "aveva_attrs" and rec.get(af) and not rec.get(aspec.get("class_field", "")):
+                errs.append(f"{af}: set {aspec.get('class_field')} first - attributes are defined by the class")
+        return errs
+
     def ref_errors(self, entity: str, rec: dict) -> list[str]:
         s = self.schema(entity)
         errs = []
@@ -165,7 +193,7 @@ class Store:
         self.all()[entity][rec["id"]] = rec
 
     def _check(self, entity: str, rec: dict):
-        errs = check_record(self.schema(entity), rec) + self.ref_errors(entity, rec)
+        errs = check_record(self.schema(entity), rec) + self.ref_errors(entity, rec) + self.class_errors(entity, rec)
         if errs:
             raise StoreError(f"{entity}/{rec.get('id')}: " + "; ".join(errs))
 

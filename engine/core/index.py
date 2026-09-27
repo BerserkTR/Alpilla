@@ -15,7 +15,7 @@ from .project import Project
 from .store import Store, read_changelog
 
 SQL_TYPES = {"number": "NUMERIC", "integer": "INTEGER", "boolean": "INTEGER"}
-INDEX_FORMAT = "2"  # bump when the index layout changes, forces a rebuild everywhere
+INDEX_FORMAT = "3"  # bump when the index layout changes, forces a rebuild everywhere
 
 
 def _fingerprint(p: Project) -> str:
@@ -52,7 +52,7 @@ def ensure(p: Project, store: Store | None = None, force: bool = False) -> bool:
         rows = []
         for r in store.records(entity):
             m = r.get("_meta", {})
-            vals = [r["id"]] + [json.dumps(r[f], ensure_ascii=False) if isinstance(r.get(f), list) else r.get(f)
+            vals = [r["id"]] + [json.dumps(r[f], ensure_ascii=False, sort_keys=True) if isinstance(r.get(f), (list, dict)) else r.get(f)
                                 for f in s.fields] + [m.get("rev"), m.get("updated_by"), m.get("updated_at")]
             rows.append(vals)
         if rows:

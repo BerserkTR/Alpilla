@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from ..core.runner import Context, Engine
 
-COLUMNS = ["id", "description", "system", "equipment_type", "service", "quantity", "redundancy", "rated_power",
+COLUMNS = ["id", "description", "system", "aveva_class", "equipment_type", "service", "quantity", "redundancy", "rated_power",
            "voltage", "design_flow", "design_pressure", "design_temperature", "material", "location",
            "manufacturer", "model", "status", "datasheet", "basis_refs", "remarks"]
 
@@ -11,7 +11,7 @@ COLUMNS = ["id", "description", "system", "equipment_type", "service", "quantity
 class EquipmentList(Engine):
     name = "equipment_list"
     title = "Equipment list (Excel) grouped by system"
-    version = "1.1.0"
+    version = "1.2.0"
     inputs = ["project", "system", "equipment"]
     formats = ["xlsx"]
 
@@ -67,7 +67,7 @@ class EquipmentList(Engine):
         if not items:
             ws.cell(row, 1, "No equipment records in the database yet.")
 
-        widths = {"id": 16, "description": 34, "remarks": 30, "basis_refs": 26, "service": 18, "datasheet": 20}
+        widths = {"aveva_class": 22, "id": 16, "description": 34, "remarks": 30, "basis_refs": 26, "service": 18, "datasheet": 20}
         for c, f in enumerate(COLUMNS, 1):
             ws.column_dimensions[get_column_letter(c)].width = widths.get(f, 13)
         ws.freeze_panes = ws.cell(hdr_row + 1, 2)

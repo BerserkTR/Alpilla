@@ -22,6 +22,10 @@ def project(tmp_path, monkeypatch):
         shutil.copytree(ROOT / d, tmp_path / d)
     for d in ("records", "changelog"):
         (tmp_path / "database" / d).mkdir(parents=True)
+    shutil.copytree(ROOT / "database" / "classlib", tmp_path / "database" / "classlib")
+    (tmp_path / "references" / "aveva").mkdir(parents=True)
+    for f in (ROOT / "references" / "aveva").glob("*.ttl"):   # 14 MB source: link, never modify through it
+        (tmp_path / "references" / "aveva" / f.name).symlink_to(f)
     (tmp_path / "output").mkdir()
     (tmp_path / "internal_deliveries").mkdir()
     subprocess.run(["git", "init", "-q", str(tmp_path)], check=True)

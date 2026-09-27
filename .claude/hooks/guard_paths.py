@@ -10,7 +10,7 @@ import os
 import re
 import sys
 
-PROTECTED = ("database/records/", "database/changelog/", "output/", "internal_deliveries/", "rules.md", "ledger.md")
+PROTECTED = ("database/records/", "database/changelog/", "database/classlib/", "output/", "internal_deliveries/", "rules.md", "ledger.md")
 EXEMPT = {"output/README.md", "internal_deliveries/README.md"}  # folder documentation is hand-written
 # write-like commands, only when in command position (line start or after ; && || | ( $( sudo xargs)
 CMD_POS = r"(?:^|[;&|(]|\$\(|\bsudo\s+|\bxargs\s+)\s*"
