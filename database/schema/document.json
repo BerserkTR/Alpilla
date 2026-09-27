@@ -1,0 +1,60 @@
+{
+  "entity": "document",
+  "title": "Project document register entry",
+  "id_pattern": "^[A-Z0-9][A-Z0-9._-]*$",
+  "display": [
+    "title",
+    "discipline",
+    "revision",
+    "status",
+    "engine"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "discipline": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "general",
+        "process",
+        "mechanical",
+        "piping",
+        "electrical",
+        "i_and_c",
+        "civil",
+        "hse",
+        "commissioning"
+      ]
+    },
+    "doc_type": {
+      "type": "string",
+      "description": "report, datasheet, list, drawing, calculation, specification ..."
+    },
+    "revision": {
+      "type": "string",
+      "default": "A"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "planned",
+        "in_progress",
+        "IFR",
+        "IFA",
+        "IFC",
+        "void"
+      ],
+      "default": "planned"
+    },
+    "engine": {
+      "type": "string",
+      "description": "engine that produces this document, if any"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

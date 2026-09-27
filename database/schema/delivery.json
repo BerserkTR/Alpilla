@@ -1,0 +1,39 @@
+{
+  "entity": "delivery",
+  "title": "Internal delivery / transmittal (created by `engine deliver`)",
+  "id_prefix": "DLV",
+  "display": [
+    "title",
+    "purpose",
+    "recipients",
+    "engine"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "purpose": {
+      "type": "string",
+      "required": true
+    },
+    "recipients": {
+      "type": "string",
+      "required": true
+    },
+    "engine": {
+      "type": "string",
+      "required": true
+    },
+    "folder": {
+      "type": "string",
+      "required": true
+    },
+    "file_count": {
+      "type": "integer"
+    },
+    "db_hash": {
+      "type": "string"
+    }
+  }
+}

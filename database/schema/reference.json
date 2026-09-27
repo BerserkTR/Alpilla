@@ -1,0 +1,29 @@
+{
+  "entity": "reference",
+  "title": "Code, standard or technical reference - file kept in references/",
+  "id_prefix": "REF",
+  "display": [
+    "code",
+    "title",
+    "edition"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "code": {
+      "type": "string",
+      "description": "e.g. IEC 60034-1, ASME PTC 46"
+    },
+    "edition": {
+      "type": "string"
+    },
+    "file": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

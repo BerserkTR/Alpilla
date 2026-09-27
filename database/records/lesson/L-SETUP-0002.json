@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T15:32:12.261320Z",
+    "created_by": "SETUP",
+    "rev": 1,
+    "updated_at": "2026-09-27T15:32:12.261320Z",
+    "updated_by": "SETUP"
+  },
+  "action": "Never work around a guard block with other shell tricks; if the block is wrong, fix the guard and its test (tests/test_guard.py)",
+  "context": "The Claude path guard blocks shell commands that look like writes into engine-owned paths; heredocs mixing prose and paths can trigger it",
+  "date": "2026-09-27",
+  "id": "L-SETUP-0002",
+  "lesson": "The guard is deliberately conservative; a block means use the engine CLI, or write non-protected files with the Write tool",
+  "status": "active",
+  "tags": [
+    "claude",
+    "tooling"
+  ],
+  "title": "Write multi-line text with file tools, not shell heredocs"
+}

@@ -1,0 +1,75 @@
+{
+  "entity": "design_parameter",
+  "title": "Design basis parameter (site, ambient, fuel, grid, performance ...)",
+  "id_prefix": "DP",
+  "display": [
+    "category",
+    "parameter",
+    "value",
+    "value_text",
+    "unit",
+    "status"
+  ],
+  "fields": {
+    "category": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "site",
+        "ambient",
+        "fuel_gas",
+        "backup_fuel",
+        "grid",
+        "performance",
+        "water",
+        "emissions",
+        "noise",
+        "codes_standards",
+        "operation",
+        "other"
+      ]
+    },
+    "parameter": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "number"
+    },
+    "value_text": {
+      "type": "string",
+      "description": "use when the value is not a single number"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "condition": {
+      "type": "string",
+      "description": "e.g. ISO, site rated, 1-in-50-year"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "assumption",
+        "preliminary",
+        "confirmed",
+        "superseded"
+      ],
+      "default": "assumption"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "reference",
+        "decision"
+      ],
+      "required": true,
+      "min_items": 1,
+      "description": "traceability: every value cites its basis (entity:id)"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

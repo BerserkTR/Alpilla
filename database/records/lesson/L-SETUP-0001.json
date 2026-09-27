@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T15:32:12.190003Z",
+    "created_by": "SETUP",
+    "rev": 1,
+    "updated_at": "2026-09-27T15:32:12.190003Z",
+    "updated_by": "SETUP"
+  },
+  "action": "Install libreoffice-writer-nogui and libreoffice-calc-nogui (or full LibreOffice) and read the WARN lines after every engine run",
+  "context": "Datasheet PDFs were missing: soffice was on PATH but installed without Writer, conversion failed with 'source file could not be loaded'",
+  "date": "2026-09-27",
+  "id": "L-SETUP-0001",
+  "lesson": "soffice on PATH is not enough; engines skip PDFs with a WARN line instead of failing",
+  "status": "active",
+  "tags": [
+    "tooling",
+    "pdf"
+  ],
+  "title": "PDF export needs the LibreOffice Writer/Calc components"
+}

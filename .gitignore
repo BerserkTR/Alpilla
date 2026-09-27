@@ -1,0 +1,18 @@
+# generated - rebuilt from the database by engines (never commit, never hand-edit)
+output/*
+!output/README.md
+database/.cache/
+# scratch
+temporary_codes/*
+!temporary_codes/README.md
+# python / os / office lock files
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.DS_Store
+Thumbs.db
+~$*
+.~lock.*
+# personal Claude settings
+.claude/settings.local.json

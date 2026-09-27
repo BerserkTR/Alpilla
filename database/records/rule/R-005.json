@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T15:24:30.470700Z",
+    "created_by": "SETUP",
+    "rev": 1,
+    "updated_at": "2026-09-27T15:24:30.470700Z",
+    "updated_by": "SETUP"
+  },
+  "id": "R-005",
+  "rationale": "Saves tokens and context, and keeps every session working from the same current data.",
+  "severity": "mandatory",
+  "statement": "Find data with `python -m engine db list|get|query` (compact, limited results) instead of opening many record files or pasting large outputs into a session. Keep rules and lessons short.",
+  "status": "active",
+  "title": "Query, do not read in bulk"
+}

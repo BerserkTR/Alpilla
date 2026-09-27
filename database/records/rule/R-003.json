@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T15:24:30.418416Z",
+    "created_by": "SETUP",
+    "rev": 1,
+    "updated_at": "2026-09-27T15:24:30.418416Z",
+    "updated_by": "SETUP"
+  },
+  "id": "R-003",
+  "rationale": "Keeps several users and AI sessions aligned on the same data and prevents silent lost updates.",
+  "severity": "mandatory",
+  "statement": "Start with `git pull` and `python -m engine status`. `python -m engine validate` must pass before every commit (the pre-commit hook enforces it; never use --no-verify). After a merge, resolve reported parallel edits with `db reconcile` only after checking the merged content. Commit small and push often.",
+  "status": "active",
+  "title": "Pull before work, validate before commit, push after"
+}

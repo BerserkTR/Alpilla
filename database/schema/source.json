@@ -1,0 +1,38 @@
+{
+  "entity": "source",
+  "title": "Input received (client, vendor, site data) - file kept in sources/",
+  "id_prefix": "SRC",
+  "display": [
+    "title",
+    "originator",
+    "received_date",
+    "revision"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "originator": {
+      "type": "string",
+      "required": true
+    },
+    "received_date": {
+      "type": "date"
+    },
+    "doc_ref": {
+      "type": "string",
+      "description": "originator's document number"
+    },
+    "revision": {
+      "type": "string"
+    },
+    "file": {
+      "type": "string",
+      "description": "path in repo, e.g. sources/client/xyz.pdf"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

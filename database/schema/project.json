@@ -1,0 +1,60 @@
+{
+  "entity": "project",
+  "title": "Project definition (normally one record)",
+  "display": [
+    "name",
+    "plant_type",
+    "configuration",
+    "phase"
+  ],
+  "fields": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "client": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "plant_type": {
+      "type": "enum",
+      "values": [
+        "CCGT",
+        "OCGT",
+        "CHP",
+        "conversion"
+      ],
+      "required": true
+    },
+    "configuration": {
+      "type": "string",
+      "description": "e.g. 1x1 single shaft, 2x1 multi shaft"
+    },
+    "gross_output_target": {
+      "type": "number",
+      "unit": "MW"
+    },
+    "tagging_system": {
+      "type": "string",
+      "default": "KKS",
+      "description": "Plant identification system for tags"
+    },
+    "phase": {
+      "type": "enum",
+      "values": [
+        "concept",
+        "feasibility",
+        "FEED",
+        "basic",
+        "detail",
+        "construction",
+        "operation"
+      ]
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

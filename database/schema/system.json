@@ -1,0 +1,55 @@
+{
+  "entity": "system",
+  "title": "Plant system (KKS function level)",
+  "id_pattern": "^[A-Z0-9][A-Z0-9._-]*$",
+  "display": [
+    "title",
+    "category",
+    "unit_no",
+    "parent"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "gas_turbine",
+        "hrsg",
+        "steam_turbine",
+        "generator",
+        "fuel_gas",
+        "water_steam_cycle",
+        "condensate_feedwater",
+        "cooling",
+        "water_treatment",
+        "auxiliary_mechanical",
+        "electrical_hv",
+        "electrical_mv_lv",
+        "i_and_c",
+        "fire_protection",
+        "hvac",
+        "civil_structural",
+        "common",
+        "other"
+      ]
+    },
+    "unit_no": {
+      "type": "string",
+      "description": "KKS unit prefix, e.g. 10, 20, 00 (common)"
+    },
+    "parent": {
+      "type": "ref",
+      "to": "system"
+    },
+    "description": {
+      "type": "text"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

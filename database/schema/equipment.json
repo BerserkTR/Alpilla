@@ -1,0 +1,104 @@
+{
+  "entity": "equipment",
+  "title": "Equipment item (tagged)",
+  "id_pattern": "^[A-Z0-9][A-Z0-9._-]*$",
+  "display": [
+    "description",
+    "system",
+    "equipment_type",
+    "quantity",
+    "rated_power",
+    "status"
+  ],
+  "fields": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "system": {
+      "type": "ref",
+      "to": "system",
+      "required": true
+    },
+    "equipment_type": {
+      "type": "string",
+      "required": true,
+      "description": "pump, fan, heat exchanger, tank, transformer ..."
+    },
+    "service": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer",
+      "default": 1,
+      "min": 1
+    },
+    "redundancy": {
+      "type": "string",
+      "description": "e.g. 2x100%, 3x50%"
+    },
+    "rated_power": {
+      "type": "number",
+      "unit": "kW",
+      "min": 0
+    },
+    "voltage": {
+      "type": "number",
+      "unit": "V",
+      "min": 0
+    },
+    "design_flow": {
+      "type": "number",
+      "unit": "t/h",
+      "min": 0
+    },
+    "design_pressure": {
+      "type": "number",
+      "unit": "barg"
+    },
+    "design_temperature": {
+      "type": "number",
+      "unit": "degC"
+    },
+    "material": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string",
+      "description": "building / area"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "proposed",
+        "preliminary",
+        "confirmed",
+        "on_hold",
+        "deleted"
+      ],
+      "default": "proposed"
+    },
+    "datasheet": {
+      "type": "ref",
+      "to": "document"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "reference",
+        "decision"
+      ],
+      "description": "entity:id of sources/references/decisions"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

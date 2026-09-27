@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T15:24:30.391117Z",
+    "created_by": "SETUP",
+    "rev": 1,
+    "updated_at": "2026-09-27T15:24:30.391117Z",
+    "updated_by": "SETUP"
+  },
+  "id": "R-001",
+  "rationale": "Outputs stay reproducible, consistent with the single source of truth, and traceable to the data and engine version that made them.",
+  "severity": "mandatory",
+  "statement": "Every output (reports, lists, datasheets, drawings, calculations, rules.md, ledger.md) is produced by an engine in `engine/engines/` run with `python -m engine run <engine>`. Nothing in `output/` or `internal_deliveries/` is created or edited by hand, by a script outside the engine, or by an AI writing files directly. If no engine produces a needed output, build or extend the engine (with template and test) first.",
+  "status": "active",
+  "title": "Engines are the only way to generate outputs from the database"
+}

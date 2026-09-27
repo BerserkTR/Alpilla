@@ -1,0 +1,49 @@
+{
+  "entity": "decision",
+  "title": "Design decision / agreed position",
+  "id_prefix": "DEC",
+  "display": [
+    "title",
+    "date",
+    "status"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "decision": {
+      "type": "text",
+      "required": true
+    },
+    "rationale": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "decided_by": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "proposed",
+        "agreed",
+        "superseded"
+      ],
+      "default": "proposed"
+    },
+    "supersedes": {
+      "type": "ref",
+      "to": "decision"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "reference"
+      ]
+    }
+  }
+}

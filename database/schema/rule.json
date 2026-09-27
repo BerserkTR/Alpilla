@@ -1,0 +1,39 @@
+{
+  "entity": "rule",
+  "title": "Project rule (rendered to rules.md)",
+  "id_pattern": "^R-[0-9]{3}$",
+  "display": [
+    "title",
+    "severity",
+    "status"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "statement": {
+      "type": "text",
+      "required": true
+    },
+    "rationale": {
+      "type": "text"
+    },
+    "severity": {
+      "type": "enum",
+      "values": [
+        "mandatory",
+        "advisory"
+      ],
+      "default": "mandatory"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "active",
+        "retired"
+      ],
+      "default": "active"
+    }
+  }
+}

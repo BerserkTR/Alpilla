@@ -1,0 +1,13 @@
+* text=auto
+*.json text eol=lf
+*.jsonl text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+.githooks/* text eol=lf
+# Each user appends only to their own changelog; union merge keeps both sides if one person
+# committed from two machines. validate then flags any record needing reconciliation.
+database/changelog/*.jsonl merge=union
+*.docx binary
+*.xlsx binary
+*.pdf binary

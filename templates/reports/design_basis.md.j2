@@ -1,0 +1,44 @@
+# {{ project.name }} - Design Basis
+
+| Item | Value |
+|---|---|
+| Project | {{ project.id }} |
+| Plant type | {{ project.plant_type | default('-') }} {{ project.configuration | default('') }} |
+| Location | {{ project.location | default('-') }} |
+| Generated | {{ stamp.generated_at[:19] }}Z by {{ stamp.generated_by }} ({{ stamp.engine }} v{{ stamp.engine_version }}) |
+| Data fingerprint | {{ stamp.inputs_hash }} (git {{ stamp.git_commit }}) |
+
+This document is generated from the project database. Do not edit it; change the
+`design_parameter` records and re-run `python -m engine run design_basis`.
+
+{% if not groups %}
+_No design parameters recorded yet._
+{% endif %}
+{% for g in groups %}
+## {{ loop.index }}. {{ g.category }}
+
+| ID | Parameter | Value | Unit | Condition | Status | Basis |
+|---|---|---|---|---|---|---|
+{% for p in g.rows %}
+| {{ p.id }} | {{ p.parameter | cell }} | {{ (p.value if p.value is defined else p.value_text | default('-')) | cell }} | {{ p.unit | default('') | cell }} | {{ p.condition | default('') | cell }} | {{ p.status }} | {{ p.basis_refs | map('label') | map('cell') | join('; ') }} |
+{% endfor %}
+
+{% endfor %}
+## Open assumptions ({{ assumptions | length }} of {{ total }})
+
+{% if assumptions %}
+{% for p in assumptions %}
+- **{{ p.id }}** {{ p.parameter }}{% if p.remarks is defined %} - {{ p.remarks }}{% endif %}
+
+{% endfor %}
+{% else %}
+_None - all parameters are preliminary or confirmed._
+{% endif %}
+
+## Basis documents cited
+
+{% for c in cited %}
+- {{ c.label }} ({{ c.entity }})
+{% else %}
+_None._
+{% endfor %}

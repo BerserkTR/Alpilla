@@ -1,0 +1,41 @@
+{
+  "entity": "lesson",
+  "title": "Lesson learned (rendered to ledger.md)",
+  "id_prefix": "L",
+  "display": [
+    "title",
+    "date",
+    "status"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date"
+    },
+    "context": {
+      "type": "text"
+    },
+    "lesson": {
+      "type": "text",
+      "required": true
+    },
+    "action": {
+      "type": "text",
+      "description": "what to do differently"
+    },
+    "tags": {
+      "type": "list"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "active",
+        "superseded"
+      ],
+      "default": "active"
+    }
+  }
+}
