@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:16:19.751725Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:25.713315Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "requirement/ER-07.08"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "TQ-014",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "Design requirement only; compliance through PG-02; PTC 12.2 test for information.",
+  "question": "ER-07.08 sets 36 mbar(a) at SRC and names an ASME PTC 12.2 test, but there is no guarantee or LD for it. Is the condenser pressure a separate guarantee, or is compliance demonstrated through the plant heat rate guarantee?",
+  "raised_by": "IEC",
+  "raised_date": "2026-09-18",
+  "references": [
+    "requirement:ER-07.08",
+    "guarantee:PG-02"
+  ],
+  "responded_by": "OWNER",
+  "response": "Accepted: the condenser pressure is a design requirement; contractual compliance is through PG-02. The ASME PTC 12.2 test is carried out for information.",
+  "response_date": "2026-09-22",
+  "round": 1,
+  "status": "closed",
+  "subject": "Status of the 36 mbar(a) condenser pressure"
+}

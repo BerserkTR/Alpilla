@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.031278Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.031278Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0005"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "ER-02.13",
+  "section": "ER-02 Site conditions and design data",
+  "status": "contractual",
+  "text": "The Contractor shall demolish and remove the abandoned warehouse foundations (E 300-360, N 20-60), protect the Owner's meteorological mast and groundwater wells, and keep clear of the buried 11 kV cable along the east boundary until the Owner has had it relocated (ALP-OWN-GEN-001 section 2).",
+  "title": "Existing features on the Site",
+  "verification": "inspection"
+}

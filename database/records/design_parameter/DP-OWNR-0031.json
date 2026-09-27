@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.418524Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.418524Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0003"
+  ],
+  "category": "fuel_gas",
+  "condition": "maximum",
+  "id": "DP-OWNR-0031",
+  "parameter": "Hydrocarbon dew point",
+  "status": "confirmed",
+  "unit": "degC (1-70 barg)",
+  "value": -2.0
+}

@@ -1,0 +1,131 @@
+{
+  "entity": "clarification",
+  "title": "Technical query / clarification between Contractor and Owner",
+  "id_pattern": "^TQ-[0-9]{3}$",
+  "display": [
+    "round",
+    "raised_by",
+    "subject",
+    "status",
+    "outcome"
+  ],
+  "fields": {
+    "contract": {
+      "type": "ref",
+      "to": "contract",
+      "required": true
+    },
+    "round": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
+    "raised_by": {
+      "type": "ref",
+      "to": "party",
+      "required": true
+    },
+    "raised_date": {
+      "type": "date",
+      "required": true
+    },
+    "discipline": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "general",
+        "process",
+        "mechanical",
+        "piping",
+        "electrical",
+        "i_and_c",
+        "civil",
+        "structural",
+        "hvac",
+        "hse",
+        "commissioning",
+        "project_control",
+        "commercial"
+      ]
+    },
+    "subject": {
+      "type": "string",
+      "required": true
+    },
+    "question": {
+      "type": "text",
+      "required": true
+    },
+    "references": {
+      "type": "ref_list",
+      "to": [
+        "requirement",
+        "source",
+        "guarantee",
+        "scope_item",
+        "tie_in",
+        "contract_clause",
+        "design_parameter"
+      ]
+    },
+    "proposal": {
+      "type": "text",
+      "description": "Contractor's proposed solution or assumption"
+    },
+    "response": {
+      "type": "text"
+    },
+    "responded_by": {
+      "type": "ref",
+      "to": "party"
+    },
+    "response_date": {
+      "type": "date"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "open",
+        "answered",
+        "closed",
+        "superseded"
+      ],
+      "default": "open"
+    },
+    "outcome": {
+      "type": "enum",
+      "values": [
+        "confirmed_as_is",
+        "requirement_changed",
+        "owner_to_provide",
+        "contractor_proposal_accepted",
+        "rejected",
+        "price_adjustment",
+        "follow_up_required"
+      ]
+    },
+    "impact": {
+      "type": "enum",
+      "values": [
+        "none",
+        "technical_only",
+        "cost",
+        "time",
+        "cost_and_time"
+      ]
+    },
+    "cost_impact": {
+      "type": "number",
+      "unit": "EUR"
+    },
+    "follows": {
+      "type": "ref",
+      "to": "clarification",
+      "description": "earlier query this one follows up"
+    },
+    "changed_records": {
+      "type": "list",
+      "description": "entity/id of records changed as a result"
+    }
+  }
+}

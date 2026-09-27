@@ -88,6 +88,10 @@
     },
     "case_note": {
       "type": "text"
+    },
+    "price_history": {
+      "type": "text",
+      "description": "how the price evolved (agreed changes)"
     }
   }
 }

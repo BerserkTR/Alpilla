@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:17:25.194422Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:17:25.194422Z",
+    "updated_by": "OWNR"
+  },
+  "available_by": "2027-09-30",
+  "basis_refs": [
+    "source:SRC-OWNR-0005",
+    "source:SRC-OWNR-0007"
+  ],
+  "contract": "ALP-EPC-001",
+  "contractor_side": "Design, construction, operation and removal of the landing; marine works only 1 October - 30 April",
+  "id": "TP-M1",
+  "location": [
+    120000,
+    -40000,
+    1500
+  ],
+  "location_text": "Public coastal strip south of the plot",
+  "medium": "heavy transport",
+  "owner_side": "Coastal permit (application within 30 days of receiving the design)",
+  "service": "Temporary barge landing"
+}

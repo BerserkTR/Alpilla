@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.032615Z",
+    "created_by": "OWNR",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:25.151332Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0005"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "ER-02.14",
+  "section": "ER-02 Site conditions and design data",
+  "status": "contractual",
+  "text": "The Contractor is responsible for the transport of all plant to Site, including route surveys, permits for abnormal loads and temporary works, taking into account the 120 t bridge limits on the state road (ALP-OWN-GEN-001 section 3). Heavy components shall be landed through a temporary barge landing on the public coastal strip, designed, built, operated and removed by the Contractor; the Owner obtains the coastal permit (tie-in TP-M1).",
+  "title": "Access and transport",
+  "verification": "review"
+}

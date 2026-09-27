@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:16:19.309280Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:24.592423Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "requirement/ER-03.02",
+    "design_parameter/DP-CASE-0021"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "mechanical",
+  "id": "TQ-004",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "5 vol % without modification and with full guarantees; 10 vol % by future OEM retrofit, with provisions now (fuel system materials, gas detection, control system capacity).",
+  "question": "The offered DLN combustion system is released for 5 vol % hydrogen. 10 vol % requires an upgraded combustor set that will be available as a retrofit. ALP-OWN-FUL-001 says 10 % is not firm before 2035. Please confirm the requirement.",
+  "raised_by": "IEC",
+  "raised_date": "2026-09-18",
+  "references": [
+    "requirement:ER-03.02",
+    "source:SRC-OWNR-0003",
+    "design_parameter:DP-CASE-0021"
+  ],
+  "responded_by": "OWNER",
+  "response": "Accepted: 5 vol % hydrogen without modification and with all guarantees; 10 vol % by future OEM retrofit (not in the Contract Price) with provisions now as proposed.",
+  "response_date": "2026-09-22",
+  "round": 1,
+  "status": "closed",
+  "subject": "Hydrogen admixture up to 10 vol %"
+}

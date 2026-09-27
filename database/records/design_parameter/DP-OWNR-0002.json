@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.411180Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.411180Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0001",
+    "requirement:ER-02.11"
+  ],
+  "category": "ambient",
+  "condition": "coincident RH 88 %",
+  "id": "DP-OWNR-0002",
+  "parameter": "Winter design dry bulb (99.6 %)",
+  "status": "confirmed",
+  "unit": "degC",
+  "value": -4.8
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.418296Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.418296Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0003"
+  ],
+  "category": "fuel_gas",
+  "condition": "maximum",
+  "id": "DP-OWNR-0030",
+  "parameter": "Water dew point",
+  "status": "confirmed",
+  "unit": "degC at 70 barg",
+  "value": -8.0
+}

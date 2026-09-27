@@ -2,17 +2,20 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:09.697287Z",
     "created_by": "CASE",
-    "rev": 1,
-    "updated_at": "2026-09-27T16:48:09.697287Z",
-    "updated_by": "CASE"
+    "rev": 4,
+    "updated_at": "2026-09-27T17:17:24.472249Z",
+    "updated_by": "OWNR"
   },
-  "acceptance": "OEM confirmation of fuel range and H2 capability",
+  "acceptance": "OEM fuel specification compliance statement for the full range",
+  "basis_refs": [
+    "source:SRC-OWNR-0003"
+  ],
   "contract": "ALP-EPC-001",
   "discipline": "process",
   "id": "ER-03.02",
   "section": "ER-03 Fuel",
   "status": "contractual",
-  "text": "Reference composition (mol %): CH4 93.0, C2H6 3.5, C3H8 0.8, C4+ 0.3, N2 1.6, CO2 0.8; LHV 48.4 MJ/kg. The plant shall accept the full network range: LHV 45.0 MJ/kg to 50.0 MJ/kg, Wobbe index 47 MJ/Nm3 to 52 MJ/Nm3, H2S below 5 mg/Nm3, and hydrogen admixture up to 10 vol %.",
-  "title": "Fuel gas specification",
+  "text": "The plant shall operate on the full natural gas range of ALP-OWN-FUL-001 sections 2 to 4: CH4 85.0 to 98.5 mol %, C2H6 up to 7.0 %, C3H8 up to 2.5 %, C4 up to 1.0 %, C5+ up to 0.2 %, N2 up to 4.0 %, CO2 up to 2.5 %, O2 up to 0.02 %; LHV 44.2 MJ/kg to 50.0 MJ/kg (emission limits apply over the whole range; performance guarantees at the reference gas); Wobbe index (GCV) 47.2 MJ/Sm3 to 51.8 MJ/Sm3 with rate of change up to 1 %/min. Hydrogen admixture up to 5 vol % without modification and with all guarantees; provisions for 10 vol % by future OEM retrofit (fuel system materials, gas detection, control system capacity). Reference composition for guarantees: CH4 93.0, C2H6 3.5, C3H8 0.8, i-C4 0.15, n-C4 0.15, C5+ 0.05, N2 1.55, CO2 0.8 mol %; LHV 48.4 MJ/kg.",
+  "title": "Natural gas specification",
   "verification": "analysis"
 }

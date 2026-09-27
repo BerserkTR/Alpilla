@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.413723Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.413723Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0002"
+  ],
+  "category": "water",
+  "condition": "12 m depth, station M2",
+  "id": "DP-OWNR-0011",
+  "parameter": "Seawater temperature at intake - annual mean (measured)",
+  "status": "confirmed",
+  "unit": "degC",
+  "value": 15.4
+}

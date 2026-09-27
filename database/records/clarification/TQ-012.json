@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:16:19.660014Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:25.530070Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "tie_in/TP-A1",
+    "requirement/ER-02.01"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "TQ-012",
+  "impact": "none",
+  "outcome": "owner_to_provide",
+  "proposal": "Owner exercises the option and makes the 5 ha available free of charge from 2027-03-01 until Taking-Over; the Contractor restores it.",
+  "question": "The usable plot area is about 10.6 ha after setbacks, which is not enough for the power block, laydown, pre-assembly and contractor facilities. Will the Owner exercise its option on the 5 ha field north of the plot?",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-18",
+  "references": [
+    "requirement:ER-02.01",
+    "source:SRC-OWNR-0005"
+  ],
+  "responded_by": "OWNER",
+  "response": "Accepted: the Owner will exercise the option; the 5 ha field north of the plot is available free of charge from 2027-03-01 until Taking-Over; the Contractor restores it to its original condition.",
+  "response_date": "2026-09-22",
+  "round": 1,
+  "status": "closed",
+  "subject": "Construction laydown area"
+}

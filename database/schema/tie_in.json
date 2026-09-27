@@ -1,0 +1,80 @@
+{
+  "entity": "tie_in",
+  "title": "Tie-in / terminal point register (interface between Owner and Contractor scope)",
+  "id_pattern": "^TP-[A-Z]{1,3}[0-9]{1,2}$",
+  "display": [
+    "service",
+    "medium",
+    "size",
+    "location_text",
+    "owner_side"
+  ],
+  "fields": {
+    "contract": {
+      "type": "ref",
+      "to": "contract",
+      "required": true
+    },
+    "service": {
+      "type": "string",
+      "required": true
+    },
+    "medium": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "point",
+      "unit": "mm",
+      "description": "plant coordinates (E, N, EL)"
+    },
+    "location_text": {
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "type": "string"
+    },
+    "design_pressure": {
+      "type": "number",
+      "unit": "barg"
+    },
+    "design_temperature": {
+      "type": "number",
+      "unit": "degC"
+    },
+    "operating_conditions": {
+      "type": "text"
+    },
+    "owner_side": {
+      "type": "text",
+      "required": true,
+      "description": "what the Owner provides up to the tie-in"
+    },
+    "contractor_side": {
+      "type": "text",
+      "required": true,
+      "description": "what the Contractor provides from the tie-in"
+    },
+    "available_by": {
+      "type": "date",
+      "description": "date the Owner makes the tie-in available"
+    },
+    "scope_item": {
+      "type": "ref",
+      "to": "scope_item"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "reference",
+        "decision",
+        "requirement"
+      ]
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

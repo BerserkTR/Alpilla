@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:16:19.615194Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:25.377943Z",
+    "updated_by": "OWNR"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "TQ-011",
+  "impact": "none",
+  "outcome": "confirmed_as_is",
+  "proposal": "Owner targets 2027-02-28; our programme will not depend on it.",
+  "question": "Marine works are prohibited 1 May - 30 September (ALP-OWN-ENV-001). With the marine permit by 2027-04-30 (TP-CW1/CW2) the first usable window is October 2027 - April 2028, which must also carry the barge landing. Can the permit be obtained by 2027-02-28 to use part of the spring 2027 window?",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-18",
+  "references": [
+    "tie_in:TP-CW1",
+    "tie_in:TP-CW2",
+    "source:SRC-OWNR-0007"
+  ],
+  "responded_by": "OWNER",
+  "response": "The contractual marine permit date remains 2027-04-30. The Owner will target 2027-02-28 without commitment.",
+  "response_date": "2026-09-22",
+  "round": 1,
+  "status": "closed",
+  "subject": "Marine works window and marine permit date"
+}

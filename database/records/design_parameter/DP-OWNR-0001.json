@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.407403Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.407403Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0001",
+    "requirement:ER-02.11"
+  ],
+  "category": "ambient",
+  "condition": "coincident RH 48 %",
+  "id": "DP-OWNR-0001",
+  "parameter": "Summer design dry bulb (0.4 %)",
+  "status": "confirmed",
+  "unit": "degC",
+  "value": 32.8
+}

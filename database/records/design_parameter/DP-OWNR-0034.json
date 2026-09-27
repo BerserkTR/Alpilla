@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.419172Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.419172Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0004",
+    "requirement:ER-03.07"
+  ],
+  "category": "backup_fuel",
+  "condition": "range 42.6-43.2",
+  "id": "DP-OWNR-0034",
+  "parameter": "LDO LHV",
+  "status": "confirmed",
+  "unit": "MJ/kg",
+  "value": 42.9
+}

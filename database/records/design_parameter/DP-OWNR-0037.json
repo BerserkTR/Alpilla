@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.419932Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.419932Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0004",
+    "requirement:ER-03.07"
+  ],
+  "category": "backup_fuel",
+  "condition": "maximum",
+  "id": "DP-OWNR-0037",
+  "parameter": "LDO vanadium / lead / calcium at GT inlet",
+  "status": "confirmed",
+  "unit": "mg/kg",
+  "value_text": "0.5 / 1.0 / 2.0"
+}

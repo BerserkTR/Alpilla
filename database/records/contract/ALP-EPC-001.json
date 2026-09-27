@@ -2,9 +2,9 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:09.539600Z",
     "created_by": "CASE",
-    "rev": 1,
-    "updated_at": "2026-09-27T16:48:09.539600Z",
-    "updated_by": "CASE"
+    "rev": 2,
+    "updated_at": "2026-09-27T17:14:09.846393Z",
+    "updated_by": "OWNR"
   },
   "case_note": "CASE STUDY. All parties, names, prices and dates are fictional and created to exercise the project environment.",
   "contractor_parties": [
@@ -20,11 +20,12 @@
   "leader": "IEPC",
   "ntp_date": "2026-11-02",
   "owner": "OWNER",
-  "price": 515000000,
-  "price_offshore": 318000000,
-  "price_onshore": 197000000,
+  "price": 531000000,
+  "price_history": "EUR 515,000,000 initial negotiated price (gas only); +EUR 16,000,000 for LDO secondary fuel (dual-fuel GT and water injection EUR 9,000,000 offshore; LDO unloading, storage, forwarding and demin capacity EUR 7,000,000 onshore) = EUR 531,000,000 (Owner revision B).",
+  "price_offshore": 327000000,
+  "price_onshore": 204000000,
   "signature_date": "2026-10-15",
-  "status": "signed",
+  "status": "for_signature",
   "time_for_completion": 975,
   "title": "Engineering, Procurement and Construction Contract for the Alpilla 600 MW Combined Cycle Power Plant"
 }

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:11:46.217680Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:11:46.217680Z",
+    "updated_by": "OWNR"
+  },
+  "doc_ref": "ALP-OWN-MET-001",
+  "file": "sources/owner/ALP-OWN-MET-001_meteorological_data.md",
+  "id": "SRC-OWNR-0001",
+  "originator": "Alpilla Enerji Uretim A.S. (Owner)",
+  "received_date": "2026-09-10",
+  "remarks": "Owner-provided document (case study, fictional)",
+  "revision": "0",
+  "title": "Meteorological and ambient air data"
+}

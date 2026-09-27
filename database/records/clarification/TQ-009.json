@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:16:19.527186Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:25.241952Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "requirement/ER-02.14",
+    "tie_in/TP-M1"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "TQ-009",
+  "impact": "time",
+  "outcome": "owner_to_provide",
+  "proposal": "Contractor designs, builds and removes the landing at its cost (within ER-02.14); Owner applies for the coastal permit within 30 days of receiving the design and obtains it by 2027-09-30, so the landing is built in the Oct 2027 - Apr 2028 window.",
+  "question": "The GT (about 460 t), generators (about 330 t) and GSU transformers (about 280 t) cannot use the state road. We plan a temporary barge landing on the 60 m public coastal strip. ALP-OWN-GEN-001 says the Owner can apply for the coastal permit (about 6 months). Please confirm the Owner obtains the permit and the dates.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-18",
+  "references": [
+    "requirement:ER-02.14",
+    "source:SRC-OWNR-0005",
+    "source:SRC-OWNR-0007"
+  ],
+  "responded_by": "OWNER",
+  "response": "Confirmed: the Contractor designs, builds, operates and removes the temporary barge landing at its cost (ER-02.14). The Owner applies for the coastal permit within 30 days of receiving the Contractor's permit design and will use reasonable endeavours to obtain it by 2027-09-30. Please state when the permit design will be submitted.",
+  "response_date": "2026-09-22",
+  "round": 1,
+  "status": "answered",
+  "subject": "Heavy transport: no jetty, 120 t bridges"
+}

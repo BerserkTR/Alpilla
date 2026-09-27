@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:16:19.397794Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:24.730572Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "requirement/ER-03.08"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "mechanical",
+  "id": "TQ-006",
+  "impact": "technical_only",
+  "outcome": "requirement_changed",
+  "proposal": "Two tanks of 3,500 m3 net working volume each (about 4,000 m3 gross); no requirement to sustain operation beyond 72 h.",
+  "question": "72 h at base load on LDO is about 6,900 m3 (two tanks of about 3,500 m3 net). The supplier's maximum of 25 trucks/day (about 825 m3/day) covers only about 36 % of base-load consumption. Please confirm that the plant is not required to run beyond the storage autonomy, and that 'net working volume' excludes heel and fire-fighting reserves.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-18",
+  "references": [
+    "requirement:ER-03.08",
+    "source:SRC-OWNR-0004",
+    "tie_in:TP-L1"
+  ],
+  "responded_by": "OWNER",
+  "response": "Confirmed: two tanks of 3,500 m3 net working volume each (heel and fire-fighting reserves in addition); the plant is not required to operate beyond the storage autonomy.",
+  "response_date": "2026-09-22",
+  "round": 1,
+  "status": "closed",
+  "subject": "LDO storage volume and resupply rate"
+}

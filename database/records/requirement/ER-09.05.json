@@ -2,9 +2,9 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:09.710066Z",
     "created_by": "CASE",
-    "rev": 1,
-    "updated_at": "2026-09-27T16:48:09.710066Z",
-    "updated_by": "CASE"
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:25.060033Z",
+    "updated_by": "OWNR"
   },
   "acceptance": "Effluent within permit limits",
   "contract": "ALP-EPC-001",
@@ -12,7 +12,7 @@
   "id": "ER-09.05",
   "section": "ER-09 Water treatment and effluents",
   "status": "contractual",
-  "text": "Neutralisation, oil separation and treatment so that effluents meet the Turkish Water Pollution Control Regulation discharge limits before the outfall.",
+  "text": "Neutralisation, oil separation and treatment of process wastewater, and a packaged biological treatment plant with UV disinfection for sanitary wastewater (no municipal sewer), so that all effluents meet the Turkish Water Pollution Control Regulation sea-discharge limits before the outfall.",
   "title": "Waste water",
   "verification": "test"
 }

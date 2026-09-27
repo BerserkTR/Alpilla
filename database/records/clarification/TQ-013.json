@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:16:19.706769Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:25.619657Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "requirement/ER-02.10"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "mechanical",
+  "id": "TQ-013",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "Filter design report with OEM confirmation, plus an Na+K air sampler downstream of the filters with 12 months of data reported during the Defects Notification Period.",
+  "question": "ER-02.10 requires Na+K at the compressor inlet within the OEM limit at the storm maximum (165 ug/m3). This cannot be tested on demand. Please accept verification by analysis plus monitoring.",
+  "raised_by": "IEC",
+  "raised_date": "2026-09-18",
+  "references": [
+    "requirement:ER-02.10",
+    "source:SRC-OWNR-0001"
+  ],
+  "responded_by": "OWNER",
+  "response": "Accepted as proposed: verification by filter design report with OEM confirmation plus 12 months of Na+K air sampling downstream of the filters, reported during the Defects Notification Period.",
+  "response_date": "2026-09-22",
+  "round": 1,
+  "status": "closed",
+  "subject": "Verification of salt removal at the GT air inlet"
+}

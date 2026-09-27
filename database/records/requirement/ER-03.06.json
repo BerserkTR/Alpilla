@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.033617Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.033617Z",
+    "updated_by": "OWNR"
+  },
+  "acceptance": "Gas conditioning design and commissioning samples within limits",
+  "basis_refs": [
+    "source:SRC-OWNR-0003"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-03.06",
+  "section": "ER-03 Fuel",
+  "status": "contractual",
+  "text": "At the gas turbine fuel skid inlet the gas shall meet the OEM limits and at least: total sulphur <= 30 mg S/Sm3; H2S + COS <= 5 mg/Sm3; mercury <= 1 ug/Sm3; sodium + potassium, lead, vanadium and calcium within the OEM trace-metal limits (network data below 0.005 mg/Sm3, not guaranteed by the network operator); no free liquids; particulates removed to the OEM limit (coalescing filter-separators, 3 um absolute final filtration); superheat at least 28 K above the hydrocarbon and water dew points at all loads. The Contractor shall provide continuous monitoring of H2S and total sulphur and periodic sampling points for trace metals and mercury.",
+  "title": "Natural gas contaminant limits",
+  "verification": "test"
+}

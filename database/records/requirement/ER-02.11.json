@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.030775Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.030775Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0001"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "hvac",
+  "id": "ER-02.11",
+  "section": "ER-02 Site conditions and design data",
+  "status": "contractual",
+  "text": "HVAC and cooling design: summer 0.4 % 32.8 degC / 48 % RH; freeze protection and heating: winter 99.6 % -4.8 degC; performance test ambient range 5 degC to 30 degC (ALP-OWN-MET-001 sections 3 and 7). Heat tracing for all outdoor water-filled lines and instruments.",
+  "title": "Design ambient points",
+  "verification": "review"
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:11:46.219608Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:11:46.219608Z",
+    "updated_by": "OWNR"
+  },
+  "doc_ref": "ALP-OWN-GEO-001",
+  "file": "sources/owner/ALP-OWN-GEO-001_geotechnical_baseline.md",
+  "id": "SRC-OWNR-0008",
+  "originator": "Alpilla Enerji Uretim A.S. (Owner)",
+  "received_date": "2026-09-05",
+  "remarks": "Owner-provided document (case study, fictional)",
+  "revision": "0",
+  "title": "Geotechnical baseline summary"
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.417278Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.417278Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0003",
+    "requirement:ER-03.06"
+  ],
+  "category": "fuel_gas",
+  "id": "DP-OWNR-0026",
+  "parameter": "H2S + COS limit",
+  "status": "confirmed",
+  "unit": "mg/Sm3",
+  "value": 5.0
+}

@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:16:19.354390Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:24.642878Z",
+    "updated_by": "OWNR"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "mechanical",
+  "id": "TQ-005",
+  "impact": "none",
+  "outcome": "rejected",
+  "proposal": "Treatment is needed: 2 x 100 % centrifugal separators with water washing. Not in our price (the tender was based on on-spec fuel): EUR 1,900,000.",
+  "question": "ER-03.07 requires Na+K <= 0.5 mg/kg at the GT inlet; ALP-OWN-FUL-002 says delivered LDO may contain up to 1.0 mg/kg and has reached 1.8 mg/kg. ER-03.09 asks for treatment 'if needed'. Is the Owner's intent that treatment is always included?",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-18",
+  "references": [
+    "requirement:ER-03.07",
+    "requirement:ER-03.09",
+    "source:SRC-OWNR-0004",
+    "scope_item:SC-053"
+  ],
+  "responded_by": "OWNER",
+  "response": "Rejected. ALP-OWN-FUL-002 was part of the tender documents and states the delivered quality (Na+K up to 1.0 mg/kg, history 1.8 mg/kg). ER-03.09 requires treatment where needed to meet ER-03.07; an experienced contractor would have foreseen the need. No price adjustment.",
+  "response_date": "2026-09-22",
+  "round": 1,
+  "status": "answered",
+  "subject": "LDO alkali metals: delivered 1.0 mg/kg (history 1.8) vs 0.5 mg/kg at GT inlet"
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.423328Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.423328Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0006"
+  ],
+  "category": "grid",
+  "condition": "40 MW import",
+  "id": "DP-OWNR-0051",
+  "parameter": "Connection capacity",
+  "status": "confirmed",
+  "unit": "MW export",
+  "value": 640.0
+}

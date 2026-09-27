@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.034163Z",
+    "created_by": "OWNR",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:24.686856Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0004"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "mechanical",
+  "id": "ER-03.08",
+  "section": "ER-03 Fuel",
+  "status": "contractual",
+  "text": "Road tanker unloading station with 4 bays (metering, strainers, spill containment, earthing), and two vertical fixed-roof storage tanks each of 3,500 m3 net working volume (together 72 hours of base-load operation on LDO; heel and fire-fighting reserves in addition), in a bund of 110 % of the largest tank, with foam fire protection per NFPA 11 and NFPA 30, level/leak monitoring and water draw-off. Operation beyond the storage autonomy is not required (resupply is limited to 25 trucks/day).",
+  "title": "LDO unloading and storage",
+  "verification": "inspection"
+}

@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.037981Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.037981Z",
+    "updated_by": "OWNR"
+  },
+  "acceptance": "PG-15, PG-16, PG-17, PG-18 demonstrated",
+  "basis_refs": [
+    "source:SRC-OWNR-0004"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "commissioning",
+  "guarantee": "PG-15",
+  "id": "ER-16.08",
+  "section": "ER-16 Commissioning and Tests on Completion",
+  "status": "contractual",
+  "text": "Performance test on LDO (24 h, corrected to SRC), emission tests on LDO, automatic fuel transfer tests and a start on LDO.",
+  "title": "Tests on LDO",
+  "verification": "test"
+}

@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:16:19.849157Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:25.854211Z",
+    "updated_by": "OWNR"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "TQ-016",
+  "impact": "none",
+  "outcome": "rejected",
+  "proposal": "Owner to relocate by 2027-02-28; otherwise we re-sequence the east area works.",
+  "question": "The 11 kV cable along the east boundary is relocated only by 2027-06-30 (ALP-OWN-GEN-001). Our layout places the LDO tank farm and warehouse in the east. Can the relocation be completed by 2027-02-28?",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-18",
+  "references": [
+    "requirement:ER-02.13",
+    "source:SRC-OWNR-0005"
+  ],
+  "responded_by": "OWNER",
+  "response": "Not possible: the relocation is carried out by the regional utility and 2027-06-30 is its committed date. The Contractor shall sequence the east-area works accordingly.",
+  "response_date": "2026-09-22",
+  "round": 1,
+  "status": "closed",
+  "subject": "Relocation of the buried 11 kV cable"
+}

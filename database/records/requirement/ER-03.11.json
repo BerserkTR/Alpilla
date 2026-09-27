@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.034858Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.034858Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0004",
+    "source:SRC-OWNR-0007"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "guarantee": "PG-17",
+  "id": "ER-03.11",
+  "section": "ER-03 Fuel",
+  "status": "contractual",
+  "text": "NOx on LDO shall be controlled by water injection (demineralised water) and the SCR; the SCR and ammonia system shall be designed for LDO operation (sulphur 10 mg/kg, ammonium bisulphate risk at the cold end).",
+  "title": "NOx control and SCR on LDO",
+  "verification": "test"
+}

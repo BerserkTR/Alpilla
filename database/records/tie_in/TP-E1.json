@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.265905Z",
+    "created_by": "OWNR",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:25.286774Z",
+    "updated_by": "OWNR"
+  },
+  "available_by": "2028-07-15",
+  "basis_refs": [
+    "source:SRC-OWNR-0005"
+  ],
+  "contract": "ALP-EPC-001",
+  "contractor_side": "Gantry, GIS switchyard, protection and metering",
+  "id": "TP-E1",
+  "location": [
+    30000,
+    290000,
+    15000
+  ],
+  "location_text": "Line gantry at the north-west corner",
+  "medium": "electricity",
+  "operating_conditions": "360-410 kV; SCL 12-40 kA",
+  "owner_side": "Double-circuit 380 kV OHL up to the dead-end tower, conductors to the gantry",
+  "scope_item": "SC-030",
+  "service": "Grid connection 380 kV",
+  "size": "380 kV, 2 circuits"
+}

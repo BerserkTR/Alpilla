@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.035694Z",
+    "created_by": "OWNR",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:25.669816Z",
+    "updated_by": "OWNR"
+  },
+  "acceptance": "Design requirement (condenser datasheet and HEI calculation); contractual compliance through PG-02; ASME PTC 12.2 test for information",
+  "basis_refs": [
+    "source:SRC-OWNR-0002"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-07.08",
+  "section": "ER-07 Steam turbine and condenser",
+  "status": "contractual",
+  "text": "Design condenser pressure at base load and Site Reference Conditions (seawater 16.0 degC, 7 K rise): not more than 36 mbar(a). At the maximum seawater temperature (27.0 degC) the plant shall run at base load without load limitation; the back-pressure shall stay within the steam turbine continuous limits with margin to the alarm value.",
+  "title": "Condenser pressure",
+  "verification": "test"
+}

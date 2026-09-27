@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.034610Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.034610Z",
+    "updated_by": "OWNR"
+  },
+  "acceptance": "Automatic transfer demonstrated at 50 % and 100 % load",
+  "basis_refs": [
+    "source:SRC-OWNR-0004"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "i_and_c",
+  "guarantee": "PG-18",
+  "id": "ER-03.10",
+  "section": "ER-03 Fuel",
+  "status": "contractual",
+  "text": "Automatic transfer from gas to LDO on loss of gas supply pressure, from any load between minimum environmental load and base load, without unit trip; manual on-load transfer back to gas; black start is not required but start-up on LDO with grid power shall be possible. Purging and liquid fuel system recirculation to avoid coking during gas operation.",
+  "title": "Fuel transfer and LDO start",
+  "verification": "demonstration"
+}

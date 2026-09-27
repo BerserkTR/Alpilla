@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.421715Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.421715Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0005",
+    "requirement:ER-02.01"
+  ],
+  "category": "site",
+  "condition": "12.0 ha; usable about 10.6 ha",
+  "id": "DP-OWNR-0044",
+  "parameter": "Plot dimensions",
+  "status": "confirmed",
+  "unit": "m",
+  "value_text": "400 x 300"
+}

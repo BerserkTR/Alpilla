@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:16:19.217519Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:24.377119Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "requirement/ER-03.02",
+    "design_parameter/DP-CASE-0019"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "TQ-002",
+  "impact": "technical_only",
+  "outcome": "requirement_changed",
+  "proposal": "Plant to operate and meet emission limits over 44.2-50.0 MJ/kg (the Wobbe range 47.2-51.8 is within the combustion system capability); performance guarantees remain at the reference gas.",
+  "question": "ER-03.02 requires operation for LHV 45.0-50.0 MJ/kg; ALP-OWN-FUL-001 shows 44.2 MJ/kg for 3 % of hours (high N2/CO2 gas). Must the plant operate, and meet guarantees and emissions, below 45.0 MJ/kg?",
+  "raised_by": "IEC",
+  "raised_date": "2026-09-18",
+  "references": [
+    "requirement:ER-03.02",
+    "source:SRC-OWNR-0003",
+    "design_parameter:DP-CASE-0019"
+  ],
+  "responded_by": "OWNER",
+  "response": "Accepted. The plant shall operate and meet the emission limits for LHV 44.2-50.0 MJ/kg; performance guarantees apply at the reference gas with corrections per the agreed curves.",
+  "response_date": "2026-09-22",
+  "round": 1,
+  "status": "closed",
+  "subject": "Gas LHV range: 45.0 MJ/kg (contract) vs 44.2 MJ/kg (network data)"
+}

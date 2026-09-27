@@ -2,16 +2,19 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:09.709273Z",
     "created_by": "CASE",
-    "rev": 1,
-    "updated_at": "2026-09-27T16:48:09.709273Z",
-    "updated_by": "CASE"
+    "rev": 2,
+    "updated_at": "2026-09-27T17:13:57.037076Z",
+    "updated_by": "OWNR"
   },
+  "basis_refs": [
+    "source:SRC-OWNR-0002"
+  ],
   "contract": "ALP-EPC-001",
   "discipline": "process",
   "id": "ER-09.01",
   "section": "ER-09 Water treatment and effluents",
   "status": "contractual",
-  "text": "Seawater reverse osmosis (2x100 %) producing service and demineralisation feed water; no groundwater abstraction.",
+  "text": "Seawater reverse osmosis (2 x 100 %) with ultrafiltration pre-treatment (raw SDI15 > 5), designed for the upper-layer quality of ALP-OWN-MAR-001 including boron removal for demineralisation feed.",
   "title": "Raw water",
   "verification": "test"
 }

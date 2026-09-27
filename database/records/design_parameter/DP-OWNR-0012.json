@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.414144Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.414144Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0002"
+  ],
+  "category": "water",
+  "condition": "August",
+  "id": "DP-OWNR-0012",
+  "parameter": "Seawater temperature at intake - maximum",
+  "status": "confirmed",
+  "unit": "degC",
+  "value": 27.0
+}

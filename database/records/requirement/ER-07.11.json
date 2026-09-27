@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.036307Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.036307Z",
+    "updated_by": "OWNR"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-07.11",
+  "section": "ER-07 Steam turbine and condenser",
+  "status": "contractual",
+  "text": "Circulating water flow for the design heat duty at 7 K rise (indicatively 43,000 m3/h to 47,000 m3/h, to be confirmed by the Contractor); CW system hydraulic transient analysis including pump trip and valve closure.",
+  "title": "Circulating water flow",
+  "verification": "analysis"
+}

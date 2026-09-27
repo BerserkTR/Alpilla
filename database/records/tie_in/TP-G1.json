@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.260086Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.260086Z",
+    "updated_by": "OWNR"
+  },
+  "available_by": "2028-06-30",
+  "basis_refs": [
+    "source:SRC-OWNR-0005"
+  ],
+  "contract": "ALP-EPC-001",
+  "contractor_side": "Gas receiving and metering station from the inlet flange",
+  "design_pressure": 75,
+  "design_temperature": 50,
+  "id": "TP-G1",
+  "location": [
+    380000,
+    300000,
+    14000
+  ],
+  "location_text": "North-east plot corner, flange at EL +14.0",
+  "medium": "natural gas",
+  "operating_conditions": "45-70 barg normal/minimum, 40 barg exceptional (72 h/year); 5-25 degC; 115,000 Sm3/h firm",
+  "owner_side": "16-inch spur line (4.5 km), tap valve station, isolation valve and insulating joint",
+  "scope_item": "SC-028",
+  "service": "Natural gas supply",
+  "size": "16 in (DN400), CL600"
+}

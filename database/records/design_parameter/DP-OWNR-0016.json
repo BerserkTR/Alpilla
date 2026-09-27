@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.415056Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.415056Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0002"
+  ],
+  "category": "water",
+  "id": "DP-OWNR-0016",
+  "parameter": "Pycnocline depth",
+  "status": "confirmed",
+  "unit": "m",
+  "value_text": "20 to 25"
+}

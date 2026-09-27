@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.422349Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.422349Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0008"
+  ],
+  "category": "site",
+  "condition": "brackish, chloride 3,000-8,000 mg/l",
+  "id": "DP-OWNR-0047",
+  "parameter": "Groundwater level",
+  "status": "confirmed",
+  "unit": "m a.s.l.",
+  "value": 13.5
+}

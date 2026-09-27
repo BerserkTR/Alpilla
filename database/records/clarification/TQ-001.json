@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:16:19.166258Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:24.237058Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "requirement/ER-02.03"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "TQ-001",
+  "impact": "none",
+  "outcome": "confirmed_as_is",
+  "proposal": "Keep 16.0 degC as the contractual reference (our guarantees are priced on it); the measured data is used for the condenser/CW design range only.",
+  "question": "ER-02.03 and ER-07.08 fix the Site Reference seawater temperature at 16.0 degC. ALP-OWN-MAR-001 section 3 gives a measured annual mean of 15.4 degC at the intake depth. Which value is the contractual reference for PG-01/PG-02 and the condenser design?",
+  "raised_by": "IEC",
+  "raised_date": "2026-09-18",
+  "references": [
+    "requirement:ER-02.03",
+    "requirement:ER-07.08",
+    "source:SRC-OWNR-0002",
+    "design_parameter:DP-CASE-0014"
+  ],
+  "responded_by": "OWNER",
+  "response": "Confirmed: 16.0 degC remains the contractual Site Reference seawater temperature for all guarantees. The measured data in ALP-OWN-MAR-001 (annual mean 15.4 degC, range 6.9-27.0 degC) is the design range for the condenser and CW system. ER-02.03 is annotated accordingly.",
+  "response_date": "2026-09-22",
+  "round": 1,
+  "status": "closed",
+  "subject": "Site Reference seawater temperature 16.0 degC vs measured 15.4 degC"
+}

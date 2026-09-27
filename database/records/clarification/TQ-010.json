@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:16:19.571827Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:25.331303Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "tie_in/TP-E1"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "electrical",
+  "id": "TQ-010",
+  "impact": "none",
+  "outcome": "owner_to_provide",
+  "proposal": "Owner to make TP-E1 available by 2028-07-15, or the key dates KD-010 to KD-040 move by about 2.5 months.",
+  "question": "Key date KD-010 (back-feed, 2028-08-02) and first fire KD-020 (2028-10-02) need the 380 kV line, which ALP-OWN-ELE-001 and TP-E1 give as ready on 2028-09-30. Please advance the line or move the key dates.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-18",
+  "references": [
+    "tie_in:TP-E1",
+    "source:SRC-OWNR-0006",
+    "contract_clause:ALP-EPC-001_9.4"
+  ],
+  "responded_by": "OWNER",
+  "response": "The Owner will accelerate its 380 kV line contract: TP-E1 will be available by 2028-07-15. The key dates remain unchanged.",
+  "response_date": "2026-09-22",
+  "round": 1,
+  "status": "answered",
+  "subject": "380 kV line readiness 2028-09-30 is after the back-feed key date 2028-08-02"
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.030452Z",
+    "created_by": "OWNR",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:25.574390Z",
+    "updated_by": "OWNR"
+  },
+  "acceptance": "Filter design report with OEM confirmation (Na+K at compressor inlet below OEM limit at 165 ug/m3 NaCl); Na+K air sampler downstream of the filters with 12 months of data reported during the Defects Notification Period",
+  "basis_refs": [
+    "source:SRC-OWNR-0001"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "mechanical",
+  "id": "ER-02.10",
+  "section": "ER-02 Site conditions and design data",
+  "status": "contractual",
+  "text": "The plant shall be designed for the airborne contaminants in ALP-OWN-MET-001 section 6: sea-salt aerosol up to 165 ug/m3 (as NaCl) during lodos storms, chloride deposition up to 420 mg/m2 per day, PM10 up to 260 ug/m3. The gas turbine inlet air filtration shall keep sodium plus potassium at the compressor inlet within the OEM limit for all these conditions, including high-humidity and fog (coalescer/droplet separator stage upstream of the fine filters, hydrophobic final filters of class E12 or better). Outdoor electrical equipment: creepage distance for very heavy pollution (IEC 60815, 31 mm/kV).",
+  "title": "Airborne salt and dust",
+  "verification": "analysis"
+}

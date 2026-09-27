@@ -2,18 +2,21 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:09.720790Z",
     "created_by": "CASE",
-    "rev": 1,
-    "updated_at": "2026-09-27T16:48:09.720790Z",
-    "updated_by": "CASE"
+    "rev": 2,
+    "updated_at": "2026-09-27T17:13:57.037699Z",
+    "updated_by": "OWNR"
   },
   "acceptance": "Within guaranteed limits",
+  "basis_refs": [
+    "source:SRC-OWNR-0007"
+  ],
   "contract": "ALP-EPC-001",
   "discipline": "hse",
   "guarantee": "PG-04",
   "id": "ER-14.02",
   "section": "ER-14 Environment, health and safety",
   "status": "contractual",
-  "text": "NOx <= 30 mg/Nm3 and CO <= 30 mg/Nm3 (dry, 15 % O2) between 50 % and 100 % GT load; NH3 slip <= 5 mg/Nm3.",
+  "text": "Natural gas: NOx <= 30 mg/Nm3, CO <= 30 mg/Nm3, NH3 slip <= 5 mg/Nm3. LDO: NOx <= 50 mg/Nm3, CO <= 50 mg/Nm3, SO2 <= 10 mg/Nm3, dust <= 5 mg/Nm3, NH3 slip <= 5 mg/Nm3. All dry, 15 % O2, 50 % to 100 % GT load (ALP-OWN-ENV-001 section 1).",
   "title": "Air emissions",
   "verification": "test"
 }

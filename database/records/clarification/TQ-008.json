@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:16:19.483039Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:17:25.106381Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "scope_item/SC-043",
+    "scope_item/SC-057",
+    "tie_in/TP-S1",
+    "requirement/ER-09.05"
+  ],
+  "contract": "ALP-EPC-001",
+  "cost_impact": 350000,
+  "discipline": "civil",
+  "id": "TQ-008",
+  "impact": "cost",
+  "outcome": "price_adjustment",
+  "proposal": "Contractor provides a packaged sanitary treatment plant (biological + UV), discharge through the outfall within EIA limits; EUR 350,000.",
+  "question": "SC-043 assigns 'potable water and sewage connections at site boundary' to the Owner, but ALP-OWN-GEN-001 states that no sewer is available (TP-S1). Who provides sanitary wastewater treatment and discharge?",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-18",
+  "references": [
+    "scope_item:SC-043",
+    "tie_in:TP-S1",
+    "source:SRC-OWNR-0005",
+    "source:SRC-OWNR-0007"
+  ],
+  "responded_by": "OWNER",
+  "response": "Accepted: the Owner provides potable water only. The Contractor provides a packaged sanitary wastewater treatment plant with discharge through the outfall within the EIA limits; EUR 350,000 accepted.",
+  "response_date": "2026-09-22",
+  "round": 1,
+  "status": "closed",
+  "subject": "Sanitary wastewater: no municipal sewer at the Site"
+}

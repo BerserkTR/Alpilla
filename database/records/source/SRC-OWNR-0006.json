@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:11:46.219179Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:11:46.219179Z",
+    "updated_by": "OWNR"
+  },
+  "doc_ref": "ALP-OWN-ELE-001",
+  "file": "sources/owner/ALP-OWN-ELE-001_grid_connection_data.md",
+  "id": "SRC-OWNR-0006",
+  "originator": "Alpilla Enerji Uretim A.S. (Owner)",
+  "received_date": "2026-09-11",
+  "remarks": "Owner-provided document (case study, fictional)",
+  "revision": "0",
+  "title": "Grid connection data"
+}

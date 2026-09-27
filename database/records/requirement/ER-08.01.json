@@ -2,16 +2,19 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:09.707549Z",
     "created_by": "CASE",
-    "rev": 1,
-    "updated_at": "2026-09-27T16:48:09.707549Z",
-    "updated_by": "CASE"
+    "rev": 2,
+    "updated_at": "2026-09-27T17:13:57.036601Z",
+    "updated_by": "OWNR"
   },
+  "basis_refs": [
+    "source:SRC-OWNR-0002"
+  ],
   "contract": "ALP-EPC-001",
   "discipline": "civil",
   "id": "ER-08.01",
   "section": "ER-08 Cooling water system",
   "status": "contractual",
-  "text": "Offshore submerged intake head with velocity cap (intake velocity <= 0.15 m/s), intake pipelines, pump house, and outfall with diffuser.",
+  "text": "Offshore intake head above the pycnocline at about -12 m (at least 3 m above seabed, about 650 m offshore) with velocity cap and intake velocity <= 0.15 m/s; intake pipelines; pump house; outfall diffuser at least 250 m from the intake discharging into the upper layer (ALP-OWN-MAR-001 section 6).",
   "title": "Once-through seawater cooling",
   "verification": "inspection"
 }

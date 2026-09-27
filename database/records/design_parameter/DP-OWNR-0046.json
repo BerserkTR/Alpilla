@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.422149Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.422149Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0005"
+  ],
+  "category": "site",
+  "condition": "400 t quay crane",
+  "id": "DP-OWNR-0046",
+  "parameter": "Distance to heavy-lift port",
+  "status": "confirmed",
+  "unit": "km by sea",
+  "value": 18.0
+}

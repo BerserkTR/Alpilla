@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:13:57.155759Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:13:57.155759Z",
+    "updated_by": "OWNR"
+  },
+  "area": "Fuel oil",
+  "commission": "IEPC",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-053",
+  "install": "IEPC",
+  "item": "LDO forwarding pumps, filters, metering, fuel treatment (if required)",
+  "supply": "IEPC",
+  "terminal_point": "GT liquid fuel skid inlet flange"
+}
