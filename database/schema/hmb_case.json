@@ -99,6 +99,14 @@
       "unit": "%",
       "description": "casing heat loss, % of gas-side duty"
     },
+    "check_refs": {
+      "type": "ref_list",
+      "to": [
+        "guarantee",
+        "design_parameter"
+      ],
+      "description": "limits the HMB is checked against; metric by unit: guarantee MW/kJ/kWh (Owner contract: net, internal agreement: gross or GT), K (CW rise), mbar(a) (condenser); design_parameter % of gross (aux), MJ/kg (fuel LHV), Sm3/h (gas booking), MW export (grid capacity), mbar(a)"
+    },
     "status": {
       "type": "enum",
       "values": [

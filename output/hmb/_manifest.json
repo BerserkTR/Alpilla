@@ -1,0 +1,28 @@
+{
+  "db_hash": "128ff9a46c84b0e9",
+  "engine": "hmb",
+  "engine_version": "1.0.0",
+  "files": {
+    "ALP-HMB-SRC-NG-100.dxf": "571c0f650bdbc52d93e1fe5ae45590f0f9141eacc7549b040c45a4681ac88c39",
+    "ALP-HMB-SRC-NG-100.pdf": "06149adc803c91a16fca568c62fa5e3a4fdb551e4120e71b55bd1eb102fc0cab",
+    "ALP-HMB-SRC-NG-100.xlsx": "6ee2c6f1881d822f8de8d46b3896fc67ec3871e15a0c65b44c0c781501d08a13"
+  },
+  "generated_at": "2026-09-27T18:41:41.212005Z",
+  "generated_by": "SETUP",
+  "git_commit": "82ca71f",
+  "inputs": [
+    "aux_load",
+    "contract",
+    "design_parameter",
+    "guarantee",
+    "hmb_case",
+    "process_stream",
+    "project"
+  ],
+  "inputs_hash": "da71aa80b69aab07",
+  "options": {},
+  "warnings": [
+    "SRC-NG-100: fuel LHV from the composition (ISO 6976) 47.48 MJ/kg vs DP-CASE-0018 48.4 MJ/kg (-1.90 %)",
+    "SRC-NG-100: guarantee cover: at IG-01/IG-02 limits and this HMB's auxiliaries the net plant is 601.8 MW / 5,862 kJ/kWh vs Owner PG-01 600 MW / PG-02 5,860 kJ/kWh"
+  ]
+}
