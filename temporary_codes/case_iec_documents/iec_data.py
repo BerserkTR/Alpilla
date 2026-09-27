@@ -108,6 +108,18 @@ def part_load():
     return rows
 
 
+PIPING_EPC = {  # EPC preliminary piping design (TQ-IEC-003): pressure / temperature drops HRSG -> ST
+    "P": {"HP_st_in": 181.5, "IP_st_in": 36.2, "LP_st_in": 5.05, "RH_in": 39.5},
+    "T": {"HP_st_in": 598.5, "IP_st_in": 598.5}, "dT_lp": 1.0}
+
+
+def apply_variant(name):
+    if name == "revA":
+        m.P.update(PIPING_EPC["P"])
+        m.T.update(PIPING_EPC["T"])
+        m.T["dT_lp"] = PIPING_EPC["dT_lp"]
+
+
 def build():
     g, c, streams, extra = src_case()
     f = g["fuel"]
@@ -135,6 +147,8 @@ def build():
 
 
 if __name__ == "__main__":
+    if len(sys.argv) > 2:
+        apply_variant(sys.argv[2])
     d = build()
     Path(sys.argv[1]).write_text(json.dumps(d, indent=1, default=float))
     p = d["perf"]

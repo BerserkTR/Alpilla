@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:45:28.117082Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-27T18:46:26.539787Z",
+    "updated_by": "EPCE"
+  },
+  "contract": "ALP-CA-001",
+  "discipline": "piping",
+  "id": "TQ-IEC-003",
+  "impact": "technical_only",
+  "outcome": "follow_up_required",
+  "proposal": "IEC issues PER-001 Rev A with the EPC piping values as the expected case; guarantee corrections for piping pressure drop by curve.",
+  "question": "PER-001 section 1 assumes HP 7.0 bar / 3 K, hot reheat 1.6 bar / 3 K, cold reheat 0.8 bar / 1 K, LP 0.45 bar / 2 K between HRSG and ST. The EPC HMB node balance shows these temperature drops imply 0.96 MW of piping heat loss; the EPC preliminary piping design (P91, 250 mm mineral wool) gives about 0.35 MW. EPC values: HP 5.5 bar / 1.5 K, HRH 1.4 bar / 1.5 K, CRH 0.7 bar / 1 K, LP 0.35 bar / 1 K. Please revise PER-001 with the EPC values or give the correction curves.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-27",
+  "references": [
+    "process_stream:SRC-NG-100_6",
+    "process_stream:SRC-NG-100_7",
+    "process_stream:SRC-NG-100_11",
+    "process_stream:SRC-NG-100_12",
+    "scope_item:DR-018",
+    "source:SRC-EPCE-0001"
+  ],
+  "responded_by": "IEC",
+  "response": "IEC agrees to use the EPC piping values as the expected case and will issue PER-001 Rev A. Guarantee correction for piping pressure drop: +1 bar HP = -0.10 MW, +0.1 bar hot reheat = -0.12 MW, +0.1 bar LP = -0.04 MW ST output.",
+  "response_date": "2026-09-27",
+  "round": 1,
+  "status": "closed",
+  "subject": "Steam piping pressure and temperature drop assumptions"
+}

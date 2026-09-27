@@ -38,6 +38,7 @@ class HeatMassBalance(Engine):
     version = "1.0.0"
     inputs = ["project", "hmb_case", "process_stream", "aux_load", "guarantee", "design_parameter", "contract"]
     formats = ["dxf", "pdf", "xlsx"]
+    code_deps = ["engine/core/hmb.py", "engine/core/thermo.py", "engine/core/dxfkit.py", "templates/hmb"]
 
     def run(self, ctx: Context):
         s = ctx.store

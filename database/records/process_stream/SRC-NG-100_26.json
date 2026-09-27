@@ -2,19 +2,19 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:27.665911Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-27T18:29:57.848265Z",
+    "rev": 3,
+    "updated_at": "2026-09-27T18:46:26.296206Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
-    "source:SRC-EPCE-0001"
+    "source:SRC-IECE-0001"
   ],
   "description": "Circulating seawater from condenser outlet",
   "fluid": "seawater",
   "from_node": "COND",
   "hmb_case": "SRC-NG-100",
   "id": "SRC-NG-100_26",
-  "mass_flow": 10179.1,
+  "mass_flow": 10181.4,
   "number": 26,
   "pressure": 1.7,
   "status": "preliminary",

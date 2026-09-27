@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:46:26.765631Z",
+    "created_by": "IECE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:46:26.765631Z",
+    "updated_by": "IECE"
+  },
+  "category": "performance",
+  "conditions": "SRC, sliding pressure, new and clean, per IEC-ALP-PER-001 Rev A section 7",
+  "contract": "ALP-CA-001",
+  "direction": "max",
+  "guaranteed_value": 6060.0,
+  "id": "IG-07",
+  "parameter": "Power island gross heat rate (LHV) at the GT load for 60 % plant net load",
+  "test_procedure": "ASME PTC 46 within the plant part-load test",
+  "unit": "kJ/kWh"
+}

@@ -5,6 +5,21 @@
 Read before working. Add a lesson whenever something went wrong or a better way was found:
 `python -m engine db add lesson --set title="..." --set lesson="..." --reason "..."`
 
+### L-SETUP-0008 (2026-09-27) Output staleness must follow code changes, and field names must not be SQL keywords [engine, tooling, database]
+- Context: An engine edit without a version bump left outputs looking current; a field named 'case' broke db list --where
+- Lesson: Manifests now carry a code fingerprint (engine module + code_deps); SQL errors are reported cleanly
+- Action: Declare code_deps (core modules, templates) on engines that use them; avoid SQL keywords (case, order, group, constraint) as field names
+
+### L-SETUP-0007 (2026-09-27) Recompute vendor heat balances independently and check every node [hmb, vendor, process]
+- Context: Recomputing the IEC heat balance node by node showed the piping temperature drops assumed by IEC implied 0.96 MW heat loss (EPC design 0.35 MW), and that the Owner reference LHV (48.4 MJ/kg) does not match its own composition (47.48 MJ/kg per ISO 6976)
+- Lesson: Enthalpies, LHV and balances must be recalculated from p, T and composition - stated summary values hide inconsistencies
+- Action: Load vendor stream data as process_stream records and run the hmb engine; raise a TQ for every WARN
+
+### L-SETUP-0006 (2026-09-27) Check vendor guarantees back-to-back against the Owner guarantees with the EPC's own loads [hmb, guarantees, vendor]
+- Context: IEC gross guarantees (614 MW / 5,745 kJ/kWh) looked comfortable, but with the EPC auxiliaries they gave 5,862 kJ/kWh net against the Owner's 5,860; found only by the hmb engine's guarantee-cover check
+- Lesson: A vendor guarantee is only useful if, at its limit and with the EPC's balance-of-plant loads, the plant still meets the Owner guarantee
+- Action: List Owner and vendor guarantees in hmb_case.check_refs; the hmb engine warns when the cover fails - resolve by TQ before the vendor contract is fixed
+
 ### L-SETUP-0005 (2026-09-27) Check drawing PDFs at print size and zoom, not by thumbnail [drawings, pdf, verification]
 - Context: Owner drawings DWG-001/002 printed at about 150 x 120 mm instead of A3/A1: ezdxf finalize() shrinks the matplotlib figure; pattern hatches came out black (set_pattern_fill defaults to colour 7); hatch islands need the OUTERMOST path flag
 - Lesson: A drawing is verified only after checking the PDF page size (pdfinfo) and zoomed crops of labels, legend and title block; low-resolution previews hide wrong colours and hide overlaps

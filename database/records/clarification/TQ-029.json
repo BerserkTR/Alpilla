@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:46:56.816357Z",
+    "created_by": "CONS",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:46:56.816357Z",
+    "updated_by": "CONS"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "TQ-029",
+  "proposal": "SC-011: Stack 65 m with CEMS platform and silencer (per TQ-007 / ER-06.06).",
+  "question": "TQ-007 agreed a 65 m stack and ER-06.06 was revised, but the scope split item SC-011 (Appendix D) still reads \"Stack 60 m with CEMS platform and silencer\". Please confirm the editorial correction before signature.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-27",
+  "references": [
+    "scope_item:SC-011",
+    "requirement:ER-06.06"
+  ],
+  "round": 4,
+  "status": "open",
+  "subject": "Scope item SC-011 still states a 60 m stack"
+}

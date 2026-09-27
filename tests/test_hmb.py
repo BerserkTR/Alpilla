@@ -97,3 +97,14 @@ def test_hmb_engine_outputs(project):
     wb = load_workbook(project.output / "hmb" / "ALP-HMB-T1.xlsx")
     assert wb.sheetnames == ["Streams", "Node balances", "Auxiliary loads", "Summary", "Checks"]
     assert [r[0] for r in wb["Streams"].iter_rows(min_row=4, values_only=True)] == [1, 2, 3, 4, 5]
+
+
+def test_code_or_template_change_makes_output_stale(project):
+    """Outputs record a fingerprint of the engine code and its declared code_deps (here the HMB layout template)."""
+    from engine.core.runner import check_outputs
+    test_hmb_engine_outputs(project)
+    s = Store(project, who())
+    assert not [m for lvl, m in check_outputs(project, s) if "STALE" in m]
+    tpl = project.root / "templates" / "hmb" / "layout_1x1_3prh.json"
+    tpl.write_text(tpl.read_text() + "\n")                                # any change to a declared dependency
+    assert [m for lvl, m in check_outputs(project, s) if "output/hmb/: STALE" in m]

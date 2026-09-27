@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:45:29.098497Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:45:31.647002Z",
+    "updated_by": "IECE"
+  },
+  "contract": "ALP-CA-001",
+  "discipline": "electrical",
+  "id": "TQ-IEC-011",
+  "impact": "none",
+  "outcome": "confirmed_as_is",
+  "proposal": "IEC load list (Excel) 4 weeks after NTP.",
+  "question": "The auxiliary budget is tight: 1.96 % of gross against the 2.2 % limit (ER-04.10). Please provide the IEC consumer list with motor ratings, running/standby and load factors, and confirm that the SFC (8.5 MW) runs only during starts and is excluded from the base-load figure.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-27",
+  "references": [
+    "requirement:ER-04.10",
+    "guarantee:IG-05",
+    "aux_load:AL-01",
+    "source:SRC-EPCE-0010"
+  ],
+  "responded_by": "IEC",
+  "response": "Confirmed: the SFC runs only during starts and is excluded from the base-load auxiliary figure. The IEC consumer list (motor ratings, running/standby, load factors) will be issued as IEC-ALP-REQ-001 Rev A attachment B, 4 weeks after NTP.",
+  "response_date": "2026-09-27",
+  "round": 1,
+  "status": "closed",
+  "subject": "IEC auxiliary load list for the electrical load list"
+}

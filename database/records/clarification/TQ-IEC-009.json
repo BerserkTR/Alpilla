@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:45:28.827971Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:45:31.420828Z",
+    "updated_by": "IECE"
+  },
+  "changed_records": [
+    "guarantee/IG-04",
+    "decision (CW design flow)"
+  ],
+  "contract": "ALP-CA-001",
+  "discipline": "process",
+  "id": "TQ-IEC-009",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "CW design flow 38,000 m3/h; IG-04 valid over 36,050-38,000 m3/h with the correction curve.",
+  "question": "The condenser needs 36,050 m3/h at SRC (7 K rise) against the indicative 43,000-47,000 m3/h of ER-07.11. The EPC proposes to size the CW system for 38,000 m3/h (margin for fouling, tube plugging and cold-ambient duty). Please confirm the condenser performance at 38,000 m3/h and the tube velocity limit, and whether IG-04 can be stated for 36,050-38,000 m3/h.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-27",
+  "references": [
+    "requirement:ER-07.11",
+    "requirement:ER-07.07",
+    "guarantee:IG-04",
+    "guarantee:PG-13",
+    "source:SRC-EPCE-0001"
+  ],
+  "responded_by": "IEC",
+  "response": "Confirmed: at 38,000 m3/h the condenser pressure at SRC is 33.8 mbar(a), rise 6.6 K, tube velocity 2.2 m/s (upper ER-07.07 limit - do not exceed 38,000 m3/h). IG-04 applies from 36,050 to 38,000 m3/h with the correction curve in PER-001 Rev A.",
+  "response_date": "2026-09-27",
+  "round": 1,
+  "status": "closed",
+  "subject": "Circulating water design flow and condenser guarantee conditions"
+}

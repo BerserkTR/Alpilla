@@ -2,12 +2,12 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:27.663478Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-27T18:29:56.262837Z",
+    "rev": 3,
+    "updated_at": "2026-09-27T18:46:24.799110Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
-    "source:SRC-EPCE-0001"
+    "source:SRC-IECE-0001"
   ],
   "description": "LP steam at HRSG outlet",
   "fluid": "steam",
@@ -17,6 +17,7 @@
   "mass_flow": 11.39,
   "number": 13,
   "pressure": 5.4,
+  "remarks": "EPC preliminary piping pressure/temperature drops (TQ-IEC-003), IEC-ALP-PER-001 Rev A",
   "status": "preliminary",
   "temperature": 300.0,
   "to_node": "PIPE"

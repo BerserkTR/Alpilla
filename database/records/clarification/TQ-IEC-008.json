@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:45:28.706919Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:45:31.002260Z",
+    "updated_by": "IECE"
+  },
+  "contract": "ALP-CA-001",
+  "discipline": "civil",
+  "id": "TQ-IEC-008",
+  "impact": "none",
+  "outcome": "confirmed_as_is",
+  "proposal": "Transport drawings 6 weeks after NTP; deliveries by barge in the sequence GSUs, HRSG modules, GT, generators.",
+  "question": "Seven pieces exceed the 120 t road limit (REQ-001 section 10). Please confirm that the GT core engine and the GT generator stator cannot be split, provide transport drawings with centre of gravity and lashing points, and the planned delivery sequence, so the EPC can design the barge landing TP-M1 and the haul road for 480 t.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-27",
+  "references": [
+    "tie_in:TP-M1",
+    "scope_item:DR-040",
+    "source:SRC-EPCE-0010"
+  ],
+  "responded_by": "IEC",
+  "response": "Confirmed: GT core engine (405 t) and GT generator stator (340 t) are single pieces. Transport drawings with centre of gravity and lashing points 6 weeks after NTP. Delivery by barge: GSUs month 14, HRSG modules months 12-16, GT month 16, generators month 17 after NTP.",
+  "response_date": "2026-09-27",
+  "round": 1,
+  "status": "closed",
+  "subject": "Heavy transport of the GT (405 t) and generator stator (340 t)"
+}

@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:46:45.687475Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:46:45.807375Z",
+    "updated_by": "IECE"
+  },
+  "contract": "ALP-CA-001",
+  "discipline": "general",
+  "id": "TQ-IEC-015",
+  "impact": "none",
+  "outcome": "confirmed_as_is",
+  "proposal": "Close the IEC round; carry the four Owner items in the Owner TQ register.",
+  "question": "All IEC queries are answered. Please confirm the agreed changes: IG-01/02 revised, IG-04 conditions, IG-07 added, IF-44 added, DoR 1.2 and 6.1 clarified, PER-001 Rev A as the HMB basis. Items for the Owner (raised by the consortium): fuel LHV correction, TCS integration acceptance, export limit, HGP calendar interval.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-27",
+  "references": [
+    "guarantee:IG-01",
+    "guarantee:IG-02",
+    "guarantee:IG-07",
+    "tie_in:IF-44",
+    "hmb_case:SRC-NG-100"
+  ],
+  "responded_by": "IEC",
+  "response": "Confirmed. IEC will support the consortium in the Owner clarifications (TQ-025 to TQ-028).",
+  "response_date": "2026-09-27",
+  "round": 3,
+  "status": "closed",
+  "subject": "Close-out of round 1-2 and open items to the Owner"
+}

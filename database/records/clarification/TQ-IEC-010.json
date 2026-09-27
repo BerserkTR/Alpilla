@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:45:28.941888Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:45:31.536909Z",
+    "updated_by": "IECE"
+  },
+  "contract": "ALP-CA-001",
+  "discipline": "process",
+  "id": "TQ-IEC-010",
+  "impact": "none",
+  "outcome": "confirmed_as_is",
+  "proposal": "Start factors by type (hot 10, warm 15, cold 20 EOH).",
+  "question": "With 20 EOH per start and the ER-01.03 regime (8,000 h and 250 starts per year) the hot gas path inspection falls every 1.9 years. The Owner will read ER-05.07 as about three years. Please give start factors by start type and the resulting calendar intervals for 180 hot / 60 warm / 10 cold starts per year.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-27",
+  "references": [
+    "requirement:ER-05.07",
+    "requirement:ER-01.03",
+    "source:SRC-EPCE-0002"
+  ],
+  "responded_by": "IEC",
+  "response": "Start factors: hot 10, warm 15, cold 20 EOH; trips from base load 60 EOH. For 8,000 h and 180 hot / 60 warm / 10 cold starts per year: 10,900 EOH per year, hot gas path at 25,000 EOH after about 2.3 years, major inspection after about 4.6 years. ER-05.07 (EOH-based) is met; the calendar interval is for the Owner to note.",
+  "response_date": "2026-09-27",
+  "round": 1,
+  "status": "closed",
+  "subject": "Hot gas path interval and EOH start factors (E-04)"
+}

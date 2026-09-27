@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:45:28.342278Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:45:30.528390Z",
+    "updated_by": "IECE"
+  },
+  "changed_records": [
+    "tie_in/IF-44",
+    "guarantee/IG-04"
+  ],
+  "contract": "ALP-CA-001",
+  "discipline": "mechanical",
+  "id": "TQ-IEC-005",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "New interface IF-44 in IF-001; IG-04 condition 'ball cleaning in operation, debris filters clean'.",
+  "question": "ER-07.03 requires an automatic ball-type tube cleaning system; IEC excludes it (DoR 4.2 = EPC). The EPC accepts the scope but needs the interface: ball injection and strainer nozzle positions and sizes, the CW-side pressure drop with debris filters, and confirmation that IG-04 assumes ball cleaning in operation.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-27",
+  "references": [
+    "requirement:ER-07.03",
+    "scope_item:DR-022",
+    "guarantee:IG-04",
+    "source:SRC-EPCE-0008"
+  ],
+  "responded_by": "IEC",
+  "response": "Confirmed: ball cleaning and debris filters by EPC. Interface added as IF-44: two ball injection nozzles DN150 per inlet water box half, ball strainer at each outlet box DN1800 flange; CW-side pressure drop 0.62 bar clean condenser plus 0.15 bar per debris filter. IG-04 applies with ball cleaning in operation.",
+  "response_date": "2026-09-27",
+  "round": 1,
+  "status": "closed",
+  "subject": "Condenser tube cleaning balls and debris filters (E-03)"
+}

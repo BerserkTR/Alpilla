@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:46:45.962712Z",
+    "created_by": "CONS",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:46:45.962712Z",
+    "updated_by": "CONS"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "TQ-025",
+  "proposal": "Correct ER-03.02 and DP-CASE-0018 to 47.48 MJ/kg (ISO 6976, 25 degC combustion reference).",
+  "question": "ER-03.02 and DP-CASE-0018 give LHV 48.4 MJ/kg for the reference composition. ISO 6976 gives 47.48 MJ/kg (34.78 MJ/Sm3, relative density 0.598) for that composition; ALP-OWN-FUL-001 section 3 itself gives 34.4 MJ/Sm3 and relative density 0.600, which also mean about 47 MJ/kg. Guarantees are on heat input, so the error does not change them, but fuel flow, the gas booking check and the metering design use the mass LHV.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-27",
+  "references": [
+    "requirement:ER-03.02",
+    "design_parameter:DP-CASE-0018",
+    "source:SRC-OWNR-0003"
+  ],
+  "round": 4,
+  "status": "open",
+  "subject": "Reference fuel LHV inconsistent with the reference composition"
+}

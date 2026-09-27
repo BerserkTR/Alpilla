@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:46:46.083763Z",
+    "created_by": "CONS",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:46:46.083763Z",
+    "updated_by": "CONS"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "i_and_c",
+  "id": "TQ-026",
+  "proposal": "Accept as compliant with SC-013.",
+  "question": "IEC's turbine control system keeps its own controllers (turbine protection) with the HMI integration package: graphics and alarms native on the plant DCS operator stations, one KKS tag database, common time sync, own IEC 62443 zone (TQ-IEC-004). Does the Owner accept this as 'integrated in the DCS' under SC-013?",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-27",
+  "references": [
+    "scope_item:SC-013",
+    "requirement:ER-12.01"
+  ],
+  "round": 4,
+  "status": "open",
+  "subject": "Power island control system: integration solution for SC-013"
+}

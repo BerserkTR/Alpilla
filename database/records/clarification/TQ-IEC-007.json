@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:45:28.583422Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:45:30.887601Z",
+    "updated_by": "IECE"
+  },
+  "contract": "ALP-CA-001",
+  "discipline": "electrical",
+  "id": "TQ-IEC-007",
+  "impact": "none",
+  "outcome": "confirmed_as_is",
+  "proposal": "Export limiter in the TCS; the consortium asks the Owner whether the limit shall be 640 MW net.",
+  "question": "PER-001 gives 683 MW gross at -4.8 degC (GT at its 470 MW limit). The Owner's connection capacity is 640 MW export (DP-OWNR-0051). Please confirm (a) a plant export limiter in the TCS acting on GT load with the MW setpoint at the HV metering point, (b) generator and GSU ratings at 470 MW GT output and 0.85 pf, (c) part-load heat rate at the export limit.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-27",
+  "references": [
+    "design_parameter:DP-OWNR-0051",
+    "equipment:10MKA10",
+    "equipment:10BAT10",
+    "source:SRC-EPCE-0001"
+  ],
+  "responded_by": "IEC",
+  "response": "(a) Confirmed: the TCS includes a plant export limiter acting on GT load with the MW setpoint at the HV metering point (signal from the EPC revenue meters). (b) GT generator 560 MVA covers 470 MW at 0.85 pf (553 MVA); GT GSU 560 MVA ONAF. (c) At 640 MW net export and -4.8 degC the GT runs at about 88 % load; gross heat rate about 5,690 kJ/kWh (estimate).",
+  "response_date": "2026-09-27",
+  "round": 1,
+  "status": "closed",
+  "subject": "Winter output above the 640 MW grid connection capacity"
+}

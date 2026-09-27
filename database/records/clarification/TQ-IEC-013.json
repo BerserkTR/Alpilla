@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:46:22.628713Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:46:26.875027Z",
+    "updated_by": "IECE"
+  },
+  "changed_records": [
+    "guarantee/IG-07"
+  ],
+  "contract": "ALP-CA-001",
+  "discipline": "process",
+  "id": "TQ-IEC-013",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "IG-07: gross heat rate <= 6,045 kJ/kWh at the GT load for 60 % plant net load.",
+  "question": "From the PER-001 part-load table, 60 % plant net load (368 MW) needs about 378.5 MW gross, between 50 % and 60 % GT load, with an interpolated gross heat rate of about 6,020 kJ/kWh. Net that is about 6,190 kJ/kWh against PG-03 (6,250 kJ/kWh), a 1 % margin, and there is no IEC part-load guarantee. Please give a part-load gross heat rate guarantee with sliding-pressure operation.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-27",
+  "references": [
+    "guarantee:PG-03",
+    "source:SRC-EPCE-0001"
+  ],
+  "responded_by": "IEC",
+  "response": "IEC gives IG-07: power island gross heat rate <= 6,060 kJ/kWh at the GT load for 60 % plant net load, sliding pressure, SRC (expected about 6,000 kJ/kWh).",
+  "response_date": "2026-09-27",
+  "round": 2,
+  "status": "closed",
+  "subject": "Part-load heat rate cover for PG-03 (60 % plant load)"
+}

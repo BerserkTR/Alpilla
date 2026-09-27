@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:45:31.303564Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:45:31.303564Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0006"
+  ],
+  "date": "2026-09-27",
+  "decided_by": "EPC engineering",
+  "decision": "The CW system (intake, 2 x 50 % CW pumps, pipes, outfall) is designed for 38,000 m3/h total; the condenser tube velocity limit 2.2 m/s caps the flow at 38,000 m3/h. The HMB guarantee case keeps 36,050 m3/h (7 K rise).",
+  "id": "DEC-EPCE-0002",
+  "rationale": "Margin for fouling, plugging and cold-ambient duty; IEC confirmation TQ-IEC-009.",
+  "status": "agreed",
+  "title": "Circulating water system design flow 38,000 m3/h"
+}

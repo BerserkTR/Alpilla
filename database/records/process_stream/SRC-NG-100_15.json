@@ -2,22 +2,22 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:27.663883Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-27T18:29:56.481521Z",
+    "rev": 3,
+    "updated_at": "2026-09-27T18:46:25.026734Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
-    "source:SRC-EPCE-0001"
+    "source:SRC-IECE-0001"
   ],
   "description": "IP turbine exhaust (crossover, internal)",
   "fluid": "steam",
   "from_node": "ST",
   "hmb_case": "SRC-NG-100",
   "id": "SRC-NG-100_15",
-  "mass_flow": 117.5,
+  "mass_flow": 117.49,
   "number": 15,
   "pressure": 4.95,
   "status": "preliminary",
-  "temperature": 308.8,
+  "temperature": 309.2,
   "to_node": "ST"
 }

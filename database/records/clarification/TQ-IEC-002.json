@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:45:28.002954Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:45:29.687062Z",
+    "updated_by": "IECE"
+  },
+  "contract": "ALP-CA-001",
+  "discipline": "process",
+  "id": "TQ-IEC-002",
+  "impact": "none",
+  "outcome": "confirmed_as_is",
+  "proposal": "Heat input from the measured composition per ISO 6976 in all tests; the consortium asks the Owner to correct ER-03.02 / DP-CASE-0018 to 47.48 MJ/kg.",
+  "question": "IEC-ALP-PER-001 uses LHV 47.48 MJ/kg calculated per ISO 6976 from the Owner reference composition; the Owner contract (ER-03.02, DP-CASE-0018) states 48.4 MJ/kg for the same composition. The EPC confirms 47.48 MJ/kg (34.78 MJ/Sm3). Please confirm that the IEC guarantees are on heat input = fuel mass flow x LHV of the actual test gas (on-line chromatograph, ISO 6976) and are therefore independent of the 48.4 MJ/kg figure.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-27",
+  "references": [
+    "requirement:ER-03.02",
+    "design_parameter:DP-CASE-0018",
+    "source:SRC-EPCE-0001",
+    "hmb_case:SRC-NG-100"
+  ],
+  "responded_by": "IEC",
+  "response": "Confirmed: the IEC guarantees are on heat input = fuel mass flow x LHV of the test gas per ISO 6976 from the on-line chromatograph; 47.48 MJ/kg is correct for the reference composition. IEC supports the correction of ER-03.02 by the Owner.",
+  "response_date": "2026-09-27",
+  "round": 1,
+  "status": "closed",
+  "subject": "Fuel LHV basis of the IEC performance"
+}

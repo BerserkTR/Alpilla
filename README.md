@@ -66,6 +66,7 @@ python -m engine validate && git add -A && git commit -m "..." && git push
 | `contract_document` | contract (docx + pdf): agreement, conditions, appendices A-G from contract/requirement/guarantee/milestone/scope records |
 | `clarification_register` | technical query registers (xlsx), one per contract (Owner contract, IEPC-IEC agreement): rounds, answers, outcomes, price effects, changed records |
 | `requirements_matrix` | requirements traceability matrix (xlsx): requirement -> guarantee -> design data / equipment, coverage |
+| `hmb` | heat and mass balance per `hmb_case` (DXF + PDF A1 diagram, Excel): IAPWS-IF97 / ideal-gas enthalpies, node mass and energy balances, auxiliary loads, net output and heat rate, checks against guarantees and limits |
 | `governance` | rules.md / ledger.md |
 
 Import: `python -m engine db import-pcf <file.pcf> --line <id> --reason "..."` reads routing from Plant 3D / E3D PCF.
@@ -92,6 +93,15 @@ Design data and equipment trace to requirements through `basis_refs`; the RTM sh
 Owner-provided documents are in `sources/owner/` (registered as `source` records); the interface list is the `tie_in` register;
 pre-signature technical queries are `clarification` records (Consortium role `CONS`, Owner role `OWNR` in the changelog),
 listed by the `clarification_register` engine and in Appendix I of the contract.
+
+## Vendor data and heat balance (case study)
+Imaginary Electric's reference documents (datasheets, thermal performance, terminal points, division of responsibility,
+interface requirements) are in `sources/iec/` as `source` records. The internal consortium agreement `ALP-CA-001`
+(`contract.kind = consortium_agreement`) holds the IEC guarantees (`IG-xx`), the division of responsibility (`DR-xxx` scope
+items), the IEC-EPC interfaces (`IF-xx` tie-ins) and the EPC-IEC queries (`TQ-IEC-nnn`, roles `EPCE` / `IECE`).
+The plant heat balance is data: `hmb_case` (conditions, power-island outputs, `check_refs`), `process_stream` (node to node,
+from the vendor's heat balance) and `aux_load`; the `hmb` engine recomputes and checks it (`engine/core/hmb.py`,
+`engine/core/thermo.py`). The generators of the simulated vendor documents are in `temporary_codes/case_iec_documents/`.
 
 ## Document control and planning
 `document` (MDR line with planned IFR/IFA/IFC dates and weight) -> `document_revision` (each issue: rev, purpose,

@@ -91,7 +91,13 @@ def table(doc, rows, widths=None, size=8, header=True):
 LANDSCAPE = [False]
 
 
+REV = {"rev": "0", "history": []}           # set by the caller for a revised issue
+
+
 def render(docno, title, blocks, landscape=False, xlsx=None, status="Issued for EPC engineering (reference data)"):
+    rev = REV["rev"]
+    if rev != "0":
+        status = f"Revised for EPC engineering - supersedes Rev 0"
     LANDSCAPE[0] = False                                             # cover tables are portrait-sized
     doc = Document()
     sec = doc.sections[0]
@@ -112,7 +118,7 @@ def render(docno, title, blocks, landscape=False, xlsx=None, status="Issued for 
             for a in ("w:asciiTheme", "w:hAnsiTheme", "w:eastAsiaTheme", "w:cstheme"):
                 fonts.attrib.pop(qn(a), None)
         st[name].font.name, st[name].font.size, st[name].font.color.rgb = "Arial", Pt(size), RED
-    runs(sec.header.paragraphs[0], f"**{VENDOR}**  |  Alpilla 600 MW CCGT - power island  |  {docno} Rev 0", 7.5)
+    runs(sec.header.paragraphs[0], f"**{VENDOR}**  |  Alpilla 600 MW CCGT - power island  |  {docno} Rev {rev}", 7.5)
     fp = sec.footer.paragraphs[0]
     runs(fp, f"{VENDOR} proprietary - for use by the Alpilla consortium only.  CASE STUDY - fictional.   Page ", 7)
     page_field(fp)
@@ -128,13 +134,14 @@ def render(docno, title, blocks, landscape=False, xlsx=None, status="Issued for 
     p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     r = p.add_run(title); r.bold = True; r.font.size = Pt(17)
     doc.add_paragraph()
-    table(doc, [["Document number", docno], ["Revision", "0"], ["Date", DATE], ["Status", status],
+    table(doc, [["Document number", docno], ["Revision", rev], ["Date", DATE], ["Status", status],
                 ["Addressee", "Istanbul EPC Muhendislik ve Taahhut A.S. (consortium leader) - EPC engineering"],
                 ["Contract", "ALP-EPC-001 (Owner contract); consortium agreement IEPC-IEC"]], (4.5, 12.5), 9.5, header=False)
     table(doc, [["", "Prepared", "Checked", "Approved"],
                 ["Function", "IEC plant integration engineer", "IEC lead engineer (discipline)", "IEC project engineering manager"],
                 ["Signature / date", f"signed {DATE}", f"signed {DATE}", f"signed {DATE}"]], (3.4, 4.5, 4.5, 4.6), 8.5)
-    table(doc, [["Rev", "Date", "Description"], ["0", DATE, status]], (1.5, 3.0, 12.5), 8.5)
+    table(doc, [["Rev", "Date", "Description"], ["0", "2026-09-27", "Issued for EPC engineering (reference data)"]]
+          + REV["history"], (1.5, 3.0, 12.5), 8.5)
     n = doc.add_paragraph(); n.alignment = WD_ALIGN_PARAGRAPH.CENTER
     runs(n, "CASE STUDY - Imaginary Electric, its products and all data are fictional.", 8)
     doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
@@ -160,7 +167,7 @@ def render(docno, title, blocks, landscape=False, xlsx=None, status="Issued for 
     while doc.paragraphs and not doc.paragraphs[-1].text.strip() and not doc.paragraphs[-1].runs:
         el = doc.paragraphs[-1]._element                              # no trailing spacer -> no blank last page
         el.getparent().remove(el)
-    stem = f"{docno}_Rev0"
+    stem = f"{docno}_Rev{rev}"
     path = OUT / f"{stem}.docx"
     doc.save(path)
     with tempfile.TemporaryDirectory() as prof:
@@ -173,7 +180,7 @@ def render(docno, title, blocks, landscape=False, xlsx=None, status="Issued for 
         wb = Workbook(); wb.remove(wb.active)
         for name, rows in xl:
             ws = wb.create_sheet(name[:31])
-            ws.append([f"{docno} Rev 0 - {name}"]); ws["A1"].font = Font(bold=True)
+            ws.append([f"{docno} Rev {rev} - {name}"]); ws["A1"].font = Font(bold=True)
             ws.append([])
             for j, row in enumerate(rows):
                 vals = []
@@ -227,9 +234,12 @@ def per001():
                 f"composition: {P['fuel_LHV']:.2f} MJ/kg ({P['fuel_LHV_vol']:.2f} MJ/Sm3, 15 degC/15 degC).** Heat input = "
                 "fuel mass flow x this LHV. Fuel gas heated to 215 degC in the IEC performance gas heater with IP feedwater.",
                 "GT inlet pressure loss 10 mbar, exhaust back-pressure 36 mbar (HRSG 30 mbar + stack 6 mbar, stack by EPC).",
-                "Steam piping between HRSG and steam turbine is **by EPC**; IEC assumed pressure drops HP 7.0 bar, hot "
-                "reheat 1.6 bar, cold reheat 0.8 bar, LP 0.45 bar, and temperature drops of 3 K (HP, HRH), 1 K (CRH), "
-                "2 K (LP). The EPC shall confirm or IEC will correct the performance.",
+                ("Steam piping between HRSG and steam turbine is **by EPC**; IEC assumed pressure drops HP 7.0 bar, hot "
+                 "reheat 1.6 bar, cold reheat 0.8 bar, LP 0.45 bar, and temperature drops of 3 K (HP, HRH), 1 K (CRH), "
+                 "2 K (LP). The EPC shall confirm or IEC will correct the performance.") if REV["rev"] == "0" else
+                ("Steam piping between HRSG and steam turbine is **by EPC**. **Rev A: pressure and temperature drops per the "
+                 "EPC preliminary piping design (TQ-IEC-003)**: HP 5.5 bar / 1.5 K, hot reheat 1.4 bar / 1.5 K, cold reheat "
+                 "0.7 bar / 1 K, LP 0.35 bar / 1 K. Correction: +1 bar HP piping pressure drop = -0.10 MW ST output."),
                 "Boiler feed pumps and condensate pumps are by EPC; IEC assumed BFP discharge 209 bar(a) (HP) / 46 bar(a) (IP), "
                 "CEP discharge 16 bar(a).",
                 "Steam turbine gland leak-offs, valve stem leakages and HRSG blowdown are not shown in this summary heat "
@@ -287,12 +297,18 @@ def per001():
               "detailed design; values are conservative estimates)."),
         ("h", "7. IEC guarantees to the consortium (power island)"),
         ("t", [["Guarantee (SRC-NG-100, new and clean, per ASME PTC 46 / ISO 2314)", "Value"],
-               ["Power island gross output at generator terminals", "not less than 614.0 MW"],
-               ["Power island gross heat rate (LHV)", "not more than 5,745 kJ/kWh"],
+               ["Power island gross output at generator terminals", "not less than 614.0 MW" if REV["rev"] == "0" else
+                "not less than 615.0 MW (TQ-IEC-001)"],
+               ["Power island gross heat rate (LHV)", "not more than 5,745 kJ/kWh" if REV["rev"] == "0" else
+                "not more than 5,735 kJ/kWh (TQ-IEC-001)"],
                ["GT output at generator terminals", "not less than 418.0 MW"],
-               ["Condenser pressure at 16.0 degC seawater, 36,050 m3/h", "not more than 35.5 mbar(a)"],
+               ["Condenser pressure at 16.0 degC seawater, 36,050 m3/h" if REV["rev"] == "0" else
+                "Condenser pressure at 16.0 degC seawater, 36,050-38,000 m3/h corrected to 36,050 m3/h, ball cleaning in operation "
+                "(TQ-IEC-005/009)", "not more than 35.5 mbar(a)"],
                ["IEC auxiliary loads (IEC-ALP-REQ-001 table 7.1, excl. GSU losses)", "not more than 2,700 kW"],
-               ["NOx / CO at HRSG outlet (15 % O2, dry), 40-100 % GT load, natural gas", "30 / 30 mg/Nm3"]], (12.0, 5.0), 8.5),
+               ["NOx / CO at HRSG outlet (15 % O2, dry), 40-100 % GT load, natural gas", "30 / 30 mg/Nm3"]]
+         + ([["Power island gross heat rate at the GT load for 60 % plant net load (TQ-IEC-013)", "not more than 6,060 kJ/kWh"]]
+            if REV["rev"] != "0" else []), (12.0, 5.0), 8.5),
         ("p", "Degradation is excluded from the values above; recoverable and non-recoverable degradation curves follow in "
               "IEC-ALP-PER-002."),
     ]
@@ -806,5 +822,9 @@ DOCS = {"PER": per001, "DS101": ds101, "DS102": ds102, "DS103": ds103, "DS104": 
         "IF": if001, "DOR": dor001, "REQ": req001}
 
 if __name__ == "__main__":
+    import os
+    if os.environ.get("IEC_REV"):
+        REV["rev"] = os.environ["IEC_REV"]
+        REV["history"] = [[REV["rev"], DATE, os.environ.get("IEC_REV_NOTE", "revised")]]
     for k in (sys.argv[3:] or DOCS):
         DOCS[k]()

@@ -57,6 +57,7 @@ class Engine:
     version = "1.0.0"
     inputs: list[str] = []
     formats: list[str] = []
+    code_deps: list[str] = []   # extra source files/folders the output depends on (relative to the repo root)
 
     def run(self, ctx: Context) -> list[Path]:
         raise NotImplementedError
@@ -78,7 +79,7 @@ def run_engine(project: Project, store: Store, engine: Engine, options: dict | N
     tmp = project.output / f".{engine.name}.tmp"
     shutil.rmtree(tmp, ignore_errors=True)
     tmp.mkdir(parents=True)
-    stamp = {"engine": engine.name, "engine_version": engine.version, "generated_at": now(),
+    stamp = {"engine": engine.name, "engine_version": engine.version, "code_hash": code_hash(project, engine), "generated_at": now(),
              "generated_by": store.who.code, "inputs_hash": store.entity_hash(engine.inputs),
              "db_hash": store.db_hash(), "git_commit": git_head(project.root)}
     ctx = Context(project, store, tmp, options or {}, stamp)
@@ -94,6 +95,22 @@ def run_engine(project: Project, store: Store, engine: Engine, options: dict | N
     shutil.rmtree(out_dir, ignore_errors=True)
     tmp.rename(out_dir)
     return manifest
+
+
+def code_hash(project: Project, engine: Engine) -> str:
+    """Fingerprint of the engine's code: its module file plus declared code_deps (files or folders)."""
+    import hashlib
+    import inspect
+    h = hashlib.sha256()
+    paths = [Path(inspect.getfile(type(engine)))]
+    for dep in engine.code_deps:
+        q = project.root / dep
+        paths += sorted(x for x in q.rglob("*") if x.is_file() and "__pycache__" not in x.parts) if q.is_dir() else [q]
+    for f in paths:
+        if f.exists():
+            h.update(f.name.encode())
+            h.update(f.read_bytes().replace(b"\r\n", b"\n"))
+    return h.hexdigest()[:16]
 
 
 def check_outputs(project: Project, store: Store) -> list[tuple[str, str]]:
@@ -127,8 +144,9 @@ def check_outputs(project: Project, store: Store) -> list[tuple[str, str]]:
         eng = engines.get(d.name)
         if eng is None:
             issues.append(("warn", f"output/{d.name}/: engine no longer exists"))
-        elif m.get("engine_version") != eng.version or m.get("inputs_hash") != store.entity_hash(m.get("inputs", [])):
-            issues.append(("warn", f"output/{d.name}/: STALE - database or engine changed since generation. "
+        elif m.get("engine_version") != eng.version or m.get("inputs_hash") != store.entity_hash(m.get("inputs", [])) \
+                or m.get("code_hash") != code_hash(project, eng):
+            issues.append(("warn", f"output/{d.name}/: STALE - database or engine code changed since generation. "
                                    f"Re-run: python -m engine run {d.name}"))
     return issues
 

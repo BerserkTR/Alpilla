@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:48:48.105243Z",
+    "created_by": "SETUP",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:48:48.105243Z",
+    "updated_by": "SETUP"
+  },
+  "action": "List Owner and vendor guarantees in hmb_case.check_refs; the hmb engine warns when the cover fails - resolve by TQ before the vendor contract is fixed",
+  "context": "IEC gross guarantees (614 MW / 5,745 kJ/kWh) looked comfortable, but with the EPC auxiliaries they gave 5,862 kJ/kWh net against the Owner's 5,860; found only by the hmb engine's guarantee-cover check",
+  "date": "2026-09-27",
+  "id": "L-SETUP-0006",
+  "lesson": "A vendor guarantee is only useful if, at its limit and with the EPC's balance-of-plant loads, the plant still meets the Owner guarantee",
+  "status": "active",
+  "tags": [
+    "hmb",
+    "guarantees",
+    "vendor"
+  ],
+  "title": "Check vendor guarantees back-to-back against the Owner guarantees with the EPC's own loads"
+}
