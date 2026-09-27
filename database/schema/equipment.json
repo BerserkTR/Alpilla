@@ -111,6 +111,49 @@
       "type": "aveva_attrs",
       "class_field": "aveva_class",
       "description": "attributes of the AVEVA class: --attr \"Name=value [unit]\""
+    },
+    "position": {
+      "type": "point",
+      "unit": "mm",
+      "description": "reference point (centre of base), plant coordinates"
+    },
+    "orientation": {
+      "type": "number",
+      "unit": "deg",
+      "description": "rotation about vertical axis, 0 = main axis along East"
+    },
+    "shape": {
+      "type": "enum",
+      "values": [
+        "box",
+        "vertical_cylinder",
+        "horizontal_cylinder"
+      ]
+    },
+    "length": {
+      "type": "number",
+      "unit": "mm",
+      "min": 0
+    },
+    "width": {
+      "type": "number",
+      "unit": "mm",
+      "min": 0
+    },
+    "height": {
+      "type": "number",
+      "unit": "mm",
+      "min": 0
+    },
+    "diameter": {
+      "type": "number",
+      "unit": "mm",
+      "min": 0
+    },
+    "pid": {
+      "type": "ref",
+      "to": "document",
+      "description": "P&ID sheet showing this equipment"
     }
   }
 }

@@ -9,8 +9,10 @@ Field types:
   list      -> list of strings
   aveva_class -> AVEVA class name or AVEVA ID; "roots": [...] limits it to branches of the class tree
   aveva_attrs -> {"<AVEVA attribute>": value}; validated against the record's aveva_class (see classlib.py)
+  point     -> [x, y, z] plant coordinates in mm (East, North, Elevation)
   logic_list -> planning links "<id>[:FS|SS|FF|SF[+/-lag]]" to "to" entity, e.g. ["E-1010", "E-1020:SS+5"]
 Schema key "id_from": [fields] builds the id from those fields joined by "_" (e.g. document + revision).
+Schema key "required_when": {"field": "type", "rules": {"PIPE": ["end1", "end2"], ...}} adds requirements per value.
 Common keys: required, unit, description, default, min, max, pattern.
 Unknown fields are rejected: the schema is the contract.
 """
@@ -24,7 +26,7 @@ from pathlib import Path
 
 ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$")
 TYPES = {"string", "text", "number", "integer", "boolean", "date", "enum", "ref", "ref_list", "list",
-         "aveva_class", "aveva_attrs", "logic_list"}
+         "aveva_class", "aveva_attrs", "logic_list", "point"}
 LOGIC_RE = re.compile(r"^(?P<id>[A-Za-z0-9][A-Za-z0-9._-]*)(?::(?P<rel>FS|SS|FF|SF)(?P<lag>[+-]\d+)?)?$")
 
 
@@ -47,6 +49,7 @@ class Schema:
     display: list = field(default_factory=list)   # default columns for listings
     description: str = ""
     id_from: list = field(default_factory=list)
+    required_when: dict = field(default_factory=dict)
 
     def targets(self, fname: str) -> list[str]:
         to = self.fields[fname].get("to")
@@ -70,7 +73,8 @@ def load_schemas(schema_dir: Path) -> dict[str, Schema]:
                 raise ValueError(f"{p.name}: field name '{fname}' is reserved")
         out[ent] = Schema(ent, raw.get("title", ent), raw.get("id_prefix"),
                           re.compile(raw["id_pattern"]) if raw.get("id_pattern") else None,
-                          raw["fields"], raw.get("display", []), raw.get("description", ""), raw.get("id_from", []))
+                          raw["fields"], raw.get("display", []), raw.get("description", ""), raw.get("id_from", []),
+                          raw.get("required_when", {}))
     for s in out.values():  # ref targets must exist
         for fname, spec in s.fields.items():
             if spec["type"] in ("ref", "ref_list", "logic_list"):
@@ -85,7 +89,7 @@ def coerce(schema: Schema, fname: str, raw: str):
     if fname not in schema.fields:
         raise ValueError(f"{schema.entity}: unknown field '{fname}'. Fields: {', '.join(schema.fields)}")
     t = schema.fields[fname]["type"]
-    if raw.strip().startswith("[") and t in ("list", "ref_list", "logic_list"):
+    if raw.strip().startswith("[") and t in ("list", "ref_list", "logic_list", "point"):
         return json.loads(raw)
     if t == "number":
         return float(raw) if any(c in raw for c in ".eE") else int(raw)
@@ -97,6 +101,11 @@ def coerce(schema: Schema, fname: str, raw: str):
         raise ValueError(f"{fname}: not a boolean: {raw}")
     if t in ("list", "ref_list", "logic_list"):
         return [x.strip() for x in raw.split(",") if x.strip()]
+    if t == "point":
+        parts = [p for p in raw.replace(";", ",").split(",") if p.strip()]
+        if len(parts) != 3:
+            raise ValueError(f"{fname}: needs x,y,z in mm, got '{raw}'")
+        return [float(p) if any(c in p for c in ".eE") else int(p) for p in parts]
     return raw
 
 
@@ -111,10 +120,14 @@ def check_record(schema: Schema, rec: dict) -> list[str]:
     for k in rec:
         if k not in ("id", "_meta") and k not in schema.fields:
             errs.append(f"unknown field '{k}'")
+    rw = schema.required_when
+    needed = set(rw.get("rules", {}).get(rec.get(rw.get("field")), [])) if rw else set()
     for fname, spec in schema.fields.items():
         v = rec.get(fname)
         if v is None:
-            if spec.get("required"):
+            if fname in needed:
+                errs.append(f"'{fname}' is required when {rw['field']} = {rec.get(rw['field'])}")
+            elif spec.get("required"):
                 errs.append(f"required field '{fname}' missing")
             continue
         errs += [f"{fname}: {e}" for e in _check_value(spec, v)]
@@ -150,6 +163,9 @@ def _check_value(spec: dict, v) -> list[str]:
             return []
         except Exception:
             return [f"'{v}' is not YYYY-MM-DD"]
+    if t == "point":
+        ok = isinstance(v, list) and len(v) == 3 and all(isinstance(x, (int, float)) and not isinstance(x, bool) for x in v)
+        return [] if ok else ["must be [x, y, z] in mm"]
     if t == "logic_list":
         if not isinstance(v, list) or not all(isinstance(x, str) and LOGIC_RE.match(x) for x in v):
             return ['must be a list like ["E-1010", "E-1020:SS+5", "E-1030:FF-2"]']

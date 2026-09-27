@@ -1,0 +1,153 @@
+{
+  "entity": "line",
+  "title": "Piping line (line list)",
+  "id_pattern": "^[A-Z0-9][A-Z0-9._-]*$",
+  "display": [
+    "service",
+    "dn",
+    "spec",
+    "design_pressure",
+    "design_temperature"
+  ],
+  "fields": {
+    "service": {
+      "type": "string",
+      "required": true
+    },
+    "fluid_code": {
+      "type": "string",
+      "description": "e.g. BFW, CW, FG, LS"
+    },
+    "phase": {
+      "type": "enum",
+      "values": [
+        "liquid",
+        "gas",
+        "steam",
+        "two_phase"
+      ]
+    },
+    "system": {
+      "type": "ref",
+      "to": "system",
+      "required": true
+    },
+    "dn": {
+      "type": "ref",
+      "to": "pipe_size",
+      "required": true
+    },
+    "spec": {
+      "type": "ref",
+      "to": "pipe_spec",
+      "required": true
+    },
+    "from_nozzle": {
+      "type": "ref",
+      "to": "nozzle"
+    },
+    "to_nozzle": {
+      "type": "ref",
+      "to": "nozzle"
+    },
+    "from_line": {
+      "type": "ref",
+      "to": "line",
+      "description": "branch from another line"
+    },
+    "to_line": {
+      "type": "ref",
+      "to": "line"
+    },
+    "design_pressure": {
+      "type": "number",
+      "unit": "barg",
+      "required": true
+    },
+    "design_temperature": {
+      "type": "number",
+      "unit": "degC",
+      "required": true
+    },
+    "operating_pressure": {
+      "type": "number",
+      "unit": "barg"
+    },
+    "operating_temperature": {
+      "type": "number",
+      "unit": "degC"
+    },
+    "test_pressure": {
+      "type": "number",
+      "unit": "barg"
+    },
+    "fluid_density": {
+      "type": "number",
+      "unit": "kg/m3",
+      "min": 0
+    },
+    "flow": {
+      "type": "number",
+      "unit": "t/h",
+      "min": 0
+    },
+    "wall_thickness": {
+      "type": "number",
+      "unit": "mm",
+      "min": 0,
+      "description": "overrides the spec schedule wall"
+    },
+    "insulation": {
+      "type": "enum",
+      "values": [
+        "none",
+        "hot",
+        "cold",
+        "personnel",
+        "acoustic"
+      ],
+      "default": "none"
+    },
+    "insulation_thickness": {
+      "type": "number",
+      "unit": "mm",
+      "min": 0
+    },
+    "pid": {
+      "type": "ref",
+      "to": "document",
+      "description": "P&ID sheet showing this line"
+    },
+    "aveva_class": {
+      "type": "aveva_class",
+      "roots": [
+        "Connection Item"
+      ]
+    },
+    "aveva_attrs": {
+      "type": "aveva_attrs",
+      "class_field": "aveva_class"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "proposed",
+        "preliminary",
+        "confirmed",
+        "deleted"
+      ],
+      "default": "proposed"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "reference",
+        "decision"
+      ]
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "entity": "instrument",
+  "title": "Instrument / control tag",
+  "id_pattern": "^[A-Z0-9][A-Z0-9._-]*$",
+  "display": [
+    "function",
+    "loop",
+    "line",
+    "equipment",
+    "service"
+  ],
+  "fields": {
+    "function": {
+      "type": "string",
+      "required": true,
+      "pattern": "^[A-Z]{1,5}$",
+      "description": "ISA 5.1 letters: PT, FT, TE, LT, PI, FCV ..."
+    },
+    "loop": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "line": {
+      "type": "ref",
+      "to": "line"
+    },
+    "equipment": {
+      "type": "ref",
+      "to": "equipment"
+    },
+    "location": {
+      "type": "enum",
+      "values": [
+        "field",
+        "local_panel",
+        "dcs",
+        "plc",
+        "sis"
+      ],
+      "default": "field"
+    },
+    "signal": {
+      "type": "enum",
+      "values": [
+        "4-20mA",
+        "4-20mA HART",
+        "fieldbus",
+        "digital",
+        "thermocouple",
+        "rtd",
+        "pneumatic",
+        "none"
+      ]
+    },
+    "range": {
+      "type": "string"
+    },
+    "sil": {
+      "type": "enum",
+      "values": [
+        "-",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "pid": {
+      "type": "ref",
+      "to": "document"
+    },
+    "aveva_class": {
+      "type": "aveva_class",
+      "roots": [
+        "Instrumentation And Control Item",
+        "Inline Item"
+      ]
+    },
+    "aveva_attrs": {
+      "type": "aveva_attrs",
+      "class_field": "aveva_class"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

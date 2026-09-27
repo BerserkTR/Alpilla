@@ -1,0 +1,44 @@
+{
+  "entity": "pipe_size",
+  "title": "Pipe size reference data (ASME B36.10M): OD and wall by schedule",
+  "id_pattern": "^DN[0-9]{2,4}$",
+  "display": [
+    "nps",
+    "od",
+    "wall_std",
+    "wall_xs"
+  ],
+  "fields": {
+    "nps": {
+      "type": "string",
+      "required": true,
+      "description": "nominal pipe size, inch"
+    },
+    "od": {
+      "type": "number",
+      "unit": "mm",
+      "required": true,
+      "min": 0
+    },
+    "wall_std": {
+      "type": "number",
+      "unit": "mm",
+      "min": 0
+    },
+    "wall_xs": {
+      "type": "number",
+      "unit": "mm",
+      "min": 0
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "reference",
+        "decision"
+      ],
+      "required": true,
+      "min_items": 1
+    }
+  }
+}

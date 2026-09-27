@@ -119,6 +119,12 @@ def planning_logic(store: Store, rep: Report):
         rep.warnings.append(f"planning: negative float (constraint missed) on {', '.join(late[:10])}")
 
 
+def piping_routing(store: Store, rep: Report):
+    from . import piping
+    for line in store.records("line"):
+        rep.warnings += [f"routing: {m}" for m in piping.continuity(store, line["id"])]
+
+
 def classlib(project: Project, rep: Report):
     """database/classlib is compiled reference data: must match its manifest and its source file."""
     folder = project.database / "classlib"
@@ -177,6 +183,7 @@ def run(project: Project, store: Store | None = None, pre_commit: bool = False) 
     integrity(store, rep)
     if not rep.errors:
         planning_logic(store, rep)
+        piping_routing(store, rep)
     governance(project, store, rep)
     deliveries(project, rep)
     outputs(project, store, rep)

@@ -1,0 +1,49 @@
+{
+  "entity": "nozzle",
+  "title": "Equipment nozzle (connection point)",
+  "id_from": [
+    "equipment",
+    "name"
+  ],
+  "display": [
+    "equipment",
+    "name",
+    "service",
+    "dn",
+    "rating"
+  ],
+  "fields": {
+    "equipment": {
+      "type": "ref",
+      "to": "equipment",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "pattern": "^[A-Z0-9]{1,6}$",
+      "description": "N1, N2, S, D ..."
+    },
+    "service": {
+      "type": "string",
+      "description": "suction, discharge, inlet, outlet, drain ..."
+    },
+    "dn": {
+      "type": "ref",
+      "to": "pipe_size",
+      "required": true
+    },
+    "rating": {
+      "type": "string"
+    },
+    "position": {
+      "type": "point",
+      "unit": "mm",
+      "description": "face centre, plant coordinates"
+    },
+    "direction": {
+      "type": "point",
+      "description": "outward unit vector, e.g. [0,0,1]"
+    }
+  }
+}

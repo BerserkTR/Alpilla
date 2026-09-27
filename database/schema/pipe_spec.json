@@ -1,0 +1,82 @@
+{
+  "entity": "pipe_spec",
+  "title": "Piping class / specification",
+  "id_pattern": "^[A-Z0-9][A-Z0-9._-]*$",
+  "display": [
+    "rating",
+    "material",
+    "corrosion_allowance",
+    "schedule"
+  ],
+  "fields": {
+    "description": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "CL150",
+        "CL300",
+        "CL600",
+        "CL900",
+        "CL1500",
+        "CL2500",
+        "PN10",
+        "PN16",
+        "PN25",
+        "PN40",
+        "PN63",
+        "PN100"
+      ]
+    },
+    "material": {
+      "type": "string",
+      "required": true,
+      "description": "e.g. ASTM A106 Gr.B"
+    },
+    "corrosion_allowance": {
+      "type": "number",
+      "unit": "mm",
+      "min": 0,
+      "required": true
+    },
+    "schedule": {
+      "type": "enum",
+      "values": [
+        "STD",
+        "XS"
+      ],
+      "default": "STD",
+      "description": "wall used when a line has no explicit wall"
+    },
+    "max_design_pressure": {
+      "type": "number",
+      "unit": "barg"
+    },
+    "max_design_temperature": {
+      "type": "number",
+      "unit": "degC"
+    },
+    "aveva_class": {
+      "type": "aveva_class",
+      "roots": [
+        "Piping Class",
+        "Piping Specification",
+        "Component Specification"
+      ]
+    },
+    "aveva_attrs": {
+      "type": "aveva_attrs",
+      "class_field": "aveva_class"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "reference",
+        "decision"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:08:32.429242Z",
+    "created_by": "SETUP",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:08:32.429242Z",
+    "updated_by": "SETUP"
+  },
+  "basis_refs": [
+    "reference:REF-SETUP-0002"
+  ],
+  "id": "DN400",
+  "nps": "16",
+  "od": 406.4,
+  "wall_std": 9.53,
+  "wall_xs": 12.7
+}

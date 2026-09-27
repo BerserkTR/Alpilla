@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:08:32.427431Z",
+    "created_by": "SETUP",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:08:32.427431Z",
+    "updated_by": "SETUP"
+  },
+  "basis_refs": [
+    "reference:REF-SETUP-0002"
+  ],
+  "id": "DN65",
+  "nps": "2-1/2",
+  "od": 73.0,
+  "wall_std": 5.16,
+  "wall_xs": 7.01
+}

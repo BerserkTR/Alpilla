@@ -1,0 +1,192 @@
+{
+  "entity": "pipe_component",
+  "title": "Routed piping component (PCF component, in flow order)",
+  "id_from": [
+    "line",
+    "seq"
+  ],
+  "display": [
+    "line",
+    "seq",
+    "type",
+    "dn",
+    "tag"
+  ],
+  "required_when": {
+    "field": "type",
+    "rules": {
+      "PIPE": [
+        "end1",
+        "end2"
+      ],
+      "ELBOW": [
+        "end1",
+        "end2",
+        "centre"
+      ],
+      "BEND": [
+        "end1",
+        "end2",
+        "centre"
+      ],
+      "TEE": [
+        "end1",
+        "end2",
+        "centre",
+        "branch"
+      ],
+      "OLET": [
+        "centre",
+        "branch"
+      ],
+      "REDUCER-CONCENTRIC": [
+        "end1",
+        "end2",
+        "dn2"
+      ],
+      "REDUCER-ECCENTRIC": [
+        "end1",
+        "end2",
+        "dn2"
+      ],
+      "FLANGE": [
+        "end1",
+        "end2"
+      ],
+      "FLANGE-BLIND": [
+        "end1"
+      ],
+      "GASKET": [
+        "end1",
+        "end2"
+      ],
+      "VALVE": [
+        "end1",
+        "end2",
+        "valve_type"
+      ],
+      "INSTRUMENT": [
+        "end1",
+        "end2"
+      ],
+      "SUPPORT": [
+        "end1",
+        "support_type"
+      ],
+      "CAP": [
+        "end1"
+      ]
+    }
+  },
+  "fields": {
+    "line": {
+      "type": "ref",
+      "to": "line",
+      "required": true
+    },
+    "seq": {
+      "type": "string",
+      "required": true,
+      "pattern": "^[0-9]{4}$",
+      "description": "4-digit order along the line: 0010, 0020 ..."
+    },
+    "type": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "PIPE",
+        "ELBOW",
+        "BEND",
+        "TEE",
+        "OLET",
+        "REDUCER-CONCENTRIC",
+        "REDUCER-ECCENTRIC",
+        "FLANGE",
+        "FLANGE-BLIND",
+        "GASKET",
+        "VALVE",
+        "INSTRUMENT",
+        "SUPPORT",
+        "CAP"
+      ]
+    },
+    "end1": {
+      "type": "point",
+      "unit": "mm"
+    },
+    "end2": {
+      "type": "point",
+      "unit": "mm"
+    },
+    "centre": {
+      "type": "point",
+      "unit": "mm"
+    },
+    "branch": {
+      "type": "point",
+      "unit": "mm",
+      "description": "TEE/OLET branch end"
+    },
+    "dn": {
+      "type": "ref",
+      "to": "pipe_size",
+      "description": "defaults to the line size"
+    },
+    "dn2": {
+      "type": "ref",
+      "to": "pipe_size",
+      "description": "reducer small end / branch size"
+    },
+    "tag": {
+      "type": "string",
+      "description": "valve / instrument / support tag"
+    },
+    "valve_type": {
+      "type": "enum",
+      "values": [
+        "gate",
+        "globe",
+        "check",
+        "ball",
+        "butterfly",
+        "plug",
+        "control",
+        "relief",
+        "needle"
+      ]
+    },
+    "support_type": {
+      "type": "enum",
+      "values": [
+        "ANCHOR",
+        "GUIDE",
+        "REST",
+        "LINE-STOP",
+        "HANGER",
+        "SPRING"
+      ]
+    },
+    "skey": {
+      "type": "string",
+      "description": "PCF symbol key; default by type"
+    },
+    "weight": {
+      "type": "number",
+      "unit": "kg",
+      "min": 0
+    },
+    "aveva_class": {
+      "type": "aveva_class",
+      "roots": [
+        "Inline Item",
+        "Piping Component",
+        "Pipe",
+        "Support"
+      ]
+    },
+    "aveva_attrs": {
+      "type": "aveva_attrs",
+      "class_field": "aveva_class"
+    }
+  }
+}
