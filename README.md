@@ -59,7 +59,23 @@ python -m engine validate && git add -A && git commit -m "..." && git push
 | `document_register` | master document register: latest issue, review codes, comments, lateness, progress (xlsx) |
 | `schedule` | CPM schedule: Excel Gantt, interactive HTML Gantt, MS Project XML (Primavera P6 import) |
 | `progress_report` | engineering progress S-curve (planned vs earned), KPIs, late documents (html) |
+| `pid` | P&ID sheets per P&ID document (DXF R2018 + PDF): symbol blocks with TAG attributes, routed lines, valves, ISA bubbles, off-page connectors |
+| `plot_plan` | plot plan (DXF + PDF) in plant coordinates: footprints, pipe centrelines, grid |
+| `model_ifc` | IFC4 plant model: equipment envelopes, pipe/elbow/reducer at true OD and wall, valves, supports, line systems, property sets |
+| `piping_pcf` | one PCF per line + attribute map (stress/hydraulic data as COMPONENT-ATTRIBUTEn) |
 | `governance` | rules.md / ledger.md |
+
+Import: `python -m engine db import-pcf <file.pcf> --line <id> --reason "..."` reads routing from Plant 3D / E3D PCF.
+
+## Tool interoperability (what is verified, what is not)
+| Target tool | Route | Verified here | Not verified here |
+|---|---|---|---|
+| AutoCAD Plant 3D | DXF (P&ID, plot plan), PCF, IFC | DXF audit-clean, blocks + attributes; PCF format + round trip | opening/importing in Plant 3D |
+| AVEVA E3D / AVEVA Engineering | IFC4 model; AVEVA tag workbook (class IDs, attribute IDs, units) | IFC4 schema validation (0 issues), all geometry tessellates | E3D IFC import settings; AVEVA Engineering import mapping |
+| CAESAR II | PCF + `_PCF_ATTRIBUTE_MAP.txt` via the PCF interface | PCF content and attributes | CAESAR import itself; native `.cii` is **not** generated (strict fixed-format file that cannot be checked without CAESAR II) |
+| AFT Fathom / Arrow | PCF import + attribute map | PCF content | AFT import; native AFT files are proprietary |
+| AVEVA Process Simulation | - | - | `.simx` is proprietary: not generated. Planned route: import APS stream/equipment results (Excel/CSV export) into the database as `source` data |
+| MS Project / Primavera P6 | MS Project XML (MSPDI) | XML structure, links, lags, constraints, calendar | opening in MS Project / P6 |
 
 ## Document control and planning
 `document` (MDR line with planned IFR/IFA/IFC dates and weight) -> `document_revision` (each issue: rev, purpose,

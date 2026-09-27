@@ -17,6 +17,7 @@ only way to produce outputs. The rules and lessons below are loaded into every s
    Schedule status / critical path without generating files: `python -m engine plan`.
 3. Change data only via `python -m engine db add|update|delete|import ... --reason "..."`.
 4. Generate outputs only via `python -m engine run <engine>` (`run --stale` after pulling); issue via `python -m engine deliver ...`.
+   Piping routing from Plant 3D / E3D: `python -m engine db import-pcf <file> --line <id> --reason ...`.
 5. New output type = new engine in `engine/engines/` (+ template in `templates/`, + test in `tests/`).
 6. Record lessons as they happen: `python -m engine db add lesson --set title=... --set lesson=... --reason ...`.
 7. `python -m engine validate` must pass before commit (pre-commit hook enforces it). Commit small, push often.
