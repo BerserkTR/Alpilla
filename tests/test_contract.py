@@ -114,7 +114,29 @@ def test_tie_ins_clarifications_and_appendices(project):
     cells = [c.text for t in doc.tables for row in t.rows for c in row.cells]
     assert {"TP-G1", "metering station", "OWN-001", "Is 40 barg possible?", "No, 45 barg.", "confirmed as is"} <= set(cells)
     assert not any("not closed" in w for w in m["warnings"])
-    run_engine(project, Store(project, who()), registry()["clarification_register"], {})
-    wb = load_workbook(project.output / "clarification_register" / "ALP_clarification_register.xlsx")
+    # an internal consortium agreement with its own interfaces and queries: not rendered as an Owner contract,
+    # its queries get their own register
+    s3 = Store(project, who())
+    s3.create("contract", {"id": "CA-1", "title": "Consortium agreement", "kind": "consortium_agreement", "owner": "LEAD",
+                           "contractor_parties": ["MEMB"], "currency": "EUR", "price": 50000000}, R)
+    s3.create("scope_item", {"id": "DR-001", "contract": "CA-1", "area": "Steam", "item": "Main steam piping",
+                             "design": "LEAD", "supply": "LEAD"}, R)
+    s3.create("tie_in", {"id": "IF-05", "contract": "CA-1", "service": "HP steam", "medium": "steam", "location_text": "HRSG outlet",
+                         "owner_side": "piping", "contractor_side": "HRSG"}, R)
+    s3.create("clarification", {"id": "TQ-MEMB-001", "contract": "CA-1", "round": 1, "raised_by": "LEAD", "raised_date": "2026-09-27",
+                                "discipline": "piping", "subject": "Piping pressure drop", "question": "Confirm 7 bar?",
+                                "references": ["tie_in:IF-05", "scope_item:DR-001"]}, R)
+    with pytest.raises(StoreError, match="pattern"):
+        s3.create("scope_item", {"id": "XX-001", "contract": "CA-1", "area": "a", "item": "b"}, R)
+    m = run_engine(project, Store(project, who()), registry()["contract_document"], {"pdf": "no"})
+    assert sorted(m["files"]) == ["K-1_contract.docx"]
+    doc = Document(project.output / "contract_document" / "K-1_contract.docx")
+    cells = {c.text for t in doc.tables for row in t.rows for c in row.cells}
+    assert "IF-05" not in cells and "DR-001" not in cells
+    m = run_engine(project, Store(project, who()), registry()["clarification_register"], {})
+    assert sorted(m["files"]) == ["ALP_clarification_register_CA-1.xlsx", "ALP_clarification_register_K-1.xlsx"]
+    wb = load_workbook(project.output / "clarification_register" / "ALP_clarification_register_K-1.xlsx")
     summary = [r for r in wb["Summary"].iter_rows(values_only=True)]
     assert ("Round 1", 1, 1, 0, 0) in summary
+    wb = load_workbook(project.output / "clarification_register" / "ALP_clarification_register_CA-1.xlsx")
+    assert ("Round 1", 1, 0, 1, 0) in [r for r in wb["Summary"].iter_rows(values_only=True)]

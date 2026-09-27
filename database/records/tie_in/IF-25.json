@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.748468Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.748468Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: ammonia injection skid inlet (IEC)",
+  "id": "IF-25",
+  "location_text": "ammonia injection skid inlet (IEC)",
+  "medium": "NH4OH 24.5 %",
+  "operating_conditions": "design 10 barg / 40 degC; operating at SRC: 125 kg/h",
+  "owner_side": "EPC: storage, unloading, forwarding pumps (EPC)",
+  "service": "Aqueous ammonia",
+  "size": "1\""
+}

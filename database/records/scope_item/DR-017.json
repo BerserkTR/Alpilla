@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.634714Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.634714Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Steam turbine and steam piping",
+  "commission": "IEC",
+  "contract": "ALP-CA-001",
+  "design": "IEC",
+  "id": "DR-017",
+  "install": "IEPC",
+  "item": "HP / IP / LP bypass valves with desuperheaters",
+  "remarks": "DoR 3.2; supervision of erection: IEC; commissioning: IEC with EPC; loose supply",
+  "supply": "IEC"
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:27.780746Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:29:59.757370Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0007"
+  ],
+  "counts_as": "transformer_loss",
+  "description": "GT GSU losses at SRC load",
+  "hmb_case": "SRC-NG-100",
+  "id": "AL-08",
+  "method": "fixed",
+  "power": 1110.0,
+  "status": "preliminary",
+  "supplier": "IEC"
+}

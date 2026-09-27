@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.748987Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.748987Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: IEC coolers inlet/outlet flanges",
+  "id": "IF-28",
+  "location_text": "IEC coolers inlet/outlet flanges",
+  "medium": "demin water + inhibitor",
+  "operating_conditions": "design 10 barg / 60 degC; operating at SRC: see IEC-ALP-REQ-001 table 5.1",
+  "owner_side": "EPC: CCW system (EPC)",
+  "service": "Closed cooling water",
+  "size": "various"
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.635292Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.635292Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Steam turbine and steam piping",
+  "commission": "IEPC",
+  "contract": "ALP-CA-001",
+  "design": "IEPC",
+  "id": "DR-020",
+  "install": "IEPC",
+  "item": "ST drains, drain collection and flash tank",
+  "remarks": "DoR 3.5; IEC drain list",
+  "supply": "IEPC"
+}

@@ -64,7 +64,7 @@ python -m engine validate && git add -A && git commit -m "..." && git push
 | `model_ifc` | IFC4 plant model: equipment envelopes, pipe/elbow/reducer at true OD and wall, valves, supports, line systems, property sets |
 | `piping_pcf` | one PCF per line + attribute map (stress/hydraulic data as COMPONENT-ATTRIBUTEn) |
 | `contract_document` | contract (docx + pdf): agreement, conditions, appendices A-G from contract/requirement/guarantee/milestone/scope records |
-| `clarification_register` | technical query register (xlsx): rounds, answers, outcomes, price effects, changed records |
+| `clarification_register` | technical query registers (xlsx), one per contract (Owner contract, IEPC-IEC agreement): rounds, answers, outcomes, price effects, changed records |
 | `requirements_matrix` | requirements traceability matrix (xlsx): requirement -> guarantee -> design data / equipment, coverage |
 | `governance` | rules.md / ledger.md |
 

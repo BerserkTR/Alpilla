@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:27.664600Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:29:56.908695Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0001"
+  ],
+  "description": "Fuel gas heater water return to condensate",
+  "fluid": "water",
+  "from_node": "FGH",
+  "hmb_case": "SRC-NG-100",
+  "id": "SRC-NG-100_19",
+  "mass_flow": 12.48,
+  "number": 19,
+  "pressure": 43.0,
+  "status": "preliminary",
+  "temperature": 75.0,
+  "to_node": "CMIX"
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:27.782745Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:30:00.970354Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0001"
+  ],
+  "counts_as": "auxiliary",
+  "description": "Ammonia and chemical dosing",
+  "hmb_case": "SRC-NG-100",
+  "id": "AL-18",
+  "method": "fixed",
+  "power": 40.0,
+  "status": "assumption",
+  "supplier": "IEPC"
+}

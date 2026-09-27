@@ -138,6 +138,18 @@ def cmd_validate(p: Project, a) -> int:
     return 0 if rep.ok else 1
 
 
+def _run_query(p, sql, limit):
+    import sqlite3
+    try:
+        c, rows, more = index.query(p, sql, limit)
+    except sqlite3.Error as e:
+        print(f"ERROR: SQL: {e}\n  columns are the field names; quote any that are SQL keywords, e.g. \"order\"='x'. "
+              f"Fields: python -m engine db schema <entity>")
+        return 1
+    print(_table(c, rows, more))
+    return 0
+
+
 def cmd_db(p: Project, a) -> int:
     store = Store(p)
     op = a.op
@@ -157,11 +169,9 @@ def cmd_db(p: Project, a) -> int:
         cols = ["id"] + (a.fields.split(",") if a.fields else sch.display or list(sch.fields)[:5])
         quoted = ", ".join(f'"{c}"' for c in cols)
         sql = f'SELECT {quoted} FROM "{a.entity}"' + (f" WHERE {a.where}" if a.where else "") + " ORDER BY id"
-        c, rows, more = index.query(p, sql, a.limit)
-        print(_table(c, rows, more)); return 0
+        return _run_query(p, sql, a.limit)
     if op == "query":
-        c, rows, more = index.query(p, a.sql, a.limit)
-        print(_table(c, rows, more)); return 0
+        return _run_query(p, a.sql, a.limit)
     if op == "add":
         data = _apply_attrs(store, a.entity, _parse_sets(store, a.entity, a.set, js=a.json), None, a.attr, None)
         if a.id:
@@ -383,7 +393,7 @@ def cmd_setup(p: Project, a) -> int:
         return 1
     print(f"known user codes: {', '.join(sorted(taken)) or 'none yet'}")
     missing = []
-    for mod in ("openpyxl", "docx", "jinja2", "markdown", "ezdxf", "ifcopenshell", "rdflib", "matplotlib"):
+    for mod in ("openpyxl", "docx", "jinja2", "markdown", "ezdxf", "ifcopenshell", "rdflib", "matplotlib", "iapws"):
         try:
             __import__(mod)
         except ImportError:

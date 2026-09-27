@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.747201Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.747201Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: HRSG HP ECO1 inlet",
+  "id": "IF-18",
+  "location_text": "HRSG HP ECO1 inlet",
+  "medium": "feedwater",
+  "operating_conditions": "design 235 bar(a) / 200 degC; operating at SRC: 100.16 kg/s, 209 bar(a)",
+  "owner_side": "EPC: HP feedwater piping (EPC)",
+  "service": "HP feedwater",
+  "size": "10\" CL2500"
+}

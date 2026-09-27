@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:27.240326Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:30:42.964289Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Power Transformer",
+  "basis_refs": [
+    "source:SRC-EPCE-0007"
+  ],
+  "description": "GT step-up transformer 560 MVA 400/21 kV",
+  "equipment_type": "transformer",
+  "id": "10BAT10",
+  "manufacturer": "Imaginary Electric Company",
+  "model": "IEC GSU 560",
+  "quantity": 1,
+  "status": "preliminary",
+  "system": "10BAT",
+  "voltage": 400000
+}

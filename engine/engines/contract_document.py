@@ -3,7 +3,7 @@
 Part I Contract Agreement and Part II Conditions come from contract_clause records; the appendices come from
 requirement (A), guarantee (B), milestone (C, amounts computed from the Contract Price), scope_item (D),
 design_parameter (E), party (F) and the contractual key-date activities (G, WBS <project>.KD).
-Options: contract=<id> (default: the only contract).
+Options: contract=<id> (default: the only contract of kind owner_contract; internal agreements are not rendered).
 """
 from __future__ import annotations
 
@@ -29,7 +29,7 @@ def eur(v) -> str:
 class ContractDocument(Engine):
     name = "contract_document"
     title = "Contract document (Word + PDF): agreement, conditions, appendices A-G from the database"
-    version = "1.1.0"
+    version = "1.2.0"
     inputs = ["contract", "contract_clause", "party", "requirement", "guarantee", "milestone", "scope_item",
               "design_parameter", "activity", "wbs", "project", "tie_in", "source", "clarification"]
     formats = ["docx", "pdf"]
@@ -41,13 +41,13 @@ class ContractDocument(Engine):
         from docx.shared import Cm, Pt, RGBColor
 
         s = ctx.store
-        contracts = s.records("contract")
+        contracts = [c for c in s.records("contract") if c.get("kind", "owner_contract") == "owner_contract"]
         if not contracts:
-            ctx.warnings.append("no contract records - nothing generated")
+            ctx.warnings.append("no Owner contract records - nothing generated")
             return []
         cid = ctx.options.get("contract") or (contracts[0]["id"] if len(contracts) == 1 else None)
         if not cid or not s.get("contract", cid):
-            raise ValueError("give --option contract=<id> (none or several contracts in the database)")
+            raise ValueError("give --option contract=<id> (none or several Owner contracts in the database)")
         k = s.get("contract", cid)
         parties = {p["id"]: p for p in s.records("party")}
         base = ctx.template("docx", "datasheet_base.docx")

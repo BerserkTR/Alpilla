@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.632915Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.632915Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Gas turbine and fuel",
+  "commission": "IEC",
+  "contract": "ALP-CA-001",
+  "design": "IEC",
+  "id": "DR-008",
+  "install": "IEPC",
+  "item": "Compressor washing skid",
+  "remarks": "DoR 1.8; supervision of erection: IEC; demin water by EPC",
+  "supply": "IEC"
+}

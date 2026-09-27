@@ -1,0 +1,99 @@
+{
+  "entity": "process_stream",
+  "title": "Process stream of a heat and mass balance case (node to node)",
+  "id_from": [
+    "hmb_case",
+    "number"
+  ],
+  "display": [
+    "hmb_case",
+    "number",
+    "description",
+    "mass_flow",
+    "pressure",
+    "temperature"
+  ],
+  "fields": {
+    "hmb_case": {
+      "type": "ref",
+      "to": "hmb_case",
+      "required": true
+    },
+    "number": {
+      "type": "integer",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "fluid": {
+      "type": "enum",
+      "values": [
+        "air",
+        "fuel_gas",
+        "flue_gas",
+        "steam",
+        "water",
+        "seawater",
+        "ldo",
+        "other"
+      ],
+      "required": true
+    },
+    "from_node": {
+      "type": "string",
+      "required": true,
+      "description": "node code (equipment block on the HMB diagram)"
+    },
+    "to_node": {
+      "type": "string",
+      "required": true
+    },
+    "mass_flow": {
+      "type": "number",
+      "unit": "kg/s",
+      "required": true
+    },
+    "pressure": {
+      "type": "number",
+      "unit": "bar(a)",
+      "required": true
+    },
+    "temperature": {
+      "type": "number",
+      "unit": "degC",
+      "required": true
+    },
+    "enthalpy": {
+      "type": "number",
+      "unit": "kJ/kg",
+      "description": "only where p and T do not define the state (wet steam)"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "assumption",
+        "preliminary",
+        "confirmed",
+        "superseded"
+      ],
+      "default": "preliminary"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "reference",
+        "decision",
+        "requirement"
+      ],
+      "required": true,
+      "min_items": 1,
+      "description": "traceability: every value cites its basis (entity:id)"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

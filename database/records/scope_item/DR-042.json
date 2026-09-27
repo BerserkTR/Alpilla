@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.639745Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.639745Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Transport, tests, training",
+  "contract": "ALP-CA-001",
+  "design": "IEC",
+  "id": "DR-042",
+  "item": "Training of Owner staff on IEC equipment",
+  "remarks": "DoR 8.3",
+  "supply": "IEC"
+}

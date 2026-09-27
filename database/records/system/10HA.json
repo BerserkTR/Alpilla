@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.853740Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:30:43.643679Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "hrsg",
+  "description": "power island - IEC scope",
+  "id": "10HA",
+  "title": "HRSG pressure system",
+  "unit_no": "10"
+}

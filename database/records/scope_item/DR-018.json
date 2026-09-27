@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.634921Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.634921Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Steam turbine and steam piping",
+  "commission": "IEPC",
+  "contract": "ALP-CA-001",
+  "design": "IEPC",
+  "id": "DR-018",
+  "install": "IEPC",
+  "item": "HP, cold reheat, hot reheat and LP steam piping HRSG - ST incl. supports",
+  "remarks": "DoR 3.3; IEC: nozzle loads, pressure drop assumptions (PER-001 1)",
+  "supply": "IEPC"
+}

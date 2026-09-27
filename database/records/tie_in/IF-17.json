@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.747032Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.747032Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: HRSG LP drum downcomer outlet nozzle",
+  "id": "IF-17",
+  "location_text": "HRSG LP drum downcomer outlet nozzle",
+  "medium": "feedwater",
+  "operating_conditions": "design 10 bar(a) / 185 degC; operating at SRC: 129.98 kg/s, 158.1 degC",
+  "owner_side": "EPC: BFP suction piping (EPC)",
+  "service": "BFP suction",
+  "size": "16\" CL150"
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.639179Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.639179Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Civil",
+  "contract": "ALP-CA-001",
+  "design": "IEPC",
+  "id": "DR-039",
+  "install": "IEPC",
+  "item": "Turbine hall(s), cranes, HRSG access structures beyond IEC platforms",
+  "remarks": "DoR 7.2",
+  "supply": "IEPC"
+}

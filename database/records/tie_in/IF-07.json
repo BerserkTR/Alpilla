@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.744845Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.744845Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: HP turbine exhaust, weld end",
+  "id": "IF-07",
+  "location_text": "HP turbine exhaust, weld end",
+  "medium": "steam",
+  "operating_conditions": "design 52 bar(a) / 420 degC; operating at SRC: 40.2 bar(a), 366 degC",
+  "owner_side": "EPC: cold reheat piping (EPC)",
+  "service": "Cold reheat",
+  "size": "24\" (P22/A106) weld end"
+}

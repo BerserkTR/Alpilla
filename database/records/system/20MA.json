@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.853956Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:30:43.808505Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "steam_turbine",
+  "description": "power island - IEC scope",
+  "id": "20MA",
+  "title": "Steam turbine plant",
+  "unit_no": "20"
+}

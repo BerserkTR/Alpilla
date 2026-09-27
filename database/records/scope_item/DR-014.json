@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.634028Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.634028Z",
+    "updated_by": "EPCE"
+  },
+  "area": "HRSG",
+  "commission": "IEPC",
+  "contract": "ALP-CA-001",
+  "design": "IEPC",
+  "id": "DR-014",
+  "install": "IEPC",
+  "item": "Chemical dosing and steam/water sampling (SWAS)",
+  "remarks": "DoR 2.5; IEC sample/dosing nozzles",
+  "supply": "IEPC"
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.639359Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.639359Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Transport, tests, training",
+  "contract": "ALP-CA-001",
+  "id": "DR-040",
+  "item": "Transport of IEC equipment to site (incl. heavy transport, barge, SPMT)",
+  "remarks": "DoR 8.1; supply: IEC to port of discharge; EPC from port to foundation; barge landing TP-M1 by EPC",
+  "supply": "IEC"
+}

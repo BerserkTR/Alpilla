@@ -1,0 +1,92 @@
+{
+  "entity": "aux_load",
+  "title": "Auxiliary power consumer of a heat and mass balance case",
+  "id_pattern": "^AL-[0-9]{2,3}$",
+  "display": [
+    "hmb_case",
+    "description",
+    "supplier",
+    "method",
+    "power"
+  ],
+  "fields": {
+    "hmb_case": {
+      "type": "ref",
+      "to": "hmb_case",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "supplier": {
+      "type": "ref",
+      "to": "party",
+      "required": true
+    },
+    "method": {
+      "type": "enum",
+      "values": [
+        "fixed",
+        "pump_node",
+        "cw_pump"
+      ],
+      "required": true,
+      "description": "fixed: power given; pump_node: from the enthalpy rise of the node's streams; cw_pump: from CW flow and head"
+    },
+    "power": {
+      "type": "number",
+      "unit": "kW",
+      "description": "electrical input (fixed method)"
+    },
+    "node": {
+      "type": "string",
+      "description": "pump_node: node code; cw_pump: condenser node"
+    },
+    "head": {
+      "type": "number",
+      "unit": "m"
+    },
+    "pump_efficiency": {
+      "type": "number",
+      "unit": "-"
+    },
+    "motor_efficiency": {
+      "type": "number",
+      "unit": "-"
+    },
+    "counts_as": {
+      "type": "enum",
+      "values": [
+        "auxiliary",
+        "transformer_loss"
+      ],
+      "default": "auxiliary"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "assumption",
+        "preliminary",
+        "confirmed",
+        "superseded"
+      ],
+      "default": "preliminary"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "reference",
+        "decision",
+        "requirement"
+      ],
+      "required": true,
+      "min_items": 1,
+      "description": "traceability: every value cites its basis (entity:id)"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

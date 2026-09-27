@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.632535Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.632535Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Gas turbine and fuel",
+  "commission": "IEC",
+  "contract": "ALP-CA-001",
+  "design": "IEC",
+  "id": "DR-006",
+  "install": "IEPC",
+  "item": "Liquid fuel skid, water injection skid, purge and recirculation (from IF-02/03)",
+  "remarks": "DoR 1.6; supervision of erection: IEC",
+  "supply": "IEC"
+}

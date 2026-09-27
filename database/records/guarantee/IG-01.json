@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.521662Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.521662Z",
+    "updated_by": "EPCE"
+  },
+  "category": "performance",
+  "conditions": "Site Reference Conditions SRC-NG-100 (ER-02.03), new and clean, per IEC-ALP-PER-001 section 7",
+  "contract": "ALP-CA-001",
+  "direction": "min",
+  "guaranteed_value": 614.0,
+  "id": "IG-01",
+  "parameter": "Power island gross output at the generator terminals",
+  "test_procedure": "ASME PTC 46 / ISO 2314 within the plant performance test",
+  "unit": "MW"
+}

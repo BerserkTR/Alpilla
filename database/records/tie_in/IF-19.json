@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.747367Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.747367Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: HRSG IP ECO inlet",
+  "id": "IF-19",
+  "location_text": "HRSG IP ECO inlet",
+  "medium": "feedwater",
+  "operating_conditions": "design 60 bar(a) / 200 degC; operating at SRC: 29.82 kg/s, 46 bar(a)",
+  "owner_side": "EPC: IP feedwater piping (EPC)",
+  "service": "IP feedwater",
+  "size": "6\" CL600"
+}

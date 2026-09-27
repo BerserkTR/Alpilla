@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.744657Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.744657Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: ST main stop valve inlet, weld end",
+  "id": "IF-06",
+  "location_text": "ST main stop valve inlet, weld end",
+  "medium": "steam",
+  "operating_conditions": "design 200 bar(a) / 605 degC; operating at SRC: 180.0 bar(a), 597 degC",
+  "owner_side": "EPC: main steam piping (EPC)",
+  "service": "HP steam",
+  "size": "12\" (P91) weld end"
+}

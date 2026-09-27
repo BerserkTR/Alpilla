@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.745035Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.745035Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: HRSG reheater inlet, weld end",
+  "id": "IF-08",
+  "location_text": "HRSG reheater inlet, weld end",
+  "medium": "steam",
+  "operating_conditions": "design 52 bar(a) / 420 degC; operating at SRC: 39.4 bar(a), 365 degC",
+  "owner_side": "EPC: cold reheat piping (EPC)",
+  "service": "Cold reheat",
+  "size": "24\" weld end"
+}

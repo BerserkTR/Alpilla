@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.634266Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.634266Z",
+    "updated_by": "EPCE"
+  },
+  "area": "HRSG",
+  "commission": "IEPC",
+  "contract": "ALP-CA-001",
+  "design": "IEPC",
+  "id": "DR-015",
+  "install": "IEPC",
+  "item": "Stack incl. silencer, CEMS, aviation lighting",
+  "remarks": "DoR 2.6; 65 m (ER-06.06)",
+  "supply": "IEPC"
+}

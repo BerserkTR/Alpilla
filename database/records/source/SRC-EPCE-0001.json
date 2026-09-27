@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.349709Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.349709Z",
+    "updated_by": "EPCE"
+  },
+  "doc_ref": "IEC-ALP-PER-001",
+  "file": "sources/iec/IEC-ALP-PER-001_Rev0.pdf",
+  "id": "SRC-EPCE-0001",
+  "originator": "Imaginary Electric Company (consortium member, power island supplier)",
+  "received_date": "2026-09-27",
+  "remarks": "IEC reference document (case study, fictional). Native Word file sources/iec/IEC-ALP-PER-001_Rev0.docx; tables in Excel sources/iec/IEC-ALP-PER-001_Rev0_data.xlsx.",
+  "revision": "0",
+  "title": "Power island thermal performance data (heat balance)"
+}

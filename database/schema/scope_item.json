@@ -1,7 +1,7 @@
 {
   "entity": "scope_item",
-  "title": "Scope split / terminal point item",
-  "id_pattern": "^SC-[0-9]{3}$",
+  "title": "Scope split / division of responsibility item (SC-: Owner contract, DR-: internal agreement)",
+  "id_pattern": "^(SC|DR)-[0-9]{3}$",
   "display": [
     "area",
     "item",

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.747709Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.747709Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: continuous / intermittent blowdown valves outlet",
+  "id": "IF-21",
+  "location_text": "continuous / intermittent blowdown valves outlet",
+  "medium": "water",
+  "operating_conditions": "design 210 bar(a) / 370 degC; operating at SRC: 0 in normal operation",
+  "owner_side": "EPC: blowdown tanks (EPC)",
+  "service": "HRSG blowdown",
+  "size": "2\" / 3\""
+}

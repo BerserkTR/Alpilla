@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.746803Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.746803Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: HRSG CPH inlet",
+  "id": "IF-16",
+  "location_text": "HRSG CPH inlet",
+  "medium": "condensate",
+  "operating_conditions": "design 25 bar(a) / 180 degC; operating at SRC: 141.37 kg/s",
+  "owner_side": "EPC: condensate line (EPC)",
+  "service": "Condensate to CPH",
+  "size": "12\" CL300"
+}

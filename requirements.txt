@@ -7,4 +7,5 @@ rdflib>=7          # AVEVA class library (TTL) compiler
 ezdxf>=1.3         # DXF drawings (P&ID, plot plan)
 ifcopenshell>=0.8  # IFC model
 matplotlib>=3.8    # drawing previews (PDF/PNG)
+iapws>=1.5         # IAPWS-IF97 water/steam properties (heat and mass balance)
 # optional, system package: LibreOffice (soffice) for PDF conversion

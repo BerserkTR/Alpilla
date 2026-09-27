@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.634457Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.634457Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Steam turbine and steam piping",
+  "commission": "IEC",
+  "contract": "ALP-CA-001",
+  "design": "IEC",
+  "id": "DR-016",
+  "install": "IEPC",
+  "item": "Steam turbine with valves, lube/EHC oil, gland steam system, turning gear",
+  "remarks": "DoR 3.1; supervision of erection: IEC",
+  "supply": "IEC"
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.741535Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.741535Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: performance gas heater inlet flange",
+  "id": "IF-01",
+  "location_text": "performance gas heater inlet flange",
+  "medium": "natural gas",
+  "operating_conditions": "design 63 barg / 80 degC; operating at SRC: 20.67 kg/s, 37.0 barg, 25 degC",
+  "owner_side": "EPC: gas from EPC gas receiving/metering station",
+  "service": "Natural gas to GT",
+  "size": "12\" ASME CL600 RF"
+}

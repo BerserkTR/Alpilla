@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.751490Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.751490Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: generator/GSU protection panels",
+  "id": "IF-41",
+  "location_text": "generator/GSU protection panels",
+  "medium": "signals",
+  "operating_conditions": "design -; operating at SRC: -",
+  "owner_side": "EPC: switchyard protection and TSO SCADA (EPC)",
+  "service": "Protection interface",
+  "size": "IEC 61850 + hardwired"
+}

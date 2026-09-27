@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.745915Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.745915Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: ST LP admission valve inlet",
+  "id": "IF-12",
+  "location_text": "ST LP admission valve inlet",
+  "medium": "steam",
+  "operating_conditions": "design 8 bar(a) / 330 degC; operating at SRC: 4.95 bar(a)",
+  "owner_side": "EPC: LP steam piping (EPC)",
+  "service": "LP steam",
+  "size": "20\" weld end"
+}

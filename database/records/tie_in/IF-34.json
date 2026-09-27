@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.749991Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.749991Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: GT GSU HV bushings",
+  "id": "IF-34",
+  "location_text": "GT GSU HV bushings",
+  "medium": "electrical",
+  "operating_conditions": "design -; operating at SRC: 560 MVA",
+  "owner_side": "EPC: 380 kV connection to GIS (EPC)",
+  "service": "GT GSU HV",
+  "size": "400 kV"
+}

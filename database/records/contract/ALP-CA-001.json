@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.236772Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.236772Z",
+    "updated_by": "EPCE"
+  },
+  "case_note": "CASE STUDY - fictional. IEC share = offshore portion of ALP-EPC-001 (EUR 327,000,000).",
+  "contractor_parties": [
+    "IEC"
+  ],
+  "currency": "EUR",
+  "form": "consortium agreement with back-to-back technical and guarantee obligations",
+  "governing_law": "Laws of the Republic of Turkiye",
+  "id": "ALP-CA-001",
+  "kind": "consortium_agreement",
+  "language": "English",
+  "leader": "IEPC",
+  "owner": "IEPC",
+  "price": 327000000,
+  "signature_date": "2026-06-30",
+  "status": "signed",
+  "title": "Consortium agreement IEPC - IEC: power island supply and division of responsibility"
+}

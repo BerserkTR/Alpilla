@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.744199Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.744199Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: wash skid inlet",
+  "id": "IF-04",
+  "location_text": "wash skid inlet",
+  "medium": "demin water",
+  "operating_conditions": "design 10 barg / 50 degC; operating at SRC: 5 m3 per wash",
+  "owner_side": "EPC: demin water",
+  "service": "Compressor wash water",
+  "size": "2\" CL150"
+}

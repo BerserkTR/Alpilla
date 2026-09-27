@@ -1,0 +1,128 @@
+{
+  "entity": "hmb_case",
+  "title": "Heat and mass balance case (operating point: ambient, fuel, load, power-island data)",
+  "id_pattern": "^[A-Z0-9][A-Z0-9-]*$",
+  "display": [
+    "title",
+    "fuel",
+    "load_pct",
+    "ambient_temperature",
+    "status"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "fuel": {
+      "type": "enum",
+      "values": [
+        "natural_gas",
+        "ldo"
+      ],
+      "required": true
+    },
+    "fuel_composition": {
+      "type": "string",
+      "description": "gas: component=mol% separated by ';' (CH4, C2H6, C3H8, iC4H10, nC4H10, C5H12, N2, CO2, O2, H2, He)"
+    },
+    "load_pct": {
+      "type": "number",
+      "unit": "%",
+      "required": true
+    },
+    "ambient_temperature": {
+      "type": "number",
+      "unit": "degC",
+      "required": true
+    },
+    "relative_humidity": {
+      "type": "number",
+      "unit": "%",
+      "required": true
+    },
+    "barometric_pressure": {
+      "type": "number",
+      "unit": "mbar",
+      "required": true
+    },
+    "seawater_temperature": {
+      "type": "number",
+      "unit": "degC",
+      "required": true
+    },
+    "seawater_salinity": {
+      "type": "number",
+      "unit": "PSU"
+    },
+    "cw_temperature_rise": {
+      "type": "number",
+      "unit": "K"
+    },
+    "gt_output": {
+      "type": "number",
+      "unit": "kW",
+      "required": true,
+      "description": "GT output at the generator terminals"
+    },
+    "gt_generator_efficiency": {
+      "type": "number",
+      "unit": "-",
+      "required": true
+    },
+    "gt_other_losses": {
+      "type": "number",
+      "unit": "kW",
+      "description": "GT losses not in the exhaust (lube oil, radiation), excl. generator"
+    },
+    "st_output": {
+      "type": "number",
+      "unit": "kW",
+      "required": true,
+      "description": "ST output at the generator terminals"
+    },
+    "st_mechanical_efficiency": {
+      "type": "number",
+      "unit": "-",
+      "required": true
+    },
+    "st_generator_efficiency": {
+      "type": "number",
+      "unit": "-",
+      "required": true
+    },
+    "hrsg_heat_loss": {
+      "type": "number",
+      "unit": "%",
+      "description": "casing heat loss, % of gas-side duty"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "assumption",
+        "preliminary",
+        "confirmed",
+        "superseded"
+      ],
+      "default": "preliminary"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "reference",
+        "decision",
+        "requirement"
+      ],
+      "required": true,
+      "min_items": 1,
+      "description": "traceability: every value cites its basis (entity:id)"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

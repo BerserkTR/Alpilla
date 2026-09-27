@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.632733Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.632733Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Gas turbine and fuel",
+  "commission": "IEPC",
+  "contract": "ALP-CA-001",
+  "design": "IEPC",
+  "id": "DR-007",
+  "install": "IEPC",
+  "item": "LDO unloading, storage, forwarding and treatment",
+  "remarks": "DoR 1.7",
+  "supply": "IEPC"
+}

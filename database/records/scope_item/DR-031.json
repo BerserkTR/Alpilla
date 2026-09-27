@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.637421Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.637421Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Electrical",
+  "commission": "IEPC",
+  "contract": "ALP-CA-001",
+  "design": "IEPC",
+  "id": "DR-031",
+  "install": "IEPC",
+  "item": "H2 and CO2 bottle racks and supply piping",
+  "remarks": "DoR 5.6; IEC gas control panel",
+  "supply": "IEPC"
+}

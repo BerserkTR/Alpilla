@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.960133Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:30:42.631334Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Steam Turbine",
+  "basis_refs": [
+    "source:SRC-EPCE-0004"
+  ],
+  "description": "Steam turbine, reheat condensing, 2 casings",
+  "equipment_type": "steam turbine",
+  "id": "20MAA10",
+  "manufacturer": "Imaginary Electric Company",
+  "model": "IE-ST3R",
+  "quantity": 1,
+  "rated_power": 200310.0,
+  "remarks": "maximum continuous 235 MW",
+  "status": "preliminary",
+  "system": "20MA"
+}

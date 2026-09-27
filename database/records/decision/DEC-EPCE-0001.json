@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:27.356603Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:27.356603Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0001"
+  ],
+  "date": "2026-09-27",
+  "decided_by": "EPC engineering (process/electrical leads)",
+  "decision": "For the preliminary plant HMB the EPC uses: boiler feed pump motor efficiency 0.965 and condensate pump motor efficiency 0.95 (pump power from the IEC stream data); CW pumps 2 x 50 % with 16 m total head, pump efficiency 0.86, motor 0.96; fixed estimates for closed cooling water pumps 320 kW, electro-chlorination 260 kW, water treatment 450 kW, compressed air 180 kW, HVAC and lighting 750 kW, ammonia and chemical dosing 40 kW, fuel gas station 60 kW, LDO system standby 30 kW, UAT and MV/LV transformer losses 240 kW, miscellaneous 300 kW.",
+  "id": "DEC-EPCE-0001",
+  "rationale": "Preliminary values from comparable 600 MW class CCGT plants; to be replaced by the electrical load list.",
+  "status": "agreed",
+  "title": "Preliminary HMB: EPC balance-of-plant auxiliary load estimates and pump data"
+}

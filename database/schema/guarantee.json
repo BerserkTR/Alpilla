@@ -1,7 +1,7 @@
 {
   "entity": "guarantee",
   "title": "Performance / environmental guarantee with liquidated damages",
-  "id_pattern": "^PG-[0-9]{2}$",
+  "id_pattern": "^(PG|IG)-[0-9]{2}$",
   "display": [
     "parameter",
     "guaranteed_value",

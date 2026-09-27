@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.636876Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.636876Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Electrical",
+  "commission": "IEC",
+  "contract": "ALP-CA-001",
+  "design": "IEC",
+  "id": "DR-028",
+  "install": "IEPC",
+  "item": "GT and ST generator step-up transformers",
+  "remarks": "DoR 5.3; supervision of erection: IEC; commissioning: IEC with EPC",
+  "supply": "IEC"
+}

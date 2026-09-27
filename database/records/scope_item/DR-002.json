@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.631552Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.631552Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Gas turbine and fuel",
+  "commission": "IEC",
+  "contract": "ALP-CA-001",
+  "design": "IEC",
+  "id": "DR-002",
+  "install": "IEPC",
+  "item": "GT inlet air filter house, anti-icing, silencer, inlet duct",
+  "remarks": "DoR 1.2; supervision of erection: IEC; evaporative cooler: space provision only (not included)",
+  "supply": "IEC"
+}

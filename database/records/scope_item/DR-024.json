@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.636017Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.636017Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Condenser and cycle",
+  "commission": "IEPC",
+  "contract": "ALP-CA-001",
+  "design": "IEPC",
+  "id": "DR-024",
+  "install": "IEPC",
+  "item": "Condensate pumps, boiler feed pumps, condensate polishing",
+  "remarks": "DoR 4.4; IEC pressure assumptions PER-001",
+  "supply": "IEPC"
+}

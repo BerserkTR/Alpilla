@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.747531Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.747531Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: performance gas heater water outlet",
+  "id": "IF-20",
+  "location_text": "performance gas heater water outlet",
+  "medium": "feedwater",
+  "operating_conditions": "design 60 bar(a) / 260 degC; operating at SRC: 12.48 kg/s, 75 degC",
+  "owner_side": "EPC: return line to condensate (EPC)",
+  "service": "FGH water return",
+  "size": "4\" CL600"
+}

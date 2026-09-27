@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:27.783087Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:30:01.200315Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0001"
+  ],
+  "counts_as": "auxiliary",
+  "description": "LDO system (standby on gas)",
+  "hmb_case": "SRC-NG-100",
+  "id": "AL-20",
+  "method": "fixed",
+  "power": 30.0,
+  "status": "assumption",
+  "supplier": "IEPC"
+}

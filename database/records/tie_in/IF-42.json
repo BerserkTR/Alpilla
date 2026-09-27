@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.751673Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.751673Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: equipment earthing bosses",
+  "id": "IF-42",
+  "location_text": "equipment earthing bosses",
+  "medium": "electrical",
+  "operating_conditions": "design -; operating at SRC: -",
+  "owner_side": "EPC: earthing grid (EPC)",
+  "service": "Earthing",
+  "size": "-"
+}

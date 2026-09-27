@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.748646Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.748646Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: HRSG outlet transition flange",
+  "id": "IF-26",
+  "location_text": "HRSG outlet transition flange",
+  "medium": "flue gas",
+  "operating_conditions": "design +/- 50 mbar / 200 degC; operating at SRC: 796.7 kg/s, 80.5 degC",
+  "owner_side": "EPC: stack (EPC), CEMS (EPC)",
+  "service": "Flue gas to stack",
+  "size": "D 9.2 m"
+}

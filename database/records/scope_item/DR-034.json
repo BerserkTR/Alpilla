@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.638028Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.638028Z",
+    "updated_by": "EPCE"
+  },
+  "area": "I&C",
+  "commission": "IEC",
+  "contract": "ALP-CA-001",
+  "design": "IEC",
+  "id": "DR-034",
+  "install": "IEPC",
+  "item": "Turbine control system (TCS) for GT, ST, generators, HRSG protection (SIS)",
+  "remarks": "DoR 6.1; supervision of erection: IEC; stand-alone TCS with OPC UA gateway to the DCS",
+  "supply": "IEC"
+}

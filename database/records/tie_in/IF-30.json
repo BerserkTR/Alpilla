@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.749313Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.749313Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: HRSG lay-up / generator purge connections",
+  "id": "IF-30",
+  "location_text": "HRSG lay-up / generator purge connections",
+  "medium": "N2",
+  "operating_conditions": "design 10 barg; operating at SRC: lay-up",
+  "owner_side": "EPC: N2 supply (EPC)",
+  "service": "Nitrogen",
+  "size": "1\""
+}

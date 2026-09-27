@@ -1,7 +1,7 @@
 {
   "entity": "clarification",
-  "title": "Technical query / clarification between Contractor and Owner",
-  "id_pattern": "^TQ-[0-9]{3}$",
+  "title": "Technical query / clarification between the parties of a contract (TQ-nnn: Owner contract, TQ-<PARTY>-nnn: internal agreements)",
+  "id_pattern": "^TQ-([A-Z]{3,4}-)?[0-9]{3}$",
   "display": [
     "round",
     "raised_by",
@@ -59,13 +59,17 @@
     "references": {
       "type": "ref_list",
       "to": [
-        "requirement",
-        "source",
-        "guarantee",
-        "scope_item",
-        "tie_in",
+        "aux_load",
         "contract_clause",
-        "design_parameter"
+        "design_parameter",
+        "equipment",
+        "guarantee",
+        "hmb_case",
+        "process_stream",
+        "requirement",
+        "scope_item",
+        "source",
+        "tie_in"
       ]
     },
     "proposal": {

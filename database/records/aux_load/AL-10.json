@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:27.781189Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:30:00.012173Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0001"
+  ],
+  "counts_as": "auxiliary",
+  "description": "Boiler feed pumps 2 x 100 % (1 running)",
+  "hmb_case": "SRC-NG-100",
+  "id": "AL-10",
+  "method": "pump_node",
+  "motor_efficiency": 0.965,
+  "node": "BFP",
+  "status": "assumption",
+  "supplier": "IEPC"
+}

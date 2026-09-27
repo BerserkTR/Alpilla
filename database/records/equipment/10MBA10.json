@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.957487Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:30:41.946862Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Gas Turbine",
+  "basis_refs": [
+    "source:SRC-EPCE-0002"
+  ],
+  "description": "Gas turbine",
+  "equipment_type": "gas turbine",
+  "id": "10MBA10",
+  "manufacturer": "Imaginary Electric Company",
+  "model": "IE-9H.02",
+  "quantity": 1,
+  "rated_power": 425000.0,
+  "remarks": "SRC output; ISO rating 432 MW; output limit 470 MW (cold ambient)",
+  "status": "preliminary",
+  "system": "10MB"
+}

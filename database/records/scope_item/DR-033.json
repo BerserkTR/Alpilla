@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.637793Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.637793Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Electrical",
+  "commission": "IEPC",
+  "contract": "ALP-CA-001",
+  "design": "IEPC",
+  "id": "DR-033",
+  "install": "IEPC",
+  "item": "380 kV connection GSU - GIS, GIS switchyard",
+  "remarks": "DoR 5.8",
+  "supply": "IEPC"
+}

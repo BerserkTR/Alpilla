@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.743759Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.743759Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: liquid fuel skid inlet flange",
+  "id": "IF-02",
+  "location_text": "liquid fuel skid inlet flange",
+  "medium": "LDO",
+  "operating_conditions": "design 16 barg / 60 degC; operating at SRC: 22.1 kg/s (LDO operation)",
+  "owner_side": "EPC: LDO forwarding/treatment system",
+  "service": "LDO to GT",
+  "size": "6\" CL150"
+}

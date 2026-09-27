@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.743990Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.743990Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: water injection skid inlet",
+  "id": "IF-03",
+  "location_text": "water injection skid inlet",
+  "medium": "demin water",
+  "operating_conditions": "design 16 barg / 50 degC; operating at SRC: 22.5 kg/s (LDO operation)",
+  "owner_side": "EPC: demin water storage/pumps",
+  "service": "Demin water for water injection",
+  "size": "4\" CL150"
+}

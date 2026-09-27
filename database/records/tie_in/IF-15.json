@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.746536Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.746536Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: hotwell outlet nozzle",
+  "id": "IF-15",
+  "location_text": "hotwell outlet nozzle",
+  "medium": "condensate",
+  "operating_conditions": "design full vacuum - 3.5 bar(a) / 80 degC; operating at SRC: 128.89 kg/s, 26.3 degC",
+  "owner_side": "EPC: CEP suction piping (EPC)",
+  "service": "Condensate from hotwell",
+  "size": "20\" CL150"
+}

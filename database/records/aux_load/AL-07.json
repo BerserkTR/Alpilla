@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:27.780522Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:29:59.632609Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0010"
+  ],
+  "counts_as": "auxiliary",
+  "description": "Turbine control system and UPS load",
+  "hmb_case": "SRC-NG-100",
+  "id": "AL-07",
+  "method": "fixed",
+  "power": 60.0,
+  "status": "preliminary",
+  "supplier": "IEC"
+}

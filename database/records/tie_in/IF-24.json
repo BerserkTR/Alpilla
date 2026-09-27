@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.748297Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.748297Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: sample nozzles with root valves (IEC)",
+  "id": "IF-24",
+  "location_text": "sample nozzles with root valves (IEC)",
+  "medium": "water/steam",
+  "operating_conditions": "design -; operating at SRC: -",
+  "owner_side": "EPC: sample lines, coolers, SWAS (EPC)",
+  "service": "Sampling",
+  "size": "1/2\""
+}

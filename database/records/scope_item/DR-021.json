@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.635465Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.635465Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Condenser and cycle",
+  "commission": "IEPC",
+  "contract": "ALP-CA-001",
+  "design": "IEC",
+  "id": "DR-021",
+  "install": "IEPC",
+  "item": "Condenser incl. dump devices, hotwell, vacuum pumps",
+  "remarks": "DoR 4.1; supervision of erection: IEC; commissioning: EPC with IEC",
+  "supply": "IEC"
+}

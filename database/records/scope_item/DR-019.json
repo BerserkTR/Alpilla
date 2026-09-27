@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.635098Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.635098Z",
+    "updated_by": "EPCE"
+  },
+  "area": "Steam turbine and steam piping",
+  "commission": "IEPC",
+  "contract": "ALP-CA-001",
+  "design": "IEPC",
+  "id": "DR-019",
+  "install": "IEPC",
+  "item": "Bypass piping and spray water piping",
+  "remarks": "DoR 3.4",
+  "supply": "IEPC"
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:27.781387Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-27T18:30:00.132517Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0001"
+  ],
+  "counts_as": "auxiliary",
+  "description": "Condensate extraction pumps 2 x 100 % (1 running)",
+  "hmb_case": "SRC-NG-100",
+  "id": "AL-11",
+  "method": "pump_node",
+  "motor_efficiency": 0.95,
+  "node": "CEP",
+  "status": "assumption",
+  "supplier": "IEPC"
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.744397Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.744397Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: HRSG HP SH outlet stop valve, weld end",
+  "id": "IF-05",
+  "location_text": "HRSG HP SH outlet stop valve, weld end",
+  "medium": "steam",
+  "operating_conditions": "design 210 bar(a) / 610 degC; operating at SRC: 100.16 kg/s, 187.0 bar(a), 600 degC",
+  "owner_side": "EPC: main steam piping (EPC)",
+  "service": "HP steam",
+  "size": "12\" (P91) weld end"
+}

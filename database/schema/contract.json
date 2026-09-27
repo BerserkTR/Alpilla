@@ -13,10 +13,22 @@
       "type": "string",
       "required": true
     },
+    "kind": {
+      "type": "enum",
+      "values": [
+        "owner_contract",
+        "consortium_agreement",
+        "subcontract",
+        "purchase_order"
+      ],
+      "default": "owner_contract",
+      "description": "owner_contract = contract with the Owner (rendered by contract_document); others are internal agreements of the Contractor side"
+    },
     "owner": {
       "type": "ref",
       "to": "party",
-      "required": true
+      "required": true,
+      "description": "employer: the Owner for an owner_contract, the lead/purchasing party for internal agreements"
     },
     "contractor_parties": {
       "type": "ref_list",

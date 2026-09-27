@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T18:29:14.746092Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-27T18:29:14.746092Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0008"
+  ],
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: valves supplied loose by IEC (incl. desuperheating)",
+  "id": "IF-13",
+  "location_text": "valves supplied loose by IEC (incl. desuperheating)",
+  "medium": "steam / water",
+  "operating_conditions": "design -; operating at SRC: start-up / trip",
+  "owner_side": "EPC: installation in EPC piping, spray water from BFP/CEP (EPC)",
+  "service": "HP / IP / LP bypass valves",
+  "size": "per valve datasheets"
+}
