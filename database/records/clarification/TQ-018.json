@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:18:44.027130Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:18:44.638324Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "requirement/ER-03.09",
+    "scope_item/SC-053",
+    "clarification/TQ-005",
+    "decision (LDO supply contract)"
+  ],
+  "contract": "ALP-EPC-001",
+  "cost_impact": 950000,
+  "discipline": "commercial",
+  "follows": "TQ-005",
+  "id": "TQ-018",
+  "impact": "cost",
+  "outcome": "price_adjustment",
+  "proposal": "Treatment (2 x 100 % centrifugal separators with water washing) included as mandatory scope; cost shared 50/50: EUR 950,000. The Owner adds to its LDO supply contract Na+K <= 1.0 mg/kg with sampling of each delivery.",
+  "question": "ALP-OWN-FUL-002 lists Na+K <= 1.0 mg/kg 'as delivered, not guaranteed by supplier' in the specification table; our tender assumed the tabulated value, which the forwarding filters and water draining handle for most deliveries. The 1.8 mg/kg history is a note on other plants. The requirement 'if needed' is ambiguous for a lump-sum price. We propose a compromise.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-24",
+  "references": [
+    "requirement:ER-03.09",
+    "source:SRC-OWNR-0004",
+    "contract_clause:ALP-EPC-001_1.3"
+  ],
+  "responded_by": "OWNER",
+  "response": "Accepted as a compromise: fuel treatment (2 x 100 % centrifugal separators with water washing) becomes mandatory scope; cost shared, price adjustment EUR 950,000. The Owner will require Na+K <= 1.0 mg/kg with sampling of each delivery in its LDO supply contract (decision recorded). TQ-005 is closed by this answer.",
+  "response_date": "2026-09-26",
+  "round": 2,
+  "status": "closed",
+  "subject": "LDO treatment - request to reconsider"
+}

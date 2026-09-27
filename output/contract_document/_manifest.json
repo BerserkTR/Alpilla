@@ -1,16 +1,17 @@
 {
-  "db_hash": "15ee637f50672808",
+  "db_hash": "9d17c3c22e0556da",
   "engine": "contract_document",
-  "engine_version": "1.0.0",
+  "engine_version": "1.1.0",
   "files": {
-    "ALP-EPC-001_contract.docx": "90ea2d4a00aaa83309e210d0a4b6618736f5e5fdb27f9564e54542ec72cd6b41",
-    "ALP-EPC-001_contract.pdf": "9fbb15945b25f80f471fbdad305392f2f470e5fd1b1c02768d5391b89ed9a9c3"
+    "ALP-EPC-001_contract.docx": "1f4573e6555eff99aac2af55f7cd9255fbd9d62d51809f73d27b0e4283e352ed",
+    "ALP-EPC-001_contract.pdf": "e71dbcc66ec8295fc873ef320df7f45711b1bb4675857a30a0d0eaaa853815ed"
   },
-  "generated_at": "2026-09-27T16:51:59.183226Z",
+  "generated_at": "2026-09-27T17:21:25.855829Z",
   "generated_by": "SETUP",
-  "git_commit": "1f0bda3",
+  "git_commit": "d28d048",
   "inputs": [
     "activity",
+    "clarification",
     "contract",
     "contract_clause",
     "design_parameter",
@@ -20,9 +21,11 @@
     "project",
     "requirement",
     "scope_item",
+    "source",
+    "tie_in",
     "wbs"
   ],
-  "inputs_hash": "d01970c3fb5cd199",
+  "inputs_hash": "fcfff778765e4f67",
   "options": {},
   "warnings": []
 }

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:18:44.547884Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:18:44.547884Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0004"
+  ],
+  "date": "2026-09-26",
+  "decided_by": "Owner",
+  "decision": "The Owner's LDO supply contract shall require Na+K <= 1.0 mg/kg as delivered, with a retained sample and laboratory analysis of each delivery; off-spec deliveries are rejected at the unloading station.",
+  "id": "DEC-OWNR-0001",
+  "rationale": "Compromise under TQ-018 together with mandatory fuel treatment by the Contractor.",
+  "status": "agreed",
+  "title": "LDO supply contract to limit alkali metals"
+}

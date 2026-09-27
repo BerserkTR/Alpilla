@@ -2,16 +2,16 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:09.726699Z",
     "created_by": "CASE",
-    "rev": 1,
-    "updated_at": "2026-09-27T16:48:09.726699Z",
-    "updated_by": "CASE"
+    "rev": 2,
+    "updated_at": "2026-09-27T17:18:44.831645Z",
+    "updated_by": "OWNR"
   },
   "contract": "ALP-EPC-001",
   "discipline": "electrical",
   "id": "ER-18.02",
   "section": "ER-18 Interfaces and terminal points",
   "status": "contractual",
-  "text": "The Contractor shall coordinate with the TSO and the Owner's transmission line contractor for protection settings, SCADA and energisation.",
+  "text": "The Owner builds and energises the 380 kV line up to TP-E1 (available by 2028-07-15, an Owner-furnished item under Sub-Clause 2.4) and coordinates the line energisation with the TSO. The Contractor coordinates plant-side protection settings, SCADA and the Grid Code compliance tests with the TSO and the Owner's line contractor.",
   "title": "Grid connection interface",
   "verification": "review"
 }

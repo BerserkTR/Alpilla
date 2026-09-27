@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:19:14.325234Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:19:14.725726Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "contract/ALP-EPC-001",
+    "contract_clause/ALP-EPC-001_A3",
+    "contract_clause/ALP-EPC-001_A4"
+  ],
+  "contract": "ALP-EPC-001",
+  "cost_impact": 0,
+  "discipline": "commercial",
+  "id": "TQ-024",
+  "impact": "cost",
+  "outcome": "price_adjustment",
+  "proposal": "Contract Price EUR 532,480,000 (offshore 327,000,000; onshore 205,480,000); Appendix H Owner documents and Appendix I agreed clarifications added to the contract documents.",
+  "question": "All technical queries TQ-001 to TQ-023 are closed or answered. Agreed price adjustments: TQ-007 EUR 180,000, TQ-008 EUR 350,000, TQ-018 EUR 950,000; total EUR 1,480,000 (onshore portion). No time impacts. We propose the Contract Price of EUR 532,480,000 and that the clarification register becomes Appendix I of the Contract, prevailing over Appendix A where it modifies it. Please confirm readiness for signature on 2026-10-15.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-26",
+  "references": [
+    "contract_clause:ALP-EPC-001_A3",
+    "contract_clause:ALP-EPC-001_A4"
+  ],
+  "responded_by": "OWNER",
+  "response": "Confirmed. Contract Price EUR 532,480,000 (offshore EUR 327,000,000; onshore EUR 205,480,000); Appendix H (Owner-provided documents) and Appendix I (agreed clarifications) are added to the contract documents in Article A3. The Contract is agreed and ready for signature on 2026-10-15.",
+  "response_date": "2026-09-27",
+  "round": 3,
+  "status": "closed",
+  "subject": "Consolidated price and incorporation of the clarifications"
+}

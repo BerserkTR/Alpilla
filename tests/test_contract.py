@@ -87,3 +87,34 @@ def test_requirement_refs_validated(project):
         s.create("design_parameter", {"category": "site", "parameter": "x", "value": 1, "basis_refs": ["requirement:ER-99.01"]}, R)
     with pytest.raises(StoreError, match="referenced by"):
         s.delete("requirement", "ER-04.01", "t")
+
+
+def test_tie_ins_clarifications_and_appendices(project):
+    import pytest
+    s = Store(project, who())
+    seed_contract(s)
+    s.create("source", {"id": "SRC-AAA-0001", "title": "Site report", "originator": "Owner Co (Owner)", "doc_ref": "OWN-001",
+                        "file": "sources/owner/x.md"}, R)
+    s.create("tie_in", {"id": "TP-G1", "contract": "K-1", "service": "Natural gas", "medium": "gas", "location": [380000, 300000, 14000],
+                        "location_text": "NE corner", "owner_side": "spur line", "contractor_side": "metering station",
+                        "available_by": "2028-06-30", "basis_refs": ["source:SRC-AAA-0001"]}, R)
+    with pytest.raises(StoreError, match="must be \\[x, y, z\\]"):
+        s.create("tie_in", {"id": "TP-E1", "contract": "K-1", "service": "x", "medium": "x", "location": [1, 2],
+                            "location_text": "x", "owner_side": "x", "contractor_side": "x"}, R)
+    s.create("clarification", {"id": "TQ-001", "contract": "K-1", "round": 1, "raised_by": "LEAD", "raised_date": "2026-09-18",
+                               "discipline": "process", "subject": "Gas pressure", "question": "Is 40 barg possible?",
+                               "references": ["tie_in:TP-G1", "requirement:ER-04.01"]}, R)
+    m = run_engine(project, Store(project, who()), registry()["contract_document"], {"pdf": "no"})
+    assert any("clarifications not closed: TQ-001" in w for w in m["warnings"])
+    s2 = Store(project, who())
+    s2.update("clarification", "TQ-001", {"response": "No, 45 barg.", "responded_by": "OWNER", "status": "closed",
+                                          "outcome": "confirmed_as_is", "impact": "none"}, R)
+    m = run_engine(project, Store(project, who()), registry()["contract_document"], {"pdf": "no"})
+    doc = Document(project.output / "contract_document" / "K-1_contract.docx")
+    cells = [c.text for t in doc.tables for row in t.rows for c in row.cells]
+    assert {"TP-G1", "metering station", "OWN-001", "Is 40 barg possible?", "No, 45 barg.", "confirmed as is"} <= set(cells)
+    assert not any("not closed" in w for w in m["warnings"])
+    run_engine(project, Store(project, who()), registry()["clarification_register"], {})
+    wb = load_workbook(project.output / "clarification_register" / "ALP_clarification_register.xlsx")
+    summary = [r for r in wb["Summary"].iter_rows(values_only=True)]
+    assert ("Round 1", 1, 1, 0, 0) in summary

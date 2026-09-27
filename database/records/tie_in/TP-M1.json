@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-27T17:17:25.194422Z",
     "created_by": "OWNR",
-    "rev": 1,
-    "updated_at": "2026-09-27T17:17:25.194422Z",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:18:44.690481Z",
     "updated_by": "OWNR"
   },
   "available_by": "2027-09-30",
@@ -21,6 +21,6 @@
   ],
   "location_text": "Public coastal strip south of the plot",
   "medium": "heavy transport",
-  "owner_side": "Coastal permit (application within 30 days of receiving the design)",
+  "owner_side": "Coastal permit: application by 2027-04-30 if the Contractor's permit design is received by 2027-03-31; permit targeted by 2027-09-30",
   "service": "Temporary barge landing"
 }

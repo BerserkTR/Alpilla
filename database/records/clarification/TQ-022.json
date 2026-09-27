@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:18:44.210826Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:18:45.044206Z",
+    "updated_by": "OWNR"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "follows": "TQ-001",
+  "id": "TQ-022",
+  "impact": "none",
+  "outcome": "confirmed_as_is",
+  "proposal": "Confirmed as stated.",
+  "question": "Following TQ-001, please confirm that the performance test corrects from the measured seawater temperature during the test to the 16.0 degC reference using the agreed correction curves.",
+  "raised_by": "IEC",
+  "raised_date": "2026-09-24",
+  "references": [
+    "requirement:ER-16.04",
+    "requirement:ER-02.03",
+    "guarantee:PG-01",
+    "guarantee:PG-02"
+  ],
+  "responded_by": "OWNER",
+  "response": "Confirmed: corrections from the measured test seawater temperature to 16.0 degC with the agreed correction curves.",
+  "response_date": "2026-09-26",
+  "round": 2,
+  "status": "closed",
+  "subject": "Seawater temperature correction in the performance test"
+}

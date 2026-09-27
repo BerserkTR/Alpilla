@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:21:25.698569Z",
+    "created_by": "SETUP",
+    "rev": 1,
+    "updated_at": "2026-09-27T17:21:25.698569Z",
+    "updated_by": "SETUP"
+  },
+  "action": "Every requirement cites its source (basis_refs); run a TQ round per Owner document issue; record answers as clarification records and apply changes with the TQ as reason",
+  "context": "Contract case ALP-EPC-001: the Owner's own documents contradicted the draft contract in 16 places (stack height, seawater reference, gas LHV/pressure, sewer, grid date, LDO quality ...)",
+  "date": "2026-09-27",
+  "id": "L-SETUP-0004",
+  "lesson": "Conflicts between Owner data and requirements surface only when each requirement is traced to its source; resolved before signature they cost EUR 1.48M, after signature they become claims",
+  "status": "active",
+  "tags": [
+    "contract",
+    "requirements"
+  ],
+  "title": "Cross-check Owner documents against the Employer's Requirements before signature"
+}

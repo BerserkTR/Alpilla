@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:18:44.071140Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:18:44.781769Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "tie_in/TP-M1",
+    "clarification/TQ-009"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "follows": "TQ-009",
+  "id": "TQ-019",
+  "impact": "none",
+  "outcome": "owner_to_provide",
+  "proposal": "Dates as stated; crossing covered by the marine permit (TP-CW1/CW2).",
+  "question": "We will submit the barge landing permit design by 2027-03-31. Please confirm the Owner's application by 2027-04-30 and that the crossing of the public coastal strip by the intake and outfall pipelines is covered by the marine permit.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-24",
+  "references": [
+    "tie_in:TP-M1",
+    "tie_in:TP-CW1",
+    "tie_in:TP-CW2"
+  ],
+  "responded_by": "OWNER",
+  "response": "Confirmed: the Owner applies for the coastal permit by 2027-04-30 provided the design is received by 2027-03-31; the crossing of the coastal strip by the intake and outfall pipelines is covered by the marine permit. TQ-009 is closed.",
+  "response_date": "2026-09-26",
+  "round": 2,
+  "status": "closed",
+  "subject": "Barge landing permit: submission and application dates"
+}

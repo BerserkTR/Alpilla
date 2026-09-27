@@ -1,0 +1,19 @@
+{
+  "db_hash": "8dce9bd8b6810610",
+  "engine": "clarification_register",
+  "engine_version": "1.0.0",
+  "files": {
+    "ALP_clarification_register.xlsx": "f3f9f48bc6a4fcc9ace94b73deebcc629dd73b0eaa754f1176abfc4eeecdc5c6"
+  },
+  "generated_at": "2026-09-27T17:19:53.789509Z",
+  "generated_by": "SETUP",
+  "git_commit": "d28d048",
+  "inputs": [
+    "clarification",
+    "contract",
+    "party"
+  ],
+  "inputs_hash": "b3484cc0109a087a",
+  "options": {},
+  "warnings": []
+}

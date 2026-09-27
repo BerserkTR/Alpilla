@@ -13,7 +13,8 @@ from ..core.runner import Context, Engine, pdf_from_office
 
 APPENDICES = [("A", "Employer's Requirements (technical)"), ("B", "Performance Guarantees and Liquidated Damages"),
               ("C", "Schedule of Payments"), ("D", "Scope of Works Split and Terminal Points"),
-              ("E", "Site and Design Data"), ("F", "Parties and Addresses for Notices"), ("G", "Key Dates")]
+              ("E", "Site and Design Data"), ("F", "Parties and Addresses for Notices"), ("G", "Key Dates"),
+              ("H", "Owner-provided Documents"), ("I", "Agreed Clarifications")]
 
 
 def clause_key(num: str):
@@ -28,9 +29,9 @@ def eur(v) -> str:
 class ContractDocument(Engine):
     name = "contract_document"
     title = "Contract document (Word + PDF): agreement, conditions, appendices A-G from the database"
-    version = "1.0.0"
+    version = "1.1.0"
     inputs = ["contract", "contract_clause", "party", "requirement", "guarantee", "milestone", "scope_item",
-              "design_parameter", "activity", "wbs", "project"]
+              "design_parameter", "activity", "wbs", "project", "tie_in", "source", "clarification"]
     formats = ["docx", "pdf"]
 
     def run(self, ctx: Context):
@@ -86,6 +87,7 @@ class ContractDocument(Engine):
         info = doc.add_table(rows=0, cols=2)
         info.style = "Table Grid"
         for a, b in (("Form", k.get("form", "")), ("Contract Price", f"{eur(k['price'])} (lump sum, fixed)"),
+                     ("Price basis", k.get("price_history", "-")),
                      ("Date of signature", k.get("signature_date", "-")), ("Notice to Proceed", k.get("ntp_date", "-")),
                      ("Time for Completion", f"{k.get('time_for_completion', '-')} days from NTP"),
                      ("Governing law", k.get("governing_law", "")), ("Status", k.get("status", ""))):
@@ -208,6 +210,14 @@ class ContractDocument(Engine):
         self._table(["ID", "Area", "Item", "Design", "Supply", "Install", "Commission", "Terminal point"], rows,
                     (1.4, 2.6, 9.0, 1.5, 1.5, 1.5, 1.8, 6.3))
 
+        tis = sorted((t for t in s.records("tie_in") if t["contract"] == cid), key=lambda t: t["id"])
+        if tis:
+            doc.add_heading("Tie-in register", level=2)
+            rows = [[t["id"], t["service"], t["location_text"], t.get("size", ""), t.get("operating_conditions", ""),
+                     t["owner_side"], t["contractor_side"], t.get("available_by", "-")] for t in tis]
+            self._table(["ID", "Service", "Location", "Size", "Conditions", "Owner provides", "Contractor provides", "Available by"],
+                        rows, (1.5, 3.0, 3.8, 2.4, 4.0, 5.0, 4.6, 2.0))
+
         # ------------------------------------------------------------- Appendix E
         doc.add_heading("Appendix E - Site and Design Data", level=1)
         dps = sorted((d for d in s.records("design_parameter") if d.get("status") != "superseded"),
@@ -232,6 +242,32 @@ class ContractDocument(Engine):
         if not kd:
             ctx.warnings.append(f"no key-date activities under WBS {prj['id']}.KD")
         doc.add_paragraph("Key dates are contractual; the Contractor's Level 3 programme (Sub-Clause 9.3) shall be linked to them.")
+
+        # ------------------------------------------------------------- Appendix H
+        doc.add_heading("Appendix H - Owner-provided Documents", level=1)
+        own = sorted((x for x in s.records("source") if "owner" in x.get("originator", "").lower()), key=lambda x: x.get("doc_ref", x["id"]))
+        rows = [[x.get("doc_ref", x["id"]), x["title"], x.get("revision", ""), x.get("received_date", ""), x.get("file", "")] for x in own]
+        self._table(["Document", "Title", "Rev", "Date", "File in the project repository"], rows, (3.8, 8.0, 1.2, 2.5, 10.0))
+        doc.add_paragraph("The Owner's documents are part of the Contract to the extent stated in Article A3; the Contractor is "
+                          "responsible for their interpretation (Sub-Clause 4.5).")
+
+        # ------------------------------------------------------------- Appendix I
+        doc.add_heading("Appendix I - Agreed Clarifications", level=1)
+        tqs = sorted((q for q in s.records("clarification") if q["contract"] == cid), key=lambda q: q["id"])
+        doc.add_paragraph("Technical queries raised by the Contractor and answered by the Owner before signature. Where an answer "
+                          "modifies Appendix A or an Owner document, the answer prevails (Article A3). Records changed as a result are "
+                          "listed; the changed requirements are already reflected in Appendix A.")
+        rows = []
+        for q in tqs:
+            cost = eur(q["cost_impact"]) if q.get("cost_impact") else "-"
+            follows = f" (follows {q['follows']})" if q.get("follows") else ""
+            rows.append([q["id"], str(q["round"]), q["subject"] + follows, q["question"], q.get("response", "(open)"),
+                         (q.get("outcome") or "-").replace("_", " "), cost, ", ".join(q.get("changed_records", []))])
+        self._table(["TQ", "Round", "Subject", "Question", "Owner's answer", "Outcome", "Price", "Records changed"], rows,
+                    (1.4, 1.1, 3.0, 6.8, 6.4, 2.0, 2.0, 3.1))
+        open_q = [q["id"] for q in tqs if q.get("status") not in ("closed", "superseded")]
+        if open_q:
+            ctx.warnings.append(f"clarifications not closed: {', '.join(open_q)}")
 
         out = ctx.out_dir / f"{cid}_contract.docx"
         doc.save(out)

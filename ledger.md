@@ -5,6 +5,11 @@
 Read before working. Add a lesson whenever something went wrong or a better way was found:
 `python -m engine db add lesson --set title="..." --set lesson="..." --reason "..."`
 
+### L-SETUP-0004 (2026-09-27) Cross-check Owner documents against the Employer's Requirements before signature [contract, requirements]
+- Context: Contract case ALP-EPC-001: the Owner's own documents contradicted the draft contract in 16 places (stack height, seawater reference, gas LHV/pressure, sewer, grid date, LDO quality ...)
+- Lesson: Conflicts between Owner data and requirements surface only when each requirement is traced to its source; resolved before signature they cost EUR 1.48M, after signature they become claims
+- Action: Every requirement cites its source (basis_refs); run a TQ round per Owner document issue; record answers as clarification records and apply changes with the TQ as reason
+
 ### L-SETUP-0003 (2026-09-27) Keep source and reference files byte-for-byte in git [git, team]
 - Context: The AVEVA class library TTL has CRLF line endings; git's text normalisation would have changed its sha256 in every fresh clone
 - Lesson: Any file whose hash is checked (sources, references, class library source) must be stored with -text in .gitattributes

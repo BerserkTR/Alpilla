@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:09.709469Z",
     "created_by": "CASE",
-    "rev": 2,
-    "updated_at": "2026-09-27T17:13:57.037353Z",
+    "rev": 3,
+    "updated_at": "2026-09-27T17:18:44.960494Z",
     "updated_by": "OWNR"
   },
   "basis_refs": [
@@ -14,7 +14,7 @@
   "id": "ER-09.02",
   "section": "ER-09 Water treatment and effluents",
   "status": "contractual",
-  "text": "Two-pass RO plus electrodeionisation, 2 x 100 %, conductivity < 0.1 uS/cm, silica < 10 ug/l; storage for 3 days of cycle make-up plus the water injection demand for 72 hours of LDO operation.",
+  "text": "Two-pass RO plus electrodeionisation, 2 x 100 %, conductivity < 0.1 uS/cm, silica < 10 ug/l, with capacity for continuous water injection at 50 % load on LDO; demineralised water storage 2 x 1,250 m3 (3 days of cycle make-up plus about 24 h of water injection); connection point for mobile demin trailers.",
   "title": "Demineralised water",
   "verification": "test"
 }

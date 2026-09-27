@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:57.155759Z",
     "created_by": "OWNR",
-    "rev": 1,
-    "updated_at": "2026-09-27T17:13:57.155759Z",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:18:44.506230Z",
     "updated_by": "OWNR"
   },
   "area": "Fuel oil",
@@ -12,7 +12,7 @@
   "design": "IEPC",
   "id": "SC-053",
   "install": "IEPC",
-  "item": "LDO forwarding pumps, filters, metering, fuel treatment (if required)",
+  "item": "LDO forwarding pumps, filters, metering, fuel treatment (2 x 100 % centrifugal separators)",
   "supply": "IEPC",
   "terminal_point": "GT liquid fuel skid inlet flange"
 }

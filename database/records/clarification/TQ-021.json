@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:18:44.160759Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:18:45.001084Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "requirement/ER-09.02"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "TQ-021",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "Demin storage 2 x 1,250 m3 (cycle make-up plus about 24 h of water injection), demin plant sized for continuous water injection at 50 % LDO load, plus a connection for mobile demin trailers. No price change.",
+  "question": "Water injection needs about 80 t/h of demineralised water at base load on LDO. ER-09.02 requires storage for 72 h of LDO operation (about 5,800 m3) on top of 3 days of cycle make-up: a very large tank for a fuel used less than 500 h/year.",
+  "raised_by": "IEC",
+  "raised_date": "2026-09-24",
+  "references": [
+    "requirement:ER-09.02",
+    "requirement:ER-03.11",
+    "source:SRC-OWNR-0004"
+  ],
+  "responded_by": "OWNER",
+  "response": "Accepted as proposed: demin storage 2 x 1,250 m3, demin plant sized for continuous water injection at 50 % LDO load, and a connection for mobile demin trailers; no price change.",
+  "response_date": "2026-09-26",
+  "round": 2,
+  "status": "closed",
+  "subject": "Demineralised water for LDO water injection"
+}

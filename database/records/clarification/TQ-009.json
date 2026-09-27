@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-27T17:16:19.527186Z",
     "created_by": "CONS",
-    "rev": 2,
-    "updated_at": "2026-09-27T17:17:25.241952Z",
+    "rev": 3,
+    "updated_at": "2026-09-27T17:18:44.735235Z",
     "updated_by": "OWNR"
   },
   "changed_records": [
@@ -28,6 +28,6 @@
   "response": "Confirmed: the Contractor designs, builds, operates and removes the temporary barge landing at its cost (ER-02.14). The Owner applies for the coastal permit within 30 days of receiving the Contractor's permit design and will use reasonable endeavours to obtain it by 2027-09-30. Please state when the permit design will be submitted.",
   "response_date": "2026-09-22",
   "round": 1,
-  "status": "answered",
+  "status": "closed",
   "subject": "Heavy transport: no jetty, 120 t bridges"
 }

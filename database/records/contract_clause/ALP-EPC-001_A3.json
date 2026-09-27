@@ -2,14 +2,14 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:10.002130Z",
     "created_by": "CASE",
-    "rev": 1,
-    "updated_at": "2026-09-27T16:48:10.002130Z",
-    "updated_by": "CASE"
+    "rev": 2,
+    "updated_at": "2026-09-27T17:19:14.632791Z",
+    "updated_by": "OWNR"
   },
   "contract": "ALP-EPC-001",
   "id": "ALP-EPC-001_A3",
   "number": "A3",
   "part": "agreement",
-  "text": "The following documents form the Contract and shall be read as one. In case of conflict they take precedence in the order listed:\n\n- this Contract Agreement;\n- the Conditions of Contract (Part II);\n- Appendix B - Performance Guarantees and Liquidated Damages;\n- Appendix C - Schedule of Payments;\n- Appendix D - Scope of Works Split and Terminal Points;\n- Appendix A - Employer's Requirements (technical);\n- Appendix E - Site and Design Data;\n- Appendix G - Key Dates;\n- the Contractor's technical proposal, to the extent it is consistent with the documents above.",
+  "text": "The following documents form the Contract and shall be read as one. In case of conflict they take precedence in the order listed:\n\n- this Contract Agreement;\n- the Conditions of Contract (Part II);\n- Appendix I - Agreed Clarifications (prevailing over Appendix A and the Owner's documents where they modify them);\n- Appendix B - Performance Guarantees and Liquidated Damages;\n- Appendix C - Schedule of Payments;\n- Appendix D - Scope of Works Split, Terminal Points and Tie-in Register;\n- Appendix A - Employer's Requirements (technical);\n- Appendix E - Site and Design Data;\n- Appendix H - Owner-provided Documents;\n- Appendix G - Key Dates;\n- the Contractor's technical proposal, to the extent it is consistent with the documents above.",
   "title": "Contract documents"
 }

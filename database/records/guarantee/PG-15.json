@@ -2,12 +2,12 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:56.868174Z",
     "created_by": "OWNR",
-    "rev": 1,
-    "updated_at": "2026-09-27T17:13:56.868174Z",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:19:14.440692Z",
     "updated_by": "OWNR"
   },
   "category": "performance",
-  "conditions": "Base load on LDO per ER-03.07 reference (LHV 42.9 MJ/kg), water injection in service, SRC.",
+  "conditions": "Base load on the reference LDO (LHV 42.9 MJ/kg, FAME 0 %, water 100 mg/kg), water injection in service, SRC; corrections from the actual test fuel by agreed curves (TQ-023).",
   "contract": "ALP-EPC-001",
   "direction": "min",
   "guaranteed_value": 560.0,

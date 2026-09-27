@@ -2,15 +2,15 @@
   "_meta": {
     "created_at": "2026-09-27T17:16:19.265715Z",
     "created_by": "CONS",
-    "rev": 2,
-    "updated_at": "2026-09-27T17:17:24.420897Z",
+    "rev": 3,
+    "updated_at": "2026-09-27T17:18:44.374020Z",
     "updated_by": "OWNR"
   },
   "contract": "ALP-EPC-001",
   "discipline": "process",
   "id": "TQ-003",
   "impact": "cost",
-  "outcome": "follow_up_required",
+  "outcome": "contractor_proposal_accepted",
   "proposal": "No compressor. Below 45 barg the control system transfers automatically to LDO (ER-03.10); availability loss is limited to the transfer. Option price for a booster compressor on request.",
   "question": "The GT requires at least 43.5 barg at the fuel skid inlet at base load; with about 1.5 bar loss in the gas receiving station we need 45 barg at TP-G1. ALP-OWN-FUL-001 allows 40 barg for up to 72 h/year. Is a gas booster compressor expected, or may the plant transfer to LDO / reduce load during these periods?",
   "raised_by": "IEC",
@@ -21,9 +21,9 @@
     "tie_in:TP-G1"
   ],
   "responded_by": "OWNER",
-  "response": "Not accepted as proposed. Operating on LDO between 40 and 45 barg would consume the 500 h/year permit allowance and costs about three times more than gas. The Owner cannot obtain a higher minimum pressure from the network operator. Please submit an option price and schedule impact for a gas booster compressor, and your estimate of the annual hours below 45 barg.",
+  "response": "Superseded by TQ-017: load limitation between 40 and 45 barg, no compressor.",
   "response_date": "2026-09-22",
   "round": 1,
-  "status": "answered",
+  "status": "closed",
   "subject": "Exceptional minimum gas pressure 40 barg is below the gas turbine requirement"
 }

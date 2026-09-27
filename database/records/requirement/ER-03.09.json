@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:57.034380Z",
     "created_by": "OWNR",
-    "rev": 1,
-    "updated_at": "2026-09-27T17:13:57.034380Z",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:18:44.463695Z",
     "updated_by": "OWNR"
   },
   "basis_refs": [
@@ -14,7 +14,7 @@
   "id": "ER-03.09",
   "section": "ER-03 Fuel",
   "status": "contractual",
-  "text": "2 x 100 % forwarding pumps, duplex filters, flow metering, and a fuel treatment system (centrifuge or equivalent) if needed to meet ER-03.07 at the gas turbine inlet.",
+  "text": "2 x 100 % forwarding pumps, duplex filters, flow metering, and a mandatory fuel treatment system of 2 x 100 % centrifugal separators with water washing, sized to reduce Na+K from 1.8 mg/kg to below the ER-03.07 limit at the gas turbine inlet.",
   "title": "LDO forwarding and treatment",
   "verification": "test"
 }

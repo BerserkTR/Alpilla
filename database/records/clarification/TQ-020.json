@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:18:44.112387Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:18:44.919957Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "requirement/ER-18.02",
+    "clarification/TQ-010"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "electrical",
+  "follows": "TQ-010",
+  "id": "TQ-020",
+  "impact": "none",
+  "outcome": "owner_to_provide",
+  "proposal": "Owner obligation; Owner energises the line with the TSO; Contractor coordinates the plant-side tests.",
+  "question": "Please confirm that TP-E1 availability by 2028-07-15 is an Owner obligation under Sub-Clause 2.4 (so that a late line entitles the Contractor to an extension of time under Sub-Clause 9.4), and who coordinates the line energisation with the TSO.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-24",
+  "references": [
+    "tie_in:TP-E1",
+    "contract_clause:ALP-EPC-001_2.4",
+    "contract_clause:ALP-EPC-001_9.4",
+    "requirement:ER-18.02"
+  ],
+  "responded_by": "OWNER",
+  "response": "Confirmed: availability of TP-E1 by 2028-07-15 is an Owner-furnished item under Sub-Clause 2.4; late availability entitles the Contractor to relief under Sub-Clause 9.4. The Owner energises the line with the TSO; the Contractor coordinates the plant-side protection settings and tests. TQ-010 is closed.",
+  "response_date": "2026-09-26",
+  "round": 2,
+  "status": "closed",
+  "subject": "Contractual status of the 380 kV line date 2028-07-15"
+}

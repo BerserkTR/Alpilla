@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T17:19:14.275267Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-27T17:19:14.541603Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "guarantee/PG-15",
+    "guarantee/PG-16"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "TQ-023",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "Reference LDO: LHV 42.9 MJ/kg, FAME 0 %, water 100 mg/kg, H/C per the test fuel analysis; corrections for the actual test fuel by agreed curves.",
+  "question": "ALP-OWN-FUL-002 allows FAME (biodiesel) up to 7 % v/v and LHV 42.6-43.2 MJ/kg. PG-15/PG-16 refer to LHV 42.9 MJ/kg but not to FAME or water content, which affect output, heat rate and water injection. Please define the reference LDO for the guarantees.",
+  "raised_by": "IEC",
+  "raised_date": "2026-09-26",
+  "references": [
+    "guarantee:PG-15",
+    "guarantee:PG-16",
+    "source:SRC-OWNR-0004",
+    "requirement:ER-03.07"
+  ],
+  "responded_by": "OWNER",
+  "response": "Accepted as proposed; PG-15 and PG-16 conditions revised.",
+  "response_date": "2026-09-27",
+  "round": 3,
+  "status": "closed",
+  "subject": "Reference LDO for the LDO performance guarantees"
+}

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-27T17:16:19.571827Z",
     "created_by": "CONS",
-    "rev": 2,
-    "updated_at": "2026-09-27T17:17:25.331303Z",
+    "rev": 3,
+    "updated_at": "2026-09-27T17:18:44.876385Z",
     "updated_by": "OWNR"
   },
   "changed_records": [
@@ -27,6 +27,6 @@
   "response": "The Owner will accelerate its 380 kV line contract: TP-E1 will be available by 2028-07-15. The key dates remain unchanged.",
   "response_date": "2026-09-22",
   "round": 1,
-  "status": "answered",
+  "status": "closed",
   "subject": "380 kV line readiness 2028-09-30 is after the back-feed key date 2028-08-02"
 }
