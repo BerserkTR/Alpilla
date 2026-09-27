@@ -11,6 +11,7 @@
     python -m engine db delete <entity> <id> --reason "..."
     python -m engine db import <entity> <file.csv|.json> [--update] --reason "..."
     python -m engine db reconcile <entity> <id>|--all --reason "..."
+    python -m engine db import-pcf <file.pcf> --line <id> [--replace] --reason "..."
     python -m engine lib find|show|attr|tree ...     AVEVA class library (classes, attributes, units, lists)
     python -m engine lib build <ttl> --reason "..."  recompile the class library from its source
     python -m engine plan [--all]                   schedule status + critical path (computed)
@@ -189,6 +190,32 @@ def cmd_db(p: Project, a) -> int:
         finally:
             print(f"import {a.entity}: {created} created, {updated} updated of {len(rows)} row(s)")
             _after_change(p, store, changed)
+    elif op == "import-pcf":
+        from pathlib import Path
+        from .core import pcf
+        if store.get("line", a.line) is None:
+            raise StoreError(f"line {a.line} does not exist - create the line first (spec, size, conditions)")
+        comps, skipped = pcf.parse(Path(a.file).read_text(encoding="utf-8", errors="replace"), a.valve_type)
+        existing = [c["id"] for c in store.records("pipe_component") if c["line"] == a.line]
+        if existing and not a.replace:
+            raise StoreError(f"line {a.line} already has {len(existing)} component(s); use --replace to re-import")
+        for cid in existing:
+            store.delete("pipe_component", cid, a.reason)
+        notes = []
+        for i, c in enumerate(comps, 1):
+            note = c.pop("_note", None)
+            rec = store.create("pipe_component", {"line": a.line, "seq": f"{i * 10:04d}", **c}, a.reason)
+            if note:
+                notes.append(f"{rec['id']}: {note}")
+        print(f"import-pcf {a.line}: {len(comps)} component(s)" + (f", replaced {len(existing)}" if existing else ""))
+        for n in notes:
+            print(f"  CHECK: {n}")
+        if skipped:
+            print(f"  not imported (unsupported PCF blocks): {', '.join(skipped)}")
+        from .core import piping
+        for m in piping.continuity(store, a.line):
+            print(f"  WARN: {m}")
+        changed = {"pipe_component"}
     elif op == "reconcile":
         rep = validate.Report()
         validate.integrity(store, rep)
@@ -407,6 +434,9 @@ def main(argv=None) -> int:
     s = db.add_parser("delete"); s.add_argument("entity"); s.add_argument("id"); s.add_argument("--reason", required=True)
     s = db.add_parser("import"); s.add_argument("entity"); s.add_argument("file")
     s.add_argument("--update", action="store_true"); s.add_argument("--reason", required=True)
+    s = db.add_parser("import-pcf", help="read routing from a PCF (Plant 3D / E3D) into pipe_component records")
+    s.add_argument("file"); s.add_argument("--line", required=True); s.add_argument("--replace", action="store_true")
+    s.add_argument("--valve-type", help="valve type for valves whose PCF gives none"); s.add_argument("--reason", required=True)
     s = db.add_parser("reconcile"); s.add_argument("entity", nargs="?"); s.add_argument("id", nargs="?")
     s.add_argument("--all", action="store_true"); s.add_argument("--reason", required=True)
 

@@ -220,25 +220,34 @@ class Store:
         for f, spec in s.fields.items():
             if f not in data and "default" in spec:
                 data[f] = spec["default"]
+        # an ID that existed before (deleted) continues its revision history
+        prev = self._heads(entity, rid)
+        if prev and prev[0].get("op") != "delete":
+            raise StoreError(f"{entity}/{rid} is logged as existing but its file is missing - restore it or reconcile")
+        rev = (int(prev[0]["rev"]) + 1) if prev else 1
         ts = now()
-        rec = {**data, "id": rid, "_meta": {"rev": 1, "created_by": self.who.code, "created_at": ts,
+        rec = {**data, "id": rid, "_meta": {"rev": rev, "created_by": self.who.code, "created_at": ts,
                                             "updated_by": self.who.code, "updated_at": ts}}
         self._check(entity, rec)
         self._write(entity, rec)
-        self._log("create", entity, rid, 1, rec_hash(rec), reason, [k for k in data if k != "id"])
+        self._log("create", entity, rid, rev, rec_hash(rec), reason, [k for k in data if k != "id"])
         return rec
 
-    def _assert_logged(self, entity: str, rid: str, rec: dict):
-        """Never build on a hand-edited or unreconciled record (would launder the edit into the log)."""
+    def _heads(self, entity: str, rid: str) -> list[dict]:
+        """Changelog entries at the highest revision of a record (normally one)."""
         if self._log_heads is None:
             heads: dict = {}
             for e in read_changelog(self.p)[0]:
-                k = (e.get("entity"), e.get("id"))
-                heads.setdefault(k, []).append(e)
+                heads.setdefault((e.get("entity"), e.get("id")), []).append(e)
             self._log_heads = heads
         log = self._log_heads.get((entity, rid), [])
         top = max((int(e.get("rev", 0)) for e in log), default=None)
-        heads = [e for e in log if int(e.get("rev", 0)) == top]
+        return [e for e in log if int(e.get("rev", 0)) == top]
+
+    def _assert_logged(self, entity: str, rid: str, rec: dict):
+        """Never build on a hand-edited or unreconciled record (would launder the edit into the log)."""
+        heads = self._heads(entity, rid)
+        top = int(heads[0]["rev"]) if heads else None
         ok = len(heads) == 1 and rec.get("_meta", {}).get("rev") == top and heads[0].get("hash") == rec_hash(rec)
         if not ok:
             raise StoreError(f"{entity}/{rid} differs from its logged state (hand edit or unreconciled merge). "

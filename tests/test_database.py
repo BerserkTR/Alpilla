@@ -155,3 +155,16 @@ def test_merge_conflict_markers_reported_clearly(project):
     f.write_text("{\n<<<<<<< HEAD\n  \"title\": \"a\"\n=======\n  \"title\": \"b\"\n>>>>>>> elec\n}\n")
     errs = validate.run(project).errors
     assert len(errs) == 1 and "system/10MBA.json" in errs[0] and "merge conflict" in errs[0]
+
+
+def test_delete_then_recreate_same_id(project):
+    s = Store(project, who())
+    seed(s)
+    s.delete("equipment", "10MBV10AP001", "removed")
+    r = s.create("equipment", {"id": "10MBV10AP001", "description": "GT lube oil pump (new)", "system": "10MBA",
+                               "equipment_type": "pump"}, "re-added")
+    assert r["_meta"]["rev"] == 3                       # create 1, delete 2, re-create 3
+    assert validate.run(project, Store(project, who())).ok
+    s2 = Store(project, who())                          # fresh store reads the same history
+    s2.update("equipment", "10MBV10AP001", {"rated_power": 80}, "vendor")
+    assert validate.run(project, Store(project, who())).ok
