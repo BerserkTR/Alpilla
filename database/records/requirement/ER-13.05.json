@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.719988Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.719988Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "ER-13.05",
+  "section": "ER-13 Civil, structural and architectural works",
+  "status": "contractual",
+  "text": "Internal asphalt roads for 40 t axle loads to the heaviest delivery route, surface water drainage for ER-02.05 rainfall.",
+  "title": "Roads and drainage",
+  "verification": "inspection"
+}

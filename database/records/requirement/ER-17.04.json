@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.725652Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.725652Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-17.04",
+  "section": "ER-17 Documentation, training, O&M and spares",
+  "status": "contractual",
+  "text": "Operation and maintenance manuals (English, operating procedures also in Turkish) 6 months before first fire, final at Taking-Over.",
+  "title": "O&M manuals",
+  "verification": "review"
+}

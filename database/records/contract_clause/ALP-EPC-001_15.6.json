@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.024720Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.024720Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_15.6",
+  "number": "15.6",
+  "part": "conditions",
+  "text": "Late payments bear interest at EURIBOR (3 months) plus 3 % per annum, calculated daily.",
+  "title": "Delayed payment"
+}

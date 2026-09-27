@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.700800Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.700800Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-04.11",
+  "section": "ER-04 Performance and operational requirements",
+  "status": "contractual",
+  "text": "The Contractor shall submit recoverable and non-recoverable degradation curves for output and heat rate over 48,000 EOH; they apply for test corrections.",
+  "title": "Degradation",
+  "verification": "review"
+}

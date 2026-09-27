@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.030585Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.030585Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_21.1",
+  "number": "21.1",
+  "part": "conditions",
+  "text": "The total liability of the Contractor under or in connection with the Contract shall not exceed 100 % of the Contract Price.",
+  "title": "Total liability"
+}

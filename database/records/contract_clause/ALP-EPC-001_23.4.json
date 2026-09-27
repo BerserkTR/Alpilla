@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.033476Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.033476Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_23.4",
+  "number": "23.4",
+  "part": "conditions",
+  "text": "If a provision is held invalid, the remaining provisions remain in force and the Parties shall replace the invalid provision with a valid one of the closest economic effect.",
+  "title": "Severability"
+}

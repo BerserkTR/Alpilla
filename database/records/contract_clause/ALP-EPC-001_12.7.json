@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.020626Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.020626Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_12.7",
+  "number": "12.7",
+  "part": "conditions",
+  "text": "The Parties agree that the liquidated damages are a genuine pre-estimate of the Owner's loss and are the Owner's sole financial remedy for the failure concerned, without prejudice to the Owner's rights under Sub-Clauses 12.3, 12.4 and 20.2.",
+  "title": "Nature of liquidated damages"
+}

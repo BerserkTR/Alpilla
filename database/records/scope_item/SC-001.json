@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.894137Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.894137Z",
+    "updated_by": "CASE"
+  },
+  "area": "Site",
+  "contract": "ALP-EPC-001",
+  "design": "OWNER",
+  "id": "SC-001",
+  "install": "OWNER",
+  "item": "Land, access rights and site handover (levelled to +15.0 m)",
+  "supply": "OWNER",
+  "terminal_point": "Site boundary per land-use plan"
+}

@@ -1,0 +1,45 @@
+{
+  "entity": "contract_clause",
+  "title": "Contract clause / sub-clause (text of the contract)",
+  "id_from": [
+    "contract",
+    "number"
+  ],
+  "display": [
+    "contract",
+    "number",
+    "part",
+    "title"
+  ],
+  "fields": {
+    "contract": {
+      "type": "ref",
+      "to": "contract",
+      "required": true
+    },
+    "number": {
+      "type": "string",
+      "required": true,
+      "pattern": "^[A-Z]?[0-9]+(\\.[0-9]+)*$",
+      "description": "1, 1.1, 14.2 ... (appendix clauses A1 ...)"
+    },
+    "part": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "agreement",
+        "conditions",
+        "particular",
+        "appendix"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "description": "clause wording; paragraphs separated by blank lines, list items start with '- '"
+    }
+  }
+}

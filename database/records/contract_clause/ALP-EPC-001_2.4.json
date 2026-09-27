@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.006141Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.006141Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_2.4",
+  "number": "2.4",
+  "part": "conditions",
+  "text": "The Owner shall provide the items allocated to it in Appendix D, including natural gas for commissioning and tests, grid access for back-feed and test energy, and utilities to the Site boundary, at the times required by the programme accepted under Sub-Clause 9.3.",
+  "title": "Owner-furnished items and utilities"
+}

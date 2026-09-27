@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.898492Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.898492Z",
+    "updated_by": "CASE"
+  },
+  "area": "Power island",
+  "commission": "IEC",
+  "contract": "ALP-EPC-001",
+  "design": "IEC",
+  "id": "SC-007",
+  "install": "IEPC",
+  "item": "GT generator incl. excitation, protection, cooling",
+  "supply": "IEC",
+  "terminal_point": "Generator terminals (IPB connection)"
+}

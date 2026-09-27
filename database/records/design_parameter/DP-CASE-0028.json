@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.811038Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.811038Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-04.01"
+  ],
+  "category": "performance",
+  "condition": "SRC, 380 kV terminal point",
+  "id": "DP-CASE-0028",
+  "parameter": "Net electrical output (guaranteed)",
+  "status": "confirmed",
+  "unit": "MW",
+  "value": 600.0
+}

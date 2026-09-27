@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.808002Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.808002Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "MS-11",
+  "percent": 10,
+  "planned_month": 32,
+  "security": "Retention release against Retention Guarantee",
+  "title": "Taking-Over of the Works",
+  "trigger": "Issue of the Taking-Over Certificate (after Tests on Completion and Reliability Run)"
+}

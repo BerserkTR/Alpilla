@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.013769Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.013769Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_7.3",
+  "number": "7.3",
+  "part": "conditions",
+  "text": "The Contractor shall provide accommodation, transport and welfare facilities for its personnel in accordance with applicable standards and the IFC/EBRD worker accommodation guidance.",
+  "title": "Accommodation and welfare"
+}

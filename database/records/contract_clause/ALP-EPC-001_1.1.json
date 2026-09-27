@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.003932Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.003932Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_1.1",
+  "number": "1.1",
+  "part": "conditions",
+  "text": "In the Contract the following words have the meanings stated, unless the context requires otherwise:\n\n- \"Works\" means the permanent works and temporary works required to deliver the complete power plant described in the Employer's Requirements.\n- \"Site\" means the land made available by the Owner as described in ER-02.01, including the marine areas for intake and outfall.\n- \"Engineer\" means the person appointed by the Owner to act as the Owner's engineer and notified to the Contractor.\n- \"Taking-Over\" means the stage at which the Owner takes over the Works under Clause 11.\n- \"Defects Notification Period\" means the period stated in Sub-Clause 13.1.\n- \"Site Reference Conditions\" means the conditions stated in ER-02.03.\n- \"Good Industry Practice\" means the skill, diligence and foresight reasonably expected of an experienced international contractor executing works of similar size and complexity.\n- \"Owner's Database\" means the engineering database designated by the Owner as the single source of project data.",
+  "title": "Definitions"
+}

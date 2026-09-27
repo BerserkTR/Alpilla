@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.704789Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.704789Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "mechanical",
+  "id": "ER-06.05",
+  "section": "ER-06 Heat recovery steam generator",
+  "status": "contractual",
+  "text": "The HRSG shall withstand the start regime of ER-01.03 without drum or header fatigue beyond design life (fatigue analysis per EN 12952-3).",
+  "title": "Cycling capability",
+  "verification": "analysis"
+}

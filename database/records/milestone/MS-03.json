@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.806219Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.806219Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "MS-03",
+  "percent": 12,
+  "planned_month": 9,
+  "title": "Gas turbine and generator manufacturing progress",
+  "trigger": "Evidence of GT rotor forging and generator stator core completion (inspection report)"
+}

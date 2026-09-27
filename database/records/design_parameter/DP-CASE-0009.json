@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.805162Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.805162Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.02"
+  ],
+  "category": "ambient",
+  "id": "DP-CASE-0009",
+  "parameter": "Ambient temperature - survival range",
+  "status": "confirmed",
+  "unit": "degC",
+  "value_text": "-15 to +45"
+}

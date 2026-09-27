@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.705082Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.705082Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "structural",
+  "id": "ER-06.06",
+  "section": "ER-06 Heat recovery steam generator",
+  "status": "contractual",
+  "text": "Steel stack 60 m high (subject to the EIA dispersion study), with CEMS platform, sampling ports per EN 15259 and aviation lighting.",
+  "title": "Stack",
+  "verification": "inspection"
+}

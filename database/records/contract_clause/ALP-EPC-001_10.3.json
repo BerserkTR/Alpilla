@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.018056Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.018056Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_10.3",
+  "number": "10.3",
+  "part": "conditions",
+  "text": "If the Works fail any Test on Completion, the Contractor shall remedy the failure and repeat the test at its cost, including the cost of fuel above the quantities allowed for the first test.",
+  "title": "Retesting"
+}

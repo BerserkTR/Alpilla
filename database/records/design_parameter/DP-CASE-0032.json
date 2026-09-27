@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.812071Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.812071Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-04.05"
+  ],
+  "category": "performance",
+  "condition": "minimum",
+  "id": "DP-CASE-0032",
+  "parameter": "Load ramp rate",
+  "status": "confirmed",
+  "unit": "MW/min",
+  "value": 35.0
+}

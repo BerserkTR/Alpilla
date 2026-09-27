@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.899748Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.899748Z",
+    "updated_by": "CASE"
+  },
+  "area": "Power island",
+  "commission": "IEC",
+  "contract": "ALP-EPC-001",
+  "design": "IEC",
+  "id": "SC-013",
+  "install": "IEPC",
+  "item": "Power island control system (TCS/ST controls) integrated in plant DCS",
+  "supply": "IEC",
+  "terminal_point": "DCS interface (redundant fibre)"
+}

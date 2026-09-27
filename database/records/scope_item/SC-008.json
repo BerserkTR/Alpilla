@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.898729Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.898729Z",
+    "updated_by": "CASE"
+  },
+  "area": "Power island",
+  "commission": "IEC",
+  "contract": "ALP-EPC-001",
+  "design": "IEC",
+  "id": "SC-008",
+  "install": "IEPC",
+  "item": "Steam turbine (HP/IP/LP, reheat) incl. lube/control oil, gland steam, turning gear",
+  "supply": "IEC"
+}

@@ -1,0 +1,89 @@
+{
+  "entity": "requirement",
+  "title": "Technical requirement (Employer's Requirements)",
+  "id_pattern": "^ER-[0-9]{2}\\.[0-9]{2}$",
+  "display": [
+    "section",
+    "title",
+    "discipline",
+    "verification",
+    "guarantee"
+  ],
+  "fields": {
+    "contract": {
+      "type": "ref",
+      "to": "contract",
+      "required": true
+    },
+    "section": {
+      "type": "string",
+      "required": true,
+      "pattern": "^ER-[0-9]{2} .+",
+      "description": "e.g. 'ER-04 Performance and operation'"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "discipline": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "general",
+        "process",
+        "mechanical",
+        "piping",
+        "electrical",
+        "i_and_c",
+        "civil",
+        "structural",
+        "hvac",
+        "hse",
+        "commissioning",
+        "project_control",
+        "commercial"
+      ]
+    },
+    "verification": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "test",
+        "inspection",
+        "analysis",
+        "review",
+        "demonstration"
+      ]
+    },
+    "acceptance": {
+      "type": "text",
+      "description": "acceptance criterion"
+    },
+    "guarantee": {
+      "type": "ref",
+      "to": "guarantee"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "reference",
+        "decision"
+      ]
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "contractual",
+        "clarification",
+        "deviation_accepted",
+        "withdrawn"
+      ],
+      "default": "contractual"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.720290Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.720290Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "ER-13.06",
+  "section": "ER-13 Civil, structural and architectural works",
+  "status": "contractual",
+  "text": "Intake and outfall pipelines (HDPE or GRP) with ballast and scour protection, designed for 50-year wave conditions.",
+  "title": "Marine works",
+  "verification": "analysis"
+}

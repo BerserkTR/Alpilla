@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.029976Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.029976Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_20.3",
+  "number": "20.3",
+  "part": "conditions",
+  "text": "The Owner may terminate the Contract for convenience by 56 days' notice. The Owner shall then pay for work done, goods ordered, demobilisation costs and 5 % of the value of the work not executed as compensation for loss of profit.",
+  "title": "Termination for convenience"
+}

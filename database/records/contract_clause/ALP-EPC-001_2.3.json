@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.005949Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.005949Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_2.3",
+  "number": "2.3",
+  "part": "conditions",
+  "text": "The Owner shall, within 28 days after receiving a reasonable request, provide reasonable evidence that financial arrangements are in place to pay the Contract Price.",
+  "title": "Owner's financial arrangements"
+}

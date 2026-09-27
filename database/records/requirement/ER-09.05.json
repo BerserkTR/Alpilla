@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.710066Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.710066Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "Effluent within permit limits",
+  "contract": "ALP-EPC-001",
+  "discipline": "hse",
+  "id": "ER-09.05",
+  "section": "ER-09 Water treatment and effluents",
+  "status": "contractual",
+  "text": "Neutralisation, oil separation and treatment so that effluents meet the Turkish Water Pollution Control Regulation discharge limits before the outfall.",
+  "title": "Waste water",
+  "verification": "test"
+}

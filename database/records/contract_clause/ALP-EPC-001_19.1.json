@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.028408Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.028408Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_19.1",
+  "number": "19.1",
+  "part": "conditions",
+  "text": "An Exceptional Event is an event beyond a Party's control which it could not reasonably have provided against, could not reasonably have avoided or overcome, and which is not substantially attributable to the other Party, including war, terrorism, epidemics declared by public authorities, natural catastrophes such as earthquakes of intensity exceeding the design basis, and nationwide strikes. Earthquakes within the design basis of the Works are not Exceptional Events.",
+  "title": "Definition"
+}

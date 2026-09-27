@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.029498Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.029498Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_20.1",
+  "number": "20.1",
+  "part": "conditions",
+  "text": "The Owner may suspend the Works at any time. If the suspension exceeds 84 days not caused by the Contractor, the Contractor is entitled to an extension of time and costs, and may treat the suspension as an omission of the affected part after a further 28 days' notice.",
+  "title": "Suspension by the Owner"
+}

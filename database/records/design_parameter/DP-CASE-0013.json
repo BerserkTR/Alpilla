@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.805908Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.805908Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.04"
+  ],
+  "category": "water",
+  "id": "DP-CASE-0013",
+  "parameter": "Seawater temperature range at intake",
+  "status": "confirmed",
+  "unit": "degC",
+  "value_text": "6 to 27"
+}

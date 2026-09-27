@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.463720Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.463720Z",
+    "updated_by": "CASE"
+  },
+  "address": "Fictional power-equipment manufacturer",
+  "country": "Germany",
+  "fictional": true,
+  "id": "IEC",
+  "name": "Imaginary Electric Company",
+  "remarks": "Fictional. Power island package provider: gas turbine, steam turbine, generators, HRSG, GSU transformers, power island I&C.",
+  "representative": "Power Island Package Manager",
+  "role": "consortium_member",
+  "short_name": "Imaginary Electric"
+}

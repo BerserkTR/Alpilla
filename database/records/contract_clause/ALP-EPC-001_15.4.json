@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.024251Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.024251Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_15.4",
+  "number": "15.4",
+  "part": "conditions",
+  "text": "The Owner shall retain 5 % of each milestone payment. Half of the retention is released at Taking-Over and half at the Performance Certificate; alternatively the retention may be released against a Retention Guarantee of equal value.",
+  "title": "Retention"
+}

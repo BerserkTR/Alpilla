@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.703266Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.703266Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "mechanical",
+  "id": "ER-05.07",
+  "section": "ER-05 Gas turbine",
+  "status": "contractual",
+  "text": "Hot gas path inspection interval shall be not less than 25,000 EOH and major inspection not less than 50,000 EOH at the operating regime of ER-01.03.",
+  "title": "Maintenance intervals",
+  "verification": "review"
+}

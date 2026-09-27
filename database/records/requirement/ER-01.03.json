@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.692063Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.692063Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "Design life documented in design reports and OEM statements",
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-01.03",
+  "section": "ER-01 General requirements and plant description",
+  "status": "contractual",
+  "text": "All equipment and structures shall be designed for an economic life of 30 years, 8,000 equivalent operating hours per year and up to 250 starts per year (of which up to 50 cold, 100 warm and 100 hot starts), including daily cycling and load following.",
+  "title": "Design life and operating regime",
+  "verification": "analysis"
+}

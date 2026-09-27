@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.027220Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.027220Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_18.1",
+  "number": "18.1",
+  "part": "conditions",
+  "text": "The Contractor shall procure a construction and erection all risks (CEAR) policy covering the Works for their full replacement value, including testing and commissioning, with the Owner and its lenders as co-insured and the lenders as loss payee.",
+  "title": "Construction and erection all risks"
+}

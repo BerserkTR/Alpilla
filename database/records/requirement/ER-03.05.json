@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.698138Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.698138Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-03.05",
+  "section": "ER-03 Fuel",
+  "status": "contractual",
+  "text": "The GT fuel gas shall be preheated with intermediate-pressure feedwater to the OEM-optimised temperature (about 200 degC) to maximise combined cycle efficiency; a start-up heater shall be provided.",
+  "title": "Performance fuel gas heating",
+  "verification": "review"
+}

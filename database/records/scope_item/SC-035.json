@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.904121Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.904121Z",
+    "updated_by": "CASE"
+  },
+  "area": "Electrical",
+  "commission": "IEPC",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-035",
+  "install": "IEPC",
+  "item": "Revenue metering and TSO SCADA/telecom interface",
+  "supply": "IEPC",
+  "terminal_point": "TSO RTU interface in control building"
+}

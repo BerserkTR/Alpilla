@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.706875Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.706875Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "mechanical",
+  "id": "ER-07.05",
+  "section": "ER-07 Steam turbine and condenser",
+  "status": "contractual",
+  "text": "2x100 % liquid-ring vacuum pumps (holding) plus hogging capability for fast start-up.",
+  "title": "Vacuum system",
+  "verification": "inspection"
+}

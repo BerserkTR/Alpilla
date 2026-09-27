@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.907813Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.907813Z",
+    "updated_by": "CASE"
+  },
+  "area": "Spares",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-051",
+  "item": "Two-year operating spares (priced list, Owner option)",
+  "supply": "IEPC",
+  "terminal_point": "Owner's warehouse"
+}

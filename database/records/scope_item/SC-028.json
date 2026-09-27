@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.902792Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.902792Z",
+    "updated_by": "CASE"
+  },
+  "area": "Fuel gas",
+  "commission": "IEPC",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-028",
+  "install": "IEPC",
+  "item": "Gas receiving and metering station (fiscal metering, filtration, heating, pressure control)",
+  "supply": "IEPC",
+  "terminal_point": "Inlet flange at plant boundary"
+}

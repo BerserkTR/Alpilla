@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.699901Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.699901Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "Grid Code compliance tests accepted by the TSO",
+  "contract": "ALP-EPC-001",
+  "discipline": "electrical",
+  "id": "ER-04.07",
+  "section": "ER-04 Performance and operational requirements",
+  "status": "contractual",
+  "text": "The plant shall provide primary and secondary frequency control, fast frequency response and reactive power support as required by the Grid Code, including operation within 47.5 Hz to 52.5 Hz for the durations specified therein.",
+  "title": "Frequency and voltage support",
+  "verification": "test"
+}

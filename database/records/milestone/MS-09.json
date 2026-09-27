@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.807613Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.807613Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "MS-09",
+  "percent": 7,
+  "planned_month": 23,
+  "title": "First fire of the gas turbine",
+  "trigger": "GT first fire on natural gas"
+}

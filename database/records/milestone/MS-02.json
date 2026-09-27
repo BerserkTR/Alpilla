@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.806003Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.806003Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "MS-02",
+  "percent": 8,
+  "planned_month": 3,
+  "title": "Approval of basic design and power island order",
+  "trigger": "Owner approval of the Basic Design Package and evidence of firm power island sub-orders"
+}

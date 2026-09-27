@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.009977Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.009977Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_5.4",
+  "number": "5.4",
+  "part": "conditions",
+  "text": "The consortium agreement between the Leader and the Member governs only their internal relationship. No provision of it limits their liability towards the Owner.",
+  "title": "Internal arrangements"
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.901751Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.901751Z",
+    "updated_by": "CASE"
+  },
+  "area": "Balance of plant",
+  "commission": "IEPC",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-023",
+  "install": "IEPC",
+  "item": "Auxiliary boiler (gas-fired) for start-up steam",
+  "supply": "IEPC"
+}

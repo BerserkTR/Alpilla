@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.005046Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.005046Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_1.6",
+  "number": "1.6",
+  "part": "conditions",
+  "text": "Each Party shall keep the other Party's confidential information confidential and use it only for the Project. The Owner may use all design data, documents and database content delivered by the Contractor for the operation, maintenance, repair, extension and refinancing of the Project.",
+  "title": "Confidentiality and data"
+}

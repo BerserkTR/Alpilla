@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.020405Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.020405Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_12.6",
+  "number": "12.6",
+  "part": "conditions",
+  "text": "Performance liquidated damages are capped at 15 % of the Contract Price. The aggregate of delay and performance liquidated damages is capped at 20 % of the Contract Price.",
+  "title": "Caps"
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.813091Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.813091Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.03"
+  ],
+  "category": "operation",
+  "condition": "50 cold, 100 warm, 100 hot",
+  "id": "DP-CASE-0036",
+  "parameter": "Starts per year",
+  "status": "confirmed",
+  "unit": "starts/year",
+  "value": 250.0
+}

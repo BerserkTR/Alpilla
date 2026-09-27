@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.906264Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.906264Z",
+    "updated_by": "CASE"
+  },
+  "area": "Utilities",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-045",
+  "install": "IEPC",
+  "item": "Construction power and water",
+  "supply": "IEPC"
+}

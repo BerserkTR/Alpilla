@@ -1,0 +1,28 @@
+{
+  "db_hash": "15ee637f50672808",
+  "engine": "contract_document",
+  "engine_version": "1.0.0",
+  "files": {
+    "ALP-EPC-001_contract.docx": "90ea2d4a00aaa83309e210d0a4b6618736f5e5fdb27f9564e54542ec72cd6b41",
+    "ALP-EPC-001_contract.pdf": "9fbb15945b25f80f471fbdad305392f2f470e5fd1b1c02768d5391b89ed9a9c3"
+  },
+  "generated_at": "2026-09-27T16:51:59.183226Z",
+  "generated_by": "SETUP",
+  "git_commit": "1f0bda3",
+  "inputs": [
+    "activity",
+    "contract",
+    "contract_clause",
+    "design_parameter",
+    "guarantee",
+    "milestone",
+    "party",
+    "project",
+    "requirement",
+    "scope_item",
+    "wbs"
+  ],
+  "inputs_hash": "d01970c3fb5cd199",
+  "options": {},
+  "warnings": []
+}

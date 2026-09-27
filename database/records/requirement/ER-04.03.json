@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.698954Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.698954Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "<= 6,250 kJ/kWh",
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "guarantee": "PG-03",
+  "id": "ER-04.03",
+  "section": "ER-04 Performance and operational requirements",
+  "status": "contractual",
+  "text": "Net heat rate at 60 % plant load shall not exceed 6,250 kJ/kWh (LHV) at SRC.",
+  "title": "Part-load efficiency",
+  "verification": "test"
+}

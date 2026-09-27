@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.899323Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.899323Z",
+    "updated_by": "CASE"
+  },
+  "area": "Power island",
+  "commission": "IEPC",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-011",
+  "install": "IEPC",
+  "item": "Stack 60 m with CEMS platform and silencer",
+  "supply": "IEPC"
+}

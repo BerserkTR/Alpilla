@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.029763Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.029763Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_20.2",
+  "number": "20.2",
+  "part": "conditions",
+  "text": "The Owner may terminate the Contract by 14 days' notice if the Contractor: fails to provide the Performance Security; abandons the Works; fails without reasonable excuse to proceed; reaches the cap of delay damages; fails the minimum acceptance levels in Sub-Clause 12.3; becomes insolvent (both members); or commits bribery. The Owner may then complete the Works through others and recover the additional cost, and may reject the Works and recover all amounts paid where the plant is incapable of commercial use.",
+  "title": "Termination for Contractor's default"
+}

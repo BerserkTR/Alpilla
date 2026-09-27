@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.463998Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.463998Z",
+    "updated_by": "CASE"
+  },
+  "country": "Türkiye",
+  "fictional": true,
+  "id": "OE",
+  "name": "Owner's Engineer (to be appointed)",
+  "remarks": "Fictional role placeholder: reviews documents and witnesses tests on behalf of the Owner.",
+  "role": "owners_engineer",
+  "short_name": "Engineer"
+}

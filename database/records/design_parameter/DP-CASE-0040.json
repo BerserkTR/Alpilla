@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.814329Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.814329Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.02"
+  ],
+  "category": "emissions",
+  "condition": "dry, 15 % O2, 50-100 % GT load",
+  "id": "DP-CASE-0040",
+  "parameter": "NOx (as NO2)",
+  "status": "confirmed",
+  "unit": "mg/Nm3",
+  "value": 30.0
+}

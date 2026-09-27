@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.006641Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.006641Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_3.2",
+  "number": "3.2",
+  "part": "conditions",
+  "text": "The Contractor shall comply with instructions of the Engineer given in accordance with the Contract. If the Contractor considers that an instruction constitutes a Variation, it shall notify the Engineer within 14 days before commencing the work, unless the instruction concerns safety.",
+  "title": "Instructions"
+}

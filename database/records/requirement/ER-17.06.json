@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.726093Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.726093Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-17.06",
+  "section": "ER-17 Documentation, training, O&M and spares",
+  "status": "contractual",
+  "text": "Commissioning spares, special tools, and a recommended two-year operating spares list with prices valid for 18 months.",
+  "title": "Spare parts",
+  "verification": "review"
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.460817Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.460817Z",
+    "updated_by": "CASE"
+  },
+  "address": "Alpilla Power Plant Site Office, Marmara coastal industrial zone, Türkiye",
+  "country": "Türkiye",
+  "fictional": true,
+  "id": "OWNER",
+  "name": "Alpilla Enerji Üretim A.Ş.",
+  "remarks": "Fictional special-purpose company created for this case study.",
+  "representative": "Project Director (Owner)",
+  "role": "owner",
+  "short_name": "Owner"
+}

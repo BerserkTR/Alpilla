@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.031135Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.031135Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_21.3",
+  "number": "21.3",
+  "part": "conditions",
+  "text": "The limitations in this Clause do not apply in case of fraud, gross negligence, wilful misconduct, abandonment of the Works, or to the indemnities for death and personal injury and third-party property damage.",
+  "title": "Exceptions"
+}

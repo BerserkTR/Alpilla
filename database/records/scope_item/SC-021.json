@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.901337Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.901337Z",
+    "updated_by": "CASE"
+  },
+  "area": "Balance of plant",
+  "commission": "IEPC",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-021",
+  "install": "IEPC",
+  "item": "Closed cooling water system with plate heat exchangers",
+  "supply": "IEPC"
+}

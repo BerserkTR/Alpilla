@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.717633Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.717633Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "Security acceptance test passed",
+  "contract": "ALP-EPC-001",
+  "discipline": "i_and_c",
+  "id": "ER-12.07",
+  "section": "ER-12 Instrumentation, control and cybersecurity",
+  "status": "contractual",
+  "text": "OT cybersecurity per IEC 62443 (target security level SL2), zones and conduits, DMZ, patch and backup management, security acceptance test.",
+  "title": "Cybersecurity",
+  "verification": "test"
+}

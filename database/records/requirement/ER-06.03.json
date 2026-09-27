@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.704070Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.704070Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "guarantee": "PG-04",
+  "id": "ER-06.03",
+  "section": "ER-06 Heat recovery steam generator",
+  "status": "contractual",
+  "text": "In-duct SCR with aqueous ammonia (< 25 %) injection and an oxidation catalyst sized for the emission guarantees at end of catalyst life (24,000 h).",
+  "title": "SCR and CO catalyst",
+  "verification": "test"
+}

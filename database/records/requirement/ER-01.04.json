@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.692370Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.692370Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-01.04",
+  "section": "ER-01 General requirements and plant description",
+  "status": "contractual",
+  "text": "The Works shall include everything necessary for safe, reliable and efficient operation whether or not expressly mentioned in the Contract (fit-for-purpose obligation), except the items expressly allocated to the Owner in Appendix D (scope split).",
+  "title": "Turnkey completeness",
+  "verification": "review"
+}

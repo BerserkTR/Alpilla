@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.012211Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.012211Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_6.5",
+  "number": "6.5",
+  "part": "conditions",
+  "text": "Copyright and other intellectual property in the Contractor's documents remain with the Contractor or its suppliers. The Owner receives a non-exclusive, perpetual, royalty-free licence to use them for the Project. Proprietary source code of turbine control systems remains with the supplier and is placed in escrow.",
+  "title": "Intellectual property"
+}

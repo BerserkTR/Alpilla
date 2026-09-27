@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.712872Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.712872Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "electrical",
+  "id": "ER-11.01",
+  "section": "ER-11 Electrical systems",
+  "status": "contractual",
+  "text": "Connection to the 380 kV transmission system via a GIS switchyard with double busbar and bus coupler, two line bays and two generator transformer bays, designed for 50 kA short-circuit current.",
+  "title": "Grid connection",
+  "verification": "test"
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.010763Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.010763Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_6.2",
+  "number": "6.2",
+  "part": "conditions",
+  "text": "The Contractor shall submit the documents listed in the master document register for review. The Engineer shall respond within the review period in ER-17.01 with one of: code 1 (no comments), code 2 (proceed subject to comments), code 3 (revise and resubmit) or code 4 (for information). Work shall not start on items subject to review until code 1 or 2 has been obtained.",
+  "title": "Contractor's documents and review"
+}

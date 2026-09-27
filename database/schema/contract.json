@@ -1,0 +1,93 @@
+{
+  "entity": "contract",
+  "title": "Contract (commercial frame)",
+  "id_pattern": "^[A-Z0-9][A-Z0-9._-]*$",
+  "display": [
+    "title",
+    "status",
+    "currency",
+    "price"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "owner": {
+      "type": "ref",
+      "to": "party",
+      "required": true
+    },
+    "contractor_parties": {
+      "type": "ref_list",
+      "to": "party",
+      "required": true,
+      "min_items": 1
+    },
+    "leader": {
+      "type": "ref",
+      "to": "party"
+    },
+    "form": {
+      "type": "string",
+      "description": "contract type, e.g. EPC lump-sum turnkey"
+    },
+    "currency": {
+      "type": "enum",
+      "values": [
+        "EUR",
+        "USD",
+        "TRY"
+      ],
+      "required": true
+    },
+    "price": {
+      "type": "number",
+      "required": true,
+      "min": 0
+    },
+    "price_offshore": {
+      "type": "number",
+      "min": 0
+    },
+    "price_onshore": {
+      "type": "number",
+      "min": 0
+    },
+    "signature_date": {
+      "type": "date"
+    },
+    "ntp_date": {
+      "type": "date"
+    },
+    "time_for_completion": {
+      "type": "integer",
+      "unit": "days",
+      "min": 1
+    },
+    "governing_law": {
+      "type": "string"
+    },
+    "disputes": {
+      "type": "text"
+    },
+    "language": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "draft",
+        "for_signature",
+        "signed",
+        "effective",
+        "completed",
+        "terminated"
+      ],
+      "default": "draft"
+    },
+    "case_note": {
+      "type": "text"
+    }
+  }
+}

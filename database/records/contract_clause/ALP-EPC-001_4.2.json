@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.007298Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.007298Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_4.2",
+  "number": "4.2",
+  "part": "conditions",
+  "text": "The Contractor shall deliver an unconditional, irrevocable on-demand bank guarantee from a bank acceptable to the Owner for 10 % of the Contract Price, valid until the issue of the Performance Certificate, reducing to 5 % at Taking-Over.",
+  "title": "Performance Security"
+}

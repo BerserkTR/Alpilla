@@ -1,0 +1,49 @@
+{
+  "entity": "scope_item",
+  "title": "Scope split / terminal point item",
+  "id_pattern": "^SC-[0-9]{3}$",
+  "display": [
+    "area",
+    "item",
+    "design",
+    "supply",
+    "install"
+  ],
+  "fields": {
+    "contract": {
+      "type": "ref",
+      "to": "contract",
+      "required": true
+    },
+    "area": {
+      "type": "string",
+      "required": true
+    },
+    "item": {
+      "type": "string",
+      "required": true
+    },
+    "design": {
+      "type": "ref",
+      "to": "party"
+    },
+    "supply": {
+      "type": "ref",
+      "to": "party"
+    },
+    "install": {
+      "type": "ref",
+      "to": "party"
+    },
+    "commission": {
+      "type": "ref",
+      "to": "party"
+    },
+    "terminal_point": {
+      "type": "text"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

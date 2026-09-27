@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.702294Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.702294Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "mechanical",
+  "id": "ER-05.04",
+  "section": "ER-05 Gas turbine",
+  "status": "contractual",
+  "text": "Acoustic enclosure with ventilation, gas detection and fire suppression suitable for the hazardous area classification.",
+  "title": "Enclosure and ventilation",
+  "verification": "inspection"
+}

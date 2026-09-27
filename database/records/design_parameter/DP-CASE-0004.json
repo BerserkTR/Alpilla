@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.803865Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.803865Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.05"
+  ],
+  "category": "site",
+  "condition": "10 min mean, 10 m, 50-year return",
+  "id": "DP-CASE-0004",
+  "parameter": "Basic wind speed",
+  "status": "confirmed",
+  "unit": "m/s",
+  "value": 30.0
+}

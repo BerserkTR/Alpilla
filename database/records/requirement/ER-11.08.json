@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.714375Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.714375Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "electrical",
+  "id": "ER-11.08",
+  "section": "ER-11 Electrical systems",
+  "status": "contractual",
+  "text": "Cables per IEC standards, halogen-free flame-retardant inside buildings, fire-rated cables for safety circuits.",
+  "title": "Cables",
+  "verification": "inspection"
+}

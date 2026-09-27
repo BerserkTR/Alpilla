@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.903346Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.903346Z",
+    "updated_by": "CASE"
+  },
+  "area": "Electrical",
+  "commission": "OWNER",
+  "contract": "ALP-EPC-001",
+  "design": "OWNER",
+  "id": "SC-031",
+  "install": "OWNER",
+  "item": "380 kV transmission connection line and remote substation works",
+  "supply": "OWNER",
+  "terminal_point": "Line gantry at switchyard"
+}

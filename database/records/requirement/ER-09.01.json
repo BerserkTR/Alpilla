@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.709273Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.709273Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-09.01",
+  "section": "ER-09 Water treatment and effluents",
+  "status": "contractual",
+  "text": "Seawater reverse osmosis (2x100 %) producing service and demineralisation feed water; no groundwater abstraction.",
+  "title": "Raw water",
+  "verification": "test"
+}

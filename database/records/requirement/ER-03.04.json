@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.697842Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.697842Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "mechanical",
+  "id": "ER-03.04",
+  "section": "ER-03 Fuel",
+  "status": "contractual",
+  "text": "2x100 % filtration/separation, 2x100 % water-bath or electric heaters, 2x100 % pressure-reduction streams with active/monitor regulators and slam-shut valves; fiscal metering with 2x100 % ultrasonic meters (OIML R137 accuracy class 0.5), on-line gas chromatograph and flow computers complying with the network operator's requirements.",
+  "title": "Gas receiving and fiscal metering station",
+  "verification": "inspection"
+}

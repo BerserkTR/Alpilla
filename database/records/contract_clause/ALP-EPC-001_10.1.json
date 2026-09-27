@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.017382Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.017382Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_10.1",
+  "number": "10.1",
+  "part": "conditions",
+  "text": "The Contractor shall carry out the Tests on Completion described in ER-16 after providing the as-built documents and O&M manuals required for testing. Test procedures shall be submitted 90 days before the tests.",
+  "title": "Contractor's obligations"
+}

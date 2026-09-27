@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.030164Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.030164Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_20.4",
+  "number": "20.4",
+  "part": "conditions",
+  "text": "The Contractor may terminate the Contract if the Owner fails to pay a certified amount within 90 days after its due date, or suspends the Works for more than 180 days without cause, after giving 14 days' notice to remedy.",
+  "title": "Termination by the Contractor"
+}

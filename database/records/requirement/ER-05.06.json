@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.702976Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.702976Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "i_and_c",
+  "id": "ER-05.06",
+  "section": "ER-05 Gas turbine",
+  "status": "contractual",
+  "text": "Vibration, performance and combustion monitoring with secure remote diagnostic access for the OEM (IEC 62443 compliant).",
+  "title": "Condition monitoring and remote diagnostics",
+  "verification": "review"
+}

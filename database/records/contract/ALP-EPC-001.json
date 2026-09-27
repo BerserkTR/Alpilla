@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.539600Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.539600Z",
+    "updated_by": "CASE"
+  },
+  "case_note": "CASE STUDY. All parties, names, prices and dates are fictional and created to exercise the project environment.",
+  "contractor_parties": [
+    "IEPC",
+    "IEC"
+  ],
+  "currency": "EUR",
+  "disputes": "Amicable settlement, then Dispute Avoidance/Adjudication Board, then ICC arbitration seated in Istanbul, three arbitrators, English language.",
+  "form": "Lump-sum, fixed-price, date-certain turnkey EPC contract with a consortium Contractor (joint and several liability)",
+  "governing_law": "Laws of the Republic of Türkiye",
+  "id": "ALP-EPC-001",
+  "language": "English (ruling language); Turkish for permits and authority submissions",
+  "leader": "IEPC",
+  "ntp_date": "2026-11-02",
+  "owner": "OWNER",
+  "price": 515000000,
+  "price_offshore": 318000000,
+  "price_onshore": 197000000,
+  "signature_date": "2026-10-15",
+  "status": "signed",
+  "time_for_completion": 975,
+  "title": "Engineering, Procurement and Construction Contract for the Alpilla 600 MW Combined Cycle Power Plant"
+}

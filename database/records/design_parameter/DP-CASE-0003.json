@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.803557Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.803557Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.08"
+  ],
+  "category": "site",
+  "id": "DP-CASE-0003",
+  "parameter": "Atmospheric corrosivity category",
+  "status": "confirmed",
+  "unit": "-",
+  "value_text": "C5 (ISO 12944-2), durability H"
+}

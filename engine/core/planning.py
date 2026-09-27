@@ -176,6 +176,11 @@ def compute(store) -> tuple[list[Act], Calendar, date]:
 
     # ---- backward pass
     finish = max((a.ef for a in acts.values()), default=0)
+    # like P6's "must finish by": float is measured against the latest contractual deadline when it is later
+    for a in acts.values():
+        r = a.rec
+        if r.get("constraint") == "finish_no_later_than" and r.get("constraint_date"):
+            finish = max(finish, cal.index(date.fromisoformat(r["constraint_date"])) + (1 if a.dur else 0))
     succs: dict[str, list] = {k: [] for k in acts}
     for a in acts.values():
         for pid, rel, lag in a.preds:

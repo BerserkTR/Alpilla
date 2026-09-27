@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.903154Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.903154Z",
+    "updated_by": "CASE"
+  },
+  "area": "Electrical",
+  "commission": "IEPC",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-030",
+  "install": "IEPC",
+  "item": "380 kV GIS switchyard (double busbar) within plant boundary",
+  "supply": "IEPC",
+  "terminal_point": "380 kV line gantry / cable sealing ends"
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.898957Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.898957Z",
+    "updated_by": "CASE"
+  },
+  "area": "Power island",
+  "commission": "IEC",
+  "contract": "ALP-EPC-001",
+  "design": "IEC",
+  "id": "SC-009",
+  "install": "IEPC",
+  "item": "ST generator incl. excitation, protection",
+  "supply": "IEC",
+  "terminal_point": "Generator terminals"
+}

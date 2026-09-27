@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.813511Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.813511Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-04.04"
+  ],
+  "category": "operation",
+  "condition": "maximum",
+  "id": "DP-CASE-0037",
+  "parameter": "Hot start time to base load",
+  "status": "confirmed",
+  "unit": "min",
+  "value": 45.0
+}

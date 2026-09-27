@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.005755Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.005755Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_2.2",
+  "number": "2.2",
+  "part": "conditions",
+  "text": "The Owner shall obtain and maintain the EIA decision, the generation licence, the grid connection agreement and the land-use permits. The Contractor shall obtain all other permits for the design, construction and testing of the Works and shall provide all technical inputs the Owner needs for the Owner's permits.",
+  "title": "Permits"
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.714157Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.714157Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "electrical",
+  "id": "ER-11.07",
+  "section": "ER-11 Electrical systems",
+  "status": "contractual",
+  "text": "Earthing grid per IEEE 80 with safe touch and step voltages; lightning protection per IEC 62305.",
+  "title": "Earthing and lightning",
+  "verification": "test"
+}

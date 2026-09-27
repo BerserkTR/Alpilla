@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.016724Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.016724Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_9.6",
+  "number": "9.6",
+  "part": "conditions",
+  "text": "If progress is too slow to complete within the Time for Completion, the Engineer may instruct the Contractor to submit a revised programme and to accelerate at the Contractor's cost.",
+  "title": "Rate of progress"
+}

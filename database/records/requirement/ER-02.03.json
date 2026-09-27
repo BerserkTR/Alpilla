@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.695160Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.695160Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-02.03",
+  "section": "ER-02 Site conditions and design data",
+  "status": "contractual",
+  "text": "Guarantees refer to: ambient dry-bulb temperature 15.0 degC; relative humidity 70 %; barometric pressure 1011.5 mbar; seawater temperature at intake 16.0 degC; natural gas per ER-03.02 reference composition; grid frequency 50.0 Hz; power factor 0.85 lagging.",
+  "title": "Site Reference Conditions (SRC)",
+  "verification": "review"
+}

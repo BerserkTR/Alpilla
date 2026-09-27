@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.006464Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.006464Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_3.1",
+  "number": "3.1",
+  "part": "conditions",
+  "text": "The Engineer acts for the Owner in reviewing documents, inspecting and witnessing tests, certifying payments and determining claims. The Engineer has no authority to amend the Contract. Any approval, review or inspection by the Engineer does not relieve the Contractor of any responsibility.",
+  "title": "Role of the Engineer"
+}

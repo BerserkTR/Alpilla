@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.024485Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.024485Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_15.5",
+  "number": "15.5",
+  "part": "conditions",
+  "text": "The Owner shall pay each certified amount within 45 days after receiving the Contractor's invoice with supporting documents.",
+  "title": "Time for payment"
+}

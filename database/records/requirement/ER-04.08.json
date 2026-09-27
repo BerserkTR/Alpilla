@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.700096Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.700096Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "electrical",
+  "id": "ER-04.08",
+  "section": "ER-04 Performance and operational requirements",
+  "status": "contractual",
+  "text": "Each generator shall be capable of power factor 0.85 lagging to 0.95 leading at rated active power at the generator terminals.",
+  "title": "Reactive capability",
+  "verification": "test"
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.726498Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.726498Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-18.01",
+  "section": "ER-18 Interfaces and terminal points",
+  "status": "contractual",
+  "text": "Terminal points and scope limits are defined in Appendix D; the Contractor shall provide all works up to and including the terminal points.",
+  "title": "Terminal points",
+  "verification": "review"
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.015506Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.015506Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_9.1",
+  "number": "9.1",
+  "part": "conditions",
+  "text": "The Contractor shall commence the Works on the NTP date and proceed with due expedition and without delay.",
+  "title": "Commencement"
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.029087Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.029087Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_19.4",
+  "number": "19.4",
+  "part": "conditions",
+  "text": "If the execution of substantially all the Works is prevented for a continuous period of 180 days, either Party may terminate the Contract by 30 days' notice. The Owner shall then pay for work done and the cost of demobilisation.",
+  "title": "Prolonged Exceptional Event"
+}

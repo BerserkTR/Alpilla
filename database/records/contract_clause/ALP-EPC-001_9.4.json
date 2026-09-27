@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.016060Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.016060Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_9.4",
+  "number": "9.4",
+  "part": "conditions",
+  "text": "The Contractor is entitled to an extension of the Time for Completion if and to the extent that completion is or will be delayed by: a Variation; an Exceptional Event under Clause 19; unforeseeable physical conditions under Sub-Clause 4.5; a delay caused by the Owner or its other contractors; or a change in law under Sub-Clause 14.4; in each case subject to Clause 22. Concurrent delays caused by the Contractor are taken into account.",
+  "title": "Extension of Time"
+}

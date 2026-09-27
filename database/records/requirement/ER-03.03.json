@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.697535Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.697535Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-03.03",
+  "section": "ER-03 Fuel",
+  "status": "contractual",
+  "text": "Pressure at the terminal point 45 barg to 70 barg; temperature 5 degC to 25 degC. The gas receiving station shall provide the GT fuel skid with gas at the OEM-required pressure and superheat under all conditions without gas compressors.",
+  "title": "Gas supply conditions at terminal point",
+  "verification": "analysis"
+}

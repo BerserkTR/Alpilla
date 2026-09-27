@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.032870Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.032870Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_23.1",
+  "number": "23.1",
+  "part": "conditions",
+  "text": "Each Party shall comply with applicable anti-bribery laws, export control and sanctions regulations. Breach by the Contractor entitles the Owner to terminate under Sub-Clause 20.2.",
+  "title": "Anti-bribery and compliance"
+}

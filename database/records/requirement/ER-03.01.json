@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.697019Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.697019Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-03.01",
+  "section": "ER-03 Fuel",
+  "status": "contractual",
+  "text": "The only fuel is pipeline natural gas from the national transmission system. No back-up liquid fuel is required; space shall be reserved for a future distillate system.",
+  "title": "Fuel",
+  "verification": "review"
+}

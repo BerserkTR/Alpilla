@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.696119Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.696119Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "ER-02.07",
+  "section": "ER-02 Site conditions and design data",
+  "status": "contractual",
+  "text": "Owner-provided baseline investigation indicates alluvial deposits over weathered rock at 18 m to 25 m depth, groundwater at +13.5 m and liquefaction potential in the upper sand layers. The Contractor shall perform confirmatory investigations and select foundation solutions (piling or ground improvement) accordingly.",
+  "title": "Geotechnical conditions",
+  "verification": "analysis"
+}

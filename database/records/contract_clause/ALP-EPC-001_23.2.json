@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.033085Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.033085Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_23.2",
+  "number": "23.2",
+  "part": "conditions",
+  "text": "Neither Party may assign the Contract without the other's consent, except that the Owner may assign its rights by way of security to its lenders. The Contractor shall sign a direct agreement with the lenders in customary form.",
+  "title": "Assignment"
+}

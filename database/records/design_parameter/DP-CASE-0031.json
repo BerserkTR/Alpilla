@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.811794Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.811794Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-04.10"
+  ],
+  "category": "performance",
+  "condition": "maximum, base load",
+  "id": "DP-CASE-0031",
+  "parameter": "Auxiliary power consumption",
+  "status": "confirmed",
+  "unit": "% of gross",
+  "value": 2.2
+}

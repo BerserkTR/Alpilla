@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.691691Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.691691Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "Configuration as described in the approved Basic Design Package",
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-01.02",
+  "section": "ER-01 General requirements and plant description",
+  "status": "contractual",
+  "text": "The plant shall be a 1x1 multi-shaft combined cycle block comprising one heavy-duty H-class (or equivalent advanced class) gas turbine with its own generator, one triple-pressure reheat heat recovery steam generator (HRSG) with selective catalytic reduction (SCR) and CO catalyst, and one reheat condensing steam turbine with its own generator, cooled by once-through seawater.",
+  "title": "Plant configuration",
+  "verification": "review"
+}

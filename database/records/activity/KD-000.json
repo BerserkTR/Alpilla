@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:46.007763Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:46.007763Z",
+    "updated_by": "CASE"
+  },
+  "constraint": "start_no_earlier_than",
+  "constraint_date": "2026-11-02",
+  "duration": 0,
+  "id": "KD-000",
+  "phase": "management",
+  "title": "Notice to Proceed",
+  "type": "start_milestone",
+  "wbs": "ALP.KD"
+}

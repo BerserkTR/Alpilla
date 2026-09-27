@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.021497Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.021497Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_13.3",
+  "number": "13.3",
+  "part": "conditions",
+  "text": "The Defects Notification Period of a part of the Works is extended by the period during which that part cannot be used because of a defect, and restarts for 12 months for replaced parts, up to a maximum of 48 months from Taking-Over.",
+  "title": "Extension of the Defects Notification Period"
+}

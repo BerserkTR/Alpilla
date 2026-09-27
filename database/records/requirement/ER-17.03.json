@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.725471Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.725471Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-17.03",
+  "section": "ER-17 Documentation, training, O&M and spares",
+  "status": "contractual",
+  "text": "As-built drawings, 3D model and engineering database within 3 months of Taking-Over.",
+  "title": "As-built documentation",
+  "verification": "review"
+}

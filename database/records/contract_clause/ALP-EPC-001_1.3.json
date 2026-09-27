@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.004341Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.004341Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_1.3",
+  "number": "1.3",
+  "part": "conditions",
+  "text": "The documents forming the Contract are mutually explanatory. Ambiguities or discrepancies shall be resolved by the order of precedence in Article A3. Where a discrepancy exists within the Employer's Requirements, the more stringent requirement applies. The Contractor shall notify any discrepancy it discovers without delay.",
+  "title": "Priority of documents"
+}

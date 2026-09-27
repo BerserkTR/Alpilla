@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.803485Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.803485Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "MS-01",
+  "percent": 10,
+  "planned_month": 0,
+  "security": "Advance Payment Guarantee 10 %",
+  "title": "Advance payment",
+  "trigger": "Contract effective and receipt of the Advance Payment Guarantee"
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.902428Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.902428Z",
+    "updated_by": "CASE"
+  },
+  "area": "Fuel gas",
+  "commission": "OWNER",
+  "contract": "ALP-EPC-001",
+  "design": "OWNER",
+  "id": "SC-027",
+  "install": "OWNER",
+  "item": "Gas pipeline from national transmission system to plant boundary",
+  "supply": "OWNER",
+  "terminal_point": "Owner valve at plant boundary (inlet flange of gas receiving station)"
+}

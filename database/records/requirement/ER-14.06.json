@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.721649Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.721649Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "hse",
+  "id": "ER-14.06",
+  "section": "ER-14 Environment, health and safety",
+  "status": "contractual",
+  "text": "Hazardous area classification per IEC 60079-10-1; equipment certified accordingly.",
+  "title": "Hazardous areas",
+  "verification": "review"
+}

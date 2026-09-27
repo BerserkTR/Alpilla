@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.719615Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.719615Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "ER-13.04",
+  "section": "ER-13 Civil, structural and architectural works",
+  "status": "contractual",
+  "text": "Concrete per EN 1992 / TS 500 with exposure class XS for marine-exposed elements; minimum 50-year durability.",
+  "title": "Concrete",
+  "verification": "inspection"
+}

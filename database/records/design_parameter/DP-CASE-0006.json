@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.804426Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.804426Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.05"
+  ],
+  "category": "site",
+  "condition": "10 min, 25-year return",
+  "id": "DP-CASE-0006",
+  "parameter": "Design rainfall intensity",
+  "status": "confirmed",
+  "unit": "mm/h",
+  "value": 110.0
+}

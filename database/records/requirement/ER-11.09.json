@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.714647Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.714647Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "electrical",
+  "id": "ER-11.09",
+  "section": "ER-11 Electrical systems",
+  "status": "contractual",
+  "text": "Revenue metering per TSO/market operator rules (main and check meters, class 0.2S), RTU and telecommunication to the national dispatch centre.",
+  "title": "Metering and TSO interface",
+  "verification": "test"
+}

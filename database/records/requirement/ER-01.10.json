@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.694109Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.694109Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "Data handover accepted at Taking-Over",
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-01.10",
+  "section": "ER-01 General requirements and plant description",
+  "status": "contractual",
+  "text": "The Contractor shall deliver all engineering data (equipment, lines, instruments, cables, documents, design parameters) in the Owner's engineering database format, kept current at each document issue, and hand over native CAD/3D models (Plant 3D or E3D) and IFC4 exports.",
+  "title": "Engineering database and data handover",
+  "verification": "review"
+}

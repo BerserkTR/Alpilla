@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.697287Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.697287Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "OEM confirmation of fuel range and H2 capability",
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-03.02",
+  "section": "ER-03 Fuel",
+  "status": "contractual",
+  "text": "Reference composition (mol %): CH4 93.0, C2H6 3.5, C3H8 0.8, C4+ 0.3, N2 1.6, CO2 0.8; LHV 48.4 MJ/kg. The plant shall accept the full network range: LHV 45.0 MJ/kg to 50.0 MJ/kg, Wobbe index 47 MJ/Nm3 to 52 MJ/Nm3, H2S below 5 mg/Nm3, and hydrogen admixture up to 10 vol %.",
+  "title": "Fuel gas specification",
+  "verification": "analysis"
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.694814Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.694814Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-02.02",
+  "section": "ER-02 Site conditions and design data",
+  "status": "contractual",
+  "text": "Equipment shall operate at full capability between ambient dry-bulb temperatures of -8 degC and +40 degC, relative humidity 20 % to 100 %, and shall be designed for survival (not operation) between -15 degC and +45 degC.",
+  "title": "Ambient design range",
+  "verification": "analysis"
+}

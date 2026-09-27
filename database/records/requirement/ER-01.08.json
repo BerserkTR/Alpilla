@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.693513Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.693513Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "Reference list accepted by the Owner",
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-01.08",
+  "section": "ER-01 General requirements and plant description",
+  "status": "contractual",
+  "text": "Major equipment (GT, ST, generators, HRSG, GSU transformers) shall be of a design with at least two units of the same frame in commercial operation for not less than 8,000 fired hours each at the date of the Contract, or supported by a validation programme accepted by the Owner.",
+  "title": "Proven technology",
+  "verification": "review"
+}

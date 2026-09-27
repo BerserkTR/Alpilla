@@ -1,0 +1,26 @@
+{
+  "db_hash": "15ee637f50672808",
+  "engine": "requirements_matrix",
+  "engine_version": "1.0.0",
+  "files": {
+    "ALP_requirements_matrix.xlsx": "14dc0ea04340ed197ad43945b85728aee18f5d6e95f14d21d2dc6f59b54ba6a6"
+  },
+  "generated_at": "2026-09-27T16:52:33.756078Z",
+  "generated_by": "SETUP",
+  "git_commit": "1f0bda3",
+  "inputs": [
+    "contract",
+    "design_parameter",
+    "equipment",
+    "guarantee",
+    "line",
+    "party",
+    "requirement",
+    "scope_item"
+  ],
+  "inputs_hash": "1056b7942a4e71f0",
+  "options": {},
+  "warnings": [
+    "27 of 131 requirements traced to database records (104 open - trace them as design data is added)"
+  ]
+}

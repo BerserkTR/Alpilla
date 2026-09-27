@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.693310Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.693310Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-01.07",
+  "section": "ER-01 General requirements and plant description",
+  "status": "contractual",
+  "text": "The Works shall comply with (in order of precedence): Turkish laws and regulations; the Grid Code of the TSO; the Contract; the codes and standards listed in Appendix A.19; and good industry practice. Where codes conflict the more stringent requirement applies.",
+  "title": "Codes and standards hierarchy",
+  "verification": "review"
+}

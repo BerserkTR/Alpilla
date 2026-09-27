@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.007478Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.007478Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_4.3",
+  "number": "4.3",
+  "part": "conditions",
+  "text": "The Leader shall appoint a Project Director resident on Site with full authority to act for the Contractor. Replacement requires the Owner's prior consent, not to be unreasonably withheld.",
+  "title": "Contractor's representative"
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.015692Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.015692Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_9.2",
+  "number": "9.2",
+  "part": "conditions",
+  "text": "The Contractor shall complete the Works within the Time for Completion (975 days from NTP) and achieve the Key Dates in Appendix G, in particular first fire, first synchronisation in combined cycle and Taking-Over.",
+  "title": "Time for Completion and Key Dates"
+}

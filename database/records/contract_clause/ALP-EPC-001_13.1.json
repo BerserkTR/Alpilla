@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.021104Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.021104Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_13.1",
+  "number": "13.1",
+  "part": "conditions",
+  "text": "The Defects Notification Period is 24 months from Taking-Over. For marine works, civil structures and buildings it is 36 months.",
+  "title": "Defects Notification Period"
+}

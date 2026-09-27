@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.023525Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.023525Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_15.1",
+  "number": "15.1",
+  "part": "conditions",
+  "text": "The Contract Price is the lump sum stated in Article A4. It includes all duties, taxes and fees payable by the Contractor except Value Added Tax, which the Owner pays in addition where applicable, and customs duties on imported permanent plant, which are exempted under the Owner's investment incentive certificate.",
+  "title": "Contract Price"
+}

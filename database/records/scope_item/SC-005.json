@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.898103Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.898103Z",
+    "updated_by": "CASE"
+  },
+  "area": "Site",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-005",
+  "install": "IEPC",
+  "item": "Site preparation, fencing, roads, drainage, temporary facilities",
+  "supply": "IEPC"
+}

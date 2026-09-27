@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.024941Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.024941Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_15.7",
+  "number": "15.7",
+  "part": "conditions",
+  "text": "Payments are made in euros to the accounts designated by the Leader for the offshore and onshore portions respectively.",
+  "title": "Currency"
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.021726Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.021726Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_13.4",
+  "number": "13.4",
+  "part": "conditions",
+  "text": "If the same defect occurs in three or more identical components, it is deemed a serial defect and the Contractor shall replace or modify all identical components, including those not yet failed.",
+  "title": "Serial defects"
+}

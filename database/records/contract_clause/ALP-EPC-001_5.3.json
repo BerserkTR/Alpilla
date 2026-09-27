@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.009813Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.009813Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_5.3",
+  "number": "5.3",
+  "part": "conditions",
+  "text": "The composition of the consortium and the allocation of work set out in Appendix D shall not be changed without the Owner's prior consent.",
+  "title": "Composition"
+}

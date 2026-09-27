@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.905865Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.905865Z",
+    "updated_by": "CASE"
+  },
+  "area": "Utilities",
+  "contract": "ALP-EPC-001",
+  "design": "OWNER",
+  "id": "SC-044",
+  "install": "OWNER",
+  "item": "Telecommunication connection (fibre) to site boundary",
+  "supply": "OWNER",
+  "terminal_point": "Site boundary"
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.713279Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.713279Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "electrical",
+  "id": "ER-11.03",
+  "section": "ER-11 Electrical systems",
+  "status": "contractual",
+  "text": "One GSU per generator, ONAN/ONAF, rated for the maximum generator output at -8 degC, on-load tap changer, per IEC 60076; fire walls between transformers.",
+  "title": "Generator step-up transformers",
+  "verification": "test"
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.020048Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.020048Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_12.4",
+  "number": "12.4",
+  "part": "conditions",
+  "text": "The emission, noise near-field and environmental guarantees marked \"must rectify\" in Appendix B are absolute. The Contractor shall rectify the Works until they are met; Taking-Over shall not be issued before compliance.",
+  "title": "Must-meet guarantees"
+}

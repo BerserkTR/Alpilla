@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.806086Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.806086Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.03"
+  ],
+  "category": "water",
+  "condition": "Site Reference Conditions",
+  "id": "DP-CASE-0014",
+  "parameter": "SRC seawater temperature",
+  "status": "confirmed",
+  "unit": "degC",
+  "value": 16.0
+}

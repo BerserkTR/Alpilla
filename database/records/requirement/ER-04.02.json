@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.698700Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.698700Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "<= 5,860 kJ/kWh corrected to SRC",
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "guarantee": "PG-02",
+  "id": "ER-04.02",
+  "section": "ER-04 Performance and operational requirements",
+  "status": "contractual",
+  "text": "Guaranteed net heat rate at SRC: not more than 5,860 kJ/kWh (LHV), corresponding to a net efficiency of about 61.4 %.",
+  "title": "Net heat rate",
+  "verification": "test"
+}

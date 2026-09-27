@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.815170Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.815170Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-06.06"
+  ],
+  "category": "emissions",
+  "condition": "subject to EIA dispersion study",
+  "id": "DP-CASE-0043",
+  "parameter": "Stack height",
+  "status": "confirmed",
+  "unit": "m",
+  "value": 60.0
+}

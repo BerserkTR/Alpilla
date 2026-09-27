@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.698415Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.698415Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": ">= 600.0 MW corrected to SRC",
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "guarantee": "PG-01",
+  "id": "ER-04.01",
+  "section": "ER-04 Performance and operational requirements",
+  "status": "contractual",
+  "text": "Guaranteed net electrical output at SRC: not less than 600.0 MW at the 380 kV terminal point.",
+  "title": "Net electrical output",
+  "verification": "test"
+}

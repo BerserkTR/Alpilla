@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.715376Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.715376Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "i_and_c",
+  "id": "ER-12.02",
+  "section": "ER-12 Instrumentation, control and cybersecurity",
+  "status": "contractual",
+  "text": "Automatic start-up and shutdown sequences (one-button start to base load) and automatic load control from the dispatch set-point.",
+  "title": "Automation level",
+  "verification": "demonstration"
+}

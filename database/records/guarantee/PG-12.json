@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.620059Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.620059Z",
+    "updated_by": "CASE"
+  },
+  "category": "reliability",
+  "conditions": "30 consecutive days of operation following Owner dispatch, maximum two forced outages, none longer than 48 h.",
+  "contract": "ALP-EPC-001",
+  "direction": "min",
+  "guaranteed_value": 98.0,
+  "id": "PG-12",
+  "parameter": "Reliability run availability",
+  "remedy": "Failed run to be repeated from the start after rectification.",
+  "test_procedure": "Reliability Run per ER-16.07.",
+  "tolerance": "none",
+  "unit": "%"
+}

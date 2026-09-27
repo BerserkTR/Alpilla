@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.018268Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.018268Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_10.4",
+  "number": "10.4",
+  "part": "conditions",
+  "text": "If the Works fail to pass the performance tests after the rectification period in Sub-Clause 12.5, the consequences in Clause 12 apply.",
+  "title": "Failure to pass Tests on Completion"
+}

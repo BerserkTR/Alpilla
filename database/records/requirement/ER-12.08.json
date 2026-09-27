@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.718044Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.718044Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "i_and_c",
+  "id": "ER-12.08",
+  "section": "ER-12 Instrumentation, control and cybersecurity",
+  "status": "contractual",
+  "text": "GPS time synchronisation of DCS, protection relays and recorders (1 ms sequence of events).",
+  "title": "Time synchronisation",
+  "verification": "test"
+}

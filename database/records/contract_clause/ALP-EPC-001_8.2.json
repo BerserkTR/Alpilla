@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.014493Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.014493Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_8.2",
+  "number": "8.2",
+  "part": "conditions",
+  "text": "The Engineer may inspect, examine and test materials and workmanship during manufacture and construction at any reasonable time. The Contractor shall give notice when work is ready and before it is covered up.",
+  "title": "Inspection"
+}

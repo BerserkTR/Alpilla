@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.028017Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.028017Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_18.4",
+  "number": "18.4",
+  "part": "conditions",
+  "text": "The Owner may procure delay in start-up (DSU) insurance. The Contractor shall cooperate with the insurers and comply with their reasonable risk-management recommendations.",
+  "title": "Delay in start-up"
+}

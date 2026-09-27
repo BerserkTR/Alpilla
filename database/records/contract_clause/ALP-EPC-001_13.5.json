@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.022094Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.022094Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_13.5",
+  "number": "13.5",
+  "part": "conditions",
+  "text": "The Engineer shall issue the Performance Certificate within 28 days after the latest expiry of the Defects Notification Periods, when all defects have been remedied and the as-built documentation has been delivered.",
+  "title": "Performance Certificate"
+}

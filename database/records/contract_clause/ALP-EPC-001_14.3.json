@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.022950Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.022950Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_14.3",
+  "number": "14.3",
+  "part": "conditions",
+  "text": "Before a Variation is instructed, the Engineer may request a proposal. The Contractor shall respond within 28 days with a description, programme impact and price based on the rates in the Contract or, where none apply, on reasonable cost plus 10 % overhead and profit.",
+  "title": "Variation procedure"
+}

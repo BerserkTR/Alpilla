@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.002442Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.002442Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_A4",
+  "number": "A4",
+  "part": "agreement",
+  "text": "In consideration of the Works the Owner shall pay the Contractor the lump-sum Contract Price of EUR 515,000,000 (five hundred and fifteen million euros), comprising an offshore portion of EUR 318,000,000 and an onshore portion of EUR 197,000,000, exclusive of Value Added Tax, payable in accordance with Clause 15 and Appendix C. The Contract Price is fixed and not subject to escalation or exchange-rate adjustment.",
+  "title": "Contract Price"
+}

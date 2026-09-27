@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.808242Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.808242Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "MS-12",
+  "percent": 5,
+  "planned_month": 56,
+  "title": "Final completion",
+  "trigger": "Issue of the Performance Certificate at the end of the Defects Notification Period"
+}

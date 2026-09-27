@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.019065Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.019065Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_11.3",
+  "number": "11.3",
+  "part": "conditions",
+  "text": "Punch items listed at Taking-Over shall be completed within 90 days. The Owner may withhold twice the estimated value of open punch items from the Taking-Over milestone payment.",
+  "title": "Punch list"
+}

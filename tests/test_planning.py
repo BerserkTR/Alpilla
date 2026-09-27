@@ -114,3 +114,12 @@ def test_hyphenated_ids_are_not_lags():
     assert parse_logic("E.2-10:SS+15") == ("E.2-10", "SS", 15)
     with pytest.raises(ValueError):
         parse_logic("PM-100+5")          # lag without link type is ambiguous -> rejected
+
+
+def test_float_measured_against_contract_deadline(project):
+    s = base(project)                                          # Monday 2026-01-05 = index 0
+    act(s, "A", 5)
+    act(s, "KD", 0, ["A"], type="finish_milestone", constraint="finish_no_later_than", constraint_date="2026-01-30")  # index 19
+    acts = {a.id: a for a in planning.compute(Store(project, who()))[0]}
+    assert acts["KD"].es == 5 and acts["KD"].lf == 19 and acts["KD"].tf == 14
+    assert acts["A"].tf == 14 and not acts["A"].critical

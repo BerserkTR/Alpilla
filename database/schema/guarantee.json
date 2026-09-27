@@ -1,0 +1,78 @@
+{
+  "entity": "guarantee",
+  "title": "Performance / environmental guarantee with liquidated damages",
+  "id_pattern": "^PG-[0-9]{2}$",
+  "display": [
+    "parameter",
+    "guaranteed_value",
+    "unit",
+    "direction",
+    "ld_rate"
+  ],
+  "fields": {
+    "contract": {
+      "type": "ref",
+      "to": "contract",
+      "required": true
+    },
+    "parameter": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "performance",
+        "emissions",
+        "noise",
+        "operational",
+        "reliability",
+        "environmental"
+      ]
+    },
+    "guaranteed_value": {
+      "type": "number",
+      "required": true
+    },
+    "unit": {
+      "type": "string",
+      "required": true
+    },
+    "direction": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "min",
+        "max"
+      ],
+      "description": "min: at least; max: at most"
+    },
+    "minimum_acceptance": {
+      "type": "number",
+      "description": "value beyond which the Works may be rejected"
+    },
+    "conditions": {
+      "type": "text",
+      "required": true
+    },
+    "test_procedure": {
+      "type": "text"
+    },
+    "tolerance": {
+      "type": "string"
+    },
+    "ld_rate": {
+      "type": "number",
+      "min": 0
+    },
+    "ld_unit": {
+      "type": "string",
+      "description": "e.g. EUR per kW shortfall"
+    },
+    "remedy": {
+      "type": "text",
+      "description": "remedy where no LD applies (e.g. must rectify)"
+    }
+  }
+}

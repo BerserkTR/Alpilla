@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.694443Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.694443Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "ER-02.01",
+  "section": "ER-02 Site conditions and design data",
+  "status": "contractual",
+  "text": "The Site is located on the northern Marmara coast of Türkiye (coastal industrial zone), approximately 12 hectares, levelled to +15.0 m above mean sea level, with direct access to the sea for cooling water intake and outfall.",
+  "title": "Site location",
+  "verification": "inspection"
+}

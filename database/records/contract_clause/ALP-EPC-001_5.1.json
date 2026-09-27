@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.009270Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.009270Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_5.1",
+  "number": "5.1",
+  "part": "conditions",
+  "text": "The Leader and the Member are jointly and severally liable to the Owner for the performance of all obligations of the Contractor. The Owner may claim against either or both of them.",
+  "title": "Joint and several liability"
+}

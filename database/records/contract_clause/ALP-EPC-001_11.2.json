@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.018879Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.018879Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_11.2",
+  "number": "11.2",
+  "part": "conditions",
+  "text": "The Works shall be taken over as a whole. Operation of the gas turbine in open cycle during commissioning does not constitute taking-over, and the energy produced belongs to the Owner.",
+  "title": "No partial taking-over"
+}

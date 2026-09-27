@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.713704Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.713704Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "electrical",
+  "id": "ER-11.05",
+  "section": "ER-11 Electrical systems",
+  "status": "contractual",
+  "text": "Emergency diesel generator for safe shutdown loads (turning gear, lube oil, emergency lighting); the diesel fire pump has its own independent drive; UPS (2x100 %) for DCS and critical loads with 60 min autonomy; 220 V DC and 24 V DC systems.",
+  "title": "Emergency power",
+  "verification": "test"
+}

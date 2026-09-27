@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.010579Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.010579Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_6.1",
+  "number": "6.1",
+  "part": "conditions",
+  "text": "The Contractor shall carry out and be responsible for the design of the Works, performed by qualified engineers. The design shall comply with the Employer's Requirements and the laws and codes stated therein.",
+  "title": "General design obligations"
+}

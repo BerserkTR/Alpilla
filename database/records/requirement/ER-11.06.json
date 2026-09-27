@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.713939Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.713939Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "electrical",
+  "id": "ER-11.06",
+  "section": "ER-11 Electrical systems",
+  "status": "contractual",
+  "text": "Duplicated main protection (Main 1/Main 2 from different manufacturers where required by the TSO) for generators, transformers, busbars and lines.",
+  "title": "Protection",
+  "verification": "test"
+}

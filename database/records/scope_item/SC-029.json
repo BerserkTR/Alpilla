@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.902968Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.902968Z",
+    "updated_by": "CASE"
+  },
+  "area": "Fuel gas",
+  "commission": "IEC",
+  "contract": "ALP-EPC-001",
+  "design": "IEC",
+  "id": "SC-029",
+  "install": "IEPC",
+  "item": "Performance gas heater and GT fuel skid",
+  "supply": "IEC"
+}

@@ -62,7 +62,8 @@
       "to": [
         "source",
         "reference",
-        "decision"
+        "decision",
+        "requirement"
       ],
       "required": true,
       "min_items": 1,

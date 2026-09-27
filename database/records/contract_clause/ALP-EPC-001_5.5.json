@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.010182Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.010182Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_5.5",
+  "number": "5.5",
+  "part": "conditions",
+  "text": "If a member becomes insolvent or ceases to perform, the other member shall complete the Works without additional cost to the Owner, with a replacement acceptable to the Owner where required for the power island.",
+  "title": "Insolvency of a member"
+}

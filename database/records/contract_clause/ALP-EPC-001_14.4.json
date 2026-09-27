@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.023139Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.023139Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_14.4",
+  "number": "14.4",
+  "part": "conditions",
+  "text": "The Contract Price and Time for Completion shall be adjusted for changes in Turkish law after the Base Date that affect the Contractor's cost or time, excluding changes to corporate income tax of the Contractor.",
+  "title": "Change in law"
+}

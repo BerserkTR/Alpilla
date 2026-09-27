@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.815374Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.815374Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.03"
+  ],
+  "category": "noise",
+  "condition": "1 m from equipment",
+  "id": "DP-CASE-0044",
+  "parameter": "Near-field noise",
+  "status": "confirmed",
+  "unit": "dB(A)",
+  "value": 85.0
+}

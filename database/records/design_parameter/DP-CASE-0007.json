@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.804736Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.804736Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.02"
+  ],
+  "category": "ambient",
+  "id": "DP-CASE-0007",
+  "parameter": "Ambient temperature - minimum for full capability",
+  "status": "confirmed",
+  "unit": "degC",
+  "value": -8.0
+}

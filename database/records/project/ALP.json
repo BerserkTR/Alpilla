@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.138321Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.138321Z",
+    "updated_by": "CASE"
+  },
+  "client": "Alpilla Enerji Üretim A.Ş. (fictional)",
+  "configuration": "1x1 multi-shaft, H-class GT, 3-pressure reheat HRSG, seawater cooling",
+  "data_date": "2026-11-02",
+  "gross_output_target": 615,
+  "id": "ALP",
+  "location": "Northern Marmara coast, Türkiye",
+  "name": "Alpilla 600 MW Combined Cycle Power Plant",
+  "phase": "basic",
+  "plant_type": "CCGT",
+  "remarks": "CASE STUDY - fictional project for exercising the environment",
+  "schedule_start": "2026-11-02",
+  "tagging_system": "KKS",
+  "work_days_per_week": 5
+}

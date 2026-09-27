@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.025517Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.025517Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_16.2",
+  "number": "16.2",
+  "part": "conditions",
+  "text": "The Owner may claim under a security only for amounts to which it is entitled under the Contract and shall give the Contractor 7 days' notice before a claim, except where the security is about to expire.",
+  "title": "Claims under securities"
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.022714Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.022714Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_14.2",
+  "number": "14.2",
+  "part": "conditions",
+  "text": "The Contractor may propose changes that reduce cost, accelerate completion or improve efficiency. If accepted, the net saving is shared equally between the Parties.",
+  "title": "Value engineering"
+}

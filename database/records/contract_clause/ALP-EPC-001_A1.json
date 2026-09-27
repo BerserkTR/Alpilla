@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.999028Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.999028Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_A1",
+  "number": "A1",
+  "part": "agreement",
+  "text": "This Contract is made between Alpilla Enerji Üretim A.Ş., a company incorporated in the Republic of Türkiye (the \"Owner\"), and the unincorporated consortium formed by Istanbul EPC Mühendislik ve Taahhüt A.Ş. (the \"Leader\") and Imaginary Electric Company (the \"Member\"), acting jointly and severally (together the \"Contractor\").\n\nThis is a case-study document. All parties, prices and dates are fictional.",
+  "title": "Parties"
+}

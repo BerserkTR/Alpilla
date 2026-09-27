@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.032167Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.032167Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_22.3",
+  "number": "22.3",
+  "part": "conditions",
+  "text": "Before arbitration the Parties shall attempt to settle the dispute through meetings of senior executives within 28 days after a notice of dissatisfaction with a Board decision.",
+  "title": "Amicable settlement"
+}

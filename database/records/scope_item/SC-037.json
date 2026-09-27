@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.904532Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.904532Z",
+    "updated_by": "CASE"
+  },
+  "area": "I&C",
+  "commission": "IEC",
+  "contract": "ALP-EPC-001",
+  "design": "IEC",
+  "id": "SC-037",
+  "install": "IEPC",
+  "item": "Safety instrumented systems (burner management, HRSG protection) per IEC 61511",
+  "supply": "IEC"
+}

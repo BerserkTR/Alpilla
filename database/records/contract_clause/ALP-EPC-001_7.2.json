@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.013525Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.013525Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_7.2",
+  "number": "7.2",
+  "part": "conditions",
+  "text": "The Contractor shall provide the key personnel named in its tender (project director, engineering manager, construction manager, commissioning manager, HSE manager, quality manager) and shall not replace them without the Owner's consent.",
+  "title": "Key personnel"
+}

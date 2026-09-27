@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.726699Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.726699Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "electrical",
+  "id": "ER-18.02",
+  "section": "ER-18 Interfaces and terminal points",
+  "status": "contractual",
+  "text": "The Contractor shall coordinate with the TSO and the Owner's transmission line contractor for protection settings, SCADA and energisation.",
+  "title": "Grid connection interface",
+  "verification": "review"
+}

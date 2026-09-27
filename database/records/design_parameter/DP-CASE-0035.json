@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.812915Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.812915Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.03"
+  ],
+  "category": "operation",
+  "id": "DP-CASE-0035",
+  "parameter": "Operating hours per year",
+  "status": "confirmed",
+  "unit": "EOH/year",
+  "value": 8000.0
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.699645Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.699645Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "<= 40 %",
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "guarantee": "PG-11",
+  "id": "ER-04.06",
+  "section": "ER-04 Performance and operational requirements",
+  "status": "contractual",
+  "text": "Stable emissions-compliant operation shall be possible down to 40 % of plant net output or lower.",
+  "title": "Minimum environmental load",
+  "verification": "demonstration"
+}

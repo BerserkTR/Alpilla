@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.002774Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.002774Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_A5",
+  "number": "A5",
+  "part": "agreement",
+  "text": "The Contractor shall complete the Works, including passing the Tests on Completion and the Reliability Run, within 975 days from the Notice to Proceed (NTP), and shall achieve the Key Dates in Appendix G.",
+  "title": "Time for Completion"
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.725094Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.725094Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "project_control",
+  "id": "ER-17.01",
+  "section": "ER-17 Documentation, training, O&M and spares",
+  "status": "contractual",
+  "text": "Documents submitted electronically with the Owner's numbering and a master document register; review period 14 days (21 days for the Basic Design Package).",
+  "title": "Document management",
+  "verification": "review"
+}

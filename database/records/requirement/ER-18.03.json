@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.726910Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.726910Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-18.03",
+  "section": "ER-18 Interfaces and terminal points",
+  "status": "contractual",
+  "text": "The Contractor shall coordinate the gas receiving station tie-in, pressure protection and metering approval with the gas network operator.",
+  "title": "Gas network interface",
+  "verification": "review"
+}

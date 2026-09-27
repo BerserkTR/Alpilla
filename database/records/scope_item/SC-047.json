@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.906968Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.906968Z",
+    "updated_by": "CASE"
+  },
+  "area": "Commissioning",
+  "contract": "ALP-EPC-001",
+  "design": "OWNER",
+  "id": "SC-047",
+  "item": "Natural gas for commissioning and tests",
+  "supply": "OWNER",
+  "terminal_point": "Gas receiving station inlet"
+}

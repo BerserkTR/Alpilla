@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.723140Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.723140Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "piping",
+  "id": "ER-15.05",
+  "section": "ER-15 Quality, inspection and testing during manufacture",
+  "status": "contractual",
+  "text": "Welding per ASME IX / EN ISO 15614, 100 % NDE of HP/HRH/main steam butt welds.",
+  "title": "Welding",
+  "verification": "inspection"
+}

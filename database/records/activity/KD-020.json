@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:46.010241Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:46.010241Z",
+    "updated_by": "CASE"
+  },
+  "constraint": "finish_no_later_than",
+  "constraint_date": "2028-10-02",
+  "duration": 0,
+  "id": "KD-020",
+  "phase": "commissioning",
+  "predecessors": [
+    "KD-010"
+  ],
+  "title": "GT first fire (key date)",
+  "type": "finish_milestone",
+  "wbs": "ALP.KD"
+}

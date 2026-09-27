@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.725886Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.725886Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-17.05",
+  "section": "ER-17 Documentation, training, O&M and spares",
+  "status": "contractual",
+  "text": "Classroom, simulator and on-the-job training for 60 Owner staff (operators, maintenance, I&C, chemistry), minimum 12 weeks per key trade.",
+  "title": "Training",
+  "verification": "demonstration"
+}

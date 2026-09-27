@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.614033Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.614033Z",
+    "updated_by": "CASE"
+  },
+  "category": "performance",
+  "conditions": "Base load, new and clean (corrected for recoverable degradation per agreed curves), Site Reference Conditions (ER-02.03), power factor 0.85 lagging at the 380 kV terminal point, all auxiliaries in normal operation.",
+  "contract": "ALP-EPC-001",
+  "direction": "min",
+  "guaranteed_value": 600.0,
+  "id": "PG-01",
+  "ld_rate": 2200,
+  "ld_unit": "EUR per kW shortfall",
+  "minimum_acceptance": 582.0,
+  "parameter": "Net electrical output at Site Reference Conditions",
+  "remedy": "Below 97 % of the guaranteed value the Owner may reject the Works after the rectification period (Sub-Clause 12.5).",
+  "test_procedure": "ASME PTC 46 overall plant performance test, corrections to Site Reference Conditions per agreed correction curves; measured at the 380 kV revenue meters.",
+  "tolerance": "no tolerance (measurement uncertainty is included in the guaranteed value)",
+  "unit": "MW"
+}

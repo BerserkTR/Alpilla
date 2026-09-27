@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.695733Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.695733Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "ER-02.05",
+  "section": "ER-02 Site conditions and design data",
+  "status": "contractual",
+  "text": "Basic wind speed 30 m/s (10 min mean, 10 m height, 50-year return); ground snow load 0.75 kN/m2; design rainfall intensity 110 mm/h (10 min, 25-year return) for drainage design.",
+  "title": "Wind, snow and rain",
+  "verification": "analysis"
+}

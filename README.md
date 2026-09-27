@@ -63,6 +63,8 @@ python -m engine validate && git add -A && git commit -m "..." && git push
 | `plot_plan` | plot plan (DXF + PDF) in plant coordinates: footprints, pipe centrelines, grid |
 | `model_ifc` | IFC4 plant model: equipment envelopes, pipe/elbow/reducer at true OD and wall, valves, supports, line systems, property sets |
 | `piping_pcf` | one PCF per line + attribute map (stress/hydraulic data as COMPONENT-ATTRIBUTEn) |
+| `contract_document` | contract (docx + pdf): agreement, conditions, appendices A-G from contract/requirement/guarantee/milestone/scope records |
+| `requirements_matrix` | requirements traceability matrix (xlsx): requirement -> guarantee -> design data / equipment, coverage |
 | `governance` | rules.md / ledger.md |
 
 Import: `python -m engine db import-pcf <file.pcf> --line <id> --reason "..."` reads routing from Plant 3D / E3D PCF.
@@ -79,6 +81,13 @@ The "Not verified here" column and the native CII / AFT / `.simx` exports are **
 | AFT Fathom / Arrow | PCF import + attribute map | PCF content | AFT import; native AFT files are proprietary |
 | AVEVA Process Simulation | - | - | `.simx` is proprietary: not generated. Planned route: import APS stream/equipment results (Excel/CSV export) into the database as `source` data |
 | MS Project / Primavera P6 | MS Project XML (MSPDI) | XML structure, links, lags, constraints, calendar | opening in MS Project / P6 |
+
+## Contract and requirements (case study)
+Contract `ALP-EPC-001` (fictional): Owner Alpilla Enerji Üretim A.Ş.; Contractor = consortium of Istanbul EPC (leader) and
+Imaginary Electric (power island). Stored as `party`, `contract`, `contract_clause`, `requirement` (Employer's Requirements
+ER-01..ER-18), `guarantee` (PG-xx with LDs), `milestone` (payments), `scope_item` (split and terminal points), plus
+Appendix E design data (`design_parameter` citing `requirement:ER-xx.yy`) and key dates (activities under WBS `ALP.KD`).
+Design data and equipment trace to requirements through `basis_refs`; the RTM shows what is still untraced.
 
 ## Document control and planning
 `document` (MDR line with planned IFR/IFA/IFC dates and weight) -> `document_revision` (each issue: rev, purpose,

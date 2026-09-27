@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.005522Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.005522Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_2.1",
+  "number": "2.1",
+  "part": "conditions",
+  "text": "The Owner shall give the Contractor access to and possession of the Site, levelled to +15.0 m, within 14 days after NTP, and access to the marine areas once the relevant permits are obtained under Sub-Clause 2.2.",
+  "title": "Access to the Site"
+}

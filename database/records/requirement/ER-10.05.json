@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.711286Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.711286Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "Insurer and fire brigade acceptance",
+  "contract": "ALP-EPC-001",
+  "discipline": "hse",
+  "id": "ER-10.05",
+  "section": "ER-10 Balance of plant mechanical systems",
+  "status": "contractual",
+  "text": "Fire detection and protection per NFPA 850 and Turkish Fire Regulation: ring main, 2x100 % electric plus diesel fire pumps, water mist/CO2 for GT enclosure, deluge for transformers, gas detection, fire alarm system.",
+  "title": "Fire protection",
+  "verification": "test"
+}

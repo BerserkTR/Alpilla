@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.008062Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.008062Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_4.6",
+  "number": "4.6",
+  "part": "conditions",
+  "text": "The Contractor shall comply with all HSE laws, the EIA conditions and the Owner's HSE requirements, and shall stop any unsafe work. Serious incidents shall be reported to the Owner within 24 hours.",
+  "title": "Health, safety and environment"
+}

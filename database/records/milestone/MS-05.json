@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.806604Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.806604Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "MS-05",
+  "percent": 12,
+  "planned_month": 16,
+  "title": "Delivery of gas turbine to Site",
+  "trigger": "GT package delivered to Site, receiving inspection passed"
+}

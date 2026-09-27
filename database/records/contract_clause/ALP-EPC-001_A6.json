@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.003005Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.003005Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_A6",
+  "number": "A6",
+  "part": "agreement",
+  "text": "This Contract enters into force on signature. The Notice to Proceed shall be issued within 21 days after the last of the following conditions precedent has been fulfilled: (a) delivery of the Performance Security and the Advance Payment Guarantee; (b) delivery of the parent company guarantees of both consortium members; (c) financial close of the Owner's project financing; and (d) the positive EIA decision remaining valid and unchallenged.",
+  "title": "Effectiveness"
+}

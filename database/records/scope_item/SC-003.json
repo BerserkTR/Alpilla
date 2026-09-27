@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.897442Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.897442Z",
+    "updated_by": "CASE"
+  },
+  "area": "Site",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-003",
+  "item": "Construction, operating and building permits (Contractor supplies all design inputs)",
+  "supply": "OWNER"
+}

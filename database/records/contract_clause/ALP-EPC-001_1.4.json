@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.004618Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.004618Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_1.4",
+  "number": "1.4",
+  "part": "conditions",
+  "text": "The Contract is governed by the laws of the Republic of Türkiye. The ruling language is English. Communications with Turkish authorities shall be in Turkish, prepared by the Contractor where the Contractor is responsible for the underlying permit or approval.",
+  "title": "Law and language"
+}

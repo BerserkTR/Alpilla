@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.031603Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.031603Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_22.1",
+  "number": "22.1",
+  "part": "conditions",
+  "text": "A Party that considers itself entitled to additional time or payment shall give notice within 28 days after becoming aware of the event, and a fully detailed claim within 84 days. Failure to give timely notice results in the loss of the entitlement, except where the other Party was not prejudiced.",
+  "title": "Claims"
+}

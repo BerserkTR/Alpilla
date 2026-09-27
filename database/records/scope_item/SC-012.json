@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.899540Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.899540Z",
+    "updated_by": "CASE"
+  },
+  "area": "Power island",
+  "commission": "IEC",
+  "contract": "ALP-EPC-001",
+  "design": "IEC",
+  "id": "SC-012",
+  "install": "IEPC",
+  "item": "Water-cooled condenser (seawater), vacuum system",
+  "supply": "IEC",
+  "terminal_point": "Cooling water flanges at condenser water boxes"
+}

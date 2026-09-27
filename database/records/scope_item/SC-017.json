@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.900562Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.900562Z",
+    "updated_by": "CASE"
+  },
+  "area": "Balance of plant",
+  "commission": "IEPC",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-017",
+  "install": "IEPC",
+  "item": "Electro-chlorination for biofouling control",
+  "supply": "IEPC"
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.008580Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.008580Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_4.8",
+  "number": "4.8",
+  "part": "conditions",
+  "text": "The Contractor shall use reasonable endeavours to procure goods and services in Türkiye where competitive in quality, price and delivery, and shall report the local content achieved each quarter.",
+  "title": "Local content"
+}

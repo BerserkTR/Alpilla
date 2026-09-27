@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.011139Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.011139Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_6.4",
+  "number": "6.4",
+  "part": "conditions",
+  "text": "The Contractor shall deliver as-built documents, the 3D model and the final engineering database in accordance with ER-17.03 as a condition of the Performance Certificate.",
+  "title": "As-built documents and database"
+}

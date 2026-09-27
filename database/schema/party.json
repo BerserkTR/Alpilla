@@ -1,0 +1,57 @@
+{
+  "entity": "party",
+  "title": "Organisation (owner, consortium members, engineer, authority, ...)",
+  "id_pattern": "^[A-Z][A-Z0-9-]{1,15}$",
+  "display": [
+    "name",
+    "role",
+    "country"
+  ],
+  "fields": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "short_name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "owner",
+        "consortium_leader",
+        "consortium_member",
+        "owners_engineer",
+        "lender",
+        "authority",
+        "tso",
+        "subcontractor",
+        "other"
+      ]
+    },
+    "country": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "registration": {
+      "type": "string"
+    },
+    "representative": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "fictional": {
+      "type": "boolean",
+      "default": true,
+      "description": "case-study party - not a real organisation"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

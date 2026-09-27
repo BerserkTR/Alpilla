@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.696804Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.696804Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "ER-02.09",
+  "section": "ER-02 Site conditions and design data",
+  "status": "contractual",
+  "text": "Finished floor levels of all buildings and equipment foundations shall be at least 0.5 m above the 100-year coastal flood level including a sea-level-rise allowance of 0.5 m.",
+  "title": "Flood protection",
+  "verification": "analysis"
+}

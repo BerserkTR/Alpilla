@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.695940Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.695940Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "Seismic design report approved; site-specific hazard study delivered",
+  "contract": "ALP-EPC-001",
+  "discipline": "structural",
+  "id": "ER-02.06",
+  "section": "ER-02 Site conditions and design data",
+  "status": "contractual",
+  "text": "The Site is in a high seismic hazard region. Structures and equipment shall be designed per the Turkish Building Earthquake Code (TBDY 2018) with a site-specific hazard study; design earthquake DD-2 (475-year) peak ground acceleration 0.45 g; building importance factor 1.5 for power block structures; functional recovery of critical systems after DD-3 events.",
+  "title": "Seismic design",
+  "verification": "analysis"
+}

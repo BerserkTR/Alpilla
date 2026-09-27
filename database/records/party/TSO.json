@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.464227Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.464227Z",
+    "updated_by": "CASE"
+  },
+  "country": "Türkiye",
+  "fictional": false,
+  "id": "TSO",
+  "name": "National Transmission System Operator",
+  "remarks": "Generic reference to the transmission system operator whose Grid Code applies; not a party to the Contract.",
+  "role": "tso",
+  "short_name": "TSO"
+}

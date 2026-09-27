@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.026447Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.026447Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_17.3",
+  "number": "17.3",
+  "part": "conditions",
+  "text": "The Contractor shall indemnify the Owner against claims for death, injury, loss or damage to property arising from the execution of the Works, except to the extent caused by the negligence of the Owner. The Owner shall indemnify the Contractor against claims arising from the Owner's risks.",
+  "title": "Indemnities"
+}

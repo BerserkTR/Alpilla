@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.619198Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.619198Z",
+    "updated_by": "CASE"
+  },
+  "category": "operational",
+  "conditions": "Between minimum environmental load and base load, emissions compliant.",
+  "contract": "ALP-EPC-001",
+  "direction": "min",
+  "guaranteed_value": 35.0,
+  "id": "PG-10",
+  "ld_rate": 100000,
+  "ld_unit": "EUR per MW/min shortfall",
+  "parameter": "Load ramp rate in combined cycle",
+  "test_procedure": "Demonstration, recorded by DCS historian.",
+  "tolerance": "none",
+  "unit": "MW/min"
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.022478Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.022478Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_14.1",
+  "number": "14.1",
+  "part": "conditions",
+  "text": "The Owner may instruct Variations at any time before Taking-Over. The Contractor shall execute them unless it promptly demonstrates that it cannot readily obtain the required goods or that the Variation would affect safety or the guarantees.",
+  "title": "Right to vary"
+}

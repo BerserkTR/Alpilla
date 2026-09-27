@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.901148Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.901148Z",
+    "updated_by": "CASE"
+  },
+  "area": "Balance of plant",
+  "commission": "IEPC",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-020",
+  "install": "IEPC",
+  "item": "Waste water treatment and effluent monitoring",
+  "supply": "IEPC",
+  "terminal_point": "Discharge point to outfall"
+}

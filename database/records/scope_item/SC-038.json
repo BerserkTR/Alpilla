@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.904739Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.904739Z",
+    "updated_by": "CASE"
+  },
+  "area": "I&C",
+  "commission": "IEPC",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-038",
+  "install": "IEPC",
+  "item": "Continuous emission monitoring system (CEMS)",
+  "supply": "IEPC",
+  "terminal_point": "Data link to environmental authority"
+}

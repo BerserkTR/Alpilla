@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.689062Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.689062Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "Taking-Over Certificate issued",
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-01.01",
+  "section": "ER-01 General requirements and plant description",
+  "status": "contractual",
+  "text": "The Contractor shall design, engineer, procure, manufacture, deliver, construct, erect, commission, test and hand over a complete, safe and fully operational natural-gas-fired combined cycle power plant of 600 MW net output at Site Reference Conditions (the Works), ready for commercial operation in the Turkish electricity market.",
+  "title": "Purpose of the Works",
+  "verification": "review"
+}

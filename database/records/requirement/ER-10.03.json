@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.710840Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.710840Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "mechanical",
+  "id": "ER-10.03",
+  "section": "ER-10 Balance of plant mechanical systems",
+  "status": "contractual",
+  "text": "2x100 % oil-free compressors, 2x100 % dryers, instrument air dew point -40 degC, receiver for 15 min of instrument air after loss of compressors.",
+  "title": "Compressed air",
+  "verification": "test"
+}

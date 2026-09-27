@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.695466Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.695466Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "ER-02.04",
+  "section": "ER-02 Site conditions and design data",
+  "status": "contractual",
+  "text": "Seawater temperature range 6 degC to 27 degC at the intake; salinity 22 g/l to 26 g/l; suspended solids up to 50 mg/l during storms; presence of jellyfish and mussel larvae shall be considered in screen and biofouling design.",
+  "title": "Seawater conditions",
+  "verification": "analysis"
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.463475Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.463475Z",
+    "updated_by": "CASE"
+  },
+  "address": "Istanbul, Türkiye",
+  "country": "Türkiye",
+  "fictional": true,
+  "id": "IEPC",
+  "name": "Istanbul EPC Mühendislik ve Taahhüt A.Ş.",
+  "remarks": "Fictional. Consortium leader: project management, BOP engineering, civil works, construction, erection, commissioning.",
+  "representative": "Consortium Project Director",
+  "role": "consortium_leader",
+  "short_name": "Istanbul EPC"
+}

@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.905266Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.905266Z",
+    "updated_by": "CASE"
+  },
+  "area": "Civil",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-041",
+  "install": "IEPC",
+  "item": "Buildings: control, administration, workshop/warehouse, water treatment, gatehouse",
+  "supply": "IEPC"
+}

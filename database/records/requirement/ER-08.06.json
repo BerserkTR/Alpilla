@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.709055Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.709055Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "mechanical",
+  "id": "ER-08.06",
+  "section": "ER-08 Cooling water system",
+  "status": "contractual",
+  "text": "Closed cooling water circuit for auxiliaries with 2x100 % plate heat exchangers (titanium plates) and 2x100 % pumps.",
+  "title": "Closed cooling water",
+  "verification": "inspection"
+}

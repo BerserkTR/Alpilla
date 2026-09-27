@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.618439Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.618439Z",
+    "updated_by": "CASE"
+  },
+  "category": "noise",
+  "conditions": "1 m from equipment surfaces / enclosures, 1.5 m height, all operating modes except emergency.",
+  "contract": "ALP-EPC-001",
+  "direction": "max",
+  "guaranteed_value": 85.0,
+  "id": "PG-07",
+  "parameter": "Near-field noise",
+  "remedy": "Must rectify.",
+  "test_procedure": "ISO 3744 / ISO 3746 survey.",
+  "tolerance": "none",
+  "unit": "dB(A)"
+}

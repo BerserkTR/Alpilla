@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.025307Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.025307Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_16.1",
+  "number": "16.1",
+  "part": "conditions",
+  "text": "The Contractor shall provide: the Performance Security (Sub-Clause 4.2); an Advance Payment Guarantee equal to the advance, reducing as it is recovered; a Retention Guarantee if retention is released early; and a parent company guarantee from the ultimate parent of each consortium member covering its obligations under the Contract.",
+  "title": "Securities to be provided"
+}

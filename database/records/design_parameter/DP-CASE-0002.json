@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.803322Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.803322Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.06"
+  ],
+  "category": "site",
+  "condition": "TBDY 2018, site-specific hazard study",
+  "id": "DP-CASE-0002",
+  "parameter": "Seismic design PGA (DD-2, 475-year)",
+  "status": "confirmed",
+  "unit": "g",
+  "value": 0.45
+}

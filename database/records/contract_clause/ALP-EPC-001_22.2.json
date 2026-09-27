@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.031883Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.031883Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_22.2",
+  "number": "22.2",
+  "part": "conditions",
+  "text": "A standing three-member Dispute Avoidance/Adjudication Board shall be appointed within 42 days after NTP. It visits the Site every four months, assists in avoiding disputes and gives decisions on referred disputes within 84 days. Decisions are binding unless and until revised by arbitration.",
+  "title": "Dispute Avoidance/Adjudication Board"
+}

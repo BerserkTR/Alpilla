@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.023920Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.023920Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_15.3",
+  "number": "15.3",
+  "part": "conditions",
+  "text": "The Contractor may invoice each milestone in Appendix C when it has been achieved and certified by the Engineer. No payment is due for partially achieved milestones.",
+  "title": "Milestone payments"
+}

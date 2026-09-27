@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.693849Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.693849Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-01.09",
+  "section": "ER-01 General requirements and plant description",
+  "status": "contractual",
+  "text": "The Contractor is fully responsible for the design, including the verification of all Owner-provided data. Review or approval of documents by the Owner or the Engineer does not relieve the Contractor of any obligation.",
+  "title": "Design responsibility",
+  "verification": "review"
+}

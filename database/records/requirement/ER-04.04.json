@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.699214Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.699214Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "Hot start <= 45 min demonstrated three times",
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "guarantee": "PG-09",
+  "id": "ER-04.04",
+  "section": "ER-04 Performance and operational requirements",
+  "status": "contractual",
+  "text": "From GT ignition to base load: hot start (shutdown < 8 h) <= 45 min; warm start (8 h to 48 h) <= 90 min; cold start (> 48 h) <= 180 min, without exceeding the life consumption limits agreed with the OEM.",
+  "title": "Start-up times",
+  "verification": "demonstration"
+}

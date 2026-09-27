@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.724903Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.724903Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": ">= 98 %",
+  "contract": "ALP-EPC-001",
+  "discipline": "commissioning",
+  "guarantee": "PG-12",
+  "id": "ER-16.07",
+  "section": "ER-16 Commissioning and Tests on Completion",
+  "status": "contractual",
+  "text": "30-day continuous reliability run with availability >= 98 %; restarted after rectification if failed.",
+  "title": "Reliability run",
+  "verification": "test"
+}

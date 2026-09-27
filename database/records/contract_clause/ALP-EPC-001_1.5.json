@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.004849Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.004849Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_1.5",
+  "number": "1.5",
+  "part": "conditions",
+  "text": "Notices, consents, approvals and instructions shall be in writing and delivered through the project document management system or by hand to the addresses in Appendix F. A notice is effective when received. Informal communications, including meeting minutes, do not constitute a notice unless expressly stated.",
+  "title": "Communications"
+}

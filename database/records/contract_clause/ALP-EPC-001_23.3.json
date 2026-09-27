@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.033275Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.033275Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_23.3",
+  "number": "23.3",
+  "part": "conditions",
+  "text": "The Contract is the entire agreement between the Parties about its subject matter. Amendments are valid only if in writing and signed by both Parties; each amendment shall be recorded in the Owner's Database.",
+  "title": "Entire agreement and amendments"
+}

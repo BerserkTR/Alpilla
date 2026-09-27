@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.026115Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.026115Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_17.2",
+  "number": "17.2",
+  "part": "conditions",
+  "text": "The Owner bears the risk of loss or damage caused by: war, hostilities, rebellion or civil war; ionising radiation not caused by the Contractor; pressure waves from aircraft; use or occupation of part of the Works by the Owner; and design provided by the Owner.",
+  "title": "Owner's risks"
+}

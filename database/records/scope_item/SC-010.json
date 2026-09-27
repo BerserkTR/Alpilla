@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.899135Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.899135Z",
+    "updated_by": "CASE"
+  },
+  "area": "Power island",
+  "commission": "IEC",
+  "contract": "ALP-EPC-001",
+  "design": "IEC",
+  "id": "SC-010",
+  "install": "IEPC",
+  "item": "HRSG triple-pressure reheat, horizontal, natural circulation, with SCR and CO catalyst",
+  "supply": "IEC",
+  "terminal_point": "HRSG outlet to stack"
+}

@@ -93,7 +93,8 @@
       "to": [
         "source",
         "reference",
-        "decision"
+        "decision",
+        "requirement"
       ],
       "description": "entity:id of sources/references/decisions"
     },

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.027810Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.027810Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_18.3",
+  "number": "18.3",
+  "part": "conditions",
+  "text": "The Contractor shall insure all plant shipped to Site under a marine cargo policy on a warehouse-to-site basis.",
+  "title": "Marine cargo"
+}

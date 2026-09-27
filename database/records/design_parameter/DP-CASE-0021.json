@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.807408Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.807408Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-03.02"
+  ],
+  "category": "fuel_gas",
+  "condition": "maximum",
+  "id": "DP-CASE-0021",
+  "parameter": "Hydrogen admixture capability",
+  "status": "confirmed",
+  "unit": "vol %",
+  "value": 10.0
+}

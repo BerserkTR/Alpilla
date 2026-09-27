@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.721453Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.721453Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "hse",
+  "id": "ER-14.05",
+  "section": "ER-14 Environment, health and safety",
+  "status": "contractual",
+  "text": "Construction and design shall comply with the Occupational Health and Safety Law (No. 6331); the Contractor shall implement an ISO 45001-certified HSE management system and a lost-time-injury target of zero.",
+  "title": "Occupational health and safety",
+  "verification": "review"
+}

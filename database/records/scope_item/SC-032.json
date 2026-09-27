@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.903488Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.903488Z",
+    "updated_by": "CASE"
+  },
+  "area": "Electrical",
+  "commission": "IEPC",
+  "contract": "ALP-EPC-001",
+  "design": "IEPC",
+  "id": "SC-032",
+  "install": "IEPC",
+  "item": "Unit auxiliary transformers, MV switchgear 10.5 kV, LV 0.4 kV distribution",
+  "supply": "IEPC"
+}

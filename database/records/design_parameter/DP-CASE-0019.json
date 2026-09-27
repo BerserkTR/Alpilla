@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.807008Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.807008Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-03.02"
+  ],
+  "category": "fuel_gas",
+  "id": "DP-CASE-0019",
+  "parameter": "Fuel LHV range",
+  "status": "confirmed",
+  "unit": "MJ/kg",
+  "value_text": "45.0 to 50.0"
+}

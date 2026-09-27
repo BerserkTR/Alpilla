@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.701036Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.701036Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-04.12",
+  "section": "ER-04 Performance and operational requirements",
+  "status": "contractual",
+  "text": "The design shall support an equivalent availability factor of at least 93 % averaged over the first six years, considering the OEM maintenance programme.",
+  "title": "Availability target",
+  "verification": "analysis"
+}

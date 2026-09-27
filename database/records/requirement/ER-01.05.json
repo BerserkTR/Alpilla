@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.692774Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.692774Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "ER-01.05",
+  "section": "ER-01 General requirements and plant description",
+  "status": "contractual",
+  "text": "SI units shall be used throughout (pressure in bar(g)/bar(a), temperature in degC). All documents, drawings and labels shall be in English; operator-facing labels and safety signs shall be bilingual English/Turkish.",
+  "title": "Units and language",
+  "verification": "review"
+}

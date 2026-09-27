@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.806953Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.806953Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "MS-06",
+  "percent": 10,
+  "planned_month": 18,
+  "title": "Delivery of steam turbine, generators and GSU transformers",
+  "trigger": "Main components delivered to Site, receiving inspection passed"
+}

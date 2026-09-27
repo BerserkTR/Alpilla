@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.014695Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.014695Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_8.3",
+  "number": "8.3",
+  "part": "conditions",
+  "text": "The Contractor shall perform the tests specified in the Contract, including FATs listed in ER-15.03. The Engineer shall be given at least 15 days' notice of witness points.",
+  "title": "Testing"
+}

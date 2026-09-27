@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.025916Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.025916Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_17.1",
+  "number": "17.1",
+  "part": "conditions",
+  "text": "The Contractor bears full responsibility for the care of the Works from NTP until Taking-Over, and thereafter for any outstanding work.",
+  "title": "Care of the Works"
+}

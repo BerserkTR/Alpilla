@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.807384Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.807384Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "MS-08",
+  "percent": 5,
+  "planned_month": 21,
+  "title": "Back-feed energisation",
+  "trigger": "380 kV switchyard and GSU energised from the grid, auxiliary power available"
+}

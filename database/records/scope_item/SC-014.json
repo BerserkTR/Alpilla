@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.899936Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.899936Z",
+    "updated_by": "CASE"
+  },
+  "area": "Power island",
+  "commission": "IEC",
+  "contract": "ALP-EPC-001",
+  "design": "IEC",
+  "id": "SC-014",
+  "install": "IEPC",
+  "item": "GSU transformers (GT and ST), isolated phase busducts, generator circuit breakers",
+  "supply": "IEC",
+  "terminal_point": "GSU HV bushings"
+}

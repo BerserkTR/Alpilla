@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.018463Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.018463Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_11",
+  "number": "11",
+  "part": "conditions",
+  "title": "Taking-Over"
+}

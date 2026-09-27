@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.713071Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.713071Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "electrical",
+  "id": "ER-11.02",
+  "section": "ER-11 Electrical systems",
+  "status": "contractual",
+  "text": "Air- or hydrogen-cooled synchronous generators per IEC 60034, 50 Hz, static excitation with PSS, generator circuit breakers per IEC/IEEE 62271-37-013.",
+  "title": "Generators",
+  "verification": "test"
+}

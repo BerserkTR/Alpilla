@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.018689Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.018689Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_11.1",
+  "number": "11.1",
+  "part": "conditions",
+  "text": "The Engineer shall issue the Taking-Over Certificate when all of the following are fulfilled: the Works are complete except for minor punch items not affecting safe operation; all Tests on Completion have been passed or performance liquidated damages have been paid; the Reliability Run has been passed; emission and environmental guarantees are met; the required permits for operation are available; and training has been completed.",
+  "title": "Conditions for Taking-Over"
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.718833Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.718833Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "ER-13.02",
+  "section": "ER-13 Civil, structural and architectural works",
+  "status": "contractual",
+  "text": "Turbine hall, control and electrical building, administration building, workshop/warehouse, water treatment building, gatehouse, fire station.",
+  "title": "Buildings",
+  "verification": "inspection"
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.019820Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.019820Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_12.3",
+  "number": "12.3",
+  "part": "conditions",
+  "text": "If the net output is below 97 % of the guaranteed value or the net heat rate is above 103 % of the guaranteed value after the rectification period, the Owner may reject the Works, in which case Sub-Clause 20.2 applies.",
+  "title": "Minimum acceptance levels"
+}

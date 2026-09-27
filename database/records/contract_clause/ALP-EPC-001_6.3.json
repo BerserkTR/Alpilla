@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.010953Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.010953Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_6.3",
+  "number": "6.3",
+  "part": "conditions",
+  "text": "Errors, omissions or ambiguities in the Contractor's documents shall be corrected at the Contractor's cost, notwithstanding any review.",
+  "title": "Errors in the Contractor's documents"
+}

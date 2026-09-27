@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.014894Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.014894Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_8.4",
+  "number": "8.4",
+  "part": "conditions",
+  "text": "If plant, materials or workmanship are found defective, the Engineer may reject them and the Contractor shall promptly remedy the defect and ensure that the rejected item complies with the Contract.",
+  "title": "Rejection and remedial work"
+}

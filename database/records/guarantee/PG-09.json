@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.618993Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.618993Z",
+    "updated_by": "CASE"
+  },
+  "category": "operational",
+  "conditions": "Shutdown shorter than 8 h, GT ignition to plant base load, emissions compliant from minimum environmental load.",
+  "contract": "ALP-EPC-001",
+  "direction": "max",
+  "guaranteed_value": 45.0,
+  "id": "PG-09",
+  "ld_rate": 20000,
+  "ld_unit": "EUR per minute exceedance",
+  "parameter": "Hot start time to base load",
+  "test_procedure": "Demonstration during Tests on Completion, three successful starts.",
+  "tolerance": "none",
+  "unit": "min"
+}

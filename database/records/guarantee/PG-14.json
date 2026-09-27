@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.620495Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.620495Z",
+    "updated_by": "CASE"
+  },
+  "category": "environmental",
+  "conditions": "Temperature excess over ambient seawater at 100 m from the outfall diffuser, base load, summer conditions.",
+  "contract": "ALP-EPC-001",
+  "direction": "max",
+  "guaranteed_value": 3.0,
+  "id": "PG-14",
+  "parameter": "Thermal plume at edge of mixing zone",
+  "remedy": "Must rectify (EIA permit condition).",
+  "test_procedure": "Thermal plume survey per EIA monitoring plan.",
+  "tolerance": "none",
+  "unit": "K"
+}

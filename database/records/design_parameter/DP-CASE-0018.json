@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:45.806827Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:45.806827Z",
+    "updated_by": "CASE"
+  },
+  "basis_refs": [
+    "requirement:ER-03.02"
+  ],
+  "category": "fuel_gas",
+  "condition": "reference composition",
+  "id": "DP-CASE-0018",
+  "parameter": "Reference fuel LHV",
+  "status": "confirmed",
+  "unit": "MJ/kg",
+  "value": 48.4
+}

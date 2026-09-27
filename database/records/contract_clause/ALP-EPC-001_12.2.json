@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:10.019616Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:10.019616Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "ALP-EPC-001_12.2",
+  "number": "12.2",
+  "part": "conditions",
+  "text": "If the Works fail to achieve a guaranteed value for which a liquidated damages rate is stated in Appendix B, the Contractor shall pay liquidated damages at that rate, pro rata for fractions.",
+  "title": "Performance liquidated damages"
+}

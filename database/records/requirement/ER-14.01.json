@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.720537Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.720537Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "No outstanding EIA non-conformities at Taking-Over",
+  "contract": "ALP-EPC-001",
+  "discipline": "hse",
+  "id": "ER-14.01",
+  "section": "ER-14 Environment, health and safety",
+  "status": "contractual",
+  "text": "The Works shall comply with the conditions of the positive EIA decision and the Environmental Law (No. 2872) and its regulations.",
+  "title": "EIA compliance",
+  "verification": "review"
+}

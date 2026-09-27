@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.724018Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.724018Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": "PG-01/PG-02/PG-03 demonstrated",
+  "contract": "ALP-EPC-001",
+  "discipline": "commissioning",
+  "guarantee": "PG-01",
+  "id": "ER-16.04",
+  "section": "ER-16 Commissioning and Tests on Completion",
+  "status": "contractual",
+  "text": "Performance test per ASME PTC 46 within 30 days after initial operation, test procedure submitted 90 days before, with instrument calibration traceable to national standards.",
+  "title": "Performance test",
+  "verification": "test"
+}

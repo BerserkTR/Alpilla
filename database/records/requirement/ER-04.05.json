@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.699451Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.699451Z",
+    "updated_by": "CASE"
+  },
+  "acceptance": ">= 35 MW/min",
+  "contract": "ALP-EPC-001",
+  "discipline": "i_and_c",
+  "guarantee": "PG-10",
+  "id": "ER-04.05",
+  "section": "ER-04 Performance and operational requirements",
+  "status": "contractual",
+  "text": "Combined cycle load ramp rate of at least 35 MW/min between minimum environmental load and base load.",
+  "title": "Load ramp rate",
+  "verification": "demonstration"
+}

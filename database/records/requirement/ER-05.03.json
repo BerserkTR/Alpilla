@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.702018Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.702018Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "i_and_c",
+  "id": "ER-05.03",
+  "section": "ER-05 Gas turbine",
+  "status": "contractual",
+  "text": "On-line combustion dynamics monitoring with automatic tuning shall be provided.",
+  "title": "Combustion dynamics monitoring",
+  "verification": "demonstration"
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-27T16:48:09.807189Z",
+    "created_by": "CASE",
+    "rev": 1,
+    "updated_at": "2026-09-27T16:48:09.807189Z",
+    "updated_by": "CASE"
+  },
+  "contract": "ALP-EPC-001",
+  "id": "MS-07",
+  "percent": 8,
+  "planned_month": 20,
+  "title": "HRSG pressure parts erected and hydrotested",
+  "trigger": "Successful HRSG hydrostatic test witnessed by the Engineer"
+}
