@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:00.349170Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:05.912360Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "seismic design of buildings and structures; equipment anchorage",
+  "authority": "MUNI",
+  "code": "TBDY 2018",
+  "deviation": "Governs seismic design; EN 1998 not used.",
+  "disciplines": [
+    "civil",
+    "structural"
+  ],
+  "edition": "2018",
+  "id": "REF-CONS-0017",
+  "issuer": "AFAD",
+  "jurisdiction": "TR",
+  "kind": "regulation",
+  "precedence": 1,
+  "remarks": "Official Gazette text.",
+  "requirement_refs": [
+    "ER-02.06"
+  ],
+  "responsible": [
+    "IEPC",
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Turkish Building Earthquake Code (Turkiye Bina Deprem Yonetmeligi)"
+}

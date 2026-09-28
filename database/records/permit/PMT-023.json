@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:38.547659Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:39.330839Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applicant": "OWNER",
+  "apply_by": "2026-12-15",
+  "authority": "DISCO",
+  "basis_refs": [
+    "source:SRC-OWNR-0005"
+  ],
+  "deliverables": "EPC: load list, RMU design",
+  "gates": "construction power",
+  "id": "PMT-023",
+  "lead_time": 60,
+  "legal_basis": [
+    "REF-CONS-0019"
+  ],
+  "needed_by": "2027-03-15",
+  "permit_status": "applied",
+  "phase": "construction",
+  "scope": "34.5 kV / 5 MVA construction supply",
+  "status": "agreed",
+  "support_by": [
+    "IEPC"
+  ],
+  "tie_ins": [
+    "TP-E2"
+  ],
+  "title": "Construction power connection"
+}

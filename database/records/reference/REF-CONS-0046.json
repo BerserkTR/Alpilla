@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:05.419902Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:14.821313Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "condenser performance test",
+  "code": "ASME PTC 12.2",
+  "disciplines": [
+    "process"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0046",
+  "issuer": "ASME",
+  "jurisdiction": "US",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-07.08"
+  ],
+  "responsible": [
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Performance Test Code on Steam Surface Condensers"
+}

@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:13.101944Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:28.187149Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "reinforced concrete (with EN 1992)",
+  "code": "TS 500",
+  "disciplines": [
+    "civil",
+    "structural"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0089",
+  "issuer": "TSE",
+  "jurisdiction": "TR",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-13.04"
+  ],
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
+  "title": "Requirements for design and construction of reinforced concrete structures"
+}

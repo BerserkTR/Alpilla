@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:16.374564Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:34.453396Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applicant": "IEPC",
+  "apply_by": "2027-09-15",
+  "authority": "MOTI",
+  "basis_refs": [
+    "source:SRC-OWNR-0005"
+  ],
+  "deliverables": "EPC: marine operations plan; IEC: heavy piece list (weights, dimensions)",
+  "gates": "first heavy delivery by barge",
+  "id": "PMT-008",
+  "lead_time": 30,
+  "legal_basis": [
+    "REF-CONS-0018"
+  ],
+  "needed_by": "2027-11-01",
+  "permit_status": "planned",
+  "phase": "construction",
+  "scope": "Barge berthing and ro-ro operations",
+  "status": "agreed",
+  "support_by": [
+    "IEC"
+  ],
+  "tie_ins": [
+    "TP-M1"
+  ],
+  "title": "Harbour master approval for barge operations"
+}

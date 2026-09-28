@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:54:58.777713Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:30.804136Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "vibration limits of the GT, ST and generators (IEC)",
+  "code": "ISO 20816-2",
+  "disciplines": [
+    "mechanical"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0097",
+  "issuer": "ISO",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Added at IEC's request (TQ-IEC-022).",
+  "responsible": [
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Mechanical vibration - Measurement and evaluation of machine vibration - Part 2: Land-based gas turbines, steam turbines and generators above 40 MW with fluid-film bearings"
+}

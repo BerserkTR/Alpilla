@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:54:57.161776Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:00.668695Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "permit/PMT-001",
+    "permit/PMT-002",
+    "permit/PMT-005",
+    "permit/PMT-007",
+    "permit/PMT-014"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "TQ-033",
+  "impact": "none",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "(a)-(c) as proposed; (d) Owner applications 30 days earlier; PMT-007: Contractor's barge landing design by 2027-03-31.",
+  "question": "ER-01.07 sets the order of precedence and refers to 'the codes and standards listed in Appendix A.19', but the Contract has no Appendix A.19. The Consortium proposes the attached register (Turkish laws and regulations, Grid Code, codes and standards, each with edition, responsible party and the ER it serves) as Appendix A.19, and the permits register with applicant, supporting deliverables, lead times and need dates. Please confirm: (a) the register as Appendix A.19, editions at the Base Date; (b) the EIA limits (ER-14.02) govern over the Large Combustion Plants Regulation where stricter; (c) the permit split: the Owner applies for and holds the development, permanent-works and operating permits (SC-003), the Contractor for its construction permits; (d) permits PMT-005, PMT-007, PMT-014 have less than 14 days float between approval and need - earlier applications requested; (e) dates of PMT-001 and PMT-002.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-28",
+  "references": [
+    "requirement:ER-01.07",
+    "requirement:ER-14.02",
+    "scope_item:SC-003",
+    "permit:PMT-005",
+    "permit:PMT-007",
+    "permit:PMT-014"
+  ],
+  "responded_by": "OWNER",
+  "response": "(a) Agreed: the register (with ISO 14001 added by the Owner) is Appendix A.19; editions at the Base Date. (b) Confirmed: the stricter EIA limits of ER-14.02 govern. (c) Confirmed. (d) The Owner applies for PMT-005 on 2026-11-16, PMT-007 on 2027-04-01 (Contractor's design by 2027-03-31) and PMT-014 on 2028-03-15; the Contractor advances its own applications likewise. (e) PMT-001 granted 2026-03-12, PMT-002 granted 2026-05-28.",
+  "response_date": "2026-09-28",
+  "round": 5,
+  "status": "closed",
+  "subject": "Appendix A.19 (codes and standards) and the permits register"
+}

@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:07.964150Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:19.498185Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "valves",
+  "code": "ASME B16.34",
+  "disciplines": [
+    "piping"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0061",
+  "issuer": "ASME",
+  "jurisdiction": "US",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "responsible": [
+    "IEPC",
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Valves - Flanged, Threaded, and Welding End"
+}

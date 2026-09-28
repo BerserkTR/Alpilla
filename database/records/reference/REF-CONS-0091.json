@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:13.478473Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:28.818008Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "galvanizing of structural steel",
+  "code": "EN ISO 1461",
+  "disciplines": [
+    "structural"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0091",
+  "issuer": "CEN/ISO",
+  "jurisdiction": "EU",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-13.03"
+  ],
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
+  "title": "Hot dip galvanized coatings on fabricated iron and steel articles"
+}

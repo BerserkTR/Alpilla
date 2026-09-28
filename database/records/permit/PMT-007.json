@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:16.194515Z",
+    "created_by": "CONS",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:55:34.125145Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applicant": "OWNER",
+  "apply_by": "2027-04-01",
+  "authority": "MOEUCC",
+  "basis_refs": [
+    "source:SRC-OWNR-0005"
+  ],
+  "deliverables": "EPC: landing design and removal plan by 2027-03-31",
+  "gates": "first heavy delivery by barge",
+  "id": "PMT-007",
+  "lead_time": 180,
+  "legal_basis": [
+    "REF-CONS-0018"
+  ],
+  "needed_by": "2027-11-01",
+  "permit_status": "planned",
+  "phase": "pre_construction",
+  "scope": "Temporary ro-ro barge landing on the public coastal strip for the construction period",
+  "status": "agreed",
+  "support_by": [
+    "IEPC"
+  ],
+  "tie_ins": [
+    "TP-M1"
+  ],
+  "title": "Coastal permit for the temporary barge landing"
+}

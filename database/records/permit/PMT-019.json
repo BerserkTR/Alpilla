@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:18.470915Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:38.080145Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applicant": "OWNER",
+  "apply_by": "2029-03-01",
+  "authority": "MOEUCC",
+  "basis_refs": [
+    "requirement:ER-16.05"
+  ],
+  "deliverables": "EPC: QAL2 report, accredited emission and discharge test reports (ER-16.05)",
+  "gates": "Taking-Over (KD-040)",
+  "id": "PMT-019",
+  "lead_time": 90,
+  "legal_basis": [
+    "REF-CONS-0003",
+    "REF-CONS-0005",
+    "REF-CONS-0006"
+  ],
+  "needed_by": "2029-07-04",
+  "permit_status": "planned",
+  "phase": "operation",
+  "scope": "Permanent environmental permit within the validity of the temporary certificate",
+  "status": "agreed",
+  "support_by": [
+    "IEPC"
+  ],
+  "tie_ins": [
+    "IF-26",
+    "TP-CW2"
+  ],
+  "title": "Environmental permit (air emissions and discharges)"
+}

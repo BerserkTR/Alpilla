@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:02.156453Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:08.967056Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "gas connection, metering and station approval by the network operator",
+  "authority": "GASNO",
+  "code": "Law 4646",
+  "disciplines": [
+    "process"
+  ],
+  "edition": "2001, as amended",
+  "id": "REF-CONS-0027",
+  "issuer": "TBMM",
+  "jurisdiction": "TR",
+  "kind": "law",
+  "precedence": 1,
+  "remarks": "Official Gazette text.",
+  "requirement_refs": [
+    "ER-18.03"
+  ],
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
+  "title": "Natural Gas Market Law (Dogal Gaz Piyasasi Kanunu)"
+}

@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:03.846745Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:12.035000Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "generators; also -3 for turbine-type generators",
+  "code": "IEC 60034-1",
+  "disciplines": [
+    "electrical"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0037",
+  "issuer": "IEC",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-11.02",
+    "ER-04.08"
+  ],
+  "responsible": [
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Rotating electrical machines - Part 1: Rating and performance"
+}

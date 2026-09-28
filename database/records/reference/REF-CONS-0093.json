@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:13.850520Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:29.455624Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "turbine-generator foundations (IEC load data, IF-43)",
+  "code": "ACI 351.3R",
+  "disciplines": [
+    "civil"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0093",
+  "issuer": "ACI",
+  "jurisdiction": "US",
+  "kind": "guideline",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-13.01"
+  ],
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
+  "title": "Report on Foundations for Dynamic Equipment"
+}

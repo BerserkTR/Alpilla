@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:02.643578Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:09.903521Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "licensing of radiation sources for radiographic testing",
+  "authority": "NDK",
+  "code": "Law 7381",
+  "disciplines": [
+    "hse"
+  ],
+  "edition": "2022",
+  "id": "REF-CONS-0030",
+  "issuer": "TBMM",
+  "jurisdiction": "TR",
+  "kind": "law",
+  "precedence": 1,
+  "remarks": "Official Gazette text.",
+  "requirement_refs": [
+    "ER-15.05"
+  ],
+  "responsible": [
+    "IEPC",
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Nuclear Regulatory Law (Nukleer Duzenleme Kanunu)"
+}

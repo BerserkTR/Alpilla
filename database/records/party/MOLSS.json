@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:51:55.661512Z",
+    "created_by": "CONS",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:51:55.661512Z",
+    "updated_by": "CONS"
+  },
+  "country": "Turkiye",
+  "fictional": false,
+  "id": "MOLSS",
+  "name": "Ministry of Labour and Social Security (OHS inspection)",
+  "role": "authority",
+  "short_name": "MoLSS"
+}

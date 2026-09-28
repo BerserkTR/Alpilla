@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:18.675265Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:38.397675Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applicant": "OWNER",
+  "apply_by": "2029-05-15",
+  "authority": "MUNI",
+  "basis_refs": [
+    "requirement:ER-10.05"
+  ],
+  "deliverables": "EPC: as-built drawings, fire system test certificates",
+  "gates": "Taking-Over (KD-040)",
+  "id": "PMT-020",
+  "lead_time": 30,
+  "legal_basis": [
+    "REF-CONS-0015",
+    "REF-CONS-0016"
+  ],
+  "needed_by": "2029-07-04",
+  "permit_status": "planned",
+  "phase": "operation",
+  "scope": "Use of the permanent buildings",
+  "scope_item": "SC-003",
+  "status": "agreed",
+  "support_by": [
+    "IEPC"
+  ],
+  "title": "Occupancy permit (yapi kullanma izin belgesi)"
+}

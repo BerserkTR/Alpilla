@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:04.582740Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:13.298694Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "GSU insulating liquid (natural ester)",
+  "code": "IEC 62770",
+  "disciplines": [
+    "electrical"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0041",
+  "issuer": "IEC",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "responsible": [
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Fluids for electrotechnical applications - Unused natural esters for transformers"
+}

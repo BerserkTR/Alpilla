@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T03:37:21.885215Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T03:37:21.885215Z",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:46:04.628853Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -12,7 +12,7 @@
   ],
   "date": "2026-09-28",
   "decided_by": "EPC engineering (consortium)",
-  "decision": "Tie-ins are needed by: back-feed chain (TP-E1 2028-07-22, IF-34/35/41 2028-08-02 = KD-010); auxiliary power and utilities 2028-08-16; fire protection 2028-08-24; gas at TP-G1 2028-08-15 and at IF-01 2028-09-18 (gas-in and purge 2 weeks before first fire KD-020 2028-10-02); water/feedwater/CW 2028-09-15 (filling and chemical cleaning); steam interfaces 2028-10-16 (steam blows after first fire); ammonia 2028-11-15 (SCR tuning); LDO 2028-12-01 (LDO commissioning after first synchronisation in combined cycle); construction tie-ins from mobilisation (road 2026-11-16, storm water 2027-01-15, temporary area 2027-03-01, construction power and water 2027-03-15, marine works 2027-05-15, first heavy delivery by barge 2027-11-01); IEC foundations and earthing 2027-11-15 (GT erection start).",
+  "decision": "Tie-ins are needed by: back-feed chain (TP-E1 2028-07-22, IF-34/35/41 2028-08-02 = KD-010); auxiliary power and utilities 2028-08-16; fire protection 2028-08-24; gas at TP-G1 2028-08-15 and at IF-01 2028-09-18 (gas-in and purge 2 weeks before first fire KD-020 2028-10-02); water/feedwater/CW 2028-09-15 (filling and chemical cleaning); steam interfaces 2028-10-16 (steam blows after first fire); ammonia 2028-11-15 (SCR tuning); LDO 2028-12-01 (LDO commissioning after first synchronisation in combined cycle); construction tie-ins from mobilisation (road 2026-11-16, storm water 2027-01-15, temporary area 2027-03-01, construction power and water 2027-03-15, marine works 2027-10-01 (EIA window 1 October - 30 April), first heavy delivery by barge 2027-11-01); IEC foundations and earthing 2027-11-15 (GT erection start).",
   "id": "DEC-EPCE-0004",
   "rationale": "Key dates KD-000..KD-040 of ALP-EPC-001; Owner availability dates per ALP-OWN-GEN-001 Rev 1.",
   "status": "agreed",

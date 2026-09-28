@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:15.114346Z",
+    "created_by": "CONS",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:55:32.202908Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applicant": "OWNER",
+  "authority": "MOEUCC",
+  "basis_refs": [
+    "source:SRC-OWNR-0007"
+  ],
+  "gates": "all works",
+  "id": "PMT-001",
+  "legal_basis": [
+    "REF-CONS-0001",
+    "REF-CONS-0002"
+  ],
+  "needed_by": "2026-11-02",
+  "obtained_date": "2026-03-12",
+  "permit_status": "granted",
+  "phase": "development",
+  "scope": "Power plant, intake/outfall and connections as described in the EIA file; binding conditions ALP-OWN-ENV-001",
+  "scope_item": "SC-002",
+  "status": "agreed",
+  "title": "Positive EIA decision"
+}

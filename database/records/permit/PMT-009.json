@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:16.553039Z",
+    "created_by": "CONS",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:55:34.818434Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applicant": "IEPC",
+  "apply_by": "2027-09-01",
+  "authority": "KGM",
+  "basis_refs": [
+    "requirement:ER-02.14"
+  ],
+  "deliverables": "EPC: route survey; IEC: transport drawings",
+  "gates": "heavy haul to site",
+  "id": "PMT-009",
+  "lead_time": 30,
+  "legal_basis": [
+    "REF-CONS-0029"
+  ],
+  "needed_by": "2027-11-01",
+  "permit_status": "planned",
+  "phase": "construction",
+  "scope": "Road moves of indivisible loads from the barge landing to site",
+  "status": "agreed",
+  "support_by": [
+    "IEC"
+  ],
+  "tie_ins": [
+    "TP-M1",
+    "TP-R1"
+  ],
+  "title": "Abnormal load road transport permits"
+}

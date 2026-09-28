@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:01.011573Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:07.090582Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "HV/MV installations, clearances",
+  "authority": "MENR",
+  "code": "Heavy Current Regulation",
+  "disciplines": [
+    "electrical"
+  ],
+  "edition": "2000",
+  "id": "REF-CONS-0021",
+  "issuer": "MENR",
+  "jurisdiction": "TR",
+  "kind": "regulation",
+  "precedence": 1,
+  "remarks": "Official Gazette text.",
+  "responsible": [
+    "IEPC",
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Regulation on Electrical Heavy Current Installations (Elektrik Kuvvetli Akim Tesisleri Yonetmeligi)"
+}

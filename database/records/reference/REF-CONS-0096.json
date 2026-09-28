@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:14.416527Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:30.478381Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "LDO delivered by the Owner's supplier (TP-L1)",
+  "code": "TS EN 590",
+  "disciplines": [
+    "process"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0096",
+  "issuer": "TSE",
+  "jurisdiction": "TR",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-03.07"
+  ],
+  "responsible": [
+    "OWNER"
+  ],
+  "status": "agreed",
+  "title": "Automotive fuels - Diesel - Requirements and test methods (basis of the LDO specification)"
+}

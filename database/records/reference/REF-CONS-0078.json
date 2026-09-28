@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:11.126562Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:24.824957Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "earthing grid",
+  "code": "IEEE 80",
+  "disciplines": [
+    "electrical"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0078",
+  "issuer": "IEEE",
+  "jurisdiction": "US",
+  "kind": "guideline",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-11.07"
+  ],
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
+  "title": "Guide for Safety in AC Substation Grounding"
+}

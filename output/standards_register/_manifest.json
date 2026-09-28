@@ -1,0 +1,26 @@
+{
+  "code_hash": "90fa04415065943e",
+  "db_hash": "c7ba2e1f029b5be6",
+  "engine": "standards_register",
+  "engine_version": "1.0.0",
+  "files": {
+    "ALP_codes_standards_permits_register.docx": "5a498ae51ba9eb75f03f7f2b378c943709780ff0515c9d74ee5c8f6d9d48153c",
+    "ALP_codes_standards_permits_register.pdf": "76786e8d0139d670d36a549b4daf80ce8942ce2d08cf450d9f57532503c5ab90",
+    "ALP_codes_standards_permits_register.xlsx": "506577d19d9bfd3edc4ced26e2f2c445eb4754ba381a98fe0ce571e0f657856d"
+  },
+  "generated_at": "2026-09-28T03:56:06.314938Z",
+  "generated_by": "SETUP",
+  "git_commit": "cd652db",
+  "inputs": [
+    "clarification",
+    "contract",
+    "party",
+    "permit",
+    "project",
+    "reference",
+    "requirement"
+  ],
+  "inputs_hash": "b66cf958da23f2cb",
+  "options": {},
+  "warnings": []
+}

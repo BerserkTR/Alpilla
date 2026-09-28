@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:12.902688Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:27.884290Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "concrete structures and foundations",
+  "code": "EN 1992",
+  "disciplines": [
+    "civil",
+    "structural"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0088",
+  "issuer": "CEN",
+  "jurisdiction": "EU",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-13.04"
+  ],
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
+  "title": "Eurocode 2 - Design of concrete structures"
+}

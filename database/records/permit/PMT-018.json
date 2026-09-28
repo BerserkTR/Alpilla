@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:18.289212Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:37.715334Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applicant": "OWNER",
+  "apply_by": "2028-08-15",
+  "authority": "MOEUCC",
+  "basis_refs": [
+    "requirement:ER-14.01"
+  ],
+  "deliverables": "EPC: emission and discharge measurement plan, CEMS; IEC: GT emission data",
+  "gates": "first fire (KD-020)",
+  "id": "PMT-018",
+  "lead_time": 30,
+  "legal_basis": [
+    "REF-CONS-0003",
+    "REF-CONS-0005",
+    "REF-CONS-0006"
+  ],
+  "needed_by": "2028-10-02",
+  "permit_status": "planned",
+  "phase": "commissioning",
+  "scope": "Operation of the combustion plant and the discharges before the environmental permit",
+  "status": "agreed",
+  "support_by": [
+    "IEPC",
+    "IEC"
+  ],
+  "tie_ins": [
+    "IF-26",
+    "TP-CW2"
+  ],
+  "title": "Temporary activity certificate (environmental)"
+}

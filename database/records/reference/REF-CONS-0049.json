@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:05.923943Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:15.707052Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "HRSG purge and combustion turbine exhaust systems",
+  "code": "NFPA 85",
+  "disciplines": [
+    "i_and_c",
+    "hse"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0049",
+  "issuer": "NFPA",
+  "jurisdiction": "US",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "responsible": [
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Boiler and Combustion Systems Hazards Code"
+}

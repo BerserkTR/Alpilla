@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:51:55.495521Z",
+    "created_by": "CONS",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:51:55.495521Z",
+    "updated_by": "CONS"
+  },
+  "country": "Turkiye",
+  "fictional": false,
+  "id": "EMRA",
+  "name": "Energy Market Regulatory Authority (EPDK)",
+  "role": "authority",
+  "short_name": "EMRA"
+}

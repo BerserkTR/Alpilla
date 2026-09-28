@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:51:59.794106Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:05.020341Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "explosion protection document for the gas station, GT package, LDO, H2",
+  "authority": "MOLSS",
+  "code": "Explosive Atmospheres Regulation",
+  "disciplines": [
+    "hse",
+    "electrical"
+  ],
+  "edition": "2013",
+  "id": "REF-CONS-0014",
+  "issuer": "MOLSS",
+  "jurisdiction": "TR",
+  "kind": "regulation",
+  "precedence": 1,
+  "remarks": "Official Gazette text.",
+  "requirement_refs": [
+    "ER-14.06"
+  ],
+  "responsible": [
+    "IEPC",
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Regulation on Protection of Workers from Explosive Atmospheres"
+}

@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:05.754593Z",
+    "created_by": "CONS",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:55:15.409082Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "GT enclosure CO2 system",
+  "code": "NFPA 12",
+  "deviation": "CO2 total flooding for the GT enclosure (ER-10.05 allows water mist or CO2); no water mist.",
+  "disciplines": [
+    "hse"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0048",
+  "issuer": "NFPA",
+  "jurisdiction": "US",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-10.05"
+  ],
+  "responsible": [
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Standard on Carbon Dioxide Extinguishing Systems"
+}

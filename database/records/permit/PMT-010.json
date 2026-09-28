@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:16.724379Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:35.154729Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applicant": "IEPC",
+  "apply_by": "2026-11-02",
+  "authority": "SGK",
+  "basis_refs": [
+    "requirement:ER-14.05"
+  ],
+  "deliverables": "EPC: site safety plan, OHS professionals",
+  "gates": "mobilisation",
+  "id": "PMT-010",
+  "lead_time": 10,
+  "legal_basis": [
+    "REF-CONS-0011",
+    "REF-CONS-0012"
+  ],
+  "needed_by": "2026-11-16",
+  "permit_status": "in_preparation",
+  "phase": "construction",
+  "scope": "Construction workplace, hazard class very hazardous",
+  "status": "agreed",
+  "title": "Workplace registration and construction site notification"
+}

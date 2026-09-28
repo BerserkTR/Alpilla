@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:00.512642Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:06.207180Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "intake and outfall pipelines and the temporary barge landing on the coastal strip",
+  "authority": "MOEUCC",
+  "code": "Law 3621",
+  "disciplines": [
+    "civil",
+    "hse"
+  ],
+  "edition": "1990, as amended",
+  "id": "REF-CONS-0018",
+  "issuer": "TBMM",
+  "jurisdiction": "TR",
+  "kind": "law",
+  "precedence": 1,
+  "remarks": "Official Gazette text.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
+  "title": "Coastal Law (Kiyi Kanunu)"
+}

@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:54:59.274626Z",
+    "created_by": "OWNR",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:31.126537Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "environmental management during construction and commissioning (ESMP)",
+  "code": "ISO 14001",
+  "disciplines": [
+    "hse"
+  ],
+  "edition": "2015",
+  "id": "REF-OWNR-0001",
+  "issuer": "ISO",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Added by the Owner (TQ-033).",
+  "responsible": [
+    "IEPC",
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Environmental management systems - Requirements"
+}

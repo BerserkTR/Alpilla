@@ -2,13 +2,32 @@
   "_meta": {
     "created_at": "2026-09-27T15:55:08.625483Z",
     "created_by": "SETUP",
-    "rev": 1,
-    "updated_at": "2026-09-27T15:55:08.625483Z",
-    "updated_by": "SETUP"
+    "rev": 3,
+    "updated_at": "2026-09-28T03:55:31.415768Z",
+    "updated_by": "CONS"
   },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "engineering classes and attributes of the project database",
   "code": "AVEVA class library 1.0.1",
+  "disciplines": [
+    "general"
+  ],
   "edition": "modelUpdatedAtVersion 4.0.0.0",
   "file": "references/aveva/DATABASE_STRUCTURE.ttl",
   "id": "REF-SETUP-0001",
+  "issuer": "AVEVA",
+  "jurisdiction": "international",
+  "kind": "library",
+  "precedence": 5,
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
   "title": "AVEVA engineering class library (classes, attributes, units, value lists) - project tag classification standard"
 }

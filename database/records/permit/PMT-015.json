@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:17.705545Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:36.740586Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applicant": "OWNER",
+  "apply_by": "2028-08-15",
+  "authority": "MOEUCC",
+  "basis_refs": [
+    "requirement:ER-03.08"
+  ],
+  "deliverables": "EPC: hazardous substance inventory, QRA inputs, MAPP draft; IEC: inventories in the power island (lube oil, H2, ammonia skid)",
+  "gates": "LDO first fill (TP-L1)",
+  "id": "PMT-015",
+  "lead_time": 60,
+  "legal_basis": [
+    "REF-CONS-0010"
+  ],
+  "needed_by": "2028-11-01",
+  "permit_status": "planned",
+  "phase": "commissioning",
+  "scope": "Lower-tier establishment (LDO > 2,500 t); inventory incl. aqueous ammonia and H2",
+  "scope_item": "SC-055",
+  "status": "agreed",
+  "support_by": [
+    "IEPC",
+    "IEC"
+  ],
+  "tie_ins": [
+    "TP-L1",
+    "IF-25",
+    "IF-31"
+  ],
+  "title": "Major accident notification and Major Accident Prevention Policy"
+}

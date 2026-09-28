@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:51:55.301076Z",
+    "created_by": "CONS",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:51:55.301076Z",
+    "updated_by": "CONS"
+  },
+  "country": "Turkiye",
+  "fictional": false,
+  "id": "MENR",
+  "name": "Ministry of Energy and Natural Resources",
+  "role": "authority",
+  "short_name": "MENR"
+}

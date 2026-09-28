@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:04.899805Z",
+    "created_by": "CONS",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:55:13.927227Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "HRSG - alternative to ASME Section I (ER-06.02); EN 12952-3 fatigue assessment for cyclic operation (ER-06.05)",
+  "code": "EN 12952",
+  "deviation": "HRSG designed to ASME Section I with PED conformity by a notified body (module G); EN 12952-3 applied only for the low-cycle fatigue assessment of the thick-walled parts (HP drum, SH/RH outlet headers) per ER-06.05.",
+  "disciplines": [
+    "mechanical"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0043",
+  "issuer": "CEN",
+  "jurisdiction": "EU",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-06.02",
+    "ER-06.05"
+  ],
+  "responsible": [
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Water-tube boilers and auxiliary installations (all parts)"
+}

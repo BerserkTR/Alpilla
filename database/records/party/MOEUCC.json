@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:51:55.122171Z",
+    "created_by": "CONS",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:51:55.122171Z",
+    "updated_by": "CONS"
+  },
+  "country": "Turkiye",
+  "fictional": false,
+  "id": "MOEUCC",
+  "name": "Ministry of Environment, Urbanisation and Climate Change (and its Provincial Directorate)",
+  "role": "authority",
+  "short_name": "Ministry Env."
+}

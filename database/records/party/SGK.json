@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:51:55.825961Z",
+    "created_by": "CONS",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:51:55.825961Z",
+    "updated_by": "CONS"
+  },
+  "country": "Turkiye",
+  "fictional": false,
+  "id": "SGK",
+  "name": "Social Security Institution (workplace registration)",
+  "role": "authority",
+  "short_name": "SGK"
+}

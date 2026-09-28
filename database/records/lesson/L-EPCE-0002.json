@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:56:47.682189Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:56:47.682189Z",
+    "updated_by": "EPCE"
+  },
+  "action": "Keep codes/standards as reference records and permits as permit records; run standards_register after every requirement or schedule change; read EIA conditions into need dates",
+  "context": "ER-01.07 referred to an Appendix A.19 that did not exist; six permits had 1-5 days float between approval and need; the EIA marine-works window (no works 1 May - 30 September) contradicted the first tie-in need date for the intake/outfall",
+  "date": "2026-09-28",
+  "id": "L-EPCE-0002",
+  "lesson": "A codes list and a permits list are only useful when they are data checked by an engine: every cited code must resolve to a register entry, every permit must have authority, legal basis, lead time and a need date tied to the schedule",
+  "status": "active",
+  "tags": [
+    "standards",
+    "permits",
+    "authorities",
+    "schedule"
+  ],
+  "title": "Check every code citation in the requirements against the register, and permit lead times against need dates"
+}

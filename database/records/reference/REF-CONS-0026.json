@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:01.980987Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:08.642299Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "archaeological chance-find procedure during excavation",
+  "authority": "MOCT",
+  "code": "Law 2863",
+  "disciplines": [
+    "civil"
+  ],
+  "edition": "1983, as amended",
+  "id": "REF-CONS-0026",
+  "issuer": "TBMM",
+  "jurisdiction": "TR",
+  "kind": "law",
+  "precedence": 1,
+  "remarks": "Official Gazette text.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
+  "title": "Law on the Protection of Cultural and Natural Assets"
+}

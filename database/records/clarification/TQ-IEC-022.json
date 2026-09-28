@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:54:57.549406Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:54:59.079426Z",
+    "updated_by": "IECE"
+  },
+  "changed_records": [
+    "reference/REF-CONS-0043",
+    "reference/REF-CONS-0042",
+    "reference/REF-CONS-0045",
+    "reference/REF-CONS-0048",
+    "reference/REF-CONS-0082"
+  ],
+  "contract": "ALP-CA-001",
+  "discipline": "general",
+  "id": "TQ-IEC-022",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "ASME Section I with PED module G; EN 12952-3 for fatigue of thick-walled parts; HEI 12th edition; CO2 per NFPA 12; SL2; IEC deliverables 30 days before each apply-by date.",
+  "question": "The codes and standards register (Appendix A.19, proposed to the Owner in TQ-033) names IEC as responsible for 62 entries (power island design, tests, Turkish regulations applicable to the IEC supply). Please confirm compliance back-to-back and state any deviation, in particular: (1) ER-06.02 allows ASME Section I or EN 12952 - which code, which PED module; ER-06.05 cites EN 12952-3 for the cyclic assessment; (2) HEI edition for the condenser (ER-07.07: 11th or later); (3) GT enclosure fire protection (ER-10.05: water mist or CO2); (4) IEC 62443 SL2 for the TCS. (5) Confirm the IEC deliverables for the permits PMT-004, 005, 008, 009, 013, 014, 015, 016, 018 and 021 with the dates of the permits register.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-28",
+  "references": [
+    "reference:REF-CONS-0042",
+    "reference:REF-CONS-0043",
+    "reference:REF-CONS-0045",
+    "reference:REF-CONS-0082",
+    "requirement:ER-06.02",
+    "requirement:ER-06.05",
+    "requirement:ER-07.07",
+    "requirement:ER-10.05",
+    "permit:PMT-004",
+    "permit:PMT-015"
+  ],
+  "responded_by": "IEC",
+  "response": "Confirmed back-to-back for all entries naming IEC, with: (1) HRSG to ASME Section I, PED module G by a notified body; EN 12952-3 for the low-cycle fatigue of the HP drum and SH/RH outlet headers; (2) HEI 12th edition; (3) GT enclosure CO2 total flooding per NFPA 12; (4) TCS system SL2 (IEC 62443-3-3) with certified components; please add ISO 20816-2 for the vibration limits of the turbines and generators. (5) IEC deliverables for the permits 30 days before each apply-by date of the permits register: generator/GSU data and models (PMT-004, PMT-021), foundation loads (PMT-005), heavy piece list and transport drawings (PMT-008, PMT-009), NDT source licences of IEC's site subcontractors (PMT-013), GT gas demand (PMT-014), inventories (PMT-015), declarations of conformity and notified body certificates (PMT-016), GT emission data (PMT-018).",
+  "response_date": "2026-09-28",
+  "round": 6,
+  "status": "closed",
+  "subject": "Codes and standards back-to-back, and IEC deliverables for permits"
+}

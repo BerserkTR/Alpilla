@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:07.292842Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:18.258466Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "gas receiving station and plant gas piping",
+  "code": "ASME B31.8",
+  "disciplines": [
+    "piping"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0057",
+  "issuer": "ASME",
+  "jurisdiction": "US",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-18.03"
+  ],
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
+  "title": "Gas Transmission and Distribution Piping Systems"
+}

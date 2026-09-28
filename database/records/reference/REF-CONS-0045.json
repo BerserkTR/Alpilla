@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:05.239320Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:14.526660Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "condenser thermal and mechanical design",
+  "code": "HEI 2629",
+  "disciplines": [
+    "mechanical"
+  ],
+  "edition": "12th edition",
+  "id": "REF-CONS-0045",
+  "issuer": "HEI",
+  "jurisdiction": "US",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-07.07",
+    "ER-07.08",
+    "ER-07.09",
+    "ER-07.10"
+  ],
+  "responsible": [
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "HEI Standards for Steam Surface Condensers"
+}

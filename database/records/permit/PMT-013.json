@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:17.363487Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:36.098985Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applicant": "IEPC",
+  "apply_by": "2027-09-15",
+  "authority": "NDK",
+  "basis_refs": [
+    "requirement:ER-15.05"
+  ],
+  "deliverables": "NDT subcontractor licence, radiation protection plan",
+  "gates": "first site radiography",
+  "id": "PMT-013",
+  "lead_time": 60,
+  "legal_basis": [
+    "REF-CONS-0030"
+  ],
+  "needed_by": "2027-12-01",
+  "permit_status": "planned",
+  "phase": "construction",
+  "scope": "Gamma / X-ray sources of the NDT subcontractors on site",
+  "status": "agreed",
+  "support_by": [
+    "IEC"
+  ],
+  "title": "Radiation source licence for radiographic testing"
+}

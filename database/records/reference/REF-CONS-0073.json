@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:10.201899Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:23.237040Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "HV/MV installations, transformer fire separation",
+  "code": "IEC 61936-1",
+  "disciplines": [
+    "electrical"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0073",
+  "issuer": "IEC",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
+  "title": "Power installations exceeding 1 kV AC - Part 1: Common rules"
+}

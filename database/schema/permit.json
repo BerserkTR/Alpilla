@@ -1,0 +1,134 @@
+{
+  "entity": "permit",
+  "title": "Permit, licence, approval or notification required from an authority (permits register)",
+  "id_pattern": "^PMT-[0-9]{3}$",
+  "display": [
+    "title",
+    "authority",
+    "applicant",
+    "needed_by",
+    "status"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "authority": {
+      "type": "ref",
+      "to": "party",
+      "required": true
+    },
+    "legal_basis": {
+      "type": "ref_list",
+      "to": "reference",
+      "required": true
+    },
+    "phase": {
+      "type": "enum",
+      "values": [
+        "development",
+        "pre_construction",
+        "construction",
+        "commissioning",
+        "operation"
+      ],
+      "required": true
+    },
+    "applicant": {
+      "type": "ref",
+      "to": "party",
+      "required": true,
+      "description": "party that applies and holds the permit"
+    },
+    "support_by": {
+      "type": "ref_list",
+      "to": "party",
+      "description": "parties that provide documents for the application"
+    },
+    "scope": {
+      "type": "text",
+      "required": true,
+      "description": "what the permit covers"
+    },
+    "deliverables": {
+      "type": "text",
+      "description": "documents needed for the application and who provides them"
+    },
+    "lead_time": {
+      "type": "integer",
+      "unit": "days",
+      "description": "authority processing time after a complete application"
+    },
+    "apply_by": {
+      "type": "date"
+    },
+    "needed_by": {
+      "type": "date",
+      "description": "date the permit must be in force (key date / activity it gates)"
+    },
+    "gates": {
+      "type": "text",
+      "description": "work or milestone that cannot start without it"
+    },
+    "obtained_date": {
+      "type": "date"
+    },
+    "valid_until": {
+      "type": "date"
+    },
+    "permit_status": {
+      "type": "enum",
+      "values": [
+        "planned",
+        "in_preparation",
+        "applied",
+        "granted",
+        "refused",
+        "expired"
+      ],
+      "required": true
+    },
+    "conditions": {
+      "type": "text"
+    },
+    "tie_ins": {
+      "type": "ref_list",
+      "to": "tie_in"
+    },
+    "scope_item": {
+      "type": "ref",
+      "to": "scope_item"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "proposed",
+        "agreed",
+        "superseded"
+      ],
+      "required": true,
+      "description": "agreement of this register entry between the parties"
+    },
+    "agreed_by": {
+      "type": "ref_list",
+      "to": "party"
+    },
+    "agreed_refs": {
+      "type": "ref_list",
+      "to": "clarification"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "reference",
+        "requirement",
+        "decision"
+      ]
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

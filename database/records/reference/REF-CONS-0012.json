@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:51:59.468762Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:04.412162Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "site safety plan, coordination between contractors",
+  "authority": "MOLSS",
+  "code": "Construction OHS Regulation",
+  "disciplines": [
+    "hse"
+  ],
+  "edition": "2013",
+  "id": "REF-CONS-0012",
+  "issuer": "MOLSS",
+  "jurisdiction": "TR",
+  "kind": "regulation",
+  "precedence": 1,
+  "remarks": "Official Gazette text.",
+  "requirement_refs": [
+    "ER-14.05"
+  ],
+  "responsible": [
+    "IEPC",
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Regulation on OHS in Construction Works (Yapi Islerinde ISG Yonetmeligi)"
+}

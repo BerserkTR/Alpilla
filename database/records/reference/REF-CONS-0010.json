@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:51:59.133913Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:03.792031Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "LDO storage about 5,850 t (2 x 3,500 m3) exceeds the 2,500 t lower-tier threshold for petroleum products: notification and Major Accident Prevention Policy; aqueous ammonia and hydrogen inventories added by the aggregation rule",
+  "authority": "MOEUCC",
+  "code": "Major Accident Regulation",
+  "disciplines": [
+    "hse",
+    "process"
+  ],
+  "edition": "2019",
+  "id": "REF-CONS-0010",
+  "issuer": "MOEUCC",
+  "jurisdiction": "TR",
+  "kind": "regulation",
+  "precedence": 1,
+  "remarks": "Official Gazette text.",
+  "requirement_refs": [
+    "ER-03.08",
+    "ER-06.04"
+  ],
+  "responsible": [
+    "IEPC",
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Regulation on Prevention and Mitigation of Major Industrial Accidents (Seveso III)"
+}

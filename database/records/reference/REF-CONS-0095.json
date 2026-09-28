@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:14.234399Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:30.148352Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "HSE management system",
+  "code": "ISO 45001",
+  "disciplines": [
+    "hse"
+  ],
+  "edition": "2018",
+  "id": "REF-CONS-0095",
+  "issuer": "ISO",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-14.05"
+  ],
+  "responsible": [
+    "IEPC",
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Occupational health and safety management systems"
+}

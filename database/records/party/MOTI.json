@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:51:56.152011Z",
+    "created_by": "CONS",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:51:56.152011Z",
+    "updated_by": "CONS"
+  },
+  "country": "Turkiye",
+  "fictional": false,
+  "id": "MOTI",
+  "name": "Ministry of Transport and Infrastructure (Harbour Master, coastal structures)",
+  "role": "authority",
+  "short_name": "MoTI / Harbour Master"
+}

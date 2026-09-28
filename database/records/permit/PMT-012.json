@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:17.166601Z",
+    "created_by": "CONS",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:55:35.795279Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applicant": "IEPC",
+  "apply_by": "2026-11-16",
+  "authority": "DSI",
+  "basis_refs": [
+    "source:SRC-OWNR-0008"
+  ],
+  "deliverables": "EPC: dewatering design and discharge plan",
+  "gates": "deep excavations",
+  "id": "PMT-012",
+  "lead_time": 60,
+  "legal_basis": [
+    "REF-CONS-0028"
+  ],
+  "needed_by": "2027-02-15",
+  "permit_status": "planned",
+  "phase": "construction",
+  "scope": "Temporary groundwater lowering for deep excavations (CW pump house)",
+  "status": "agreed",
+  "tie_ins": [
+    "TP-D1"
+  ],
+  "title": "Construction dewatering permit"
+}

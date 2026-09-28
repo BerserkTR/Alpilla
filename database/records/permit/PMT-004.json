@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:15.637011Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:33.152488Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applicant": "OWNER",
+  "apply_by": "2028-03-15",
+  "authority": "TSO",
+  "basis_refs": [
+    "requirement:ER-18.02"
+  ],
+  "deliverables": "EPC: protection settings, SCADA test report, single-line diagram; IEC: generator and GSU data, excitation and governor models",
+  "gates": "KD-010 back-feed",
+  "id": "PMT-004",
+  "lead_time": 90,
+  "legal_basis": [
+    "REF-CONS-0019",
+    "REF-CONS-0020"
+  ],
+  "needed_by": "2028-07-15",
+  "permit_status": "planned",
+  "phase": "commissioning",
+  "scope": "Back-feed energisation of the plant substation and test energy",
+  "scope_item": "SC-048",
+  "status": "agreed",
+  "support_by": [
+    "IEPC",
+    "IEC"
+  ],
+  "tie_ins": [
+    "TP-E1",
+    "TP-T3"
+  ],
+  "title": "System use agreement and energisation approval"
+}

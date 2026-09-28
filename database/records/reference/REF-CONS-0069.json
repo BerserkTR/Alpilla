@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:09.423457Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:22.005425Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "plant fire protection concept",
+  "code": "NFPA 850",
+  "disciplines": [
+    "hse"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0069",
+  "issuer": "NFPA",
+  "jurisdiction": "US",
+  "kind": "guideline",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-10.05"
+  ],
+  "responsible": [
+    "IEPC",
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Recommended Practice for Fire Protection for Electric Generating Plants and HVDC Converter Stations"
+}

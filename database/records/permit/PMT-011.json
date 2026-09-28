@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:16.961346Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:35.473330Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applicant": "IEPC",
+  "apply_by": "2026-12-01",
+  "authority": "MOEUCC",
+  "basis_refs": [
+    "source:SRC-OWNR-0007"
+  ],
+  "deliverables": "EPC: acoustic report, working hours plan",
+  "gates": "piling",
+  "id": "PMT-011",
+  "lead_time": 30,
+  "legal_basis": [
+    "REF-CONS-0007",
+    "REF-CONS-0002"
+  ],
+  "needed_by": "2027-01-15",
+  "permit_status": "planned",
+  "phase": "construction",
+  "scope": "Noise of piling, steam blowing and night works",
+  "status": "agreed",
+  "title": "Construction noise assessment report"
+}

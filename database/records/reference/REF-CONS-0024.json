@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:01.594382Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:08.008331Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "CE marking and declarations of conformity of machinery packages (GT, ST, pumps, cranes)",
+  "authority": "MOIT",
+  "code": "Machinery Directive 2006/42/EC",
+  "disciplines": [
+    "mechanical"
+  ],
+  "edition": "2006/42/EC",
+  "id": "REF-CONS-0024",
+  "issuer": "EU / MoIT",
+  "jurisdiction": "EU",
+  "kind": "regulation",
+  "precedence": 1,
+  "remarks": "Official Gazette text.",
+  "responsible": [
+    "IEPC",
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Machinery Directive, transposed as the Machinery Safety Regulation (Makine Emniyeti Yonetmeligi)"
+}

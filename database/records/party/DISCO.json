@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:51:57.314473Z",
+    "created_by": "CONS",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:51:57.314473Z",
+    "updated_by": "CONS"
+  },
+  "country": "Turkiye",
+  "fictional": true,
+  "id": "DISCO",
+  "name": "Regional electricity distribution company (construction power)",
+  "role": "authority",
+  "short_name": "DISCO"
+}

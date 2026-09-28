@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:17.528042Z",
+    "created_by": "CONS",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:55:36.404492Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applicant": "OWNER",
+  "apply_by": "2028-03-15",
+  "authority": "GASNO",
+  "basis_refs": [
+    "requirement:ER-18.03"
+  ],
+  "deliverables": "EPC: station design (EN 12186 / ASME B31.8), metering, pressure protection, test records; IEC: GT gas demand and pressure requirements",
+  "gates": "gas-in (TP-G1)",
+  "id": "PMT-014",
+  "lead_time": 120,
+  "legal_basis": [
+    "REF-CONS-0027"
+  ],
+  "needed_by": "2028-08-15",
+  "permit_status": "planned",
+  "phase": "commissioning",
+  "scope": "Connection of the plant gas station to the spur line, fiscal metering approval, gas-in permission",
+  "scope_item": "SC-028",
+  "status": "agreed",
+  "support_by": [
+    "IEPC",
+    "IEC"
+  ],
+  "tie_ins": [
+    "TP-G1",
+    "IF-01"
+  ],
+  "title": "Gas connection and receiving station approval"
+}

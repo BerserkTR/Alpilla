@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:10.925345Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:24.496214Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "LV installations",
+  "code": "IEC 60364",
+  "disciplines": [
+    "electrical"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0077",
+  "issuer": "IEC",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
+  "title": "Low-voltage electrical installations (all parts)"
+}

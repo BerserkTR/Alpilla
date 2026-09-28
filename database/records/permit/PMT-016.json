@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:17.919608Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:37.070574Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applicant": "IEPC",
+  "apply_by": "2028-06-15",
+  "authority": "MOLSS",
+  "basis_refs": [
+    "requirement:ER-06.02"
+  ],
+  "deliverables": "EPC and IEC: declarations of conformity, notified body certificates, load tests",
+  "gates": "use of equipment in commissioning",
+  "id": "PMT-016",
+  "lead_time": 14,
+  "legal_basis": [
+    "REF-CONS-0013",
+    "REF-CONS-0023"
+  ],
+  "needed_by": "2028-08-01",
+  "permit_status": "planned",
+  "phase": "commissioning",
+  "scope": "Cranes, hoists, pressure vessels and the HRSG before first use",
+  "status": "agreed",
+  "support_by": [
+    "IEC"
+  ],
+  "title": "First inspection of lifting and pressure equipment"
+}

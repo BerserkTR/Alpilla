@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:51:57.637455Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:01.093173Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "all environmental obligations; EIA conditions",
+  "authority": "MOEUCC",
+  "code": "Law 2872",
+  "disciplines": [
+    "hse"
+  ],
+  "edition": "1983, as amended",
+  "id": "REF-CONS-0001",
+  "issuer": "TBMM",
+  "jurisdiction": "TR",
+  "kind": "law",
+  "precedence": 1,
+  "remarks": "Official Gazette text.",
+  "requirement_refs": [
+    "ER-14.01"
+  ],
+  "responsible": [
+    "IEPC",
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Environmental Law (Cevre Kanunu)"
+}

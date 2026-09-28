@@ -1,11 +1,13 @@
 {
   "entity": "reference",
-  "title": "Code, standard or technical reference - file kept in references/",
+  "title": "Code, standard, law, regulation or technical reference - the codes and standards register (Appendix A.19); a file is kept in references/ only where the licence allows",
   "id_prefix": "REF",
   "display": [
     "code",
     "title",
-    "edition"
+    "edition",
+    "kind",
+    "status"
   ],
   "fields": {
     "title": {
@@ -14,7 +16,7 @@
     },
     "code": {
       "type": "string",
-      "description": "e.g. IEC 60034-1, ASME PTC 46"
+      "description": "e.g. IEC 60034-1, ASME PTC 46, Law 2872"
     },
     "edition": {
       "type": "string"
@@ -24,6 +26,75 @@
     },
     "remarks": {
       "type": "text"
+    },
+    "issuer": {
+      "type": "string",
+      "description": "issuing body (ISO, IEC, ASME, CEN, NFPA, TBMM, ministry ...)"
+    },
+    "kind": {
+      "type": "enum",
+      "values": [
+        "law",
+        "regulation",
+        "grid_code",
+        "standard",
+        "guideline",
+        "library"
+      ]
+    },
+    "jurisdiction": {
+      "type": "enum",
+      "values": [
+        "TR",
+        "EU",
+        "international",
+        "US"
+      ]
+    },
+    "precedence": {
+      "type": "integer",
+      "description": "ER-01.07 order: 1 Turkish laws and regulations, 2 Grid Code, 3 Contract, 4 codes and standards (Appendix A.19), 5 good practice"
+    },
+    "disciplines": {
+      "type": "list"
+    },
+    "applies_to": {
+      "type": "text",
+      "description": "systems / equipment / activities governed"
+    },
+    "responsible": {
+      "type": "ref_list",
+      "to": "party",
+      "description": "parties whose design or work must comply"
+    },
+    "authority": {
+      "type": "ref",
+      "to": "party",
+      "description": "authority enforcing a law or regulation"
+    },
+    "requirement_refs": {
+      "type": "ref_list",
+      "to": "requirement"
+    },
+    "deviation": {
+      "type": "text",
+      "description": "agreed alternative or clarification (e.g. equivalent code accepted)"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "proposed",
+        "agreed",
+        "superseded"
+      ]
+    },
+    "agreed_by": {
+      "type": "ref_list",
+      "to": "party"
+    },
+    "agreed_refs": {
+      "type": "ref_list",
+      "to": "clarification"
     }
   }
 }

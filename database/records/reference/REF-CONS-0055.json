@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:06.961483Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:17.608369Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "steam, feedwater, condensate and utility piping",
+  "code": "ASME B31.1",
+  "disciplines": [
+    "piping"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0055",
+  "issuer": "ASME",
+  "jurisdiction": "US",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
+  "title": "Power Piping"
+}

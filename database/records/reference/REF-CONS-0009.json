@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:51:58.957517Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:03.468955Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applies_to": "baseline and closure soil condition, spill prevention",
+  "authority": "MOEUCC",
+  "code": "Soil Regulation",
+  "disciplines": [
+    "hse",
+    "civil"
+  ],
+  "edition": "2010",
+  "id": "REF-CONS-0009",
+  "issuer": "MOEUCC",
+  "jurisdiction": "TR",
+  "kind": "regulation",
+  "precedence": 1,
+  "remarks": "Official Gazette text.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "agreed",
+  "title": "Soil Pollution Control and Point-Source Contaminated Sites Regulation"
+}

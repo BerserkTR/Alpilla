@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:38.354973Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:55:39.026515Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033"
+  ],
+  "applicant": "OWNER",
+  "authority": "DSI",
+  "basis_refs": [
+    "source:SRC-OWNR-0005"
+  ],
+  "deliverables": "EPC: drainage design, oil interceptors",
+  "gates": "site drainage",
+  "id": "PMT-022",
+  "legal_basis": [
+    "REF-CONS-0006"
+  ],
+  "needed_by": "2027-01-15",
+  "obtained_date": "2026-10-20",
+  "permit_status": "granted",
+  "phase": "construction",
+  "scope": "Storm water to the western stream channel (max 2 m3/s)",
+  "status": "agreed",
+  "support_by": [
+    "IEPC"
+  ],
+  "tie_ins": [
+    "TP-D1"
+  ],
+  "title": "Storm water discharge consent"
+}

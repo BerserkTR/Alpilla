@@ -5,6 +5,11 @@
 Read before working. Add a lesson whenever something went wrong or a better way was found:
 `python -m engine db add lesson --set title="..." --set lesson="..." --reason "..."`
 
+### L-EPCE-0002 (2026-09-28) Check every code citation in the requirements against the register, and permit lead times against need dates [standards, permits, authorities, schedule]
+- Context: ER-01.07 referred to an Appendix A.19 that did not exist; six permits had 1-5 days float between approval and need; the EIA marine-works window (no works 1 May - 30 September) contradicted the first tie-in need date for the intake/outfall
+- Lesson: A codes list and a permits list are only useful when they are data checked by an engine: every cited code must resolve to a register entry, every permit must have authority, legal basis, lead time and a need date tied to the schedule
+- Action: Keep codes/standards as reference records and permits as permit records; run standards_register after every requirement or schedule change; read EIA conditions into need dates
+
 ### L-EPCE-0001 (2026-09-28) Tie-in conditions are numbers checked against the HMB and the upstream point, not text [tie-in, interfaces, hmb, vendor]
 - Context: IEC IF-001 Rev 0 gave the ST inlet rated pressures as design (IF-06/10/12 below the HRSG outlets feeding them), had no terminal point for the attemperation spray water (HMB streams 29/30), and put IF-03 at 16 barg while the water-injection stream was at 60 bar(a); the Owner register lacked the plot handover, TSO and emission data links
 - Lesson: Only structured tie-in data (barg/degC ranges, capacity, voltage, short circuit, upstream + chain dp, dates) checked by the tie_in_register engine against all HMB cases exposes these gaps; unmapped HMB streams and uncovered scope items show missing points

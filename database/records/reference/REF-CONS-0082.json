@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:52:11.775485Z",
+    "created_by": "CONS",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:55:25.996369Z",
+    "updated_by": "CONS"
+  },
+  "agreed_by": [
+    "IEC",
+    "IEPC",
+    "OWNER"
+  ],
+  "agreed_refs": [
+    "TQ-033",
+    "TQ-IEC-022"
+  ],
+  "applies_to": "OT cybersecurity SL2 (DCS, TCS, zone/conduit at IF-40)",
+  "code": "IEC 62443",
+  "deviation": "IEC TCS certified to IEC 62443-4-1 / -4-2 components, system SL2 per IEC 62443-3-3; zone/conduit boundary and firewall at IF-40 by the EPC.",
+  "disciplines": [
+    "i_and_c"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-CONS-0082",
+  "issuer": "IEC",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "precedence": 4,
+  "remarks": "Licensed copy held by the responsible party; not stored in references/.",
+  "requirement_refs": [
+    "ER-05.06",
+    "ER-12.07"
+  ],
+  "responsible": [
+    "IEPC",
+    "IEC"
+  ],
+  "status": "agreed",
+  "title": "Security for industrial automation and control systems (all parts)"
+}

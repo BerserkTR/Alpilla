@@ -68,6 +68,7 @@ python -m engine validate && git add -A && git commit -m "..." && git push
 | `requirements_matrix` | requirements traceability matrix (xlsx): requirement -> guarantee -> design data / equipment, coverage |
 | `hmb` | heat and mass balance per `hmb_case` (DXF + PDF A1 diagram, Excel): IAPWS-IF97 / ideal-gas enthalpies, node mass and energy balances, auxiliary loads, net output and heat rate, checks against guarantees and limits |
 | `tie_in_register` | tie-in / terminal point register (xlsx + docx + pdf): data card per point, checks of completeness, HMB envelope over all cases, Owner -> EPC -> IEC chain (pressure, design, flow, voltage, short circuit), dates and agreement |
+| `standards_register` | codes, standards and regulations register (Appendix A.19, precedence per ER-01.07) with the permits and authorities register (xlsx + docx + pdf); checks ER citation coverage, authorities, agreement, permit timing |
 | `governance` | rules.md / ledger.md |
 
 Import: `python -m engine db import-pcf <file.pcf> --line <id> --reason "..."` reads routing from Plant 3D / E3D PCF.
@@ -107,6 +108,9 @@ Tie-ins (`TP-` Owner/Contractor, `IF-` EPC/IEC) carry the exact scope break, con
 operating envelope (barg / degC), capacity, electrical data, the HMB stream or power crossing the point (`hmb_stream`,
 `hmb_metric`), the upstream point with the agreed pressure loss (`upstream`, `chain_dp`), dates (`available_by`,
 `needed_by`) and the agreement (`status`, `agreed_by`, `agreed_ref`); `tie_in_register` checks them.
+Codes, standards, laws and regulations are `reference` records (kind, precedence, responsible parties, enforcing
+authority, requirements served, deviation, agreement); permits are `permit` records (authority, legal basis, applicant,
+deliverables, lead time, apply-by / needed-by); authorities are `party` records with role `authority`.
 
 ## Document control and planning
 `document` (MDR line with planned IFR/IFA/IFC dates and weight) -> `document_revision` (each issue: rev, purpose,
