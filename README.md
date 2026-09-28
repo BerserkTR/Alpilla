@@ -134,7 +134,15 @@ Add one by copying `engine/engines/equipment_list.py`; it is discovered automati
 - AWP: `cwa` (path of construction) -> `cwp` (one CPM activity each) -> `ewp` (documents) and `mr` (PWPs, PO -> vendor
   data -> on site); equipment carries `cwa` / `cwp` / `mr`. IWPs are made by the construction contractors.
 - The timeline is computed (`engine/core/workflow.py`), never stored: documents start when their inputs are mature, are
-  levelled to the discipline capacities (`eng_resource`) in need-date priority, and give EWP / PWP float against the CPM.
+  levelled to the discipline capacities (`eng_resource`, with a mobilisation ramp) in need-date priority, and give EWP / PWP
+  float against the CPM. Supplier documents are timed from their MR (weeks after the PO, or before delivery when
+  negative); progressive construction documents (`doc_type.progressive_share`) are needed later in their CWP (TQ-037).
+- The MDL is rule-based: `mdl_rule` records say which documents each plant / system / structure / construction area /
+  MR / equipment group needs, with the quantity basis (system `q_` estimates, replaced by register counts), hours,
+  inputs, EWP / MR links and supplier timing. `python -m engine mdl show [--rule DL-..]` lists the instances,
+  `python -m engine mdl sync` shows what is missing / to update / orphaned, `--apply --reason ..` writes it
+  (`--cancel-orphans` cancels documents no longer required). Single deliverables are individual `document` records.
+  `mdl_benchmark` records give indicative ranges per discipline; `engineering_plan` warns below them.
 
 ## Tests
 `python -m pytest -q`

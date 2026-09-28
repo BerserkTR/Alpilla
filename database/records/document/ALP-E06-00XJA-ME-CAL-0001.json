@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.333988Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.076561Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "calculation",
+  "id": "ALP-E06-00XJA-ME-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00XJA-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-006",
+  "originator": "E06",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "review",
+  "rule": "DL-V-CAL|MR-EL-006|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00XJA",
+  "title": "Supplier design calculations - Emergency diesel generator",
+  "type_code": "CAL",
+  "weight": 5
+}

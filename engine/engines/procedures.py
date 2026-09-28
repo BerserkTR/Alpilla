@@ -43,11 +43,13 @@ def _short(parties, pid):
 class Procedures(Engine):
     name = "procedures"
     title = "Engineering procedures: KKS manual, document numbering and control, engineering and AWP execution plans (Word + PDF)"
-    version = "1.1.0"
+    version = "1.2.0"
     inputs = ["project", "document", "document_revision", "doc_type", "kks_key", "system", "equipment", "cwa", "cwp", "ewp",
-              "mr", "activity", "wbs", "requirement", "scope_item", "party", "eng_resource", "clarification", "decision"]
+              "mr", "activity", "wbs", "requirement", "scope_item", "party", "eng_resource", "clarification", "decision",
+              "mdl_rule", "mdl_benchmark", "instrument", "line"]
     formats = ["docx", "pdf"]
     code_deps = ["engine/core/wordkit.py", "engine/core/workflow.py", "engine/core/kks.py", "engine/core/planning.py",
+                 "engine/core/mdl.py",
                  "engine/engines/engineering_plan.py", "templates/docx/datasheet_base.docx"]
 
     def run(self, ctx: Context):
@@ -60,7 +62,7 @@ class Procedures(Engine):
         self.checks = check_engineering(s, self.res)
         self.parties = {p["id"]: p for p in s.records("party")}
         self.tqs = {q["id"]: q for q in s.records("clarification")}
-        self.decisions = s.records("decision")
+        self.decisions = [x for x in s.records("decision") if x.get("status") != "superseded"]
         self.mdl = {d["id"]: d for d in s.records("document")}
         revs = defaultdict(list)
         for r in s.records("document_revision"):
@@ -258,11 +260,14 @@ class Procedures(Engine):
         d.p("Prep = working days from inputs ready to first issue (longer for multi-sheet documents, at most double); "
             "Update = working days to incorporate comments; Inputs at = maturity the inputs must have reached (IFR or IFC); "
             "C = construction document (belongs to an EWP), P = procurement document (belongs to an MR).")
-        d.table(["Type", "Title", "IEC 61355", "Review class", "Prep", "Upd.", "Inputs at", "Typical inputs", "C/P"],
+        d.p("Share = AWP progressive release: a construction document of this type is needed at CWP start - lead + share x "
+            "CWP duration (0 = at the CWP start).")
+        d.table(["Type", "Title", "IEC 61355", "Review class", "Prep", "Upd.", "Inputs at", "Typical inputs", "C/P", "Share"],
                 [[t["id"], t.get("title", ""), t.get("dcc") or "-", t.get("review", ""), t.get("prep_days"), t.get("update_days"),
                   t.get("input_maturity"), ", ".join(t.get("input_types") or []) or "-",
-                  ("C" if t.get("construction") else "") + ("P" if t.get("procurement") else "")] for t in types],
-                [1.0, 4.3, 1.3, 2.0, 1.0, 1.1, 1.3, 3.7, 1.0], size=7)
+                  ("C" if t.get("construction") else "") + ("P" if t.get("procurement") else ""),
+                  t.get("progressive_share") if t.get("progressive_share") else ""] for t in types],
+                [1.0, 4.0, 1.3, 1.9, 1.0, 1.0, 1.2, 3.5, 0.9, 1.0], size=7)
 
         d.h("5. Number allocation")
         d.bullets([
@@ -343,8 +348,37 @@ class Procedures(Engine):
             tot.update({"n": len(ds), "h": h})
         d.table(["Discipline", "Docs", "EPC", "Supplier", "BDP", "In EWP", "Hours", "First IFR", "Last IFC"], rows,
                 [3.2, 1.2, 1.2, 1.4, 1.2, 1.4, 1.6, 2.2, 2.2])
-        d.p(f"Total {tot['n']} documents, {tot['h']:,.0f} engineering hours (document preparation; 3D modelling, vendor "
-            f"document review and site support are budgeted separately).")
+        d.p(f"Total {tot['n']} documents, {tot['h']:,.0f} hours: EPC document preparation incl. checking and the plant 3D "
+            f"model; for supplier documents the EPC review. Site support, expediting and management are budgeted separately.")
+        rules = s.records("mdl_rule") if "mdl_rule" in s.schemas else []
+        if rules:
+            d.h("3.1 How the MDL is derived", 2)
+            d.p(f"{len(rules)} MDL rules (records mdl_rule) define the documents per plant, system, structure, construction "
+                "area, procurement package and equipment group: type, quantity basis (sheets per P&ID sheet, instrument, "
+                "loop, line, isometric, consumer, structure ...), hours, inputs, EWP / MR links and, for supplier documents, "
+                "the timing after the purchase order. Quantities are system estimates (basis "
+                + ", ".join(sorted({d_["id"] for d_ in s.records("decision") if d_["title"].startswith("MDL quantity basis")}))
+                + ") until the equipment, instrument and line registers are larger; python -m engine mdl sync keeps the "
+                "documents in line with the rules and registers. Single deliverables (studies, plans, permit dossiers, test "
+                "reports) are individual records citing their requirement, permit or clause.")
+            fam = Counter(r["scope"] for r in rules)
+            d.table(["Rule scope", "Rules"], [[k, v] for k, v in sorted(fam.items())], [5.0, 3.0])
+        bms = s.records("mdl_benchmark") if "mdl_benchmark" in s.schemas else []
+        if bms:
+            d.h("3.2 Completeness against indicative benchmarks", 2)
+            d.p("Indicative ranges for a comparable 1x1 H-class CCGT (engineering judgement, not contractual): below the "
+                "minimum = scope probably missing (WARN), above the maximum = review for duplication (INFO).")
+            brow = []
+            for b in sorted(bms, key=lambda x: x["id"]):
+                sel = [x.rec for x in docs.values() if (b["discipline"] == "all" or x.rec.get("discipline") == b["discipline"])
+                       and ((x.rec.get("originator") == "EPC") == (b["originator"] == "EPC") or b["originator"] == "ALL")]
+                act = {"docs": len(sel), "sheets": sum(r.get("sheets") or 1 for r in sel), "hours": sum(r.get("weight") or 0 for r in sel)}
+                for k in ("docs", "sheets", "hours"):
+                    lo, hi = b.get(f"{k}_min"), b.get(f"{k}_max")
+                    if lo is not None or hi is not None:
+                        brow.append([b["id"], f"{b['discipline']} / {b['originator']}", k, f"{act[k]:,.0f}",
+                                     (f"{lo:,}" if lo is not None else "-") + " - " + (f"{hi:,}" if hi is not None else "-")])
+            d.table(["Benchmark", "Scope", "Measure", "MDL", "Indicative range"], brow, [2.6, 4.2, 2.0, 2.6, 4.0], size=7.5)
         d.p("Coverage is checked at every engine run: every KKS system has the document types its category requires, every "
             "Employer's Requirement and every EPC / IEC scope item is answered by at least one document, every equipment "
             "item has a datasheet, an MR and a CWP, every MR a specification and a requisition, every CWP an EWP.")
@@ -357,10 +391,19 @@ class Procedures(Engine):
             f"Owner review {workflow.OWNER_REVIEW} wd ({workflow.OWNER_REVIEW_BDP} wd for the Basic Design Package); "
             f"approval class: IFA = IFR + review + update, IFC = IFA + {workflow.APPROVAL_CODE} wd; review class: IFC = IFR + "
             "review + update; information / internal: IFC = IFR + update.",
-            "Tender-stage documents (bid design) are issued at NTP. Supplier documents keep their committed VDRL dates. "
+            "Tender-stage documents (bid design, and the requisitions of long-lead packages per the procurement decision) "
+            "are issued at NTP. Supplier documents with committed dates keep them (IEC, TQ-IEC-023); the others are timed "
+            "from their MR: weeks after the PO for design data, weeks before delivery for FAT, erection and O&M documents. "
             "Issued revisions replace the planned dates.",
-            "Construction documents belong to the EWP of their CWP; the EWP is ready when its last document is IFC and is "
-            "needed ewp_lead_days before the CWP starts. Requisitions start the PWP (MR) cycle: PO = MRQ IFC + bid + award."])
+            "Construction documents belong to the EWP of their CWP. An EWP is needed ewp_lead_days before its CWP starts for "
+            "the first IWPs; documents of progressive types (isometrics, supports, schematics, loop diagrams, reinforcement, "
+            "equipment foundations ...) are released to later IWPs at CWP start - lead + share x CWP duration (share per "
+            "document type, section 4 of ALP-EPC-00000-GE-PRC-0002). EPC documents that need certified vendor data "
+            "(e.g. equipment foundations) take the supplier documents as inputs.",
+            "Requisitions start the PWP (MR) cycle: PO = MRQ IFC + bid + award; delivery on site = PO + manufacture + "
+            "transport; needed at the first CWP start (+ need lag for materials installed late in the CWP).",
+            "Engineering capacity per discipline (eng_resource) with a mobilisation ramp from 30 % at NTP; documents are "
+            "scheduled in need-date priority within the capacity (levelled timeline)."])
 
         d.h("5. Interdisciplinary inputs (who feeds whom)")
         m = defaultdict(Counter)
@@ -392,7 +435,7 @@ class Procedures(Engine):
         load = self._load()
         tender = [x for x in docs.values() if x.rec.get("tender")]
         if res.capacity:
-            d.p("Document preparation capacity (eng_resource, levelled timeline): " + ", ".join(
+            d.p("Document preparation capacity at full mobilisation (eng_resource, levelled timeline): " + ", ".join(
                 f"{ab.get(k, k)} {v / workflow.HOURS_PER_DAY:.0f} FTE" for k, v in sorted(res.capacity.items()))
                 + f" - total {sum(res.capacity.values()) / workflow.HOURS_PER_DAY:.0f} FTE. Documents are scheduled in the "
                   "order of their latest start (backwards from the EWP and PWP need dates) within these capacities.")
@@ -413,7 +456,17 @@ class Procedures(Engine):
                 [[k, a.title, res.cal.finish_date(a.ef, a.es), a.tf] for k, a in sorted(res.acts.items()) if k.startswith("KD-")],
                 [2.0, 9.4, 3.0, 3.0])
 
-        d.h("7. Power island supplier documents (VDRL)")
+        d.h("7. Supplier documents (VDRL)")
+        sup = defaultdict(list)
+        for x in docs.values():
+            if x.rec.get("originator", "EPC") != "EPC":
+                sup[x.rec.get("mr") or "-"].append(x)
+        d.p(f"{sum(len(v) for v in sup.values())} supplier documents in {len(sup)} packages. Per package:")
+        d.table(["MR", "Originator", "Docs", "Sheets", "First IFR", "Last final"],
+                [[m, ", ".join(sorted({x.rec.get("originator") for x in v})), len(v), sum(x.rec.get("sheets") or 1 for x in v),
+                  dd(min(x.ifr for x in v)), dd(max(x.ifc for x in v))] for m, v in sorted(sup.items())],
+                [2.6, 2.4, 1.6, 1.8, 2.4, 2.4], size=7)
+        d.p("Power island (IEC) documents:")
         succ = Counter(i for x in docs.values() for i in x.rec.get("inputs", []))
         iec = sorted((x for x in docs.values() if x.rec.get("originator") == "IEC"), key=lambda x: x.ifr)
         d.table(["Number", "IEC ref", "Title", "IFR", "IFC", "Feeds"],
@@ -424,7 +477,7 @@ class Procedures(Engine):
         rows = [[e, v["cwp"], v["driver"] or "-", dd(v["ready"]), dd(v["need"]), v["float"]]
                 for e, v in sorted(res.ewps.items(), key=lambda kv: (kv[1]["float"] is None, kv[1]["float"]))
                 if v["float"] is not None and v["float"] < 20]
-        d.p("EWPs with less than 20 working days float (last IFC document drives the EWP):")
+        d.p("EWPs with less than 20 working days float (the document with the smallest float drives the EWP):")
         d.table(["EWP", "CWP", "Driving document", "Ready", "Needed", "Float"], rows, [2.8, 2.8, 5.2, 2.0, 2.0, 1.2], size=7)
         rows = [[k, s.get("mr", k).get("title", ""), dd(v["po"]), dd(v["ros"]), dd(v["need"]), v["need_cwp"], v["float"]]
                 for k, v in sorted(res.mrs.items(), key=lambda kv: (kv[1]["float"] is None, kv[1]["float"]))
@@ -438,10 +491,13 @@ class Procedures(Engine):
              + (", ".join(sorted({b for r in s.records("eng_resource") for b in r.get("basis_refs") or []})) or "-")
              + "); a change of staffing changes the dates at the next run." if res.levelled else
              "Dates are early dates of an unconstrained network: engineering resources are not levelled."),
-            "Hours cover document preparation only (see section 3); isometric counts are estimated per piping system.",
+            "Document quantities are estimates per system until the P&IDs and the 3D model produce the instrument, line "
+            "and valve registers; the rules then use the register counts (section 3.1).",
+            "Benchmarks are indicative ranges (engineering judgement), to be replaced by company historical data.",
+            "Supplier document quantities follow the package rules; the supplier's own VDRL replaces them after the PO.",
             "KKS key titles are not yet verified against the licensed VGB key catalogue (Owner's Engineer, TQ-035)."])
         self._checks(d, {"inputs", "coverage system", "coverage requirement", "coverage scope", "coverage equipment",
-                         "coverage MR", "key date"})
+                         "coverage MR", "key date", "MDL rules", "benchmark"})
 
     def _load(self):
         res = self.res
@@ -480,7 +536,7 @@ class Procedures(Engine):
         for x in self.decisions:
             if "Advanced Work Packaging" in x.get("title", ""):
                 d.p(f"{x['decision']} ({x['id']}, {x.get('status')}, {x.get('decided_by')})", bold_lead="Decision: ")
-        d.bullets([self._tq_line("TQ-035")])
+        d.bullets([self._tq_line("TQ-035"), self._tq_line("TQ-037")])
 
         d.h("2. Path of construction (CWAs)")
         n_eq = Counter(e.get("cwa") for e in eqs)
@@ -510,7 +566,7 @@ class Procedures(Engine):
         d.h("4. Engineering work packages (EWPs)")
         rows = [[e, v["cwp"], len(v["docs"]), v["driver"] or "-", dd(v["ready"]), dd(v["need"]), v["float"],
                  v["vendor_mr"] or "-", dd(v["vendor_data"]), v["vendor_float"]] for e, v in sorted(res.ewps.items())]
-        d.table(["EWP", "CWP", "Docs", "Driving document", "Ready (IFC)", "Needed", "Float", "Vendor data of", "Vendor data",
+        d.table(["EWP", "CWP", "Docs", "Driving document", "Complete (IFC)", "First need", "Float", "Vendor data of", "Vendor data",
                  "Float"], rows, [2.8, 2.8, 1.1, 7.2, 2.3, 2.3, 1.3, 2.6, 2.3, 1.3], size=7)
 
         d.h("5. Procurement work packages (PWPs / MRs)")
@@ -525,9 +581,13 @@ class Procedures(Engine):
 
         d.h("6. Release rules and IWPs")
         d.bullets([
-            "A CWP is released for construction only when its EWP is complete (all documents IFC) and its PWP materials are "
-            "on site or have a confirmed delivery before the planned installation (TQ-035).",
-            "The engineering_plan engine reports EWP float (IFC + lead before the CWP start), vendor data float and PWP float "
+            "A CWP is released when the documents of its first IWPs are IFC and their materials are on site or have a "
+            "confirmed delivery; no IWP is issued to the field unless all its documents are IFC and its constraints are "
+            "removed; the EWP completeness for the next 8 weeks of IWPs is reported monthly per CWP (TQ-037, amending "
+            "TQ-035).",
+            "Documents of progressive types (isometrics, supports, schematics, loop diagrams, reinforcement, equipment "
+            "foundations ...) are released to the later IWPs of the CWP: needed at CWP start - lead + share x CWP duration.",
+            "The engineering_plan engine reports EWP float (smallest float of its documents), vendor data float and PWP float "
             "(on site before the first CWP start) at every run; negative float is a warning to be resolved by re-sequencing, "
             "expediting or a TQ before the plan is re-issued.",
             "IWPs are prepared by the construction contractors from the released CWP: scope of 1-2 weeks for one crew, with "

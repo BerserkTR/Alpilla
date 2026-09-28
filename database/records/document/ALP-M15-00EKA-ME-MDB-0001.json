@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.625607Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.316886Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "permit:PMT-016",
+    "requirement:ER-15.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "report",
+  "id": "ALP-M15-00EKA-ME-MDB-0001",
+  "inputs": [
+    "ALP-EPC-00EKA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-015",
+  "originator": "M15",
+  "po_weeks_final": 6,
+  "po_weeks_ifr": -2,
+  "review": "information",
+  "rule": "DL-V-MDB|MR-ME-015|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00EKA",
+  "title": "Manufacturing record book and conformity certificates - Gas receiving and metering station",
+  "type_code": "MDB",
+  "weight": 6
+}

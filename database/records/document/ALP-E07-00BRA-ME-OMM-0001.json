@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.645369Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.328256Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-17.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "manual",
+  "id": "ALP-E07-00BRA-ME-OMM-0001",
+  "inputs": [
+    "ALP-EPC-00BRA-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-007",
+  "originator": "E07",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": -8,
+  "review": "review",
+  "rule": "DL-V-OMM|MR-EL-007|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00BRA",
+  "title": "Supplier operation and maintenance manual - UPS, batteries and DC systems",
+  "type_code": "OMM",
+  "weight": 12
+}

@@ -2,13 +2,25 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:00.142767Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.238383Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:02:56.551652Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "System",
   "category": "civil_structural",
+  "cwas": [
+    "CWA-06"
+  ],
   "id": "00UPA",
+  "mr": "MR-CV-003",
+  "q_arch_sheets": 0,
+  "q_basis": "estimate",
+  "q_fnd_sheets": 20,
+  "q_pile_sheets": 0,
+  "q_rebar_sheets": 10,
+  "q_remarks": "Estimated per DEC-EPCE-0008; replaced by register counts as the P&IDs and models develop",
+  "q_services_sheets": 0,
+  "q_steel_sheets": 0,
   "scope": "IEPC",
   "title": "CW intake and outfall marine structures",
   "unit_no": "00"

@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.348592Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.086398Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "calculation",
+  "id": "ALP-M13-00GHA-ME-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00GHA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-013",
+  "originator": "M13",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "review",
+  "rule": "DL-V-CAL|MR-ME-013|1",
+  "sheets": 6,
+  "status": "planned",
+  "system": "00GHA",
+  "title": "Supplier design calculations - Shop-built tanks and demin forwarding pumps",
+  "type_code": "CAL",
+  "weight": 10
+}

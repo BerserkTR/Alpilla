@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:02:56.201481Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:19.573900Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-036"
+  ],
+  "award_days": 5,
+  "basis_refs": [
+    "permit:PMT-023"
+  ],
+  "bid_days": 15,
+  "cwps": [
+    "CWP-12-CV-01"
+  ],
+  "discipline": "electrical",
+  "id": "MR-EL-011",
+  "manufacture_weeks": 8,
+  "package_type": "equipment",
+  "po_date": "2026-11-16",
+  "scope": "Construction power: RMU and temporary distribution ordered at NTP + 2 weeks; rental generators until energisation (DEC-EPCE-0009)",
+  "status": "agreed",
+  "supplier_code": "E11",
+  "title": "Construction power supply (RMU, temporary distribution)",
+  "transport_weeks": 1,
+  "vdr_weeks": 3
+}

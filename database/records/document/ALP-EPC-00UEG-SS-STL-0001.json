@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.322487Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:18:36.257362Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.03"
+  ],
+  "cwa": "CWA-10",
+  "discipline": "structural",
+  "doc_type": "drawing",
+  "ewp": "EWP-10-CV-01",
+  "id": "ALP-EPC-00UEG-SS-STL-0001",
+  "inputs": [
+    "ALP-EPC-00UEG-CV-CAL-0001",
+    "ALP-EPC-00000-SS-SPC-0001",
+    "ALP-EPC-00UEG-PI-LAY-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-SS-STL|00UEG|1",
+  "sheets": 4,
+  "status": "planned",
+  "system": "00UEG",
+  "title": "Steel structure drawings - LDO tank farm structures",
+  "type_code": "STL",
+  "weight": 140
+}

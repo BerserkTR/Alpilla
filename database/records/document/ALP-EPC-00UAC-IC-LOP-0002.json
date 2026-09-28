@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.071548Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:18:36.253111Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "cwa": "CWA-04",
+  "discipline": "i_and_c",
+  "doc_type": "diagram",
+  "ewp": "EWP-04-EL-01",
+  "id": "ALP-EPC-00UAC-IC-LOP-0002",
+  "inputs": [
+    "ALP-EPC-00000-IC-IOL-0001",
+    "ALP-EPC-00000-IC-LST-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-IC-LOP|CWA-04|1",
+  "sheets": 30,
+  "status": "planned",
+  "system": "00UAC",
+  "title": "Loop and connection diagrams - 380 kV GIS switchyard",
+  "type_code": "LOP",
+  "weight": 45.0
+}

@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.887747Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.265531Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "categories": [
+    "water_steam_cycle",
+    "condensate_feedwater",
+    "cooling",
+    "water_treatment",
+    "auxiliary_mechanical",
+    "fuel_gas",
+    "fire_protection",
+    "hvac"
+  ],
+  "discipline": "mechanical",
+  "hours_base": 30,
+  "hours_per_sheet": 8,
+  "id": "DL-ME-CAL",
+  "inputs": [
+    "DL-PR-SDS"
+  ],
+  "originator": "EPC",
+  "parties": [
+    "IEPC"
+  ],
+  "per_sheet": 5,
+  "quantity": "q_lines",
+  "scope": "system",
+  "status": "agreed",
+  "title": "Sizing and hydraulic calculation - {name}",
+  "type_code": "CAL"
+}

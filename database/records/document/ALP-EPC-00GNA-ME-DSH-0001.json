@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.993603Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.628616Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:04:05.458173Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
@@ -19,6 +22,8 @@
   ],
   "mr": "MR-ME-014",
   "originator": "EPC",
+  "rule": "DL-ME-DSH|00GNA:MR-ME-014:package|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00GNA",
   "tender": true,

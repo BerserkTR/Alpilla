@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:05:18.209387Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:17:54.963853Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "permit:PMT-023",
+    "tie_in:TP-E2"
+  ],
+  "discipline": "electrical",
+  "doc_type": "diagram",
+  "id": "ALP-EPC-00000-EL-SLD-0002",
+  "inputs": [
+    "ALP-EPC-00000-EL-LST-0002",
+    "ALP-EPC-00000-EL-DBR-0001"
+  ],
+  "mr": "MR-EL-011",
+  "originator": "EPC",
+  "sheets": 2,
+  "status": "planned",
+  "title": "Construction power supply single line diagram and RMU design",
+  "type_code": "SLD",
+  "weight": 60.0
+}

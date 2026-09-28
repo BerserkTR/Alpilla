@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.221776Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:58.112862Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "datasheet",
+  "id": "ALP-EPC-00QJA-IC-DSH-0002",
+  "inputs": [
+    "ALP-EPC-00QJA-PR-PID-0001",
+    "ALP-EPC-00000-IC-SPC-0002"
+  ],
+  "mr": "MR-IC-005",
+  "originator": "EPC",
+  "rule": "DL-PR-CVD|00QJA|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00QJA",
+  "title": "Control valve sizing and datasheets - Nitrogen supply",
+  "type_code": "DSH",
+  "weight": 20
+}

@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.898741Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.272485Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.02"
+  ],
+  "discipline": "structural",
+  "ewp_disc": "SS",
+  "hours_per_sheet": 35,
+  "id": "DL-SS-BLD",
+  "inputs": [
+    "DL-CV-ARC",
+    "DL-CV-CAL"
+  ],
+  "originator": "EPC",
+  "per_sheet": 2,
+  "quantity": "q_arch_sheets",
+  "scope": "structure",
+  "status": "agreed",
+  "systems": [
+    "00UBA",
+    "00UAC",
+    "00UCA",
+    "00UGA",
+    "00USA",
+    "00UYA"
+  ],
+  "title": "Structural drawings (concrete / steel) - {name}",
+  "type_code": "STL"
+}

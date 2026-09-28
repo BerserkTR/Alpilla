@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.894791Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.265284Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "discipline": "i_and_c",
+  "ewp_disc": "IC",
+  "hours_per_sheet": 1.5,
+  "id": "DL-IC-LOP",
+  "inputs": [
+    "doc:ALP-EPC-00000-IC-IOL-0001",
+    "doc:ALP-EPC-00000-IC-LST-0001"
+  ],
+  "max_sheets": 250,
+  "originator": "EPC",
+  "parties": [
+    "IEPC"
+  ],
+  "quantity": "q_loops",
+  "scope": "cwa",
+  "status": "agreed",
+  "title": "Loop and connection diagrams - {name}",
+  "type_code": "LOP"
+}

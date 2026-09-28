@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.955437Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.818521Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.04"
+  ],
+  "cwa": "CWA-01",
+  "discipline": "civil",
+  "doc_type": "drawing",
+  "ewp": "EWP-01-CV-02",
+  "id": "ALP-EPC-10UMA-CV-RBR-0001",
+  "inputs": [
+    "ALP-EPC-10UMA-CV-FND-0002"
+  ],
+  "originator": "EPC",
+  "rule": "DL-CV-RBR|10UMA|1",
+  "sheets": 30,
+  "status": "planned",
+  "system": "10UMA",
+  "title": "Reinforcement drawings - Gas turbine hall",
+  "type_code": "RBR",
+  "weight": 1050
+}

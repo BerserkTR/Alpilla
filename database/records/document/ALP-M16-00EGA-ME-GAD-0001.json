@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.529317Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:17:56.578850Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-10",
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "equipment": [
+    "00EGA10",
+    "00EGA10AP001",
+    "00EGA10AP002",
+    "00EGA10AP003",
+    "00EGA10AP004",
+    "00EGA10AT001",
+    "00EGA10AT002",
+    "00EGA10BB001",
+    "00EGC10",
+    "00EGC10AP001",
+    "00EGC10AP002",
+    "00EGC10AP003",
+    "00EGC10AT001",
+    "00EGC10AT002",
+    "00EGC10AT003"
+  ],
+  "ewp": "EWP-10-ME-01",
+  "id": "ALP-M16-00EGA-ME-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00EGA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-016",
+  "originator": "M16",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "review": "review",
+  "rule": "DL-V-GAD|MR-ME-016|1",
+  "sheets": 18,
+  "status": "planned",
+  "system": "00EGA",
+  "title": "Supplier GA drawings - LDO unloading and forwarding / treatment skids",
+  "type_code": "GAD",
+  "weight": 31.0
+}

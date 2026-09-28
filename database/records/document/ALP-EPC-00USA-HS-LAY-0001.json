@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.978884Z",
+    "created_by": "EPCE",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:19:40.068527Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-10.05"
+  ],
+  "cwa": "CWA-11",
+  "discipline": "hse",
+  "doc_type": "layout",
+  "ewp": "EWP-11-CV-01",
+  "id": "ALP-EPC-00USA-HS-LAY-0001",
+  "inputs": [
+    "ALP-EPC-00USA-CV-ARC-0001",
+    "ALP-EPC-00000-HS-HAZ-0009"
+  ],
+  "originator": "EPC",
+  "rule": "DL-HS-ESC|00USA|1",
+  "sheets": 3,
+  "status": "cancelled",
+  "system": "00USA",
+  "title": "Fire fighting, escape route and safety signage layouts - Workshop and warehouse",
+  "type_code": "LAY",
+  "weight": 36
+}

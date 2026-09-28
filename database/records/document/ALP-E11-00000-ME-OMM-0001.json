@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.646269Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.329183Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-17.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "manual",
+  "id": "ALP-E11-00000-ME-OMM-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-MRQ-0001"
+  ],
+  "mr": "MR-EL-011",
+  "originator": "E11",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": -8,
+  "review": "review",
+  "rule": "DL-V-OMM|MR-EL-011|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Supplier operation and maintenance manual - Construction power supply (RMU, temporary distribution)",
+  "type_code": "OMM",
+  "weight": 12
+}

@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.035589Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.704659Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.585562Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.03"
+  ],
   "cwa": "CWA-08",
   "discipline": "structural",
   "doc_type": "drawing",
@@ -15,13 +18,15 @@
   "inputs": [
     "ALP-EPC-00000-CV-CAL-0001",
     "ALP-EPC-00000-SS-SPC-0001",
-    "ALP-EPC-00UQA-PI-LAY-0001"
+    "ALP-EPC-00UQA-PI-LAY-0001",
+    "ALP-EPC-00UQA-CV-CAL-0001"
   ],
   "originator": "EPC",
-  "sheets": 8,
+  "rule": "DL-SS-STL|00UQA|1",
+  "sheets": 12,
   "status": "planned",
   "system": "00UQA",
   "title": "Steel structure drawings - Utility building",
   "type_code": "STL",
-  "weight": 110.0
+  "weight": 420
 }

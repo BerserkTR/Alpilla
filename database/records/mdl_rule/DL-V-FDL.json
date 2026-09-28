@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.901569Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:21:20.275116Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "civil",
+  "hours_base": 4,
+  "hours_per_sheet": 1,
+  "id": "DL-V-FDL",
+  "inputs": [
+    "DL-MR-MRQ"
+  ],
+  "mrs": [
+    "MR-ME-001",
+    "MR-ME-002",
+    "MR-ME-003",
+    "MR-ME-004",
+    "MR-ME-005",
+    "MR-ME-007",
+    "MR-ME-008",
+    "MR-ME-009",
+    "MR-ME-012",
+    "MR-ME-013",
+    "MR-ME-014",
+    "MR-ME-015",
+    "MR-ME-016",
+    "MR-ME-018",
+    "MR-ME-019",
+    "MR-ME-020",
+    "MR-ME-021",
+    "MR-EL-001",
+    "MR-EL-002",
+    "MR-EL-006",
+    "MR-ME-101",
+    "MR-ME-102",
+    "MR-ME-103",
+    "MR-EL-101",
+    "MR-EL-102",
+    "MR-SS-002"
+  ],
+  "originator": "SUPPLIER",
+  "package_types": [
+    "equipment",
+    "iec_supply",
+    "subcontract"
+  ],
+  "per_sheet": 5,
+  "po_weeks_final": 10,
+  "po_weeks_ifr": 6,
+  "quantity": "q_equipment",
+  "remarks": "Only heavy / rotating equipment needs certified foundation data before the foundation IFC; other packages use standard floor loads",
+  "review": "review",
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Supplier foundation loads and anchor bolt drawings - {name}",
+  "type_code": "CAL"
+}

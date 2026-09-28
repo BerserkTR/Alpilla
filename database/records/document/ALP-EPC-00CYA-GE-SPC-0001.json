@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.118695Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:13:27.937508Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "specification",
+  "id": "ALP-EPC-00CYA-GE-SPC-0001",
+  "inputs": [
+    "ALP-EPC-00CYA-IC-BLK-0001",
+    "ALP-EPC-00000-IC-RPT-0002"
+  ],
+  "mr": "MR-IC-007",
+  "originator": "EPC",
+  "rule": "DL-MR-SPC|MR-IC-007|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00CYA",
+  "title": "Technical specification - Telecom, CCTV, access control and perimeter security",
+  "type_code": "SPC",
+  "weight": 80
+}

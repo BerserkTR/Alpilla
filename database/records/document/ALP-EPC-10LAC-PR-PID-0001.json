@@ -2,11 +2,17 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.863524Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.724010Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:05:57.924765Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-01.02",
+    "scope_item:DR-024",
+    "scope_item:SC-015",
+    "tie_in:IF-17"
+  ],
   "bdp": true,
   "discipline": "process",
   "doc_type": "diagram",
@@ -16,10 +22,11 @@
     "ALP-EPC-10LAC-PR-SDS-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-PR-PID|10LAC|1",
   "sheets": 2,
   "status": "planned",
   "system": "10LAC",
   "title": "P&ID - Boiler feed pumps",
   "type_code": "PID",
-  "weight": 100.0
+  "weight": 220
 }

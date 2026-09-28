@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.056436Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:04:01.623195Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:02:55.917664Z",
     "updated_by": "EPCE"
   },
   "agreed_by": [
@@ -24,6 +24,8 @@
   "manufacture_weeks": 26,
   "package_type": "equipment",
   "status": "agreed",
+  "supplier_code": "M13",
+  "system": "00GHA",
   "title": "Shop-built tanks and demin forwarding pumps",
   "transport_weeks": 2,
   "vdr_weeks": 6

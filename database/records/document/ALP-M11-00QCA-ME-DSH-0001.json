@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.378694Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:16:42.986579Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00QCA10",
+    "00QCA10AP001",
+    "00QCA10AP002",
+    "00QCA10AP003",
+    "00QCA10AP004",
+    "00QCA10AP005",
+    "00QCA10AP006",
+    "00QCA10BB001",
+    "00QCA10BB002",
+    "00QCA10BB003"
+  ],
+  "id": "ALP-M11-00QCA-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00QCA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-011",
+  "originator": "M11",
+  "po_weeks_final": 10,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-V-DSH|MR-ME-011|1",
+  "sheets": 12,
+  "status": "planned",
+  "system": "00QCA",
+  "title": "Supplier certified datasheets and performance curves - Chemical dosing skid",
+  "type_code": "DSH",
+  "weight": 16
+}

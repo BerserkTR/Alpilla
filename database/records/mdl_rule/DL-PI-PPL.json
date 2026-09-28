@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.896373Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:28:44.630007Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "discipline": "piping",
+  "ewp_disc": "PI",
+  "hours_per_sheet": 90,
+  "id": "DL-PI-PPL",
+  "inputs": [
+    "DL-PI-LAY",
+    "doc:ALP-EPC-00000-PI-SPC-0002",
+    "doc:ALP-EPC-00000-PI-M3D-0001"
+  ],
+  "max_sheets": 60,
+  "originator": "EPC",
+  "parties": [
+    "IEPC"
+  ],
+  "per_sheet": 3,
+  "quantity": "q_lines",
+  "remarks": "Hours include the 3D area modelling that produces the GA (about 60 h per GA sheet); the as-built model deliverable carries only the as-built update",
+  "scope": "cwa",
+  "status": "agreed",
+  "title": "Piping general arrangement - {name}",
+  "type_code": "PPL"
+}

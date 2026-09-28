@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.436460Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.148676Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-M14-00GNA-ME-PRC-0001",
+  "inputs": [
+    "ALP-EPC-00GNA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-014",
+  "originator": "M14",
+  "po_weeks_final": -6,
+  "po_weeks_ifr": -12,
+  "review": "review",
+  "rule": "DL-V-ERC|MR-ME-014|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00GNA",
+  "title": "Supplier installation and erection manual - Waste water and sanitary treatment packages",
+  "type_code": "PRC",
+  "weight": 6
+}

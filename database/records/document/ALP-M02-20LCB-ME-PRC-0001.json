@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.425631Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.141553Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-M02-20LCB-ME-PRC-0001",
+  "inputs": [
+    "ALP-EPC-20LCB-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-002",
+  "originator": "M02",
+  "po_weeks_final": -6,
+  "po_weeks_ifr": -12,
+  "review": "review",
+  "rule": "DL-V-ERC|MR-ME-002|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "20LCB",
+  "title": "Supplier installation and erection manual - Condensate extraction pumps",
+  "type_code": "PRC",
+  "weight": 6
+}

@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.256522Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.030487Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "procedure",
+  "id": "ALP-S01-00000-GE-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00000-SS-MRQ-0001"
+  ],
+  "mr": "MR-SS-001",
+  "originator": "S01",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "approval",
+  "rule": "DL-S-ITP|MR-SS-001|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Subcontractor inspection and test plans - Structural steel supply and fabrication",
+  "type_code": "ITP",
+  "weight": 8
+}

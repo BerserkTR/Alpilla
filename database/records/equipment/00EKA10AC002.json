@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.005327Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:03:04.005327Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Plate Heat Exchanger",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "cwa": "CWA-09",
+  "cwp": "CWP-09-ME-01",
+  "description": "Gas preheater B (electric)",
+  "equipment_type": "heat exchanger",
+  "id": "00EKA10AC002",
+  "mr": "MR-ME-015",
+  "quantity": 1,
+  "rated_power": 120.0,
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00EKA"
+}

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.062921Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:04:01.626864Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:02:55.922976Z",
     "updated_by": "EPCE"
   },
   "agreed_by": [
@@ -23,6 +23,8 @@
   "manufacture_weeks": 30,
   "package_type": "subcontract",
   "status": "agreed",
+  "supplier_code": "S02",
+  "system": "10HNE",
   "title": "Stack 65 m with silencer",
   "transport_weeks": 4,
   "vdr_weeks": 8

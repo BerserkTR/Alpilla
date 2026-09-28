@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.338550Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.078661Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "calculation",
+  "id": "ALP-I02-00CQA-ME-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00CQA-IC-MRQ-0001"
+  ],
+  "mr": "MR-IC-002",
+  "originator": "I02",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "review",
+  "rule": "DL-V-CAL|MR-IC-002|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00CQA",
+  "title": "Supplier design calculations - Continuous emission monitoring system",
+  "type_code": "CAL",
+  "weight": 6
+}

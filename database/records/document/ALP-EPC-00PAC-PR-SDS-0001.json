@@ -2,12 +2,13 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.901266Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.647181Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:04:05.572004Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
+    "requirement:ER-01.02",
     "requirement:ER-08.03",
     "scope_item:DR-023",
     "scope_item:SC-016"
@@ -20,10 +21,12 @@
     "ALP-EPC-00000-PR-PFD-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-PR-SDS|00PAC|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00PAC",
   "tender": true,
   "title": "System design description - CW pumps",
   "type_code": "SDS",
-  "weight": 60.0
+  "weight": 80
 }

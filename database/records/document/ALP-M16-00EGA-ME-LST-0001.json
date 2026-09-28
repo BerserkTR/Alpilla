@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.704355Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.370510Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-17.06"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "list",
+  "id": "ALP-M16-00EGA-ME-LST-0001",
+  "inputs": [
+    "ALP-EPC-00EGA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-016",
+  "originator": "M16",
+  "po_weeks_final": 20,
+  "po_weeks_ifr": 12,
+  "review": "review",
+  "rule": "DL-V-SPL|MR-ME-016|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00EGA",
+  "title": "Spare parts and special tools lists - LDO unloading and forwarding / treatment skids",
+  "type_code": "LST",
+  "weight": 6
+}

@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.518195Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:17:56.567006Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-01",
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "equipment": [
+    "00CQA10"
+  ],
+  "ewp": "EWP-01-IC-01",
+  "id": "ALP-I02-00CQA-ME-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00CQA-IC-MRQ-0001"
+  ],
+  "mr": "MR-IC-002",
+  "originator": "I02",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "review": "review",
+  "rule": "DL-V-GAD|MR-IC-002|1",
+  "sheets": 4,
+  "status": "planned",
+  "system": "00CQA",
+  "title": "Supplier GA drawings - Continuous emission monitoring system",
+  "type_code": "GAD",
+  "weight": 10.0
+}

@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.049003Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.705668Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.584823Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.02"
+  ],
   "cwa": "CWA-11",
   "discipline": "structural",
   "doc_type": "drawing",
@@ -14,13 +17,15 @@
   "id": "ALP-EPC-00USA-SS-STL-0001",
   "inputs": [
     "ALP-EPC-00000-CV-CAL-0001",
-    "ALP-EPC-00USA-CV-ARC-0001"
+    "ALP-EPC-00USA-CV-ARC-0001",
+    "ALP-EPC-00USA-CV-CAL-0001"
   ],
   "originator": "EPC",
-  "sheets": 6,
+  "rule": "DL-SS-BLD|00USA|1",
+  "sheets": 5,
   "status": "planned",
   "system": "00USA",
   "title": "Structural drawings (concrete / steel) - Workshop and warehouse",
   "type_code": "STL",
-  "weight": 90.0
+  "weight": 175
 }

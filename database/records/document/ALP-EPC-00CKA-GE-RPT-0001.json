@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.143631Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.963180Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "report",
+  "id": "ALP-EPC-00CKA-GE-RPT-0001",
+  "inputs": [
+    "ALP-EPC-00CKA-GE-MRQ-0001"
+  ],
+  "mr": "MR-IC-009",
+  "originator": "EPC",
+  "review": "internal",
+  "rule": "DL-MR-TBE|MR-IC-009|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00CKA",
+  "title": "Technical bid evaluation - Operator training simulator, historian and performance monitoring",
+  "type_code": "RPT",
+  "weight": 40
+}

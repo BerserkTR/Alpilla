@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:49:59.873262Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T14:58:03.132031Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:09:14.568756Z",
     "updated_by": "EPCE"
   },
   "category": "drawing",
@@ -19,6 +19,7 @@
   ],
   "prep_days": 20,
   "procurement": false,
+  "progressive_share": 0.2,
   "review": "approval",
   "title": "Civil drawing (grading, roads, drainage, marine)",
   "update_days": 10

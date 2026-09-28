@@ -156,7 +156,9 @@
         "reference",
         "tie_in",
         "scope_item",
-        "guarantee"
+        "guarantee",
+        "permit",
+        "contract_clause"
       ],
       "description": "requirements it satisfies, sources it uses"
     },
@@ -189,6 +191,26 @@
     "tender": {
       "type": "boolean",
       "description": "tender-stage document: exists from the bid design, first issue (IFR) at NTP"
+    },
+    "rule": {
+      "type": "string",
+      "description": "MDL rule instance that requires this document: <rule id>|<scope key>|<part> (engine mdl sync)"
+    },
+    "po_weeks_ifr": {
+      "type": "number",
+      "unit": "weeks",
+      "description": "supplier document: first issue in weeks after the PO of its MR, or before its on-site date when negative"
+    },
+    "po_weeks_final": {
+      "type": "number",
+      "unit": "weeks",
+      "description": "supplier document: final issue in weeks after the PO, or relative to the on-site date when po_weeks_ifr is negative"
+    },
+    "duration": {
+      "type": "integer",
+      "min": 1,
+      "unit": "working days",
+      "description": "preparation duration overriding the document type (long-running deliverables such as the 3D model)"
     }
   }
 }

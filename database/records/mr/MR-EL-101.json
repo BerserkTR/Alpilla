@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.051535Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:03:58.497621Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:02:55.911375Z",
     "updated_by": "EPCE"
   },
   "agreed_by": [
@@ -30,6 +30,8 @@
   "scope": "Supplied under the consortium agreement ALP-CA-001; PO = NTP; GT generators ex works week 49 together with the GT (TQ-IEC-023)",
   "status": "agreed",
   "supplier": "IEC",
+  "supplier_code": "IEC",
+  "system": "10MKA",
   "title": "Generators, excitation, GCB and busducts (IEC)",
   "transport_weeks": 4,
   "vdr_weeks": 12

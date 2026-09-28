@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.551114Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.255330Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "i_and_c",
+  "doc_type": "list",
+  "id": "ALP-E05-00BFA-IC-IOL-0001",
+  "inputs": [
+    "ALP-EPC-00BFA-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-005",
+  "originator": "E05",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "review",
+  "rule": "DL-V-IOL|MR-EL-005|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00BFA",
+  "title": "Supplier I/O list, control philosophy and interface signals - LV switchboards and MCCs",
+  "type_code": "IOL",
+  "weight": 5
+}

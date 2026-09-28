@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.255738Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.030024Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "procedure",
+  "id": "ALP-M24-00UZF-GE-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00UZF-GE-MRQ-0001"
+  ],
+  "mr": "MR-ME-024",
+  "originator": "M24",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "approval",
+  "rule": "DL-S-ITP|MR-ME-024|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00UZF",
+  "title": "Subcontractor inspection and test plans - Heavy transport, barge landing and marine logistics (subcontract)",
+  "type_code": "ITP",
+  "weight": 8
+}

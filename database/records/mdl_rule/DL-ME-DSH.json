@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.891401Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.265793Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "discipline": "mechanical",
+  "equipment_types": [
+    "pump",
+    "tank",
+    "compressor",
+    "filter",
+    "heat exchanger",
+    "crane",
+    "stack",
+    "boiler",
+    "package",
+    "fan",
+    "valve"
+  ],
+  "exclude": [],
+  "hours_base": 6,
+  "hours_per_sheet": 10,
+  "id": "DL-ME-DSH",
+  "inputs": [
+    "DL-ME-CAL@system",
+    "DL-MR-SPC@system"
+  ],
+  "originator": "EPC",
+  "quantity": "q_equipment",
+  "scope": "eqgroup",
+  "status": "agreed",
+  "supply": [
+    "IEPC"
+  ],
+  "title": "Datasheet - {name}",
+  "type_code": "DSH"
+}

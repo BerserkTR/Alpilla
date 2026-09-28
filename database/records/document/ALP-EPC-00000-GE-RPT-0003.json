@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.133533Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.957523Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "report",
+  "id": "ALP-EPC-00000-GE-RPT-0003",
+  "inputs": [
+    "ALP-EPC-00000-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-008",
+  "originator": "EPC",
+  "review": "internal",
+  "rule": "DL-MR-TBE|MR-EL-008|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Technical bid evaluation - Power and control cables",
+  "type_code": "RPT",
+  "weight": 40
+}

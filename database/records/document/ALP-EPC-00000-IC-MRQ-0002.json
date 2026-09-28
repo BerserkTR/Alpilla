@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.975662Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.571453Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.489095Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "i_and_c",
   "doc_type": "other",
   "id": "ALP-EPC-00000-IC-MRQ-0002",
@@ -15,6 +18,8 @@
   ],
   "mr": "MR-IC-005",
   "originator": "EPC",
+  "rule": "DL-MR-MRQ|MR-IC-005|1",
+  "sheets": 1,
   "status": "planned",
   "title": "Material requisition - Control valves",
   "type_code": "MRQ",

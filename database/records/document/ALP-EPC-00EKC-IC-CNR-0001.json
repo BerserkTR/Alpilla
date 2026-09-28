@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.879960Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.612276Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.409359Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-12.02"
+  ],
   "discipline": "i_and_c",
   "doc_type": "report",
   "id": "ALP-EPC-00EKC-IC-CNR-0001",
@@ -15,6 +18,8 @@
     "ALP-EPC-00EKC-PR-PID-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-IC-CNR|00EKC|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00EKC",
   "title": "Control narrative - Fuel gas distribution to GT and auxiliary boiler",

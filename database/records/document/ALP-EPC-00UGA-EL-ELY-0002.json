@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.958725Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.821890Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-11.08"
+  ],
+  "cwa": "CWA-07",
+  "discipline": "electrical",
+  "doc_type": "drawing",
+  "ewp": "EWP-07-EL-01",
+  "id": "ALP-EPC-00UGA-EL-ELY-0002",
+  "inputs": [
+    "ALP-EPC-00UGA-EL-ELY-0001",
+    "ALP-EPC-00UGA-PI-PPL-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-EL-CRT|CWA-07|1",
+  "sheets": 3,
+  "status": "planned",
+  "system": "00UGA",
+  "title": "Cable routing, tray and trench layouts - Water treatment and effluents",
+  "type_code": "ELY",
+  "weight": 75
+}

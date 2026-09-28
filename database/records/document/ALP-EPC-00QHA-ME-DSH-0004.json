@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.095067Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:16:42.968247Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00QHA10BB001",
+    "00QHA10BB002"
+  ],
+  "id": "ALP-EPC-00QHA-ME-DSH-0004",
+  "inputs": [
+    "ALP-EPC-00QHA-ME-CAL-0001",
+    "ALP-EPC-00QHA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-009",
+  "originator": "EPC",
+  "rule": "DL-ME-DSH|00QHA:MR-ME-009:tank|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00QHA",
+  "title": "Datasheet - Auxiliary boiler: tank (2 items)",
+  "type_code": "DSH",
+  "weight": 26
+}

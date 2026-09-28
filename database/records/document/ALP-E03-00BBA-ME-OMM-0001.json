@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.643188Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.326109Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-17.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "manual",
+  "id": "ALP-E03-00BBA-ME-OMM-0001",
+  "inputs": [
+    "ALP-EPC-00BBA-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-003",
+  "originator": "E03",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": -8,
+  "review": "review",
+  "rule": "DL-V-OMM|MR-EL-003|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00BBA",
+  "title": "Supplier operation and maintenance manual - MV switchgear 10.5 kV",
+  "type_code": "OMM",
+  "weight": 12
+}

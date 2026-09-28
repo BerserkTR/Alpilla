@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.606430Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.301118Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "permit:PMT-016",
+    "requirement:ER-15.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "report",
+  "id": "ALP-E08-00000-ME-MDB-0001",
+  "inputs": [
+    "ALP-EPC-00000-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-008",
+  "originator": "E08",
+  "po_weeks_final": 6,
+  "po_weeks_ifr": -2,
+  "review": "information",
+  "rule": "DL-V-MDB|MR-EL-008|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Manufacturing record book and conformity certificates - Power and control cables",
+  "type_code": "MDB",
+  "weight": 6
+}

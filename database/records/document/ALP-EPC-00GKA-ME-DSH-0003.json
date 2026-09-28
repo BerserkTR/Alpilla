@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.078284Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:16:42.954217Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00GKA10AP001",
+    "00GKA10AP002"
+  ],
+  "id": "ALP-EPC-00GKA-ME-DSH-0003",
+  "inputs": [
+    "ALP-EPC-00GKA-ME-CAL-0001",
+    "ALP-EPC-00GHA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-013",
+  "originator": "EPC",
+  "rule": "DL-ME-DSH|00GKA:MR-ME-013:pump|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00GKA",
+  "title": "Datasheet - Potable water: pump (2 items)",
+  "type_code": "DSH",
+  "weight": 26
+}

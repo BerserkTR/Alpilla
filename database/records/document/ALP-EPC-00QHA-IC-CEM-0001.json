@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.987631Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:57.971769Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.03"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "diagram",
+  "id": "ALP-EPC-00QHA-IC-CEM-0001",
+  "inputs": [
+    "ALP-EPC-00QHA-IC-CNR-0001",
+    "ALP-EPC-00000-HS-HAZ-0007"
+  ],
+  "originator": "EPC",
+  "rule": "DL-IC-CEM|00QHA|1",
+  "sheets": 3,
+  "status": "planned",
+  "system": "00QHA",
+  "title": "Cause and effect matrix - Auxiliary boiler",
+  "type_code": "CEM",
+  "weight": 52
+}

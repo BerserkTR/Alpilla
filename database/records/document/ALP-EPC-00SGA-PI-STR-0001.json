@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.174359Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:58.099737Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "discipline": "piping",
+  "doc_type": "calculation",
+  "id": "ALP-EPC-00SGA-PI-STR-0001",
+  "inputs": [
+    "ALP-EPC-00UQA-PI-PPL-0001",
+    "ALP-EPC-00UQA-PI-PPL-0002",
+    "ALP-EPC-00UQA-PI-PPL-0003",
+    "ALP-EPC-00000-PI-RPT-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-PI-STR|00SGA|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00SGA",
+  "title": "Pipe stress analysis - Fire water system",
+  "type_code": "STR",
+  "weight": 80
+}

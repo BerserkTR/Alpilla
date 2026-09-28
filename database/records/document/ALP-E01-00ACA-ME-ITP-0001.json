@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.570179Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.271776Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-E01-00ACA-ME-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00ACA-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-001",
+  "originator": "E01",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "approval",
+  "rule": "DL-V-ITP|MR-EL-001|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00ACA",
+  "title": "Supplier inspection and test plan - 380 kV GIS",
+  "type_code": "ITP",
+  "weight": 6
+}

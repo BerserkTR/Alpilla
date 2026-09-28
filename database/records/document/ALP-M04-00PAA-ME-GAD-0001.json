@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.523832Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:17:56.573364Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-05",
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "equipment": [
+    "00PAA10AA001",
+    "00PAA10AA002",
+    "00PAA10AP001",
+    "00PAA10AP002",
+    "00PAA10AT001",
+    "00PAA10AT002",
+    "00PAA10AT003",
+    "00PAA10AT004"
+  ],
+  "ewp": "EWP-05-ME-01",
+  "id": "ALP-M04-00PAA-ME-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00PAA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-004",
+  "originator": "M04",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "review": "review",
+  "rule": "DL-V-GAD|MR-ME-004|1",
+  "sheets": 10,
+  "status": "planned",
+  "system": "00PAA",
+  "title": "Supplier GA drawings - Travelling band screens and trash rakes",
+  "type_code": "GAD",
+  "weight": 19.0
+}

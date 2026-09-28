@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.300683Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.054385Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-14.05"
+  ],
+  "discipline": "general",
+  "doc_type": "procedure",
+  "id": "ALP-S02-10HNE-GE-MOS-0001",
+  "inputs": [
+    "ALP-EPC-10HNE-SS-MRQ-0001"
+  ],
+  "mr": "MR-SS-002",
+  "originator": "S02",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-S-MOS|MR-SS-002|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "10HNE",
+  "title": "Subcontractor method statements - Stack 65 m with silencer - part 1 of 6",
+  "type_code": "MOS",
+  "weight": 8
+}

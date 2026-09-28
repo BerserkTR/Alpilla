@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.259903Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.032852Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-14.05"
+  ],
+  "discipline": "general",
+  "doc_type": "procedure",
+  "id": "ALP-C01-00000-GE-MOS-0004",
+  "inputs": [
+    "ALP-EPC-00000-CV-MRQ-0001"
+  ],
+  "mr": "MR-CV-001",
+  "originator": "C01",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-S-MOS|MR-CV-001|4",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Subcontractor method statements - Piling works - part 4 of 6",
+  "type_code": "MOS",
+  "weight": 8
+}

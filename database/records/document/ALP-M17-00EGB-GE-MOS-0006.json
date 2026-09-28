@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.279722Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.043621Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-14.05"
+  ],
+  "discipline": "general",
+  "doc_type": "procedure",
+  "id": "ALP-M17-00EGB-GE-MOS-0006",
+  "inputs": [
+    "ALP-EPC-00EGB-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-017",
+  "originator": "M17",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-S-MOS|MR-ME-017|6",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00EGB",
+  "title": "Subcontractor method statements - LDO storage tanks (field-erected, API 650) - part 6 of 6",
+  "type_code": "MOS",
+  "weight": 8
+}

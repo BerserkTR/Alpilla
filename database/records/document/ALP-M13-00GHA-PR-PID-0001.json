@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.682356Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.349728Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "discipline": "process",
+  "doc_type": "diagram",
+  "id": "ALP-M13-00GHA-PR-PID-0001",
+  "inputs": [
+    "ALP-EPC-00GHA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-013",
+  "originator": "M13",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "approval",
+  "rule": "DL-V-PID|MR-ME-013|1",
+  "sheets": 9,
+  "status": "planned",
+  "system": "00GHA",
+  "title": "Supplier P&IDs - Shop-built tanks and demin forwarding pumps",
+  "type_code": "PID",
+  "weight": 31
+}

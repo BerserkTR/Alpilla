@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:20:01.064951Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.277003Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.02"
+  ],
+  "discipline": "i_and_c",
+  "hours_base": 8,
+  "hours_per_sheet": 0.5,
+  "id": "DL-V-LOG",
+  "inputs": [
+    "DL-MR-MRQ"
+  ],
+  "max_sheets": 250,
+  "mrs": [
+    "MR-IC-101",
+    "MR-IC-008",
+    "MR-ME-012",
+    "MR-ME-005",
+    "MR-ME-008",
+    "MR-ME-009",
+    "MR-ME-014"
+  ],
+  "originator": "SUPPLIER",
+  "package_types": [
+    "iec_supply",
+    "equipment"
+  ],
+  "po_weeks_final": 32,
+  "po_weeks_ifr": 20,
+  "quantity": "q_logic_sheets",
+  "remarks": "Packages with their own PLC / control system only",
+  "review": "review",
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Supplier logic diagrams - {name}",
+  "type_code": "LOG"
+}

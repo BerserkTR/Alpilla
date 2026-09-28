@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:05:18.210503Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:05:19.091092Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-04.11"
+  ],
+  "discipline": "process",
+  "doc_type": "calculation",
+  "id": "ALP-EPC-00000-PR-CAL-0002",
+  "inputs": [
+    "ALP-EPC-00000-PR-CAL-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Degradation curves (recoverable and non-recoverable, output and heat rate)",
+  "type_code": "CAL",
+  "weight": 80.0
+}

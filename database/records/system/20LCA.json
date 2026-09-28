@@ -2,13 +2,31 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:00.127128Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.250458Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:02:56.570526Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "System",
   "category": "condensate_feedwater",
+  "cwas": [
+    "CWA-02"
+  ],
   "id": "20LCA",
+  "q_basis": "estimate",
+  "q_cables": 45,
+  "q_control_valves": 4,
+  "q_equipment": 0,
+  "q_instruments": 45,
+  "q_iso_sheets": 110,
+  "q_lines": 20,
+  "q_logic_sheets": 15,
+  "q_loops": 34,
+  "q_lv_consumers": 0,
+  "q_mv_consumers": 0,
+  "q_pid_sheets": 2,
+  "q_relief_valves": 1,
+  "q_remarks": "Estimated per DEC-EPCE-0008; replaced by register counts as the P&IDs and models develop",
+  "q_stress_packages": 3,
   "scope": "IEPC",
   "title": "Main condensate piping",
   "unit_no": "20"

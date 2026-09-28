@@ -2,14 +2,20 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.873698Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.586350Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:05:57.901393Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
     "scope_item:DR-033",
-    "scope_item:SC-030"
+    "scope_item:SC-030",
+    "scope_item:SC-035",
+    "tie_in:IF-34",
+    "tie_in:IF-35",
+    "tie_in:IF-41",
+    "tie_in:TP-E1",
+    "tie_in:TP-T3"
   ],
   "discipline": "electrical",
   "doc_type": "diagram",

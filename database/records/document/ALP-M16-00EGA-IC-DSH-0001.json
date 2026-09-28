@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.544431Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:16:43.018610Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "i_and_c",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00EGA10",
+    "00EGA10AP001",
+    "00EGA10AP002",
+    "00EGA10AP003",
+    "00EGA10AP004",
+    "00EGA10AT001",
+    "00EGA10AT002",
+    "00EGA10BB001",
+    "00EGC10",
+    "00EGC10AP001",
+    "00EGC10AP002",
+    "00EGC10AP003",
+    "00EGC10AT001",
+    "00EGC10AT002",
+    "00EGC10AT003"
+  ],
+  "id": "ALP-M16-00EGA-IC-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00EGA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-016",
+  "originator": "M16",
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "review": "review",
+  "rule": "DL-V-INL|MR-ME-016|1",
+  "sheets": 50,
+  "status": "planned",
+  "system": "00EGA",
+  "title": "Supplier instrument list and datasheets - LDO unloading and forwarding / treatment skids",
+  "type_code": "DSH",
+  "weight": 14.0
+}

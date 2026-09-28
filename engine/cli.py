@@ -16,6 +16,7 @@
     python -m engine lib build <ttl> --reason "..."  recompile the class library from its source
     python -m engine plan [--all]                   schedule status + critical path (computed)
     python -m engine kks <tag|docno> ... | --next ORG KKS DISC TYPE   KKS / document number check, next number
+    python -m engine mdl show [--rule DL-..] | sync [--apply --reason ..]   MDL rules -> required documents
     python -m engine engines                       list engines
     python -m engine run <engine>|--all|--stale [--option k=v]
     python -m engine deliver <engine> --title T --purpose P --to R --reason "..." [--files GLOB]
@@ -351,6 +352,64 @@ def cmd_kks(p: Project, a) -> int:
     return rc
 
 
+def cmd_mdl(p: Project, a) -> int:
+    """MDL rules -> document records: `sync` shows (and with --apply writes) the documents the rules require."""
+    from collections import Counter
+    from .core import mdl
+    store = Store(p)
+    if a.op == "show":
+        inst, errs = mdl.required(store)
+        rows = [i for i in inst.values() if not a.rule or i.rule["id"] == a.rule]
+        for i in rows[:a.limit]:
+            print(f"{i.key:<42} {i.org} {i.kks} sheets {i.sheets:>4} h {i.hours:>7.0f}  {i.title[:70]}")
+        print(f"{len(rows)} instance(s), {sum(i.sheets for i in rows)} sheets, {sum(i.hours for i in rows):,.0f} h")
+        for e in errs:
+            print(f"ERROR: {e}")
+        return 1 if errs else 0
+    plan = mdl.plan_sync(store)
+    for e in plan.errors:
+        print(f"ERROR: {e}")
+    by = Counter((rec["discipline"], rec["originator"] if rec["originator"] in ("EPC", "IEC") else "supplier")
+                 for _, rec in plan.create)
+    print(f"create {len(plan.create)} document(s), {sum(r['sheets'] for _, r in plan.create)} sheets, "
+          f"{sum(r['weight'] for _, r in plan.create):,.0f} h; update {len(plan.update)}; orphans {len(plan.orphans)}")
+    for (disc, org), n in sorted(by.items()):
+        print(f"  + {disc:<16} {org:<9} {n}")
+    for no in plan.orphans:
+        print(f"  ORPHAN {no}: its rule instance no longer exists - cancel it or fix the rule")
+    if plan.dropped:
+        by = Counter((no.split("-")[4], x.split("-")[4]) for no, x in plan.dropped)
+        print(f"  inputs removed: {len(plan.dropped)} (" + ", ".join(f"{a}<-{b} {n}" for (a, b), n in sorted(by.items())) + ")")
+    loops = mdl.check_loops(store, plan)
+    if loops:
+        print(f"ERROR: input loop after sync: {', '.join(loops)}")
+        return 1
+    if plan.errors:
+        return 1
+    if not a.apply:
+        print("dry run - nothing written (use --apply --reason ...)")
+        return 0
+    if not a.reason:
+        raise StoreError("--apply needs --reason")
+    for no, rec in plan.create:
+        store.create("document", rec, a.reason)
+    for no, ins in plan.links:
+        store.update("document", no, {"inputs": ins}, a.reason)
+    for no, ch in plan.update:
+        store.update("document", no, ch, a.reason)
+    if a.cancel_orphans and plan.orphans:
+        gone = set(plan.orphans)
+        for no in plan.orphans:
+            store.update("document", no, {"status": "cancelled"}, a.reason)
+        for d in store.records("document"):
+            ins = d.get("inputs") or []
+            if gone & set(ins):
+                store.update("document", d["id"], {"inputs": [i for i in ins if i not in gone] or None}, a.reason)
+        print(f"cancelled {len(gone)} orphan(s) and removed them from the inputs of other documents")
+    print("applied")
+    return 0
+
+
 def cmd_engines(p: Project, a) -> int:
     from .engines import registry
     for name, e in registry().items():
@@ -444,6 +503,11 @@ def main(argv=None) -> int:
     s = sub.add_parser("kks", help="explain / check KKS tags and document numbers; --next ORG KKS DISC TYPE")
     s.add_argument("tags", nargs="*"); s.add_argument("--next", nargs=4, metavar=("ORG", "KKS", "DISC", "TYPE"))
 
+    mdlp = sub.add_parser("mdl", help="MDL rules: show instances, sync document records").add_subparsers(dest="op", required=True)
+    s = mdlp.add_parser("show"); s.add_argument("--rule"); s.add_argument("--limit", type=int, default=60)
+    s = mdlp.add_parser("sync"); s.add_argument("--apply", action="store_true"); s.add_argument("--reason")
+    s.add_argument("--cancel-orphans", action="store_true", help="cancel documents whose rule instance no longer exists")
+
     lib = sub.add_parser("lib", help="AVEVA class library").add_subparsers(dest="op", required=True)
     s = lib.add_parser("build"); s.add_argument("ttl"); s.add_argument("--reason", required=True)
     s = lib.add_parser("find"); s.add_argument("text"); s.add_argument("--root"); s.add_argument("--limit", type=int, default=30)
@@ -480,7 +544,7 @@ def main(argv=None) -> int:
         ap.error("reconcile needs <entity> <id> or --all")
     p = Project.locate()
     fn = {"status": cmd_status, "validate": cmd_validate, "db": cmd_db, "engines": cmd_engines, "lib": cmd_lib, "plan": cmd_plan,
-          "run": cmd_run, "deliver": cmd_deliver, "setup": cmd_setup, "kks": cmd_kks}[a.cmd]
+          "run": cmd_run, "deliver": cmd_deliver, "setup": cmd_setup, "kks": cmd_kks, "mdl": cmd_mdl}[a.cmd]
     try:
         return fn(p, a)
     except (StoreError, RuntimeError, ValueError, KeyError) as e:

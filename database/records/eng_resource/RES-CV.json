@@ -2,15 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T15:15:58.165027Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T15:15:58.165027Z",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:15:33.034356Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
-    "decision:DEC-EPCE-0007"
+    "decision:DEC-EPCE-0010"
   ],
   "discipline": "civil",
-  "fte": 5,
+  "fte": 30,
   "hours_per_day": 7.5,
-  "id": "RES-CV"
+  "id": "RES-CV",
+  "ramp_weeks": 12
 }

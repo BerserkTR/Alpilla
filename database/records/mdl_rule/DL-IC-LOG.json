@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.889158Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.264993Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.02"
+  ],
+  "discipline": "i_and_c",
+  "exclude": [
+    "00GBA",
+    "00GCA",
+    "00LDA",
+    "00PBA",
+    "00QEA",
+    "00QHA",
+    "00GNA",
+    "00GUA",
+    "00CJG"
+  ],
+  "hours_base": 16,
+  "hours_per_sheet": 8,
+  "id": "DL-IC-LOG",
+  "inputs": [
+    "DL-IC-CNR",
+    "DL-PR-PID",
+    "doc:ALP-EPC-00000-IC-RPT-0001"
+  ],
+  "max_sheets": 120,
+  "originator": "EPC",
+  "parties": [
+    "IEPC"
+  ],
+  "quantity": "q_logic_sheets",
+  "remarks": "Systems controlled by a package PLC / SIS: logic by the supplier (DL-V-LOG)",
+  "scope": "system",
+  "status": "agreed",
+  "title": "Logic diagrams - {name}",
+  "type_code": "LOG"
+}

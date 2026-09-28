@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.897286Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.257546Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.01"
+  ],
+  "discipline": "civil",
+  "ewp_disc": "CV",
+  "exclude": [
+    "00UPA",
+    "00UZA",
+    "00UZB",
+    "00UZC",
+    "00UZE"
+  ],
+  "hours_per_sheet": 50,
+  "id": "DL-CV-FND",
+  "inputs": [
+    "DL-CV-PIL",
+    "doc:ALP-EPC-00000-CV-CAL-0001",
+    "doc:ALP-EPC-00000-CV-RPT-0001",
+    "DL-PI-LAY@cwa"
+  ],
+  "originator": "EPC",
+  "quantity": "q_fnd_sheets",
+  "scope": "structure",
+  "status": "agreed",
+  "title": "Foundation and underground drawings - {name}",
+  "type_code": "FND"
+}

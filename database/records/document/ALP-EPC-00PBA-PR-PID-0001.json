@@ -2,11 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.903562Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.653010Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:05:57.914450Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-01.02",
+    "scope_item:DR-023",
+    "scope_item:SC-017"
+  ],
   "bdp": false,
   "discipline": "process",
   "doc_type": "diagram",
@@ -16,10 +21,11 @@
     "ALP-EPC-00PBA-PR-SDS-0001"
   ],
   "originator": "EPC",
-  "sheets": 2,
+  "rule": "DL-PR-PID|00PBA|1",
+  "sheets": 3,
   "status": "planned",
   "system": "00PBA",
   "title": "P&ID - Electro-chlorination",
   "type_code": "PID",
-  "weight": 100.0
+  "weight": 320
 }

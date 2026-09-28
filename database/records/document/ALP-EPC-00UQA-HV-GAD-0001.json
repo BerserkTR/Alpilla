@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.982550Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:57.966854Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "cwa": "CWA-08",
+  "discipline": "hvac",
+  "doc_type": "drawing",
+  "ewp": "EWP-08-CV-01",
+  "id": "ALP-EPC-00UQA-HV-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00UQA-CV-ARC-0001",
+    "ALP-EPC-00000-HV-DBR-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-HV-SRV|00UQA|1",
+  "sheets": 8,
+  "status": "planned",
+  "system": "00UQA",
+  "title": "Building services (plumbing, HVAC ducting, fire fighting) - Utility building",
+  "type_code": "GAD",
+  "weight": 200
+}

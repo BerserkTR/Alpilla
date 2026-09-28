@@ -1,0 +1,195 @@
+{
+  "entity": "mdl_rule",
+  "title": "MDL rule: which documents the project needs, per plant / system / structure / construction area / MR, with quantity basis, effort, inputs and links (engine mdl sync)",
+  "id_pattern": "^DL-[A-Z0-9-]+$",
+  "display": [
+    "type_code",
+    "scope",
+    "title"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "title template: {name} = scope title, {part} = part number"
+    },
+    "type_code": {
+      "type": "ref",
+      "to": "doc_type",
+      "required": true
+    },
+    "discipline": {
+      "type": "enum",
+      "values": [
+        "general",
+        "process",
+        "mechanical",
+        "piping",
+        "electrical",
+        "i_and_c",
+        "civil",
+        "structural",
+        "hvac",
+        "hse",
+        "commissioning",
+        "project_control"
+      ],
+      "required": true
+    },
+    "originator": {
+      "type": "enum",
+      "values": [
+        "EPC",
+        "IEC",
+        "SUPPLIER"
+      ],
+      "required": true,
+      "description": "SUPPLIER = supplier of the MR (IEC for iec_supply packages, else mr.supplier_code)"
+    },
+    "scope": {
+      "type": "enum",
+      "values": [
+        "plant",
+        "system",
+        "structure",
+        "cwa",
+        "mr",
+        "eqgroup"
+      ],
+      "required": true
+    },
+    "categories": {
+      "type": "list",
+      "description": "system scope: system categories the rule applies to"
+    },
+    "parties": {
+      "type": "list",
+      "description": "system / structure scope: design party of the system (IEPC, IEC)"
+    },
+    "systems": {
+      "type": "list",
+      "description": "explicit system / structure / CWA ids (restricts the scope)"
+    },
+    "exclude": {
+      "type": "list",
+      "description": "scope keys excluded"
+    },
+    "package_types": {
+      "type": "list",
+      "description": "mr scope: package types (iec_supply, equipment, bulk, subcontract)"
+    },
+    "mrs": {
+      "type": "list",
+      "description": "mr scope: explicit MR ids"
+    },
+    "quantity": {
+      "type": "string",
+      "description": "system q_ field (plant / cwa / mr scope: summed over the systems of the scope); empty = one sheet"
+    },
+    "per_sheet": {
+      "type": "number",
+      "min": 0,
+      "description": "quantity units per sheet (default 1)"
+    },
+    "min_sheets": {
+      "type": "integer",
+      "min": 0,
+      "description": "sheets when the quantity is small (default 1); the rule applies only where the quantity is > 0 unless min_sheets > 0 and quantity is empty"
+    },
+    "max_sheets": {
+      "type": "integer",
+      "min": 1,
+      "description": "sheets per document; larger quantities are split into parts"
+    },
+    "hours_base": {
+      "type": "number",
+      "unit": "h",
+      "min": 0
+    },
+    "hours_per_sheet": {
+      "type": "number",
+      "unit": "h",
+      "min": 0
+    },
+    "kks": {
+      "type": "string",
+      "description": "KKS part of the number for plant-scope rules (default 00000)"
+    },
+    "inputs": {
+      "type": "list",
+      "description": "rule ids (DL-..., optional @plant / @cwa / @system) or doc:<document id>"
+    },
+    "ewp_disc": {
+      "type": "string",
+      "description": "construction documents: discipline code of the CWP whose EWP the document belongs to"
+    },
+    "ewp_seq": {
+      "type": "integer",
+      "description": "CWP sequence number (default: highest of the discipline in the CWA)"
+    },
+    "mr": {
+      "type": "ref",
+      "to": "mr",
+      "description": "procurement link for system / plant scope documents"
+    },
+    "review": {
+      "type": "enum",
+      "values": [
+        "approval",
+        "review",
+        "information",
+        "internal"
+      ]
+    },
+    "bdp": {
+      "type": "boolean"
+    },
+    "po_weeks_ifr": {
+      "type": "number",
+      "unit": "weeks",
+      "description": "supplier documents: weeks after the PO (>= 0) or, when negative, weeks before the on-site date (ROS)"
+    },
+    "po_weeks_final": {
+      "type": "number",
+      "unit": "weeks",
+      "description": "supplier documents: weeks after the PO, or relative to the on-site date when po_weeks_ifr is negative"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "requirement",
+        "scope_item",
+        "permit",
+        "reference",
+        "decision",
+        "clarification",
+        "contract_clause"
+      ]
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "proposed",
+        "agreed",
+        "superseded"
+      ],
+      "required": true
+    },
+    "remarks": {
+      "type": "text"
+    },
+    "equipment_types": {
+      "type": "list",
+      "description": "eqgroup scope: equipment types (one document per system + MR + equipment type group)"
+    },
+    "supply": {
+      "type": "list",
+      "description": "eqgroup scope: supplying party of the equipment (e.g. IEPC)"
+    },
+    "cwa": {
+      "type": "ref",
+      "to": "cwa",
+      "description": "plant scope: construction area whose EWP the documents belong to"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.349151Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:17:56.539720Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "calculation",
+  "id": "ALP-M14-00GNA-ME-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00GNA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-014",
+  "originator": "M14",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "review",
+  "rule": "DL-V-CAL|MR-ME-014|1",
+  "sheets": 9,
+  "status": "planned",
+  "system": "00GNA",
+  "title": "Supplier design calculations - Waste water and sanitary treatment packages",
+  "type_code": "CAL",
+  "weight": 13
+}

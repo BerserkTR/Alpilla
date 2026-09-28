@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.381623Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:16:42.988904Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00EKA10",
+    "00EKA10AC001",
+    "00EKA10AC002",
+    "00EKA10AT001",
+    "00EKA10AT002",
+    "00EKA10BB001"
+  ],
+  "id": "ALP-M15-00EKA-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00EKA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-015",
+  "originator": "M15",
+  "po_weeks_final": 10,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-V-DSH|MR-ME-015|1",
+  "sheets": 14,
+  "status": "planned",
+  "system": "00EKA",
+  "title": "Supplier certified datasheets and performance curves - Gas receiving and metering station",
+  "type_code": "DSH",
+  "weight": 18
+}

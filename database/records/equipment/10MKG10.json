@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.067274Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:03:04.067274Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Equipment Package Skid",
+  "basis_refs": [
+    "source:SRC-EPCE-0009"
+  ],
+  "cwa": "CWA-01",
+  "cwp": "CWP-01-ME-01",
+  "description": "GT generator gas unit (H2/CO2)",
+  "equipment_type": "package",
+  "id": "10MKG10",
+  "mr": "MR-EL-101",
+  "quantity": 1,
+  "status": "preliminary",
+  "supply": "IEC",
+  "system": "10MKG"
+}

@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.012690Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.707648Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.393838Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-11.08"
+  ],
   "cwa": "CWA-12",
   "discipline": "electrical",
   "doc_type": "list",
@@ -18,9 +21,11 @@
     "ALP-EPC-00UZA-EL-ELY-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-EL-CBL|CWA-12|1",
+  "sheets": 6,
   "status": "planned",
   "system": "00UZA",
   "title": "Cable schedule and routing - Site-wide infrastructure",
   "type_code": "CBL",
-  "weight": 60.0
+  "weight": 32
 }

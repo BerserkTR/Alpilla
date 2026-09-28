@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.911876Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.759279Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-16.01"
+  ],
+  "discipline": "commissioning",
+  "doc_type": "report",
+  "id": "ALP-EPC-00BMA-CM-MDB-0001",
+  "inputs": [
+    "ALP-EPC-00BMA-CM-CMP-0001"
+  ],
+  "originator": "EPC",
+  "review": "information",
+  "rule": "DL-CM-TOD|00BMA|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00BMA",
+  "title": "System turnover dossier - Emergency LV switchgear",
+  "type_code": "MDB",
+  "weight": 16
+}

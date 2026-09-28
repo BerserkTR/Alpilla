@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:57.712083Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.273700Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-16.01"
+  ],
+  "discipline": "commissioning",
+  "hours_base": 8,
+  "hours_per_sheet": 2,
+  "id": "DL-V-CMP",
+  "inputs": [
+    "DL-MR-MRQ"
+  ],
+  "min_sheets": 1,
+  "originator": "SUPPLIER",
+  "package_types": [
+    "iec_supply"
+  ],
+  "per_sheet": 2,
+  "po_weeks_final": -8,
+  "po_weeks_ifr": -20,
+  "quantity": "q_pid_sheets",
+  "review": "approval",
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Supplier commissioning procedures - {name}",
+  "type_code": "CMP"
+}

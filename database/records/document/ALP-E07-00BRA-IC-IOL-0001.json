@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.552025Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.256074Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "i_and_c",
+  "doc_type": "list",
+  "id": "ALP-E07-00BRA-IC-IOL-0001",
+  "inputs": [
+    "ALP-EPC-00BRA-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-007",
+  "originator": "E07",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "review",
+  "rule": "DL-V-IOL|MR-EL-007|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00BRA",
+  "title": "Supplier I/O list, control philosophy and interface signals - UPS, batteries and DC systems",
+  "type_code": "IOL",
+  "weight": 5
+}

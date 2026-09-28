@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.193944Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.994846Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.03"
+  ],
+  "cwa": "CWA-08",
+  "discipline": "piping",
+  "doc_type": "drawing",
+  "ewp": "EWP-08-PI-01",
+  "id": "ALP-EPC-00QEA-PI-SUP-0001",
+  "inputs": [
+    "ALP-EPC-00QEA-PI-ISO-0001",
+    "ALP-EPC-00LBG-PI-STR-0001",
+    "ALP-EPC-00PGA-PI-STR-0001",
+    "ALP-EPC-00QHA-PI-STR-0001",
+    "ALP-EPC-00SGA-PI-STR-0001",
+    "ALP-EPC-10LAB-PI-STR-0001",
+    "ALP-EPC-10LAC-PI-STR-0001"
+  ],
+  "mr": "MR-PI-005",
+  "originator": "EPC",
+  "rule": "DL-PI-SUP|00QEA|1",
+  "sheets": 25,
+  "status": "planned",
+  "system": "00QEA",
+  "title": "Pipe support drawings - Compressed air",
+  "type_code": "SUP",
+  "weight": 150
+}

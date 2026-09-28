@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:15:52.398842Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:15:52.398842Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0011"
+  ],
+  "discipline": "structural",
+  "id": "BM-SS",
+  "originator": "EPC",
+  "remarks": "indicative range, engineering judgement",
+  "sheets_max": 600,
+  "sheets_min": 150
+}

@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.019640Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:12:57.987297Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "cwa": "CWA-05",
+  "discipline": "i_and_c",
+  "doc_type": "drawing",
+  "ewp": "EWP-05-IC-01",
+  "id": "ALP-EPC-00UPC-IC-HUP-0001",
+  "inputs": [
+    "ALP-EPC-00000-IC-LST-0001",
+    "ALP-EPC-00000-IC-SPC-0001"
+  ],
+  "mr": "MR-IC-010",
+  "originator": "EPC",
+  "rule": "DL-IC-HUP|CWA-05|1",
+  "sheets": 5,
+  "status": "planned",
+  "system": "00UPC",
+  "title": "Instrument hook-up drawings - CW pump house and onshore CW",
+  "type_code": "HUP",
+  "weight": 40
+}

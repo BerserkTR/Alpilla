@@ -2,11 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.865387Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.727499Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:05:57.925521Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-01.02",
+    "scope_item:DR-019",
+    "tie_in:IF-46"
+  ],
   "bdp": false,
   "discipline": "process",
   "doc_type": "diagram",
@@ -16,10 +21,11 @@
     "ALP-EPC-10LAF-PR-SDS-0001"
   ],
   "originator": "EPC",
-  "sheets": 2,
+  "rule": "DL-PR-PID|10LAF|1",
+  "sheets": 1,
   "status": "planned",
   "system": "10LAF",
   "title": "P&ID - Reheat attemperation spray water",
   "type_code": "PID",
-  "weight": 100.0
+  "weight": 120
 }

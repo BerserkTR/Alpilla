@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.417704Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.136478Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-E11-00000-ME-PRC-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-MRQ-0001"
+  ],
+  "mr": "MR-EL-011",
+  "originator": "E11",
+  "po_weeks_final": -6,
+  "po_weeks_ifr": -12,
+  "review": "review",
+  "rule": "DL-V-ERC|MR-EL-011|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Supplier installation and erection manual - Construction power supply (RMU, temporary distribution)",
+  "type_code": "PRC",
+  "weight": 6
+}

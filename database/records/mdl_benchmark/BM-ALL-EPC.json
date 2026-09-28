@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:15:52.400224Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:17:55.587741Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0011"
+  ],
+  "discipline": "all",
+  "hours_max": 320000,
+  "hours_min": 150000,
+  "id": "BM-ALL-EPC",
+  "originator": "EPC",
+  "remarks": "indicative range, engineering judgement; sheets and hours, not document numbers: the number count depends on the grouping convention (e.g. one number per system for instrument datasheets)",
+  "sheets_max": 20000,
+  "sheets_min": 8000
+}

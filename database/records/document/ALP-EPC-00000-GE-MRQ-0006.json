@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.113592Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.952861Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "other",
+  "id": "ALP-EPC-00000-GE-MRQ-0006",
+  "inputs": [
+    "ALP-EPC-00000-GE-SPC-0006"
+  ],
+  "mr": "MR-PI-005",
+  "originator": "EPC",
+  "rule": "DL-MR-MRQ|MR-PI-005|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Material requisition - Pipe supports, spring hangers and snubbers",
+  "type_code": "MRQ",
+  "weight": 24
+}

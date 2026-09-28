@@ -2,14 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.875886Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.597015Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:05:57.906385Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
+    "requirement:ER-12.01",
     "requirement:ER-12.05",
     "requirement:ER-12.06",
+    "scope_item:DR-037",
     "scope_item:SC-036"
   ],
   "bdp": false,
@@ -21,6 +23,8 @@
     "ALP-EPC-00000-IC-RPT-0002"
   ],
   "originator": "EPC",
+  "rule": "DL-IC-BLK|00CKA|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00CKA",
   "title": "System architecture - Historian, performance monitoring and operator training simulator",

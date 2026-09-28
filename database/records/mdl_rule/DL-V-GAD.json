@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.901094Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.275756Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "mechanical",
+  "hours_base": 4,
+  "hours_per_sheet": 1.5,
+  "id": "DL-V-GAD",
+  "inputs": [
+    "DL-MR-MRQ"
+  ],
+  "max_sheets": 60,
+  "originator": "SUPPLIER",
+  "package_types": [
+    "equipment",
+    "iec_supply"
+  ],
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "quantity": "q_equipment",
+  "review": "review",
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Supplier GA drawings - {name}",
+  "type_code": "GAD"
+}

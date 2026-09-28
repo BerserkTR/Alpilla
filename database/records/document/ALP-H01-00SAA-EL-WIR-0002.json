@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.392371Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:17:56.545024Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-03",
+  "discipline": "electrical",
+  "doc_type": "diagram",
+  "ewp": "EWP-03-HV-01",
+  "id": "ALP-H01-00SAA-EL-WIR-0002",
+  "inputs": [
+    "ALP-EPC-00SAA-HV-MRQ-0001"
+  ],
+  "mr": "MR-HV-001",
+  "originator": "H01",
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "review": "review",
+  "rule": "DL-V-ELD|MR-HV-001|2",
+  "sheets": 60,
+  "status": "planned",
+  "system": "00SAA",
+  "title": "Supplier electrical schematics and wiring diagrams - HVAC plant and equipment - part 2 of 2",
+  "type_code": "WIR",
+  "weight": 34.0
+}

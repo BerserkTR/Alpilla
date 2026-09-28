@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:05:18.223427Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:13:27.938515Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-12.06"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "specification",
+  "id": "ALP-EPC-00000-IC-SPC-0007",
+  "inputs": [
+    "ALP-EPC-00000-IC-DBR-0001"
+  ],
+  "mr": "MR-IC-009",
+  "originator": "EPC",
+  "remarks": "Duplicate of the OTS package specification ALP-EPC-00CKA-GE-SPC-0001 (MR-IC-009)",
+  "sheets": 1,
+  "status": "cancelled",
+  "title": "Operator training simulator specification",
+  "type_code": "SPC",
+  "weight": 120.0
+}

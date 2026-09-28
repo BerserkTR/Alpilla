@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.536262Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:16:43.012850Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "i_and_c",
+  "doc_type": "datasheet",
+  "equipment": [
+    "10LAC10AP001",
+    "10LAC10AP002"
+  ],
+  "id": "ALP-M01-10LAC-IC-DSH-0001",
+  "inputs": [
+    "ALP-EPC-10LAC-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-001",
+  "originator": "M01",
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "review": "review",
+  "rule": "DL-V-INL|MR-ME-001|1",
+  "sheets": 35,
+  "status": "planned",
+  "system": "10LAC",
+  "title": "Supplier instrument list and datasheets - Boiler feed pumps",
+  "type_code": "DSH",
+  "weight": 11.0
+}

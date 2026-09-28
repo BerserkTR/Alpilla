@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.423674Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.140412Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-I09-00CKA-ME-PRC-0001",
+  "inputs": [
+    "ALP-EPC-00CKA-GE-MRQ-0001"
+  ],
+  "mr": "MR-IC-009",
+  "originator": "I09",
+  "po_weeks_final": -6,
+  "po_weeks_ifr": -12,
+  "review": "review",
+  "rule": "DL-V-ERC|MR-IC-009|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00CKA",
+  "title": "Supplier installation and erection manual - Operator training simulator, historian and performance monitoring",
+  "type_code": "PRC",
+  "weight": 6
+}

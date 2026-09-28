@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.903617Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.276007Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "i_and_c",
+  "hours_base": 4,
+  "hours_per_sheet": 0.2,
+  "id": "DL-V-INL",
+  "inputs": [
+    "DL-MR-MRQ"
+  ],
+  "max_sheets": 150,
+  "originator": "SUPPLIER",
+  "package_types": [
+    "equipment",
+    "iec_supply"
+  ],
+  "per_sheet": 2,
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "quantity": "q_instruments",
+  "review": "review",
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Supplier instrument list and datasheets - {name}",
+  "type_code": "DSH"
+}

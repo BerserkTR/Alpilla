@@ -2,21 +2,27 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.941075Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.668454Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:12:58.085079Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "mechanical",
   "doc_type": "other",
   "id": "ALP-EPC-00QJA-ME-MRQ-0001",
   "inputs": [
     "ALP-EPC-00QJA-ME-DSH-0001",
     "ALP-EPC-00QJA-ME-SPC-0001",
-    "ALP-EPC-00QJB-ME-DSH-0001"
+    "ALP-EPC-00QJB-ME-DSH-0001",
+    "ALP-EPC-00QJA-ME-DSH-0002"
   ],
   "mr": "MR-ME-010",
   "originator": "EPC",
+  "rule": "DL-MR-MRQ|MR-ME-010|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00QJA",
   "title": "Material requisition - Nitrogen, hydrogen and CO2 supply",

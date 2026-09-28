@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.531820Z",
+    "created_by": "EPCE",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:17:56.580385Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "scope_item:DR-039",
+    "scope_item:SC-026"
+  ],
+  "cwa": "CWA-01",
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "equipment": [
+    "00SMA10",
+    "00SMA20",
+    "00SMA30",
+    "00SMA40",
+    "00SMA50",
+    "00SMA60"
+  ],
+  "ewp": "EWP-01-ME-01",
+  "id": "ALP-M21-00SMA-ME-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00SMA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-021",
+  "originator": "M21",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "review": "review",
+  "rule": "DL-V-GAD|MR-ME-021|1",
+  "sheets": 8,
+  "status": "planned",
+  "system": "00SMA",
+  "title": "Supplier GA drawings - EOT cranes",
+  "type_code": "GAD",
+  "weight": 16.0
+}

@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.066665Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:58.042778Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.02"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "diagram",
+  "id": "ALP-EPC-10LAC-IC-LOG-0001",
+  "inputs": [
+    "ALP-EPC-10LAC-IC-CNR-0001",
+    "ALP-EPC-10LAC-PR-PID-0001",
+    "ALP-EPC-00000-IC-RPT-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-IC-LOG|10LAC|1",
+  "sheets": 36,
+  "status": "planned",
+  "system": "10LAC",
+  "title": "Logic diagrams - Boiler feed pumps",
+  "type_code": "LOG",
+  "weight": 304
+}

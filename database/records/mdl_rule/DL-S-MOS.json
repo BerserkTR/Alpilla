@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.908367Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.271781Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.05"
+  ],
+  "discipline": "general",
+  "hours_base": 8,
+  "id": "DL-S-MOS",
+  "inputs": [
+    "DL-MR-MRQ"
+  ],
+  "max_sheets": 1,
+  "min_sheets": 6,
+  "originator": "SUPPLIER",
+  "package_types": [
+    "subcontract"
+  ],
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Subcontractor method statements - {name}",
+  "type_code": "MOS"
+}

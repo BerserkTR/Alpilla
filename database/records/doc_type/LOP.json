@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:49:40.114505Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T14:49:40.114505Z",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:09:07.393633Z",
     "updated_by": "EPCE"
   },
   "category": "diagram",
@@ -17,6 +17,7 @@
   ],
   "prep_days": 15,
   "procurement": false,
+  "progressive_share": 0.5,
   "review": "information",
   "title": "Loop / connection diagram",
   "update_days": 5

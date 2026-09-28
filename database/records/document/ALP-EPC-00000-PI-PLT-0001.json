@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.830790Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.578479Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:05:57.900644Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "tie_in:TP-A2"
+  ],
   "bdp": true,
   "discipline": "piping",
   "doc_type": "layout",

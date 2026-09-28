@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.585526Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.283571Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-M03-00PAC-ME-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00PAC-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-003",
+  "originator": "M03",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "approval",
+  "rule": "DL-V-ITP|MR-ME-003|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00PAC",
+  "title": "Supplier inspection and test plan - CW pumps",
+  "type_code": "ITP",
+  "weight": 6
+}

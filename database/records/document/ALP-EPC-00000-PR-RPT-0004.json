@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:05:18.214338Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:05:19.093724Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-01.03"
+  ],
+  "discipline": "process",
+  "doc_type": "report",
+  "id": "ALP-EPC-00000-PR-RPT-0004",
+  "inputs": [
+    "ALP-EPC-00000-PR-STU-0002"
+  ],
+  "originator": "EPC",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Equipment sparing and redundancy philosophy",
+  "type_code": "RPT",
+  "weight": 40.0
+}

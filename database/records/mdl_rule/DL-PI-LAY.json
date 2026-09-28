@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.896070Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.268686Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "discipline": "piping",
+  "hours_per_sheet": 40,
+  "id": "DL-PI-LAY",
+  "inputs": [
+    "doc:ALP-EPC-00000-PI-PLT-0001"
+  ],
+  "min_sheets": 2,
+  "originator": "EPC",
+  "per_sheet": 12,
+  "quantity": "q_equipment",
+  "scope": "cwa",
+  "status": "agreed",
+  "title": "Equipment layout - {name}",
+  "type_code": "LAY"
+}

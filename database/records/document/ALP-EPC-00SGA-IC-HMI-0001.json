@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.011802Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.868458Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.02"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "diagram",
+  "id": "ALP-EPC-00SGA-IC-HMI-0001",
+  "inputs": [
+    "ALP-EPC-00SGA-PR-PID-0001",
+    "ALP-EPC-00SGA-IC-CNR-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-IC-HMI|00SGA|1",
+  "sheets": 6,
+  "status": "planned",
+  "system": "00SGA",
+  "title": "Operator displays (HMI graphics) - Fire water system",
+  "type_code": "HMI",
+  "weight": 80
+}

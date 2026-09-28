@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.616288Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.308535Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "permit:PMT-016",
+    "requirement:ER-15.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "report",
+  "id": "ALP-I10-00000-ME-MDB-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-MRQ-0003"
+  ],
+  "mr": "MR-IC-010",
+  "originator": "I10",
+  "po_weeks_final": 6,
+  "po_weeks_ifr": -2,
+  "review": "information",
+  "rule": "DL-V-MDB|MR-IC-010|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Manufacturing record book and conformity certificates - Instrument installation materials (tubing, fittings, junction boxes, supports)",
+  "type_code": "MDB",
+  "weight": 6
+}

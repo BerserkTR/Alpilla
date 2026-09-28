@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.154242Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.970731Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "report",
+  "id": "ALP-EPC-00EKA-GE-RPT-0001",
+  "inputs": [
+    "ALP-EPC-00EKA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-015",
+  "originator": "EPC",
+  "review": "internal",
+  "rule": "DL-MR-TBE|MR-ME-015|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00EKA",
+  "title": "Technical bid evaluation - Gas receiving and metering station",
+  "type_code": "RPT",
+  "weight": 40
+}

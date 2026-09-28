@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:02:56.198352Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:19.577040Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-036"
+  ],
+  "award_days": 10,
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "bid_days": 25,
+  "cwps": [
+    "CWP-01-PI-01",
+    "CWP-02-PI-01",
+    "CWP-08-PI-01"
+  ],
+  "discipline": "piping",
+  "id": "MR-PI-006",
+  "manufacture_weeks": 16,
+  "package_type": "bulk",
+  "status": "agreed",
+  "supplier_code": "P06",
+  "title": "Piping specialty items (strainers, steam traps, expansion joints, sight glasses)",
+  "transport_weeks": 3,
+  "vdr_weeks": 6
+}

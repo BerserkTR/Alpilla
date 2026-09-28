@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.901995Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.273146Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "mechanical",
+  "hours_base": 4,
+  "hours_per_sheet": 1,
+  "id": "DL-V-CAL",
+  "inputs": [
+    "DL-MR-MRQ"
+  ],
+  "originator": "SUPPLIER",
+  "package_types": [
+    "equipment",
+    "iec_supply"
+  ],
+  "per_sheet": 3,
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "quantity": "q_equipment",
+  "review": "review",
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Supplier design calculations - {name}",
+  "type_code": "CAL"
+}

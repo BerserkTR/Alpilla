@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.453658Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.162609Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.03"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-M04-00PAA-ME-TST-0001",
+  "inputs": [
+    "ALP-EPC-00PAA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-004",
+  "originator": "M04",
+  "po_weeks_final": -10,
+  "po_weeks_ifr": -16,
+  "review": "approval",
+  "rule": "DL-V-FAT|MR-ME-004|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00PAA",
+  "title": "Factory acceptance test procedure - Travelling band screens and trash rakes",
+  "type_code": "TST",
+  "weight": 8
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:02:55.184902Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:02:56.554724Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "civil_structural",
+  "cwas": [
+    "CWA-12"
+  ],
+  "id": "00UZE",
+  "q_arch_sheets": 0,
+  "q_basis": "estimate",
+  "q_fnd_sheets": 20,
+  "q_pile_sheets": 0,
+  "q_rebar_sheets": 10,
+  "q_remarks": "Estimated per DEC-EPCE-0008; replaced by register counts as the P&IDs and models develop",
+  "q_services_sheets": 0,
+  "q_steel_sheets": 0,
+  "scope": "IEPC",
+  "title": "Cable trenches and duct banks",
+  "unit_no": "00"
+}

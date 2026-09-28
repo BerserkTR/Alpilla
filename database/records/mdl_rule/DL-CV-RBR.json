@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.897888Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.258265Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.04"
+  ],
+  "discipline": "civil",
+  "ewp_disc": "CV",
+  "hours_per_sheet": 35,
+  "id": "DL-CV-RBR",
+  "inputs": [
+    "DL-CV-FND",
+    "DL-CV-CVL"
+  ],
+  "originator": "EPC",
+  "quantity": "q_rebar_sheets",
+  "scope": "structure",
+  "status": "agreed",
+  "title": "Reinforcement drawings - {name}",
+  "type_code": "RBR"
+}

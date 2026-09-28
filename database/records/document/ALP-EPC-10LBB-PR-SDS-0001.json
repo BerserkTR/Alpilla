@@ -2,12 +2,13 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.867037Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.753974Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:04:05.580244Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
+    "requirement:ER-01.02",
     "scope_item:DR-018"
   ],
   "discipline": "process",
@@ -18,10 +19,12 @@
     "ALP-EPC-00000-PR-PFD-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-PR-SDS|10LBB|1",
+  "sheets": 1,
   "status": "planned",
   "system": "10LBB",
   "tender": true,
   "title": "System design description - Hot reheat piping",
   "type_code": "SDS",
-  "weight": 60.0
+  "weight": 80
 }

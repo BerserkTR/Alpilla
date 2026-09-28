@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.966555Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:57.950816Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-11.07"
+  ],
+  "cwa": "CWA-11",
+  "discipline": "electrical",
+  "doc_type": "drawing",
+  "ewp": "EWP-11-EL-01",
+  "id": "ALP-EPC-00UYA-EL-ELY-0001",
+  "inputs": [
+    "ALP-EPC-00UYA-CV-FND-0001",
+    "ALP-EPC-00000-EL-STU-0003",
+    "ALP-EPC-00000-EL-STU-0004"
+  ],
+  "originator": "EPC",
+  "rule": "DL-EL-EAR|00UYA|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00UYA",
+  "title": "Earthing and lightning protection layouts - Administration building",
+  "type_code": "ELY",
+  "weight": 20
+}

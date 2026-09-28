@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.157925Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.973866Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "report",
+  "id": "ALP-EPC-00SGA-GE-RPT-0001",
+  "inputs": [
+    "ALP-EPC-00SGA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-020",
+  "originator": "EPC",
+  "review": "internal",
+  "rule": "DL-MR-TBE|MR-ME-020|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00SGA",
+  "title": "Technical bid evaluation - Fire pumps and fire protection systems",
+  "type_code": "RPT",
+  "weight": 40
+}

@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.388868Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:17:56.541476Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-01",
+  "discipline": "electrical",
+  "doc_type": "diagram",
+  "ewp": "EWP-01-EL-01",
+  "id": "ALP-E02-10BBT-EL-WIR-0001",
+  "inputs": [
+    "ALP-EPC-10BBT-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-002",
+  "originator": "E02",
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "review": "review",
+  "rule": "DL-V-ELD|MR-EL-002|1",
+  "sheets": 16,
+  "status": "planned",
+  "system": "10BBT",
+  "title": "Supplier electrical schematics and wiring diagrams - Unit auxiliary transformers",
+  "type_code": "WIR",
+  "weight": 12.0
+}

@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.961435Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:16:42.944264Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-11.04"
+  ],
+  "discipline": "electrical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00BRA20"
+  ],
+  "id": "ALP-EPC-00BRA-EL-DSH-0002",
+  "inputs": [
+    "ALP-EPC-00000-EL-SLD-0001",
+    "ALP-EPC-00BFA-EL-SPC-0001",
+    "ALP-EPC-00BRA-EL-SPC-0001"
+  ],
+  "mr": "MR-EL-005",
+  "originator": "EPC",
+  "rule": "DL-EL-DSH|00BRA:MR-EL-005:switchgear|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00BRA",
+  "title": "Datasheet - UPS: switchgear",
+  "type_code": "DSH",
+  "weight": 16
+}

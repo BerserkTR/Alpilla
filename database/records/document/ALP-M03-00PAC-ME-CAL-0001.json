@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.343070Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.082464Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "calculation",
+  "id": "ALP-M03-00PAC-ME-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00PAC-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-003",
+  "originator": "M03",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "review",
+  "rule": "DL-V-CAL|MR-ME-003|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00PAC",
+  "title": "Supplier design calculations - CW pumps",
+  "type_code": "CAL",
+  "weight": 5
+}

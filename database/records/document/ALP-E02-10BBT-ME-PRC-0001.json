@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.413480Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.133693Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-E02-10BBT-ME-PRC-0001",
+  "inputs": [
+    "ALP-EPC-10BBT-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-002",
+  "originator": "E02",
+  "po_weeks_final": -6,
+  "po_weeks_ifr": -12,
+  "review": "review",
+  "rule": "DL-V-ERC|MR-EL-002|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "10BBT",
+  "title": "Supplier installation and erection manual - Unit auxiliary transformers",
+  "type_code": "PRC",
+  "weight": 6
+}

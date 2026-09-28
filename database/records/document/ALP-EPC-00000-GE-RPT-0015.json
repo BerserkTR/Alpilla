@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.164959Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.978345Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "report",
+  "id": "ALP-EPC-00000-GE-RPT-0015",
+  "inputs": [
+    "ALP-EPC-00000-GE-MRQ-0008"
+  ],
+  "mr": "MR-PI-007",
+  "originator": "EPC",
+  "review": "internal",
+  "rule": "DL-MR-TBE|MR-PI-007|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Technical bid evaluation - Safety and relief valves",
+  "type_code": "RPT",
+  "weight": 40
+}

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.063585Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:04:01.614642Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:02:55.908538Z",
     "updated_by": "EPCE"
   },
   "agreed_by": [
@@ -23,6 +23,8 @@
   "manufacture_weeks": 16,
   "package_type": "subcontract",
   "status": "agreed",
+  "supplier_code": "C03",
+  "system": "00UPA",
   "title": "Marine works",
   "transport_weeks": 4,
   "vdr_weeks": 6

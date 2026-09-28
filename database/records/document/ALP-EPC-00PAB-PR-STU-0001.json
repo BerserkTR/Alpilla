@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:05:18.211033Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:05:19.091641Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-07.11"
+  ],
+  "discipline": "process",
+  "doc_type": "study",
+  "id": "ALP-EPC-00PAB-PR-STU-0001",
+  "inputs": [
+    "ALP-EPC-00PAB-ME-CAL-0001",
+    "ALP-EPC-00PAC-ME-CAL-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00PAB",
+  "title": "CW system hydraulic transient (surge / water hammer) analysis",
+  "type_code": "STU",
+  "weight": 160.0
+}

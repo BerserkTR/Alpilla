@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.451331Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.161444Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.03"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-M01-10LAC-ME-TST-0001",
+  "inputs": [
+    "ALP-EPC-10LAC-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-001",
+  "originator": "M01",
+  "po_weeks_final": -10,
+  "po_weeks_ifr": -16,
+  "review": "approval",
+  "rule": "DL-V-FAT|MR-ME-001|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "10LAC",
+  "title": "Factory acceptance test procedure - Boiler feed pumps",
+  "type_code": "TST",
+  "weight": 8
+}

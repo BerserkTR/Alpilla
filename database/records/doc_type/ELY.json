@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:49:59.874294Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T14:49:59.874294Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:17:52.536353Z",
     "updated_by": "EPCE"
   },
   "category": "drawing",
@@ -13,11 +13,18 @@
   "id": "ELY",
   "input_maturity": "IFR",
   "input_types": [
+    "ARC",
+    "CVL",
+    "ELY",
+    "FND",
     "LAY",
-    "SLD"
+    "PPL",
+    "SLD",
+    "STU"
   ],
   "prep_days": 20,
   "procurement": false,
+  "progressive_share": 0.2,
   "review": "review",
   "title": "Electrical layout (earthing, lighting, trays, equipment)",
   "update_days": 10

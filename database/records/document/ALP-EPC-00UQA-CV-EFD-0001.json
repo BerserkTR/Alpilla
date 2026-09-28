@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:11:40.555595Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:11:40.562819Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.01"
+  ],
+  "cwa": "CWA-08",
+  "discipline": "civil",
+  "doc_type": "drawing",
+  "ewp": "EWP-08-CV-01",
+  "id": "ALP-EPC-00UQA-CV-EFD-0001",
+  "inputs": [
+    "ALP-EPC-00UQA-CV-FND-0001",
+    "ALP-M01-10LAC-CV-CAL-0001",
+    "ALP-M07-00PGA-CV-CAL-0001",
+    "ALP-M08-00QEA-CV-CAL-0001",
+    "ALP-M09-00QHA-CV-CAL-0001",
+    "ALP-M18-10HSB-CV-CAL-0001",
+    "ALP-M20-00SGA-CV-CAL-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-CV-EFD|00UQA|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00UQA",
+  "title": "Equipment foundation drawings - Utility building",
+  "type_code": "EFD",
+  "weight": 100
+}

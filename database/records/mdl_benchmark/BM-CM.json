@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:15:52.399802Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:15:52.399802Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0011"
+  ],
+  "discipline": "commissioning",
+  "docs_max": 400,
+  "docs_min": 150,
+  "id": "BM-CM",
+  "originator": "EPC",
+  "remarks": "indicative range, engineering judgement"
+}

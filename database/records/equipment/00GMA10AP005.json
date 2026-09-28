@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.017072Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:17:53.280952Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Centrifugal Pump",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "cwa": "CWA-12",
+  "cwp": "CWP-12-EL-01",
+  "description": "Chemical drain sump pump - water treatment",
+  "equipment_type": "pump",
+  "id": "00GMA10AP005",
+  "mr": "MR-ME-014",
+  "quantity": 1,
+  "rated_power": 7.5,
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00GMA"
+}

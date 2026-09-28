@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.176288Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:58.100868Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "discipline": "piping",
+  "doc_type": "calculation",
+  "id": "ALP-EPC-10LAC-PI-STR-0001",
+  "inputs": [
+    "ALP-EPC-00UQA-PI-PPL-0001",
+    "ALP-EPC-00UQA-PI-PPL-0002",
+    "ALP-EPC-00UQA-PI-PPL-0003",
+    "ALP-EPC-00000-PI-RPT-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-PI-STR|10LAC|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "10LAC",
+  "title": "Pipe stress analysis - Boiler feed pumps",
+  "type_code": "STR",
+  "weight": 140
+}

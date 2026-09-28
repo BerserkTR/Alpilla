@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.057399Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:04:01.624231Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:02:55.918804Z",
     "updated_by": "EPCE"
   },
   "agreed_by": [
@@ -23,6 +23,8 @@
   "manufacture_weeks": 12,
   "package_type": "subcontract",
   "status": "agreed",
+  "supplier_code": "M17",
+  "system": "00EGB",
   "title": "LDO storage tanks (field-erected, API 650)",
   "transport_weeks": 2,
   "vdr_weeks": 6

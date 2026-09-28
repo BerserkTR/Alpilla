@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.703908Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.369961Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-17.06"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "list",
+  "id": "ALP-M15-00EKA-ME-LST-0001",
+  "inputs": [
+    "ALP-EPC-00EKA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-015",
+  "originator": "M15",
+  "po_weeks_final": 20,
+  "po_weeks_ifr": 12,
+  "review": "review",
+  "rule": "DL-V-SPL|MR-ME-015|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00EKA",
+  "title": "Spare parts and special tools lists - Gas receiving and metering station",
+  "type_code": "LST",
+  "weight": 6
+}

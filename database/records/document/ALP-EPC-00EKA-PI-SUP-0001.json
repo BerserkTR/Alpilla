@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.180897Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.987105Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.03"
+  ],
+  "cwa": "CWA-09",
+  "discipline": "piping",
+  "doc_type": "drawing",
+  "ewp": "EWP-09-PI-01",
+  "id": "ALP-EPC-00EKA-PI-SUP-0001",
+  "inputs": [
+    "ALP-EPC-00EKA-PI-ISO-0001",
+    "ALP-EPC-00EKA-PI-STR-0001"
+  ],
+  "mr": "MR-PI-005",
+  "originator": "EPC",
+  "rule": "DL-PI-SUP|00EKA|1",
+  "sheets": 38,
+  "status": "planned",
+  "system": "00EKA",
+  "title": "Pipe support drawings - Gas receiving, filtration and fiscal metering station",
+  "type_code": "SUP",
+  "weight": 228
+}

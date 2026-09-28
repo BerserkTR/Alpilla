@@ -2,12 +2,13 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.046444Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.688639Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.377434Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
+    "requirement:ER-13.02",
     "scope_item:SC-041"
   ],
   "cwa": "CWA-11",
@@ -20,10 +21,11 @@
     "ALP-EPC-00UCA-PI-LAY-0001"
   ],
   "originator": "EPC",
-  "sheets": 6,
+  "rule": "DL-CV-ARC|00UCA|1",
+  "sheets": 16,
   "status": "planned",
   "system": "00UCA",
   "title": "Architectural drawings - Control building",
   "type_code": "ARC",
-  "weight": 90.0
+  "weight": 560
 }

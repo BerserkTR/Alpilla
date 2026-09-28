@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.070893Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:03:04.070893Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Centrifugal Pump",
+  "basis_refs": [
+    "source:SRC-EPCE-0009"
+  ],
+  "cwa": "CWA-02",
+  "cwp": "CWP-02-ME-01",
+  "description": "Condenser vacuum pump B",
+  "equipment_type": "pump",
+  "id": "20MAJ10AP002",
+  "mr": "MR-ME-103",
+  "quantity": 1,
+  "status": "preliminary",
+  "supply": "IEC",
+  "system": "20MAJ"
+}

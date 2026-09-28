@@ -9,6 +9,9 @@ requires (doc_type.input_maturity: IFR or IFC) and not before the data date; the
 Owner review = 10 working days (14 calendar days, ER-17.01), 15 for Basic Design Package documents (21 days).
 Supplier documents (originator not EPC) keep their committed planned dates (VDRL). Issued revisions replace the dates.
 Tender-stage documents (document.tender) exist from the bid design: first issue at the data date (NTP), then review.
+Supplier documents without committed dates are timed from their MR: po_weeks_ifr / po_weeks_final weeks after the PO
+(PO = requisition IFC + bid + award, or the fixed PO date), or before the on-site date when negative; they use no EPC
+capacity and are inputs of the EPC documents that need the vendor data (e.g. foundations need the foundation loads).
 
 Resource levelling (when eng_resource records exist): each EPC document needs its hours (document.weight) from the
 capacity of its discipline (fte x hours_per_day per working day) and cannot be done faster than its nominal preparation
@@ -16,7 +19,9 @@ time. Documents are scheduled in priority order of their latest start, which is 
 (EWP: CWP start - lead; requisition: PO date needed for the delivery on site) through the input network; a document
 whose start is delayed by its discipline's capacity has the driver 'capacity <discipline>'.
 
-AWP: an EWP is ready when its last document is IFC; it is needed `ewp_lead_days` before its CWP starts (CPM early start).
+AWP: an EWP is needed `ewp_lead_days` before its CWP starts (CPM early start) for its first IWPs; documents of progressive
+types (doc_type.progressive_share, e.g. isometrics, supports, loop diagrams) are needed later, at CWP start - lead + share x
+CWP duration. EWP float = the smallest float of its documents; ready = the date its last document is IFC.
 A PWP (MR) is issued when its requisition is issued (MRQ IFC); PO = issue + bid_days + award_days (or the fixed PO date);
 vendor data = PO + vdr_weeks; on site (ROS) = PO + manufacture + transport; needed at the earliest start of its CWPs.
 All durations in working days of the project calendar."""
@@ -91,6 +96,8 @@ def _topo(docs: dict) -> list[str]:
 
 
 def _prep(d: DocT, t: dict) -> int:
+    if d.rec.get("duration"):
+        return d.rec["duration"]
     sheets = d.rec.get("sheets") or 1
     return round(t.get("prep_days", 10) * min(2.0, 1 + 0.05 * (sheets - 1)))
 
@@ -141,10 +148,17 @@ def compute(store) -> Result:
     res = Result(cal, dd, docs, {})
     res.order = _topo(docs)
     try:
-        res.capacity = {r["discipline"]: r["fte"] * (r.get("hours_per_day") or HOURS_PER_DAY)
-                        for r in store.records("eng_resource")}
+        res_recs = store.records("eng_resource")
     except Exception:           # schema not present in older databases
-        res.capacity = {}
+        res_recs = []
+    res.capacity = {r["discipline"]: r["fte"] * (r.get("hours_per_day") or HOURS_PER_DAY) for r in res_recs}
+    ramp = {r["discipline"]: 5 * (r.get("ramp_weeks") or 0) for r in res_recs}
+
+    def cap_on(disc, day):
+        c, rw = res.capacity[disc], ramp.get(disc, 0)
+        if rw <= 0 or day - dd >= rw:
+            return c
+        return c * (0.3 + 0.7 * max(0, day - dd) / rw)
 
     # construction schedule (CPM) first: it gives the need dates
     try:
@@ -161,9 +175,54 @@ def compute(store) -> Result:
         a = res.acts.get(c.get("activity"))
         return a.es if a else None
 
+    def cwp_dur(cid):
+        c = cwps.get(cid, {})
+        a = res.acts.get(c.get("activity"))
+        return (a.ef - a.es) if a else 0
+
+    def doc_need(rec):
+        """Date a construction document is needed: CWP start - lead + progressive share x CWP duration."""
+        e = ewp_recs.get(rec.get("ewp"))
+        if not e or cwp_start(e["cwp"]) is None:
+            return None
+        share = types.get(rec.get("type_code"), {}).get("progressive_share") or 0
+        return cwp_start(e["cwp"]) - (cwps.get(e["cwp"], {}).get("ewp_lead_days") or 20) + round(share * cwp_dur(e["cwp"]))
+
     def mr_need(m):
-        starts = [(cwp_start(c), c) for c in m.get("cwps", []) if cwp_start(c) is not None]
+        lag = m.get("need_lag_days") or 0
+        starts = [(cwp_start(c) + lag, c) for c in m.get("cwps", []) if cwp_start(c) is not None]
         return min(starts) if starts else (None, None)
+
+    by_mr_all: dict[str, list] = defaultdict(list)
+    for d in docs.values():
+        if d.rec.get("mr"):
+            by_mr_all[d.rec["mr"]].append(d)
+
+    def po_ros(mid):
+        """(PO, on-site) working-day indices of an MR from its requisition (computed so far) or its fixed PO date."""
+        m = mr_recs.get(mid, {})
+        if m.get("po_date"):
+            po = cal.index(date.fromisoformat(m["po_date"]))
+        else:
+            ds = by_mr_all.get(mid, [])
+            mrq = [x for x in ds if x.rec.get("type_code") == "MRQ"]
+            issue = max((x.ifc for x in mrq), default=dd)
+            po = issue + (m.get("bid_days") or 0) + (m.get("award_days") or 0)
+        return po, po + round(5 * ((m.get("manufacture_weeks") or 0) + (m.get("transport_weeks") or 0)))
+
+    def supplier_dates(d) -> bool:
+        """Supplier document timed from its MR: weeks after the PO, or before the on-site date when negative."""
+        r = d.rec
+        if r.get("originator", "EPC") == "EPC" or r.get("po_weeks_ifr") is None or not r.get("mr"):
+            return False
+        po, ros = po_ros(r["mr"])
+        w1, w2 = r["po_weeks_ifr"], r.get("po_weeks_final", r["po_weeks_ifr"])
+        base = po if w1 >= 0 else ros
+        d.fixed, d.driver = True, f"PO {r['mr']}"
+        d.ifr = max(dd, base + round(5 * w1))
+        d.ifc = max(d.ifr, base + round(5 * w2))
+        d.start = max(dd, d.ifr - types.get(r.get("type_code"), {}).get("prep_days", 10))
+        return True
 
     # 1. fixed documents: supplier (VDRL), tender stage, already issued first revision
     free = []
@@ -193,9 +252,9 @@ def compute(store) -> Result:
     late_ifc: dict[str, int] = {}
     for k, d in docs.items():
         need = NO_NEED
-        e = ewp_recs.get(d.rec.get("ewp"))
-        if e and cwp_start(e["cwp"]) is not None:
-            need = cwp_start(e["cwp"]) - (cwps.get(e["cwp"], {}).get("ewp_lead_days") or 20)
+        dn = doc_need(d.rec)
+        if dn is not None:
+            need = dn
         m = mr_recs.get(d.rec.get("mr"))
         if m and not m.get("po_date") and d.rec.get("type_code") == "MRQ":
             n, _ = mr_need(m)
@@ -222,6 +281,8 @@ def compute(store) -> Result:
     if not res.levelled:
         for k in free:
             d = docs[k]
+            if supplier_dates(d):
+                continue
             t = types.get(d.rec.get("type_code"), {})
             d.start, d.driver = _input_ready(d, docs, t, dd)
             d.ifr = d.start + _prep(d, t)
@@ -235,6 +296,13 @@ def compute(store) -> Result:
             _, k = heapq.heappop(heap)
             d = docs[k]
             t = types.get(d.rec.get("type_code"), {})
+            if supplier_dates(d):
+                for s_ in succ[k]:
+                    if s_ in waiting:
+                        waiting[s_] -= 1
+                        if waiting[s_] == 0:
+                            heapq.heappush(heap, (docs[s_].late_start, s_))
+                continue
             est, driver = _input_ready(d, docs, t, dd)
             prep = _prep(d, t)
             disc = d.rec.get("discipline")
@@ -246,10 +314,12 @@ def compute(store) -> Result:
                 rate = hours / max(prep, 1)
                 rem, day, first = hours, est, None
                 book = left[disc]
+                floor = min(rate, HOURS_PER_DAY / 2)            # no work on a day with less than half a person free
                 while rem > 1e-6 and day < est + HORIZON:
-                    use = min(rem, book.get(day, cap), rate)
-                    if use > 1e-9:
-                        book[day] = book.get(day, cap) - use
+                    avail = book.get(day, cap_on(disc, day))
+                    use = min(rem, avail, rate)
+                    if use >= min(floor, rem) - 1e-9 and use > 1e-9:
+                        book[day] = avail - use
                         d.work[day] = use
                         rem -= use
                         first = day if first is None else first
@@ -293,11 +363,15 @@ def compute(store) -> Result:
         need = None if s is None else s - (c.get("ewp_lead_days") or 20)
         last = max(ds, key=lambda d: d.ifc) if ds else None
         ready = last.ifc if last else None
-        vendor = [(res.mrs[m]["vdr"], m) for m in res.mrs if e["cwp"] in mr_recs[m].get("cwps", [])]
-        vd = max(vendor) if vendor else (None, None)
+        fl = [((doc_need(d.rec) or need) - d.ifc, d.id) for d in ds] if need is not None else []
+        worst = min(fl) if fl else (None, None)
+        vendor = [(res.mrs[m]["vdr"] - (mr_recs[m].get("need_lag_days") or 0), res.mrs[m]["vdr"], m) for m in res.mrs
+                  if e["cwp"] in mr_recs[m].get("cwps", [])]       # data of late-installed materials is needed later
+        worst_v = max(vendor) if vendor else None
+        vd = (worst_v[1], worst_v[2]) if worst_v else (None, None)
         res.ewps[e["id"]] = {"cwp": e["cwp"], "cwa": c.get("cwa"), "docs": [d.id for d in ds], "ready": ready,
-                             "driver": last.id if last else None, "need": need, "cwp_start": s,
-                             "float": None if (need is None or ready is None) else need - ready,
+                             "driver": worst[1] or (last.id if last else None), "need": need, "cwp_start": s,
+                             "float": worst[0],
                              "vendor_data": vd[0], "vendor_mr": vd[1],
-                             "vendor_float": None if (need is None or vd[0] is None) else need - vd[0]}
+                             "vendor_float": None if (need is None or worst_v is None) else need - worst_v[0]}
     return res

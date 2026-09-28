@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:02:54.469030Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:17:52.539216Z",
+    "updated_by": "EPCE"
+  },
+  "category": "procedure",
+  "construction": false,
+  "dcc": "Q",
+  "id": "TST",
+  "input_maturity": "IFR",
+  "input_types": [
+    "DBR",
+    "ITP",
+    "RPT",
+    "SPC"
+  ],
+  "prep_days": 15,
+  "procurement": false,
+  "review": "approval",
+  "title": "Test procedure (FAT, SAT, site and performance tests)",
+  "update_days": 10
+}

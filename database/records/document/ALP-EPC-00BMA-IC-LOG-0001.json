@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.046825Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:58.020090Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.02"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "diagram",
+  "id": "ALP-EPC-00BMA-IC-LOG-0001",
+  "inputs": [
+    "ALP-EPC-00SAA-IC-CNR-0001",
+    "ALP-EPC-00SAA-HV-PID-0001",
+    "ALP-EPC-00000-IC-RPT-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-IC-LOG|00BMA|1",
+  "sheets": 15,
+  "status": "planned",
+  "system": "00BMA",
+  "title": "Logic diagrams - Emergency LV switchgear",
+  "type_code": "LOG",
+  "weight": 136
+}

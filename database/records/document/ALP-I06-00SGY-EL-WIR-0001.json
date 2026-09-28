@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.394728Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:17:56.546373Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-11",
+  "discipline": "electrical",
+  "doc_type": "diagram",
+  "ewp": "EWP-11-IC-01",
+  "id": "ALP-I06-00SGY-EL-WIR-0001",
+  "inputs": [
+    "ALP-EPC-00SGY-GE-MRQ-0001"
+  ],
+  "mr": "MR-IC-006",
+  "originator": "I06",
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "review": "review",
+  "rule": "DL-V-ELD|MR-IC-006|1",
+  "sheets": 8,
+  "status": "planned",
+  "system": "00SGY",
+  "title": "Supplier electrical schematics and wiring diagrams - Fire detection and alarm system",
+  "type_code": "WIR",
+  "weight": 8.0
+}

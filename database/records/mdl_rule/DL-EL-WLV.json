@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.893684Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.260267Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.04"
+  ],
+  "cwa": "CWA-03",
+  "discipline": "electrical",
+  "ewp_disc": "EL",
+  "hours_base": 20,
+  "hours_per_sheet": 3,
+  "id": "DL-EL-WLV",
+  "inputs": [
+    "doc:ALP-EPC-00BFA-EL-SLD-0001",
+    "doc:ALP-EPC-00000-EL-LST-0001"
+  ],
+  "kks": "00BFA",
+  "max_sheets": 100,
+  "originator": "EPC",
+  "per_sheet": 0.5,
+  "quantity": "q_lv_consumers",
+  "scope": "plant",
+  "status": "agreed",
+  "title": "LV schematic and wiring diagrams",
+  "type_code": "WIR"
+}

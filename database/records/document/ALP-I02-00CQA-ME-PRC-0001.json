@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.421194Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.138665Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-I02-00CQA-ME-PRC-0001",
+  "inputs": [
+    "ALP-EPC-00CQA-IC-MRQ-0001"
+  ],
+  "mr": "MR-IC-002",
+  "originator": "I02",
+  "po_weeks_final": -6,
+  "po_weeks_ifr": -12,
+  "review": "review",
+  "rule": "DL-V-ERC|MR-IC-002|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00CQA",
+  "title": "Supplier installation and erection manual - Continuous emission monitoring system",
+  "type_code": "PRC",
+  "weight": 6
+}

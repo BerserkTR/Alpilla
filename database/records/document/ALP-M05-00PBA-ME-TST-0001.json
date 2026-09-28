@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.454407Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.163020Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.03"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-M05-00PBA-ME-TST-0001",
+  "inputs": [
+    "ALP-EPC-00PBA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-005",
+  "originator": "M05",
+  "po_weeks_final": -10,
+  "po_weeks_ifr": -16,
+  "review": "approval",
+  "rule": "DL-V-FAT|MR-ME-005|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00PBA",
+  "title": "Factory acceptance test procedure - Electro-chlorination package",
+  "type_code": "TST",
+  "weight": 8
+}

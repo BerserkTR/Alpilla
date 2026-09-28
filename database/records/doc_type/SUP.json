@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:02:54.474936Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:09:06.740131Z",
+    "updated_by": "EPCE"
+  },
+  "category": "drawing",
+  "construction": true,
+  "dcc": "L",
+  "id": "SUP",
+  "input_maturity": "IFC",
+  "input_types": [
+    "ISO",
+    "STR"
+  ],
+  "prep_days": 15,
+  "procurement": false,
+  "progressive_share": 0.5,
+  "review": "information",
+  "title": "Pipe support drawings",
+  "update_days": 5
+}

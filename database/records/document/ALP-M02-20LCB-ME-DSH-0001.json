@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.370623Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:16:42.982855Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "20LCB10AP001",
+    "20LCB10AP002"
+  ],
+  "id": "ALP-M02-20LCB-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-20LCB-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-002",
+  "originator": "M02",
+  "po_weeks_final": 10,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-V-DSH|MR-ME-002|1",
+  "sheets": 3,
+  "status": "planned",
+  "system": "20LCB",
+  "title": "Supplier certified datasheets and performance curves - Condensate extraction pumps",
+  "type_code": "DSH",
+  "weight": 7
+}

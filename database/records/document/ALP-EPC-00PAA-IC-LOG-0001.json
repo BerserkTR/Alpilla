@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.056885Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:58.029602Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.02"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "diagram",
+  "id": "ALP-EPC-00PAA-IC-LOG-0001",
+  "inputs": [
+    "ALP-EPC-00PAA-IC-CNR-0001",
+    "ALP-EPC-00PAA-PR-PID-0001",
+    "ALP-EPC-00000-IC-RPT-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-IC-LOG|00PAA|1",
+  "sheets": 46,
+  "status": "planned",
+  "system": "00PAA",
+  "title": "Logic diagrams - CW intake, screens and outfall",
+  "type_code": "LOG",
+  "weight": 384
+}

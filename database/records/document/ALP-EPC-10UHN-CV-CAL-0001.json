@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.943552Z",
+    "created_by": "EPCE",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:15:03.214720Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-13.01"
+  ],
+  "discipline": "civil",
+  "doc_type": "calculation",
+  "id": "ALP-EPC-10UHN-CV-CAL-0001",
+  "inputs": [
+    "ALP-IEC-10MBA-CV-CAL-0001",
+    "ALP-IEC-10HAA-CV-CAL-0001",
+    "ALP-EPC-00000-CV-CAL-0001",
+    "ALP-EPC-00000-CV-RPT-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-CV-CAL|10UHN|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "10UHN",
+  "title": "Structural and foundation calculation - Stack foundation",
+  "type_code": "CAL",
+  "weight": 80
+}

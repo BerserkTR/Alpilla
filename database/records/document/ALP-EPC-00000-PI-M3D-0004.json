@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:05:18.202273Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:28:45.252443Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-01.10",
+    "requirement:ER-17.03"
+  ],
+  "discipline": "piping",
+  "doc_type": "model",
+  "duration": 60,
+  "id": "ALP-EPC-00000-PI-M3D-0004",
+  "inputs": [
+    "ALP-EPC-00000-PI-M3D-0003"
+  ],
+  "originator": "EPC",
+  "remarks": "As-built update and IFC4 export; the modelling effort is in the piping GA documents (DL-PI-PPL)",
+  "review": "review",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Plant 3D model (native) and IFC4 export - as-built",
+  "type_code": "M3D",
+  "weight": 1500.0
+}

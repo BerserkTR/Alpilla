@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.055177Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:03:04.055177Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Crane",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "cwa": "CWA-01",
+  "cwp": "CWP-01-ME-01",
+  "description": "BFP maintenance hoist 10 t",
+  "equipment_type": "crane",
+  "id": "00SMA50",
+  "mr": "MR-ME-021",
+  "quantity": 1,
+  "rated_power": 5.0,
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00SMA"
+}

@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:11:38.918729Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.257114Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.01"
+  ],
+  "discipline": "civil",
+  "ewp_disc": "CV",
+  "hours_per_sheet": 50,
+  "id": "DL-CV-EFD",
+  "inputs": [
+    "DL-CV-FND",
+    "DL-V-FDL@cwa"
+  ],
+  "originator": "EPC",
+  "per_sheet": 2,
+  "quantity": "q_fnd_sheets",
+  "scope": "structure",
+  "status": "agreed",
+  "systems": [
+    "10UMA",
+    "20UMB",
+    "00UBF",
+    "00UPC",
+    "00UGA",
+    "00UQA",
+    "00UEG",
+    "00UEK",
+    "00UBA",
+    "00UAC",
+    "10UHA",
+    "10UHN"
+  ],
+  "title": "Equipment foundation drawings - {name}",
+  "type_code": "EFD"
+}

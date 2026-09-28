@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.401933Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:17:56.552023Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-08",
+  "discipline": "electrical",
+  "doc_type": "diagram",
+  "ewp": "EWP-08-ME-01",
+  "id": "ALP-M08-00QEA-EL-WIR-0001",
+  "inputs": [
+    "ALP-EPC-00QEA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-008",
+  "originator": "M08",
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "review": "review",
+  "rule": "DL-V-ELD|MR-ME-008|1",
+  "sheets": 16,
+  "status": "planned",
+  "system": "00QEA",
+  "title": "Supplier electrical schematics and wiring diagrams - Air compressors and dryers",
+  "type_code": "WIR",
+  "weight": 12.0
+}

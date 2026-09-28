@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.144473Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.963663Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "report",
+  "id": "ALP-EPC-00000-GE-RPT-0008",
+  "inputs": [
+    "ALP-EPC-00000-GE-MRQ-0003"
+  ],
+  "mr": "MR-IC-010",
+  "originator": "EPC",
+  "review": "internal",
+  "rule": "DL-MR-TBE|MR-IC-010|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Technical bid evaluation - Instrument installation materials (tubing, fittings, junction boxes, supports)",
+  "type_code": "RPT",
+  "weight": 40
+}

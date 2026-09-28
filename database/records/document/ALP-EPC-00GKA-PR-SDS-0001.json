@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.888543Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.625700Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:04:05.569172Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
   "discipline": "process",
   "doc_type": "report",
   "id": "ALP-EPC-00GKA-PR-SDS-0001",
@@ -15,10 +18,12 @@
     "ALP-EPC-00000-PR-PFD-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-PR-SDS|00GKA|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00GKA",
   "tender": true,
   "title": "System design description - Potable water",
   "type_code": "SDS",
-  "weight": 60.0
+  "weight": 80
 }

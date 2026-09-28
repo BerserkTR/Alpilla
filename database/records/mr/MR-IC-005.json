@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.061686Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:04:01.619994Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:02:55.914014Z",
     "updated_by": "EPCE"
   },
   "agreed_by": [
@@ -25,6 +25,7 @@
   "manufacture_weeks": 30,
   "package_type": "bulk",
   "status": "agreed",
+  "supplier_code": "I05",
   "title": "Control valves",
   "transport_weeks": 4,
   "vdr_weeks": 6

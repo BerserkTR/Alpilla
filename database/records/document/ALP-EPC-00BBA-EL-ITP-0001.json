@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.961998Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.587364Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.471094Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "electrical",
   "doc_type": "procedure",
   "id": "ALP-EPC-00BBA-EL-ITP-0001",
@@ -15,6 +18,8 @@
   ],
   "mr": "MR-EL-003",
   "originator": "EPC",
+  "rule": "DL-MR-ITP|MR-EL-003|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00BBA",
   "title": "Inspection and test plan - MV switchgear 10.5 kV",

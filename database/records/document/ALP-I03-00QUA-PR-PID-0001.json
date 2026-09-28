@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.675244Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.344940Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "discipline": "process",
+  "doc_type": "diagram",
+  "id": "ALP-I03-00QUA-PR-PID-0001",
+  "inputs": [
+    "ALP-EPC-00QUA-IC-MRQ-0001"
+  ],
+  "mr": "MR-IC-003",
+  "originator": "I03",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "approval",
+  "rule": "DL-V-PID|MR-IC-003|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00QUA",
+  "title": "Supplier P&IDs - Steam/water analysis system",
+  "type_code": "PID",
+  "weight": 10
+}

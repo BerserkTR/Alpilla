@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.980432Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.552646Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:04:05.501350Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "civil",
   "doc_type": "specification",
   "id": "ALP-EPC-00000-CV-SPC-0003",
@@ -16,6 +19,8 @@
   ],
   "mr": "MR-CV-001",
   "originator": "EPC",
+  "rule": "DL-MR-SPC|MR-CV-001|1",
+  "sheets": 1,
   "status": "planned",
   "tender": true,
   "title": "Technical specification - Piling works",

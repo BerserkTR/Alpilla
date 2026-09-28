@@ -2,20 +2,26 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.969761Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.596296Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T17:13:53.088491Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "i_and_c",
   "doc_type": "specification",
   "id": "ALP-EPC-00CJA-IC-SPC-0001",
   "inputs": [
     "ALP-EPC-00000-IC-DBR-0001",
-    "ALP-EPC-00000-IC-IOL-0001"
+    "ALP-EPC-00000-IC-IOL-0001",
+    "ALP-EPC-00CJA-IC-BLK-0001"
   ],
   "mr": "MR-IC-001",
   "originator": "EPC",
+  "rule": "DL-MR-SPC|MR-IC-001|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00CJA",
   "tender": true,

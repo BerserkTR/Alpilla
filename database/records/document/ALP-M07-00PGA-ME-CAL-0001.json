@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.345564Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.083998Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "calculation",
+  "id": "ALP-M07-00PGA-ME-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00PGA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-007",
+  "originator": "M07",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "review",
+  "rule": "DL-V-CAL|MR-ME-007|1",
+  "sheets": 3,
+  "status": "planned",
+  "system": "00PGA",
+  "title": "Supplier design calculations - Closed cooling water heat exchangers, pumps, tank",
+  "type_code": "CAL",
+  "weight": 7
+}

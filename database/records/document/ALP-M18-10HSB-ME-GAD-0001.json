@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.529735Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:17:56.579268Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-08",
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "equipment": [
+    "10HSB10AP001",
+    "10HSB10AP002",
+    "10HSB10BB001",
+    "10HSB10BB002"
+  ],
+  "ewp": "EWP-08-ME-01",
+  "id": "ALP-M18-10HSB-ME-GAD-0001",
+  "inputs": [
+    "ALP-EPC-10HSB-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-018",
+  "originator": "M18",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "review": "review",
+  "rule": "DL-V-GAD|MR-ME-018|1",
+  "sheets": 8,
+  "status": "planned",
+  "system": "10HSB",
+  "title": "Supplier GA drawings - Aqueous ammonia storage and forwarding",
+  "type_code": "GAD",
+  "weight": 16.0
+}

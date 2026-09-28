@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.112969Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.952520Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "other",
+  "id": "ALP-EPC-00UZF-GE-MRQ-0001",
+  "inputs": [
+    "ALP-EPC-00UZF-GE-SPC-0001"
+  ],
+  "mr": "MR-ME-024",
+  "originator": "EPC",
+  "rule": "DL-MR-MRQ|MR-ME-024|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00UZF",
+  "title": "Material requisition - Heavy transport, barge landing and marine logistics (subcontract)",
+  "type_code": "MRQ",
+  "weight": 24
+}

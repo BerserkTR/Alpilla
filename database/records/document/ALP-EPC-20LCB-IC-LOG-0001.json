@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.070082Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:58.046751Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.02"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "diagram",
+  "id": "ALP-EPC-20LCB-IC-LOG-0001",
+  "inputs": [
+    "ALP-EPC-20LCB-IC-CNR-0001",
+    "ALP-EPC-20LCB-PR-PID-0001",
+    "ALP-EPC-00000-IC-RPT-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-IC-LOG|20LCB|1",
+  "sheets": 21,
+  "status": "planned",
+  "system": "20LCB",
+  "title": "Logic diagrams - Condensate extraction pumps",
+  "type_code": "LOG",
+  "weight": 184
+}

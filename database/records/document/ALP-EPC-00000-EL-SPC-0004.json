@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.968080Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.556927Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.505541Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "electrical",
   "doc_type": "specification",
   "id": "ALP-EPC-00000-EL-SPC-0004",
@@ -16,6 +19,8 @@
   ],
   "mr": "MR-EL-008",
   "originator": "EPC",
+  "rule": "DL-MR-SPC|MR-EL-008|1",
+  "sheets": 1,
   "status": "planned",
   "title": "Technical specification - Power and control cables",
   "type_code": "SPC",

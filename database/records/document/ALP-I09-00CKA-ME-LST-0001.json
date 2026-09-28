@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.695250Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.360638Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-17.06"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "list",
+  "id": "ALP-I09-00CKA-ME-LST-0001",
+  "inputs": [
+    "ALP-EPC-00CKA-GE-MRQ-0001"
+  ],
+  "mr": "MR-IC-009",
+  "originator": "I09",
+  "po_weeks_final": 20,
+  "po_weeks_ifr": 12,
+  "review": "review",
+  "rule": "DL-V-SPL|MR-IC-009|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00CKA",
+  "title": "Spare parts and special tools lists - Operator training simulator, historian and performance monitoring",
+  "type_code": "LST",
+  "weight": 6
+}

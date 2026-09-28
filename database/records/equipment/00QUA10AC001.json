@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.040809Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:03:04.040809Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Plate Heat Exchanger",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "cwa": "CWA-01",
+  "cwp": "CWP-01-ME-01",
+  "description": "Sample cooler rack",
+  "equipment_type": "heat exchanger",
+  "id": "00QUA10AC001",
+  "mr": "MR-IC-003",
+  "quantity": 1,
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00QUA"
+}

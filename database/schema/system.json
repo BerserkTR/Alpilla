@@ -73,6 +73,118 @@
     "cwas": {
       "type": "ref_list",
       "to": "cwa"
+    },
+    "q_pid_sheets": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of P&ID / flow diagram sheets; the MDL uses max(estimate, register count)"
+    },
+    "q_equipment": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of mechanical and electrical equipment items (tags); the MDL uses max(estimate, register count)"
+    },
+    "q_instruments": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of field instruments; the MDL uses max(estimate, register count)"
+    },
+    "q_loops": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of DCS / PLC loops; the MDL uses max(estimate, register count)"
+    },
+    "q_control_valves": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of control valves; the MDL uses max(estimate, register count)"
+    },
+    "q_relief_valves": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of safety / relief valves; the MDL uses max(estimate, register count)"
+    },
+    "q_lines": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of process lines; the MDL uses max(estimate, register count)"
+    },
+    "q_iso_sheets": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of isometric sheets; the MDL uses max(estimate, register count)"
+    },
+    "q_logic_sheets": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of logic diagram sheets (drives, valves, sequences, interlocks); the MDL uses max(estimate, register count)"
+    },
+    "q_stress_packages": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of pipe stress calculation packages; the MDL uses max(estimate, register count)"
+    },
+    "q_mv_consumers": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of MV consumers (motors, transformers); the MDL uses max(estimate, register count)"
+    },
+    "q_lv_consumers": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of LV consumers (motors, MOVs, heaters, distribution boards); the MDL uses max(estimate, register count)"
+    },
+    "q_fnd_sheets": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of foundation / underground GA sheets (structures); the MDL uses max(estimate, register count)"
+    },
+    "q_rebar_sheets": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of reinforcement sheets (structures); the MDL uses max(estimate, register count)"
+    },
+    "q_steel_sheets": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of steel structure design sheets (structures); the MDL uses max(estimate, register count)"
+    },
+    "q_arch_sheets": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of architectural sheets (buildings); the MDL uses max(estimate, register count)"
+    },
+    "q_services_sheets": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of building services sheets: plumbing, HVAC, fire, lighting (buildings); the MDL uses max(estimate, register count)"
+    },
+    "q_pile_sheets": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of piling layout / schedule sheets (structures); the MDL uses max(estimate, register count)"
+    },
+    "q_basis": {
+      "type": "enum",
+      "values": [
+        "estimate",
+        "register",
+        "mixed"
+      ],
+      "description": "basis of the q_ quantities"
+    },
+    "q_remarks": {
+      "type": "text"
+    },
+    "mr": {
+      "type": "ref",
+      "to": "mr",
+      "description": "main supply package (PWP) of the system"
+    },
+    "q_cables": {
+      "type": "integer",
+      "min": 0,
+      "description": "estimated number of cables (power, control, instrument); the MDL uses max(estimate, register count)"
     }
   }
 }

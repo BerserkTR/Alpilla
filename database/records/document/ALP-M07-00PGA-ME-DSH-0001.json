@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.372932Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:16:42.984836Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00PGA10AC001",
+    "00PGA10AC002",
+    "00PGA10AP001",
+    "00PGA10AP002",
+    "00PGA10AT001",
+    "00PGA10BB001",
+    "00PGA10BB002"
+  ],
+  "id": "ALP-M07-00PGA-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00PGA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-007",
+  "originator": "M07",
+  "po_weeks_final": 10,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-V-DSH|MR-ME-007|1",
+  "sheets": 8,
+  "status": "planned",
+  "system": "00PGA",
+  "title": "Supplier certified datasheets and performance curves - Closed cooling water heat exchangers, pumps, tank",
+  "type_code": "DSH",
+  "weight": 12
+}

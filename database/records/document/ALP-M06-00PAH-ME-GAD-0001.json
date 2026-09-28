@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.524955Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:17:56.574588Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-02",
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "equipment": [
+    "00PAH10",
+    "00PAH10AP001",
+    "00PAH10AP002",
+    "00PAH10AT001",
+    "00PAH10AT002"
+  ],
+  "ewp": "EWP-02-PI-01",
+  "id": "ALP-M06-00PAH-ME-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00PAH-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-006",
+  "originator": "M06",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "review": "review",
+  "rule": "DL-V-GAD|MR-ME-006|1",
+  "sheets": 6,
+  "status": "planned",
+  "system": "00PAH",
+  "title": "Supplier GA drawings - Condenser tube cleaning system",
+  "type_code": "GAD",
+  "weight": 13.0
+}

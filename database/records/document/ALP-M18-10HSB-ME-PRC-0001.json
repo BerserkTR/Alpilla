@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.437768Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.150318Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-M18-10HSB-ME-PRC-0001",
+  "inputs": [
+    "ALP-EPC-10HSB-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-018",
+  "originator": "M18",
+  "po_weeks_final": -6,
+  "po_weeks_ifr": -12,
+  "review": "review",
+  "rule": "DL-V-ERC|MR-ME-018|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "10HSB",
+  "title": "Supplier installation and erection manual - Aqueous ammonia storage and forwarding",
+  "type_code": "PRC",
+  "weight": 6
+}

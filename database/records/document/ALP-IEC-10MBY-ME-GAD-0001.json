@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.522001Z",
+    "created_by": "EPCE",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:17:56.570723Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "scope_item:DR-034",
+    "scope_item:SC-013",
+    "tie_in:IF-40"
+  ],
+  "cwa": "CWA-01",
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "equipment": [
+    "10MBY10",
+    "20MAY10"
+  ],
+  "ewp": "EWP-01-IC-01",
+  "id": "ALP-IEC-10MBY-ME-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-MRQ-0001",
+    "ALP-EPC-10BBT-EL-MRQ-0001",
+    "ALP-EPC-00000-EL-MRQ-0001",
+    "ALP-EPC-00CQA-IC-MRQ-0001",
+    "ALP-EPC-00QUA-IC-MRQ-0001",
+    "ALP-EPC-00000-IC-MRQ-0001",
+    "ALP-EPC-00000-IC-MRQ-0002",
+    "ALP-EPC-00000-GE-MRQ-0003",
+    "ALP-EPC-10HAN-ME-MRQ-0001",
+    "ALP-EPC-00SMA-ME-MRQ-0001",
+    "ALP-EPC-00000-GE-MRQ-0004",
+    "ALP-EPC-00000-GE-MRQ-0005",
+    "ALP-EPC-00UZF-GE-MRQ-0001",
+    "ALP-EPC-00000-PI-MRQ-0002",
+    "ALP-EPC-00000-PI-MRQ-0003",
+    "ALP-EPC-00000-GE-MRQ-0006",
+    "ALP-EPC-00000-GE-MRQ-0007",
+    "ALP-EPC-00000-GE-MRQ-0008",
+    "ALP-EPC-00000-SS-MRQ-0001",
+    "ALP-EPC-10HNE-SS-MRQ-0001"
+  ],
+  "mr": "MR-IC-101",
+  "originator": "IEC",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "review": "review",
+  "rule": "DL-V-GAD|MR-IC-101|1",
+  "sheets": 20,
+  "status": "planned",
+  "system": "10MBY",
+  "title": "Supplier GA drawings - Turbine control system (IEC)",
+  "type_code": "GAD",
+  "weight": 34.0
+}

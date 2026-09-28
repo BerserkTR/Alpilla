@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.899302Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.261258Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "discipline": "hvac",
+  "ewp_disc": "CV",
+  "hours_per_sheet": 25,
+  "id": "DL-HV-SRV",
+  "inputs": [
+    "DL-CV-ARC",
+    "doc:ALP-EPC-00000-HV-DBR-0001"
+  ],
+  "originator": "EPC",
+  "quantity": "q_services_sheets",
+  "scope": "structure",
+  "status": "agreed",
+  "title": "Building services (plumbing, HVAC ducting, fire fighting) - {name}",
+  "type_code": "GAD"
+}

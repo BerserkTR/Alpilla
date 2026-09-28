@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.052884Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:03:58.498811Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:02:55.914290Z",
     "updated_by": "EPCE"
   },
   "agreed_by": [
@@ -30,6 +30,8 @@
   "scope": "Supplied under the consortium agreement ALP-CA-001; PO = NTP; delivery per IEC manufacturing schedule",
   "status": "agreed",
   "supplier": "IEC",
+  "supplier_code": "IEC",
+  "system": "10MBY",
   "title": "Turbine control system (IEC)",
   "transport_weeks": 2,
   "vdr_weeks": 12

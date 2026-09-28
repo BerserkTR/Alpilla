@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.463756Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.174508Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.03"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-IEC-20MAA-ME-TST-0001",
+  "inputs": [
+    "ALP-EPC-20LCB-ME-MRQ-0001",
+    "ALP-EPC-00PAH-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-103",
+  "originator": "IEC",
+  "po_weeks_final": -10,
+  "po_weeks_ifr": -16,
+  "review": "approval",
+  "rule": "DL-V-FAT|MR-ME-103|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "20MAA",
+  "title": "Factory acceptance test procedure - Steam turbine and condenser (IEC)",
+  "type_code": "TST",
+  "weight": 8
+}

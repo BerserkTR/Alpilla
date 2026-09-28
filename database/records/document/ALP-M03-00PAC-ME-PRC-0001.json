@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.426137Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.142007Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-M03-00PAC-ME-PRC-0001",
+  "inputs": [
+    "ALP-EPC-00PAC-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-003",
+  "originator": "M03",
+  "po_weeks_final": -6,
+  "po_weeks_ifr": -12,
+  "review": "review",
+  "rule": "DL-V-ERC|MR-ME-003|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00PAC",
+  "title": "Supplier installation and erection manual - CW pumps",
+  "type_code": "PRC",
+  "weight": 6
+}

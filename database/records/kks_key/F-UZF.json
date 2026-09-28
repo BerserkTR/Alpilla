@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:02:54.811878Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:18.804447Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-036"
+  ],
+  "id": "F-UZF",
+  "key": "UZF",
+  "level": "function",
+  "main_group": "structures",
+  "remarks": "Added for MDL Rev B; Owner agreement requested in TQ-036",
+  "status": "agreed",
+  "title": "Temporary barge landing (removed after heavy transport)",
+  "verified": false
+}

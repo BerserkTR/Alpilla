@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.580071Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.280023Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-I04-00000-ME-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00000-IC-MRQ-0001"
+  ],
+  "mr": "MR-IC-004",
+  "originator": "I04",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "approval",
+  "rule": "DL-V-ITP|MR-IC-004|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Supplier inspection and test plan - Field instruments",
+  "type_code": "ITP",
+  "weight": 6
+}

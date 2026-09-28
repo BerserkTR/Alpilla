@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.073410Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:16:42.948146Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00EGA10BB001"
+  ],
+  "id": "ALP-EPC-00EGA-ME-DSH-0004",
+  "inputs": [
+    "ALP-EPC-00EGA-ME-CAL-0001",
+    "ALP-EPC-00EGA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-016",
+  "originator": "EPC",
+  "rule": "DL-ME-DSH|00EGA:MR-ME-016:tank|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00EGA",
+  "title": "Datasheet - LDO unloading: tank",
+  "type_code": "DSH",
+  "weight": 16
+}

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.061849Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:04:01.625608Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:02:55.921472Z",
     "updated_by": "EPCE"
   },
   "agreed_by": [
@@ -29,6 +29,7 @@
   "manufacture_weeks": 20,
   "package_type": "bulk",
   "status": "agreed",
+  "supplier_code": "P01",
   "title": "Piping bulk materials (carbon steel, stainless)",
   "transport_weeks": 4,
   "vdr_weeks": 4

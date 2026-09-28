@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.959629Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.711912Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:04:05.503124Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "electrical",
   "doc_type": "specification",
   "id": "ALP-EPC-10BBT-EL-SPC-0001",
@@ -15,6 +18,8 @@
   ],
   "mr": "MR-EL-002",
   "originator": "EPC",
+  "rule": "DL-MR-SPC|MR-EL-002|1",
+  "sheets": 1,
   "status": "planned",
   "system": "10BBT",
   "tender": true,

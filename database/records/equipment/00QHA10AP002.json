@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.039320Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:03:04.039320Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Centrifugal Pump",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "cwa": "CWA-08",
+  "cwp": "CWP-08-ME-01",
+  "description": "Auxiliary boiler feed pump B",
+  "equipment_type": "pump",
+  "id": "00QHA10AP002",
+  "mr": "MR-ME-009",
+  "quantity": 1,
+  "rated_power": 30.0,
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00QHA"
+}

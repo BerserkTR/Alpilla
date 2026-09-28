@@ -2,22 +2,59 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.852621Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.774395Z",
+    "rev": 9,
+    "updated_at": "2026-09-28T17:20:25.896065Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
-    "source:SRC-IECE-0013"
+    "scope_item:DR-028",
+    "scope_item:SC-014",
+    "source:SRC-IECE-0013",
+    "tie_in:IF-34",
+    "tie_in:IF-35"
   ],
+  "cwa": "CWA-01",
   "discipline": "electrical",
   "doc_type": "drawing",
+  "equipment": [
+    "10BAT10",
+    "20BAT10"
+  ],
   "ewp": "EWP-01-EL-01",
   "id": "ALP-IEC-10BAT-EL-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-MRQ-0001",
+    "ALP-EPC-10BBT-EL-MRQ-0001",
+    "ALP-EPC-00000-EL-MRQ-0001",
+    "ALP-EPC-00CQA-IC-MRQ-0001",
+    "ALP-EPC-00QUA-IC-MRQ-0001",
+    "ALP-EPC-00000-IC-MRQ-0001",
+    "ALP-EPC-00000-IC-MRQ-0002",
+    "ALP-EPC-00000-GE-MRQ-0003",
+    "ALP-EPC-10HAN-ME-MRQ-0001",
+    "ALP-EPC-00SMA-ME-MRQ-0001",
+    "ALP-EPC-00000-GE-MRQ-0004",
+    "ALP-EPC-00000-GE-MRQ-0005",
+    "ALP-EPC-00UZF-GE-MRQ-0001",
+    "ALP-EPC-00000-PI-MRQ-0002",
+    "ALP-EPC-00000-PI-MRQ-0003",
+    "ALP-EPC-00000-GE-MRQ-0006",
+    "ALP-EPC-00000-GE-MRQ-0007",
+    "ALP-EPC-00000-GE-MRQ-0008",
+    "ALP-EPC-00000-SS-MRQ-0001",
+    "ALP-EPC-10HNE-SS-MRQ-0001"
+  ],
+  "mr": "MR-EL-102",
   "originator": "IEC",
   "planned_ifc": "2027-01-11",
   "planned_ifr": "2026-11-02",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
   "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "review": "review",
+  "rule": "DL-V-GAD|MR-EL-102|1",
+  "sheets": 2,
   "source": "SRC-IECE-0013",
   "status": "planned",
   "system": "10BAT",
@@ -27,5 +64,5 @@
   "title": "Generator step-up transformers - GA, installation and maintenance",
   "type_code": "GAD",
   "vendor_ref": "IEC-ALP-GA-104",
-  "weight": 60.0
+  "weight": 7.0
 }

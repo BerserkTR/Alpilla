@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.358108Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.093889Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "id": "ALP-P03-00000-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00000-PI-MRQ-0003"
+  ],
+  "mr": "MR-PI-003",
+  "originator": "P03",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-V-CAT|MR-PI-003|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Supplier catalogues and material datasheets - Valves (manual and check)",
+  "type_code": "DSH",
+  "weight": 6
+}

@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.644419Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.327114Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-17.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "manual",
+  "id": "ALP-E05-00BFA-ME-OMM-0001",
+  "inputs": [
+    "ALP-EPC-00BFA-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-005",
+  "originator": "E05",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": -8,
+  "review": "review",
+  "rule": "DL-V-OMM|MR-EL-005|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00BFA",
+  "title": "Supplier operation and maintenance manual - LV switchboards and MCCs",
+  "type_code": "OMM",
+  "weight": 12
+}

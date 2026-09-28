@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.849084Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.777054Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:20:25.892759Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -21,13 +21,46 @@
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
-    "10MBA10"
+    "10MBA10",
+    "10MBL10",
+    "10MBN10",
+    "10MBP10",
+    "10MBU10",
+    "10MBV10"
   ],
   "id": "ALP-IEC-10MBA-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-MRQ-0001",
+    "ALP-EPC-10BBT-EL-MRQ-0001",
+    "ALP-EPC-00000-EL-MRQ-0001",
+    "ALP-EPC-00CQA-IC-MRQ-0001",
+    "ALP-EPC-00QUA-IC-MRQ-0001",
+    "ALP-EPC-00000-IC-MRQ-0001",
+    "ALP-EPC-00000-IC-MRQ-0002",
+    "ALP-EPC-00000-GE-MRQ-0003",
+    "ALP-EPC-10HAN-ME-MRQ-0001",
+    "ALP-EPC-00SMA-ME-MRQ-0001",
+    "ALP-EPC-00000-GE-MRQ-0004",
+    "ALP-EPC-00000-GE-MRQ-0005",
+    "ALP-EPC-00UZF-GE-MRQ-0001",
+    "ALP-EPC-00000-PI-MRQ-0002",
+    "ALP-EPC-00000-PI-MRQ-0003",
+    "ALP-EPC-00000-GE-MRQ-0006",
+    "ALP-EPC-00000-GE-MRQ-0007",
+    "ALP-EPC-00000-GE-MRQ-0008",
+    "ALP-EPC-00000-SS-MRQ-0001",
+    "ALP-EPC-10HNE-SS-MRQ-0001"
+  ],
+  "mr": "MR-ME-101",
   "originator": "IEC",
   "planned_ifc": "2026-12-28",
   "planned_ifr": "2026-11-02",
+  "po_weeks_final": 10,
+  "po_weeks_ifr": 4,
   "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "review": "review",
+  "rule": "DL-V-DSH|MR-ME-101|1",
+  "sheets": 57,
   "source": "SRC-IECE-0006",
   "status": "planned",
   "system": "10MBA",
@@ -41,5 +74,5 @@
   "title": "Gas turbine IE-9H.02 datasheet",
   "type_code": "DSH",
   "vendor_ref": "IEC-ALP-DS-101",
-  "weight": 16.0
+  "weight": 61
 }

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.908065Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.273446Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "mechanical",
+  "hours_base": 6,
+  "id": "DL-V-CAT",
+  "inputs": [
+    "DL-MR-MRQ"
+  ],
+  "originator": "SUPPLIER",
+  "package_types": [
+    "bulk"
+  ],
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Supplier catalogues and material datasheets - {name}",
+  "type_code": "DSH"
+}

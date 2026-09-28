@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.046100Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:12:58.019079Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.02"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "diagram",
+  "id": "ALP-EPC-00ACA-IC-LOG-0001",
+  "inputs": [
+    "ALP-EPC-00000-IC-RPT-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-IC-LOG|00ACA|1",
+  "sheets": 19,
+  "status": "planned",
+  "system": "00ACA",
+  "title": "Logic diagrams - 380 kV GIS switchyard",
+  "type_code": "LOG",
+  "weight": 168
+}

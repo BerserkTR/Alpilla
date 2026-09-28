@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.163682Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.977679Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "report",
+  "id": "ALP-EPC-00000-GE-RPT-0013",
+  "inputs": [
+    "ALP-EPC-00000-GE-MRQ-0006"
+  ],
+  "mr": "MR-PI-005",
+  "originator": "EPC",
+  "review": "internal",
+  "rule": "DL-MR-TBE|MR-PI-005|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Technical bid evaluation - Pipe supports, spring hangers and snubbers",
+  "type_code": "RPT",
+  "weight": 40
+}

@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.543078Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:16:43.017578Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "i_and_c",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00GHA10AP001",
+    "00GHA10AP002",
+    "00GHA10BB001",
+    "00GHA10BB002",
+    "00GKA10AP001",
+    "00GKA10AP002",
+    "00GKA10AT001",
+    "00GKA10BB001",
+    "00SGA10BB001"
+  ],
+  "id": "ALP-M13-00GHA-IC-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00GHA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-013",
+  "originator": "M13",
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "review": "review",
+  "rule": "DL-V-INL|MR-ME-013|1",
+  "sheets": 48,
+  "status": "planned",
+  "system": "00GHA",
+  "title": "Supplier instrument list and datasheets - Shop-built tanks and demin forwarding pumps",
+  "type_code": "DSH",
+  "weight": 13.6
+}

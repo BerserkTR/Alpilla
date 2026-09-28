@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.066319Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:03:04.066319Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Control Cabinet",
+  "basis_refs": [
+    "source:SRC-EPCE-0009"
+  ],
+  "cwa": "CWA-01",
+  "cwp": "CWP-01-IC-01",
+  "description": "GT control and protection cabinets (TCS)",
+  "equipment_type": "control system",
+  "id": "10MBY10",
+  "mr": "MR-IC-101",
+  "quantity": 1,
+  "status": "preliminary",
+  "supply": "IEC",
+  "system": "10MBY"
+}

@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:21:16.628931Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:17.499758Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "mdl_rule/DL-HS-ESC"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "TQ-036",
+  "impact": "technical_only",
+  "outcome": "requirement_changed",
+  "question": "The consortium re-issues the MDL as Rev B: 2205 documents (1455 EPC, 120 IEC, 630 other suppliers), 21,362 sheets. Rev A (623 documents) missed the per-tag deliverables, the supplier documents of the BOP packages, factory and site tests, system-based commissioning and O&M documents and several permit dossiers. Document quantities now follow rules per system / structure / area / package with estimated quantities until the registers exist. Please accept (1) the MDL Rev B as the document baseline, (2) the new document types TST, TRP, WIR, HUP, SUP, RBR, EFD, MOS, MDB, CEM, HMI with their review classes, (3) the structure keys UZD (pipe racks), UZE (cable trenches), UZF (temporary barge landing), (4) the 14 added procurement packages, (5) the review of supplier documents: EPC reviews all; transmitted to the Owner for approval: supplier P&IDs, ITPs and FAT procedures; for review: GA, datasheets, calculations, schematics, manuals; for information: manufacturing record books.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-28",
+  "references": [
+    "requirement:ER-17.01",
+    "requirement:ER-01.06",
+    "requirement:ER-16.01"
+  ],
+  "responded_by": "OWNER",
+  "response": "(1)-(5) accepted with one change and one condition. Change: fire fighting, escape route and safety signage drawings are submitted to the fire brigade (occupancy permit PMT-020) and are for Owner approval. Condition: the Owner's Engineer review load must be planned; the consortium issues a monthly document issue forecast (from the engineering plan) and transmits in batches of at most 150 documents per week. The new structure keys are approved for engineering (verification with the KKS key list).",
+  "response_date": "2026-09-28",
+  "round": 8,
+  "status": "closed",
+  "subject": "MDL Rev B baseline: document quantities, new document types, structures and packages"
+}

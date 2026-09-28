@@ -2,18 +2,28 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.853514Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.783128Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:20:25.895687Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "discipline": "civil",
   "doc_type": "calculation",
   "id": "ALP-IEC-20MAA-CV-CAL-0001",
+  "inputs": [
+    "ALP-EPC-20LCB-ME-MRQ-0001",
+    "ALP-EPC-00PAH-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-103",
   "originator": "IEC",
   "planned_ifc": "2027-01-25",
   "planned_ifr": "2026-12-28",
+  "po_weeks_final": 10,
+  "po_weeks_ifr": 6,
   "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "review": "review",
+  "rule": "DL-V-FDL|MR-ME-103|1",
+  "sheets": 10,
   "status": "planned",
   "system": "20MAA",
   "systems": [
@@ -23,5 +33,5 @@
   "title": "Foundation load data - ST, generator and condenser",
   "type_code": "CAL",
   "vendor_ref": "IEC-ALP-FL-103",
-  "weight": 60.0
+  "weight": 14
 }

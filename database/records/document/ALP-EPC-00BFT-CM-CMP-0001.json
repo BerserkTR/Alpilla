@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.847061Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:57.888688Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-16.01"
+  ],
+  "discipline": "commissioning",
+  "doc_type": "procedure",
+  "id": "ALP-EPC-00BFT-CM-CMP-0001",
+  "inputs": [
+    "ALP-EPC-00SAA-HV-PID-0001",
+    "ALP-EPC-00SAA-IC-CNR-0001",
+    "ALP-EPC-00000-CM-PLN-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-CM-CMP|00BFT|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00BFT",
+  "title": "System commissioning procedure - LV transformers",
+  "type_code": "CMP",
+  "weight": 40
+}

@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.977160Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.577601Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.498115Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "piping",
   "doc_type": "other",
   "id": "ALP-EPC-00000-PI-MRQ-0002",
@@ -15,6 +18,8 @@
   ],
   "mr": "MR-PI-002",
   "originator": "EPC",
+  "rule": "DL-MR-MRQ|MR-PI-002|1",
+  "sheets": 1,
   "status": "planned",
   "title": "Material requisition - Alloy piping P91 / P22 (main steam, reheat)",
   "type_code": "MRQ",

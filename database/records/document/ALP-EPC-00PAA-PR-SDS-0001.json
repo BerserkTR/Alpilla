@@ -2,12 +2,13 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.897905Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.642154Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:04:05.571300Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
+    "requirement:ER-01.02",
     "requirement:ER-02.04",
     "requirement:ER-08.02",
     "requirement:ER-08.07",
@@ -21,10 +22,12 @@
     "ALP-EPC-00000-PR-PFD-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-PR-SDS|00PAA|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00PAA",
   "tender": true,
   "title": "System design description - CW intake, screens and outfall",
   "type_code": "SDS",
-  "weight": 60.0
+  "weight": 80
 }

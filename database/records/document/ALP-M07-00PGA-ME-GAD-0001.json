@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.525409Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:17:56.575231Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-08",
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "equipment": [
+    "00PGA10AC001",
+    "00PGA10AC002",
+    "00PGA10AP001",
+    "00PGA10AP002",
+    "00PGA10AT001",
+    "00PGA10BB001",
+    "00PGA10BB002"
+  ],
+  "ewp": "EWP-08-ME-01",
+  "id": "ALP-M07-00PGA-ME-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00PGA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-007",
+  "originator": "M07",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "review": "review",
+  "rule": "DL-V-GAD|MR-ME-007|1",
+  "sheets": 8,
+  "status": "planned",
+  "system": "00PGA",
+  "title": "Supplier GA drawings - Closed cooling water heat exchangers, pumps, tank",
+  "type_code": "GAD",
+  "weight": 16.0
+}

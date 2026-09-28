@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.100383Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:16:42.972143Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00SGC10AA001",
+    "00SGC10AA002",
+    "00SGC10AA003",
+    "00SGC10AA004",
+    "00SGC10AA005",
+    "00SGC10AA006",
+    "00SGC10AA007",
+    "00SGC10AA008",
+    "00SGC10AA009",
+    "00SGC10AA010"
+  ],
+  "id": "ALP-EPC-00SGC-ME-DSH-0002",
+  "inputs": [
+    "ALP-EPC-00SGC-ME-CAL-0001",
+    "ALP-EPC-00SGA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-020",
+  "originator": "EPC",
+  "rule": "DL-ME-DSH|00SGC:MR-ME-020:valve|1",
+  "sheets": 10,
+  "status": "planned",
+  "system": "00SGC",
+  "title": "Datasheet - Deluge, spray and foam systems: valve (10 items)",
+  "type_code": "DSH",
+  "weight": 106
+}

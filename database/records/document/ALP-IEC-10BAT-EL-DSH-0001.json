@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.850556Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.773971Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:20:25.892306Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -20,10 +20,38 @@
     "20BAT10"
   ],
   "id": "ALP-IEC-10BAT-EL-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-MRQ-0001",
+    "ALP-EPC-10BBT-EL-MRQ-0001",
+    "ALP-EPC-00000-EL-MRQ-0001",
+    "ALP-EPC-00CQA-IC-MRQ-0001",
+    "ALP-EPC-00QUA-IC-MRQ-0001",
+    "ALP-EPC-00000-IC-MRQ-0001",
+    "ALP-EPC-00000-IC-MRQ-0002",
+    "ALP-EPC-00000-GE-MRQ-0003",
+    "ALP-EPC-10HAN-ME-MRQ-0001",
+    "ALP-EPC-00SMA-ME-MRQ-0001",
+    "ALP-EPC-00000-GE-MRQ-0004",
+    "ALP-EPC-00000-GE-MRQ-0005",
+    "ALP-EPC-00UZF-GE-MRQ-0001",
+    "ALP-EPC-00000-PI-MRQ-0002",
+    "ALP-EPC-00000-PI-MRQ-0003",
+    "ALP-EPC-00000-GE-MRQ-0006",
+    "ALP-EPC-00000-GE-MRQ-0007",
+    "ALP-EPC-00000-GE-MRQ-0008",
+    "ALP-EPC-00000-SS-MRQ-0001",
+    "ALP-EPC-10HNE-SS-MRQ-0001"
+  ],
+  "mr": "MR-EL-102",
   "originator": "IEC",
   "planned_ifc": "2026-12-28",
   "planned_ifr": "2026-11-02",
+  "po_weeks_final": 10,
+  "po_weeks_ifr": 4,
   "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "review": "review",
+  "rule": "DL-V-DSH|MR-EL-102|1",
+  "sheets": 2,
   "source": "SRC-EPCE-0007",
   "status": "planned",
   "system": "10BAT",
@@ -33,5 +61,5 @@
   "title": "Generator step-up transformers datasheet",
   "type_code": "DSH",
   "vendor_ref": "IEC-ALP-DS-106",
-  "weight": 16.0
+  "weight": 6
 }

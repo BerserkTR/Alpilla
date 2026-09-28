@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:02:56.201930Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:19.576276Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-036"
+  ],
+  "award_days": 15,
+  "basis_refs": [
+    "requirement:ER-13.03"
+  ],
+  "bid_days": 40,
+  "cwps": [
+    "CWP-01-ME-01",
+    "CWP-02-ME-01",
+    "CWP-08-ME-01",
+    "CWP-01-PI-01"
+  ],
+  "discipline": "mechanical",
+  "id": "MR-ME-023",
+  "manufacture_weeks": 0,
+  "package_type": "subcontract",
+  "status": "agreed",
+  "supplier_code": "M23",
+  "title": "Mechanical and piping erection (subcontract)",
+  "transport_weeks": 0,
+  "vdr_weeks": 4
+}

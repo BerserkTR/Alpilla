@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.887272Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.734794Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-17.04"
+  ],
+  "discipline": "commissioning",
+  "doc_type": "manual",
+  "id": "ALP-EPC-00ACA-CM-OMM-0001",
+  "inputs": [
+    "ALP-EPC-00ACA-CM-CMP-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-CM-OPR|00ACA|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00ACA",
+  "title": "Operating procedures (English / Turkish) - 380 kV GIS switchyard",
+  "type_code": "OMM",
+  "weight": 32
+}

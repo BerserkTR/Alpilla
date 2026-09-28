@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.901343Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.273949Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "mechanical",
+  "hours_base": 4,
+  "hours_per_sheet": 1,
+  "id": "DL-V-DSH",
+  "inputs": [
+    "DL-MR-MRQ"
+  ],
+  "max_sheets": 60,
+  "originator": "SUPPLIER",
+  "package_types": [
+    "equipment",
+    "iec_supply"
+  ],
+  "po_weeks_final": 10,
+  "po_weeks_ifr": 4,
+  "quantity": "q_equipment",
+  "review": "review",
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Supplier certified datasheets and performance curves - {name}",
+  "type_code": "DSH"
+}

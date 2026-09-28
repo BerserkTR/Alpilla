@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.883734Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.271108Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "categories": [
+    "water_steam_cycle",
+    "condensate_feedwater",
+    "cooling",
+    "water_treatment",
+    "auxiliary_mechanical",
+    "fuel_gas",
+    "fire_protection",
+    "hvac"
+  ],
+  "discipline": "process",
+  "hours_base": 60,
+  "hours_per_sheet": 20,
+  "id": "DL-PR-SDS",
+  "inputs": [
+    "doc:ALP-EPC-00000-GE-DBR-0001",
+    "doc:ALP-EPC-00000-PR-PFD-0001"
+  ],
+  "originator": "EPC",
+  "parties": [
+    "IEPC"
+  ],
+  "scope": "system",
+  "status": "agreed",
+  "title": "System design description - {name}",
+  "type_code": "SDS"
+}

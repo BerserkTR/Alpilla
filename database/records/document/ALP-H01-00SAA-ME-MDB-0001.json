@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.609923Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.303973Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "permit:PMT-016",
+    "requirement:ER-15.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "report",
+  "id": "ALP-H01-00SAA-ME-MDB-0001",
+  "inputs": [
+    "ALP-EPC-00SAA-HV-MRQ-0001"
+  ],
+  "mr": "MR-HV-001",
+  "originator": "H01",
+  "po_weeks_final": 6,
+  "po_weeks_ifr": -2,
+  "review": "information",
+  "rule": "DL-V-MDB|MR-HV-001|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00SAA",
+  "title": "Manufacturing record book and conformity certificates - HVAC plant and equipment",
+  "type_code": "MDB",
+  "weight": 6
+}

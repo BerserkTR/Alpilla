@@ -11,6 +11,8 @@ CWP activities (engine/core/workflow.py). Checks:
 - coverage: every system has its required document types (by category) and at least one document, every requirement and
   every EPC/IEC scope item is answered by a document, every equipment item has a datasheet, an MR and a CWP, every MR its
   specification and requisition, every CWP an EWP with documents;
+- completeness: the MDL rules (mdl_rule) are in sync with the documents, and the quantities per discipline are within the
+  indicative benchmarks (mdl_benchmark: below = WARN, above = INFO);
 - plant data: every equipment item, system and document carries an AVEVA class (ER-01.06); the KKS key list and the AWP
   definitions are agreed (INFO while proposed);
 - timeline: EWP float (IFC + lead before the CWP start), PWP float (delivery before the CWP start), key dates.
@@ -20,10 +22,18 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 from datetime import date, timedelta
 
-from ..core import kks, workflow
+from ..core import kks, mdl, workflow
 from ..core.runner import Context, Engine
 
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
+
+
+def _short(text, n=58):
+    """Gantt row label: whole words, ellipsis when shortened."""
+    if len(text) <= n:
+        return text
+    cut = text[:n - 1].rsplit(" ", 1)[0].rstrip(" ,(-/")
+    return cut + "\u2026"
 
 
 def check_engineering(s, res) -> list[tuple[str, str, str, str]]:
@@ -71,6 +81,27 @@ def check_engineering(s, res) -> list[tuple[str, str, str, str]]:
         add("-", "agreement", "INFO" if open_ else "OK",
             f"{ent}: {len(recs) - len(open_)} of {len(recs)} agreed" + (f"; not agreed: {', '.join(open_[:8])}"
                                                                         + (" ..." if len(open_) > 8 else "") if open_ else ""))
+    # --- completeness: MDL rules in sync, quantities against the benchmarks
+    if "mdl_rule" in s.schemas and s.records("mdl_rule"):
+        plan = mdl.plan_sync(s)
+        for e in plan.errors:
+            add("-", "MDL rules", "WARN", e)
+        add("-", "MDL rules", "OK" if not (plan.create or plan.update or plan.orphans) else "WARN",
+            f"{len(s.records('mdl_rule'))} rules: {len(plan.create)} required document(s) missing, {len(plan.update)} to update, "
+            f"{len(plan.orphans)} orphan(s)" + ("" if not (plan.create or plan.update or plan.orphans)
+                                                 else " - run python -m engine mdl sync"))
+    if "mdl_benchmark" in s.schemas:
+        for b in sorted(s.records("mdl_benchmark"), key=lambda x: x["id"]):
+            sel = [d for d in docs if (b["discipline"] == "all" or d.get("discipline") == b["discipline"])
+                   and ((d.get("originator") == "EPC") == (b["originator"] == "EPC") or b["originator"] == "ALL")]
+            act = {"docs": len(sel), "sheets": sum(d.get("sheets") or 1 for d in sel), "hours": sum(d.get("weight") or 0 for d in sel)}
+            for k in ("docs", "sheets", "hours"):
+                lo, hi = b.get(f"{k}_min"), b.get(f"{k}_max")
+                if lo is None and hi is None:
+                    continue
+                st = "WARN" if lo is not None and act[k] < lo else ("INFO" if hi is not None and act[k] > hi else "OK")
+                rng = (f"{lo:,}" if lo is not None else "-") + " - " + (f"{hi:,}" if hi is not None else "-")
+                add(b["id"], "benchmark", st, f"{b['discipline']} {b['originator']} {k} {act[k]:,.0f} vs indicative {rng}")
     # --- workflow rules
     ids = {d["id"] for d in docs}
     for d in docs:
@@ -178,11 +209,12 @@ def check_engineering(s, res) -> list[tuple[str, str, str, str]]:
 class EngineeringPlan(Engine):
     name = "engineering_plan"
     title = "Engineering plan: MDL, workflow network and timeline, AWP (CWA/CWP/EWP/PWP), coverage checks (Excel + PDF)"
-    version = "1.2.0"
+    version = "1.3.0"
     inputs = ["project", "document", "document_revision", "doc_type", "kks_key", "system", "equipment", "cwa", "cwp", "ewp",
-              "mr", "activity", "wbs", "requirement", "scope_item", "party", "eng_resource"]
+              "mr", "activity", "wbs", "requirement", "scope_item", "party", "eng_resource", "mdl_rule", "mdl_benchmark",
+              "instrument", "line", "decision"]
     formats = ["xlsx", "pdf"]
-    code_deps = ["engine/core/workflow.py", "engine/core/kks.py", "engine/core/planning.py"]
+    code_deps = ["engine/core/workflow.py", "engine/core/kks.py", "engine/core/planning.py", "engine/core/mdl.py"]
 
     def run(self, ctx: Context):
         s = ctx.store
@@ -370,6 +402,10 @@ class EngineeringPlan(Engine):
         sheet(wb.create_sheet("Summary"), "Summary by originator and discipline",
               [("Originator", 10), ("Discipline", 14), ("Documents", 10), ("Sheets", 8), ("Hours", 9), ("BDP", 6),
                ("In EWP", 8), ("In MR", 7), ("Last IFC", 11)], rows)
+        void = sorted((d for d in s.records("document") if d.get("status") == "cancelled"), key=lambda d: d["id"])
+        sheet(wb.create_sheet("Void numbers"), "Cancelled document numbers (kept, never reused)",
+              [("Document number", 30), ("Title", 60), ("Rule", 34), ("Remarks", 60)],
+              [[d["id"], d.get("title"), d.get("rule"), d.get("remarks")] for d in void], wrap=(1, 3))
         out = ctx.out_dir / f"{stem}.xlsx"
         wb.save(out)
         return out
@@ -442,10 +478,10 @@ class EngineeringPlan(Engine):
                             rows.append(("ewp", e, (first, v["ready"], v["need"], v["float"])))
                     for m, v in sorted(res.mrs.items()):
                         if v["need_cwp"] == cid:
-                            rows.append(("mr", f"{m} {mrr[m]['title'][:34]}", (v["po"], v["ros"], v["need"], v["float"])))
+                            rows.append(("mr", _short(f"{m} {mrr[m]['title']}"), (v["po"], v["ros"], v["need"], v["float"])))
                     a = res.acts.get(cwps[cid].get("activity"))
                     if a:
-                        rows.append(("cwp", f"{cid} {cwps[cid]['title'][:34]}", (a.es, a.ef, None, a.tf)))
+                        rows.append(("cwp", _short(f"{cid} {cwps[cid]['title']}"), (a.es, a.ef, None, a.tf)))
             per, pages, p0 = 46, [], 0
             while p0 < len(rows):
                 n = min(per, len(rows) - p0)
@@ -456,7 +492,7 @@ class EngineeringPlan(Engine):
             x1 = x1 + timedelta(days=30)
             for pno, chunk in enumerate(pages):
                 fig = plt.figure(figsize=(420 / 25.4, 297 / 25.4))
-                ax = fig.add_axes([0.23, 0.07, 0.74, 0.86])
+                ax = fig.add_axes([0.27, 0.07, 0.70, 0.86])
                 for i, (kind, lab, v) in enumerate(chunk):
                     y = len(chunk) - i
                     if kind == "hdr":
@@ -484,8 +520,9 @@ class EngineeringPlan(Engine):
                 ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
                 ax.tick_params(axis="x", labelsize=7)
                 ax.grid(axis="x", alpha=0.3)
-                ax.set_title(f"AWP timeline - EWP (blue: first document start to IFC complete), PWP (orange: PO to on site), "
-                             f"CWP (green: CPM); | = need date; numbers = float in working days; red = late   "
+                ax.set_title(f"AWP timeline - EWP (blue: first document start to all IFC), PWP (orange: PO to on site), "
+                             f"CWP (green: CPM)\n| = first need (EWP: CWP start - lead; progressive documents later); "
+                             f"numbers = float in working days (EWP: smallest document float); red = late   "
                              f"[page {pno + 2}]", fontsize=8, loc="left")
                 fig.text(0.02, 0.015, foot, fontsize=6, color="#595959")
                 pdf.savefig(fig)

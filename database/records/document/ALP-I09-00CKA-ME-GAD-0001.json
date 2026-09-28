@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.521507Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:17:56.569924Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-11",
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "equipment": [
+    "00CKA10"
+  ],
+  "ewp": "EWP-11-IC-01",
+  "id": "ALP-I09-00CKA-ME-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00CKA-GE-MRQ-0001"
+  ],
+  "mr": "MR-IC-009",
+  "originator": "I09",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "review": "review",
+  "rule": "DL-V-GAD|MR-IC-009|1",
+  "sheets": 6,
+  "status": "planned",
+  "system": "00CKA",
+  "title": "Supplier GA drawings - Operator training simulator, historian and performance monitoring",
+  "type_code": "GAD",
+  "weight": 13.0
+}

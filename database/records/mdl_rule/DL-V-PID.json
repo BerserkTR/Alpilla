@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.901785Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.277874Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "process",
+  "hours_base": 4,
+  "hours_per_sheet": 3,
+  "id": "DL-V-PID",
+  "inputs": [
+    "DL-MR-MRQ"
+  ],
+  "max_sheets": 40,
+  "originator": "SUPPLIER",
+  "package_types": [
+    "equipment",
+    "iec_supply"
+  ],
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "quantity": "q_pid_sheets",
+  "review": "approval",
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Supplier P&IDs - {name}",
+  "type_code": "PID"
+}

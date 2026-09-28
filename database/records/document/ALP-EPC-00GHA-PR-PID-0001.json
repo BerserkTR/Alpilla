@@ -2,11 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.887194Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.622816Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:05:57.910851Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-01.02",
+    "tie_in:IF-03",
+    "tie_in:IF-04"
+  ],
   "bdp": false,
   "discipline": "process",
   "doc_type": "diagram",
@@ -16,10 +21,11 @@
     "ALP-EPC-00GHA-PR-SDS-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-PR-PID|00GHA|1",
   "sheets": 2,
   "status": "planned",
   "system": "00GHA",
   "title": "P&ID - Demineralised water storage and distribution",
   "type_code": "PID",
-  "weight": 100.0
+  "weight": 220
 }

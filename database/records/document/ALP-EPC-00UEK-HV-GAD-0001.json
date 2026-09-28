@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.981446Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:57.965745Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "cwa": "CWA-09",
+  "discipline": "hvac",
+  "doc_type": "drawing",
+  "ewp": "EWP-09-CV-01",
+  "id": "ALP-EPC-00UEK-HV-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00UEK-CV-ARC-0001",
+    "ALP-EPC-00000-HV-DBR-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-HV-SRV|00UEK|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00UEK",
+  "title": "Building services (plumbing, HVAC ducting, fire fighting) - Gas station structures",
+  "type_code": "GAD",
+  "weight": 50
+}

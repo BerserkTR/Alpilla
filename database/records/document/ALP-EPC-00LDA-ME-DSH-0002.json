@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.085266Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:16:42.957151Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00LDA10AT001",
+    "00LDA10AT002"
+  ],
+  "id": "ALP-EPC-00LDA-ME-DSH-0002",
+  "inputs": [
+    "ALP-EPC-00LDA-ME-CAL-0001",
+    "ALP-EPC-00LDA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-012",
+  "originator": "EPC",
+  "rule": "DL-ME-DSH|00LDA:MR-ME-012:filter|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00LDA",
+  "title": "Datasheet - Condensate polishing: filter (2 items)",
+  "type_code": "DSH",
+  "weight": 26
+}

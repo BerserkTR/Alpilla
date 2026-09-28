@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.892019Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.262265Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "discipline": "i_and_c",
+  "equipment_types": [
+    "control system",
+    "analyser"
+  ],
+  "hours_base": 6,
+  "hours_per_sheet": 10,
+  "id": "DL-IC-DSH",
+  "inputs": [
+    "doc:ALP-EPC-00000-IC-DBR-0001",
+    "DL-MR-SPC@system"
+  ],
+  "originator": "EPC",
+  "scope": "eqgroup",
+  "status": "agreed",
+  "supply": [
+    "IEPC"
+  ],
+  "title": "Datasheet - {name}",
+  "type_code": "DSH"
+}

@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.041622Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.691536Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:12:57.935096Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.01"
+  ],
   "cwa": "CWA-10",
   "discipline": "civil",
   "doc_type": "drawing",
@@ -18,10 +21,11 @@
     "ALP-EPC-00UEG-PI-LAY-0001"
   ],
   "originator": "EPC",
-  "sheets": 3,
+  "rule": "DL-CV-FND|00UEG|1",
+  "sheets": 6,
   "status": "planned",
   "system": "00UEG",
   "title": "Foundation and underground drawings - LDO tank farm structures",
   "type_code": "FND",
-  "weight": 60.0
+  "weight": 300
 }

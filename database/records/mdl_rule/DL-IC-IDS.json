@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.888821Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.264099Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "discipline": "i_and_c",
+  "hours_base": 8,
+  "hours_per_sheet": 1.5,
+  "id": "DL-IC-IDS",
+  "inputs": [
+    "DL-PR-PID",
+    "doc:ALP-EPC-00000-IC-SPC-0001"
+  ],
+  "max_sheets": 150,
+  "mr": "MR-IC-004",
+  "originator": "EPC",
+  "parties": [
+    "IEPC"
+  ],
+  "quantity": "q_instruments",
+  "scope": "system",
+  "status": "agreed",
+  "title": "Instrument datasheets - {name}",
+  "type_code": "DSH"
+}

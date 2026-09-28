@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.044914Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:58.017657Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "cwa": "CWA-10",
+  "discipline": "i_and_c",
+  "doc_type": "diagram",
+  "ewp": "EWP-10-IC-01",
+  "id": "ALP-EPC-00UEG-IC-LOP-0002",
+  "inputs": [
+    "ALP-EPC-00UEG-IC-ELY-0001",
+    "ALP-EPC-00000-IC-IOL-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-IC-JBW|CWA-10|1",
+  "sheets": 11,
+  "status": "planned",
+  "system": "00UEG",
+  "title": "Junction box and cabinet interconnection diagrams - LDO tank farm and unloading",
+  "type_code": "LOP",
+  "weight": 27.5
+}

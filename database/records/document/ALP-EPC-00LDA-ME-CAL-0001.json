@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.897569Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.636275Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.439688Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
   "discipline": "mechanical",
   "doc_type": "calculation",
   "id": "ALP-EPC-00LDA-ME-CAL-0001",
@@ -14,9 +17,11 @@
     "ALP-EPC-00LDA-PR-SDS-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-ME-CAL|00LDA|1",
+  "sheets": 5,
   "status": "planned",
   "system": "00LDA",
   "title": "Sizing and hydraulic calculation - Condensate polishing",
   "type_code": "CAL",
-  "weight": 60.0
+  "weight": 70
 }

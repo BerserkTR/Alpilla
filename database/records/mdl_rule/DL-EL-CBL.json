@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.894355Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.258893Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.08"
+  ],
+  "discipline": "electrical",
+  "ewp_disc": "EL",
+  "hours_base": 20,
+  "hours_per_sheet": 2,
+  "id": "DL-EL-CBL",
+  "inputs": [
+    "DL-EL-ELY",
+    "doc:ALP-EPC-00000-EL-CAL-0001"
+  ],
+  "originator": "EPC",
+  "per_sheet": 40,
+  "quantity": "q_cables",
+  "scope": "cwa",
+  "status": "agreed",
+  "title": "Cable schedule and routing - {name}",
+  "type_code": "CBL"
+}

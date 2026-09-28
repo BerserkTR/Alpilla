@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.295865Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.050293Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-14.05"
+  ],
+  "discipline": "general",
+  "doc_type": "procedure",
+  "id": "ALP-M24-00UZF-GE-MOS-0006",
+  "inputs": [
+    "ALP-EPC-00UZF-GE-MRQ-0001"
+  ],
+  "mr": "MR-ME-024",
+  "originator": "M24",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-S-MOS|MR-ME-024|6",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00UZF",
+  "title": "Subcontractor method statements - Heavy transport, barge landing and marine logistics (subcontract) - part 6 of 6",
+  "type_code": "MOS",
+  "weight": 8
+}

@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.097762Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:16:42.970050Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00SAA11AN001",
+    "00SAA11AN002",
+    "00SAA11AN003",
+    "00SAA11AN004",
+    "00SAA11AN005",
+    "00SAA11AN006",
+    "00SAA11AN007",
+    "00SAA11AN008",
+    "00SAA12AN001",
+    "00SAA12AN002",
+    "00SAA12AN003",
+    "00SAA12AN004",
+    "00SAA13AN001",
+    "00SAA13AN002",
+    "00SAA13AN003",
+    "00SAA13AN004",
+    "00SAA14AN001",
+    "00SAA14AN002"
+  ],
+  "id": "ALP-EPC-00SAA-ME-DSH-0002",
+  "inputs": [
+    "ALP-EPC-00SAA-HV-CAL-0001",
+    "ALP-EPC-00SAA-HV-SPC-0001"
+  ],
+  "mr": "MR-HV-001",
+  "originator": "EPC",
+  "rule": "DL-ME-DSH|00SAA:MR-HV-001:fan|1",
+  "sheets": 18,
+  "status": "planned",
+  "system": "00SAA",
+  "title": "Datasheet - HVAC: fan (18 items)",
+  "type_code": "DSH",
+  "weight": 186
+}

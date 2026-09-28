@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.614069Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.306917Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "permit:PMT-016",
+    "requirement:ER-15.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "report",
+  "id": "ALP-I06-00SGY-ME-MDB-0001",
+  "inputs": [
+    "ALP-EPC-00SGY-GE-MRQ-0001"
+  ],
+  "mr": "MR-IC-006",
+  "originator": "I06",
+  "po_weeks_final": 6,
+  "po_weeks_ifr": -2,
+  "review": "information",
+  "rule": "DL-V-MDB|MR-IC-006|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00SGY",
+  "title": "Manufacturing record book and conformity certificates - Fire detection and alarm system",
+  "type_code": "MDB",
+  "weight": 6
+}

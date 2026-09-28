@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:49:40.108022Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T14:58:03.127978Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:17:52.538461Z",
     "updated_by": "EPCE"
   },
   "category": "report",
@@ -13,11 +13,15 @@
   "id": "PLN",
   "input_maturity": "IFR",
   "input_types": [
-    "PRC",
-    "PLN",
     "DBR",
+    "HAZ",
+    "LST",
     "PFD",
-    "LST"
+    "PLN",
+    "PRC",
+    "RPT",
+    "SPC",
+    "STU"
   ],
   "prep_days": 20,
   "procurement": false,

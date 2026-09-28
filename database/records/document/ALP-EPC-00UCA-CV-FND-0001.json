@@ -2,11 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.044847Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.688987Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T17:11:09.536795Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.01",
+    "scope_item:SC-041"
+  ],
   "cwa": "CWA-11",
   "discipline": "civil",
   "doc_type": "drawing",
@@ -18,10 +22,11 @@
     "ALP-EPC-00UCA-PI-LAY-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-CV-FND|00UCA|1",
   "sheets": 3,
   "status": "planned",
   "system": "00UCA",
   "title": "Foundation and underground drawings - Control building",
   "type_code": "FND",
-  "weight": 60.0
+  "weight": 150
 }

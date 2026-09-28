@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.673159Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.343052Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-17.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "manual",
+  "id": "ALP-M21-00SMA-ME-OMM-0001",
+  "inputs": [
+    "ALP-EPC-00SMA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-021",
+  "originator": "M21",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": -8,
+  "review": "review",
+  "rule": "DL-V-OMM|MR-ME-021|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00SMA",
+  "title": "Supplier operation and maintenance manual - EOT cranes",
+  "type_code": "OMM",
+  "weight": 12
+}

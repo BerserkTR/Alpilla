@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.589144Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.285716Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-M08-00QEA-ME-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00QEA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-008",
+  "originator": "M08",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "approval",
+  "rule": "DL-V-ITP|MR-ME-008|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00QEA",
+  "title": "Supplier inspection and test plan - Air compressors and dryers",
+  "type_code": "ITP",
+  "weight": 6
+}

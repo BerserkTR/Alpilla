@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.951897Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.717930Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:10:13.392115Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "mechanical",
   "doc_type": "other",
   "id": "ALP-EPC-10HSB-ME-MRQ-0001",
@@ -17,8 +20,11 @@
   ],
   "mr": "MR-ME-018",
   "originator": "EPC",
+  "rule": "DL-MR-MRQ|MR-ME-018|1",
+  "sheets": 1,
   "status": "planned",
   "system": "10HSB",
+  "tender": true,
   "title": "Material requisition - Aqueous ammonia storage and forwarding",
   "type_code": "MRQ",
   "weight": 24.0

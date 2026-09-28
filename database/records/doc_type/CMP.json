@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:49:59.874732Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T14:58:03.132451Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:17:52.535786Z",
     "updated_by": "EPCE"
   },
   "category": "procedure",
@@ -13,11 +13,12 @@
   "id": "CMP",
   "input_maturity": "IFR",
   "input_types": [
-    "PID",
-    "CNR",
     "CAL",
-    "STU",
-    "SPC"
+    "CNR",
+    "PID",
+    "PLN",
+    "SPC",
+    "STU"
   ],
   "prep_days": 20,
   "procurement": false,

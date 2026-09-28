@@ -2,13 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.846508Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.549449Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:05:57.897011Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
-    "requirement:ER-17.05"
+    "requirement:ER-17.05",
+    "scope_item:DR-042"
   ],
   "discipline": "commissioning",
   "doc_type": "report",

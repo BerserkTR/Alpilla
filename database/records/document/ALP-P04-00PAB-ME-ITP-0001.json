@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.598990Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.295227Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-P04-00PAB-ME-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00000-PI-MRQ-0004"
+  ],
+  "mr": "MR-PI-004",
+  "originator": "P04",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "approval",
+  "rule": "DL-V-ITP|MR-PI-004|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00PAB",
+  "title": "Supplier inspection and test plan - GRP CW pipes and fittings",
+  "type_code": "ITP",
+  "weight": 6
+}

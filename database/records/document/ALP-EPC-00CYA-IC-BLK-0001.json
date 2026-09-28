@@ -2,13 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.876393Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.599179Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:05:57.907864Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
-    "scope_item:SC-039"
+    "requirement:ER-12.01",
+    "scope_item:SC-035",
+    "scope_item:SC-039",
+    "tie_in:TP-T1"
   ],
   "bdp": false,
   "discipline": "i_and_c",
@@ -19,6 +22,8 @@
     "ALP-EPC-00000-IC-RPT-0002"
   ],
   "originator": "EPC",
+  "rule": "DL-IC-BLK|00CYA|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00CYA",
   "title": "System architecture - Telecom, CCTV, access control, security",

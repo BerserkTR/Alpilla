@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.330392Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.075073Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "calculation",
+  "id": "ALP-E02-10BBT-ME-CAL-0001",
+  "inputs": [
+    "ALP-EPC-10BBT-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-002",
+  "originator": "E02",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "review",
+  "rule": "DL-V-CAL|MR-EL-002|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "10BBT",
+  "title": "Supplier design calculations - Unit auxiliary transformers",
+  "type_code": "CAL",
+  "weight": 5
+}

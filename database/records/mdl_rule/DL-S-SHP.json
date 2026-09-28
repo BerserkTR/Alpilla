@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.908935Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.272045Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.03"
+  ],
+  "discipline": "structural",
+  "ewp_disc": "SS",
+  "hours_per_sheet": 0.5,
+  "id": "DL-S-SHP",
+  "inputs": [
+    "DL-SS-STL"
+  ],
+  "max_sheets": 150,
+  "mr": "MR-SS-001",
+  "originator": "SUPPLIER",
+  "per_sheet": 0.25,
+  "po_weeks_final": 16,
+  "po_weeks_ifr": 10,
+  "quantity": "q_steel_sheets",
+  "review": "information",
+  "scope": "structure",
+  "status": "agreed",
+  "title": "Steel fabrication and erection drawings - {name}",
+  "type_code": "STL"
+}

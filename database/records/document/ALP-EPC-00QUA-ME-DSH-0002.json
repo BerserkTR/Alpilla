@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.096420Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:16:42.969141Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00QUA10AC001"
+  ],
+  "id": "ALP-EPC-00QUA-ME-DSH-0002",
+  "inputs": [
+    "ALP-EPC-00QUA-ME-CAL-0001",
+    "ALP-EPC-00QUA-IC-SPC-0001"
+  ],
+  "mr": "MR-IC-003",
+  "originator": "EPC",
+  "rule": "DL-ME-DSH|00QUA:MR-IC-003:heat exchanger|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00QUA",
+  "title": "Datasheet - Sampling and SWAS: heat exchanger",
+  "type_code": "DSH",
+  "weight": 16
+}

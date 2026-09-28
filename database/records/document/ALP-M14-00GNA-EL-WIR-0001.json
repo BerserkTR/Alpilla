@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.405638Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:17:56.555579Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-07",
+  "discipline": "electrical",
+  "doc_type": "diagram",
+  "ewp": "EWP-07-ME-01",
+  "id": "ALP-M14-00GNA-EL-WIR-0001",
+  "inputs": [
+    "ALP-EPC-00GNA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-014",
+  "originator": "M14",
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "review": "review",
+  "rule": "DL-V-ELD|MR-ME-014|1",
+  "sheets": 76,
+  "status": "planned",
+  "system": "00GNA",
+  "title": "Supplier electrical schematics and wiring diagrams - Waste water and sanitary treatment packages",
+  "type_code": "WIR",
+  "weight": 42.0
+}

@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.862834Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.719828Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.447925Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
   "discipline": "mechanical",
   "doc_type": "calculation",
   "id": "ALP-EPC-10LAB-ME-CAL-0001",
@@ -14,9 +17,11 @@
     "ALP-EPC-10LAB-PR-SDS-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-ME-CAL|10LAB|1",
+  "sheets": 3,
   "status": "planned",
   "system": "10LAB",
   "title": "Sizing and hydraulic calculation - Feedwater piping",
   "type_code": "CAL",
-  "weight": 60.0
+  "weight": 54
 }

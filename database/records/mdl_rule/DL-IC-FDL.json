@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.900044Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.262509Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.05"
+  ],
+  "discipline": "i_and_c",
+  "ewp_disc": "IC",
+  "hours_per_sheet": 14,
+  "id": "DL-IC-FDL",
+  "inputs": [
+    "DL-CV-ARC",
+    "doc:ALP-EPC-00000-HS-HAZ-0009"
+  ],
+  "mr": "MR-IC-006",
+  "originator": "EPC",
+  "per_sheet": 3,
+  "quantity": "q_arch_sheets",
+  "scope": "structure",
+  "status": "agreed",
+  "systems": [
+    "10UMA",
+    "20UMB",
+    "00UBA",
+    "00UAC",
+    "00UCA",
+    "00UEK",
+    "00UGA",
+    "00UPC",
+    "00UQA",
+    "00USA",
+    "00UYA"
+  ],
+  "title": "Fire detection and alarm layouts - {name}",
+  "type_code": "ELY"
+}

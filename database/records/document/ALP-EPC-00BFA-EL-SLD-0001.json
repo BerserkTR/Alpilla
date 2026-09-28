@@ -2,11 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.874187Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.589788Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:05:57.902826Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "scope_item:DR-032",
+    "scope_item:SC-032",
+    "tie_in:IF-38"
+  ],
   "discipline": "electrical",
   "doc_type": "diagram",
   "id": "ALP-EPC-00BFA-EL-SLD-0001",

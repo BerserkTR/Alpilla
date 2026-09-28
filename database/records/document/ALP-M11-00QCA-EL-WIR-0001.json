@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.404245Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:17:56.553816Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-08",
+  "discipline": "electrical",
+  "doc_type": "diagram",
+  "ewp": "EWP-08-ME-01",
+  "id": "ALP-M11-00QCA-EL-WIR-0001",
+  "inputs": [
+    "ALP-EPC-00QCA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-011",
+  "originator": "M11",
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "review": "review",
+  "rule": "DL-V-ELD|MR-ME-011|1",
+  "sheets": 28,
+  "status": "planned",
+  "system": "00QCA",
+  "title": "Supplier electrical schematics and wiring diagrams - Chemical dosing skid",
+  "type_code": "WIR",
+  "weight": 18.0
+}

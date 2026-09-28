@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.900714Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.266043Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "hours_base": 16,
+  "id": "DL-MR-ITP",
+  "inputs": [
+    "DL-MR-SPC"
+  ],
+  "originator": "EPC",
+  "package_types": [
+    "equipment"
+  ],
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Inspection and test plan - {name}",
+  "type_code": "ITP"
+}

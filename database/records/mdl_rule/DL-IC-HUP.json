@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.895269Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.263613Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "discipline": "i_and_c",
+  "ewp_disc": "IC",
+  "hours_per_sheet": 8,
+  "id": "DL-IC-HUP",
+  "inputs": [
+    "doc:ALP-EPC-00000-IC-LST-0001",
+    "doc:ALP-EPC-00000-IC-SPC-0001"
+  ],
+  "mr": "MR-IC-010",
+  "originator": "EPC",
+  "parties": [
+    "IEPC"
+  ],
+  "per_sheet": 30,
+  "quantity": "q_instruments",
+  "scope": "cwa",
+  "status": "agreed",
+  "title": "Instrument hook-up drawings - {name}",
+  "type_code": "HUP"
+}

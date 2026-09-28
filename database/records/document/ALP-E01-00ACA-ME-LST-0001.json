@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.686334Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.352200Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-17.06"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "list",
+  "id": "ALP-E01-00ACA-ME-LST-0001",
+  "inputs": [
+    "ALP-EPC-00ACA-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-001",
+  "originator": "E01",
+  "po_weeks_final": 20,
+  "po_weeks_ifr": 12,
+  "review": "review",
+  "rule": "DL-V-SPL|MR-EL-001|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00ACA",
+  "title": "Spare parts and special tools lists - 380 kV GIS",
+  "type_code": "LST",
+  "weight": 6
+}

@@ -2,11 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.928957Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.681264Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.531444Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "cwa": "CWA-08",
   "discipline": "piping",
   "doc_type": "isometric",
   "ewp": "EWP-08-PI-01",
@@ -14,13 +18,22 @@
   "inputs": [
     "ALP-EPC-00000-PI-M3D-0002",
     "ALP-EPC-00SGC-PR-PID-0001",
-    "ALP-EPC-00UQA-PI-PPL-0001"
+    "ALP-EPC-00UQA-PI-PPL-0001",
+    "ALP-EPC-00UQA-PI-PPL-0002",
+    "ALP-EPC-00UQA-PI-PPL-0003",
+    "ALP-EPC-00LBG-PI-STR-0001",
+    "ALP-EPC-00PGA-PI-STR-0001",
+    "ALP-EPC-00QHA-PI-STR-0001",
+    "ALP-EPC-00SGA-PI-STR-0001",
+    "ALP-EPC-10LAB-PI-STR-0001",
+    "ALP-EPC-10LAC-PI-STR-0001"
   ],
   "originator": "EPC",
-  "sheets": 15,
+  "rule": "DL-PI-ISO|00SGC|1",
+  "sheets": 100,
   "status": "planned",
   "system": "00SGC",
   "title": "Isometric drawings - Deluge, spray and foam systems",
   "type_code": "ISO",
-  "weight": 120
+  "weight": 1000
 }

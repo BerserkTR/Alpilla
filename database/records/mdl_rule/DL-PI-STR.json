@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.890333Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.269372Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "discipline": "piping",
+  "hours_base": 20,
+  "hours_per_sheet": 60,
+  "id": "DL-PI-STR",
+  "inputs": [
+    "DL-PI-PPL@cwa",
+    "doc:ALP-EPC-00000-PI-RPT-0001"
+  ],
+  "originator": "EPC",
+  "quantity": "q_stress_packages",
+  "scope": "system",
+  "status": "agreed",
+  "systems": [
+    "10LBA",
+    "10LBB",
+    "10LBC",
+    "10LBD",
+    "10LAB",
+    "10LAC",
+    "10LAE",
+    "10LAF",
+    "20MAN",
+    "20LCA",
+    "20LCB",
+    "00LBG",
+    "00EKC",
+    "10HAN",
+    "00PGA",
+    "00QHA",
+    "00PAB",
+    "00EKA",
+    "00EGC",
+    "00SGA"
+  ],
+  "title": "Pipe stress analysis - {name}",
+  "type_code": "STR"
+}

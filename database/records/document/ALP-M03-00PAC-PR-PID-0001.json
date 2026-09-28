@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.676759Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.345966Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "discipline": "process",
+  "doc_type": "diagram",
+  "id": "ALP-M03-00PAC-PR-PID-0001",
+  "inputs": [
+    "ALP-EPC-00PAC-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-003",
+  "originator": "M03",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "approval",
+  "rule": "DL-V-PID|MR-ME-003|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00PAC",
+  "title": "Supplier P&IDs - CW pumps",
+  "type_code": "PID",
+  "weight": 10
+}

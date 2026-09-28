@@ -2,15 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T15:15:58.165722Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T15:15:58.165722Z",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:15:33.037278Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
-    "decision:DEC-EPCE-0007"
+    "decision:DEC-EPCE-0010"
   ],
   "discipline": "hvac",
-  "fte": 1,
+  "fte": 7,
   "hours_per_day": 7.5,
-  "id": "RES-HV"
+  "id": "RES-HV",
+  "ramp_weeks": 12
 }

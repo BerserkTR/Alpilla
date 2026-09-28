@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:05:18.203294Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:05:57.899941Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "permit:PMT-008",
+    "permit:PMT-009",
+    "scope_item:DR-040"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "list",
+  "id": "ALP-EPC-00000-ME-LST-0001",
+  "inputs": [
+    "ALP-EPC-00000-ME-STU-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Heavy and oversized piece list (power island and BOP)",
+  "type_code": "LST",
+  "weight": 24.0
+}

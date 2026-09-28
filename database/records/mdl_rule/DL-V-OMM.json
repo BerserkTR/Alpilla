@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.907126Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.277607Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.04"
+  ],
+  "discipline": "mechanical",
+  "hours_base": 12,
+  "id": "DL-V-OMM",
+  "inputs": [
+    "DL-MR-MRQ"
+  ],
+  "originator": "SUPPLIER",
+  "package_types": [
+    "equipment",
+    "iec_supply"
+  ],
+  "po_weeks_final": 12,
+  "po_weeks_ifr": -8,
+  "review": "review",
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Supplier operation and maintenance manual - {name}",
+  "type_code": "OMM"
+}

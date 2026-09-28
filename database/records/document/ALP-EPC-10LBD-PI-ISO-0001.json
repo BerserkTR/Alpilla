@@ -2,11 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.919170Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.756936Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.535906Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "cwa": "CWA-01",
   "discipline": "piping",
   "doc_type": "isometric",
   "ewp": "EWP-01-PI-01",
@@ -18,10 +22,11 @@
     "ALP-EPC-10UMA-PI-PPL-0001"
   ],
   "originator": "EPC",
-  "sheets": 30,
+  "rule": "DL-PI-ISO|10LBD|1",
+  "sheets": 50,
   "status": "planned",
   "system": "10LBD",
   "title": "Isometric drawings - LP steam piping",
   "type_code": "ISO",
-  "weight": 240
+  "weight": 500
 }

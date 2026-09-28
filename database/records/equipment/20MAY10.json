@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.072487Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:03:04.072487Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Control Cabinet",
+  "basis_refs": [
+    "source:SRC-EPCE-0009"
+  ],
+  "cwa": "CWA-02",
+  "cwp": "CWP-02-IC-01",
+  "description": "ST control and protection cabinets",
+  "equipment_type": "control system",
+  "id": "20MAY10",
+  "mr": "MR-IC-101",
+  "quantity": 1,
+  "status": "preliminary",
+  "supply": "IEC",
+  "system": "20MAY"
+}

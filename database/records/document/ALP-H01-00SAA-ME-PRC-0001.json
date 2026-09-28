@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.420117Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.137904Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-H01-00SAA-ME-PRC-0001",
+  "inputs": [
+    "ALP-EPC-00SAA-HV-MRQ-0001"
+  ],
+  "mr": "MR-HV-001",
+  "originator": "H01",
+  "po_weeks_final": -6,
+  "po_weeks_ifr": -12,
+  "review": "review",
+  "rule": "DL-V-ERC|MR-HV-001|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00SAA",
+  "title": "Supplier installation and erection manual - HVAC plant and equipment",
+  "type_code": "PRC",
+  "weight": 6
+}

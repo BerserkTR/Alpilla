@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.031778Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.696188Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.377949Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.02"
+  ],
   "cwa": "CWA-07",
   "discipline": "civil",
   "doc_type": "drawing",
@@ -17,10 +20,11 @@
     "ALP-EPC-00UGA-PI-LAY-0001"
   ],
   "originator": "EPC",
-  "sheets": 6,
+  "rule": "DL-CV-ARC|00UGA|1",
+  "sheets": 10,
   "status": "planned",
   "system": "00UGA",
   "title": "Architectural drawings - Water treatment building and basins",
   "type_code": "ARC",
-  "weight": 90.0
+  "weight": 350
 }

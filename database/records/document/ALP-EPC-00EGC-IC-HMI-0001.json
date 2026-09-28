@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.001929Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.858586Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.02"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "diagram",
+  "id": "ALP-EPC-00EGC-IC-HMI-0001",
+  "inputs": [
+    "ALP-EPC-00EGC-PR-PID-0001",
+    "ALP-EPC-00EGC-IC-CNR-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-IC-HMI|00EGC|1",
+  "sheets": 4,
+  "status": "planned",
+  "system": "00EGC",
+  "title": "Operator displays (HMI graphics) - LDO forwarding and treatment",
+  "type_code": "HMI",
+  "weight": 56
+}

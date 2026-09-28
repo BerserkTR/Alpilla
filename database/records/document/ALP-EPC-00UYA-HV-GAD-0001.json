@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.983357Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:57.967671Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "cwa": "CWA-11",
+  "discipline": "hvac",
+  "doc_type": "drawing",
+  "ewp": "EWP-11-CV-01",
+  "id": "ALP-EPC-00UYA-HV-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00UYA-CV-ARC-0001",
+    "ALP-EPC-00000-HV-DBR-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-HV-SRV|00UYA|1",
+  "sheets": 20,
+  "status": "planned",
+  "system": "00UYA",
+  "title": "Building services (plumbing, HVAC ducting, fire fighting) - Administration building",
+  "type_code": "GAD",
+  "weight": 500
+}

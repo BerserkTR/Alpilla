@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.890046Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.627567Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:04:05.569553Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
   "discipline": "process",
   "doc_type": "report",
   "id": "ALP-EPC-00GMA-PR-SDS-0001",
@@ -15,10 +18,12 @@
     "ALP-EPC-00000-PR-PFD-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-PR-SDS|00GMA|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00GMA",
   "tender": true,
   "title": "System design description - Process drains and waste water collection",
   "type_code": "SDS",
-  "weight": 60.0
+  "weight": 80
 }

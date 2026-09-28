@@ -2,13 +2,24 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:00.139533Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.236029Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:02:56.549130Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "System",
   "category": "civil_structural",
+  "cwas": [
+    "CWA-04"
+  ],
   "id": "00UAC",
+  "q_arch_sheets": 8,
+  "q_basis": "estimate",
+  "q_fnd_sheets": 4,
+  "q_pile_sheets": 0,
+  "q_rebar_sheets": 8,
+  "q_remarks": "Estimated per DEC-EPCE-0008; replaced by register counts as the P&IDs and models develop",
+  "q_services_sheets": 8,
+  "q_steel_sheets": 10,
   "scope": "IEPC",
   "title": "GIS building",
   "unit_no": "00"

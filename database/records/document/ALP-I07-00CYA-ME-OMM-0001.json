@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.654944Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.333255Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-17.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "manual",
+  "id": "ALP-I07-00CYA-ME-OMM-0001",
+  "inputs": [
+    "ALP-EPC-00CYA-GE-MRQ-0001"
+  ],
+  "mr": "MR-IC-007",
+  "originator": "I07",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": -8,
+  "review": "review",
+  "rule": "DL-V-OMM|MR-IC-007|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00CYA",
+  "title": "Supplier operation and maintenance manual - Telecom, CCTV, access control and perimeter security",
+  "type_code": "OMM",
+  "weight": 12
+}

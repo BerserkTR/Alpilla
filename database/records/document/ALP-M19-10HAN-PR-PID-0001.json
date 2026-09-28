@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.685164Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.351380Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "discipline": "process",
+  "doc_type": "diagram",
+  "id": "ALP-M19-10HAN-PR-PID-0001",
+  "inputs": [
+    "ALP-EPC-10HAN-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-019",
+  "originator": "M19",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "approval",
+  "rule": "DL-V-PID|MR-ME-019|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "10HAN",
+  "title": "Supplier P&IDs - HRSG blowdown and drain tanks",
+  "type_code": "PID",
+  "weight": 10
+}

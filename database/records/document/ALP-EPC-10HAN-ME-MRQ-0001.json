@@ -2,20 +2,26 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.953600Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.713518Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:12:58.089995Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "mechanical",
   "doc_type": "other",
   "id": "ALP-EPC-10HAN-ME-MRQ-0001",
   "inputs": [
     "ALP-EPC-10HAN-ME-DSH-0001",
-    "ALP-EPC-10HAN-ME-SPC-0001"
+    "ALP-EPC-10HAN-ME-SPC-0001",
+    "ALP-EPC-10HAN-ME-DSH-0002"
   ],
   "mr": "MR-ME-019",
   "originator": "EPC",
+  "rule": "DL-MR-MRQ|MR-ME-019|1",
+  "sheets": 1,
   "status": "planned",
   "system": "10HAN",
   "title": "Material requisition - HRSG blowdown and drain tanks",

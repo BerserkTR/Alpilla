@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.582957Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.282161Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-I10-00000-ME-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-MRQ-0003"
+  ],
+  "mr": "MR-IC-010",
+  "originator": "I10",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "approval",
+  "rule": "DL-V-ITP|MR-IC-010|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Supplier inspection and test plan - Instrument installation materials (tubing, fittings, junction boxes, supports)",
+  "type_code": "ITP",
+  "weight": 6
+}

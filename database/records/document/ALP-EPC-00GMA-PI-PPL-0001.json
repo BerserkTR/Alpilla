@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.209665Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:58.103295Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.05"
+  ],
+  "cwa": "CWA-12",
+  "discipline": "piping",
+  "doc_type": "drawing",
+  "ewp": "EWP-12-PI-01",
+  "id": "ALP-EPC-00GMA-PI-PPL-0001",
+  "inputs": [
+    "ALP-EPC-00GMA-PR-PID-0001",
+    "ALP-EPC-00UZC-CV-CVL-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-PI-UGP|00GMA|1",
+  "sheets": 8,
+  "status": "planned",
+  "system": "00GMA",
+  "title": "Underground piping drawings - Process drains and waste water collection",
+  "type_code": "PPL",
+  "weight": 240
+}

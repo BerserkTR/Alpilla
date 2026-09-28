@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.112326Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.952183Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "other",
+  "id": "ALP-EPC-00000-GE-MRQ-0005",
+  "inputs": [
+    "ALP-EPC-00000-GE-SPC-0005"
+  ],
+  "mr": "MR-ME-023",
+  "originator": "EPC",
+  "rule": "DL-MR-MRQ|MR-ME-023|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Material requisition - Mechanical and piping erection (subcontract)",
+  "type_code": "MRQ",
+  "weight": 24
+}

@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.110976Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.951540Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "other",
+  "id": "ALP-EPC-00000-GE-MRQ-0003",
+  "inputs": [
+    "ALP-EPC-00000-GE-SPC-0003"
+  ],
+  "mr": "MR-IC-010",
+  "originator": "EPC",
+  "rule": "DL-MR-MRQ|MR-IC-010|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Material requisition - Instrument installation materials (tubing, fittings, junction boxes, supports)",
+  "type_code": "MRQ",
+  "weight": 24
+}

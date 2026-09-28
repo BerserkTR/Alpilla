@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.978180Z",
+    "created_by": "EPCE",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:19:40.067680Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-10.05"
+  ],
+  "cwa": "CWA-05",
+  "discipline": "hse",
+  "doc_type": "layout",
+  "ewp": "EWP-05-CV-01",
+  "id": "ALP-EPC-00UPC-HS-LAY-0001",
+  "inputs": [
+    "ALP-EPC-00UPC-CV-ARC-0001",
+    "ALP-EPC-00000-HS-HAZ-0009"
+  ],
+  "originator": "EPC",
+  "rule": "DL-HS-ESC|00UPC|1",
+  "sheets": 1,
+  "status": "cancelled",
+  "system": "00UPC",
+  "title": "Fire fighting, escape route and safety signage layouts - CW pump house",
+  "type_code": "LAY",
+  "weight": 12
+}

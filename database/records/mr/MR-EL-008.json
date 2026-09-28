@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.060262Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:04:01.617729Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:02:55.910833Z",
     "updated_by": "EPCE"
   },
   "agreed_by": [
@@ -32,6 +32,7 @@
   "manufacture_weeks": 20,
   "package_type": "bulk",
   "status": "agreed",
+  "supplier_code": "E08",
   "title": "Power and control cables",
   "transport_weeks": 2,
   "vdr_weeks": 4

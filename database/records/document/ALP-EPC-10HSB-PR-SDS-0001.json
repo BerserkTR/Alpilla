@@ -2,12 +2,13 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.860286Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.719191Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:04:05.577876Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
+    "requirement:ER-01.02",
     "requirement:ER-06.04",
     "scope_item:DR-012"
   ],
@@ -19,10 +20,12 @@
     "ALP-EPC-00000-PR-PFD-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-PR-SDS|10HSB|1",
+  "sheets": 1,
   "status": "planned",
   "system": "10HSB",
   "tender": true,
   "title": "System design description - Ammonia storage and supply",
   "type_code": "SDS",
-  "weight": 60.0
+  "weight": 80
 }

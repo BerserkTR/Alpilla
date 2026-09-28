@@ -2,13 +2,24 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:00.143112Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.238646Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:02:56.551966Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "System",
   "category": "civil_structural",
+  "cwas": [
+    "CWA-05"
+  ],
   "id": "00UPC",
+  "q_arch_sheets": 4,
+  "q_basis": "estimate",
+  "q_fnd_sheets": 8,
+  "q_pile_sheets": 2,
+  "q_rebar_sheets": 24,
+  "q_remarks": "Estimated per DEC-EPCE-0008; replaced by register counts as the P&IDs and models develop",
+  "q_services_sheets": 4,
+  "q_steel_sheets": 6,
   "scope": "IEPC",
   "title": "CW pump house",
   "unit_no": "00"

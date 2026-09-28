@@ -2,14 +2,34 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.854497Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-27T18:30:44.294818Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:03:04.487977Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "System",
   "category": "electrical_hv",
+  "cwas": [
+    "CWA-01"
+  ],
   "description": "power island - IEC scope",
   "id": "10BAT",
+  "mr": "MR-EL-102",
+  "q_basis": "estimate",
+  "q_cables": 43,
+  "q_control_valves": 0,
+  "q_equipment": 1,
+  "q_instruments": 25,
+  "q_iso_sheets": 0,
+  "q_lines": 0,
+  "q_logic_sheets": 15,
+  "q_loops": 19,
+  "q_lv_consumers": 6,
+  "q_mv_consumers": 0,
+  "q_pid_sheets": 0,
+  "q_relief_valves": 0,
+  "q_remarks": "Estimated per DEC-EPCE-0008; replaced by register counts as the P&IDs and models develop",
+  "q_stress_packages": 0,
+  "scope": "IEC",
   "title": "GT generator step-up transformer",
   "unit_no": "10"
 }

@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.936937Z",
+    "created_by": "EPCE",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:15:03.209659Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-13.01"
+  ],
+  "discipline": "civil",
+  "doc_type": "calculation",
+  "id": "ALP-EPC-00UBA-CV-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-CAL-0001",
+    "ALP-EPC-00000-CV-RPT-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-CV-CAL|00UBA|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00UBA",
+  "title": "Structural and foundation calculation - Electrical building",
+  "type_code": "CAL",
+  "weight": 80
+}

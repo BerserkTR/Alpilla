@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.305746Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:17:56.534112Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.03"
+  ],
+  "cwa": "CWA-04",
+  "discipline": "structural",
+  "doc_type": "drawing",
+  "ewp": "EWP-04-SS-01",
+  "id": "ALP-S01-00UAC-SS-STL-0001",
+  "inputs": [
+    "ALP-EPC-00UAC-SS-STL-0002"
+  ],
+  "mr": "MR-SS-001",
+  "originator": "S01",
+  "po_weeks_final": 16,
+  "po_weeks_ifr": 10,
+  "review": "information",
+  "rule": "DL-S-SHP|00UAC|1",
+  "sheets": 40,
+  "status": "planned",
+  "system": "00UAC",
+  "title": "Steel fabrication and erection drawings - GIS building",
+  "type_code": "STL",
+  "weight": 20.0
+}

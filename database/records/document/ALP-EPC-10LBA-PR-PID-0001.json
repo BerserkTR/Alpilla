@@ -2,11 +2,17 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.866264Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.729379Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:05:57.925844Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-01.02",
+    "scope_item:DR-018",
+    "tie_in:IF-05",
+    "tie_in:IF-06"
+  ],
   "bdp": true,
   "discipline": "process",
   "doc_type": "diagram",
@@ -16,10 +22,11 @@
     "ALP-EPC-10LBA-PR-SDS-0001"
   ],
   "originator": "EPC",
-  "sheets": 4,
+  "rule": "DL-PR-PID|10LBA|1",
+  "sheets": 1,
   "status": "planned",
   "system": "10LBA",
   "title": "P&ID - Main steam piping",
   "type_code": "PID",
-  "weight": 140.0
+  "weight": 120
 }

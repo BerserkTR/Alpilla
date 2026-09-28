@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:02:56.197076Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:19.574822Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-036"
+  ],
+  "award_days": 10,
+  "basis_refs": [
+    "requirement:ER-12.07"
+  ],
+  "bid_days": 30,
+  "cwps": [
+    "CWP-11-IC-01"
+  ],
+  "discipline": "i_and_c",
+  "id": "MR-IC-007",
+  "manufacture_weeks": 20,
+  "package_type": "equipment",
+  "status": "agreed",
+  "supplier_code": "I07",
+  "system": "00CYA",
+  "title": "Telecom, CCTV, access control and perimeter security",
+  "transport_weeks": 2,
+  "vdr_weeks": 8
+}

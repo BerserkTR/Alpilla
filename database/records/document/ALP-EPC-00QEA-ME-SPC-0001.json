@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.937923Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.662791Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:04:05.511356Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "mechanical",
   "doc_type": "specification",
   "id": "ALP-EPC-00QEA-ME-SPC-0001",
@@ -16,6 +19,8 @@
   ],
   "mr": "MR-ME-008",
   "originator": "EPC",
+  "rule": "DL-MR-SPC|MR-ME-008|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00QEA",
   "tender": true,

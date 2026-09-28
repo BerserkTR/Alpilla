@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:02:55.556376Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:02:55.556376Z",
+    "updated_by": "EPCE"
+  },
+  "date": "2026-09-28",
+  "decided_by": "IEPC engineering manager",
+  "decision": "Document quantities (P&ID, isometric, logic, datasheet, schematic, civil sheets) are derived from quantities per KKS system (system q_ fields): estimates from the P&ID sheet count and category densities of comparable 1x1 H-class CCGT plants (about 16 instruments, 1.2 control valves, 0.8 relief valves and 14 lines per BOP P&ID sheet; loops 75 % of instruments; logic sheets = 0.25 x instruments + 1.5 x drives + 2 x P&ID sheets; cables = instruments + 3 x consumers). The register count replaces an estimate as soon as it is larger (equipment, instrument and line records). Instrument, line and valve tags are created from the P&IDs, not before.",
+  "id": "DEC-EPCE-0008",
+  "rationale": "Rev A of the MDL was built from one document set per system and missed the per-tag deliverables; tags cannot be invented before the P&IDs exist, quantities can be estimated and replaced.",
+  "status": "agreed",
+  "title": "MDL quantity basis: estimated quantities per system until the registers exist"
+}

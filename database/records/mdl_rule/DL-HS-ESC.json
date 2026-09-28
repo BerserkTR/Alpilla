@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.899812Z",
+    "created_by": "EPCE",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:21:20.260765Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.05"
+  ],
+  "discipline": "hse",
+  "ewp_disc": "CV",
+  "hours_per_sheet": 12,
+  "id": "DL-HS-ESC",
+  "inputs": [
+    "DL-CV-ARC",
+    "doc:ALP-EPC-00000-HS-HAZ-0009"
+  ],
+  "originator": "EPC",
+  "per_sheet": 4,
+  "quantity": "q_arch_sheets",
+  "review": "approval",
+  "scope": "structure",
+  "status": "agreed",
+  "title": "Fire fighting, escape route and safety signage layouts - {name}",
+  "type_code": "GAD"
+}

@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.147022Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.965107Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "report",
+  "id": "ALP-EPC-00PAA-GE-RPT-0001",
+  "inputs": [
+    "ALP-EPC-00PAA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-004",
+  "originator": "EPC",
+  "review": "internal",
+  "rule": "DL-MR-TBE|MR-ME-004|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00PAA",
+  "title": "Technical bid evaluation - Travelling band screens and trash rakes",
+  "type_code": "RPT",
+  "weight": 40
+}

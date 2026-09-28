@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.642704Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.325327Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-17.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "manual",
+  "id": "ALP-E02-10BBT-ME-OMM-0001",
+  "inputs": [
+    "ALP-EPC-10BBT-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-002",
+  "originator": "E02",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": -8,
+  "review": "review",
+  "rule": "DL-V-OMM|MR-EL-002|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "10BBT",
+  "title": "Supplier operation and maintenance manual - Unit auxiliary transformers",
+  "type_code": "OMM",
+  "weight": 12
+}

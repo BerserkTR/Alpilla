@@ -2,16 +2,20 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.987609Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.661082Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T17:16:42.964772Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
     "00QEA10AN001",
-    "00QEA10AN002"
+    "00QEA10AN002",
+    "00QEA10AN003"
   ],
   "id": "ALP-EPC-00QEA-ME-DSH-0001",
   "inputs": [
@@ -20,10 +24,12 @@
   ],
   "mr": "MR-ME-008",
   "originator": "EPC",
+  "rule": "DL-ME-DSH|00QEA:MR-ME-008:compressor|1",
+  "sheets": 3,
   "status": "planned",
   "system": "00QEA",
   "tender": true,
   "title": "Datasheet - Compressed air: compressor (2 items)",
   "type_code": "DSH",
-  "weight": 16.0
+  "weight": 36
 }

@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.946575Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:57.940259Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.01"
+  ],
+  "cwa": "CWA-06",
+  "discipline": "civil",
+  "doc_type": "drawing",
+  "ewp": "EWP-06-CV-01",
+  "id": "ALP-EPC-00UZF-CV-FND-0002",
+  "inputs": [
+    "ALP-EPC-00UPA-PI-LAY-0001",
+    "ALP-EPC-00000-CV-RPT-0001",
+    "ALP-EPC-00000-CV-SPC-0002"
+  ],
+  "originator": "EPC",
+  "rule": "DL-CV-PIL|00UZF|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00UZF",
+  "title": "Piling layout and pile schedule - Temporary barge landing",
+  "type_code": "FND",
+  "weight": 80
+}

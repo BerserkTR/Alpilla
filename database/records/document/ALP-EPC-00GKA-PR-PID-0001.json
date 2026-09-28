@@ -2,11 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.888882Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.625254Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:05:57.911195Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-01.02",
+    "tie_in:TP-W1"
+  ],
   "bdp": false,
   "discipline": "process",
   "doc_type": "diagram",
@@ -16,10 +20,11 @@
     "ALP-EPC-00GKA-PR-SDS-0001"
   ],
   "originator": "EPC",
-  "sheets": 2,
+  "rule": "DL-PR-PID|00GKA|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00GKA",
   "title": "P&ID - Potable water",
   "type_code": "PID",
-  "weight": 100.0
+  "weight": 120
 }

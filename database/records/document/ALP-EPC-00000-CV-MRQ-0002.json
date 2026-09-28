@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.981584Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.550975Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:10:13.383866Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "civil",
   "doc_type": "other",
   "id": "ALP-EPC-00000-CV-MRQ-0002",
@@ -15,7 +18,10 @@
   ],
   "mr": "MR-CV-002",
   "originator": "EPC",
+  "rule": "DL-MR-MRQ|MR-CV-002|1",
+  "sheets": 1,
   "status": "planned",
+  "tender": true,
   "title": "Material requisition - Civil and building works",
   "type_code": "MRQ",
   "weight": 24.0

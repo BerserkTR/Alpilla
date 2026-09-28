@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.959057Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.822265Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-11.08"
+  ],
+  "cwa": "CWA-08",
+  "discipline": "electrical",
+  "doc_type": "drawing",
+  "ewp": "EWP-08-EL-01",
+  "id": "ALP-EPC-00UQA-EL-ELY-0002",
+  "inputs": [
+    "ALP-EPC-00UQA-EL-ELY-0001",
+    "ALP-EPC-00UQA-PI-PPL-0001",
+    "ALP-EPC-00UQA-PI-PPL-0002",
+    "ALP-EPC-00UQA-PI-PPL-0003"
+  ],
+  "originator": "EPC",
+  "rule": "DL-EL-CRT|CWA-08|1",
+  "sheets": 6,
+  "status": "planned",
+  "system": "00UQA",
+  "title": "Cable routing, tray and trench layouts - BOP utilities",
+  "type_code": "ELY",
+  "weight": 150
+}

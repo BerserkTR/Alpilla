@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.062342Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:58.037054Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.02"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "diagram",
+  "id": "ALP-EPC-00SAA-IC-LOG-0002",
+  "inputs": [
+    "ALP-EPC-00SAA-IC-CNR-0001",
+    "ALP-EPC-00SAA-HV-PID-0001",
+    "ALP-EPC-00000-IC-RPT-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-IC-LOG|00SAA|2",
+  "sheets": 74,
+  "status": "planned",
+  "system": "00SAA",
+  "title": "Logic diagrams - HVAC - part 2 of 2",
+  "type_code": "LOG",
+  "weight": 608
+}

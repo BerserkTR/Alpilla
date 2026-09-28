@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.066934Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:03:04.066934Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Switchgear And Controlgear",
+  "basis_refs": [
+    "source:SRC-EPCE-0009"
+  ],
+  "cwa": "CWA-01",
+  "cwp": "CWP-01-EL-01",
+  "description": "GT static frequency converter",
+  "equipment_type": "switchgear",
+  "id": "10MKC20",
+  "mr": "MR-EL-101",
+  "quantity": 1,
+  "status": "preliminary",
+  "supply": "IEC",
+  "system": "10MKC"
+}

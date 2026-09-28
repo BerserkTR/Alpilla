@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.599886Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.295666Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-P05-00000-ME-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-MRQ-0006"
+  ],
+  "mr": "MR-PI-005",
+  "originator": "P05",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "approval",
+  "rule": "DL-V-ITP|MR-PI-005|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Supplier inspection and test plan - Pipe supports, spring hangers and snubbers",
+  "type_code": "ITP",
+  "weight": 6
+}

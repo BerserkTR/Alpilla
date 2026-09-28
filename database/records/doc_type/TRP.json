@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:02:54.473263Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:17:52.538971Z",
+    "updated_by": "EPCE"
+  },
+  "category": "report",
+  "construction": false,
+  "dcc": "Q",
+  "id": "TRP",
+  "input_maturity": "IFR",
+  "input_types": [
+    "CMP",
+    "SPC",
+    "TST"
+  ],
+  "prep_days": 5,
+  "procurement": false,
+  "review": "review",
+  "title": "Test report / test record / certificate",
+  "update_days": 5
+}

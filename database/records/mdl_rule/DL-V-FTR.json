@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.906648Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.275455Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-15.03"
+  ],
+  "discipline": "mechanical",
+  "hours_base": 4,
+  "id": "DL-V-FTR",
+  "inputs": [
+    "DL-MR-MRQ"
+  ],
+  "originator": "SUPPLIER",
+  "package_types": [
+    "equipment",
+    "iec_supply"
+  ],
+  "po_weeks_final": -2,
+  "po_weeks_ifr": -4,
+  "review": "review",
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Factory acceptance test report - {name}",
+  "type_code": "TRP"
+}

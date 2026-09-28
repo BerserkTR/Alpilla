@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.076026Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:16:42.951583Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00GBA10AT001",
+    "00GBA10AT002",
+    "00GBA10AT003",
+    "00GBA10AT004",
+    "00GBA10AT005"
+  ],
+  "id": "ALP-EPC-00GBA-ME-DSH-0002",
+  "inputs": [
+    "ALP-EPC-00GBA-ME-CAL-0001",
+    "ALP-EPC-00LDA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-012",
+  "originator": "EPC",
+  "rule": "DL-ME-DSH|00GBA:MR-ME-012:filter|1",
+  "sheets": 5,
+  "status": "planned",
+  "system": "00GBA",
+  "title": "Datasheet - Seawater reverse osmosis: filter (5 items)",
+  "type_code": "DSH",
+  "weight": 56
+}

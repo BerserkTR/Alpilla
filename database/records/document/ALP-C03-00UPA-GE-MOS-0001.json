@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.267181Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.036262Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-14.05"
+  ],
+  "discipline": "general",
+  "doc_type": "procedure",
+  "id": "ALP-C03-00UPA-GE-MOS-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-MRQ-0003"
+  ],
+  "mr": "MR-CV-003",
+  "originator": "C03",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-S-MOS|MR-CV-003|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00UPA",
+  "title": "Subcontractor method statements - Marine works - part 1 of 6",
+  "type_code": "MOS",
+  "weight": 8
+}

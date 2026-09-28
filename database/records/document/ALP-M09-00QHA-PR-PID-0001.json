@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.680511Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.348433Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "discipline": "process",
+  "doc_type": "diagram",
+  "id": "ALP-M09-00QHA-PR-PID-0001",
+  "inputs": [
+    "ALP-EPC-00QHA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-009",
+  "originator": "M09",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "approval",
+  "rule": "DL-V-PID|MR-ME-009|1",
+  "sheets": 3,
+  "status": "planned",
+  "system": "00QHA",
+  "title": "Supplier P&IDs - Auxiliary boiler",
+  "type_code": "PID",
+  "weight": 13
+}

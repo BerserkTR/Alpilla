@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:22:48.805429Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:22:49.370810Z",
+    "updated_by": "OWNR"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "TQ-037",
+  "impact": "none",
+  "outcome": "contractor_proposal_accepted",
+  "question": "TQ-035 requires a CWP to be released only when its EWP is complete (all documents IFC). With the Rev B MDL a piping CWP carries up to 2,800 isometric sheets and a civil CWP the reinforcement of every pour; requiring all of them IFC before the first IWP would delay construction by 3-9 months or require engineering staff far above a realistic peak. The consortium proposes: (a) a CWP is released when the documents of its first IWPs are IFC (layouts, GA, foundations, plans: 100 % at release) and its materials for those IWPs are on site or confirmed; (b) progressive documents (isometrics, supports, schematics, loop diagrams, reinforcement, equipment foundations) are released per IWP, planned at CWP start - lead + share x CWP duration per document type; (c) no IWP is issued to the field unless all its documents are IFC and its constraints removed; (d) the EWP completeness per CWP is reported monthly.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-28",
+  "references": [
+    "requirement:ER-17.02"
+  ],
+  "responded_by": "OWNER",
+  "response": "Accepted as proposed, with the condition that the monthly report shows per CWP the IFC status of the documents needed for the next 8 weeks of IWPs, and that a CWP whose first-IWP documents are not IFC is not started. TQ-035 item (4) is amended accordingly.",
+  "response_date": "2026-09-28",
+  "round": 8,
+  "status": "closed",
+  "subject": "AWP release rule: progressive EWP release to the IWPs of a CWP"
+}

@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.155807Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.971910Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "report",
+  "id": "ALP-EPC-00EGB-GE-RPT-0001",
+  "inputs": [
+    "ALP-EPC-00EGB-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-017",
+  "originator": "EPC",
+  "review": "internal",
+  "rule": "DL-MR-TBE|MR-ME-017|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00EGB",
+  "title": "Technical bid evaluation - LDO storage tanks (field-erected, API 650)",
+  "type_code": "RPT",
+  "weight": 40
+}

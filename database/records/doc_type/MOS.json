@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:02:54.475410Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:17:52.537973Z",
+    "updated_by": "EPCE"
+  },
+  "category": "procedure",
+  "construction": false,
+  "dcc": "B",
+  "id": "MOS",
+  "input_maturity": "IFR",
+  "input_types": [
+    "CVL",
+    "PLN"
+  ],
+  "prep_days": 10,
+  "procurement": false,
+  "review": "review",
+  "title": "Method statement / construction execution plan",
+  "update_days": 5
+}

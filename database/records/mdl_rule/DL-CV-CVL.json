@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.897617Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.256853Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.05"
+  ],
+  "discipline": "civil",
+  "ewp_disc": "CV",
+  "hours_per_sheet": 40,
+  "id": "DL-CV-CVL",
+  "inputs": [
+    "doc:ALP-EPC-00000-PI-PLT-0001",
+    "doc:ALP-EPC-00000-CV-RPT-0001",
+    "DL-PR-SDS@cwa"
+  ],
+  "originator": "EPC",
+  "quantity": "q_fnd_sheets",
+  "scope": "structure",
+  "status": "agreed",
+  "systems": [
+    "00UPA",
+    "00UZA",
+    "00UZB",
+    "00UZC",
+    "00UZE"
+  ],
+  "title": "Civil drawings - {name}",
+  "type_code": "CVL"
+}

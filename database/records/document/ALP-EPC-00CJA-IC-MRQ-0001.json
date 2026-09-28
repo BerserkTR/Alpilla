@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.970133Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.595946Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:10:13.385709Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "i_and_c",
   "doc_type": "other",
   "id": "ALP-EPC-00CJA-IC-MRQ-0001",
@@ -16,8 +19,11 @@
   ],
   "mr": "MR-IC-001",
   "originator": "EPC",
+  "rule": "DL-MR-MRQ|MR-IC-001|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00CJA",
+  "tender": true,
   "title": "Material requisition - Plant DCS",
   "type_code": "MRQ",
   "weight": 24.0

@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.121817Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:13:27.934503Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "specification",
+  "id": "ALP-EPC-00000-GE-SPC-0004",
+  "inputs": [
+    "ALP-EPC-00000-ME-SPC-0002",
+    "ALP-EPC-00000-ME-SPC-0003"
+  ],
+  "mr": "MR-ME-022",
+  "originator": "EPC",
+  "rule": "DL-MR-SPC|MR-ME-022|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Technical specification - Painting and insulation (subcontract)",
+  "type_code": "SPC",
+  "weight": 80
+}

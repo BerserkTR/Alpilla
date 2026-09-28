@@ -2,15 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T15:15:58.164504Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T15:15:58.164504Z",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:15:33.035416Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
-    "decision:DEC-EPCE-0007"
+    "decision:DEC-EPCE-0010"
   ],
   "discipline": "electrical",
-  "fte": 4,
+  "fte": 8,
   "hours_per_day": 7.5,
-  "id": "RES-EL"
+  "id": "RES-EL",
+  "ramp_weeks": 12
 }

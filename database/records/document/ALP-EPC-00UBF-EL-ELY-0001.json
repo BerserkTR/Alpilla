@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.962921Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:57.947381Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-11.07"
+  ],
+  "cwa": "CWA-01",
+  "discipline": "electrical",
+  "doc_type": "drawing",
+  "ewp": "EWP-01-EL-01",
+  "id": "ALP-EPC-00UBF-EL-ELY-0001",
+  "inputs": [
+    "ALP-EPC-00UBF-CV-FND-0001",
+    "ALP-EPC-00000-EL-STU-0003",
+    "ALP-EPC-00000-EL-STU-0004"
+  ],
+  "originator": "EPC",
+  "rule": "DL-EL-EAR|00UBF|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00UBF",
+  "title": "Earthing and lightning protection layouts - Transformer bays",
+  "type_code": "ELY",
+  "weight": 40
+}

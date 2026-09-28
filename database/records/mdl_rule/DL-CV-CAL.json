@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.898155Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.256582Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.01"
+  ],
+  "discipline": "civil",
+  "hours_base": 40,
+  "hours_per_sheet": 40,
+  "id": "DL-CV-CAL",
+  "inputs": [
+    "doc:ALP-EPC-00000-CV-CAL-0001",
+    "doc:ALP-EPC-00000-CV-RPT-0001"
+  ],
+  "originator": "EPC",
+  "per_sheet": 4,
+  "quantity": "q_fnd_sheets",
+  "scope": "structure",
+  "status": "agreed",
+  "title": "Structural and foundation calculation - {name}",
+  "type_code": "CAL"
+}

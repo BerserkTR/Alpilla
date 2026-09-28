@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.393644Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:17:56.545726Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-01",
+  "discipline": "electrical",
+  "doc_type": "diagram",
+  "ewp": "EWP-01-IC-01",
+  "id": "ALP-I02-00CQA-EL-WIR-0001",
+  "inputs": [
+    "ALP-EPC-00CQA-IC-MRQ-0001"
+  ],
+  "mr": "MR-IC-002",
+  "originator": "I02",
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "review": "review",
+  "rule": "DL-V-ELD|MR-IC-002|1",
+  "sheets": 8,
+  "status": "planned",
+  "system": "00CQA",
+  "title": "Supplier electrical schematics and wiring diagrams - Continuous emission monitoring system",
+  "type_code": "WIR",
+  "weight": 8.0
+}

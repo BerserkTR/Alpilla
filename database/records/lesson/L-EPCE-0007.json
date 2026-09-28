@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:27:28.261761Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:27:38.260100Z",
+    "updated_by": "EPCE"
+  },
+  "action": "Keep the MDL rule-based (mdl_rule + engine mdl sync), keep the quantity basis on the systems and replace estimates by register counts, run engineering_plan and read the benchmark rows after every MDL change",
+  "context": "MDL Rev A (623 documents, 49,000 h) passed every coverage check (each requirement, system and scope item had a document) but missed about three quarters of the work: per-tag deliverables, supplier documents of the BOP packages, FATs, test reports, system commissioning and O&M documents, permit dossiers; it was found in a review of the total count, not by any check",
+  "date": "2026-09-28",
+  "id": "L-EPCE-0007",
+  "lesson": "Completeness needs quantities: documents derived from rules and quantity bases (tags, sheets, loops, consumers, structures) and a plausibility check of sheets and hours per discipline against independent benchmarks",
+  "status": "active",
+  "tags": [
+    "mdl",
+    "engineering",
+    "verification"
+  ],
+  "title": "A coverage check that asks for at least one document per item cannot show an incomplete MDL"
+}

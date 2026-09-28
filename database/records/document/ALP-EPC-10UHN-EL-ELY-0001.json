@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.969614Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:57.953653Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-11.07"
+  ],
+  "cwa": "CWA-01",
+  "discipline": "electrical",
+  "doc_type": "drawing",
+  "ewp": "EWP-01-EL-01",
+  "id": "ALP-EPC-10UHN-EL-ELY-0001",
+  "inputs": [
+    "ALP-EPC-10UHN-CV-FND-0001",
+    "ALP-EPC-00000-EL-STU-0003",
+    "ALP-EPC-00000-EL-STU-0004"
+  ],
+  "originator": "EPC",
+  "rule": "DL-EL-EAR|10UHN|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "10UHN",
+  "title": "Earthing and lightning protection layouts - Stack foundation",
+  "type_code": "ELY",
+  "weight": 20
+}

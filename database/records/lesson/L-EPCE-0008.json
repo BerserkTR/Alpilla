@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:27:29.127612Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:27:29.127612Z",
+    "updated_by": "EPCE"
+  },
+  "action": "Set doc_type.progressive_share and mr.need_lag_days deliberately; trace every negative float to its cause (capacity, logic or PO) before adding staff; record procurement strategy (tender-stage MRQs) as a decision",
+  "context": "With the complete MDL, the rule all-EWP-documents-IFC-before-CWP-start required 260 FTE; the staffing search also showed requisitions blocked by long chains (HAZOP -> SIL -> SRS -> SIS spec), building foundations waiting for switchgear vendor loads and long-lead MRQs impossible after NTP",
+  "date": "2026-09-28",
+  "id": "L-EPCE-0008",
+  "lesson": "Need dates must follow how work is released (progressive documents per IWP, materials installed late in a CWP), and the network must only link what really gates a date (vendor loads for equipment foundations, not for buildings; SRS configures the SIS, it does not gate its PO)",
+  "status": "active",
+  "tags": [
+    "planning",
+    "awp",
+    "procurement"
+  ],
+  "title": "AWP need dates: release progressive documents per IWP, and model vendor data and procurement strategy explicitly"
+}

@@ -2,15 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T15:15:58.164774Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T15:15:58.164774Z",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:15:33.033942Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
-    "decision:DEC-EPCE-0007"
+    "decision:DEC-EPCE-0010"
   ],
   "discipline": "i_and_c",
-  "fte": 5,
+  "fte": 14,
   "hours_per_day": 7.5,
-  "id": "RES-IC"
+  "id": "RES-IC",
+  "ramp_weeks": 12
 }

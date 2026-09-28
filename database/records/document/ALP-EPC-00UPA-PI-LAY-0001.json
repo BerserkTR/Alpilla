@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.007204Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.699786Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.539610Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
   "bdp": false,
   "cwa": "CWA-06",
   "discipline": "piping",
@@ -17,10 +20,11 @@
     "ALP-EPC-00000-PI-PLT-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-PI-LAY|CWA-06|1",
   "sheets": 2,
   "status": "planned",
   "system": "00UPA",
   "title": "Equipment layout - Marine works (offshore)",
   "type_code": "LAY",
-  "weight": 100.0
+  "weight": 80
 }

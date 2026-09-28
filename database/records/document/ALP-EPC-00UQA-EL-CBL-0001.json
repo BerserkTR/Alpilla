@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.037312Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.702740Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.392289Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-11.08"
+  ],
   "cwa": "CWA-08",
   "discipline": "electrical",
   "doc_type": "list",
@@ -18,6 +21,8 @@
     "ALP-EPC-00UQA-EL-ELY-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-EL-CBL|CWA-08|1",
+  "sheets": 20,
   "status": "planned",
   "system": "00UQA",
   "title": "Cable schedule and routing - BOP utilities",

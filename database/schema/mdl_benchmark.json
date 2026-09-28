@@ -1,0 +1,76 @@
+{
+  "entity": "mdl_benchmark",
+  "title": "Indicative MDL quantities per discipline for a comparable plant (checks the MDL for completeness)",
+  "id_pattern": "^BM-[A-Z]{2,3}(-[A-Z]{2,3})?$",
+  "display": [
+    "discipline",
+    "originator",
+    "sheets_min",
+    "sheets_max"
+  ],
+  "fields": {
+    "discipline": {
+      "type": "enum",
+      "values": [
+        "general",
+        "process",
+        "mechanical",
+        "piping",
+        "electrical",
+        "i_and_c",
+        "civil",
+        "structural",
+        "hvac",
+        "hse",
+        "commissioning",
+        "project_control",
+        "all"
+      ],
+      "required": true
+    },
+    "originator": {
+      "type": "enum",
+      "values": [
+        "EPC",
+        "SUPPLIER",
+        "ALL"
+      ],
+      "required": true
+    },
+    "docs_min": {
+      "type": "integer",
+      "min": 0
+    },
+    "docs_max": {
+      "type": "integer",
+      "min": 0
+    },
+    "sheets_min": {
+      "type": "integer",
+      "min": 0
+    },
+    "sheets_max": {
+      "type": "integer",
+      "min": 0
+    },
+    "hours_min": {
+      "type": "number",
+      "min": 0
+    },
+    "hours_max": {
+      "type": "number",
+      "min": 0
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "decision",
+        "reference",
+        "source"
+      ]
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

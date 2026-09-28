@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.111665Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.951867Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "other",
+  "id": "ALP-EPC-00000-GE-MRQ-0004",
+  "inputs": [
+    "ALP-EPC-00000-GE-SPC-0004"
+  ],
+  "mr": "MR-ME-022",
+  "originator": "EPC",
+  "rule": "DL-MR-MRQ|MR-ME-022|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Material requisition - Painting and insulation (subcontract)",
+  "type_code": "MRQ",
+  "weight": 24
+}

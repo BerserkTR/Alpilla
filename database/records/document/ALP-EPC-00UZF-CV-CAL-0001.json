@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.942851Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:12:57.928878Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-13.01"
+  ],
+  "discipline": "civil",
+  "doc_type": "calculation",
+  "id": "ALP-EPC-00UZF-CV-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-CAL-0001",
+    "ALP-EPC-00000-CV-RPT-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-CV-CAL|00UZF|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00UZF",
+  "title": "Structural and foundation calculation - Temporary barge landing",
+  "type_code": "CAL",
+  "weight": 120
+}

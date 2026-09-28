@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.043711Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.692773Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.432117Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
   "cwa": "CWA-10",
   "discipline": "i_and_c",
   "doc_type": "diagram",
@@ -17,10 +20,11 @@
     "ALP-EPC-00000-IC-LST-0001"
   ],
   "originator": "EPC",
-  "sheets": 20,
+  "rule": "DL-IC-LOP|CWA-10|1",
+  "sheets": 96,
   "status": "planned",
   "system": "00UEG",
   "title": "Loop and connection diagrams - LDO tank farm and unloading",
   "type_code": "LOP",
-  "weight": 172.5
+  "weight": 144.0
 }

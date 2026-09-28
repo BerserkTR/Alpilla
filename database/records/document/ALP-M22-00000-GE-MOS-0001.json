@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.280613Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.043978Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-14.05"
+  ],
+  "discipline": "general",
+  "doc_type": "procedure",
+  "id": "ALP-M22-00000-GE-MOS-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-MRQ-0004"
+  ],
+  "mr": "MR-ME-022",
+  "originator": "M22",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-S-MOS|MR-ME-022|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Subcontractor method statements - Painting and insulation (subcontract) - part 1 of 6",
+  "type_code": "MOS",
+  "weight": 8
+}

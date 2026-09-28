@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.875406Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.594724Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:05:57.905066Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,7 +11,9 @@
     "requirement:ER-12.01",
     "requirement:ER-12.08",
     "scope_item:DR-035",
-    "scope_item:SC-036"
+    "scope_item:SC-036",
+    "tie_in:IF-40",
+    "tie_in:TP-T3"
   ],
   "bdp": true,
   "discipline": "i_and_c",
@@ -22,6 +24,8 @@
     "ALP-IEC-10MBY-IC-BLK-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-IC-BLK|00CJA|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00CJA",
   "title": "System architecture - Plant DCS",

@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.448129Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.158893Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.03"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-I03-00QUA-ME-TST-0001",
+  "inputs": [
+    "ALP-EPC-00QUA-IC-MRQ-0001"
+  ],
+  "mr": "MR-IC-003",
+  "originator": "I03",
+  "po_weeks_final": -10,
+  "po_weeks_ifr": -16,
+  "review": "approval",
+  "rule": "DL-V-FAT|MR-IC-003|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00QUA",
+  "title": "Factory acceptance test procedure - Steam/water analysis system",
+  "type_code": "TST",
+  "weight": 8
+}

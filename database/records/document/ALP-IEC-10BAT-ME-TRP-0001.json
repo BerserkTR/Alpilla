@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.491451Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.198932Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.03"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "report",
+  "id": "ALP-IEC-10BAT-ME-TRP-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-MRQ-0001",
+    "ALP-EPC-10BBT-EL-MRQ-0001",
+    "ALP-EPC-00000-EL-MRQ-0001",
+    "ALP-EPC-00CQA-IC-MRQ-0001",
+    "ALP-EPC-00QUA-IC-MRQ-0001",
+    "ALP-EPC-00000-IC-MRQ-0001",
+    "ALP-EPC-00000-IC-MRQ-0002",
+    "ALP-EPC-00000-GE-MRQ-0003",
+    "ALP-EPC-10HAN-ME-MRQ-0001",
+    "ALP-EPC-00SMA-ME-MRQ-0001",
+    "ALP-EPC-00000-GE-MRQ-0004",
+    "ALP-EPC-00000-GE-MRQ-0005",
+    "ALP-EPC-00UZF-GE-MRQ-0001",
+    "ALP-EPC-00000-PI-MRQ-0002",
+    "ALP-EPC-00000-PI-MRQ-0003",
+    "ALP-EPC-00000-GE-MRQ-0006",
+    "ALP-EPC-00000-GE-MRQ-0007",
+    "ALP-EPC-00000-GE-MRQ-0008",
+    "ALP-EPC-00000-SS-MRQ-0001",
+    "ALP-EPC-10HNE-SS-MRQ-0001"
+  ],
+  "mr": "MR-EL-102",
+  "originator": "IEC",
+  "po_weeks_final": -2,
+  "po_weeks_ifr": -4,
+  "review": "review",
+  "rule": "DL-V-FTR|MR-EL-102|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "10BAT",
+  "title": "Factory acceptance test report - Generator step-up transformers (IEC)",
+  "type_code": "TRP",
+  "weight": 4
+}

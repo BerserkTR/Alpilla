@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.167078Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:19:40.063935Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "cwa": "CWA-03",
+  "discipline": "piping",
+  "doc_type": "isometric",
+  "ewp": "EWP-03-HV-01",
+  "id": "ALP-EPC-00SAA-PI-ISO-0001",
+  "inputs": [
+    "ALP-EPC-00UBA-PI-PPL-0001",
+    "ALP-EPC-00SAA-HV-PID-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-PI-ISO|00SAA|1",
+  "sheets": 60,
+  "status": "planned",
+  "system": "00SAA",
+  "title": "Isometric drawings - HVAC",
+  "type_code": "ISO",
+  "weight": 600
+}

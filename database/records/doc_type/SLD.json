@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:49:40.113601Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T14:49:40.113601Z",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:17:52.538721Z",
     "updated_by": "EPCE"
   },
   "category": "diagram",
@@ -13,6 +13,7 @@
   "id": "SLD",
   "input_maturity": "IFR",
   "input_types": [
+    "DBR",
     "LST"
   ],
   "prep_days": 15,

@@ -2,13 +2,24 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:00.141293Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.238121Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:02:56.551236Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "System",
   "category": "civil_structural",
+  "cwas": [
+    "CWA-07"
+  ],
   "id": "00UGA",
+  "q_arch_sheets": 10,
+  "q_basis": "estimate",
+  "q_fnd_sheets": 8,
+  "q_pile_sheets": 0,
+  "q_rebar_sheets": 20,
+  "q_remarks": "Estimated per DEC-EPCE-0008; replaced by register counts as the P&IDs and models develop",
+  "q_services_sheets": 12,
+  "q_steel_sheets": 8,
   "scope": "IEPC",
   "title": "Water treatment building and basins",
   "unit_no": "00"

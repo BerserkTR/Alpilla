@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.272334Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.038822Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-14.05"
+  ],
+  "discipline": "general",
+  "doc_type": "procedure",
+  "id": "ALP-E12-00000-GE-MOS-0002",
+  "inputs": [
+    "ALP-EPC-00000-GE-MRQ-0002"
+  ],
+  "mr": "MR-EL-012",
+  "originator": "E12",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-S-MOS|MR-EL-012|2",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Subcontractor method statements - Electrical and I&C installation (subcontract) - part 2 of 6",
+  "type_code": "MOS",
+  "weight": 8
+}

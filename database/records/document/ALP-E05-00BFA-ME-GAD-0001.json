@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.514700Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:17:56.563121Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-03",
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "equipment": [
+    "00BFA10",
+    "00BFA20",
+    "00BFA30",
+    "00BFA40",
+    "00BFA50",
+    "00BFA60",
+    "00BFA70",
+    "00BFA80",
+    "00BMA10",
+    "00BMA20",
+    "00BRA20"
+  ],
+  "ewp": "EWP-03-EL-01",
+  "id": "ALP-E05-00BFA-ME-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00BFA-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-005",
+  "originator": "E05",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "review": "review",
+  "rule": "DL-V-GAD|MR-EL-005|1",
+  "sheets": 15,
+  "status": "planned",
+  "system": "00BFA",
+  "title": "Supplier GA drawings - LV switchboards and MCCs",
+  "type_code": "GAD",
+  "weight": 26.5
+}

@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.027145Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:57.995031Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "datasheet",
+  "id": "ALP-EPC-00GUA-IC-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00GUA-PR-PID-0001",
+    "ALP-EPC-00000-IC-SPC-0001"
+  ],
+  "mr": "MR-IC-004",
+  "originator": "EPC",
+  "rule": "DL-IC-IDS|00GUA|1",
+  "sheets": 10,
+  "status": "planned",
+  "system": "00GUA",
+  "title": "Instrument datasheets - Sanitary waste water treatment",
+  "type_code": "DSH",
+  "weight": 23.0
+}

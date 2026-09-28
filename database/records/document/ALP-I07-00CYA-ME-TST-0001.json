@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.449043Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.159682Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.03"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-I07-00CYA-ME-TST-0001",
+  "inputs": [
+    "ALP-EPC-00CYA-GE-MRQ-0001"
+  ],
+  "mr": "MR-IC-007",
+  "originator": "I07",
+  "po_weeks_final": -10,
+  "po_weeks_ifr": -16,
+  "review": "approval",
+  "rule": "DL-V-FAT|MR-IC-007|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00CYA",
+  "title": "Factory acceptance test procedure - Telecom, CCTV, access control and perimeter security",
+  "type_code": "TST",
+  "weight": 8
+}

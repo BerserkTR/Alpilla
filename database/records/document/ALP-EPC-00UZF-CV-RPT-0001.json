@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:05:18.204286Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:05:57.922431Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "permit:PMT-007",
+    "requirement:ER-02.14",
+    "tie_in:TP-M1"
+  ],
+  "discipline": "civil",
+  "doc_type": "report",
+  "id": "ALP-EPC-00UZF-CV-RPT-0001",
+  "inputs": [
+    "ALP-EPC-00000-ME-STU-0001",
+    "ALP-EPC-00000-CV-RPT-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00UZF",
+  "title": "Temporary barge landing design report and removal plan",
+  "type_code": "RPT",
+  "weight": 160.0
+}

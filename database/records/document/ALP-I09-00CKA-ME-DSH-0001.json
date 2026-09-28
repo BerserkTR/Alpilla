@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.368902Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:16:42.981651Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00CKA10"
+  ],
+  "id": "ALP-I09-00CKA-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00CKA-GE-MRQ-0001"
+  ],
+  "mr": "MR-IC-009",
+  "originator": "I09",
+  "po_weeks_final": 10,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-V-DSH|MR-IC-009|1",
+  "sheets": 6,
+  "status": "planned",
+  "system": "00CKA",
+  "title": "Supplier certified datasheets and performance curves - Operator training simulator, historian and performance monitoring",
+  "type_code": "DSH",
+  "weight": 10
+}

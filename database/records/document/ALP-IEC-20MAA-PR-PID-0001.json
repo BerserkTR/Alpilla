@@ -2,24 +2,47 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.854706Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.784234Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:20:25.900832Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
     "requirement:ER-07.05",
     "requirement:ER-07.06",
-    "scope_item:DR-017"
+    "scope_item:DR-016",
+    "scope_item:DR-017",
+    "scope_item:DR-020",
+    "scope_item:DR-021",
+    "scope_item:SC-008",
+    "scope_item:SC-012",
+    "tie_in:IF-06",
+    "tie_in:IF-07",
+    "tie_in:IF-10",
+    "tie_in:IF-12",
+    "tie_in:IF-14",
+    "tie_in:IF-15",
+    "tie_in:IF-27",
+    "tie_in:IF-32",
+    "tie_in:IF-44"
   ],
   "discipline": "process",
   "doc_type": "diagram",
   "id": "ALP-IEC-20MAA-PR-PID-0001",
+  "inputs": [
+    "ALP-EPC-20LCB-ME-MRQ-0001",
+    "ALP-EPC-00PAH-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-103",
   "originator": "IEC",
   "planned_ifc": "2027-03-22",
   "planned_ifr": "2027-01-25",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
   "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
-  "sheets": 10,
+  "review": "approval",
+  "rule": "DL-V-PID|MR-ME-103|1",
+  "sheets": 16,
   "status": "planned",
   "system": "20MAA",
   "systems": [
@@ -33,5 +56,5 @@
   "title": "Steam turbine and condenser P&IDs (lube, gland, vacuum, EHC, bypass valves)",
   "type_code": "PID",
   "vendor_ref": "IEC-ALP-PID-103",
-  "weight": 260.0
+  "weight": 52
 }

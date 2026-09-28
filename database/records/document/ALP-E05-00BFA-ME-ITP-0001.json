@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.572057Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.273778Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-E05-00BFA-ME-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00BFA-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-005",
+  "originator": "E05",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "approval",
+  "rule": "DL-V-ITP|MR-EL-005|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00BFA",
+  "title": "Supplier inspection and test plan - LV switchboards and MCCs",
+  "type_code": "ITP",
+  "weight": 6
+}

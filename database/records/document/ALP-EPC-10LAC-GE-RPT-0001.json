@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.145121Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.964038Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "report",
+  "id": "ALP-EPC-10LAC-GE-RPT-0001",
+  "inputs": [
+    "ALP-EPC-10LAC-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-001",
+  "originator": "EPC",
+  "review": "internal",
+  "rule": "DL-MR-TBE|MR-ME-001|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "10LAC",
+  "title": "Technical bid evaluation - Boiler feed pumps",
+  "type_code": "RPT",
+  "weight": 40
+}

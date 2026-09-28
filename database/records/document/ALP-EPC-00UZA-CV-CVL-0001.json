@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.010194Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.706968Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:05:57.921274Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
     "scope_item:SC-005",
-    "scope_item:SC-045"
+    "scope_item:SC-045",
+    "tie_in:TP-A1"
   ],
   "cwa": "CWA-12",
   "discipline": "civil",

@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.084596Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:16:42.956684Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00GUA10AP001",
+    "00GUA10AP002"
+  ],
+  "id": "ALP-EPC-00GUA-ME-DSH-0002",
+  "inputs": [
+    "ALP-EPC-00GUA-ME-CAL-0001",
+    "ALP-EPC-00GNA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-014",
+  "originator": "EPC",
+  "rule": "DL-ME-DSH|00GUA:MR-ME-014:pump|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00GUA",
+  "title": "Datasheet - Sanitary waste water treatment: pump (2 items)",
+  "type_code": "DSH",
+  "weight": 26
+}

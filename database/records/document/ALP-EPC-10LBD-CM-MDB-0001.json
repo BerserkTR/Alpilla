@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.932543Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.793235Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-16.01"
+  ],
+  "discipline": "commissioning",
+  "doc_type": "report",
+  "id": "ALP-EPC-10LBD-CM-MDB-0001",
+  "inputs": [
+    "ALP-EPC-10LBD-CM-CMP-0001"
+  ],
+  "originator": "EPC",
+  "review": "information",
+  "rule": "DL-CM-TOD|10LBD|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "10LBD",
+  "title": "System turnover dossier - LP steam piping",
+  "type_code": "MDB",
+  "weight": 16
+}

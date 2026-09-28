@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.889783Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.263149Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.02"
+  ],
+  "categories": [
+    "water_steam_cycle",
+    "condensate_feedwater",
+    "cooling",
+    "water_treatment",
+    "auxiliary_mechanical",
+    "fuel_gas",
+    "fire_protection",
+    "hvac"
+  ],
+  "discipline": "i_and_c",
+  "hours_base": 8,
+  "hours_per_sheet": 12,
+  "id": "DL-IC-HMI",
+  "inputs": [
+    "DL-PR-PID",
+    "DL-IC-CNR"
+  ],
+  "originator": "EPC",
+  "parties": [
+    "IEPC"
+  ],
+  "quantity": "q_pid_sheets",
+  "scope": "system",
+  "status": "agreed",
+  "title": "Operator displays (HMI graphics) - {name}",
+  "type_code": "HMI"
+}

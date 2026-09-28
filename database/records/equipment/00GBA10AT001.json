@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.007457Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:03:04.007457Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Filter",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "cwa": "CWA-07",
+  "cwp": "CWP-07-ME-01",
+  "description": "SWRO multimedia filter A",
+  "equipment_type": "filter",
+  "id": "00GBA10AT001",
+  "mr": "MR-ME-012",
+  "quantity": 1,
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00GBA"
+}

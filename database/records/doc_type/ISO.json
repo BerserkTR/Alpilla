@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:49:59.872723Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T14:49:59.872723Z",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:09:06.121392Z",
     "updated_by": "EPCE"
   },
   "category": "isometric",
@@ -17,6 +17,7 @@
   ],
   "prep_days": 20,
   "procurement": false,
+  "progressive_share": 0.4,
   "review": "information",
   "title": "Isometric drawing package",
   "update_days": 5

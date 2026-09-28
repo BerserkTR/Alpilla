@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.963945Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.590145Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:04:05.504441Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "electrical",
   "doc_type": "specification",
   "id": "ALP-EPC-00BFA-EL-SPC-0001",
@@ -15,6 +18,8 @@
   ],
   "mr": "MR-EL-005",
   "originator": "EPC",
+  "rule": "DL-MR-SPC|MR-EL-005|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00BFA",
   "tender": true,

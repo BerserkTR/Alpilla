@@ -2,11 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.921697Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.763159Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.536422Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "cwa": "CWA-02",
   "discipline": "piping",
   "doc_type": "isometric",
   "ewp": "EWP-02-PI-01",
@@ -14,13 +18,15 @@
   "inputs": [
     "ALP-EPC-00000-PI-M3D-0002",
     "ALP-EPC-20LCA-PR-PID-0001",
-    "ALP-EPC-20UMB-PI-PPL-0001"
+    "ALP-EPC-20UMB-PI-PPL-0001",
+    "ALP-EPC-20LCA-PI-STR-0001"
   ],
   "originator": "EPC",
-  "sheets": 15,
+  "rule": "DL-PI-ISO|20LCA|1",
+  "sheets": 110,
   "status": "planned",
   "system": "20LCA",
   "title": "Isometric drawings - Main condensate piping",
   "type_code": "ISO",
-  "weight": 120
+  "weight": 1100
 }

@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.090611Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:16:42.961741Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00PBA10AP001",
+    "00PBA10AP002",
+    "00PBA10AP003",
+    "00PBA10AP004"
+  ],
+  "id": "ALP-EPC-00PBA-ME-DSH-0004",
+  "inputs": [
+    "ALP-EPC-00PBA-ME-CAL-0001",
+    "ALP-EPC-00PBA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-005",
+  "originator": "EPC",
+  "rule": "DL-ME-DSH|00PBA:MR-ME-005:pump|1",
+  "sheets": 4,
+  "status": "planned",
+  "system": "00PBA",
+  "title": "Datasheet - Electro-chlorination: pump (4 items)",
+  "type_code": "DSH",
+  "weight": 46
+}

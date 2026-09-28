@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.934728Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:18:36.236957Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.02"
+  ],
+  "cwa": "CWA-05",
+  "discipline": "civil",
+  "doc_type": "drawing",
+  "ewp": "EWP-05-CV-01",
+  "id": "ALP-EPC-00UPC-CV-ARC-0001",
+  "inputs": [
+    "ALP-EPC-00UPC-PI-LAY-0001",
+    "ALP-EPC-00000-HV-DBR-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-CV-ARC|00UPC|1",
+  "sheets": 4,
+  "status": "planned",
+  "system": "00UPC",
+  "title": "Architectural drawings - CW pump house",
+  "type_code": "ARC",
+  "weight": 140
+}

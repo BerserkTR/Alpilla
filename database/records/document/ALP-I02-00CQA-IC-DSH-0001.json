@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.535119Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:16:43.012061Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "i_and_c",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00CQA10"
+  ],
+  "id": "ALP-I02-00CQA-IC-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00CQA-IC-MRQ-0001"
+  ],
+  "mr": "MR-IC-002",
+  "originator": "I02",
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "review": "review",
+  "rule": "DL-V-INL|MR-IC-002|1",
+  "sheets": 15,
+  "status": "planned",
+  "system": "00CQA",
+  "title": "Supplier instrument list and datasheets - Continuous emission monitoring system",
+  "type_code": "DSH",
+  "weight": 7.0
+}

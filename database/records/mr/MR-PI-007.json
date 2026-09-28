@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:02:56.198595Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:19.577309Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-036"
+  ],
+  "award_days": 10,
+  "basis_refs": [
+    "requirement:ER-15.04"
+  ],
+  "bid_days": 25,
+  "cwps": [
+    "CWP-01-PI-01",
+    "CWP-02-PI-01",
+    "CWP-08-PI-01"
+  ],
+  "discipline": "piping",
+  "id": "MR-PI-007",
+  "manufacture_weeks": 20,
+  "package_type": "bulk",
+  "status": "agreed",
+  "supplier_code": "P07",
+  "title": "Safety and relief valves",
+  "transport_weeks": 3,
+  "vdr_weeks": 8
+}

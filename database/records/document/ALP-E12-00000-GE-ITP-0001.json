@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.252787Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.028439Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "procedure",
+  "id": "ALP-E12-00000-GE-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-MRQ-0002"
+  ],
+  "mr": "MR-EL-012",
+  "originator": "E12",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "approval",
+  "rule": "DL-S-ITP|MR-EL-012|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Subcontractor inspection and test plans - Electrical and I&C installation (subcontract)",
+  "type_code": "ITP",
+  "weight": 8
+}

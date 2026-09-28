@@ -2,12 +2,13 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.870367Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.769025Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:04:05.582712Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
+    "requirement:ER-01.02",
     "requirement:ER-07.09",
     "scope_item:DR-019",
     "scope_item:DR-020"
@@ -20,10 +21,12 @@
     "ALP-EPC-00000-PR-PFD-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-PR-SDS|20MAN|1",
+  "sheets": 1,
   "status": "planned",
   "system": "20MAN",
   "tender": true,
   "title": "System design description - Turbine bypass stations and piping",
   "type_code": "SDS",
-  "weight": 60.0
+  "weight": 80
 }

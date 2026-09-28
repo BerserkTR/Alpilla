@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.693939Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.358824Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-17.06"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "list",
+  "id": "ALP-I06-00SGY-ME-LST-0001",
+  "inputs": [
+    "ALP-EPC-00SGY-GE-MRQ-0001"
+  ],
+  "mr": "MR-IC-006",
+  "originator": "I06",
+  "po_weeks_final": 20,
+  "po_weeks_ifr": 12,
+  "review": "review",
+  "rule": "DL-V-SPL|MR-IC-006|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00SGY",
+  "title": "Spare parts and special tools lists - Fire detection and alarm system",
+  "type_code": "LST",
+  "weight": 6
+}

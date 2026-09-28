@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.890041Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.261488Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "categories": [
+    "i_and_c"
+  ],
+  "discipline": "i_and_c",
+  "hours_base": 40,
+  "id": "DL-IC-BLK",
+  "inputs": [
+    "doc:ALP-EPC-00000-IC-DBR-0001"
+  ],
+  "originator": "EPC",
+  "parties": [
+    "IEPC"
+  ],
+  "scope": "system",
+  "status": "agreed",
+  "title": "System architecture - {name}",
+  "type_code": "BLK"
+}

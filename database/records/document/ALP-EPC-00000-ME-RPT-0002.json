@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:05:18.215272Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:05:19.095156Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-02.08"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "report",
+  "id": "ALP-EPC-00000-ME-RPT-0002",
+  "inputs": [
+    "ALP-EPC-00000-GE-DBR-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Materials selection and corrosion control report (marine atmosphere, seawater)",
+  "type_code": "RPT",
+  "weight": 120.0
+}

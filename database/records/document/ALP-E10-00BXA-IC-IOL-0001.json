@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.552462Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.256425Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "i_and_c",
+  "doc_type": "list",
+  "id": "ALP-E10-00BXA-IC-IOL-0001",
+  "inputs": [
+    "ALP-EPC-00BXA-GE-MRQ-0001"
+  ],
+  "mr": "MR-EL-010",
+  "originator": "E10",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "review",
+  "rule": "DL-V-IOL|MR-EL-010|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00BXA",
+  "title": "Supplier I/O list, control philosophy and interface signals - Cathodic protection (marine structures, buried piping and tanks)",
+  "type_code": "IOL",
+  "weight": 5
+}

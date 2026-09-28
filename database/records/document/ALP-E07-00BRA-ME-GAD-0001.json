@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.516033Z",
+    "created_by": "EPCE",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:17:56.563913Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "scope_item:DR-032",
+    "scope_item:SC-033",
+    "tie_in:IF-39"
+  ],
+  "cwa": "CWA-03",
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "equipment": [
+    "00BRA10",
+    "00BTA10"
+  ],
+  "ewp": "EWP-03-EL-01",
+  "id": "ALP-E07-00BRA-ME-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00BRA-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-007",
+  "originator": "E07",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "review": "review",
+  "rule": "DL-V-GAD|MR-EL-007|1",
+  "sheets": 8,
+  "status": "planned",
+  "system": "00BRA",
+  "title": "Supplier GA drawings - UPS, batteries and DC systems",
+  "type_code": "GAD",
+  "weight": 16.0
+}

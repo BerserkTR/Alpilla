@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.041198Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.694810Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.427228Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
   "cwa": "CWA-09",
   "discipline": "i_and_c",
   "doc_type": "drawing",
@@ -17,10 +20,11 @@
     "ALP-EPC-00UEK-PI-LAY-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-IC-ILY|CWA-09|1",
   "sheets": 4,
   "status": "planned",
   "system": "00UEK",
   "title": "Instrument location and I&C cable routing - Fuel gas station",
   "type_code": "ELY",
-  "weight": 70.0
+  "weight": 64
 }

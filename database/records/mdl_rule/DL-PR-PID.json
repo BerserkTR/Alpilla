@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.886714Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.270562Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "categories": [
+    "water_steam_cycle",
+    "condensate_feedwater",
+    "cooling",
+    "water_treatment",
+    "auxiliary_mechanical",
+    "fuel_gas",
+    "fire_protection",
+    "hvac"
+  ],
+  "discipline": "process",
+  "hours_base": 20,
+  "hours_per_sheet": 100,
+  "id": "DL-PR-PID",
+  "inputs": [
+    "DL-PR-SDS",
+    "doc:ALP-EPC-00000-PI-SPC-0001"
+  ],
+  "max_sheets": 20,
+  "originator": "EPC",
+  "parties": [
+    "IEPC"
+  ],
+  "quantity": "q_pid_sheets",
+  "scope": "system",
+  "status": "agreed",
+  "title": "P&ID - {name}",
+  "type_code": "PID"
+}

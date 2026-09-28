@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.625108Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.316417Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "permit:PMT-016",
+    "requirement:ER-15.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "report",
+  "id": "ALP-M14-00GNA-ME-MDB-0001",
+  "inputs": [
+    "ALP-EPC-00GNA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-014",
+  "originator": "M14",
+  "po_weeks_final": 6,
+  "po_weeks_ifr": -2,
+  "review": "information",
+  "rule": "DL-V-MDB|MR-ME-014|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00GNA",
+  "title": "Manufacturing record book and conformity certificates - Waste water and sanitary treatment packages",
+  "type_code": "MDB",
+  "weight": 6
+}

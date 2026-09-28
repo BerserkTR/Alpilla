@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.955823Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.819018Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.04"
+  ],
+  "cwa": "CWA-02",
+  "discipline": "civil",
+  "doc_type": "drawing",
+  "ewp": "EWP-02-CV-02",
+  "id": "ALP-EPC-20UMB-CV-RBR-0001",
+  "inputs": [
+    "ALP-EPC-20UMB-CV-FND-0002"
+  ],
+  "originator": "EPC",
+  "rule": "DL-CV-RBR|20UMB|1",
+  "sheets": 36,
+  "status": "planned",
+  "system": "20UMB",
+  "title": "Reinforcement drawings - Steam turbine hall",
+  "type_code": "RBR",
+  "weight": 1260
+}

@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.995813Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:16:42.945150Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00CJG10"
+  ],
+  "id": "ALP-EPC-00CJG-IC-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00000-IC-DBR-0001",
+    "ALP-EPC-00CJG-GE-SPC-0001"
+  ],
+  "mr": "MR-IC-008",
+  "originator": "EPC",
+  "rule": "DL-IC-DSH|00CJG:MR-IC-008:control system|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00CJG",
+  "title": "Datasheet - Safety instrumented systems (BOP): control system",
+  "type_code": "DSH",
+  "weight": 16
+}

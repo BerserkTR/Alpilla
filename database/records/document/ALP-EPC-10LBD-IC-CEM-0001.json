@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.993182Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:57.977283Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.03"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "diagram",
+  "id": "ALP-EPC-10LBD-IC-CEM-0001",
+  "inputs": [
+    "ALP-EPC-10LBD-IC-CNR-0001",
+    "ALP-EPC-00000-HS-HAZ-0007"
+  ],
+  "originator": "EPC",
+  "rule": "DL-IC-CEM|10LBD|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "10LBD",
+  "title": "Cause and effect matrix - LP steam piping",
+  "type_code": "CEM",
+  "weight": 28
+}

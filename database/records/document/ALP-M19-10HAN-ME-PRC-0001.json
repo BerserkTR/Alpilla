@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.438171Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.150862Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-M19-10HAN-ME-PRC-0001",
+  "inputs": [
+    "ALP-EPC-10HAN-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-019",
+  "originator": "M19",
+  "po_weeks_final": -6,
+  "po_weeks_ifr": -12,
+  "review": "review",
+  "rule": "DL-V-ERC|MR-ME-019|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "10HAN",
+  "title": "Supplier installation and erection manual - HRSG blowdown and drain tanks",
+  "type_code": "PRC",
+  "weight": 6
+}

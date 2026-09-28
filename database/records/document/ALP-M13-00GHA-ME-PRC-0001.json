@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.435991Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.148139Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-M13-00GHA-ME-PRC-0001",
+  "inputs": [
+    "ALP-EPC-00GHA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-013",
+  "originator": "M13",
+  "po_weeks_final": -6,
+  "po_weeks_ifr": -12,
+  "review": "review",
+  "rule": "DL-V-ERC|MR-ME-013|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00GHA",
+  "title": "Supplier installation and erection manual - Shop-built tanks and demin forwarding pumps",
+  "type_code": "PRC",
+  "weight": 6
+}

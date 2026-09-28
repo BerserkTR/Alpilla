@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.939632Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:15:03.212284Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-13.01"
+  ],
+  "discipline": "civil",
+  "doc_type": "calculation",
+  "id": "ALP-EPC-00UPC-CV-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-CAL-0001",
+    "ALP-EPC-00000-CV-RPT-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-CV-CAL|00UPC|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00UPC",
+  "title": "Structural and foundation calculation - CW pump house",
+  "type_code": "CAL",
+  "weight": 120
+}

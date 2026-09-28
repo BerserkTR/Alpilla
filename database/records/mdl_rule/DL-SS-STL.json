@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.898441Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.272876Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.03"
+  ],
+  "discipline": "structural",
+  "ewp_disc": "SS",
+  "hours_per_sheet": 35,
+  "id": "DL-SS-STL",
+  "inputs": [
+    "DL-CV-CAL",
+    "doc:ALP-EPC-00000-SS-SPC-0001",
+    "DL-PI-LAY@cwa"
+  ],
+  "originator": "EPC",
+  "quantity": "q_steel_sheets",
+  "scope": "structure",
+  "status": "agreed",
+  "title": "Steel structure drawings - {name}",
+  "type_code": "STL"
+}

@@ -2,11 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.920455Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.725264Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.533743Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "cwa": "CWA-01",
   "discipline": "piping",
   "doc_type": "isometric",
   "ewp": "EWP-01-PI-01",
@@ -18,10 +22,11 @@
     "ALP-EPC-10UMA-PI-PPL-0001"
   ],
   "originator": "EPC",
+  "rule": "DL-PI-ISO|10LAE|1",
   "sheets": 30,
   "status": "planned",
   "system": "10LAE",
   "title": "Isometric drawings - HP attemperation spray water",
   "type_code": "ISO",
-  "weight": 240
+  "weight": 300
 }

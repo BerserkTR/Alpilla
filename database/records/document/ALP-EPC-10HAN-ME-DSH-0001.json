@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.997048Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.712870Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:04:05.467967Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
@@ -20,10 +23,12 @@
   ],
   "mr": "MR-ME-019",
   "originator": "EPC",
+  "rule": "DL-ME-DSH|10HAN:MR-ME-019:tank|1",
+  "sheets": 2,
   "status": "planned",
   "system": "10HAN",
   "tender": true,
   "title": "Datasheet - HRSG blowdown and drains (EPC tanks and headers): tank (2 items)",
   "type_code": "DSH",
-  "weight": 16.0
+  "weight": 26
 }

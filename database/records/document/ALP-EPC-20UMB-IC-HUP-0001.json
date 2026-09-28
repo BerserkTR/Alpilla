@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.018407Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:12:57.986242Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "cwa": "CWA-02",
+  "discipline": "i_and_c",
+  "doc_type": "drawing",
+  "ewp": "EWP-02-IC-01",
+  "id": "ALP-EPC-20UMB-IC-HUP-0001",
+  "inputs": [
+    "ALP-EPC-00000-IC-LST-0001",
+    "ALP-EPC-00000-IC-SPC-0001"
+  ],
+  "mr": "MR-IC-010",
+  "originator": "EPC",
+  "rule": "DL-IC-HUP|CWA-02|1",
+  "sheets": 5,
+  "status": "planned",
+  "system": "20UMB",
+  "title": "Instrument hook-up drawings - Power block - ST and condenser",
+  "type_code": "HUP",
+  "weight": 40
+}

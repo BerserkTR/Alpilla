@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.975988Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:18:36.243282Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-11.04"
+  ],
+  "cwa": "CWA-03",
+  "discipline": "electrical",
+  "doc_type": "diagram",
+  "ewp": "EWP-03-EL-01",
+  "id": "ALP-EPC-00BBA-EL-WIR-0001",
+  "inputs": [
+    "ALP-EPC-00BBA-EL-SLD-0001",
+    "ALP-EPC-00000-EL-STU-0002"
+  ],
+  "originator": "EPC",
+  "rule": "DL-EL-WMV|00000|1",
+  "sheets": 36,
+  "status": "planned",
+  "system": "00BBA",
+  "title": "MV schematic and wiring diagrams",
+  "type_code": "WIR",
+  "weight": 200
+}

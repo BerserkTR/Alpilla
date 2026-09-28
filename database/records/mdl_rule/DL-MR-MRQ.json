@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.900494Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:21:20.266318Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "hours_base": 24,
+  "id": "DL-MR-MRQ",
+  "inputs": [
+    "DL-MR-SPC",
+    "DL-ME-DSH@system",
+    "DL-EL-DSH@system",
+    "DL-IC-DSH@system"
+  ],
+  "originator": "EPC",
+  "package_types": [
+    "equipment",
+    "bulk",
+    "subcontract"
+  ],
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Material requisition - {name}",
+  "type_code": "MRQ"
+}

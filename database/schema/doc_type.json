@@ -109,6 +109,12 @@
     },
     "remarks": {
       "type": "text"
+    },
+    "progressive_share": {
+      "type": "number",
+      "min": 0,
+      "max": 1,
+      "description": "AWP: construction documents released progressively to the IWPs of a CWP; needed at CWP start - lead + share x CWP duration (0 = needed at the CWP start)"
     }
   }
 }

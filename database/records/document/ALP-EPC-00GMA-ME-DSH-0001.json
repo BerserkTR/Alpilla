@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.078643Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:18:36.259352Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00GMA10AT001"
+  ],
+  "id": "ALP-EPC-00GMA-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00GMA-ME-CAL-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-ME-DSH|00GMA:-:filter|1",
+  "sheets": 1,
+  "status": "cancelled",
+  "system": "00GMA",
+  "title": "Datasheet - Process drains and waste water collection: filter",
+  "type_code": "DSH",
+  "weight": 16
+}

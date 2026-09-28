@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.522477Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:17:56.571420Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-08",
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "equipment": [
+    "10LAC10AP001",
+    "10LAC10AP002"
+  ],
+  "ewp": "EWP-08-ME-01",
+  "id": "ALP-M01-10LAC-ME-GAD-0001",
+  "inputs": [
+    "ALP-EPC-10LAC-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-001",
+  "originator": "M01",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "review": "review",
+  "rule": "DL-V-GAD|MR-ME-001|1",
+  "sheets": 4,
+  "status": "planned",
+  "system": "10LAC",
+  "title": "Supplier GA drawings - Boiler feed pumps",
+  "type_code": "GAD",
+  "weight": 10.0
+}

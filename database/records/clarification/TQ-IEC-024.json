@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:21:15.379599Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:16.023449Z",
+    "updated_by": "IECE"
+  },
+  "contract": "ALP-CA-001",
+  "discipline": "general",
+  "id": "TQ-IEC-024",
+  "impact": "none",
+  "outcome": "confirmed_as_is",
+  "question": "MDL Rev B derives the supplier documents per package from rules (mdl_rule DL-V-*). For the six IEC packages this adds 83 documents to the 37 committed in TQ-IEC-023: certified datasheets, GA, foundation loads, P&IDs, design calculations, electrical schematics, I/O lists, instrument lists, logic diagrams (TCS), ITPs, FAT procedures and reports, erection and O&M manuals, spare parts and special tools lists, manufacturing record books and commissioning procedures. Dates: weeks after the PO (NTP) for design documents, weeks before delivery for FAT, erection and O&M documents (rule fields po_weeks_ifr / po_weeks_final). Please confirm the list and the timing, and that IEC provides the heavy and oversized piece data and the transport drawings for the Harbour Master and abnormal load permits (PMT-008, PMT-009).",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-28",
+  "references": [
+    "requirement:ER-15.03",
+    "requirement:ER-16.01",
+    "requirement:ER-17.04",
+    "requirement:ER-17.06"
+  ],
+  "responded_by": "IEC",
+  "response": "Confirmed. The rule-based VDRL is accepted as the IEC document commitment; documents already committed in TQ-IEC-023 keep their dates. IEC provides the heavy piece data (dimensions, weights, centre of gravity, lifting points) and the transport drawings of the GT, generators, HRSG modules, ST and GSUs 12 weeks after NTP as input to the EPC heavy piece list and route survey. TCS logic diagrams are issued in two batches (protection first); the rule dates (PO + 20 / 32 weeks) are met.",
+  "response_date": "2026-09-28",
+  "round": 8,
+  "status": "closed",
+  "subject": "Power island VDRL completed to the rule-based MDL Rev B"
+}

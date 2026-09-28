@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.137394Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.959520Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "general",
+  "doc_type": "report",
+  "id": "ALP-EPC-00SAA-GE-RPT-0001",
+  "inputs": [
+    "ALP-EPC-00SAA-HV-MRQ-0001"
+  ],
+  "mr": "MR-HV-001",
+  "originator": "EPC",
+  "review": "internal",
+  "rule": "DL-MR-TBE|MR-HV-001|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00SAA",
+  "title": "Technical bid evaluation - HVAC plant and equipment",
+  "type_code": "RPT",
+  "weight": 40
+}

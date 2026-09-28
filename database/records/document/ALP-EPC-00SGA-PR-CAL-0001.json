@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:05:18.211831Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:05:19.092044Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-10.05"
+  ],
+  "discipline": "process",
+  "doc_type": "calculation",
+  "id": "ALP-EPC-00SGA-PR-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00SGA-ME-CAL-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00SGA",
+  "title": "Fire water network hydraulic calculation",
+  "type_code": "CAL",
+  "weight": 80.0
+}

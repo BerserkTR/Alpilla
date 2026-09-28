@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.354540Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.090605Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "id": "ALP-E08-00000-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00000-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-008",
+  "originator": "E08",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-V-CAT|MR-EL-008|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Supplier catalogues and material datasheets - Power and control cables",
+  "type_code": "DSH",
+  "weight": 6
+}

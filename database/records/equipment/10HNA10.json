@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.069665Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:03:04.069665Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Equipment Package Skid",
+  "basis_refs": [
+    "source:SRC-EPCE-0009"
+  ],
+  "cwa": "CWA-01",
+  "cwp": "CWP-01-ME-01",
+  "description": "HRSG inlet duct and flue gas ducting",
+  "equipment_type": "package",
+  "id": "10HNA10",
+  "mr": "MR-ME-102",
+  "quantity": 1,
+  "status": "preliminary",
+  "supply": "IEC",
+  "system": "10HNA"
+}

@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.029602Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:57.997382Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "datasheet",
+  "id": "ALP-EPC-00PAH-IC-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00PAH-PR-PID-0001",
+    "ALP-EPC-00000-IC-SPC-0001"
+  ],
+  "mr": "MR-IC-004",
+  "originator": "EPC",
+  "rule": "DL-IC-IDS|00PAH|1",
+  "sheets": 20,
+  "status": "planned",
+  "system": "00PAH",
+  "title": "Instrument datasheets - Condenser tube cleaning",
+  "type_code": "DSH",
+  "weight": 38.0
+}

@@ -5,6 +5,21 @@
 Read before working. Add a lesson whenever something went wrong or a better way was found:
 `python -m engine db add lesson --set title="..." --set lesson="..." --reason "..."`
 
+### L-EPCE-0009 (2026-09-28) Levelling must re-evaluate its thresholds as work is consumed [engine, planning, verification]
+- Context: A minimum daily booking computed once from the full document hours stopped documents from ever finishing their last hours; they ran to the 12-year search horizon (2038) without an error
+- Lesson: Loop thresholds that depend on the remaining quantity must be recomputed inside the loop; results at the search horizon are a bug signal, not a plan
+- Action: Check for documents dated beyond the project end after every workflow change (staff_opt / checks scripts, tests/test_mdl.py ramp test)
+
+### L-EPCE-0008 (2026-09-28) AWP need dates: release progressive documents per IWP, and model vendor data and procurement strategy explicitly [planning, awp, procurement]
+- Context: With the complete MDL, the rule all-EWP-documents-IFC-before-CWP-start required 260 FTE; the staffing search also showed requisitions blocked by long chains (HAZOP -> SIL -> SRS -> SIS spec), building foundations waiting for switchgear vendor loads and long-lead MRQs impossible after NTP
+- Lesson: Need dates must follow how work is released (progressive documents per IWP, materials installed late in a CWP), and the network must only link what really gates a date (vendor loads for equipment foundations, not for buildings; SRS configures the SIS, it does not gate its PO)
+- Action: Set doc_type.progressive_share and mr.need_lag_days deliberately; trace every negative float to its cause (capacity, logic or PO) before adding staff; record procurement strategy (tender-stage MRQs) as a decision
+
+### L-EPCE-0007 (2026-09-28) A coverage check that asks for at least one document per item cannot show an incomplete MDL [mdl, engineering, verification]
+- Context: MDL Rev A (623 documents, 49,000 h) passed every coverage check (each requirement, system and scope item had a document) but missed about three quarters of the work: per-tag deliverables, supplier documents of the BOP packages, FATs, test reports, system commissioning and O&M documents, permit dossiers; it was found in a review of the total count, not by any check
+- Lesson: Completeness needs quantities: documents derived from rules and quantity bases (tags, sheets, loops, consumers, structures) and a plausibility check of sheets and hours per discipline against independent benchmarks
+- Action: Keep the MDL rule-based (mdl_rule + engine mdl sync), keep the quantity basis on the systems and replace estimates by register counts, run engineering_plan and read the benchmark rows after every MDL change
+
 ### L-EPCE-0006 (2026-09-28) db import --update merges fields: send null to remove a field [database, tooling]
 - Context: Reloading doc_type records with fewer input_types left the old list in place because the upsert only sets the fields it receives
 - Lesson: An upsert never deletes a field that is missing from the input; stale values survive silently

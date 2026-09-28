@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.934261Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.640621Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T17:12:58.082034Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
   "discipline": "mechanical",
   "doc_type": "other",
   "id": "ALP-EPC-00PAA-ME-MRQ-0001",
   "inputs": [
     "ALP-EPC-00PAA-ME-DSH-0001",
-    "ALP-EPC-00PAA-ME-SPC-0001"
+    "ALP-EPC-00PAA-ME-SPC-0001",
+    "ALP-EPC-00PAA-ME-DSH-0002",
+    "ALP-EPC-00PAA-ME-DSH-0003"
   ],
   "mr": "MR-ME-004",
   "originator": "EPC",
+  "rule": "DL-MR-MRQ|MR-ME-004|1",
+  "sheets": 1,
   "status": "planned",
   "system": "00PAA",
+  "tender": true,
   "title": "Material requisition - Travelling band screens and trash rakes",
   "type_code": "MRQ",
   "weight": 24.0

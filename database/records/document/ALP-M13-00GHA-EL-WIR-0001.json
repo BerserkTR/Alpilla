@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.405165Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:17:56.554965Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-07",
+  "discipline": "electrical",
+  "doc_type": "diagram",
+  "ewp": "EWP-07-ME-01",
+  "id": "ALP-M13-00GHA-EL-WIR-0001",
+  "inputs": [
+    "ALP-EPC-00GHA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-013",
+  "originator": "M13",
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "review": "review",
+  "rule": "DL-V-ELD|MR-ME-013|1",
+  "sheets": 36,
+  "status": "planned",
+  "system": "00GHA",
+  "title": "Supplier electrical schematics and wiring diagrams - Shop-built tanks and demin forwarding pumps",
+  "type_code": "WIR",
+  "weight": 22.0
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:15:52.398419Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:15:52.398419Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0011"
+  ],
+  "discipline": "i_and_c",
+  "id": "BM-IC",
+  "originator": "EPC",
+  "remarks": "indicative range, engineering judgement",
+  "sheets_max": 9000,
+  "sheets_min": 4000
+}

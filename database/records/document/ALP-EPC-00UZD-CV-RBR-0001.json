@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:03.953273Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:04.816009Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.04"
+  ],
+  "cwa": "CWA-12",
+  "discipline": "civil",
+  "doc_type": "drawing",
+  "ewp": "EWP-12-CV-02",
+  "id": "ALP-EPC-00UZD-CV-RBR-0001",
+  "inputs": [
+    "ALP-EPC-00UZD-CV-FND-0001",
+    "ALP-EPC-00UZA-CV-CVL-0002",
+    "ALP-EPC-00UZB-CV-CVL-0001",
+    "ALP-EPC-00UZC-CV-CVL-0001",
+    "ALP-EPC-00UZE-CV-CVL-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-CV-RBR|00UZD|1",
+  "sheets": 10,
+  "status": "planned",
+  "system": "00UZD",
+  "title": "Reinforcement drawings - Pipe racks and pipe sleepers",
+  "type_code": "RBR",
+  "weight": 350
+}

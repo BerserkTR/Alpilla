@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:27:29.798410Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:27:29.798410Z",
+    "updated_by": "EPCE"
+  },
+  "action": "Check for documents dated beyond the project end after every workflow change (staff_opt / checks scripts, tests/test_mdl.py ramp test)",
+  "context": "A minimum daily booking computed once from the full document hours stopped documents from ever finishing their last hours; they ran to the 12-year search horizon (2038) without an error",
+  "date": "2026-09-28",
+  "id": "L-EPCE-0009",
+  "lesson": "Loop thresholds that depend on the remaining quantity must be recomputed inside the loop; results at the search horizon are a bug signal, not a plan",
+  "status": "active",
+  "tags": [
+    "engine",
+    "planning",
+    "verification"
+  ],
+  "title": "Levelling must re-evaluate its thresholds as work is consumed"
+}

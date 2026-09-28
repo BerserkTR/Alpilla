@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.332078Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.075871Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "calculation",
+  "id": "ALP-E04-00BFT-ME-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00BFT-EL-MRQ-0001"
+  ],
+  "mr": "MR-EL-004",
+  "originator": "E04",
+  "po_weeks_final": 14,
+  "po_weeks_ifr": 8,
+  "review": "review",
+  "rule": "DL-V-CAL|MR-EL-004|1",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00BFT",
+  "title": "Supplier design calculations - LV transformers",
+  "type_code": "CAL",
+  "weight": 6
+}

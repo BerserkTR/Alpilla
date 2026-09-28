@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.359565Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.095063Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "id": "ALP-P06-00000-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-MRQ-0007"
+  ],
+  "mr": "MR-PI-006",
+  "originator": "P06",
+  "po_weeks_final": 8,
+  "po_weeks_ifr": 4,
+  "review": "review",
+  "rule": "DL-V-CAT|MR-PI-006|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Supplier catalogues and material datasheets - Piping specialty items (strainers, steam traps, expansion joints, sight glasses)",
+  "type_code": "DSH",
+  "weight": 6
+}

@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:02:56.202158Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:19.574251Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-036"
+  ],
+  "award_days": 15,
+  "basis_refs": [
+    "requirement:ER-11.08"
+  ],
+  "bid_days": 40,
+  "cwps": [
+    "CWP-03-EL-01",
+    "CWP-01-EL-01",
+    "CWP-01-IC-01"
+  ],
+  "discipline": "electrical",
+  "id": "MR-EL-012",
+  "manufacture_weeks": 0,
+  "package_type": "subcontract",
+  "status": "agreed",
+  "supplier_code": "E12",
+  "title": "Electrical and I&C installation (subcontract)",
+  "transport_weeks": 0,
+  "vdr_weeks": 4
+}

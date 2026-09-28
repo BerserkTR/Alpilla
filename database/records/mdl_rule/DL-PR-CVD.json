@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:03:04.888062Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:21:20.270270Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "categories": [
+    "water_steam_cycle",
+    "condensate_feedwater",
+    "cooling",
+    "water_treatment",
+    "auxiliary_mechanical",
+    "fuel_gas",
+    "fire_protection",
+    "hvac"
+  ],
+  "discipline": "i_and_c",
+  "hours_base": 8,
+  "hours_per_sheet": 6,
+  "id": "DL-PR-CVD",
+  "inputs": [
+    "DL-PR-PID",
+    "doc:ALP-EPC-00000-IC-SPC-0002"
+  ],
+  "max_sheets": 40,
+  "mr": "MR-IC-005",
+  "originator": "EPC",
+  "parties": [
+    "IEPC"
+  ],
+  "quantity": "q_control_valves",
+  "scope": "system",
+  "status": "agreed",
+  "title": "Control valve sizing and datasheets - {name}",
+  "type_code": "DSH"
+}

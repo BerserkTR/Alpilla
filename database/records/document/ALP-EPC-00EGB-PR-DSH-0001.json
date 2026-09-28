@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.231808Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.016105Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-15.04"
+  ],
+  "discipline": "process",
+  "doc_type": "datasheet",
+  "id": "ALP-EPC-00EGB-PR-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00EGB-PR-PID-0001"
+  ],
+  "mr": "MR-PI-007",
+  "originator": "EPC",
+  "rule": "DL-PR-PSV|00EGB|1",
+  "sheets": 4,
+  "status": "planned",
+  "system": "00EGB",
+  "title": "Safety / relief valve sizing and datasheets - LDO storage",
+  "type_code": "DSH",
+  "weight": 32
+}

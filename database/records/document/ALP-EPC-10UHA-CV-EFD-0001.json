@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:11:40.556429Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:12:57.933298Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-13.01"
+  ],
+  "cwa": "CWA-01",
+  "discipline": "civil",
+  "doc_type": "drawing",
+  "ewp": "EWP-01-CV-02",
+  "id": "ALP-EPC-10UHA-CV-EFD-0001",
+  "inputs": [
+    "ALP-EPC-10UHA-CV-FND-0001",
+    "ALP-E02-10BBT-CV-CAL-0001",
+    "ALP-IEC-10MKA-CV-CAL-0001",
+    "ALP-IEC-10BAT-CV-CAL-0001",
+    "ALP-M19-10HAN-CV-CAL-0001",
+    "ALP-M21-00SMA-CV-CAL-0001",
+    "ALP-IEC-10MBA-CV-CAL-0001",
+    "ALP-IEC-10HAA-CV-CAL-0001",
+    "ALP-S02-10HNE-CV-CAL-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-CV-EFD|10UHA|1",
+  "sheets": 4,
+  "status": "planned",
+  "system": "10UHA",
+  "title": "Equipment foundation drawings - HRSG foundations and structures",
+  "type_code": "EFD",
+  "weight": 200
+}

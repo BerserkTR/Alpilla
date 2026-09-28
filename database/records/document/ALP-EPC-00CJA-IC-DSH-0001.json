@@ -2,26 +2,37 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.004272Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.595109Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T17:16:42.944742Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
   "discipline": "i_and_c",
   "doc_type": "datasheet",
   "equipment": [
-    "00CJA10"
+    "00CJA10",
+    "00CJA20",
+    "00CJA30",
+    "00CJA40",
+    "00CJA50",
+    "00CJA60"
   ],
   "id": "ALP-EPC-00CJA-IC-DSH-0001",
   "inputs": [
-    "ALP-EPC-00CJA-IC-SPC-0001"
+    "ALP-EPC-00CJA-IC-SPC-0001",
+    "ALP-EPC-00000-IC-DBR-0001"
   ],
   "mr": "MR-IC-001",
   "originator": "EPC",
+  "rule": "DL-IC-DSH|00CJA:MR-IC-001:control system|1",
+  "sheets": 6,
   "status": "planned",
   "system": "00CJA",
   "tender": true,
   "title": "Datasheet - Plant DCS: control system",
   "type_code": "DSH",
-  "weight": 16.0
+  "weight": 66
 }

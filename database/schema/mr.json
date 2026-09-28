@@ -90,7 +90,8 @@
         "source",
         "decision",
         "reference",
-        "requirement"
+        "requirement",
+        "permit"
       ]
     },
     "status": {
@@ -109,6 +110,22 @@
     "agreed_refs": {
       "type": "ref_list",
       "to": "clarification"
+    },
+    "supplier_code": {
+      "type": "string",
+      "pattern": "^[A-Z0-9]{3}$",
+      "description": "3-character originator code of the supplier's documents (allocated with the PO; IEC for the power island)"
+    },
+    "system": {
+      "type": "ref",
+      "to": "system",
+      "description": "main KKS system of the package (document numbers)"
+    },
+    "need_lag_days": {
+      "type": "integer",
+      "min": 0,
+      "unit": "working days",
+      "description": "materials installed late in the CWP: needed on site at CWP start + lag (default 0)"
     }
   }
 }

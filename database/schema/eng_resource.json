@@ -48,6 +48,12 @@
     },
     "remarks": {
       "type": "text"
+    },
+    "ramp_weeks": {
+      "type": "number",
+      "min": 0,
+      "unit": "weeks",
+      "description": "mobilisation: capacity rises linearly from 30 % at NTP to 100 % after ramp_weeks"
     }
   }
 }

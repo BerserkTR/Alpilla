@@ -2,11 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.040660Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.695156Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:04:05.431559Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
   "cwa": "CWA-09",
   "discipline": "i_and_c",
   "doc_type": "diagram",
@@ -17,10 +20,11 @@
     "ALP-EPC-00000-IC-LST-0001"
   ],
   "originator": "EPC",
-  "sheets": 20,
+  "rule": "DL-IC-LOP|CWA-09|1",
+  "sheets": 104,
   "status": "planned",
   "system": "00UEK",
   "title": "Loop and connection diagrams - Fuel gas station",
   "type_code": "LOP",
-  "weight": 172.5
+  "weight": 156.0
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.063381Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:04:01.614161Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:02:55.908129Z",
     "updated_by": "EPCE"
   },
   "agreed_by": [
@@ -27,6 +27,7 @@
   "manufacture_weeks": 2,
   "package_type": "subcontract",
   "status": "agreed",
+  "supplier_code": "C02",
   "title": "Civil and building works",
   "transport_weeks": 0,
   "vdr_weeks": 2

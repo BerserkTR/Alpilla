@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.528911Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:17:56.578430Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-09",
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "equipment": [
+    "00EKA10",
+    "00EKA10AC001",
+    "00EKA10AC002",
+    "00EKA10AT001",
+    "00EKA10AT002",
+    "00EKA10BB001"
+  ],
+  "ewp": "EWP-09-ME-01",
+  "id": "ALP-M15-00EKA-ME-GAD-0001",
+  "inputs": [
+    "ALP-EPC-00EKA-ME-MRQ-0001"
+  ],
+  "mr": "MR-ME-015",
+  "originator": "M15",
+  "po_weeks_final": 12,
+  "po_weeks_ifr": 6,
+  "review": "review",
+  "rule": "DL-V-GAD|MR-ME-015|1",
+  "sheets": 14,
+  "status": "planned",
+  "system": "00EKA",
+  "title": "Supplier GA drawings - Gas receiving and metering station",
+  "type_code": "GAD",
+  "weight": 25.0
+}

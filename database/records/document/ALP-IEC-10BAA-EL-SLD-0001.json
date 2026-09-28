@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.855554Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.773493Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:05:57.930133Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,7 +11,8 @@
     "scope_item:DR-027",
     "scope_item:DR-029",
     "scope_item:DR-030",
-    "scope_item:SC-014"
+    "scope_item:SC-014",
+    "tie_in:IF-36"
   ],
   "discipline": "electrical",
   "doc_type": "diagram",

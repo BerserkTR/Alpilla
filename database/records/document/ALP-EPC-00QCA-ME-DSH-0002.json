@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.092465Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:16:42.963822Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.01"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00QCA10AP001",
+    "00QCA10AP002",
+    "00QCA10AP003",
+    "00QCA10AP004",
+    "00QCA10AP005",
+    "00QCA10AP006"
+  ],
+  "id": "ALP-EPC-00QCA-ME-DSH-0002",
+  "inputs": [
+    "ALP-EPC-00QCA-ME-CAL-0001",
+    "ALP-EPC-00QCA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-011",
+  "originator": "EPC",
+  "rule": "DL-ME-DSH|00QCA:MR-ME-011:pump|1",
+  "sheets": 6,
+  "status": "planned",
+  "system": "00QCA",
+  "title": "Datasheet - Chemical dosing: pump (6 items)",
+  "type_code": "DSH",
+  "weight": 66
+}

@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:04:04.615201Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:04:05.307804Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "permit:PMT-016",
+    "requirement:ER-15.04"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "report",
+  "id": "ALP-I08-00CJG-ME-MDB-0001",
+  "inputs": [
+    "ALP-EPC-00CJG-GE-MRQ-0001"
+  ],
+  "mr": "MR-IC-008",
+  "originator": "I08",
+  "po_weeks_final": 6,
+  "po_weeks_ifr": -2,
+  "review": "information",
+  "rule": "DL-V-MDB|MR-IC-008|1",
+  "sheets": 1,
+  "status": "planned",
+  "system": "00CJG",
+  "title": "Manufacturing record book and conformity certificates - BOP safety instrumented system (IEC 61511)",
+  "type_code": "MDB",
+  "weight": 6
+}
