@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:47.893095Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:53:47.893095Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0011"
+  ],
+  "category": "site",
+  "condition": "combined UTM point scale and height factor",
+  "id": "DP-EPCE-0003",
+  "parameter": "Scale factor plant grid to UTM",
+  "status": "confirmed",
+  "unit": "-",
+  "value": 0.999612
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:07.028622Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:53:07.028622Z",
+    "updated_by": "EPCE"
+  },
+  "country": "Turkey",
+  "fictional": true,
+  "id": "SURV",
+  "name": "Land survey subcontractor (role-play)",
+  "role": "subcontractor",
+  "short_name": "Survey subcontractor"
+}

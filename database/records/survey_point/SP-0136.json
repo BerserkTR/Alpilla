@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:30.136948Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:55:39.935820Z",
+    "updated_by": "EPCE"
+  },
+  "area": "plot",
+  "description": "Spot height, platform",
+  "e": 275.0,
+  "id": "SP-0136",
+  "kind": "spot",
+  "n": 125.0,
+  "source": "SRC-EPCE-0011",
+  "utm_e": 541525.604,
+  "utm_n": 4532603.375,
+  "z": 14.911
+}

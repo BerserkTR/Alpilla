@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:30.166690Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:55:40.001671Z",
+    "updated_by": "EPCE"
+  },
+  "area": "TP-A1",
+  "description": "Spot height, grassland",
+  "e": 150.0,
+  "id": "SP-0257",
+  "kind": "spot",
+  "n": 425.0,
+  "source": "SRC-EPCE-0011",
+  "utm_e": 541402.372,
+  "utm_n": 4532903.97,
+  "z": 14.473
+}

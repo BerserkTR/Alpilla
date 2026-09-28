@@ -1,0 +1,32 @@
+{
+  "code_hash": "3085586d5e95ee6c",
+  "db_hash": "ab4d23c77ec2ca3a",
+  "engine": "site_survey",
+  "engine_version": "1.0.0",
+  "files": {
+    "ALP-EPC-00000-CV-RPT-0003.docx": "7c6da6256bedaf6980c1a90ebd4e8560fc8dfec6899fb08773440f6ebaad0584",
+    "ALP-EPC-00000-CV-RPT-0003.pdf": "e4461e2b47dfa04ee551326ded8aa234bbddfc53a99ce1045bf2da94a2729cf3"
+  },
+  "generated_at": "2026-09-28T19:01:36.269474Z",
+  "generated_by": "EPCE",
+  "git_commit": "876a108",
+  "inputs": [
+    "clarification",
+    "design_parameter",
+    "doc_type",
+    "document",
+    "document_revision",
+    "mr",
+    "party",
+    "project",
+    "requirement",
+    "source",
+    "survey_point",
+    "system"
+  ],
+  "inputs_hash": "8f849c5f034c8bc6",
+  "options": {},
+  "warnings": [
+    "ALP-EPC-00000-CV-RPT-0003: 51 platform points outside +-0.10 m (reported)"
+  ]
+}

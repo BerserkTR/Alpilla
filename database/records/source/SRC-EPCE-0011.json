@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:19.077404Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:53:19.077404Z",
+    "updated_by": "EPCE"
+  },
+  "doc_ref": "ALP-SUR-TOP-001",
+  "file": "sources/site/ALP-SUR-TOP-001_Rev0_points.csv",
+  "id": "SRC-EPCE-0011",
+  "originator": "SURV",
+  "received_date": "2026-11-13",
+  "remarks": "Control network (4 GNSS pillars), 3 benchmarks from national benchmark NB-35-1147, spot heights 25 m grid on the plot and 30 x 35 m on TP-A1, existing features; plant grid to UTM 35N 4-parameter transformation",
+  "revision": "0",
+  "title": "Topographic survey point listing - plot, temporary area TP-A1 and coastal strip"
+}

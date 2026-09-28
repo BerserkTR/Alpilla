@@ -228,6 +228,10 @@
       "min": 1,
       "unit": "working days",
       "description": "preparation duration overriding the document type (long-running deliverables such as the 3D model)"
+    },
+    "produced_by": {
+      "type": "string",
+      "description": "engine that writes the document content (files <document number>.*); doc issue re-runs it and freezes the files with a transmittal"
     }
   }
 }

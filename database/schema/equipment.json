@@ -52,6 +52,19 @@
       "unit": "t/h",
       "min": 0
     },
+    "capacity": {
+      "type": "number",
+      "description": "rated capacity in capacity_unit (volume, duty, air or gas flow, lifting load ...)"
+    },
+    "capacity_unit": {
+      "type": "string",
+      "description": "unit of capacity, e.g. m3, m3/h, Nm3/h, kW, kVA, t"
+    },
+    "head": {
+      "type": "number",
+      "unit": "m",
+      "description": "pump rated differential head"
+    },
     "design_pressure": {
       "type": "number",
       "unit": "barg"

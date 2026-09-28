@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.822612Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:40:08.968073Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:46:29.730322Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -16,6 +16,7 @@
   "doc_type": "procedure",
   "id": "ALP-EPC-00000-GE-PRC-0001",
   "originator": "EPC",
+  "produced_by": "procedures",
   "status": "planned",
   "title": "KKS Identification Manual",
   "type_code": "PRC",

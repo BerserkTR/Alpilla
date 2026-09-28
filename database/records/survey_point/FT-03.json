@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:30.171147Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:53:30.171147Z",
+    "updated_by": "EPCE"
+  },
+  "area": "plot",
+  "description": "stream channel top of wall",
+  "e": 5.0,
+  "id": "FT-03",
+  "kind": "feature",
+  "n": 150.0,
+  "source": "SRC-EPCE-0011",
+  "utm_e": 541255.857,
+  "utm_n": 4532629.911,
+  "z": 15.02
+}

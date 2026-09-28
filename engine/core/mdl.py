@@ -257,6 +257,9 @@ def required(store) -> tuple[dict[str, Inst], list[str]]:
                 sel = [x for x in cands if x.systems & housed]
             elif mode == "all":
                 sel = cands
+            elif mode == "disc":                    # same discipline as the package (or the rule) of the document
+                disc = (c.mrs.get(i.mr) or {}).get("discipline") if i.mr else i.rule["discipline"]
+                sel = [x for x in cands if x.rule["discipline"] == disc]
             else:
                 sel = [x for x in cands if x.scope_key == i.scope_key]
                 same_scope = cands[0].rule["scope"] == i.rule["scope"]      # no fallback between instances of one scope

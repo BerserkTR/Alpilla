@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.824216Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T18:40:08.966726Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:46:32.197302Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -15,6 +15,7 @@
     "ALP-EPC-00000-GE-PLN-0001"
   ],
   "originator": "EPC",
+  "produced_by": "procedures",
   "status": "planned",
   "title": "Advanced Work Packaging Execution Plan",
   "type_code": "PLN",

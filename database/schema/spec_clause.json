@@ -1,0 +1,60 @@
+{
+  "entity": "spec_clause",
+  "title": "Clause of a technical specification (text and / or a required value); the specification document is generated from its clauses by the specifications engine",
+  "id_prefix": "SC",
+  "display": ["document", "section", "seq", "parameter", "value", "unit"],
+  "fields": {
+    "document": {
+      "type": "ref",
+      "to": "document",
+      "required": true,
+      "description": "the specification (type SPC) the clause belongs to"
+    },
+    "section": {
+      "type": "enum",
+      "required": true,
+      "values": ["scope", "codes", "design", "technical", "materials", "testing", "documentation", "spares", "packing", "site", "interfaces", "exclusions"],
+      "description": "chapter of the specification; site conditions, scope list and supplier document list are generated from the records"
+    },
+    "seq": {
+      "type": "integer",
+      "required": true,
+      "description": "order within the section"
+    },
+    "heading": {
+      "type": "string",
+      "description": "sub-heading the clause starts (optional)"
+    },
+    "text": {
+      "type": "text",
+      "description": "requirement text (shall ...)"
+    },
+    "parameter": {
+      "type": "string",
+      "description": "rated / required parameter (technical data table)"
+    },
+    "value": {
+      "type": "number"
+    },
+    "value_text": {
+      "type": "string",
+      "description": "value as text (ranges, 'by Supplier', ratios)"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enum",
+      "values": ["assumption", "preliminary", "confirmed", "superseded"],
+      "description": "preliminary values are confirmed by the studies named in the basis"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": ["requirement", "design_parameter", "reference", "decision", "clarification", "document", "equipment", "guarantee", "tie_in", "source"],
+      "description": "traceability of the clause"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

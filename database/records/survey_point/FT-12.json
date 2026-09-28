@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:30.197440Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:53:30.197440Z",
+    "updated_by": "EPCE"
+  },
+  "area": "coastal strip",
+  "description": "shoreline (mean sea level datum +0.0, 2026-10 survey)",
+  "e": 200.0,
+  "id": "FT-12",
+  "kind": "feature",
+  "n": -60.0,
+  "source": "SRC-EPCE-0011",
+  "utm_e": 541449.576,
+  "utm_n": 4532418.879,
+  "z": 1.1
+}

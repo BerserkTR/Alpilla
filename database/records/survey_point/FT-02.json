@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:30.170897Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:53:30.170897Z",
+    "updated_by": "EPCE"
+  },
+  "area": "plot",
+  "description": "stream channel bed at north end",
+  "e": 2.0,
+  "id": "FT-02",
+  "kind": "feature",
+  "n": 300.0,
+  "source": "SRC-EPCE-0011",
+  "utm_e": 541253.716,
+  "utm_n": 4532779.867,
+  "z": 13.41
+}

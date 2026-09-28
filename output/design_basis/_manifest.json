@@ -1,0 +1,34 @@
+{
+  "code_hash": "e7359d0d14496e8a",
+  "db_hash": "ab4d23c77ec2ca3a",
+  "engine": "design_basis",
+  "engine_version": "1.2.0",
+  "files": {
+    "ALP-EPC-00000-GE-DBR-0001.docx": "d9e89274e82f3d5dc6339cf8d1b440de8bfcfd69ab77e74009380752c0234f66",
+    "ALP-EPC-00000-GE-DBR-0001.pdf": "5021cba43fa0f6700e3a06660ff9a2b189a39b4a56e885c0916014c2cc795915",
+    "ALP_design_basis.html": "381f212d7b21614d930653f60d2c02e1c8e02d37798f09c385d9ee22db7e6998",
+    "ALP_design_basis.md": "70c8ab9eabec0234c12d21281d19818fa43e6a7899209aef91ac9d9d0e3ed75d"
+  },
+  "generated_at": "2026-09-28T19:00:27.513189Z",
+  "generated_by": "EPCE",
+  "git_commit": "876a108",
+  "inputs": [
+    "decision",
+    "design_parameter",
+    "doc_type",
+    "document",
+    "document_revision",
+    "equipment",
+    "guarantee",
+    "mr",
+    "party",
+    "project",
+    "reference",
+    "requirement",
+    "source",
+    "system"
+  ],
+  "inputs_hash": "188045b6c33ac38c",
+  "options": {},
+  "warnings": []
+}

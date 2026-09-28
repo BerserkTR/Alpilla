@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:30.197007Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:53:30.197007Z",
+    "updated_by": "EPCE"
+  },
+  "area": "plot",
+  "description": "groundwater well GW-2, top of casing 15.49",
+  "e": 250.0,
+  "id": "FT-10",
+  "kind": "feature",
+  "n": 150.0,
+  "source": "SRC-EPCE-0011",
+  "utm_e": 541500.758,
+  "utm_n": 4532628.508,
+  "z": 15.0
+}

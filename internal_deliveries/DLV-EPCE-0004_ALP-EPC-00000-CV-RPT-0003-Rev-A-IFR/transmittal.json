@@ -1,0 +1,20 @@
+{
+  "db_hash": "8c90cadf9444ff59",
+  "engine": "site_survey",
+  "engine_version": "1.0.0",
+  "files": {
+    "ALP-EPC-00000-CV-RPT-0003.docx": "66736ba7af1a9edb0f1daba46083963a29918ebb723949b4c4dd7f67533c6959",
+    "ALP-EPC-00000-CV-RPT-0003.pdf": "652daf12668ecf73dbccded5d14aadb642c848a8618e5c1ddad677add651e06c"
+  },
+  "folder": "internal_deliveries/DLV-EPCE-0004_ALP-EPC-00000-CV-RPT-0003-Rev-A-IFR",
+  "generated_at": "2026-09-28T18:58:13.007963Z",
+  "git_commit": "876a108",
+  "id": "DLV-EPCE-0004",
+  "inputs_hash": "1721ec329bc2139c",
+  "issued_at": "2026-09-28T18:58:15.974783Z",
+  "issued_by": "EPCE",
+  "purpose": "IFR",
+  "recipients": "Owner (review)",
+  "remarks": "Wave 1: topographic survey report",
+  "title": "ALP-EPC-00000-CV-RPT-0003 Rev A IFR"
+}

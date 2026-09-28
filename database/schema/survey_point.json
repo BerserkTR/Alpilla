@@ -1,0 +1,54 @@
+{
+  "entity": "survey_point",
+  "title": "Surveyed point: control pillar, benchmark, spot height or existing feature (plant grid and UTM 35N, height TUDKA-99)",
+  "id_pattern": "^(CP|BM|SP|FT)-[0-9]{2,4}$",
+  "display": ["kind", "area", "e", "n", "z", "description"],
+  "fields": {
+    "kind": {
+      "type": "enum",
+      "required": true,
+      "values": ["control", "benchmark", "spot", "feature"]
+    },
+    "e": {
+      "type": "number",
+      "required": true,
+      "unit": "m",
+      "description": "plant grid easting (origin south-west plot corner, plant north = true north)"
+    },
+    "n": {
+      "type": "number",
+      "required": true,
+      "unit": "m",
+      "description": "plant grid northing"
+    },
+    "utm_e": {
+      "type": "number",
+      "unit": "m",
+      "description": "UTM zone 35N easting (ITRF / TUREF)"
+    },
+    "utm_n": {
+      "type": "number",
+      "unit": "m",
+      "description": "UTM zone 35N northing"
+    },
+    "z": {
+      "type": "number",
+      "required": true,
+      "unit": "m a.s.l.",
+      "description": "orthometric height, TUDKA-99 datum"
+    },
+    "area": {
+      "type": "enum",
+      "required": true,
+      "values": ["plot", "TP-A1", "coastal strip"]
+    },
+    "description": {
+      "type": "string"
+    },
+    "source": {
+      "type": "ref",
+      "to": "source",
+      "required": true
+    }
+  }
+}

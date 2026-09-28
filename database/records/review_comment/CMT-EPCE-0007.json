@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:59:46.036157Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:59:46.036157Z",
+    "updated_by": "EPCE"
+  },
+  "comment": "Generator neutral earthing transformers, excitation transformers and generator protection panels are IEC scope but have no tags; provide tags and ratings (TQ-IEC-025).",
+  "id": "CMT-EPCE-0007",
+  "location": "scope",
+  "originator": "IEPC",
+  "revision": "ALP-IEC-10MKA-EL-DSH-0001_0",
+  "status": "open"
+}

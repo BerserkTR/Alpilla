@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:30.170678Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:53:30.170678Z",
+    "updated_by": "EPCE"
+  },
+  "area": "plot",
+  "description": "stream channel bed at south end",
+  "e": 2.0,
+  "id": "FT-01",
+  "kind": "feature",
+  "n": 0.0,
+  "source": "SRC-EPCE-0011",
+  "utm_e": 541251.999,
+  "utm_n": 4532479.989,
+  "z": 13.02
+}

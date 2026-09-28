@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:56:04.558491Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:56:04.558491Z",
+    "updated_by": "EPCE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "civil",
+  "id": "TQ-039",
+  "question": "The topographic survey (ALP-EPC-00000-CV-RPT-0003) shows the Owner-levelled platform on average 66 mm below the +15.00 m stated in ER-02.01 / ALP-OWN-GEN-001, with 51 of 208 grid points outside +-0.10 m (systematic fall to the south, old warehouse foundations up to +0.25 m). Trimming to +15.00 m needs about 9,300 m3 of structural fill. Please confirm (a) the acceptance tolerance of the Owner platform and whether the fill below -0.10 m is at the Owner cost, or (b) that the Contractor may set the finished floor and road levels on the as-surveyed platform with local trimming only.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-11-16",
+  "references": [
+    "requirement:ER-02.01",
+    "source:SRC-EPCE-0011"
+  ],
+  "round": 9,
+  "status": "open",
+  "subject": "Owner platform levels below +15.00 m (survey ALP-SUR-TOP-001)"
+}

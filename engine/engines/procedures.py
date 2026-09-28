@@ -14,7 +14,7 @@ from __future__ import annotations
 
 from collections import Counter, defaultdict
 
-from ..core import kks, workflow
+from ..core import docshell, kks, workflow
 from ..core.runner import Context, Engine, pdf_from_office
 from ..core.wordkit import Doc
 from .engineering_plan import check_engineering
@@ -44,13 +44,13 @@ def _short(parties, pid):
 class Procedures(Engine):
     name = "procedures"
     title = "Engineering procedures: KKS manual, document numbering and control, engineering and AWP execution plans (Word + PDF)"
-    version = "1.4.0"
+    version = "1.5.0"
     inputs = ["project", "document", "document_revision", "doc_type", "kks_key", "system", "equipment", "cwa", "cwp", "ewp",
               "mr", "activity", "wbs", "requirement", "scope_item", "party", "eng_resource", "clarification", "decision",
               "mdl_rule", "mdl_benchmark", "instrument", "line", "gate_rule", "milestone"]
     formats = ["docx", "pdf"]
     code_deps = ["engine/core/wordkit.py", "engine/core/workflow.py", "engine/core/kks.py", "engine/core/planning.py",
-                 "engine/core/mdl.py", "engine/core/release.py",
+                 "engine/core/mdl.py", "engine/core/release.py", "engine/core/docshell.py",
                  "engine/engines/engineering_plan.py", "templates/docx/datasheet_base.docx"]
 
     def run(self, ctx: Context):
@@ -86,28 +86,11 @@ class Procedures(Engine):
 
     # ------------------------------------------------------------------ common parts
     def _start(self, no, landscape=False):
-        ctx = self.ctx
-        rec = self.mdl.get(no, {"title": no})
-        proj = ctx.project_record()
-        d = Doc(ctx.template("docx", "datasheet_base.docx"), f"{proj.get('name', '')} | {no}",
-                f"engine {self.name} v{self.version} | data {ctx.stamp['inputs_hash']} | generated "
-                f"{ctx.stamp['generated_at'][:10]} - generated from the project database; do not edit", landscape=landscape)
-        d.title(f"{proj.get('name', '')}\n{rec['title']}")
-        issued = sorted(self.revs.get(no, []), key=lambda r: r["issue_date"])
-        rev = f"{issued[-1]['revision']} ({issued[-1]['purpose']} {issued[-1]['issue_date']})" if issued else \
-            "draft - not yet issued (next issue: IFR rev A)"
+        d = docshell.word(self.ctx, no, self, landscape=landscape)
         t = self.res.docs.get(no)
-        plan = (f"IFR {self.res.d(t.ifr)}" + (f", IFA {self.res.d(t.ifa)}" if t.ifa is not None else "")
-                + f", IFC {self.res.d(t.ifc)}") if t else "-"
-        dt = ctx.store.get("doc_type", rec.get("type_code") or "") or {}
-        rows = [("Document number", no)] + ([("Description", rec["description"])] if rec.get("description") else []) + [
-                ("Revision", rev), ("Originator", _short(self.parties, "IEPC")),
-                ("Review class", f"{rec.get('review') or dt.get('review') or '-'}" + (" (Basic Design Package)" if rec.get("bdp") else "")),
-                ("Planned issue (workflow timeline)", plan),
-                ("Basis", ", ".join(rec.get("basis_refs") or []) or "-")]
-        tb = d.table(None, [list(r) for r in rows], [5.0, d.width_cm - 5.0], size=8)
-        for r in tb.rows:
-            r.cells[0].paragraphs[0].runs[0].bold = True
+        if t:
+            d.p(f"IFR {self.res.d(t.ifr)}" + (f", IFA {self.res.d(t.ifa)}" if t.ifa is not None else "")
+                + f", IFC {self.res.d(t.ifc)}", bold_lead="Planned issues (workflow timeline): ")
         return d
 
     def _tq_line(self, tq):

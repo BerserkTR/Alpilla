@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:57:48.415693Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:57:48.415693Z",
+    "updated_by": "EPCE"
+  },
+  "approved_by": "EPC engineering manager",
+  "checked_by": "EPC process lead",
+  "description": "First issue for Owner approval (Basic Design Package)",
+  "document": "ALP-EPC-00000-GE-DBR-0001",
+  "id": "ALP-EPC-00000-GE-DBR-0001_A",
+  "issue_date": "2026-11-16",
+  "prepared_by": "EPCE",
+  "purpose": "IFR",
+  "revision": "A"
+}

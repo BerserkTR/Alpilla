@@ -1,0 +1,20 @@
+{
+  "db_hash": "a54919d72591ecbe",
+  "engine": "procedures",
+  "engine_version": "1.5.0",
+  "files": {
+    "ALP-EPC-00000-GE-PRC-0002.docx": "26fb7a6253f75263208a66a8cdfda0fd49557e568aec394a77f5e3f151a93df5",
+    "ALP-EPC-00000-GE-PRC-0002.pdf": "ba0efc0d8a497272d2d3894fb748743cc9fea580b572e23e93104968a26afa78"
+  },
+  "folder": "internal_deliveries/DLV-EPCE-0001_ALP-EPC-00000-GE-PRC-0002-Rev-A-IFR",
+  "generated_at": "2026-09-28T18:57:33.661482Z",
+  "git_commit": "876a108",
+  "id": "DLV-EPCE-0001",
+  "inputs_hash": "63209029bfb818c1",
+  "issued_at": "2026-09-28T18:57:47.859203Z",
+  "issued_by": "EPCE",
+  "purpose": "IFR",
+  "recipients": "Owner (approval)",
+  "remarks": "Wave 1: document control procedure issued first",
+  "title": "ALP-EPC-00000-GE-PRC-0002 Rev A IFR"
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:48.760123Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:53:48.760123Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0011"
+  ],
+  "category": "site",
+  "id": "DP-EPCE-0004",
+  "parameter": "Height datum",
+  "status": "confirmed",
+  "value_text": "TUDKA-99 orthometric heights (m a.s.l.)"
+}

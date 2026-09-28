@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.792963Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T14:50:43.270890Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:59:39.775444Z",
     "updated_by": "EPCE"
   },
   "description": "received IEC-ALP-PER-003 Rev A",
@@ -12,5 +12,7 @@
   "id": "ALP-IEC-10MBA-PR-HMB-0002_A",
   "issue_date": "2026-09-28",
   "purpose": "IFR",
+  "review_code": "1",
+  "review_date": "2026-11-18",
   "revision": "A"
 }

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:30.171770Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:53:30.171770Z",
+    "updated_by": "EPCE"
+  },
+  "area": "plot",
+  "description": "old foundation corner SW",
+  "e": 300.0,
+  "id": "FT-06",
+  "kind": "feature",
+  "n": 20.0,
+  "source": "SRC-EPCE-0011",
+  "utm_e": 541549.993,
+  "utm_n": 4532498.275,
+  "z": 15.24
+}

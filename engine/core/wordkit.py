@@ -90,6 +90,12 @@ class Doc:
         self.doc.add_paragraph().paragraph_format.space_after = Pt(2)
         return t
 
+    def image(self, path: Path, width_cm: float, caption: str | None = None):
+        from docx.shared import Cm
+        self.doc.add_picture(str(path), width=Cm(min(width_cm, self.width_cm)))
+        if caption:
+            self.p(caption).runs[0].italic = True
+
     def save(self, path: Path) -> Path:
         self.doc.save(path)
         return path

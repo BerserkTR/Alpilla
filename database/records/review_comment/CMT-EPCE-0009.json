@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:59:48.310776Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:59:48.310776Z",
+    "updated_by": "EPCE"
+  },
+  "comment": "State the weight of the heaviest maintenance lift (GT rotor, generator rotor incl. lifting beam) on the drawing; the GT hall crane capacity (120 t) is checked against it.",
+  "id": "CMT-EPCE-0009",
+  "location": "lifting",
+  "originator": "IEPC",
+  "revision": "ALP-IEC-10MBA-ME-GAD-0001_0",
+  "status": "open"
+}

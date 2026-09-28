@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.900306Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T18:38:39.949040Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:51:26.235180Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -14,7 +14,13 @@
   "id": "DL-MR-SPC",
   "inputs": [
     "DL-PR-SDS@system",
-    "DL-IC-BLK@system"
+    "DL-IC-BLK@system",
+    "DL-DBR-PR@disc",
+    "DL-DBR-ME@disc",
+    "DL-DBR-EL@disc",
+    "DL-DBR-IC@disc",
+    "DL-DBR-CV@disc",
+    "DL-DBR-HV@disc"
   ],
   "originator": "EPC",
   "package_types": [

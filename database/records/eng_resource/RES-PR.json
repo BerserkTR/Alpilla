@@ -2,15 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T15:15:58.160495Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:15:33.034646Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T19:02:22.137556Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
     "decision:DEC-EPCE-0010"
   ],
   "discipline": "process",
-  "fte": 12,
+  "fte": 13,
   "hours_per_day": 7.5,
   "id": "RES-PR",
   "ramp_weeks": 12

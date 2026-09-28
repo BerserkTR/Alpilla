@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.794721Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T14:50:39.080528Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:59:44.106233Z",
     "updated_by": "EPCE"
   },
   "description": "received IEC-ALP-DS-104 Rev B",
@@ -12,5 +12,7 @@
   "id": "ALP-IEC-10HAA-ME-DSH-0001_B",
   "issue_date": "2026-09-28",
   "purpose": "IFR",
+  "review_code": "2",
+  "review_date": "2026-11-18",
   "revision": "B"
 }

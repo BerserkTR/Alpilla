@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:59:42.509731Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:59:42.509731Z",
+    "updated_by": "EPCE"
+  },
+  "comment": "Design temperatures of the HP superheater, reheater, IP and LP sections are missing; only design pressures are given. Needed for the terminal point design and the piping classes (TQ-IEC-025).",
+  "id": "CMT-EPCE-0003",
+  "location": "design data",
+  "originator": "IEPC",
+  "revision": "ALP-IEC-10HAA-ME-DSH-0001_B",
+  "status": "open"
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:30.103338Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:55:39.899706Z",
+    "updated_by": "EPCE"
+  },
+  "area": "plot",
+  "description": "Site benchmark, brass bolt in concrete block; levelled loop BM-01 - BM-02, closure 2 mm",
+  "e": 381.0,
+  "id": "BM-02",
+  "kind": "benchmark",
+  "n": 15.0,
+  "source": "SRC-EPCE-0011",
+  "utm_e": 541630.924,
+  "utm_n": 4532492.806,
+  "z": 15.108
+}

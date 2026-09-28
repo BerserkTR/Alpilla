@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:59:43.358425Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:59:43.358425Z",
+    "updated_by": "EPCE"
+  },
+  "comment": "Condensate preheater recirculation pumps 2 x 100 % (aux_load AL-05) have no tags; provide tags, rating and motor data.",
+  "id": "CMT-EPCE-0004",
+  "location": "section 2",
+  "originator": "IEPC",
+  "revision": "ALP-IEC-10HAA-ME-DSH-0001_B",
+  "status": "open"
+}

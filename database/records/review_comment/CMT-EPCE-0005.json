@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:59:44.393968Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:59:44.393968Z",
+    "updated_by": "EPCE"
+  },
+  "comment": "GT output 425.0 MW at SRC-NG-100 against guarantee IG-03 418 MW at the generator terminals: state whether 425 MW is the shaft output and give the generator efficiency used (TQ-IEC-025).",
+  "id": "CMT-EPCE-0005",
+  "location": "performance",
+  "originator": "IEPC",
+  "revision": "ALP-IEC-10MBA-ME-DSH-0001_A",
+  "status": "open"
+}

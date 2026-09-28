@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T19:00:20.297188Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T19:00:20.297188Z",
+    "updated_by": "EPCE"
+  },
+  "action": "Review the frontier (release_control, can issue now) before issuing; link specifications to the design criteria of their discipline (input mode @disc) and to the key SLD / load list; only design bases, procedures and surveys may start without inputs",
+  "context": "Release control put nine equipment specifications (MV switchgear, transformers, UPS, EDG, field instruments, control valves) in the first release wave because their rule gave them no inputs: the specification rule only linked process system design descriptions, which electrical and I&C packages do not have",
+  "date": "2026-09-28",
+  "id": "L-EPCE-0012",
+  "lesson": "The first release wave shows every document the network lets start at once; specifications, lists and reports without inputs are usually missing links, not early documents",
+  "status": "active",
+  "tags": [
+    "mdl",
+    "document_control",
+    "engineering"
+  ],
+  "title": "A document with no inputs is a network defect until proven otherwise"
+}

@@ -5,6 +5,11 @@
 Read before working. Add a lesson whenever something went wrong or a better way was found:
 `python -m engine db add lesson --set title="..." --set lesson="..." --reason "..."`
 
+### L-EPCE-0012 (2026-09-28) A document with no inputs is a network defect until proven otherwise [mdl, document_control, engineering]
+- Context: Release control put nine equipment specifications (MV switchgear, transformers, UPS, EDG, field instruments, control valves) in the first release wave because their rule gave them no inputs: the specification rule only linked process system design descriptions, which electrical and I&C packages do not have
+- Lesson: The first release wave shows every document the network lets start at once; specifications, lists and reports without inputs are usually missing links, not early documents
+- Action: Review the frontier (release_control, can issue now) before issuing; link specifications to the design criteria of their discipline (input mode @disc) and to the key SLD / load list; only design bases, procedures and surveys may start without inputs
+
 ### L-EPCE-0011 (2026-09-28) Plan with the same prerequisites the release gates check [planning, document_control, procurement]
 - Context: The first gate analysis of MDL Rev B found 125 of 600 gate instances planned late: POs planned before their specifications, ITPs and bid evaluations; supplier test reports timed after shipment; basic design documents without any priority
 - Lesson: A plan that uses a simpler rule than the release check is not executable; gaps show only when the gates are evaluated against the plan

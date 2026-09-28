@@ -1,0 +1,1177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ALP Design Basis</title>
+<style>
+  :root { --ink:#1b1f24; --muted:#5b6470; --line:#d0d7de; --head:#1f3864; --band:#f3f6fa; }
+  body { font-family: "Segoe UI", Arial, sans-serif; color: var(--ink); max-width: 1100px; margin: 24px auto; padding: 0 16px; line-height: 1.45; }
+  h1 { color: var(--head); border-bottom: 3px solid var(--head); padding-bottom: 6px; }
+  h2 { color: var(--head); margin-top: 28px; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; margin: 8px 0 16px; }
+  th { background: var(--head); color: #fff; text-align: left; }
+  th, td { border: 1px solid var(--line); padding: 5px 7px; vertical-align: top; }
+  /* parameter tables (7 columns): identical column widths in every section */
+  table:has(th:nth-child(7)) { table-layout: fixed; }
+  table:has(th:nth-child(7)) th:nth-child(1) { width: 11%; }
+  table:has(th:nth-child(7)) th:nth-child(2) { width: 22%; }
+  table:has(th:nth-child(7)) th:nth-child(3) { width: 9%; }
+  table:has(th:nth-child(7)) th:nth-child(4) { width: 7%; }
+  table:has(th:nth-child(7)) th:nth-child(5) { width: 11%; }
+  table:has(th:nth-child(7)) th:nth-child(6) { width: 9%; }
+  table:has(th:nth-child(2):last-child) { width: auto; min-width: 50%; }
+  tr:nth-child(even) td { background: var(--band); }
+  code { background: var(--band); padding: 1px 4px; border-radius: 3px; }
+  footer { margin-top: 32px; font-size: 11px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 8px; }
+  @media print { body { margin: 0; max-width: none; } }
+</style>
+</head>
+<body>
+<h1>Alpilla 600 MW Combined Cycle Power Plant - Design Basis</h1>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Project</td>
+<td>ALP</td>
+</tr>
+<tr>
+<td>Plant type</td>
+<td>CCGT 1x1 multi-shaft, H-class GT, 3-pressure reheat HRSG, seawater cooling</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Northern Marmara coast, Türkiye</td>
+</tr>
+<tr>
+<td>Generated</td>
+<td>2026-09-28T19:00:27Z by EPCE (design_basis v1.2.0)</td>
+</tr>
+<tr>
+<td>Data fingerprint</td>
+<td>188045b6c33ac38c (git 876a108)</td>
+</tr>
+</tbody>
+</table>
+<p>This document is generated from the project database. Do not edit it; change the
+<code>design_parameter</code> records and re-run <code>python -m engine run design_basis</code>.</p>
+<h2>1. Site</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Parameter</th>
+<th>Value</th>
+<th>Unit</th>
+<th>Condition</th>
+<th>Status</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DP-CASE-0003</td>
+<td>Atmospheric corrosivity category</td>
+<td>C5 (ISO 12944-2), durability H</td>
+<td>-</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-02.08 Corrosive coastal atmosphere</td>
+</tr>
+<tr>
+<td>DP-CASE-0004</td>
+<td>Basic wind speed</td>
+<td>30.0</td>
+<td>m/s</td>
+<td>10 min mean, 10 m, 50-year return</td>
+<td>confirmed</td>
+<td>ER-02.05 Wind, snow and rain</td>
+</tr>
+<tr>
+<td>DP-CASE-0006</td>
+<td>Design rainfall intensity</td>
+<td>110.0</td>
+<td>mm/h</td>
+<td>10 min, 25-year return</td>
+<td>confirmed</td>
+<td>ER-02.05 Wind, snow and rain</td>
+</tr>
+<tr>
+<td>DP-OWNR-0046</td>
+<td>Distance to heavy-lift port</td>
+<td>18.0</td>
+<td>km by sea</td>
+<td>400 t quay crane</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0005 Site, existing infrastructure and tie-in points</td>
+</tr>
+<tr>
+<td>DP-CASE-0005</td>
+<td>Ground snow load</td>
+<td>0.75</td>
+<td>kN/m2</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-02.05 Wind, snow and rain</td>
+</tr>
+<tr>
+<td>DP-OWNR-0047</td>
+<td>Groundwater level</td>
+<td>13.5</td>
+<td>m a.s.l.</td>
+<td>brackish, chloride 3,000-8,000 mg/l</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0008 Geotechnical baseline summary</td>
+</tr>
+<tr>
+<td>DP-OWNR-0045</td>
+<td>Heavy transport road limit</td>
+<td>120.0</td>
+<td>t gross</td>
+<td>two bridges on the state road</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0005 Site, existing infrastructure and tie-in points; ER-02.14 Access and transport</td>
+</tr>
+<tr>
+<td>DP-EPCE-0004</td>
+<td>Height datum</td>
+<td>TUDKA-99 orthometric heights (m a.s.l.)</td>
+<td></td>
+<td></td>
+<td>confirmed</td>
+<td>SRC-EPCE-0011 Topographic survey point listing - plot, temporary area TP-A1 and coastal strip</td>
+</tr>
+<tr>
+<td>DP-EPCE-0001</td>
+<td>Plant grid origin in UTM zone 35N (E 0 / N 0)</td>
+<td>E 541,250.000 m / N 4,532,480.000 m</td>
+<td>m</td>
+<td>TUREF (ITRF96), south-west plot corner</td>
+<td>confirmed</td>
+<td>SRC-EPCE-0011 Topographic survey point listing - plot, temporary area TP-A1 and coastal strip</td>
+</tr>
+<tr>
+<td>DP-OWNR-0044</td>
+<td>Plot dimensions</td>
+<td>400 x 300</td>
+<td>m</td>
+<td>12.0 ha; usable about 10.6 ha</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0005 Site, existing infrastructure and tie-in points; ER-02.01 Site location and area</td>
+</tr>
+<tr>
+<td>DP-EPCE-0002</td>
+<td>Rotation plant grid to UTM grid</td>
+<td>-0.3281</td>
+<td>deg</td>
+<td>plant north = true north; grid convergence at site</td>
+<td>confirmed</td>
+<td>SRC-EPCE-0011 Topographic survey point listing - plot, temporary area TP-A1 and coastal strip</td>
+</tr>
+<tr>
+<td>DP-EPCE-0003</td>
+<td>Scale factor plant grid to UTM</td>
+<td>0.999612</td>
+<td>-</td>
+<td>combined UTM point scale and height factor</td>
+<td>confirmed</td>
+<td>SRC-EPCE-0011 Topographic survey point listing - plot, temporary area TP-A1 and coastal strip</td>
+</tr>
+<tr>
+<td>DP-CASE-0002</td>
+<td>Seismic design PGA (DD-2, 475-year)</td>
+<td>0.45</td>
+<td>g</td>
+<td>TBDY 2018, site-specific hazard study</td>
+<td>confirmed</td>
+<td>ER-02.06 Seismic design</td>
+</tr>
+<tr>
+<td>DP-OWNR-0048</td>
+<td>Seismic site class</td>
+<td>ZD (Vs30 = 240 m/s)</td>
+<td>-</td>
+<td>TBDY 2018</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0008 Geotechnical baseline summary</td>
+</tr>
+<tr>
+<td>DP-CASE-0001</td>
+<td>Site grade level</td>
+<td>15.0</td>
+<td>m a.s.l.</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-02.01 Site location and area</td>
+</tr>
+</tbody>
+</table>
+<h2>2. Ambient</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Parameter</th>
+<th>Value</th>
+<th>Unit</th>
+<th>Condition</th>
+<th>Status</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DP-CASE-0008</td>
+<td>Ambient temperature - maximum for full capability</td>
+<td>40.0</td>
+<td>degC</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-02.02 Ambient design range</td>
+</tr>
+<tr>
+<td>DP-CASE-0007</td>
+<td>Ambient temperature - minimum for full capability</td>
+<td>-8.0</td>
+<td>degC</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-02.02 Ambient design range</td>
+</tr>
+<tr>
+<td>DP-CASE-0009</td>
+<td>Ambient temperature - survival range</td>
+<td>-15 to +45</td>
+<td>degC</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-02.02 Ambient design range</td>
+</tr>
+<tr>
+<td>DP-OWNR-0004</td>
+<td>Annual mean temperature (measured)</td>
+<td>14.9</td>
+<td>degC</td>
+<td>2015-2024 site mast</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0001 Meteorological and ambient air data</td>
+</tr>
+<tr>
+<td>DP-OWNR-0007</td>
+<td>Chloride deposition maximum</td>
+<td>420.0</td>
+<td>mg/m2/day</td>
+<td>ISO 9225, category S3</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0001 Meteorological and ambient air data; ER-02.10 Airborne salt and dust</td>
+</tr>
+<tr>
+<td>DP-OWNR-0009</td>
+<td>Ground flash density</td>
+<td>2.4</td>
+<td>flashes/km2/year</td>
+<td>26 thunderstorm days/year</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0001 Meteorological and ambient air data; ER-02.12 Lightning</td>
+</tr>
+<tr>
+<td>DP-OWNR-0010</td>
+<td>Performance test ambient range</td>
+<td>5 to 30</td>
+<td>degC</td>
+<td></td>
+<td>confirmed</td>
+<td>SRC-OWNR-0001 Meteorological and ambient air data; ER-02.11 Design ambient points</td>
+</tr>
+<tr>
+<td>DP-OWNR-0008</td>
+<td>PM10 maximum (event)</td>
+<td>260.0</td>
+<td>ug/m3</td>
+<td>Saharan dust episodes</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0001 Meteorological and ambient air data; ER-02.10 Airborne salt and dust</td>
+</tr>
+<tr>
+<td>DP-OWNR-0003</td>
+<td>Record maximum / minimum temperature</td>
+<td>39.6 / -11.4</td>
+<td>degC</td>
+<td>1960-2024</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0001 Meteorological and ambient air data</td>
+</tr>
+<tr>
+<td>DP-OWNR-0006</td>
+<td>Sea-salt aerosol annual mean</td>
+<td>14.0</td>
+<td>ug/m3</td>
+<td>as NaCl</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0001 Meteorological and ambient air data</td>
+</tr>
+<tr>
+<td>DP-OWNR-0005</td>
+<td>Sea-salt aerosol maximum (event)</td>
+<td>165.0</td>
+<td>ug/m3</td>
+<td>as NaCl, lodos storms</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0001 Meteorological and ambient air data; ER-02.10 Airborne salt and dust</td>
+</tr>
+<tr>
+<td>DP-CASE-0010</td>
+<td>SRC ambient dry-bulb temperature</td>
+<td>15.0</td>
+<td>degC</td>
+<td>Site Reference Conditions</td>
+<td>confirmed</td>
+<td>ER-02.03 Site Reference Conditions (SRC)</td>
+</tr>
+<tr>
+<td>DP-CASE-0012</td>
+<td>SRC barometric pressure</td>
+<td>1011.5</td>
+<td>mbar</td>
+<td>Site Reference Conditions</td>
+<td>confirmed</td>
+<td>ER-02.03 Site Reference Conditions (SRC)</td>
+</tr>
+<tr>
+<td>DP-CASE-0011</td>
+<td>SRC relative humidity</td>
+<td>70.0</td>
+<td>%</td>
+<td>Site Reference Conditions</td>
+<td>confirmed</td>
+<td>ER-02.03 Site Reference Conditions (SRC)</td>
+</tr>
+<tr>
+<td>DP-OWNR-0001</td>
+<td>Summer design dry bulb (0.4 %)</td>
+<td>32.8</td>
+<td>degC</td>
+<td>coincident RH 48 %</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0001 Meteorological and ambient air data; ER-02.11 Design ambient points</td>
+</tr>
+<tr>
+<td>DP-OWNR-0002</td>
+<td>Winter design dry bulb (99.6 %)</td>
+<td>-4.8</td>
+<td>degC</td>
+<td>coincident RH 88 %</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0001 Meteorological and ambient air data; ER-02.11 Design ambient points</td>
+</tr>
+</tbody>
+</table>
+<h2>3. Fuel Gas</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Parameter</th>
+<th>Value</th>
+<th>Unit</th>
+<th>Condition</th>
+<th>Status</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DP-OWNR-0033</td>
+<td>Booked gas capacity (firm)</td>
+<td>115000.0</td>
+<td>Sm3/h</td>
+<td>130,000 interruptible</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0003 Natural gas quality and supply conditions</td>
+</tr>
+<tr>
+<td>DP-OWNR-0032</td>
+<td>Exceptional minimum supply pressure</td>
+<td>40.0</td>
+<td>barg</td>
+<td>max 72 h/year, 24 h notice</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0003 Natural gas quality and supply conditions</td>
+</tr>
+<tr>
+<td>DP-OWNR-0029</td>
+<td>Fuel gas superheat above dew points at GT skid</td>
+<td>28.0</td>
+<td>K</td>
+<td>minimum</td>
+<td>confirmed</td>
+<td>ER-03.06 Natural gas contaminant limits</td>
+</tr>
+<tr>
+<td>DP-CASE-0019</td>
+<td>Fuel LHV range</td>
+<td>44.2 to 50.0</td>
+<td>MJ/kg</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-03.02 Natural gas specification</td>
+</tr>
+<tr>
+<td>DP-CASE-0022</td>
+<td>Gas supply pressure at terminal point</td>
+<td>45 to 70</td>
+<td>barg</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-03.03 Gas supply conditions at terminal point</td>
+</tr>
+<tr>
+<td>DP-CASE-0023</td>
+<td>Gas supply temperature at terminal point</td>
+<td>5 to 25</td>
+<td>degC</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-03.03 Gas supply conditions at terminal point</td>
+</tr>
+<tr>
+<td>DP-OWNR-0026</td>
+<td>H2S + COS limit</td>
+<td>5.0</td>
+<td>mg/Sm3</td>
+<td></td>
+<td>confirmed</td>
+<td>SRC-OWNR-0003 Natural gas quality and supply conditions; ER-03.06 Natural gas contaminant limits</td>
+</tr>
+<tr>
+<td>DP-OWNR-0031</td>
+<td>Hydrocarbon dew point</td>
+<td>-2.0</td>
+<td>degC (1-70 barg)</td>
+<td>maximum</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0003 Natural gas quality and supply conditions</td>
+</tr>
+<tr>
+<td>DP-CASE-0021</td>
+<td>Hydrogen admixture capability</td>
+<td>5.0</td>
+<td>vol %</td>
+<td>without modification; 10 vol % by future OEM retrofit (provisions included)</td>
+<td>confirmed</td>
+<td>ER-03.02 Natural gas specification</td>
+</tr>
+<tr>
+<td>DP-OWNR-0027</td>
+<td>Mercury limit</td>
+<td>1.0</td>
+<td>ug/Sm3</td>
+<td>measured &lt; 0.01</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0003 Natural gas quality and supply conditions; ER-03.06 Natural gas contaminant limits</td>
+</tr>
+<tr>
+<td>DP-OWNR-0024</td>
+<td>Methane content range</td>
+<td>85.0 to 98.5</td>
+<td>mol %</td>
+<td></td>
+<td>confirmed</td>
+<td>SRC-OWNR-0003 Natural gas quality and supply conditions; ER-03.02 Natural gas specification</td>
+</tr>
+<tr>
+<td>DP-OWNR-0028</td>
+<td>Na + K, Pb, V in gas (network data)</td>
+<td>&lt; 0.005 (detection limit)</td>
+<td>mg/Sm3</td>
+<td>not guaranteed by network operator</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0003 Natural gas quality and supply conditions; ER-03.06 Natural gas contaminant limits</td>
+</tr>
+<tr>
+<td>DP-CASE-0018</td>
+<td>Reference fuel LHV</td>
+<td>47.48</td>
+<td>MJ/kg</td>
+<td>reference composition, ISO 6976, combustion reference 25 degC</td>
+<td>confirmed</td>
+<td>ER-03.02 Natural gas specification</td>
+</tr>
+<tr>
+<td>DP-OWNR-0025</td>
+<td>Total sulphur limit</td>
+<td>30.0</td>
+<td>mg S/Sm3</td>
+<td>measured typical 4, max 17</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0003 Natural gas quality and supply conditions; ER-03.06 Natural gas contaminant limits</td>
+</tr>
+<tr>
+<td>DP-OWNR-0030</td>
+<td>Water dew point</td>
+<td>-8.0</td>
+<td>degC at 70 barg</td>
+<td>maximum</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0003 Natural gas quality and supply conditions</td>
+</tr>
+<tr>
+<td>DP-CASE-0020</td>
+<td>Wobbe index range</td>
+<td>47 to 52</td>
+<td>MJ/Nm3</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-03.02 Natural gas specification</td>
+</tr>
+</tbody>
+</table>
+<h2>4. Backup Fuel</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Parameter</th>
+<th>Value</th>
+<th>Unit</th>
+<th>Condition</th>
+<th>Status</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DP-OWNR-0039</td>
+<td>LDO annual operating limit</td>
+<td>500.0</td>
+<td>h/year</td>
+<td>back-up fuel status</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); SRC-OWNR-0007 Positive EIA decision - binding conditions</td>
+</tr>
+<tr>
+<td>DP-OWNR-0038</td>
+<td>LDO autonomy at base load</td>
+<td>72.0</td>
+<td>h</td>
+<td>two tanks of 50 %</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); ER-03.08 LDO unloading and storage</td>
+</tr>
+<tr>
+<td>DP-OWNR-0034</td>
+<td>LDO LHV</td>
+<td>42.9</td>
+<td>MJ/kg</td>
+<td>range 42.6-43.2</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); ER-03.07 Light diesel oil specification and burner limits</td>
+</tr>
+<tr>
+<td>DP-OWNR-0036</td>
+<td>LDO Na + K at GT inlet</td>
+<td>0.5</td>
+<td>mg/kg</td>
+<td>maximum; as delivered up to 1.0 (history 1.8)</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); ER-03.07 Light diesel oil specification and burner limits</td>
+</tr>
+<tr>
+<td>DP-OWNR-0040</td>
+<td>LDO resupply capacity</td>
+<td>25.0</td>
+<td>trucks/day</td>
+<td>30-36 m3 each</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO)</td>
+</tr>
+<tr>
+<td>DP-OWNR-0035</td>
+<td>LDO sulphur</td>
+<td>10.0</td>
+<td>mg/kg</td>
+<td>maximum</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); ER-03.07 Light diesel oil specification and burner limits</td>
+</tr>
+<tr>
+<td>DP-OWNR-0037</td>
+<td>LDO vanadium / lead / calcium at GT inlet</td>
+<td>0.5 / 1.0 / 2.0</td>
+<td>mg/kg</td>
+<td>maximum</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); ER-03.07 Light diesel oil specification and burner limits</td>
+</tr>
+</tbody>
+</table>
+<h2>5. Grid</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Parameter</th>
+<th>Value</th>
+<th>Unit</th>
+<th>Condition</th>
+<th>Status</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DP-OWNR-0050</td>
+<td>380 kV voltage range</td>
+<td>360 to 410</td>
+<td>kV</td>
+<td>342-420 kV for up to 30 min</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0006 Grid connection data</td>
+</tr>
+<tr>
+<td>DP-OWNR-0051</td>
+<td>Connection capacity</td>
+<td>640.0</td>
+<td>MW export</td>
+<td>40 MW import</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0006 Grid connection data</td>
+</tr>
+<tr>
+<td>DP-CASE-0027</td>
+<td>Generator power factor range</td>
+<td>0.85 lagging to 0.95 leading</td>
+<td>-</td>
+<td>at rated active power</td>
+<td>confirmed</td>
+<td>ER-04.08 Reactive capability</td>
+</tr>
+<tr>
+<td>DP-CASE-0024</td>
+<td>Grid connection voltage</td>
+<td>380.0</td>
+<td>kV</td>
+<td>nominal</td>
+<td>confirmed</td>
+<td>ER-11.01 Grid connection</td>
+</tr>
+<tr>
+<td>DP-CASE-0026</td>
+<td>Grid frequency</td>
+<td>50.0</td>
+<td>Hz</td>
+<td>operating range 47.5 to 52.5 Hz per Grid Code</td>
+<td>confirmed</td>
+<td>ER-04.07 Frequency and voltage support</td>
+</tr>
+<tr>
+<td>DP-OWNR-0049</td>
+<td>Short-circuit level at 380 kV (2029)</td>
+<td>12 (min) to 40 (max)</td>
+<td>kA</td>
+<td>future 50 kA (2035)</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0006 Grid connection data</td>
+</tr>
+<tr>
+<td>DP-CASE-0025</td>
+<td>Switchyard short-circuit rating</td>
+<td>50.0</td>
+<td>kA</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-11.01 Grid connection</td>
+</tr>
+</tbody>
+</table>
+<h2>6. Performance</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Parameter</th>
+<th>Value</th>
+<th>Unit</th>
+<th>Condition</th>
+<th>Status</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DP-CASE-0031</td>
+<td>Auxiliary power consumption</td>
+<td>2.2</td>
+<td>% of gross</td>
+<td>maximum, base load</td>
+<td>confirmed</td>
+<td>ER-04.10 Auxiliary power</td>
+</tr>
+<tr>
+<td>DP-CASE-0032</td>
+<td>Load ramp rate</td>
+<td>35.0</td>
+<td>MW/min</td>
+<td>minimum</td>
+<td>confirmed</td>
+<td>ER-04.05 Load ramp rate</td>
+</tr>
+<tr>
+<td>DP-CASE-0033</td>
+<td>Minimum environmental load</td>
+<td>40.0</td>
+<td>% net output</td>
+<td>maximum</td>
+<td>confirmed</td>
+<td>ER-04.06 Minimum environmental load</td>
+</tr>
+<tr>
+<td>DP-CASE-0028</td>
+<td>Net electrical output (guaranteed)</td>
+<td>600.0</td>
+<td>MW</td>
+<td>SRC, 380 kV terminal point</td>
+<td>confirmed</td>
+<td>ER-04.01 Net electrical output</td>
+</tr>
+<tr>
+<td>DP-CASE-0029</td>
+<td>Net heat rate LHV (guaranteed)</td>
+<td>5860.0</td>
+<td>kJ/kWh</td>
+<td>SRC</td>
+<td>confirmed</td>
+<td>ER-04.02 Net heat rate</td>
+</tr>
+<tr>
+<td>DP-CASE-0030</td>
+<td>Net heat rate LHV at 60 % load (guaranteed)</td>
+<td>6250.0</td>
+<td>kJ/kWh</td>
+<td>SRC</td>
+<td>confirmed</td>
+<td>ER-04.03 Part-load efficiency</td>
+</tr>
+</tbody>
+</table>
+<h2>7. Water</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Parameter</th>
+<th>Value</th>
+<th>Unit</th>
+<th>Condition</th>
+<th>Status</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DP-OWNR-0022</td>
+<td>Condenser cleanliness factor (design)</td>
+<td>0.85</td>
+<td>-</td>
+<td>HEI</td>
+<td>confirmed</td>
+<td>ER-07.07 Condenser design standard</td>
+</tr>
+<tr>
+<td>DP-CASE-0015</td>
+<td>Condenser cooling water temperature rise</td>
+<td>7.0</td>
+<td>K</td>
+<td>maximum, base load</td>
+<td>confirmed</td>
+<td>ER-07.04 Cooling water temperature rise</td>
+</tr>
+<tr>
+<td>DP-OWNR-0021</td>
+<td>Condenser pressure at SRC (maximum)</td>
+<td>36.0</td>
+<td>mbar(a)</td>
+<td>base load, seawater 16.0 degC</td>
+<td>confirmed</td>
+<td>ER-07.08 Condenser pressure</td>
+</tr>
+<tr>
+<td>DP-OWNR-0023</td>
+<td>Condenser tube velocity</td>
+<td>1.8 to 2.2</td>
+<td>m/s</td>
+<td>titanium</td>
+<td>confirmed</td>
+<td>ER-07.07 Condenser design standard</td>
+</tr>
+<tr>
+<td>DP-OWNR-0019</td>
+<td>Jellyfish load design</td>
+<td>20.0</td>
+<td>kg/m3</td>
+<td>blooms June-September</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0002 Seawater quality and marine conditions; ER-08.07 Jellyfish and mucilage</td>
+</tr>
+<tr>
+<td>DP-OWNR-0016</td>
+<td>Pycnocline depth</td>
+<td>20 to 25</td>
+<td>m</td>
+<td></td>
+<td>confirmed</td>
+<td>SRC-OWNR-0002 Seawater quality and marine conditions</td>
+</tr>
+<tr>
+<td>DP-CASE-0017</td>
+<td>Residual chlorine at outfall</td>
+<td>0.1</td>
+<td>mg/l</td>
+<td>maximum</td>
+<td>confirmed</td>
+<td>ER-08.04 Biofouling control</td>
+</tr>
+<tr>
+<td>DP-OWNR-0018</td>
+<td>Seawater boron</td>
+<td>2.4 to 3.4</td>
+<td>mg/l</td>
+<td></td>
+<td>confirmed</td>
+<td>SRC-OWNR-0002 Seawater quality and marine conditions</td>
+</tr>
+<tr>
+<td>DP-OWNR-0014</td>
+<td>Seawater chloride - maximum (upper layer)</td>
+<td>14500.0</td>
+<td>mg/l</td>
+<td></td>
+<td>confirmed</td>
+<td>SRC-OWNR-0002 Seawater quality and marine conditions</td>
+</tr>
+<tr>
+<td>DP-OWNR-0015</td>
+<td>Seawater salinity range (upper layer)</td>
+<td>21.8 to 26.1</td>
+<td>PSU</td>
+<td>lower layer 38.2 PSU below pycnocline</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0002 Seawater quality and marine conditions</td>
+</tr>
+<tr>
+<td>DP-OWNR-0011</td>
+<td>Seawater temperature at intake - annual mean (measured)</td>
+<td>15.4</td>
+<td>degC</td>
+<td>12 m depth, station M2</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0002 Seawater quality and marine conditions</td>
+</tr>
+<tr>
+<td>DP-OWNR-0012</td>
+<td>Seawater temperature at intake - maximum</td>
+<td>27.0</td>
+<td>degC</td>
+<td>August</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0002 Seawater quality and marine conditions</td>
+</tr>
+<tr>
+<td>DP-OWNR-0013</td>
+<td>Seawater temperature at intake - minimum</td>
+<td>6.9</td>
+<td>degC</td>
+<td>February</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0002 Seawater quality and marine conditions</td>
+</tr>
+<tr>
+<td>DP-CASE-0013</td>
+<td>Seawater temperature range at intake</td>
+<td>6 to 27</td>
+<td>degC</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-02.04 Seawater conditions</td>
+</tr>
+<tr>
+<td>DP-OWNR-0017</td>
+<td>Seawater TSS maximum (storm)</td>
+<td>140.0</td>
+<td>mg/l</td>
+<td></td>
+<td>confirmed</td>
+<td>SRC-OWNR-0002 Seawater quality and marine conditions</td>
+</tr>
+<tr>
+<td>DP-CASE-0014</td>
+<td>SRC seawater temperature</td>
+<td>16.0</td>
+<td>degC</td>
+<td>Site Reference Conditions</td>
+<td>confirmed</td>
+<td>ER-02.03 Site Reference Conditions (SRC)</td>
+</tr>
+<tr>
+<td>DP-CASE-0016</td>
+<td>Thermal plume excess at 100 m mixing zone</td>
+<td>3.0</td>
+<td>K</td>
+<td>maximum</td>
+<td>confirmed</td>
+<td>ER-08.05 Thermal plume</td>
+</tr>
+<tr>
+<td>DP-OWNR-0020</td>
+<td>Wave height Hs 50-year</td>
+<td>4.4</td>
+<td>m</td>
+<td>Tp 8.5 s, SW</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0002 Seawater quality and marine conditions</td>
+</tr>
+</tbody>
+</table>
+<h2>8. Emissions</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Parameter</th>
+<th>Value</th>
+<th>Unit</th>
+<th>Condition</th>
+<th>Status</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DP-CASE-0041</td>
+<td>CO</td>
+<td>30.0</td>
+<td>mg/Nm3</td>
+<td>dry, 15 % O2, 50-100 % GT load</td>
+<td>confirmed</td>
+<td>ER-14.02 Air emissions</td>
+</tr>
+<tr>
+<td>DP-OWNR-0043</td>
+<td>Dust on LDO</td>
+<td>5.0</td>
+<td>mg/Nm3</td>
+<td>dry, 15 % O2</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0007 Positive EIA decision - binding conditions; ER-14.02 Air emissions</td>
+</tr>
+<tr>
+<td>DP-CASE-0042</td>
+<td>NH3 slip</td>
+<td>5.0</td>
+<td>mg/Nm3</td>
+<td>dry, 15 % O2</td>
+<td>confirmed</td>
+<td>ER-14.02 Air emissions</td>
+</tr>
+<tr>
+<td>DP-CASE-0040</td>
+<td>NOx (as NO2)</td>
+<td>30.0</td>
+<td>mg/Nm3</td>
+<td>dry, 15 % O2, 50-100 % GT load</td>
+<td>confirmed</td>
+<td>ER-14.02 Air emissions</td>
+</tr>
+<tr>
+<td>DP-OWNR-0041</td>
+<td>NOx on LDO</td>
+<td>50.0</td>
+<td>mg/Nm3</td>
+<td>dry, 15 % O2</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0007 Positive EIA decision - binding conditions; ER-14.02 Air emissions</td>
+</tr>
+<tr>
+<td>DP-OWNR-0042</td>
+<td>SO2 on LDO</td>
+<td>10.0</td>
+<td>mg/Nm3</td>
+<td>dry, 15 % O2</td>
+<td>confirmed</td>
+<td>SRC-OWNR-0007 Positive EIA decision - binding conditions; ER-14.02 Air emissions</td>
+</tr>
+<tr>
+<td>DP-CASE-0043</td>
+<td>Stack height</td>
+<td>65.0</td>
+<td>m</td>
+<td>EIA decision (approved dispersion study)</td>
+<td>confirmed</td>
+<td>ER-06.06 Stack; SRC-OWNR-0007 Positive EIA decision - binding conditions</td>
+</tr>
+</tbody>
+</table>
+<h2>9. Noise</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Parameter</th>
+<th>Value</th>
+<th>Unit</th>
+<th>Condition</th>
+<th>Status</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DP-CASE-0044</td>
+<td>Near-field noise</td>
+<td>85.0</td>
+<td>dB(A)</td>
+<td>1 m from equipment</td>
+<td>confirmed</td>
+<td>ER-14.03 Near-field noise</td>
+</tr>
+<tr>
+<td>DP-CASE-0045</td>
+<td>Noise at nearest receptor (night)</td>
+<td>45.0</td>
+<td>dB(A)</td>
+<td>LAeq night</td>
+<td>confirmed</td>
+<td>ER-14.04 Environmental noise</td>
+</tr>
+</tbody>
+</table>
+<h2>10. Operation</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Parameter</th>
+<th>Value</th>
+<th>Unit</th>
+<th>Condition</th>
+<th>Status</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DP-CASE-0039</td>
+<td>Cold start time to base load</td>
+<td>180.0</td>
+<td>min</td>
+<td>maximum</td>
+<td>confirmed</td>
+<td>ER-04.04 Start-up times</td>
+</tr>
+<tr>
+<td>DP-CASE-0034</td>
+<td>Design life</td>
+<td>30.0</td>
+<td>years</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-01.03 Design life and operating regime</td>
+</tr>
+<tr>
+<td>DP-CASE-0037</td>
+<td>Hot start time to base load</td>
+<td>45.0</td>
+<td>min</td>
+<td>maximum</td>
+<td>confirmed</td>
+<td>ER-04.04 Start-up times</td>
+</tr>
+<tr>
+<td>DP-CASE-0035</td>
+<td>Operating hours per year</td>
+<td>8000.0</td>
+<td>EOH/year</td>
+<td></td>
+<td>confirmed</td>
+<td>ER-01.03 Design life and operating regime</td>
+</tr>
+<tr>
+<td>DP-CASE-0036</td>
+<td>Starts per year</td>
+<td>250.0</td>
+<td>starts/year</td>
+<td>50 cold, 100 warm, 100 hot</td>
+<td>confirmed</td>
+<td>ER-01.03 Design life and operating regime</td>
+</tr>
+<tr>
+<td>DP-CASE-0038</td>
+<td>Warm start time to base load</td>
+<td>90.0</td>
+<td>min</td>
+<td>maximum</td>
+<td>confirmed</td>
+<td>ER-04.04 Start-up times</td>
+</tr>
+</tbody>
+</table>
+<h2>Open assumptions (0 of 100)</h2>
+<p><em>None - all parameters are preliminary or confirmed.</em></p>
+<h2>Basis documents cited</h2>
+<ul>
+<li>ER-01.03 Design life and operating regime (requirement)</li>
+<li>ER-02.01 Site location and area (requirement)</li>
+<li>ER-02.02 Ambient design range (requirement)</li>
+<li>ER-02.03 Site Reference Conditions (SRC) (requirement)</li>
+<li>ER-02.04 Seawater conditions (requirement)</li>
+<li>ER-02.05 Wind, snow and rain (requirement)</li>
+<li>ER-02.06 Seismic design (requirement)</li>
+<li>ER-02.08 Corrosive coastal atmosphere (requirement)</li>
+<li>ER-02.10 Airborne salt and dust (requirement)</li>
+<li>ER-02.11 Design ambient points (requirement)</li>
+<li>ER-02.12 Lightning (requirement)</li>
+<li>ER-02.14 Access and transport (requirement)</li>
+<li>ER-03.02 Natural gas specification (requirement)</li>
+<li>ER-03.03 Gas supply conditions at terminal point (requirement)</li>
+<li>ER-03.06 Natural gas contaminant limits (requirement)</li>
+<li>ER-03.07 Light diesel oil specification and burner limits (requirement)</li>
+<li>ER-03.08 LDO unloading and storage (requirement)</li>
+<li>ER-04.01 Net electrical output (requirement)</li>
+<li>ER-04.02 Net heat rate (requirement)</li>
+<li>ER-04.03 Part-load efficiency (requirement)</li>
+<li>ER-04.04 Start-up times (requirement)</li>
+<li>ER-04.05 Load ramp rate (requirement)</li>
+<li>ER-04.06 Minimum environmental load (requirement)</li>
+<li>ER-04.07 Frequency and voltage support (requirement)</li>
+<li>ER-04.08 Reactive capability (requirement)</li>
+<li>ER-04.10 Auxiliary power (requirement)</li>
+<li>ER-06.06 Stack (requirement)</li>
+<li>ER-07.04 Cooling water temperature rise (requirement)</li>
+<li>ER-07.07 Condenser design standard (requirement)</li>
+<li>ER-07.08 Condenser pressure (requirement)</li>
+<li>ER-08.04 Biofouling control (requirement)</li>
+<li>ER-08.05 Thermal plume (requirement)</li>
+<li>ER-08.07 Jellyfish and mucilage (requirement)</li>
+<li>ER-11.01 Grid connection (requirement)</li>
+<li>ER-14.02 Air emissions (requirement)</li>
+<li>ER-14.03 Near-field noise (requirement)</li>
+<li>ER-14.04 Environmental noise (requirement)</li>
+<li>SRC-EPCE-0011 Topographic survey point listing - plot, temporary area TP-A1 and coastal strip (source)</li>
+<li>SRC-OWNR-0001 Meteorological and ambient air data (source)</li>
+<li>SRC-OWNR-0002 Seawater quality and marine conditions (source)</li>
+<li>SRC-OWNR-0003 Natural gas quality and supply conditions (source)</li>
+<li>SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO) (source)</li>
+<li>SRC-OWNR-0005 Site, existing infrastructure and tie-in points (source)</li>
+<li>SRC-OWNR-0006 Grid connection data (source)</li>
+<li>SRC-OWNR-0007 Positive EIA decision - binding conditions (source)</li>
+<li>SRC-OWNR-0008 Geotechnical baseline summary (source)</li>
+</ul>
+<footer>Generated by engine design_basis v1.2.0 at 2026-09-28T19:00:27Z by EPCE - data 188045b6c33ac38c - git 876a108. Not to be edited by hand.</footer>
+</body>
+</html>

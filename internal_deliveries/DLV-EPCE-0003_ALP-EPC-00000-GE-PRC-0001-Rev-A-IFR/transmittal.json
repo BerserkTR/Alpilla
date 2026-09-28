@@ -1,0 +1,20 @@
+{
+  "db_hash": "63a3b46de48053ae",
+  "engine": "procedures",
+  "engine_version": "1.5.0",
+  "files": {
+    "ALP-EPC-00000-GE-PRC-0001.docx": "f1f82f6df1d455e58a15514861b914e7625a39b87632977b5b919f55d1b91f9d",
+    "ALP-EPC-00000-GE-PRC-0001.pdf": "04d02111864ec5e9c353c8f5a543ace097ae7e21e42acca7038acd8baedb5b38"
+  },
+  "folder": "internal_deliveries/DLV-EPCE-0003_ALP-EPC-00000-GE-PRC-0001-Rev-A-IFR",
+  "generated_at": "2026-09-28T18:57:58.297421Z",
+  "git_commit": "876a108",
+  "id": "DLV-EPCE-0003",
+  "inputs_hash": "332d08e67827ec06",
+  "issued_at": "2026-09-28T18:58:11.723926Z",
+  "issued_by": "EPCE",
+  "purpose": "IFR",
+  "recipients": "Owner (approval)",
+  "remarks": "Wave 1: KKS identification manual",
+  "title": "ALP-EPC-00000-GE-PRC-0001 Rev A IFR"
+}

@@ -35,7 +35,7 @@ def render_md(t: dict) -> str:
 
 
 def deliver(project: Project, store: Store, engine: str, title: str, purpose: str,
-            recipients: str, reason: str, patterns: list[str] | None = None) -> Path:
+            recipients: str, reason: str, patterns: list[str] | None = None, revisions: list[str] | None = None) -> Path:
     src = project.output / engine
     mf = src / MANIFEST
     if not mf.exists():
@@ -66,7 +66,8 @@ def deliver(project: Project, store: Store, engine: str, title: str, purpose: st
         (dest / TRANSMITTAL_MD).write_text(render_md(t), encoding="utf-8")
         store.create("delivery", {"id": rid, "title": title, "purpose": purpose, "recipients": recipients,
                                   "engine": engine, "folder": project.rel(dest), "file_count": len(files),
-                                  "db_hash": manifest.get("db_hash")}, reason)
+                                  "db_hash": manifest.get("db_hash"), **({"revisions": revisions} if revisions else {})},
+                     reason)
     except Exception:
         shutil.rmtree(dest, ignore_errors=True)
         raise

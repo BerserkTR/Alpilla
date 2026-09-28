@@ -54,7 +54,6 @@ python -m engine validate && git add -A && git commit -m "..." && git push
 |---|---|
 | `equipment_list` | equipment list (xlsx) |
 | `equipment_datasheets` | datasheets (docx + pdf) |
-| `design_basis` | design basis report (md + html) with traceability |
 | `aveva_export` | AVEVA Engineering / E3D tag import workbook (one sheet per AVEVA class) |
 | `document_register` | master document register: latest issue, review codes, comments, lateness, progress (xlsx) |
 | `schedule` | CPM schedule: Excel Gantt, interactive HTML Gantt, MS Project XML (Primavera P6 import) |
@@ -71,6 +70,9 @@ python -m engine validate && git add -A && git commit -m "..." && git push
 | `standards_register` | codes, standards and regulations register (Appendix A.19, precedence per ER-01.07) with the permits and authorities register (xlsx + docx + pdf); checks ER citation coverage, authorities, agreement, permit timing |
 | `engineering_plan` | MDL workbook (MDL, workflow, EWP, PWP, CWP, CWA, coverage, plant assets, checks) and A3 timeline PDF (progress curve, AWP Gantt per CWA); checks numbering / KKS, AVEVA classes, AWP links, coverage of systems / requirements / scope / equipment, EWP / PWP float, key dates |
 | `release_control` | document release control workbook: release plan in network order (status now, next purpose and revision, blocking inputs, planned dates, gates fed), relations with the maturity required, impacts of a revision, process gates with need / ready / float |
+| `design_basis` | Plant Design Basis Report (docx + pdf, MDL document) and traceability report (md + html) |
+| `specifications` | technical specifications of the procurement packages (docx + pdf) from `spec_clause`, equipment list and VDRL |
+| `site_survey` | topographic survey and site setting-out report (docx + pdf) from `survey_point` records |
 | `procedures` | KKS identification manual, document numbering and control procedure, engineering execution plan, AWP execution plan (docx + pdf, MDL numbers ALP-EPC-00000-GE-PRC-0001/0002, -PLN-0001/0002) |
 | `governance` | rules.md / ledger.md |
 
@@ -147,6 +149,18 @@ Add one by copying `engine/engines/equipment_list.py`; it is discovered automati
   Design criteria per discipline are rules too (`DL-DBR-*`); `engineering_plan` warns when a design discipline has none.
   Rule inputs resolve within the same scope (`@plant`, `@cwa`, `@system`, `@structure` select explicitly; `system.structures`
   says which structures house a system, so equipment foundations wait only for the vendor loads of their own equipment).
+
+## Producing and issuing documents
+- Every MDL document names the engine that writes it (`document.produced_by`); the engine writes
+  `output/<engine>/<document number>.docx|pdf|xlsx` with a cover (number, title, description, revision / status, history -
+  `engine/core/docshell.py`). Engines so far: `design_basis` (Plant Design Basis Report), `procedures` (PRC-0001/0002,
+  PLN-0001/0002), `site_survey` (topographic survey report from `survey_point` records), `specifications` (technical
+  specifications from `spec_clause` records, scope from the equipment list, VDRL from the MDL).
+- `python -m engine doc issue <doc> --purpose IFR --date .. --checked .. --approved .. --reason ..` checks the release
+  rules, creates the revision, re-runs the producing engine so the cover shows the issued revision, and freezes the
+  document's files in `internal_deliveries/` with a transmittal (recipients from the review class). A document without a
+  producing engine cannot be issued (R-001) unless `--override` is given.
+- Titles are '<Subject> - <Document Type>' in title case; explanations go to `description` (`engine/core/titles.py`).
 
 ## Document release control and process gates
 - Status ladder per document (from `document_revision`): NONE < IFR < IFA < ACCEPTED (review code 1 / 2) < IFC < AB.

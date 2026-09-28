@@ -12,6 +12,31 @@ PID, DBR, IEC = "ALP-EPC-00PAC-PR-PID-0001", "ALP-EPC-00000-PR-DBR-0001", "ALP-I
 DSH, MRQ, LST = "ALP-EPC-00PAC-ME-DSH-0001", "ALP-EPC-00PAC-ME-MRQ-0001", "ALP-EPC-00PAC-PR-LST-0001"
 
 
+class FakeDocs:
+    """Stand-in producing engine: writes <document number>.txt for every document produced_by 'fake_docs'."""
+    name, title, version, inputs, formats, code_deps = "fake_docs", "test documents", "1.0.0", ["document", "document_revision"], ["txt"], []
+
+    def run(self, ctx):
+        from engine.core import docshell
+        out = []
+        for d in ctx.store.records("document"):
+            if d.get("produced_by") == self.name:
+                f = ctx.out_dir / f"{d['id']}.txt"
+                f.write_text(docshell.state(ctx.store, d["id"])["status"] + "\n", encoding="utf-8")
+                out.append(f)
+        return out
+
+
+def producing(project, monkeypatch):
+    """All fixture documents produced by the fake engine."""
+    import engine.engines as eng
+    real = eng.registry
+    monkeypatch.setattr(eng, "registry", lambda: {**real(), "fake_docs": FakeDocs()})
+    s = Store(project, who())
+    for d in s.records("document"):
+        s.update("document", d["id"], {"produced_by": "fake_docs"}, R)
+
+
 def issue(doc, purpose, date, *extra):
     return main(["doc", "issue", doc, "--purpose", purpose, "--date", date, "--reason", "t", *extra])
 
@@ -25,8 +50,9 @@ def gate(s, gid, scope, requires, need, **kw):
                            "requires": requires, "need": need, "status": "agreed", **kw}, R)
 
 
-def test_release_rules_revisions_and_check_required(project, capsys):
+def test_release_rules_revisions_and_check_required(project, capsys, monkeypatch):
     data(project)
+    producing(project, monkeypatch)
     assert issue(PID, "IFR", "2026-11-10") == 1                         # inputs not issued: blocked
     assert "BLOCKED" in capsys.readouterr().out
     assert issue(DBR, "IFR", "2026-11-03") == 0 and issue(IEC, "IFR", "2026-11-04") == 0
@@ -151,3 +177,20 @@ def test_titles_subject_type_and_description():
     assert titles.make("GT generator gas system (H2/CO2) - System turnover dossier") == \
         ("GT Generator Gas System - System Turnover Dossier", "H2/CO2")
     assert titles.proper("stack 65 m with CEMS platform and silencer") == "Stack 65 m with CEMS Platform and Silencer"
+
+
+def test_issue_regenerates_and_freezes_the_document(project, capsys, monkeypatch):
+    data(project)
+    assert issue(DBR, "IFR", "2026-11-03") == 1                         # no producing engine: blocked (R-001)
+    assert "no engine produces this document" in capsys.readouterr().out
+    producing(project, monkeypatch)
+    assert issue(DBR, "IFR", "2026-11-03", "--checked", "ABC", "--approved", "XYZ") == 0
+    out = capsys.readouterr().out
+    assert "frozen in internal_deliveries/" in out
+    s = Store(project, who())
+    rev = s.get("document_revision", f"{DBR}_A")
+    assert rev["prepared_by"] == "AAA" and rev["checked_by"] == "ABC"
+    dl = [x for x in s.records("delivery") if f"{DBR}_A" in (x.get("revisions") or [])]
+    assert len(dl) == 1 and dl[0]["recipients"] == "Owner (approval)"
+    frozen = next((project.root / dl[0]["folder"]).glob(f"{DBR}.txt"))
+    assert frozen.read_text().startswith("Rev A - IFR, issued 2026-11-03")        # cover of the issued revision

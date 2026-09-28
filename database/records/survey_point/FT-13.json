@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:30.197684Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:53:30.197684Z",
+    "updated_by": "EPCE"
+  },
+  "area": "plot",
+  "description": "access road edge at plant gate",
+  "e": 405.0,
+  "id": "FT-13",
+  "kind": "feature",
+  "n": 150.0,
+  "source": "SRC-EPCE-0011",
+  "utm_e": 541655.695,
+  "utm_n": 4532627.621,
+  "z": 15.12
+}

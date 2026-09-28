@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:30.171538Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:53:30.171538Z",
+    "updated_by": "EPCE"
+  },
+  "area": "plot",
+  "description": "11 kV cable marker, north",
+  "e": 390.0,
+  "id": "FT-05",
+  "kind": "feature",
+  "n": 300.0,
+  "source": "SRC-EPCE-0011",
+  "utm_e": 541641.56,
+  "utm_n": 4532777.646,
+  "z": 15.03
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:59:49.203830Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:59:49.203830Z",
+    "updated_by": "EPCE"
+  },
+  "comment": "State the weight of the heaviest maintenance lift (ST rotor, generator rotor, condenser water box) on the drawing; the ST hall crane capacity (100 t) is checked against it.",
+  "id": "CMT-EPCE-0010",
+  "location": "lifting",
+  "originator": "IEPC",
+  "revision": "ALP-IEC-20MAA-ME-GAD-0001_0",
+  "status": "open"
+}

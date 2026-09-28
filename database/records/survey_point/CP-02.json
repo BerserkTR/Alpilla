@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:53:30.102322Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:55:39.898390Z",
+    "updated_by": "EPCE"
+  },
+  "area": "plot",
+  "description": "Primary control pillar, GNSS static 4 h, 3D accuracy 8 mm (95 %)",
+  "e": 392.0,
+  "id": "CP-02",
+  "kind": "control",
+  "n": 12.0,
+  "source": "SRC-EPCE-0011",
+  "utm_e": 541641.906,
+  "utm_n": 4532489.755,
+  "z": 15.018
+}

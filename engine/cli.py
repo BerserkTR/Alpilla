@@ -445,6 +445,9 @@ def cmd_doc(p: Project, a) -> int:
         return 0
     # issue
     why = release.can_issue(store, a.id, a.purpose, st)
+    prod = d.get("produced_by")
+    if not prod:
+        why.append("no engine produces this document (document.produced_by) - outputs only from engines (R-001)")
     if why and not a.override:
         print(f"BLOCKED: {a.id} cannot be issued {a.purpose}:")
         for w in why:
@@ -460,7 +463,32 @@ def cmd_doc(p: Project, a) -> int:
         rec["description"] = a.description
     if why:
         rec["override"] = a.override + " | unmet: " + "; ".join(why)
+    rec["prepared_by"] = a.prepared or store.who.code
+    for k in ("checked", "approved"):
+        if getattr(a, k):
+            rec[f"{k}_by"] = getattr(a, k)
     r = store.create("document_revision", rec, a.reason)
+    if prod:
+        # regenerate the document with the new revision on its cover, then freeze its files with a transmittal
+        from .core.delivery import deliver
+        from .core.runner import run_engine
+        from .engines import registry
+        try:
+            m = run_engine(p, Store(p), registry()[prod], {})
+            files = [f for f in m["files"] if f.rsplit("/", 1)[-1].startswith(a.id)]
+            if not files:
+                raise RuntimeError(f"engine {prod} produced no file named {a.id}.*")
+            rc = release.review_class(d, types)
+            to = a.to or ("Owner (" + ("approval" if rc == "approval" else "review") + ")" if rc in ("approval", "review")
+                          else "Owner (information)" if rc == "information" else "Istanbul EPC internal")
+            dest = deliver(p, Store(p), prod, f"{a.id} Rev {rev} {a.purpose}", a.purpose, to, a.reason,
+                           [f"{a.id}*"], [r["id"]])
+        except Exception:
+            Store(p).delete("document_revision", r["id"], f"issue of {a.id} rolled back: document could not be produced")
+            raise
+        print(f"issued {r['id']} ({a.purpose}) based on {len(based)} input revision(s); files {', '.join(files)} "
+              f"frozen in {p.rel(dest)}/" + (" - OVERRIDE recorded" if why else ""))
+        return 0
     print(f"issued {r['id']} ({a.purpose}) based on {len(based)} input revision(s)" + (" - OVERRIDE recorded" if why else ""))
     return 0
 
@@ -584,6 +612,8 @@ def main(argv=None) -> int:
                                                                         choices=["IFR", "IFA", "IFC", "AB", "IFI", "IFD", "IFP"])
     s.add_argument("--rev"); s.add_argument("--date", required=True); s.add_argument("--description")
     s.add_argument("--override", help="justification to issue although a prerequisite is not met"); s.add_argument("--reason", required=True)
+    s.add_argument("--prepared"); s.add_argument("--checked"); s.add_argument("--approved")
+    s.add_argument("--to", help="recipients of the transmittal (default from the review class)")
     s = docp.add_parser("review"); s.add_argument("id"); s.add_argument("--rev", required=True)
     s.add_argument("--code", required=True, choices=["1", "2", "3", "4"]); s.add_argument("--date", required=True)
     s.add_argument("--reason", required=True)

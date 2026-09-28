@@ -1,21 +1,21 @@
 {
   "code_hash": "aca62b0e90359bdd",
-  "db_hash": "2780a2811cf6bd81",
+  "db_hash": "ab4d23c77ec2ca3a",
   "engine": "clarification_register",
   "engine_version": "1.1.0",
   "files": {
-    "ALP_clarification_register_ALP-CA-001.xlsx": "29f6affb8e38f291040371904583cd9ea02c6f09dbed58c8033569830cd6778d",
-    "ALP_clarification_register_ALP-EPC-001.xlsx": "2fd1729ab5e5de926b830a4b1f1c845015239e2e5fdc7815d0c3226b385b37ce"
+    "ALP_clarification_register_ALP-CA-001.xlsx": "e4d5c3e3f42de2c7bedf4e22f4a1f37ae649f2b2cd37689ed070717a2adcbc32",
+    "ALP_clarification_register_ALP-EPC-001.xlsx": "a43db3f9f488dfb7694cc84ff28dcc2949fb7576361659ec7f47fe7a8efd4fb2"
   },
-  "generated_at": "2026-09-28T18:13:10.553299Z",
-  "generated_by": "SETUP",
-  "git_commit": "d7d7d25",
+  "generated_at": "2026-09-28T19:00:23.003449Z",
+  "generated_by": "EPCE",
+  "git_commit": "876a108",
   "inputs": [
     "clarification",
     "contract",
     "party"
   ],
-  "inputs_hash": "ae00813907e24242",
+  "inputs_hash": "9f2f099cc0049c68",
   "options": {},
   "warnings": []
 }
