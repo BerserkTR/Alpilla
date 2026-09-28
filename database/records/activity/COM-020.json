@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T15:15:09.685219Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T15:15:09.685219Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "commissioning",
+  "duration": 30,
+  "id": "COM-020",
+  "phase": "commissioning",
+  "predecessors": [
+    "COM-010:SS+20"
+  ],
+  "responsible": "Istanbul EPC commissioning (IEC for the power island)",
+  "title": "Grid Code compliance tests with the TSO (ER-16.03)",
+  "type": "task",
+  "wbs": "ALP.T"
+}

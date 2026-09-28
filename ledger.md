@@ -5,6 +5,21 @@
 Read before working. Add a lesson whenever something went wrong or a better way was found:
 `python -m engine db add lesson --set title="..." --set lesson="..." --reason "..."`
 
+### L-EPCE-0006 (2026-09-28) db import --update merges fields: send null to remove a field [database, tooling]
+- Context: Reloading doc_type records with fewer input_types left the old list in place because the upsert only sets the fields it receives
+- Lesson: An upsert never deletes a field that is missing from the input; stale values survive silently
+- Action: When a loader reduces a list or clears a value, send the field explicitly as null (store.update removes fields set to None)
+
+### L-EPCE-0005 (2026-09-28) Tie the Taking-Over key date to the Tests on Completion, not to first synchronisation [planning, schedule, commissioning]
+- Context: KD-040 Taking-Over had KD-030 (first CC synchronisation) as its only predecessor, so the CPM forecast Taking-Over on the day of first sync with 162 wd float
+- Lesson: A key date is only checked when the contractual activities between it and its predecessor are in the network (commissioning, Grid Code tests, reliability run, performance tests)
+- Action: Model every contractual test (ER-16.xx) as an activity; review key-date predecessors whenever the forecast float looks too good
+
+### L-EPCE-0004 (2026-09-28) Level the engineering timeline against discipline capacity before trusting EWP / PWP float [planning, awp, engineering]
+- Context: The first MDL timeline used unconstrained early dates: 91 FTE of document preparation in month 1 and all float positive; levelled to a 38-FTE team, seven mechanical requisitions were 8-16 wd late and two foundation EWPs late
+- Lesson: Early dates of a document network assume unlimited staff and hide the real critical path; float is only meaningful when documents compete for the capacity of their discipline in need-date order
+- Action: Keep eng_resource records per discipline; read the monthly load table in ALP-EPC-00000-GE-PLN-0001 and the EWP / PWP float after every staffing or MDL change
+
 ### L-EPCE-0003 (2026-09-28) Scale linetypes and text to the drawing, and pass the hatch style in set_pattern_fill [drawings, dxf, pdf, verification]
 - Context: The plot plan at real site extents (170 m) took minutes and 1.6 GB: DASHED grid lines in mm units produced hundreds of thousands of dashes, and tags of fixed 300 mm height were unreadable; in the IEC GA drawings hatch lines crossed the labels because ezdxf set_pattern_fill resets hatch_style to 1 (holes ignored)
 - Lesson: Drawing engines tested only on small fixtures hide scale problems; hatch islands need style=0 passed in set_pattern_fill itself

@@ -11,11 +11,14 @@ CWP activities (engine/core/workflow.py). Checks:
 - coverage: every system has its required document types (by category) and at least one document, every requirement and
   every EPC/IEC scope item is answered by a document, every equipment item has a datasheet, an MR and a CWP, every MR its
   specification and requisition, every CWP an EWP with documents;
+- plant data: every equipment item, system and document carries an AVEVA class (ER-01.06); the KKS key list and the AWP
+  definitions are agreed (INFO while proposed);
 - timeline: EWP float (IFC + lead before the CWP start), PWP float (delivery before the CWP start), key dates.
 Options: pdf=no."""
 from __future__ import annotations
 
 from collections import Counter, defaultdict
+from datetime import date, timedelta
 
 from ..core import kks, workflow
 from ..core.runner import Context, Engine
@@ -57,6 +60,17 @@ def check_engineering(s, res) -> list[tuple[str, str, str, str]]:
     unver = [k for k, v in {**kk["F"], **kk["A"], **kk["B"]}.items() if not v.get("verified")]
     if unver:
         add("-", "KKS key list", "INFO", f"{len(unver)} key titles not yet verified against the licensed VGB key list")
+    for ent, recs in (("equipment", eqs), ("system", list(systems.values())), ("document", docs)):
+        miss = [r["id"] for r in recs if not r.get("aveva_class")]
+        for i in miss:
+            add(i, "AVEVA class", "WARN", f"{ent} without aveva_class (ER-01.06)")
+        add("-", "AVEVA class", "OK" if not miss else "WARN", f"{len(recs) - len(miss)} of {len(recs)} {ent} records classified")
+    for ent in ("kks_key", "cwa", "cwp", "ewp", "mr"):
+        recs = s.records(ent)
+        open_ = [r["id"] for r in recs if r.get("status") != "agreed" and r.get("status") != "superseded"]
+        add("-", "agreement", "INFO" if open_ else "OK",
+            f"{ent}: {len(recs) - len(open_)} of {len(recs)} agreed" + (f"; not agreed: {', '.join(open_[:8])}"
+                                                                        + (" ..." if len(open_) > 8 else "") if open_ else ""))
     # --- workflow rules
     ids = {d["id"] for d in docs}
     for d in docs:
@@ -164,9 +178,9 @@ def check_engineering(s, res) -> list[tuple[str, str, str, str]]:
 class EngineeringPlan(Engine):
     name = "engineering_plan"
     title = "Engineering plan: MDL, workflow network and timeline, AWP (CWA/CWP/EWP/PWP), coverage checks (Excel + PDF)"
-    version = "1.0.0"
+    version = "1.2.0"
     inputs = ["project", "document", "document_revision", "doc_type", "kks_key", "system", "equipment", "cwa", "cwp", "ewp",
-              "mr", "activity", "wbs", "requirement", "scope_item", "party"]
+              "mr", "activity", "wbs", "requirement", "scope_item", "party", "eng_resource"]
     formats = ["xlsx", "pdf"]
     code_deps = ["engine/core/workflow.py", "engine/core/kks.py", "engine/core/planning.py"]
 
@@ -395,18 +409,23 @@ class EngineeringPlan(Engine):
                 ax.axvline(res.cal.finish_date(a.ef, a.es), color="grey", ls="--", lw=0.8)
                 ax.text(res.cal.finish_date(a.ef, a.es), ax.get_ylim()[1] * 0.02, f" {k}", rotation=90, fontsize=7,
                         color="grey", va="bottom")
+            tender = [x for x in res.docs.values() if x.rec.get("tender")]
             ax.set_title(f"Engineering progress curve - {len(res.docs)} documents, "
-                         f"{round(sum(x.rec.get('weight') or 0 for x in res.docs.values())):,} h", fontsize=12, loc="left")
+                         f"{round(sum(x.rec.get('weight') or 0 for x in res.docs.values())):,} h (step at NTP: "
+                         f"{len(tender)} tender-stage documents, {round(sum(x.rec.get('weight') or 0 for x in tender)):,} h; "
+                         f"supplier documents at their VDRL dates)" + (" - levelled to the discipline capacities"
+                                                                       if res.levelled else ""), fontsize=11, loc="left")
             ax.set_ylabel("hours")
             ax.legend(loc="upper left", fontsize=8)
             ax.grid(alpha=0.3)
             ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
-            ax2 = fig.add_axes([0.06, 0.08, 0.88, 0.24])
+            ax2 = fig.add_axes([0.06, 0.08, 0.88, 0.24], sharex=ax)
             months = Counter((d(x.ifc).year, d(x.ifc).month) for x in res.docs.values())
             ks = sorted(months)
-            ax2.bar(range(len(ks)), [months[k] for k in ks], color="#A5A5A5")
-            ax2.set_xticks(range(len(ks)))
-            ax2.set_xticklabels([f"{MONTHS[m - 1]} {y % 100:02d}" for y, m in ks], rotation=90, fontsize=6)
+            ax2.bar([date(y, m, 15) for y, m in ks], [months[k] for k in ks], width=24, color="#A5A5A5")
+            for (y, m) in ks:
+                ax2.text(date(y, m, 15), months[(y, m)], str(months[(y, m)]), ha="center", va="bottom", fontsize=6)
+            ax2.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
             ax2.set_title("Documents reaching IFC per month", fontsize=10, loc="left")
             ax2.grid(axis="y", alpha=0.3)
             fig.text(0.06, 0.015, foot, fontsize=6, color="#595959")
@@ -427,9 +446,15 @@ class EngineeringPlan(Engine):
                     a = res.acts.get(cwps[cid].get("activity"))
                     if a:
                         rows.append(("cwp", f"{cid} {cwps[cid]['title'][:34]}", (a.es, a.ef, None, a.tf)))
-            per = 46
-            for p0 in range(0, len(rows), per):
-                chunk = rows[p0:p0 + per]
+            per, pages, p0 = 46, [], 0
+            while p0 < len(rows):
+                n = min(per, len(rows) - p0)
+                while n > 1 and p0 + n < len(rows) and rows[p0 + n - 1][0] == "hdr":   # no header at the page end
+                    n -= 1
+                pages.append(rows[p0:p0 + n])
+                p0 += n
+            x1 = x1 + timedelta(days=30)
+            for pno, chunk in enumerate(pages):
                 fig = plt.figure(figsize=(420 / 25.4, 297 / 25.4))
                 ax = fig.add_axes([0.23, 0.07, 0.74, 0.86])
                 for i, (kind, lab, v) in enumerate(chunk):
@@ -447,7 +472,8 @@ class EngineeringPlan(Engine):
                         ax.plot([d(need)], [y], marker="|", color="black", markersize=9, mew=2)
                     ax.text(-0.003, y, lab, transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=6.5)
                     if fl is not None:
-                        ax.text(d(a1), y, f"  {fl:+d}", va="center", fontsize=5.5, color="#C00000" if late else "#404040")
+                        ax.text(max(d(a1), d(need)) if need is not None else d(a1), y, f"  {fl:+d}", va="center",
+                                fontsize=5.5, color="#C00000" if late else "#404040")
                 for k, a in kds:
                     ax.axvline(res.cal.finish_date(a.ef, a.es), color="grey", ls="--", lw=0.8)
                     ax.text(res.cal.finish_date(a.ef, a.es), len(chunk) + 0.6, k, fontsize=6.5, color="grey", ha="center")
@@ -460,7 +486,7 @@ class EngineeringPlan(Engine):
                 ax.grid(axis="x", alpha=0.3)
                 ax.set_title(f"AWP timeline - EWP (blue: first document start to IFC complete), PWP (orange: PO to on site), "
                              f"CWP (green: CPM); | = need date; numbers = float in working days; red = late   "
-                             f"[page {p0 // per + 2}]", fontsize=8, loc="left")
+                             f"[page {pno + 2}]", fontsize=8, loc="left")
                 fig.text(0.02, 0.015, foot, fontsize=6, color="#595959")
                 pdf.savefig(fig)
                 plt.close(fig)

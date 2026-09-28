@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T15:15:09.685516Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T15:15:09.685516Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "commissioning",
+  "duration": 10,
+  "id": "COM-030",
+  "phase": "commissioning",
+  "predecessors": [
+    "COM-010"
+  ],
+  "responsible": "Istanbul EPC commissioning (IEC for the power island)",
+  "title": "LDO operation: fuel transfer, start on LDO, LDO performance and emission tests (ER-16.08)",
+  "type": "task",
+  "wbs": "ALP.T"
+}

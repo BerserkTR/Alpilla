@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T15:15:09.686031Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T15:15:09.686031Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "commissioning",
+  "duration": 10,
+  "id": "COM-050",
+  "phase": "commissioning",
+  "predecessors": [
+    "COM-040:SS+5"
+  ],
+  "responsible": "Istanbul EPC commissioning (IEC for the power island)",
+  "title": "Performance and emission tests on gas (ASME PTC 46, ER-16.04 / ER-16.05)",
+  "type": "task",
+  "wbs": "ALP.T"
+}

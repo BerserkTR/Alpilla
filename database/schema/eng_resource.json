@@ -1,0 +1,53 @@
+{
+  "entity": "eng_resource",
+  "title": "Engineering capacity of a discipline (document preparation), used to level the workflow timeline",
+  "id_pattern": "^RES-[A-Z]{2}$",
+  "display": [
+    "discipline",
+    "fte",
+    "hours_per_day"
+  ],
+  "fields": {
+    "discipline": {
+      "type": "enum",
+      "values": [
+        "general",
+        "process",
+        "mechanical",
+        "piping",
+        "electrical",
+        "i_and_c",
+        "civil",
+        "structural",
+        "hvac",
+        "hse",
+        "commissioning",
+        "project_control"
+      ],
+      "required": true
+    },
+    "fte": {
+      "type": "number",
+      "unit": "persons",
+      "min": 0,
+      "required": true,
+      "description": "full-time equivalents available for document preparation (checking, 3D modelling and vendor document review excluded)"
+    },
+    "hours_per_day": {
+      "type": "number",
+      "unit": "h",
+      "min": 1,
+      "description": "productive hours per person and working day (default 7.5)"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "decision",
+        "source"
+      ]
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

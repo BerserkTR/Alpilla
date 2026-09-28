@@ -1,0 +1,43 @@
+{
+  "code_hash": "76583f49081b3a5c",
+  "db_hash": "350f6bd4dc1a317e",
+  "engine": "procedures",
+  "engine_version": "1.1.0",
+  "files": {
+    "ALP-EPC-00000-GE-PLN-0001.docx": "cc903cfe6af3d9f4926834ef1fccb6138710ba6133343d91bb807d96fd8088bb",
+    "ALP-EPC-00000-GE-PLN-0001.pdf": "f8d21b434107618d967178e57f88ed28deb263aa33af81d8d045316fb5e8e3f6",
+    "ALP-EPC-00000-GE-PLN-0002.docx": "bd6b6543da7c87a3277b1ab183a0d001b78962c1d46f159f0940b0ecaab0ad75",
+    "ALP-EPC-00000-GE-PLN-0002.pdf": "a156418e3c4fea806c47981f584e6f52f5ca15126e3553ce72ac6c95467475e1",
+    "ALP-EPC-00000-GE-PRC-0001.docx": "d7b0703e357b2c41a4c3f20b41c8a8819f79cbf4bcdefd4543c855da7faa4711",
+    "ALP-EPC-00000-GE-PRC-0001.pdf": "9ea226095fa951c676bcbd949df1e3c4858664af69556f75b2a50a807435a061",
+    "ALP-EPC-00000-GE-PRC-0002.docx": "c8da797cfdc33c142c202b72931920e861325e5f7bb223873cb989d98aaad66e",
+    "ALP-EPC-00000-GE-PRC-0002.pdf": "a2e40c800732b7f4b861d16b69a1230f14d1e0cc979d34bc9714cf7b683e9d42"
+  },
+  "generated_at": "2026-09-28T15:18:28.431467Z",
+  "generated_by": "SETUP",
+  "git_commit": "c487c45",
+  "inputs": [
+    "activity",
+    "clarification",
+    "cwa",
+    "cwp",
+    "decision",
+    "doc_type",
+    "document",
+    "document_revision",
+    "eng_resource",
+    "equipment",
+    "ewp",
+    "kks_key",
+    "mr",
+    "party",
+    "project",
+    "requirement",
+    "scope_item",
+    "system",
+    "wbs"
+  ],
+  "inputs_hash": "af86df2f34eb9f24",
+  "options": {},
+  "warnings": []
+}

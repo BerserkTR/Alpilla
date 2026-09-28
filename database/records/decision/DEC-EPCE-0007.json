@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T15:15:57.871356Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T15:15:57.871356Z",
+    "updated_by": "EPCE"
+  },
+  "date": "2026-09-28",
+  "decided_by": "IEPC engineering manager",
+  "decision": "Document preparation capacity at NTP: process 4, mechanical 8, piping 8, electrical 4, I&C 5, civil 5, structural 2, HVAC 1, HSE 2, commissioning 1, general 2, project control 1 FTE (43 FTE, 7.5 h / day). Checking, 3D modelling, vendor document review and site support are staffed in addition.",
+  "id": "DEC-EPCE-0007",
+  "rationale": "Smallest team with non-negative EWP and PWP float in the levelled timeline: with 4 mechanical FTE the early requisitions (MR-ME-001/003/009/012/015/016/021) were 8-16 wd late; with 4 civil FTE the GT and ST foundations (EWP-01-CV-02, EWP-02-CV-02) were late.",
+  "status": "agreed",
+  "title": "Engineering staffing for document preparation (levelled workflow timeline)"
+}

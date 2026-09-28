@@ -69,6 +69,8 @@ python -m engine validate && git add -A && git commit -m "..." && git push
 | `hmb` | heat and mass balance per `hmb_case` (DXF + PDF A1 diagram, Excel): IAPWS-IF97 / ideal-gas enthalpies, node mass and energy balances, auxiliary loads, net output and heat rate, checks against guarantees and limits |
 | `tie_in_register` | tie-in / terminal point register (xlsx + docx + pdf): data card per point, checks of completeness, HMB envelope over all cases, Owner -> EPC -> IEC chain (pressure, design, flow, voltage, short circuit), dates and agreement |
 | `standards_register` | codes, standards and regulations register (Appendix A.19, precedence per ER-01.07) with the permits and authorities register (xlsx + docx + pdf); checks ER citation coverage, authorities, agreement, permit timing |
+| `engineering_plan` | MDL workbook (MDL, workflow, EWP, PWP, CWP, CWA, coverage, plant assets, checks) and A3 timeline PDF (progress curve, AWP Gantt per CWA); checks numbering / KKS, AVEVA classes, AWP links, coverage of systems / requirements / scope / equipment, EWP / PWP float, key dates |
+| `procedures` | KKS identification manual, document numbering and control procedure, engineering execution plan, AWP execution plan (docx + pdf, MDL numbers ALP-EPC-00000-GE-PRC-0001/0002, -PLN-0001/0002) |
 | `governance` | rules.md / ledger.md |
 
 Import: `python -m engine db import-pcf <file.pcf> --line <id> --reason "..."` reads routing from Plant 3D / E3D PCF.
@@ -119,6 +121,20 @@ date, review code, transmittal) -> `review_comment` (comment / response / close)
 `progress_rule` records set the % earned per issue step (contract specific). Schedule dates, float, document status
 and progress are always computed, never typed: `python -m engine plan` for a quick look.
 Add one by copying `engine/engines/equipment_list.py`; it is discovered automatically.
+
+## Engineering: KKS, numbering, MDL, workflow and AWP
+- KKS (VGB-S-811): `kks_key` records (function F1F2F3, equipment unit A1A2, component B1B2) with Owner agreement and a
+  `verified` flag; unit digit G = 0 common / 1 GT+HRSG / 2 ST; systems are `system` records (G F0 F1F2F3), tags are
+  record ids (`00PAC10AP001`). `python -m engine kks <tag | system | document number>` explains and checks a code.
+- Document number `ALP-<ORG>-<KKS system | 00000>-<DISC>-<TYPE>-<NNNN>`; `doc_type` records hold the IEC 61355 class and
+  the workflow rules (preparation, update, review class, input maturity, typical inputs, construction / procurement).
+  Next free number: `python -m engine kks --next EPC 00PAC ME DSH`.
+- MDL = `document` records with `inputs` (the workflow network), `ewp`, `mr`, `equipment`, `basis_refs` (requirements,
+  scope items ...), `review`, `bdp`, `tender`; supplier documents (VDRL) keep committed planned dates.
+- AWP: `cwa` (path of construction) -> `cwp` (one CPM activity each) -> `ewp` (documents) and `mr` (PWPs, PO -> vendor
+  data -> on site); equipment carries `cwa` / `cwp` / `mr`. IWPs are made by the construction contractors.
+- The timeline is computed (`engine/core/workflow.py`), never stored: documents start when their inputs are mature, are
+  levelled to the discipline capacities (`eng_resource`) in need-date priority, and give EWP / PWP float against the CPM.
 
 ## Tests
 `python -m pytest -q`

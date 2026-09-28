@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T15:21:08.002734Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T15:21:08.002734Z",
+    "updated_by": "EPCE"
+  },
+  "action": "Model every contractual test (ER-16.xx) as an activity; review key-date predecessors whenever the forecast float looks too good",
+  "context": "KD-040 Taking-Over had KD-030 (first CC synchronisation) as its only predecessor, so the CPM forecast Taking-Over on the day of first sync with 162 wd float",
+  "date": "2026-09-28",
+  "id": "L-EPCE-0005",
+  "lesson": "A key date is only checked when the contractual activities between it and its predecessor are in the network (commissioning, Grid Code tests, reliability run, performance tests)",
+  "status": "active",
+  "tags": [
+    "planning",
+    "schedule",
+    "commissioning"
+  ],
+  "title": "Tie the Taking-Over key date to the Tests on Completion, not to first synchronisation"
+}

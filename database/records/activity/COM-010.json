@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T15:15:09.681941Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T15:15:09.681941Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "commissioning",
+  "duration": 60,
+  "id": "COM-010",
+  "phase": "commissioning",
+  "predecessors": [
+    "KD-030"
+  ],
+  "responsible": "Istanbul EPC commissioning (IEC for the power island)",
+  "title": "Combined-cycle commissioning, loading, tuning and optimisation (ER-16.01, ER-16.06)",
+  "type": "task",
+  "wbs": "ALP.T"
+}

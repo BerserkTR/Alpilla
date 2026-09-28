@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T15:21:08.377002Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T15:21:08.377002Z",
+    "updated_by": "EPCE"
+  },
+  "action": "When a loader reduces a list or clears a value, send the field explicitly as null (store.update removes fields set to None)",
+  "context": "Reloading doc_type records with fewer input_types left the old list in place because the upsert only sets the fields it receives",
+  "date": "2026-09-28",
+  "id": "L-EPCE-0006",
+  "lesson": "An upsert never deletes a field that is missing from the input; stale values survive silently",
+  "status": "active",
+  "tags": [
+    "database",
+    "tooling"
+  ],
+  "title": "db import --update merges fields: send null to remove a field"
+}

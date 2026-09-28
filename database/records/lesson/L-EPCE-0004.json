@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T15:21:07.623318Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T15:21:07.623318Z",
+    "updated_by": "EPCE"
+  },
+  "action": "Keep eng_resource records per discipline; read the monthly load table in ALP-EPC-00000-GE-PLN-0001 and the EWP / PWP float after every staffing or MDL change",
+  "context": "The first MDL timeline used unconstrained early dates: 91 FTE of document preparation in month 1 and all float positive; levelled to a 38-FTE team, seven mechanical requisitions were 8-16 wd late and two foundation EWPs late",
+  "date": "2026-09-28",
+  "id": "L-EPCE-0004",
+  "lesson": "Early dates of a document network assume unlimited staff and hide the real critical path; float is only meaningful when documents compete for the capacity of their discipline in need-date order",
+  "status": "active",
+  "tags": [
+    "planning",
+    "awp",
+    "engineering"
+  ],
+  "title": "Level the engineering timeline against discipline capacity before trusting EWP / PWP float"
+}

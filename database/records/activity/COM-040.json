@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T15:15:09.685755Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T15:15:09.685755Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "commissioning",
+  "duration": 22,
+  "id": "COM-040",
+  "phase": "commissioning",
+  "predecessors": [
+    "COM-010",
+    "COM-030"
+  ],
+  "responsible": "Istanbul EPC commissioning (IEC for the power island)",
+  "title": "30-day continuous reliability run (ER-16.07)",
+  "type": "task",
+  "wbs": "ALP.T"
+}
