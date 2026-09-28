@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.413636Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:12:41.506804Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0013",
+    "requirement:ER-15.03",
+    "requirement:ER-15.04"
+  ],
+  "id": "G-PRC-SHP",
+  "need": "shipment",
+  "package_types": [
+    "equipment",
+    "iec_supply",
+    "bulk"
+  ],
+  "process": "procurement",
+  "requires": [
+    "rule:DL-V-FTR? ACCEPTED",
+    "rule:DL-V-MDB IFR"
+  ],
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Release for shipment"
+}

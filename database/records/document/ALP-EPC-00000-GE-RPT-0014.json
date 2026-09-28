@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.164343Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.977993Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:00:25.830345Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -21,6 +21,7 @@
   "review": "internal",
   "rule": "DL-MR-TBE|MR-PI-006|1",
   "sheets": 1,
+  "start_after": "bids",
   "status": "planned",
   "title": "Technical bid evaluation - Piping specialty items (strainers, steam traps, expansion joints, sight glasses)",
   "type_code": "RPT",

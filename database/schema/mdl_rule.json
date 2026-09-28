@@ -147,12 +147,17 @@
     "po_weeks_ifr": {
       "type": "number",
       "unit": "weeks",
-      "description": "supplier documents: weeks after the PO (>= 0) or, when negative, weeks before the on-site date (ROS)"
+      "description": "supplier documents: weeks after the PO (>= 0) or, when negative, weeks before shipment (on-site date - transport); weeks after the PO scale with manufacture_weeks / 40 (0.5 - 1)"
+    },
+    "start_after": {
+      "type": "enum",
+      "values": ["bids", "alap"],
+      "description": "copied to the documents: bids = start after the bids of the MR are received (requisition IFC + bid_days); alap = as late as possible (latest start - 60 working days)"
     },
     "po_weeks_final": {
       "type": "number",
       "unit": "weeks",
-      "description": "supplier documents: weeks after the PO, or relative to the on-site date when po_weeks_ifr is negative"
+      "description": "supplier documents: weeks after the PO, or relative to shipment (on-site date - transport) when po_weeks_ifr is negative"
     },
     "basis_refs": {
       "type": "ref_list",

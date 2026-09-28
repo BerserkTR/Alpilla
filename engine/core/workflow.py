@@ -10,8 +10,19 @@ Owner review = 10 working days (14 calendar days, ER-17.01), 15 for Basic Design
 Supplier documents (originator not EPC) keep their committed planned dates (VDRL). Issued revisions replace the dates.
 Tender-stage documents (document.tender) exist from the bid design: first issue at the data date (NTP), then review.
 Supplier documents without committed dates are timed from their MR: po_weeks_ifr / po_weeks_final weeks after the PO
-(PO = requisition IFC + bid + award, or the fixed PO date), or before the on-site date when negative; they use no EPC
-capacity and are inputs of the EPC documents that need the vendor data (e.g. foundations need the foundation loads).
+(scaled by manufacture_weeks / 40, at least 0.5, for short-lead packages), or before shipment (ROS - transport) when
+negative; they use no EPC capacity and are inputs of the EPC documents that need the vendor data (e.g. foundations need the
+foundation loads).
+PO = the fixed PO date, or the latest PO prerequisite of the gates with need 'po' (gate_rule, engine/core/release.py):
+requisition IFC + bid_days + award_days (award_days includes the bid evaluation), bid evaluation IFR (start_after
+'bids': it starts at requisition IFC + bid_days),
+specifications IFC, ITP IFR. Supplier documents timed from the PO wait for these prerequisites.
+A document with after_activity (test reports) starts at the early finish of that CPM activity.
+Documents compiled from site records (start_after 'alap', e.g. system turnover dossiers) start as late as possible: at
+their latest start - 60 working days (discipline capacity), when they have a need date.
+Gates with a need date independent of procurement (milestone, key-date activity, CWP) make that date the need of every EPC
+document they require, at the required status; the PO prerequisites are needed by the latest PO (need - manufacture -
+transport, or the fixed PO date).
 
 Resource levelling (when eng_resource records exist): each EPC document needs its hours (document.weight) from the
 capacity of its discipline (fte x hours_per_day per working day) and cannot be done faster than its nominal preparation
@@ -22,7 +33,7 @@ whose start is delayed by its discipline's capacity has the driver 'capacity <di
 AWP: an EWP is needed `ewp_lead_days` before its CWP starts (CPM early start) for its first IWPs; documents of progressive
 types (doc_type.progressive_share, e.g. isometrics, supports, loop diagrams) are needed later, at CWP start - lead + share x
 CWP duration. EWP float = the smallest float of its documents; ready = the date its last document is IFC.
-A PWP (MR) is issued when its requisition is issued (MRQ IFC); PO = issue + bid_days + award_days (or the fixed PO date);
+A PWP (MR) is issued when its requisition is issued (MRQ IFC); PO as above;
 vendor data = PO + vdr_weeks; on site (ROS) = PO + manufacture + transport; needed at the earliest start of its CWPs.
 All durations in working days of the project calendar."""
 from __future__ import annotations
@@ -38,6 +49,9 @@ OWNER_REVIEW = 10          # working days (14 calendar days)
 OWNER_REVIEW_BDP = 15      # working days (21 calendar days)
 APPROVAL_CODE = 5
 HOURS_PER_DAY = 7.5
+ALAP_MARGIN = 60           # working days: documents started as late as possible (start_after 'alap') keep this margin
+SHORT_LEAD_WEEKS = 40      # supplier document weeks after PO scale with manufacture / 40 weeks (DEC-EPCE-0013)
+SHORT_LEAD_MIN = 0.5
 HORIZON = 3000             # working days searched for capacity
 NO_NEED = 10 ** 6
 
@@ -67,16 +81,18 @@ class Result:
     order: list = field(default_factory=list)
     capacity: dict = field(default_factory=dict)      # discipline -> hours per working day
     levelled: bool = False
+    po_late: dict = field(default_factory=dict)       # MR -> latest PO (working day)
+    gate_needs: list = field(default_factory=list)    # (document, status, working day, gate) imposed by gates
 
     def d(self, i):
         return None if i is None else self.cal.date(i)
 
 
-def _topo(docs: dict) -> list[str]:
+def _topo(docs: dict, extra: dict | None = None) -> list[str]:
     indeg = {k: 0 for k in docs}
     succ: dict[str, list] = {k: [] for k in docs}
     for k, d in docs.items():
-        for i in d.rec.get("inputs", []):
+        for i in dict.fromkeys([*d.rec.get("inputs", []), *(extra or {}).get(k, ())]):
             if i in docs:
                 indeg[k] += 1
                 succ[i].append(k)
@@ -122,6 +138,31 @@ def _finish(d: DocT, t: dict, issued: dict, cal) -> None:
         d.ifc = cal.index(date.fromisoformat(issued["IFC"]))
 
 
+def level_offset(d: DocT, t: dict, level: str) -> int | None:
+    """Working days from first issue (IFR) until the document reaches `level` (release.LEVEL names)."""
+    ifa, ifc = _review_offsets(d, t)
+    review = d.rec.get("review") or t.get("review", "review")
+    if level in ("NONE", "IFR"):
+        return 0
+    if level == "IFA":
+        return ifa or 0
+    if level == "ACCEPTED":
+        return {"approval": ifc - APPROVAL_CODE, "review": ifc - t.get("update_days", 5)}.get(review, 0)
+    if level == "IFC":
+        return ifc
+    return None                                     # AB: after construction
+
+
+def level_date(d: DocT, t: dict, level: str) -> int | None:
+    """Planned working-day index at which the document reaches `level`."""
+    if level == "IFC":
+        return d.ifc
+    if level == "IFA" and d.ifa is not None:
+        return d.ifa
+    o = level_offset(d, t, level)
+    return None if o is None else min(d.ifr + o, d.ifc)
+
+
 def _input_ready(d: DocT, docs: dict, t: dict, dd: int) -> tuple[int, str | None]:
     start, driver = dd, None
     mat = t.get("input_maturity", "IFR")
@@ -146,7 +187,6 @@ def compute(store) -> Result:
             e[p] = r["issue_date"]
     docs = {r["id"]: DocT(r["id"], r) for r in store.records("document") if r.get("status") != "cancelled"}
     res = Result(cal, dd, docs, {})
-    res.order = _topo(docs)
     try:
         res_recs = store.records("eng_resource")
     except Exception:           # schema not present in older databases
@@ -198,11 +238,44 @@ def compute(store) -> Result:
         if d.rec.get("mr"):
             by_mr_all[d.rec["mr"]].append(d)
 
+    # process gates (gate_rule, engine/core/release.py): the PO prerequisites of each MR and the dates by which the
+    # documents required by milestone / activity / CWP gates must reach their status
+    from . import release                        # local import: release builds on this module
+    po_req, gate_needs = release.gate_constraints(store, res)
+    rank = ["NONE", "IFR", "IFA", "ACCEPTED", "IFC"]
+    best: dict[str, dict] = defaultdict(dict)
+    for mid, v in po_req.items():
+        for i, lvl in v:
+            if i in docs and rank.index(lvl) >= rank.index(best[mid].get(i, "NONE")):
+                best[mid][i] = lvl
+    po_req = {mid: sorted(v.items()) for mid, v in best.items()}
+
+    def po_lag(i, m):
+        """Working days between the prerequisite reaching its status and the PO."""
+        r = docs[i].rec
+        if r.get("type_code") == "MRQ":
+            return (m.get("bid_days") or 0) + (m.get("award_days") or 0)
+        return 0                                  # award_days covers the bid evaluation: TBE issued by the PO
+
+    def from_po(r) -> bool:
+        return (r.get("originator", "EPC") != "EPC" and r.get("po_weeks_ifr") is not None and bool(r.get("mr"))
+                and not r.get("planned_ifr") and not revs.get(r["id"]))
+
+    # supplier documents timed from the PO wait for every PO prerequisite of their MR
+    extra = {k: [i for i, _ in po_req.get(d.rec["mr"], [])] for k, d in docs.items() if from_po(d.rec)}
+    res.order = _topo(docs, extra)
+
+    def lvl_date(i, lvl):
+        return level_date(docs[i], types.get(docs[i].rec.get("type_code"), {}), lvl)
+
     def po_ros(mid):
-        """(PO, on-site) working-day indices of an MR from its requisition (computed so far) or its fixed PO date."""
+        """(PO, on-site) working-day indices of an MR: its fixed PO date, or the latest of its PO prerequisites (gate
+        G-PRC-PO: requisition IFC + bid + award, bid evaluation + award, specifications, ITP), computed so far."""
         m = mr_recs.get(mid, {})
         if m.get("po_date"):
             po = cal.index(date.fromisoformat(m["po_date"]))
+        elif po_req.get(mid):
+            po = max(lvl_date(i, lvl) + po_lag(i, m) for i, lvl in po_req[mid])
         else:
             ds = by_mr_all.get(mid, [])
             mrq = [x for x in ds if x.rec.get("type_code") == "MRQ"]
@@ -210,14 +283,39 @@ def compute(store) -> Result:
             po = issue + (m.get("bid_days") or 0) + (m.get("award_days") or 0)
         return po, po + round(5 * ((m.get("manufacture_weeks") or 0) + (m.get("transport_weeks") or 0)))
 
+    def ready_at(d, t):
+        """Earliest start: inputs at the required maturity; after the bids are in for bid evaluations."""
+        est, drv = _input_ready(d, docs, t, dd)
+        a = res.acts.get(d.rec.get("after_activity") or "")
+        if a is not None and a.ef > est:
+            est, drv = a.ef, f"after {a.id}"              # records of a site activity (test reports) follow it
+        if d.rec.get("start_after") == "alap" and d.late_start < NO_NEED and d.late_start - ALAP_MARGIN > est:
+            return d.late_start - ALAP_MARGIN, "as late as possible (need)"
+        mid = d.rec.get("mr")
+        if d.rec.get("start_after") == "bids" and mid:
+            mrq = [x.ifc for x in by_mr_all.get(mid, []) if x.rec.get("type_code") == "MRQ"]
+            if mrq and max(mrq) + (mr_recs.get(mid, {}).get("bid_days") or 0) > est:
+                est, drv = max(mrq) + (mr_recs[mid].get("bid_days") or 0), f"bids {mid}"
+        return est, drv
+
+    def sup_weeks(r):
+        """(first, final) weeks of a supplier document: after the PO, scaled for short-lead packages (standard products
+        document faster: factor manufacture / 40 weeks, between 0.5 and 1); negative = before shipment (ex works)."""
+        m = mr_recs.get(r.get("mr"), {})
+        w1, w2 = r["po_weeks_ifr"], r.get("po_weeks_final", r["po_weeks_ifr"])
+        if w1 >= 0:
+            f = min(1.0, max(SHORT_LEAD_MIN, (m.get("manufacture_weeks") or 0) / SHORT_LEAD_WEEKS))
+            return w1 * f, w2 * f
+        return w1, w2
+
     def supplier_dates(d) -> bool:
-        """Supplier document timed from its MR: weeks after the PO, or before the on-site date when negative."""
+        """Supplier document timed from its MR: weeks after the PO, or before shipment (ROS - transport) when negative."""
         r = d.rec
         if r.get("originator", "EPC") == "EPC" or r.get("po_weeks_ifr") is None or not r.get("mr"):
             return False
         po, ros = po_ros(r["mr"])
-        w1, w2 = r["po_weeks_ifr"], r.get("po_weeks_final", r["po_weeks_ifr"])
-        base = po if w1 >= 0 else ros
+        w1, w2 = sup_weeks(r)
+        base = po if w1 >= 0 else ros - round(5 * (mr_recs.get(r["mr"], {}).get("transport_weeks") or 0))
         d.fixed, d.driver = True, f"PO {r['mr']}"
         d.ifr = max(dd, base + round(5 * w1))
         d.ifc = max(d.ifr, base + round(5 * w2))
@@ -246,9 +344,19 @@ def compute(store) -> Result:
     # 2. latest starts (priority) backwards from the need dates
     succ = defaultdict(list)
     for k, d in docs.items():
-        for i in d.rec.get("inputs", []):
+        for i in dict.fromkeys([*d.rec.get("inputs", []), *extra.get(k, ())]):
             if i in docs:
                 succ[i].append(k)
+
+    def to_ifc(k, lvl, when):
+        """Latest IFC of document k such that it reaches status lvl by `when`."""
+        t = types.get(docs[k].rec.get("type_code"), {})
+        o = level_offset(docs[k], t, lvl) or 0
+        return when - o + _review_offsets(docs[k], t)[1]
+
+    def transit(m):
+        return round(5 * ((m.get("manufacture_weeks") or 0) + (m.get("transport_weeks") or 0)))
+
     late_ifc: dict[str, int] = {}
     for k, d in docs.items():
         need = NO_NEED
@@ -256,12 +364,28 @@ def compute(store) -> Result:
         if dn is not None:
             need = dn
         m = mr_recs.get(d.rec.get("mr"))
-        if m and not m.get("po_date") and d.rec.get("type_code") == "MRQ":
+        if m and not m.get("po_date") and d.rec.get("type_code") == "MRQ" and not po_req.get(m["id"]):
             n, _ = mr_need(m)
             if n is not None:
-                need = min(need, n - round(5 * ((m.get("manufacture_weeks") or 0) + (m.get("transport_weeks") or 0)))
-                           - (m.get("bid_days") or 0) - (m.get("award_days") or 0))
+                need = min(need, n - transit(m) - (m.get("bid_days") or 0) - (m.get("award_days") or 0))
         late_ifc[k] = need
+    # latest PO of each MR (fixed PO date, or delivery on site at the need date) -> its PO prerequisites
+    po_late: dict[str, int] = {}
+    for mid, m in mr_recs.items():
+        if m.get("po_date"):
+            po_late[mid] = cal.index(date.fromisoformat(m["po_date"]))
+        else:
+            n, _ = mr_need(m)
+            if n is not None:
+                po_late[mid] = n - transit(m)
+    for mid, reqs in po_req.items():
+        if mid in po_late:
+            for i, lvl in reqs:
+                late_ifc[i] = min(late_ifc[i], to_ifc(i, lvl, po_late[mid] - po_lag(i, mr_recs[mid])))
+    # gates with a need date (milestones, key dates, CWPs): their required documents are needed by then
+    for i, lvl, need, _ in gate_needs:
+        if i in docs:
+            late_ifc[i] = min(late_ifc[i], to_ifc(i, lvl, need))
     for k in reversed(res.order):
         d = docs[k]
         t = types.get(d.rec.get("type_code"), {})
@@ -269,20 +393,27 @@ def compute(store) -> Result:
         for s in succ[k]:
             x = docs[s]
             ts = types.get(x.rec.get("type_code"), {})
-            ls = x.late_start
-            if ls >= NO_NEED:
+            if x.late_start >= NO_NEED:
                 continue
             xm = mr_recs.get(x.rec.get("mr") or "", {})
-            w1 = x.rec.get("po_weeks_ifr")
-            if (x.rec.get("originator", "EPC") != "EPC" and w1 is not None and w1 >= 0 and not xm.get("po_date")
-                    and d.rec.get("type_code") == "MRQ" and d.rec.get("mr") == x.rec.get("mr")):
-                # supplier data timed from the PO: the requisition must be IFC by vendor data need - weeks - award - bid
-                _, xoff = _review_offsets(x, ts)
-                late_ifc[k] = min(late_ifc[k], late_ifc[s] - xoff - round(5 * w1) - (xm.get("award_days") or 0)
-                                  - (xm.get("bid_days") or 0))
+            if s in extra and k in extra[s]:
+                if xm.get("po_date"):
+                    continue                        # PO fixed: its prerequisites are needed by the PO date (above)
+                # supplier data timed from the PO: the PO prerequisites must be met by the data need - weeks
+                w1, w2 = sup_weeks(x.rec)
+                base = late_ifc[s] - round(5 * w2)
+                lp = base if w1 >= 0 else base - round(5 * (xm.get("manufacture_weeks") or 0))
+                lvl = dict(po_req.get(xm.get("id"), [])).get(k)
+                if lvl:
+                    late_ifc[k] = min(late_ifc[k], to_ifc(k, lvl, lp - po_lag(k, xm)))
                 continue
-            late_ifc[k] = min(late_ifc[k], ls + (off if ts.get("input_maturity", "IFR") == "IFR" else 0))
+            if x.rec.get("start_after") == "bids" and d.rec.get("type_code") == "MRQ" and xm:
+                late_ifc[k] = min(late_ifc[k], x.late_start - (xm.get("bid_days") or 0))
+                continue
+            late_ifc[k] = min(late_ifc[k], x.late_start + (off if ts.get("input_maturity", "IFR") == "IFR" else 0))
         d.late_start = late_ifc[k] - off - _prep(d, t) if late_ifc[k] < NO_NEED else NO_NEED
+    res.po_late = po_late
+    res.gate_needs = gate_needs
 
     # 3. forward pass: unconstrained, or levelled by discipline capacity in priority order
     res.levelled = bool(res.capacity)
@@ -293,12 +424,13 @@ def compute(store) -> Result:
             if supplier_dates(d):
                 continue
             t = types.get(d.rec.get("type_code"), {})
-            d.start, d.driver = _input_ready(d, docs, t, dd)
+            d.start, d.driver = ready_at(d, t)
             d.ifr = d.start + _prep(d, t)
             _finish(d, t, revs.get(k, {}), cal)
     else:
         left: dict[str, dict] = defaultdict(dict)
-        waiting = {k: sum(1 for i in docs[k].rec.get("inputs", []) if i in free_set) for k in free}
+        waiting = {k: sum(1 for i in dict.fromkeys([*docs[k].rec.get("inputs", []), *extra.get(k, ())]) if i in free_set)
+                   for k in free}
         heap = [(docs[k].late_start, k) for k in free if waiting[k] == 0]
         heapq.heapify(heap)
         while heap:
@@ -312,7 +444,7 @@ def compute(store) -> Result:
                         if waiting[s_] == 0:
                             heapq.heappush(heap, (docs[s_].late_start, s_))
                 continue
-            est, driver = _input_ready(d, docs, t, dd)
+            est, driver = ready_at(d, t)
             prep = _prep(d, t)
             disc = d.rec.get("discipline")
             cap = res.capacity.get(disc)
@@ -354,16 +486,12 @@ def compute(store) -> Result:
     for m in mr_recs.values():
         ds = by_mr.get(m["id"], [])
         mrq = [d for d in ds if d.rec.get("type_code") == "MRQ"]
-        if m.get("po_date"):
-            issue = None
-            po = cal.index(date.fromisoformat(m["po_date"]))
-        else:
-            issue = max((d.ifc for d in mrq), default=max((d.ifr for d in ds), default=dd))
-            po = issue + (m.get("bid_days") or 0) + (m.get("award_days") or 0)
+        issue = None if m.get("po_date") else max((d.ifc for d in mrq), default=max((d.ifr for d in ds), default=dd))
+        po, ros = po_ros(m["id"])
         vdr = po + round(5 * (m.get("vdr_weeks") or 0))
-        ros = po + round(5 * ((m.get("manufacture_weeks") or 0) + (m.get("transport_weeks") or 0)))
         need, need_cwp = mr_need(m)
-        res.mrs[m["id"]] = {"issue": issue, "po": po, "vdr": vdr, "ros": ros, "need": need, "need_cwp": need_cwp,
+        res.mrs[m["id"]] = {"issue": issue, "po": po, "po_late": po_late.get(m["id"]), "vdr": vdr, "ros": ros,
+                            "need": need, "need_cwp": need_cwp,
                             "float": None if need is None else need - ros, "docs": [d.id for d in ds]}
     for e in ewp_recs.values():
         ds = by_ewp.get(e["id"], [])

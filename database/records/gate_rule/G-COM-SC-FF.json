@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.417330Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:12:41.502109Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0013",
+    "requirement:ER-16.01",
+    "requirement:ER-17.04"
+  ],
+  "categories": [
+    "fuel_gas",
+    "gas_turbine",
+    "generator",
+    "auxiliary_mechanical",
+    "cooling",
+    "water_treatment",
+    "fire_protection",
+    "i_and_c",
+    "hvac",
+    "hrsg",
+    "other"
+  ],
+  "id": "G-COM-SC-FF",
+  "need": "activity:KD-020",
+  "offset_days": -40,
+  "process": "commissioning",
+  "requires": [
+    "rule:DL-CM-CMP|rule:DL-V-CMP@mr? ACCEPTED",
+    "rule:DL-CM-OPR|rule:DL-V-OMM@mr? IFR",
+    "rule:DL-CM-TOD IFR"
+  ],
+  "scope": "system",
+  "status": "agreed",
+  "title": "Start of system commissioning (before KD-020)"
+}

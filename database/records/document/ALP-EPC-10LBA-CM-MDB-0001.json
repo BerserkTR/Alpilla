@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.931570Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.788605Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:15:11.468739Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -20,6 +20,7 @@
   "review": "information",
   "rule": "DL-CM-TOD|10LBA|1",
   "sheets": 1,
+  "start_after": "alap",
   "status": "planned",
   "system": "10LBA",
   "title": "System turnover dossier - Main steam piping",

@@ -2,10 +2,11 @@
   "_meta": {
     "created_at": "2026-09-28T17:05:18.224980Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:05:19.103501Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:15:49.652789Z",
     "updated_by": "EPCE"
   },
+  "after_activity": "KD-020",
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-16.02"

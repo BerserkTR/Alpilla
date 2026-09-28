@@ -70,6 +70,7 @@ python -m engine validate && git add -A && git commit -m "..." && git push
 | `tie_in_register` | tie-in / terminal point register (xlsx + docx + pdf): data card per point, checks of completeness, HMB envelope over all cases, Owner -> EPC -> IEC chain (pressure, design, flow, voltage, short circuit), dates and agreement |
 | `standards_register` | codes, standards and regulations register (Appendix A.19, precedence per ER-01.07) with the permits and authorities register (xlsx + docx + pdf); checks ER citation coverage, authorities, agreement, permit timing |
 | `engineering_plan` | MDL workbook (MDL, workflow, EWP, PWP, CWP, CWA, coverage, plant assets, checks) and A3 timeline PDF (progress curve, AWP Gantt per CWA); checks numbering / KKS, AVEVA classes, AWP links, coverage of systems / requirements / scope / equipment, EWP / PWP float, key dates |
+| `release_control` | document release control workbook: release plan in network order (status now, next purpose and revision, blocking inputs, planned dates, gates fed), relations with the maturity required, impacts of a revision, process gates with need / ready / float |
 | `procedures` | KKS identification manual, document numbering and control procedure, engineering execution plan, AWP execution plan (docx + pdf, MDL numbers ALP-EPC-00000-GE-PRC-0001/0002, -PLN-0001/0002) |
 | `governance` | rules.md / ledger.md |
 
@@ -135,8 +136,8 @@ Add one by copying `engine/engines/equipment_list.py`; it is discovered automati
   data -> on site); equipment carries `cwa` / `cwp` / `mr`. IWPs are made by the construction contractors.
 - The timeline is computed (`engine/core/workflow.py`), never stored: documents start when their inputs are mature, are
   levelled to the discipline capacities (`eng_resource`, with a mobilisation ramp) in need-date priority, and give EWP / PWP
-  float against the CPM. Supplier documents are timed from their MR (weeks after the PO, or before delivery when
-  negative); progressive construction documents (`doc_type.progressive_share`) are needed later in their CWP (TQ-037).
+  float against the CPM. Supplier documents are timed from their MR (weeks after the PO, scaled for short-lead packages,
+  or before shipment when negative); progressive construction documents (`doc_type.progressive_share`) are needed later in their CWP (TQ-037).
 - The MDL is rule-based: `mdl_rule` records say which documents each plant / system / structure / construction area /
   MR / equipment group needs, with the quantity basis (system `q_` estimates, replaced by register counts), hours,
   inputs, EWP / MR links and supplier timing. `python -m engine mdl show [--rule DL-..]` lists the instances,
@@ -146,6 +147,22 @@ Add one by copying `engine/engines/equipment_list.py`; it is discovered automati
   Design criteria per discipline are rules too (`DL-DBR-*`); `engineering_plan` warns when a design discipline has none.
   Rule inputs resolve within the same scope (`@plant`, `@cwa`, `@system`, `@structure` select explicitly; `system.structures`
   says which structures house a system, so equipment foundations wait only for the vendor loads of their own equipment).
+
+## Document release control and process gates
+- Status ladder per document (from `document_revision`): NONE < IFR < IFA < ACCEPTED (review code 1 / 2) < IFC < AB.
+  `python -m engine doc status <doc>` shows the next purpose and revision and what blocks it;
+  `python -m engine doc issue <doc> --purpose IFR|IFA|IFC|AB --date .. --reason ..` refuses a release whose inputs are not
+  mature (IFR / IFA: `doc_type.input_maturity`; IFC: EPC inputs IFC, supplier inputs accepted, own acceptance) unless
+  `--override "justification"` is given (recorded). The revision records `based_on` (input revisions); a later input
+  revision makes the document CHECK REQUIRED. `python -m engine doc review <doc> --rev A --code 1 --date .. --reason ..`.
+- `gate_rule` records say which documents at which status procurement (enquiry, PO, fabrication, FAT, shipment), Owner
+  acceptance (BDP, Tests on Completion procedures, Taking-Over), construction (CWP / IWP release), commissioning
+  (mechanical completion, start of commissioning) and operations (handover, as-built) need, and when (MR dates, CWP
+  start, key dates, milestones). Requirement syntax `[any:]selector[|selector][?] STATUS` (see the schema).
+  `python -m engine gate [--process ..] [--scope ..] [--detail]`.
+- The plan uses the same gates (`engine/core/workflow.py`): a PO is planned when the PO gate's prerequisites are met, and
+  the documents required by milestone / key-date / CWP gates get their gate date as need (priority). The
+  `release_control` engine issues the workbook; PRC-0002 section 10 describes the rules (DEC-EPCE-0013).
 
 ## Tests
 `python -m pytest -q`

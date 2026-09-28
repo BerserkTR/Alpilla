@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.414446Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:12:41.505408Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "contract_clause:ALP-EPC-001_10.1",
+    "decision:DEC-EPCE-0013",
+    "requirement:ER-16.04"
+  ],
+  "id": "G-OWN-TOC",
+  "need": "activity:KD-030",
+  "offset_days": -65,
+  "process": "owner_acceptance",
+  "requires": [
+    "id:ALP-EPC-00000-CM-CMP-0001 ACCEPTED",
+    "id:ALP-EPC-00000-CM-CMP-0002 ACCEPTED",
+    "id:ALP-EPC-00000-CM-CMP-0003 ACCEPTED",
+    "id:ALP-EPC-00000-CM-CMP-0004 ACCEPTED",
+    "id:ALP-EPC-00000-CM-CMP-0005 ACCEPTED",
+    "id:ALP-EPC-00000-CM-CMP-0006 ACCEPTED"
+  ],
+  "scope": "plant",
+  "status": "agreed",
+  "title": "Tests on Completion procedures approved (90 days before the tests)"
+}

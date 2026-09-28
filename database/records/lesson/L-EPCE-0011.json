@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:13:05.274213Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:13:05.274213Z",
+    "updated_by": "EPCE"
+  },
+  "action": "Keep process gates as gate_rule data read by both the workflow and the release check; run python -m engine gate after every MDL or schedule change and raise a TQ for every gate that stays late",
+  "context": "The first gate analysis of MDL Rev B found 125 of 600 gate instances planned late: POs planned before their specifications, ITPs and bid evaluations; supplier test reports timed after shipment; basic design documents without any priority",
+  "id": "L-EPCE-0011",
+  "lesson": "A plan that uses a simpler rule than the release check is not executable; gaps show only when the gates are evaluated against the plan",
+  "status": "active",
+  "tags": [
+    "planning",
+    "document_control",
+    "procurement"
+  ],
+  "title": "Plan with the same prerequisites the release gates check"
+}

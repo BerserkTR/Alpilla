@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.418349Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:12:41.502517Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0013",
+    "requirement:ER-16.01",
+    "requirement:ER-17.04"
+  ],
+  "categories": [
+    "water_steam_cycle",
+    "condensate_feedwater",
+    "steam_turbine"
+  ],
+  "id": "G-COM-SC-WS",
+  "need": "activity:KD-030",
+  "offset_days": -40,
+  "process": "commissioning",
+  "requires": [
+    "rule:DL-CM-CMP|rule:DL-V-CMP@mr? ACCEPTED",
+    "rule:DL-CM-OPR|rule:DL-V-OMM@mr? IFR",
+    "rule:DL-CM-TOD IFR"
+  ],
+  "scope": "system",
+  "status": "agreed",
+  "title": "Start of system commissioning (before KD-030)"
+}

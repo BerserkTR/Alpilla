@@ -2,28 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.893137Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.255842Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:15:10.485033Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
     "requirement:ER-16.01"
-  ],
-  "categories": [
-    "water_steam_cycle",
-    "condensate_feedwater",
-    "cooling",
-    "water_treatment",
-    "auxiliary_mechanical",
-    "fuel_gas",
-    "fire_protection",
-    "hvac",
-    "electrical_mv_lv",
-    "electrical_hv",
-    "i_and_c",
-    "hrsg",
-    "other",
-    "common"
   ],
   "discipline": "commissioning",
   "hours_base": 16,
@@ -32,11 +16,9 @@
     "DL-CM-CMP"
   ],
   "originator": "EPC",
-  "parties": [
-    "IEPC"
-  ],
   "review": "information",
   "scope": "system",
+  "start_after": "alap",
   "status": "agreed",
   "title": "System turnover dossier - {name}",
   "type_code": "MDB"

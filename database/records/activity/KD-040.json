@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:46.010651Z",
     "created_by": "CASE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:15:10.020501Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:16:37.862694Z",
     "updated_by": "EPCE"
   },
   "constraint": "finish_no_later_than",
@@ -13,8 +13,8 @@
   "phase": "commissioning",
   "predecessors": [
     "COM-020",
-    "COM-040",
-    "COM-050:FS+10"
+    "COM-040:FS+15",
+    "COM-050:FS+15"
   ],
   "title": "Taking-Over of the Works (Time for Completion, 975 days)",
   "type": "finish_milestone",

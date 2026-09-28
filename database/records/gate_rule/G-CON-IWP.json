@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.415341Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:12:41.503228Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "clarification:TQ-037",
+    "decision:DEC-EPCE-0013"
+  ],
+  "id": "G-CON-IWP",
+  "need": "cwp_mid",
+  "process": "construction",
+  "requires": [
+    "ewp-all IFC"
+  ],
+  "scope": "cwp",
+  "status": "agreed",
+  "title": "Progressive IWP documents IFC (isometrics, supports, schematics, loops ...)"
+}

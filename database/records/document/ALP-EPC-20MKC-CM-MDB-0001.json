@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:00:25.801439Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:15:11.480455Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-16.01"
+  ],
+  "discipline": "commissioning",
+  "doc_type": "report",
+  "id": "ALP-EPC-20MKC-CM-MDB-0001",
+  "originator": "EPC",
+  "review": "information",
+  "rule": "DL-CM-TOD|20MKC|1",
+  "sheets": 1,
+  "start_after": "alap",
+  "status": "planned",
+  "system": "20MKC",
+  "title": "System turnover dossier - ST excitation",
+  "type_code": "MDB",
+  "weight": 16
+}

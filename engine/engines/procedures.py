@@ -1,7 +1,8 @@
 """Engineering procedures and plans generated from the database (Word + PDF):
 
   ALP-EPC-00000-GE-PRC-0001  KKS identification manual       - key list, unit numbering, systems, plant asset tags
-  ALP-EPC-00000-GE-PRC-0002  Document numbering and control   - number format, codes, document types, review rules
+  ALP-EPC-00000-GE-PRC-0002  Document numbering and control   - number format, codes, document types, review rules,
+                                                                    release control and process gates
   ALP-EPC-00000-GE-PLN-0001  Engineering execution plan       - scope, workflow rules, input network, timeline
   ALP-EPC-00000-GE-PLN-0002  AWP execution plan               - CWA / CWP / EWP / PWP / IWP, release rules, dates
 
@@ -43,13 +44,13 @@ def _short(parties, pid):
 class Procedures(Engine):
     name = "procedures"
     title = "Engineering procedures: KKS manual, document numbering and control, engineering and AWP execution plans (Word + PDF)"
-    version = "1.2.0"
+    version = "1.3.0"
     inputs = ["project", "document", "document_revision", "doc_type", "kks_key", "system", "equipment", "cwa", "cwp", "ewp",
               "mr", "activity", "wbs", "requirement", "scope_item", "party", "eng_resource", "clarification", "decision",
-              "mdl_rule", "mdl_benchmark", "instrument", "line"]
+              "mdl_rule", "mdl_benchmark", "instrument", "line", "gate_rule", "milestone"]
     formats = ["docx", "pdf"]
     code_deps = ["engine/core/wordkit.py", "engine/core/workflow.py", "engine/core/kks.py", "engine/core/planning.py",
-                 "engine/core/mdl.py",
+                 "engine/core/mdl.py", "engine/core/release.py",
                  "engine/engines/engineering_plan.py", "templates/docx/datasheet_base.docx"]
 
     def run(self, ctx: Context):
@@ -112,6 +113,8 @@ class Procedures(Engine):
         q = self.tqs.get(tq)
         if not q:
             return f"{tq}: not found"
+        if not q.get("response"):
+            return f"{tq} (open, raised {q.get('raised_date') or '-'}): {q.get('subject') or q.get('question', '')}"
         return (f"{tq} ({q.get('status')}, answered {q.get('response_date') or '-'} by "
                 f"{_short(self.parties, q.get('responded_by'))}): {q.get('response') or '(no response)'}")
 
@@ -312,7 +315,74 @@ class Procedures(Engine):
                 [[k.replace("_", " "), v, f"{sum(x.get('weight') or 0 for x in docs if x.get('discipline') == k):,.0f}",
                   sum(x.get("sheets") or 1 for x in docs if x.get("discipline") == k)] for k, v in sorted(by_disc.items())],
                 [5.0, 3.0, 3.0, 3.0])
+        self._release(d)
         self._checks(d, {"numbering"})
+
+    def _release(self, d):
+        """Section 10: release control and process gates (engine/core/release.py, gate_rule records)."""
+        s = self.ctx.store
+        res = self.res
+        d.h("10. Release control and process gates")
+        d.p("A document is released in the order of its input network and only at the maturity its inputs allow; the "
+            "processes that use the documents (procurement, Owner acceptance, construction, commissioning / acceptance, "
+            "operations) start only through gates that name the documents and statuses they need. The rules below are "
+            "applied by the engine: python -m engine doc status <document> shows the next purpose and revision and what "
+            "blocks it; python -m engine doc issue <document> --purpose <purpose> refuses a blocked release (an --override is "
+            "recorded on the revision); python -m engine gate lists the gates. The release_control engine issues the "
+            "release plan, the relations, the impacts and the gate status (Excel).")
+        d.table(["Status", "Reached when"], [
+            ["IFR", "first issue (also IFI / IFD / IFP)"],
+            ["IFA", "issued for approval (approval class)"],
+            ["ACCEPTED", "review code 1 or 2 on the latest issue; information and internal EPC documents when issued; supplier "
+                         "documents when accepted by Istanbul EPC"],
+            ["IFC", "issued for construction / final (certified for supplier documents)"],
+            ["AB", "as built"]], [2.4, d.width_cm - 2.4])
+        d.table(["Release", "Condition"], [
+            ["IFR / IFA", "every input at least at the maturity the document type requires (Inputs at, section 4); IFA after "
+                          "a reviewed IFR"],
+            ["IFC", "every EPC input IFC, every supplier input ACCEPTED; the document ACCEPTED (approval / review class, "
+                    "supplier documents); no code 3"],
+            ["AB", "the document is IFC"],
+            ["Impact", "each revision records the input revisions it was based on; an input revised later makes the document "
+                       "CHECK REQUIRED, which blocks the release of the documents using it until it is re-issued or "
+                       "confirmed"]], [2.4, d.width_cm - 2.4])
+        d.p("Gate requirement: '[any:]selector[|selector][?] STATUS' - selector type:<TYPE>, rule:<MDL rule>, id:<document>, "
+            "bdp, construction, ewp-first, ewp-all; @mr = documents of the packages of the gate scope, @plant = plant-general "
+            "documents, @epc / @supplier = originator; '|' unites several selectors, '?' = optional (none selected is not a "
+            "finding), 'any:' = one selected document is enough. The plan uses the same gates: the PO is planned when the "
+            "prerequisites of the PO gate are met, and the documents a milestone, key-date or CWP gate requires are "
+            "prioritised to its date (ALP-EPC-00000-GE-PLN-0001).")
+        from ..core import release
+        pt = {"procurement": "Procurement", "owner_acceptance": "Owner acceptance", "construction": "Construction",
+              "commissioning": "Commissioning", "operations": "Operations"}
+        rules = sorted((g for g in s.records("gate_rule") if g.get("status") != "superseded"),
+                       key=lambda g: (list(pt).index(g["process"]), g["id"]))
+        gs = release.gates(s, res)
+        cnt = defaultdict(lambda: [0, 0, None])
+        for g in gs:
+            c = cnt[g.gate]
+            c[0] += 1
+            c[1] += bool(g.float is not None and g.float < 0)
+            if g.float is not None:
+                c[2] = g.float if c[2] is None else min(c[2], g.float)
+        d.table(["Gate", "Process", "Step", "Requires", "Need", "No.", "Late", "Float"],
+                [[g["id"], pt[g["process"]], g["title"], "; ".join(g["requires"]),
+                  g["need"] + (f" {g['offset_days']:+d} wd" if g.get("offset_days") else ""),
+                  cnt[g["id"]][0], cnt[g["id"]][1], cnt[g["id"]][2] if cnt[g["id"]][2] is not None else "-"]
+                 for g in rules], [2.4, 2.6, 3.4, 4.9, 2.2, 0.9, 1.0, 1.2], size=7)
+        late = sorted((g for g in gs if g.float is not None and g.float < 0), key=lambda g: g.float)
+        d.p(f"{len(gs)} gate instances, {sum(1 for g in gs if g.ok_now)} open now, {len(late)} planned after their need "
+            f"date, {sum(1 for g in gs if g.empty)} with a mandatory requirement selecting no document.")
+        if late:
+            d.table(["Gate", "Scope", "Need", "Planned", "Float wd", "Driving document"],
+                    [[g.gate, g.scope_key, str(res.d(g.need)), str(res.d(g.ready)), g.float,
+                      max((r for r in g.rows if r[3] is not None), key=lambda r: r[3])[4]] for g in late],
+                    [2.4, 2.6, 2.2, 2.2, 1.6, d.width_cm - 11.0])
+            open_tq = [q for q in sorted(self.tqs) if not self.tqs[q].get("response")
+                       and any(g.gate in (self.tqs[q].get("question") or "") for g in late)]
+            d.p("A gate planned late is resolved by resequencing (priority, staffing), expediting the supplier or a "
+                "technical query; it stays a WARN of the release_control engine until the plan meets the need date.")
+            d.bullets([self._tq_line(q) for q in open_tq])
 
     # ------------------------------------------------------------------ PLN-0001 engineering execution plan
     def _eep(self, d):

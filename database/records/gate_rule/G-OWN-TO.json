@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.418974Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:12:41.505118Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "contract_clause:ALP-EPC-001_11.1",
+    "decision:DEC-EPCE-0013",
+    "requirement:ER-17.06"
+  ],
+  "id": "G-OWN-TO",
+  "need": "activity:KD-040",
+  "process": "owner_acceptance",
+  "requires": [
+    "type:TRP@plant ACCEPTED",
+    "id:ALP-EPC-00000-CM-OMM-0001 IFC",
+    "id:ALP-EPC-00000-CM-LST-0002 IFC",
+    "type:LST@plant IFR"
+  ],
+  "scope": "plant",
+  "status": "agreed",
+  "title": "Taking-Over: test reports accepted, O&M, spares, special tools, punch list"
+}

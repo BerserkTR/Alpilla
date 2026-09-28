@@ -2,10 +2,11 @@
   "_meta": {
     "created_at": "2026-09-28T17:05:18.223990Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:05:19.103101Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:15:54.056920Z",
     "updated_by": "EPCE"
   },
+  "after_activity": "KD-010",
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "permit:PMT-004",

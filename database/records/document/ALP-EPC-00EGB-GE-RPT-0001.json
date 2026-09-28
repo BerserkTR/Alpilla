@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.155807Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.971910Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:00:25.823063Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -21,6 +21,7 @@
   "review": "internal",
   "rule": "DL-MR-TBE|MR-ME-017|1",
   "sheets": 1,
+  "start_after": "bids",
   "status": "planned",
   "system": "00EGB",
   "title": "Technical bid evaluation - LDO storage tanks (field-erected, API 650)",

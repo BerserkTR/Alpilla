@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.417662Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:12:41.504130Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0013",
+    "requirement:ER-17.04"
+  ],
+  "categories": [
+    "fuel_gas",
+    "gas_turbine",
+    "generator",
+    "auxiliary_mechanical",
+    "cooling",
+    "water_treatment",
+    "fire_protection",
+    "i_and_c",
+    "hvac",
+    "hrsg",
+    "other"
+  ],
+  "id": "G-OPS-HO-FF",
+  "need": "activity:KD-040",
+  "process": "operations",
+  "requires": [
+    "rule:DL-CM-OPR|rule:DL-V-OMM@mr? IFC",
+    "rule:DL-CM-TOD IFC"
+  ],
+  "scope": "system",
+  "status": "agreed",
+  "title": "Handover of the system to operations"
+}

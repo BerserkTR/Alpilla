@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.416193Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:12:41.501749Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0013",
+    "requirement:ER-16.01",
+    "requirement:ER-17.04"
+  ],
+  "categories": [
+    "electrical_hv",
+    "electrical_mv_lv",
+    "common"
+  ],
+  "id": "G-COM-SC-EL",
+  "need": "activity:KD-010",
+  "offset_days": -40,
+  "process": "commissioning",
+  "requires": [
+    "rule:DL-CM-CMP|rule:DL-V-CMP@mr? ACCEPTED",
+    "rule:DL-CM-OPR|rule:DL-V-OMM@mr? IFR",
+    "rule:DL-CM-TOD IFR"
+  ],
+  "scope": "system",
+  "status": "agreed",
+  "title": "Start of system commissioning (before KD-010)"
+}

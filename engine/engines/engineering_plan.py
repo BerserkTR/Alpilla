@@ -217,12 +217,13 @@ def check_engineering(s, res) -> list[tuple[str, str, str, str]]:
 class EngineeringPlan(Engine):
     name = "engineering_plan"
     title = "Engineering plan: MDL, workflow network and timeline, AWP (CWA/CWP/EWP/PWP), coverage checks (Excel + PDF)"
-    version = "1.3.0"
+    version = "1.4.0"
     inputs = ["project", "document", "document_revision", "doc_type", "kks_key", "system", "equipment", "cwa", "cwp", "ewp",
               "mr", "activity", "wbs", "requirement", "scope_item", "party", "eng_resource", "mdl_rule", "mdl_benchmark",
-              "instrument", "line", "decision"]
+              "instrument", "line", "decision", "gate_rule", "milestone"]
     formats = ["xlsx", "pdf"]
-    code_deps = ["engine/core/workflow.py", "engine/core/kks.py", "engine/core/planning.py", "engine/core/mdl.py"]
+    code_deps = ["engine/core/workflow.py", "engine/core/kks.py", "engine/core/planning.py", "engine/core/mdl.py",
+                 "engine/core/release.py"]
 
     def run(self, ctx: Context):
         s = ctx.store

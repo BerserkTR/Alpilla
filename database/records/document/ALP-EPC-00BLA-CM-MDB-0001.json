@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.911536Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.758941Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:15:11.440642Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -20,6 +20,7 @@
   "review": "information",
   "rule": "DL-CM-TOD|00BLA|1",
   "sheets": 1,
+  "start_after": "alap",
   "status": "planned",
   "system": "00BLA",
   "title": "System turnover dossier - Lighting and small power",

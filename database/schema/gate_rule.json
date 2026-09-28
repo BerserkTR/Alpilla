@@ -1,0 +1,86 @@
+{
+  "entity": "gate_rule",
+  "title": "Process gate: the documents (and their status) that procurement, Owner acceptance, construction, commissioning / acceptance or operations need before a step, with the need date from the plan",
+  "id_pattern": "^G-[A-Z]{2,4}-[A-Z0-9-]+$",
+  "display": [
+    "process",
+    "scope",
+    "title"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "process": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "procurement",
+        "owner_acceptance",
+        "construction",
+        "commissioning",
+        "operations"
+      ]
+    },
+    "scope": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "plant",
+        "mr",
+        "cwp",
+        "system"
+      ]
+    },
+    "package_types": {
+      "type": "list",
+      "description": "mr scope: package types"
+    },
+    "categories": {
+      "type": "list",
+      "description": "system scope: system categories"
+    },
+    "parties": {
+      "type": "list",
+      "description": "system scope: design party (IEPC, IEC)"
+    },
+    "requires": {
+      "type": "list",
+      "required": true,
+      "description": "'[any:]<selector>[|<selector>...][?] <STATUS>': selector type:<TYPE> | rule:<DL-...> | id:<document> | bdp | construction | ewp-first | ewp-all, optionally bound with @mr (packages of the scope), @plant (plant-level documents), @epc / @supplier (originator), combined with commas (@mr,epc); '|' unites the documents of several selectors; trailing '?' = optional (no document selected is not a finding); 'any:' = met when one selected document has the status; STATUS IFR | IFA | ACCEPTED | IFC | AB. Gates with need 'po' set the planned PO (EPC documents only); gates with a milestone / activity / CWP need make it the need date of the EPC documents they require"
+    },
+    "need": {
+      "type": "string",
+      "required": true,
+      "description": "enquiry | po | fabrication | shipment | ros (mr scope); cwp_start | cwp_mid (cwp scope); activity:<id> (early finish); milestone:<id> (planned month after NTP)"
+    },
+    "offset_days": {
+      "type": "integer",
+      "unit": "working days",
+      "description": "added to the need date (negative = earlier)"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "requirement",
+        "decision",
+        "clarification",
+        "contract_clause",
+        "permit"
+      ]
+    },
+    "status": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "proposed",
+        "agreed",
+        "superseded"
+      ]
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

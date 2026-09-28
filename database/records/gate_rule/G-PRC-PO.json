@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.412293Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:12:41.506550Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0013",
+    "requirement:ER-15.02"
+  ],
+  "id": "G-PRC-PO",
+  "need": "po",
+  "package_types": [
+    "equipment",
+    "bulk",
+    "subcontract"
+  ],
+  "process": "procurement",
+  "requires": [
+    "type:SPC@epc IFC",
+    "type:MRQ@epc IFC",
+    "rule:DL-MR-TBE IFR",
+    "type:ITP@epc? IFR"
+  ],
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Purchase order award"
+}

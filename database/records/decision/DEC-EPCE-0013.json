@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:04:45.805586Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T18:04:45.805586Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "date": "2026-09-28",
+  "decided_by": "IEPC engineering manager",
+  "decision": "(1) Documents are released (IFR / IFA / IFC / AB) only when their inputs have the maturity the release rules require (python -m engine doc status / issue); an override is recorded on the revision. (2) Procurement, Owner acceptance, construction, commissioning and handover start only through the process gates (gate_rule records): the documents and statuses each gate requires. (3) The engineering plan uses the same gates: a PO is planned when its prerequisites are met (specifications IFC, requisition IFC + bid + award, bid evaluation IFR, ITP IFR); documents required by milestone, key date and CWP gates are prioritised to their gate date. (4) Supplier document weeks after the PO scale with manufacture weeks / 40 (between 0.5 and 1) - short-lead standard products document faster; FAT, test report, erection, O&M and data book weeks count back from shipment (on-site date - transport).",
+  "id": "DEC-EPCE-0013",
+  "rationale": "Gate analysis of the Rev B MDL: with PO = requisition + bid + award only, 16 POs were planned before their specifications or ITPs; supplier test reports and data books timed from the on-site date came after shipment for every package; fabrication release of short-lead packages was before the supplier data could be accepted. One rule set for planning and for release keeps the plan executable.",
+  "status": "agreed",
+  "title": "Document release control: process gates drive the document plan; supplier document timing"
+}

@@ -1,0 +1,35 @@
+{
+  "code_hash": "a4415959161b3e15",
+  "db_hash": "432655f3489327f5",
+  "engine": "release_control",
+  "engine_version": "1.0.0",
+  "files": {
+    "ALP_release_control.xlsx": "57058b81acbf35d51c25ccbd3c3778f0165b26e23a14438174cb8ad7fa4d353f"
+  },
+  "generated_at": "2026-09-28T18:17:52.025014Z",
+  "generated_by": "SETUP",
+  "git_commit": "d7d7d25",
+  "inputs": [
+    "activity",
+    "cwa",
+    "cwp",
+    "doc_type",
+    "document",
+    "document_revision",
+    "eng_resource",
+    "ewp",
+    "gate_rule",
+    "kks_key",
+    "milestone",
+    "mr",
+    "project",
+    "system",
+    "wbs"
+  ],
+  "inputs_hash": "c4bbf20e594cf886",
+  "options": {},
+  "warnings": [
+    "gate G-OWN-BDP 00000: planned 2027-07-21 after the need date 2027-02-02 (-121 wd)",
+    "gate G-PRC-FAB MR-EL-011: planned 2026-12-14 after the need date 2026-12-08 (-4 wd)"
+  ]
+}

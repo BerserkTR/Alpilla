@@ -264,7 +264,7 @@ def _doc_fields(i: Inst, c_types: dict) -> dict:
                                                                  else "Deliverables Documents")}
     if not i.kks.endswith("000"):
         rec["system"] = i.kks
-    for k in ("review", "bdp", "po_weeks_ifr", "po_weeks_final"):
+    for k in ("review", "bdp", "po_weeks_ifr", "po_weeks_final", "start_after"):
         if i.rule.get(k) is not None:
             rec[k] = i.rule[k]
     if i.ewp:
@@ -317,7 +317,7 @@ def plan_sync(store) -> SyncPlan:
                 p.links.append((i.doc_id, ins))
             continue
         ch = {}
-        for k in ("sheets", "weight", "po_weeks_ifr", "po_weeks_final", "review"):
+        for k in ("sheets", "weight", "po_weeks_ifr", "po_weeks_final", "review", "start_after"):
             if want.get(k) is not None and d.get(k) != want[k]:
                 ch[k] = want[k]
         if want.get("ewp") and (not d.get("ewp") or d["ewp"].split("-")[2] != want["ewp"].split("-")[2]):

@@ -77,6 +77,15 @@
     },
     "review_date": {
       "type": "date"
+    },
+    "based_on": {
+      "type": "ref_list",
+      "to": "document_revision",
+      "description": "revisions of the input documents this revision was prepared from (set by engine doc issue); a newer input revision makes this revision 'check required'"
+    },
+    "override": {
+      "type": "text",
+      "description": "justification when the revision was issued although a release prerequisite was not met"
     }
   }
 }

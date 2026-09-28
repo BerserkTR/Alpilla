@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.919162Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.767506Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:15:11.451732Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -20,6 +20,7 @@
   "review": "information",
   "rule": "DL-CM-TOD|00GMA|1",
   "sheets": 1,
+  "start_after": "alap",
   "status": "planned",
   "system": "00GMA",
   "title": "System turnover dossier - Process drains and waste water collection",

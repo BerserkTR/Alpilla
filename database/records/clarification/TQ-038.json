@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T18:04:58.375930Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:09:01.207026Z",
+    "updated_by": "EPCE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "TQ-038",
+  "question": "Release gate G-OWN-BDP: The Basic Design Package (25 documents, of them 10 P&IDs) must be approved for MS-02 at month 3 (2027-02-02). With the Owner review period for the BDP (21 days, ER-17.01) and the input chain design basis -> system design specification -> P&ID, the earliest possible approval is 2027-03-08 even with unlimited staff; with the planned process team (12 FTE, 9,000 h of P&IDs needed before May 2027 for the long-lead requisitions and the first EWPs) the BDP is approved on 2027-07-21. Please confirm one of: (a) MS-02 split into MS-02a 'BDP batch 1 approved' (design bases, PFDs, HMB, plot plan, SLD, power island P&IDs; month 5) and MS-02b 'BDP batch 2 approved' (BOP P&IDs; month 9), same total percentage; (b) MS-02 at month 9; (c) approval on the tender-stage P&IDs at IFR with the IFC review later. The consortium recommends (a).",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-28",
+  "references": [
+    "contract_clause:ALP-EPC-001_15.3",
+    "requirement:ER-17.01"
+  ],
+  "round": 9,
+  "status": "open",
+  "subject": "Payment milestone MS-02 (Basic Design Package approved, month 3) cannot be met"
+}

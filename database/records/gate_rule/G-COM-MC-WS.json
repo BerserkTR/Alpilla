@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.417981Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:12:41.501311Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0013",
+    "requirement:ER-16.01"
+  ],
+  "categories": [
+    "water_steam_cycle",
+    "condensate_feedwater",
+    "steam_turbine"
+  ],
+  "id": "G-COM-MC-WS",
+  "need": "activity:KD-030",
+  "offset_days": -60,
+  "process": "commissioning",
+  "requires": [
+    "construction? IFC",
+    "rule:DL-CM-TOD IFR"
+  ],
+  "scope": "system",
+  "status": "agreed",
+  "title": "Mechanical completion of the system (before KD-030)"
+}

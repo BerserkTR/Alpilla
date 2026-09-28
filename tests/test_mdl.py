@@ -134,11 +134,18 @@ def test_supplier_document_timing(project):
                 "system": "00PAC", "mr": "MR-ME-003", "inputs": ["ALP-EPC-00PAC-ME-MRQ-0001"]}
     s.create("document", {"id": "ALP-M03-00PAC-ME-GAD-0001", **doc_base, "po_weeks_ifr": 6, "po_weeks_final": 12}, R)
     s.create("document", {"id": "ALP-M03-00PAC-ME-GAD-0002", **doc_base, "po_weeks_ifr": -8, "po_weeks_final": 12}, R)
+    s.update("mr", "MR-ME-003", {"manufacture_weeks": 40}, R)
     r = workflow.compute(s)
     m = r.mrs["MR-ME-003"]
     a, b = r.docs["ALP-M03-00PAC-ME-GAD-0001"], r.docs["ALP-M03-00PAC-ME-GAD-0002"]
     assert a.fixed and a.ifr == m["po"] + 30 and a.ifc == m["po"] + 60 and a.driver == "PO MR-ME-003"
-    assert b.ifr == m["ros"] - 40 and b.ifc == m["ros"] + 60                 # O&M-type: relative to the on-site date
+    ship = m["ros"] - 20                                                     # on site - 4 weeks transport
+    assert b.ifr == ship - 40 and b.ifc == ship + 60                        # FAT / O&M type: relative to shipment
+    s.update("mr", "MR-ME-003", {"manufacture_weeks": 12}, R)               # short lead: weeks after PO x 0.5 (minimum)
+    r = workflow.compute(s)
+    m = r.mrs["MR-ME-003"]
+    a = r.docs["ALP-M03-00PAC-ME-GAD-0001"]
+    assert a.ifr == m["po"] + 15 and a.ifc == m["po"] + 30
 
 
 def test_progressive_need_and_ramp(project):

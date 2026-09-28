@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:02:56.201481Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:21:19.573900Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:03:26.413177Z",
     "updated_by": "EPCE"
   },
   "agreed_by": [
@@ -17,7 +17,7 @@
   "basis_refs": [
     "permit:PMT-023"
   ],
-  "bid_days": 15,
+  "bid_days": 0,
   "cwps": [
     "CWP-12-CV-01"
   ],

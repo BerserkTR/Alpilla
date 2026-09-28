@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.414923Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:12:41.502881Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "clarification:TQ-037",
+    "decision:DEC-EPCE-0013"
+  ],
+  "id": "G-CON-CWP",
+  "need": "cwp_start",
+  "process": "construction",
+  "requires": [
+    "ewp-first? IFC",
+    "any:ewp-all IFC",
+    "rule:DL-V-ERC@mr? IFR"
+  ],
+  "scope": "cwp",
+  "status": "agreed",
+  "title": "CWP release: documents of the first IWPs IFC, installation manuals issued"
+}

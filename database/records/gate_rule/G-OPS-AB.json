@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.419384Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:12:41.503563Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0013",
+    "requirement:ER-17.03"
+  ],
+  "id": "G-OPS-AB",
+  "need": "activity:KD-040",
+  "offset_days": 65,
+  "process": "operations",
+  "requires": [
+    "type:PID AB",
+    "type:SLD AB",
+    "type:ISO AB",
+    "rule:DL-PI-LAY AB",
+    "type:M3D@plant AB"
+  ],
+  "scope": "plant",
+  "status": "agreed",
+  "title": "As-built documentation, 3D model and engineering database (3 months after Taking-Over)"
+}

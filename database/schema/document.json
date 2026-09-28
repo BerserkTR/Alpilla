@@ -199,12 +199,22 @@
     "po_weeks_ifr": {
       "type": "number",
       "unit": "weeks",
-      "description": "supplier document: first issue in weeks after the PO of its MR, or before its on-site date when negative"
+      "description": "supplier document: first issue in weeks after the PO of its MR, or before shipment (on-site date - transport) when negative; weeks after the PO scale with manufacture_weeks / 40 (0.5 - 1)"
+    },
+    "after_activity": {
+      "type": "ref",
+      "to": "activity",
+      "description": "earliest start = early finish of this CPM activity (test reports and records of a site activity)"
+    },
+    "start_after": {
+      "type": "enum",
+      "values": ["bids", "alap"],
+      "description": "earliest start besides the inputs: bids = after the bids of its MR are received (requisition IFC + bid_days), e.g. technical bid evaluation; alap = as late as possible (latest start from the need date - 60 working days), e.g. turnover dossiers compiled from site records"
     },
     "po_weeks_final": {
       "type": "number",
       "unit": "weeks",
-      "description": "supplier document: final issue in weeks after the PO, or relative to the on-site date when po_weeks_ifr is negative"
+      "description": "supplier document: final issue in weeks after the PO, or relative to shipment (on-site date - transport) when po_weeks_ifr is negative"
     },
     "duration": {
       "type": "integer",

@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.416560Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:12:41.503845Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0013",
+    "requirement:ER-17.04"
+  ],
+  "categories": [
+    "electrical_hv",
+    "electrical_mv_lv",
+    "common"
+  ],
+  "id": "G-OPS-HO-EL",
+  "need": "activity:KD-040",
+  "process": "operations",
+  "requires": [
+    "rule:DL-CM-OPR|rule:DL-V-OMM@mr? IFC",
+    "rule:DL-CM-TOD IFC"
+  ],
+  "scope": "system",
+  "status": "agreed",
+  "title": "Handover of the system to operations"
+}

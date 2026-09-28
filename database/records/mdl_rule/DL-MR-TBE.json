@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.900896Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.267027Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:00:13.104803Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -23,6 +23,7 @@
   ],
   "review": "internal",
   "scope": "mr",
+  "start_after": "bids",
   "status": "agreed",
   "title": "Technical bid evaluation - {name}",
   "type_code": "RPT"

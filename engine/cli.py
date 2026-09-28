@@ -17,6 +17,8 @@
     python -m engine plan [--all]                   schedule status + critical path (computed)
     python -m engine kks <tag|docno> ... | --next ORG KKS DISC TYPE   KKS / document number check, next number
     python -m engine mdl show [--rule DL-..] | sync [--apply --reason ..]   MDL rules -> required documents
+    python -m engine doc status|issue|review <document> ...   release control (prerequisites, revision, review code)
+    python -m engine gate [--process P] [--scope K] [--detail]   process gates and the documents they wait for
     python -m engine engines                       list engines
     python -m engine run <engine>|--all|--stale [--option k=v]
     python -m engine deliver <engine> --title T --purpose P --to R --reason "..." [--files GLOB]
@@ -410,6 +412,79 @@ def cmd_mdl(p: Project, a) -> int:
     return 0
 
 
+def cmd_doc(p: Project, a) -> int:
+    """Document release control: status / issue (with prerequisite check and based_on) / review code."""
+    from .core import release
+    store = Store(p)
+    docs = {d["id"]: d for d in store.records("document")}
+    if a.id not in docs:
+        raise StoreError(f"document {a.id} not found")
+    st = release.states(store)
+    types = {t["id"]: t for t in store.records("doc_type")}
+    d, me = docs[a.id], st[a.id]
+    if a.op == "status":
+        print(f"{a.id}  {d['title']}")
+        print(f"  status {release.NAME[me.level]}  latest rev {me.rev or '-'} {me.purpose or ''} {me.issued or ''}"
+              f"{'  code ' + me.code if me.code else ''}  review class {release.review_class(d, types)}")
+        print(f"  next: {release.next_action(d, me, types)}")
+        for purpose in ("IFR", "IFA", "IFC", "AB"):
+            why = release.can_issue(store, a.id, purpose, st)
+            print(f"  {purpose}: {'allowed' if not why else 'blocked'}" + ("" if not why else " - " + "; ".join(why[:4])
+                                                                               + (" ..." if len(why) > 4 else "")))
+        for i in d.get("inputs") or []:
+            if i in st:
+                print(f"  input  {i:<30} {release.NAME[st[i].level]:<9} rev {st[i].rev or '-'}")
+        for x in sorted(k for k, v in docs.items() if a.id in (v.get("inputs") or [])):
+            print(f"  feeds  {x:<30} {release.NAME[st[x].level]:<9} rev {st[x].rev or '-'}")
+        for i, r in me.suspect:
+            print(f"  CHECK REQUIRED: input {i} revised ({r}) after this revision was prepared")
+        return 0
+    if a.op == "review":
+        rid = f"{a.id}_{a.rev}"
+        store.update("document_revision", rid, {"review_code": a.code, "review_date": a.date}, a.reason)
+        return 0
+    # issue
+    why = release.can_issue(store, a.id, a.purpose, st)
+    if why and not a.override:
+        print(f"BLOCKED: {a.id} cannot be issued {a.purpose}:")
+        for w in why:
+            print(f"  - {w}")
+        print("fix the prerequisites, or issue with --override \"justification\" (recorded on the revision)")
+        return 1
+    rev = a.rev or release.next_rev(me, a.purpose)
+    based = sorted(st[i].rev_id for i in d.get("inputs") or [] if i in st and st[i].rev_id)
+    rec = {"document": a.id, "revision": rev, "purpose": a.purpose, "issue_date": a.date}
+    if based:
+        rec["based_on"] = based
+    if a.description:
+        rec["description"] = a.description
+    if why:
+        rec["override"] = a.override + " | unmet: " + "; ".join(why)
+    r = store.create("document_revision", rec, a.reason)
+    print(f"issued {r['id']} ({a.purpose}) based on {len(based)} input revision(s)" + (" - OVERRIDE recorded" if why else ""))
+    return 0
+
+
+def cmd_gate(p: Project, a) -> int:
+    from .core import release, workflow
+    store = Store(p)
+    res = workflow.compute(store)
+    rows = [g for g in release.gates(store, res) if (not a.process or g.process == a.process)
+            and (not a.scope or g.scope_key == a.scope)]
+    for g in rows[:a.limit]:
+        fl = g.float
+        print(f"{g.gate:<16} {g.scope_key:<13} {'OPEN' if g.ok_now else 'blocked':<8} need {res.d(g.need) if g.need is not None else '-'}"
+              f"  ready {res.d(g.ready) if g.ready is not None else '-'}  float {fl if fl is not None else '-'}  {g.title[:50]}")
+        if a.detail:
+            for req, n, missing, when, drv in g.rows:
+                print(f"    {req:<34} {n:>4} doc(s), {len(missing):>4} not yet  planned {res.d(when) if when is not None else '-'}")
+            for req in g.empty:
+                print(f"    {req:<34} NO DOCUMENT SELECTED")
+    late = sum(1 for g in rows if g.float is not None and g.float < 0)
+    print(f"{len(rows)} gate(s): {sum(1 for g in rows if g.ok_now)} open now, {late} planned late")
+    return 0
+
+
 def cmd_engines(p: Project, a) -> int:
     from .engines import registry
     for name, e in registry().items():
@@ -503,6 +578,18 @@ def main(argv=None) -> int:
     s = sub.add_parser("kks", help="explain / check KKS tags and document numbers; --next ORG KKS DISC TYPE")
     s.add_argument("tags", nargs="*"); s.add_argument("--next", nargs=4, metavar=("ORG", "KKS", "DISC", "TYPE"))
 
+    docp = sub.add_parser("doc", help="document release control").add_subparsers(dest="op", required=True)
+    s = docp.add_parser("status"); s.add_argument("id")
+    s = docp.add_parser("issue"); s.add_argument("id"); s.add_argument("--purpose", required=True,
+                                                                        choices=["IFR", "IFA", "IFC", "AB", "IFI", "IFD", "IFP"])
+    s.add_argument("--rev"); s.add_argument("--date", required=True); s.add_argument("--description")
+    s.add_argument("--override", help="justification to issue although a prerequisite is not met"); s.add_argument("--reason", required=True)
+    s = docp.add_parser("review"); s.add_argument("id"); s.add_argument("--rev", required=True)
+    s.add_argument("--code", required=True, choices=["1", "2", "3", "4"]); s.add_argument("--date", required=True)
+    s.add_argument("--reason", required=True)
+    s = sub.add_parser("gate", help="process gates: documents needed by procurement, acceptance, construction, commissioning, operations")
+    s.add_argument("--process"); s.add_argument("--scope"); s.add_argument("--detail", action="store_true")
+    s.add_argument("--limit", type=int, default=60)
     mdlp = sub.add_parser("mdl", help="MDL rules: show instances, sync document records").add_subparsers(dest="op", required=True)
     s = mdlp.add_parser("show"); s.add_argument("--rule"); s.add_argument("--limit", type=int, default=60)
     s = mdlp.add_parser("sync"); s.add_argument("--apply", action="store_true"); s.add_argument("--reason")
@@ -544,7 +631,8 @@ def main(argv=None) -> int:
         ap.error("reconcile needs <entity> <id> or --all")
     p = Project.locate()
     fn = {"status": cmd_status, "validate": cmd_validate, "db": cmd_db, "engines": cmd_engines, "lib": cmd_lib, "plan": cmd_plan,
-          "run": cmd_run, "deliver": cmd_deliver, "setup": cmd_setup, "kks": cmd_kks, "mdl": cmd_mdl}[a.cmd]
+          "run": cmd_run, "deliver": cmd_deliver, "setup": cmd_setup, "kks": cmd_kks, "mdl": cmd_mdl, "doc": cmd_doc,
+          "gate": cmd_gate}[a.cmd]
     try:
         return fn(p, a)
     except (StoreError, RuntimeError, ValueError, KeyError) as e:

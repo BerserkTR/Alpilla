@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:50:51.413226Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:12:41.506295Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0013",
+    "requirement:ER-15.03"
+  ],
+  "id": "G-PRC-FAT",
+  "need": "shipment",
+  "offset_days": -20,
+  "package_types": [
+    "equipment",
+    "iec_supply"
+  ],
+  "process": "procurement",
+  "requires": [
+    "rule:DL-V-FAT ACCEPTED"
+  ],
+  "scope": "mr",
+  "status": "agreed",
+  "title": "Factory acceptance test (procedure approved)"
+}

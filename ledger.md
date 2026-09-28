@@ -94,3 +94,8 @@ Read before working. Add a lesson whenever something went wrong or a better way 
 - Context: Datasheet PDFs were missing: soffice was on PATH but installed without Writer, conversion failed with 'source file could not be loaded'
 - Lesson: soffice on PATH is not enough; engines skip PDFs with a WARN line instead of failing
 - Action: Install libreoffice-writer-nogui and libreoffice-calc-nogui (or full LibreOffice) and read the WARN lines after every engine run
+
+### L-EPCE-0011 () Plan with the same prerequisites the release gates check [planning, document_control, procurement]
+- Context: The first gate analysis of MDL Rev B found 125 of 600 gate instances planned late: POs planned before their specifications, ITPs and bid evaluations; supplier test reports timed after shipment; basic design documents without any priority
+- Lesson: A plan that uses a simpler rule than the release check is not executable; gaps show only when the gates are evaluated against the plan
+- Action: Keep process gates as gate_rule data read by both the workflow and the release check; run python -m engine gate after every MDL or schedule change and raise a TQ for every gate that stays late
