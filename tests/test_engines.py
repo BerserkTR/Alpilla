@@ -80,11 +80,11 @@ def test_stale_output_reported(project):
     s = Store(project, who())
     seed(s)
     run(project, "equipment_list")
-    run(project, "design_basis")
+    run(project, "standards_register", pdf="no")
     s.update("equipment", "10MBV10AP001", {"rated_power": 90}, "vendor update")
     warns = validate.run(project, Store(project, who())).warnings
     assert any("equipment_list/: STALE" in w for w in warns)
-    assert not any("design_basis/: STALE" in w for w in warns)   # its inputs did not change
+    assert not any("standards_register/: STALE" in w for w in warns)   # its inputs did not change
 
 
 def test_engine_refuses_invalid_database(project):
