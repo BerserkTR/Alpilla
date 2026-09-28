@@ -2,21 +2,34 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.959932Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-27T18:30:42.468188Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T04:13:04.389539Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Steam Generator",
   "basis_refs": [
-    "source:SRC-EPCE-0005"
+    "source:SRC-EPCE-0005",
+    "source:SRC-IECE-0009",
+    "source:SRC-IECE-0012"
   ],
   "description": "Heat recovery steam generator, 3-pressure reheat",
   "equipment_type": "HRSG",
+  "height": 29500,
   "id": "10HAA10",
+  "length": 42000,
+  "location": "east of the GT hall; stack at E 236",
   "manufacturer": "Imaginary Electric Company",
   "model": "IE-HR3",
+  "orientation": 0,
+  "position": [
+    201000,
+    165000,
+    15500
+  ],
   "quantity": 1,
   "remarks": "HP 100.16 kg/s at 187 bar(a)/600 degC",
+  "shape": "box",
   "status": "preliminary",
-  "system": "10HA"
+  "system": "10HA",
+  "width": 24000
 }

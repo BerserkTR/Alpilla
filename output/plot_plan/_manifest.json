@@ -1,0 +1,23 @@
+{
+  "code_hash": "12f85ec8cd5d7d57",
+  "db_hash": "eefa4ae0493b96fc",
+  "engine": "plot_plan",
+  "engine_version": "1.1.0",
+  "files": {
+    "ALP_plot_plan.dxf": "f1072c63c0ff2ca46c6179b7a9acc8a27119d2f30bccce2c24b87a150a193c3b",
+    "ALP_plot_plan.pdf": "f6bc8b2ef31832b72fc319742c197cd9f91c85ab9d616f121b45ba2d9d27211f"
+  },
+  "generated_at": "2026-09-28T04:17:17.348577Z",
+  "generated_by": "SETUP",
+  "git_commit": "5cf42b5",
+  "inputs": [
+    "equipment",
+    "line",
+    "pipe_component",
+    "pipe_size",
+    "project"
+  ],
+  "inputs_hash": "3e1ce6a51778d359",
+  "options": {},
+  "warnings": []
+}

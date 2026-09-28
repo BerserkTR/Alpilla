@@ -2,21 +2,34 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.960520Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-27T18:30:42.801130Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T04:13:05.665597Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Condenser",
   "basis_refs": [
-    "source:SRC-EPCE-0006"
+    "source:SRC-EPCE-0006",
+    "source:SRC-IECE-0009",
+    "source:SRC-IECE-0011"
   ],
   "description": "Surface condenser, titanium tubes, 15,200 m2",
   "equipment_type": "heat exchanger",
+  "height": 13000,
   "id": "20MAG10",
+  "length": 20000,
+  "location": "ST hall, south of the ST (side exhaust); tube pull 11 m east",
   "manufacturer": "Imaginary Electric Company",
   "model": "IEC condenser",
+  "orientation": 0,
+  "position": [
+    142000,
+    74000,
+    15000
+  ],
   "quantity": 1,
   "remarks": "duty 289.96 MW at SRC",
+  "shape": "box",
   "status": "preliminary",
-  "system": "20MAG"
+  "system": "20MAG",
+  "width": 20000
 }

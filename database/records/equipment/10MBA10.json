@@ -2,22 +2,35 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.957487Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-27T18:30:41.946862Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T04:13:03.625405Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Gas Turbine",
   "basis_refs": [
-    "source:SRC-EPCE-0002"
+    "source:SRC-EPCE-0002",
+    "source:SRC-IECE-0009",
+    "source:SRC-IECE-0010"
   ],
   "description": "Gas turbine",
   "equipment_type": "gas turbine",
+  "height": 9500,
   "id": "10MBA10",
+  "length": 28000,
+  "location": "GT hall, GT enclosure on the GT axis N 165.0",
   "manufacturer": "Imaginary Electric Company",
   "model": "IE-9H.02",
+  "orientation": 0,
+  "position": [
+    144000,
+    165000,
+    15000
+  ],
   "quantity": 1,
   "rated_power": 425000.0,
   "remarks": "SRC output; ISO rating 432 MW; output limit 470 MW (cold ambient)",
+  "shape": "box",
   "status": "preliminary",
-  "system": "10MB"
+  "system": "10MB",
+  "width": 10000
 }

@@ -30,7 +30,7 @@ def footprint(eq):
 class PlotPlan(Engine):
     name = "plot_plan"
     title = "Plot plan (DXF + PDF): equipment footprints, pipe centrelines, coordinate grid"
-    version = "1.0.0"
+    version = "1.1.0"
     inputs = ["project", "equipment", "line", "pipe_component", "pipe_size"]
     formats = ["dxf", "pdf"]
 
@@ -40,6 +40,10 @@ class PlotPlan(Engine):
         doc = dxfkit.new_doc()
         msp = doc.modelspace()
         eqs = [e for e in s.records("equipment") if e.get("position") and e.get("status") != "deleted"]
+        ext = [p for e in eqs for p in ([e["position"][:2]] + (footprint(e)[1] if footprint(e)[0] == "poly" else []))]
+        ex = max((max(p[0] for p in ext) - min(p[0] for p in ext), max(p[1] for p in ext) - min(p[1] for p in ext)),
+                 default=0) if ext else 0
+        th = max(1.0, 1.2 * ex / 400.0 / 100.0)          # text scale: about 2.5 mm tags on A3 for large plots
         pts = []
         drawn = 0
         for eq in eqs:
@@ -61,8 +65,8 @@ class PlotPlan(Engine):
                 pts += geo
                 tx, ty = sum(p[0] for p in geo) / 4, sum(p[1] for p in geo) / 4
                 drawn += 1
-            dxfkit.text(msp, eq["id"], tx, ty + 350, 300, "EQPT-TAG", "CENTER")
-            dxfkit.text(msp, eq["description"][:40], tx, ty - 250, 180, "EQPT-TAG", "CENTER")
+            dxfkit.text(msp, eq["id"], tx, ty + 350 * th, 300 * th, "EQPT-TAG", "CENTER")
+            dxfkit.text(msp, eq["description"][:40], tx, ty - 250 * th, 180 * th, "EQPT-TAG", "CENTER")
             msp.add_circle((eq["position"][0], eq["position"][1]), 60, dxfattribs={"layer": "EQPT-TAG"})
         for line in s.records("line"):
             comps = piping.components(s, line["id"])
@@ -96,12 +100,12 @@ class PlotPlan(Engine):
         x = gx0
         while x <= gx1:
             msp.add_line((x, gy0), (x, gy1), dxfattribs={"layer": "GRID"})
-            dxfkit.text(msp, f"E {x / 1000:+.0f}", x, gy0 - 500, 250, "GRID", "CENTER")
+            dxfkit.text(msp, f"E {x / 1000:+.0f}", x, gy0 - 500 * th, 250 * th, "GRID", "CENTER")
             x += g
         y = gy0
         while y <= gy1:
             msp.add_line((gx0, y), (gx1, y), dxfattribs={"layer": "GRID"})
-            dxfkit.text(msp, f"N {y / 1000:+.0f}", gx0 - 400, y, 250, "GRID", "RIGHT")
+            dxfkit.text(msp, f"N {y / 1000:+.0f}", gx0 - 400 * th, y, 250 * th, "GRID", "RIGHT")
             y += g
         # north arrow (plant north = +Y)
         nx, ny = gx1 + 1500, gy1 - 3000
@@ -111,6 +115,7 @@ class PlotPlan(Engine):
         # frame + title block scaled to the drawing
         span = max(gx1 - gx0, gy1 - gy0)
         sc = span / 400.0
+        doc.header["$LTSCALE"] = max(1.0, sc)       # dash lengths in paper mm, not model mm (else millions of dashes)
         fx0, fy0, fx1, fy1 = gx0 - 2500, gy0 - 2500 - 60 * sc, gx1 + 3000, gy1 + 1500
         msp.add_lwpolyline([(fx0, fy0), (fx1, fy0), (fx1, fy1), (fx0, fy1)], close=True, dxfattribs={"layer": "BORDER"})
         dxfkit.title_block(msp, fx1, fy0, sc, [

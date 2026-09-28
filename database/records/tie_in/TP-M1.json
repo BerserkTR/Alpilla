@@ -2,9 +2,9 @@
   "_meta": {
     "created_at": "2026-09-27T17:17:25.194422Z",
     "created_by": "OWNR",
-    "rev": 5,
-    "updated_at": "2026-09-28T03:42:03.600921Z",
-    "updated_by": "OWNR"
+    "rev": 6,
+    "updated_at": "2026-09-28T03:58:48.423369Z",
+    "updated_by": "CONS"
   },
   "agreed_by": [
     "OWNER",
@@ -33,7 +33,7 @@
   "location_text": "Public coastal strip south of the plot",
   "medium": "heavy transport",
   "needed_by": "2027-11-01",
-  "operating_conditions": "Heaviest pieces: GT generator stator 340 t, GT GSU 268 t (transport weights, IEC data).",
+  "operating_conditions": "Heaviest pieces (IEC-ALP-REQ-001 section 10): GT core engine 405 t (13.2 x 5.9 x 5.6 m, about 480 t gross on SPMT), GT generator stator 340 t, GT GSU 268 t; landing and haul road designed for 480 t gross SPMT loads.",
   "owner_side": "Coastal permit: application by 2027-04-30 if the Contractor's permit design is received by 2027-03-31; permit targeted by 2027-09-30",
   "service": "Temporary barge landing",
   "status": "agreed"

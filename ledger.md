@@ -5,6 +5,11 @@
 Read before working. Add a lesson whenever something went wrong or a better way was found:
 `python -m engine db add lesson --set title="..." --set lesson="..." --reason "..."`
 
+### L-EPCE-0003 (2026-09-28) Scale linetypes and text to the drawing, and pass the hatch style in set_pattern_fill [drawings, dxf, pdf, verification]
+- Context: The plot plan at real site extents (170 m) took minutes and 1.6 GB: DASHED grid lines in mm units produced hundreds of thousands of dashes, and tags of fixed 300 mm height were unreadable; in the IEC GA drawings hatch lines crossed the labels because ezdxf set_pattern_fill resets hatch_style to 1 (holes ignored)
+- Lesson: Drawing engines tested only on small fixtures hide scale problems; hatch islands need style=0 passed in set_pattern_fill itself
+- Action: Set $LTSCALE and text heights from the drawing scale (plot_plan 1.1.0); call set_pattern_fill(..., style=0) for hatches with label holes; check every generated sheet automatically (labels inside the frame, overlaps) and then zoomed at print size
+
 ### L-EPCE-0002 (2026-09-28) Check every code citation in the requirements against the register, and permit lead times against need dates [standards, permits, authorities, schedule]
 - Context: ER-01.07 referred to an Appendix A.19 that did not exist; six permits had 1-5 days float between approval and need; the EIA marine-works window (no works 1 May - 30 September) contradicted the first tie-in need date for the intake/outfall
 - Lesson: A codes list and a permits list are only useful when they are data checked by an engine: every cited code must resolve to a register entry, every permit must have authority, legal basis, lead time and a need date tied to the schedule

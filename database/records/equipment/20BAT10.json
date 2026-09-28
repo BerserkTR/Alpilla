@@ -2,21 +2,34 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:27.242728Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-27T18:30:43.124235Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T04:13:06.002728Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Power Transformer",
   "basis_refs": [
-    "source:SRC-EPCE-0007"
+    "source:SRC-EPCE-0007",
+    "source:SRC-IECE-0009",
+    "source:SRC-IECE-0013"
   ],
   "description": "ST step-up transformer 270 MVA 400/15.75 kV",
   "equipment_type": "transformer",
+  "height": 4300,
   "id": "20BAT10",
+  "length": 14200,
+  "location": "GSU bay north of the ST hall, fire wall to the hall",
   "manufacturer": "Imaginary Electric Company",
   "model": "IEC GSU 270",
+  "orientation": 0,
+  "position": [
+    96100,
+    117900,
+    15500
+  ],
   "quantity": 1,
+  "shape": "box",
   "status": "preliminary",
   "system": "20BAT",
-  "voltage": 400000
+  "voltage": 400000,
+  "width": 3800
 }

@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T04:17:31.191640Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T04:17:31.191640Z",
+    "updated_by": "EPCE"
+  },
+  "action": "Set $LTSCALE and text heights from the drawing scale (plot_plan 1.1.0); call set_pattern_fill(..., style=0) for hatches with label holes; check every generated sheet automatically (labels inside the frame, overlaps) and then zoomed at print size",
+  "context": "The plot plan at real site extents (170 m) took minutes and 1.6 GB: DASHED grid lines in mm units produced hundreds of thousands of dashes, and tags of fixed 300 mm height were unreadable; in the IEC GA drawings hatch lines crossed the labels because ezdxf set_pattern_fill resets hatch_style to 1 (holes ignored)",
+  "date": "2026-09-28",
+  "id": "L-EPCE-0003",
+  "lesson": "Drawing engines tested only on small fixtures hide scale problems; hatch islands need style=0 passed in set_pattern_fill itself",
+  "status": "active",
+  "tags": [
+    "drawings",
+    "dxf",
+    "pdf",
+    "verification"
+  ],
+  "title": "Scale linetypes and text to the drawing, and pass the hatch style in set_pattern_fill"
+}

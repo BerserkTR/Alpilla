@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T04:13:03.191816Z",
+    "created_by": "IECE",
+    "rev": 1,
+    "updated_at": "2026-09-28T04:13:03.191816Z",
+    "updated_by": "IECE"
+  },
+  "doc_ref": "IEC-ALP-GA-104",
+  "file": "sources/iec/IEC-ALP-GA-104_Rev0.pdf",
+  "id": "SRC-IECE-0013",
+  "originator": "Imaginary Electric Company (consortium member, power island supplier)",
+  "received_date": "2026-09-28",
+  "remarks": "A1 drawing, native DXF sources/iec/IEC-ALP-GA-104_Rev0.dxf (plant grid m, EL m). Equipment outlines, maintenance / withdrawal spaces, laydown, crane coverage and pads, heavy-haul access, installation and maintenance requirement tables; weights per DS-101..106 and REQ-001.",
+  "revision": "0",
+  "title": "Generator step-up transformers - GA, installation and maintenance"
+}
