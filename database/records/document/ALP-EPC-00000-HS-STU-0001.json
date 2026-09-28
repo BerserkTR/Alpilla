@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.844723Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.568408Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:38:31.523078Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -16,7 +16,8 @@
   "id": "ALP-EPC-00000-HS-STU-0001",
   "inputs": [
     "ALP-EPC-00000-PI-PLT-0001",
-    "ALP-IEC-10MBA-HS-RPT-0001"
+    "ALP-IEC-10MBA-HS-RPT-0001",
+    "ALP-EPC-00000-HS-DBR-0001"
   ],
   "originator": "EPC",
   "status": "planned",

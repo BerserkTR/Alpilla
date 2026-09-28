@@ -272,6 +272,15 @@ def compute(store) -> Result:
             ls = x.late_start
             if ls >= NO_NEED:
                 continue
+            xm = mr_recs.get(x.rec.get("mr") or "", {})
+            w1 = x.rec.get("po_weeks_ifr")
+            if (x.rec.get("originator", "EPC") != "EPC" and w1 is not None and w1 >= 0 and not xm.get("po_date")
+                    and d.rec.get("type_code") == "MRQ" and d.rec.get("mr") == x.rec.get("mr")):
+                # supplier data timed from the PO: the requisition must be IFC by vendor data need - weeks - award - bid
+                _, xoff = _review_offsets(x, ts)
+                late_ifc[k] = min(late_ifc[k], late_ifc[s] - xoff - round(5 * w1) - (xm.get("award_days") or 0)
+                                  - (xm.get("bid_days") or 0))
+                continue
             late_ifc[k] = min(late_ifc[k], ls + (off if ts.get("input_maturity", "IFR") == "IFR" else 0))
         d.late_start = late_ifc[k] - off - _prep(d, t) if late_ifc[k] < NO_NEED else NO_NEED
 

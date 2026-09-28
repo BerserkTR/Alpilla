@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.093061Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:16:42.964312Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:38:15.665380Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -20,7 +20,8 @@
   "id": "ALP-EPC-00QCA-ME-DSH-0003",
   "inputs": [
     "ALP-EPC-00QCA-ME-CAL-0001",
-    "ALP-EPC-00QCA-ME-SPC-0001"
+    "ALP-EPC-00QCA-ME-SPC-0001",
+    "ALP-EPC-00000-ME-DBR-0001"
   ],
   "mr": "MR-ME-011",
   "originator": "EPC",

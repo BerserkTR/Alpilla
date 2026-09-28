@@ -117,7 +117,7 @@
     },
     "inputs": {
       "type": "list",
-      "description": "rule ids (DL-..., optional @plant / @cwa / @system) or doc:<document id>"
+      "description": "rule ids (DL-..., optional @plant / @cwa / @system / @structure) or doc:<document id>"
     },
     "ewp_disc": {
       "type": "string",

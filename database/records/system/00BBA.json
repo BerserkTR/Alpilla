@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:00.127728Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:02:56.534378Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:39:13.450682Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "System",
@@ -14,6 +14,9 @@
   "id": "00BBA",
   "mr": "MR-EL-003",
   "scope": "IEPC",
+  "structures": [
+    "00UBA"
+  ],
   "title": "MV switchgear 10.5 kV",
   "unit_no": "00"
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.191870Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.993562Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:37:42.238570Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -16,8 +16,7 @@
   "ewp": "EWP-05-PI-01",
   "id": "ALP-EPC-00PBA-PI-SUP-0001",
   "inputs": [
-    "ALP-EPC-00PBA-PI-ISO-0001",
-    "ALP-EPC-00PAB-PI-STR-0001"
+    "ALP-EPC-00PBA-PI-ISO-0001"
   ],
   "mr": "MR-PI-005",
   "originator": "EPC",

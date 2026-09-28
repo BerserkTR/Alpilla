@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.969761Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:13:53.088491Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T17:38:15.680502Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -14,7 +14,6 @@
   "doc_type": "specification",
   "id": "ALP-EPC-00CJA-IC-SPC-0001",
   "inputs": [
-    "ALP-EPC-00000-IC-DBR-0001",
     "ALP-EPC-00000-IC-IOL-0001",
     "ALP-EPC-00CJA-IC-BLK-0001"
   ],

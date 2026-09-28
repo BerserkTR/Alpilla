@@ -172,3 +172,58 @@ def test_benchmark_and_rule_checks(project):
     rows = [tuple(c.value for c in r[:4]) for r in load_workbook(project.output / "engineering_plan" / "ALP_MDL.xlsx")["Checks"]
             .iter_rows(min_row=2)]
     assert any(r[0] == "BM-PR-MAX" and r[2] == "INFO" for r in rows)
+
+
+def test_inputs_never_fall_back_across_instances_of_one_scope(project):
+    """Regression: a supplier document of an MR without requisition must not take the requisition of another MR in the
+    same area; a system document must not take the P&ID of another system in the same area."""
+    s = setup(project)
+    s.create("mr", {"id": "MR-ME-101", "title": "GT (IEC)", "discipline": "mechanical", "package_type": "iec_supply",
+                    "cwps": ["CWP-05-PI-01"], "po_date": "2026-11-02", "status": "agreed"}, R)
+    s.create("system", {"id": "00PAB", "title": "CW piping", "category": "cooling", "cwas": ["CWA-05"], "q_pid_sheets": 1}, R)
+    rule(s, "DL-MR-MRQ", "MRQ", "mechanical", "mr", "MRQ - {name}", package_types=["equipment"])
+    rule(s, "DL-V-DSH", "DSH", "mechanical", "mr", "Supplier DSH - {name}", org="SUPPLIER",
+         package_types=["equipment", "iec_supply"], inputs=["DL-MR-MRQ"], po_weeks_ifr=4)
+    rule(s, "DL-A", "PID", "process", "system", "P&ID - {name}", quantity="q_pid_sheets")
+    rule(s, "DL-B", "CMP", "commissioning", "system", "Commissioning - {name}", inputs=["DL-A"]) \
+        if s.get("doc_type", "CMP") else None
+    inst, errs = mdl.required(s)
+    assert not errs
+    assert inst["DL-V-DSH|MR-ME-101|1"].inputs == []                          # IEC package: no MRQ of MR-ME-003
+    assert inst["DL-V-DSH|MR-ME-003|1"].inputs == ["DL-MR-MRQ|MR-ME-003|1"]
+
+
+def test_structure_input_mode_and_design_criteria_check(project):
+    s = setup(project)
+    s.create("system", {"id": "00UPC", "title": "CW pump house", "category": "civil_structural", "cwas": ["CWA-05"],
+                        "q_fnd_sheets": 4}, R)
+    s.create("system", {"id": "00UQA", "title": "Utility building", "category": "civil_structural", "cwas": ["CWA-05"],
+                        "q_fnd_sheets": 2}, R)
+    s.update("system", "00PAC", {"structures": ["00UPC"]}, R)
+    dtype(s, "FND", "approval", prep=20)
+    rule(s, "DL-V-FDL", "DSH", "civil", "mr", "Loads - {name}", org="SUPPLIER", package_types=["equipment"], po_weeks_ifr=6)
+    rule(s, "DL-CV-EFD", "FND", "civil", "structure", "Equipment foundations - {name}", quantity="q_fnd_sheets",
+         inputs=["DL-V-FDL@structure"])
+    inst, _ = mdl.required(s)
+    assert inst["DL-CV-EFD|00UPC|1"].inputs == ["DL-V-FDL|MR-ME-003|1"]       # CW pumps stand in the pump house
+    assert inst["DL-CV-EFD|00UQA|1"].inputs == []                             # nothing of MR-ME-003 in the utility building
+    m = run_engine(project, Store(project, who()), registry()["engineering_plan"], {"pdf": "no"})
+    w = " | ".join(m["warnings"])
+    assert "no design criteria document for mechanical" in w and "no design criteria document for process" not in w
+
+
+def test_requisition_priority_follows_vendor_data_need(project):
+    """The backward pass carries a supplier document's PO chain to its requisition (latest start)."""
+    s = setup(project)
+    s.update("mr", "MR-ME-003", {"bid_days": 30, "award_days": 10}, R)
+    s.create("document", {"id": "ALP-M03-00PAC-CV-CAL-0001", "title": "Loads", "discipline": "civil", "doc_type": "calculation",
+                          "type_code": "CAL" if s.get("doc_type", "CAL") else "DSH", "originator": "M03", "system": "00PAC",
+                          "mr": "MR-ME-003", "po_weeks_ifr": 6, "inputs": ["ALP-EPC-00PAC-ME-MRQ-0001"]}, R)
+    s.update("document", "ALP-EPC-00PAC-PI-ISO-0001", {"inputs": ["ALP-EPC-00PAC-PR-PID-0001", "ALP-M03-00PAC-CV-CAL-0001"]}, R)
+    r = workflow.compute(s)
+    mrq, loads, iso = r.docs["ALP-EPC-00PAC-ME-MRQ-0001"], r.docs["ALP-M03-00PAC-CV-CAL-0001"], r.docs["ALP-EPC-00PAC-PI-ISO-0001"]
+    _, moff = workflow._review_offsets(mrq, s.get("doc_type", "MRQ"))
+    t = s.get("doc_type", loads.rec["type_code"])
+    _, loff = workflow._review_offsets(loads, t)
+    loads_late_ifc = loads.late_start + loff + workflow._prep(loads, t)
+    assert mrq.late_start + workflow._prep(mrq, s.get("doc_type", "MRQ")) + moff <= loads_late_ifc - loff - 30 - 40

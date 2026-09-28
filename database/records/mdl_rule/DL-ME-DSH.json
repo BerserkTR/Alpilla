@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.891401Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:21:20.265793Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:38:13.480071Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -29,7 +29,8 @@
   "id": "DL-ME-DSH",
   "inputs": [
     "DL-ME-CAL@system",
-    "DL-MR-SPC@system"
+    "DL-MR-SPC@system",
+    "DL-DBR-ME"
   ],
   "originator": "EPC",
   "quantity": "q_equipment",

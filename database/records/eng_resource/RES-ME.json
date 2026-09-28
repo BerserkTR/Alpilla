@@ -2,15 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T15:15:58.164049Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:15:33.035740Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:40:13.651040Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
     "decision:DEC-EPCE-0010"
   ],
   "discipline": "mechanical",
-  "fte": 9,
+  "fte": 12,
   "hours_per_day": 7.5,
   "id": "RES-ME",
   "ramp_weeks": 12

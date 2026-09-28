@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.887747Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.265531Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:38:10.873169Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -24,7 +24,8 @@
   "hours_per_sheet": 8,
   "id": "DL-ME-CAL",
   "inputs": [
-    "DL-PR-SDS"
+    "DL-PR-SDS",
+    "DL-DBR-PR"
   ],
   "originator": "EPC",
   "parties": [

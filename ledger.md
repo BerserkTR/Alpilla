@@ -5,6 +5,11 @@
 Read before working. Add a lesson whenever something went wrong or a better way was found:
 `python -m engine db add lesson --set title="..." --set lesson="..." --reason "..."`
 
+### L-EPCE-0010 (2026-09-28) Check the MDL for the key document of each discipline, not only for quantities [mdl, engineering, verification]
+- Context: MDL Rev B passed the quantity benchmarks but had no process, mechanical or HSE design criteria; the user noticed. While fixing it, a fallback in the rule input resolution was found to have linked 2,104 documents to the P&IDs, narratives and requisitions of other systems and packages in the same area
+- Lesson: Quantity checks do not show a missing key document, and plausible-looking networks can hide systematic wrong links; both need explicit checks
+- Action: Keep design criteria as rules with the design-criteria check in engineering_plan; resolve rule inputs within the same scope only (explicit @modes otherwise) and review the inputs-removed report of every mdl sync
+
 ### L-EPCE-0009 (2026-09-28) Levelling must re-evaluate its thresholds as work is consumed [engine, planning, verification]
 - Context: A minimum daily booking computed once from the full document hours stopped documents from ever finishing their last hours; they ran to the 12-year search horizon (2038) without an error
 - Lesson: Loop thresholds that depend on the remaining quantity must be recomputed inside the loop; results at the search horizon are a bug signal, not a plan

@@ -143,6 +143,9 @@ Add one by copying `engine/engines/equipment_list.py`; it is discovered automati
   `python -m engine mdl sync` shows what is missing / to update / orphaned, `--apply --reason ..` writes it
   (`--cancel-orphans` cancels documents no longer required). Single deliverables are individual `document` records.
   `mdl_benchmark` records give indicative ranges per discipline; `engineering_plan` warns below them.
+  Design criteria per discipline are rules too (`DL-DBR-*`); `engineering_plan` warns when a design discipline has none.
+  Rule inputs resolve within the same scope (`@plant`, `@cwa`, `@system`, `@structure` select explicitly; `system.structures`
+  says which structures house a system, so equipment foundations wait only for the vendor loads of their own equipment).
 
 ## Tests
 `python -m pytest -q`

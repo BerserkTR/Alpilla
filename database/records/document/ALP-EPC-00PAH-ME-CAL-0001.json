@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.902945Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.441636Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:38:15.634264Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -14,7 +14,8 @@
   "doc_type": "calculation",
   "id": "ALP-EPC-00PAH-ME-CAL-0001",
   "inputs": [
-    "ALP-EPC-00PAH-PR-SDS-0001"
+    "ALP-EPC-00PAH-PR-SDS-0001",
+    "ALP-EPC-00000-PR-DBR-0001"
   ],
   "originator": "EPC",
   "rule": "DL-ME-CAL|00PAH|1",

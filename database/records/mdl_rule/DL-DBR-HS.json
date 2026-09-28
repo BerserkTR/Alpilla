@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:38:08.295686Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:38:08.295686Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.03",
+    "requirement:ER-14.05",
+    "requirement:ER-14.07"
+  ],
+  "bdp": true,
+  "discipline": "hse",
+  "hours_base": 200,
+  "id": "DL-DBR-HS",
+  "inputs": [
+    "doc:ALP-EPC-00000-GE-DBR-0001"
+  ],
+  "originator": "EPC",
+  "scope": "plant",
+  "status": "agreed",
+  "title": "HSE design criteria (noise, safety distances, escape and access, ergonomics, hazardous substances)",
+  "type_code": "DBR"
+}

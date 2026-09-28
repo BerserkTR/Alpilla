@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:40:50.881841Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:40:50.881841Z",
+    "updated_by": "EPCE"
+  },
+  "action": "Keep design criteria as rules with the design-criteria check in engineering_plan; resolve rule inputs within the same scope only (explicit @modes otherwise) and review the inputs-removed report of every mdl sync",
+  "context": "MDL Rev B passed the quantity benchmarks but had no process, mechanical or HSE design criteria; the user noticed. While fixing it, a fallback in the rule input resolution was found to have linked 2,104 documents to the P&IDs, narratives and requisitions of other systems and packages in the same area",
+  "date": "2026-09-28",
+  "id": "L-EPCE-0010",
+  "lesson": "Quantity checks do not show a missing key document, and plausible-looking networks can hide systematic wrong links; both need explicit checks",
+  "status": "active",
+  "tags": [
+    "mdl",
+    "engineering",
+    "verification"
+  ],
+  "title": "Check the MDL for the key document of each discipline, not only for quantities"
+}

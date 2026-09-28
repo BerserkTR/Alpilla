@@ -11,6 +11,7 @@ CWP activities (engine/core/workflow.py). Checks:
 - coverage: every system has its required document types (by category) and at least one document, every requirement and
   every EPC/IEC scope item is answered by a document, every equipment item has a datasheet, an MR and a CWP, every MR its
   specification and requisition, every CWP an EWP with documents;
+- design criteria: every design discipline has its design criteria document;
 - completeness: the MDL rules (mdl_rule) are in sync with the documents, and the quantities per discipline are within the
   indicative benchmarks (mdl_benchmark: below = WARN, above = INFO);
 - plant data: every equipment item, system and document carries an AVEVA class (ER-01.06); the KKS key list and the AWP
@@ -26,6 +27,7 @@ from ..core import kks, mdl, workflow
 from ..core.runner import Context, Engine
 
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
+DESIGN_DISCIPLINES = ["process", "mechanical", "piping", "electrical", "i_and_c", "civil", "hvac", "hse"]
 
 
 def _short(text, n=58):
@@ -102,6 +104,12 @@ def check_engineering(s, res) -> list[tuple[str, str, str, str]]:
                 st = "WARN" if lo is not None and act[k] < lo else ("INFO" if hi is not None and act[k] > hi else "OK")
                 rng = (f"{lo:,}" if lo is not None else "-") + " - " + (f"{hi:,}" if hi is not None else "-")
                 add(b["id"], "benchmark", st, f"{b['discipline']} {b['originator']} {k} {act[k]:,.0f} vs indicative {rng}")
+    # --- design criteria: every design discipline has its design criteria (a DBR or a "design criteria" document)
+    for disc in DESIGN_DISCIPLINES:
+        crit = [d["id"] for d in docs if d.get("discipline") == disc
+                and (d.get("type_code") == "DBR" or "criteria" in (d.get("title") or "").lower())]
+        add(disc, "design criteria", "OK" if crit else "WARN",
+            f"{', '.join(crit)}" if crit else f"no design criteria document for {disc}")
     # --- workflow rules
     ids = {d["id"] for d in docs}
     for d in docs:

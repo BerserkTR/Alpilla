@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.928738Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.530542Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:37:42.233139Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -18,7 +18,6 @@
   "inputs": [
     "ALP-EPC-00000-PI-M3D-0002",
     "ALP-EPC-00SGA-PR-PID-0001",
-    "ALP-EPC-00UZA-PI-PPL-0001",
     "ALP-EPC-00UQA-PI-PPL-0001",
     "ALP-EPC-00UQA-PI-PPL-0002",
     "ALP-EPC-00UQA-PI-PPL-0003",

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.888420Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.270844Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T17:38:11.776478Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -24,7 +24,8 @@
   "hours_per_sheet": 6,
   "id": "DL-PR-PSV",
   "inputs": [
-    "DL-PR-PID"
+    "DL-PR-PID",
+    "DL-DBR-PR"
   ],
   "max_sheets": 40,
   "mr": "MR-PI-007",

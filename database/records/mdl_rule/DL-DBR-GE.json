@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:38:08.290174Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T17:38:08.290174Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.02"
+  ],
+  "bdp": true,
+  "discipline": "general",
+  "hours_base": 160,
+  "id": "DL-DBR-GE",
+  "originator": "EPC",
+  "scope": "plant",
+  "status": "agreed",
+  "title": "Plant design basis report",
+  "type_code": "DBR"
+}

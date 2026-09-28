@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.968906Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.505891Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:38:15.679498Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -13,9 +13,7 @@
   "discipline": "electrical",
   "doc_type": "specification",
   "id": "ALP-EPC-00000-EL-SPC-0005",
-  "inputs": [
-    "ALP-EPC-00000-EL-DBR-0001"
-  ],
+  "inputs": [],
   "mr": "MR-EL-009",
   "originator": "EPC",
   "rule": "DL-MR-SPC|MR-EL-009|1",

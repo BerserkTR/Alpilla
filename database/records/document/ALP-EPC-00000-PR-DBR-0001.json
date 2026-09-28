@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T17:38:15.619324Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T17:38:15.621202Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-01.02",
+    "requirement:ER-02.01"
+  ],
+  "bdp": true,
+  "discipline": "process",
+  "doc_type": "report",
+  "id": "ALP-EPC-00000-PR-DBR-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-DBR-0001",
+    "ALP-EPC-00000-PR-HMB-0001"
+  ],
+  "originator": "EPC",
+  "rule": "DL-DBR-PR|00000|1",
+  "sheets": 1,
+  "status": "planned",
+  "title": "Process design criteria (design margins, design pressure / temperature, line sizing, overpressure protection API 520/521, utility and site conditions)",
+  "type_code": "DBR",
+  "weight": 200
+}

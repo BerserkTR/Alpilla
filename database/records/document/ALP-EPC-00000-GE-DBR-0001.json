@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.825249Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.559776Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:38:15.622443Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,9 +25,11 @@
   "doc_type": "report",
   "id": "ALP-EPC-00000-GE-DBR-0001",
   "originator": "EPC",
+  "rule": "DL-DBR-GE|00000|1",
+  "sheets": 1,
   "status": "planned",
   "tender": true,
   "title": "Plant design basis report",
   "type_code": "DBR",
-  "weight": 200.0
+  "weight": 160
 }

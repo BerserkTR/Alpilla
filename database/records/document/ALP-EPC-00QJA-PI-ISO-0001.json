@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.924415Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.529440Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T17:37:42.231766Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -20,13 +20,7 @@
     "ALP-EPC-00QJA-PR-PID-0001",
     "ALP-EPC-00UQA-PI-PPL-0001",
     "ALP-EPC-00UQA-PI-PPL-0002",
-    "ALP-EPC-00UQA-PI-PPL-0003",
-    "ALP-EPC-00LBG-PI-STR-0001",
-    "ALP-EPC-00PGA-PI-STR-0001",
-    "ALP-EPC-00QHA-PI-STR-0001",
-    "ALP-EPC-00SGA-PI-STR-0001",
-    "ALP-EPC-10LAB-PI-STR-0001",
-    "ALP-EPC-10LAC-PI-STR-0001"
+    "ALP-EPC-00UQA-PI-PPL-0003"
   ],
   "originator": "EPC",
   "rule": "DL-PI-ISO|00QJA|1",

@@ -379,7 +379,8 @@ class Procedures(Engine):
                         brow.append([b["id"], f"{b['discipline']} / {b['originator']}", k, f"{act[k]:,.0f}",
                                      (f"{lo:,}" if lo is not None else "-") + " - " + (f"{hi:,}" if hi is not None else "-")])
             d.table(["Benchmark", "Scope", "Measure", "MDL", "Indicative range"], brow, [2.6, 4.2, 2.0, 2.6, 4.0], size=7.5)
-        d.p("Coverage is checked at every engine run: every KKS system has the document types its category requires, every "
+        d.p("Coverage is checked at every engine run: every design discipline has its design criteria, every KKS system "
+            "has the document types its category requires, every "
             "Employer's Requirement and every EPC / IEC scope item is answered by at least one document, every equipment "
             "item has a datasheet, an MR and a CWP, every MR a specification and a requisition, every CWP an EWP.")
 
@@ -497,7 +498,7 @@ class Procedures(Engine):
             "Supplier document quantities follow the package rules; the supplier's own VDRL replaces them after the PO.",
             "KKS key titles are not yet verified against the licensed VGB key catalogue (Owner's Engineer, TQ-035)."])
         self._checks(d, {"inputs", "coverage system", "coverage requirement", "coverage scope", "coverage equipment",
-                         "coverage MR", "key date", "MDL rules", "benchmark"})
+                         "coverage MR", "key date", "MDL rules", "benchmark", "design criteria"})
 
     def _load(self):
         res = self.res

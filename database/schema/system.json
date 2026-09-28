@@ -185,6 +185,11 @@
       "type": "integer",
       "min": 0,
       "description": "estimated number of cables (power, control, instrument); the MDL uses max(estimate, register count)"
+    },
+    "structures": {
+      "type": "ref_list",
+      "to": "system",
+      "description": "structures (KKS U...) housing the equipment of the system (equipment foundations follow their vendor loads)"
     }
   }
 }

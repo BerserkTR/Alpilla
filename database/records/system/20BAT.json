@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.854744Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:03:04.488856Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T17:39:13.439603Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "System",
@@ -30,6 +30,9 @@
   "q_remarks": "Estimated per DEC-EPCE-0008; replaced by register counts as the P&IDs and models develop",
   "q_stress_packages": 0,
   "scope": "IEC",
+  "structures": [
+    "00UBF"
+  ],
   "title": "ST generator step-up transformer",
   "unit_no": "20"
 }

@@ -6,9 +6,8 @@ over the systems of the scope; the register count replaces the estimate when it 
 EWP / MR links and, for supplier documents, the timing after the purchase order. `required()` expands the rules into
 instances; `plan_sync()` compares them with the document records:
   create  - instance without a document (new number allocated per ALP-<ORG>-<KKS>-<DISC>-<TYPE>-<NNNN>)
-  update  - rule-managed document whose sheets, hours, links or inputs differ from the rule (an input that is a
-            rule-generated document of a rule no longer listed in the rule's inputs is removed; other inputs, and supplier
-            documents with committed dates, are kept)
+  update  - rule-managed document whose sheets, hours, links or inputs differ from the rule (its rule-generated inputs
+            are exactly those the rule resolves to; manual inputs and supplier documents with committed dates are kept)
   orphan  - document whose rule instance no longer exists, or whose type changed (the number changes: a new document is
             created); reported, cancelled only with mdl sync --apply --cancel-orphans, never deleted
 A document is rule-managed when its `rule` field holds the instance key <rule id>|<scope key>|<part>."""
@@ -237,13 +236,17 @@ def required(store) -> tuple[dict[str, Inst], list[str]]:
                 sel = [x for x in cands if i.cwa and x.cwa == i.cwa]
             elif mode == "system":
                 sel = [x for x in cands if x.systems & i.systems]
+            elif mode == "structure":
+                housed = {k for k, v in c.systems.items() if i.scope_key in (v.get("structures") or [])}
+                sel = [x for x in cands if x.systems & housed]
             elif mode == "all":
                 sel = cands
             else:
                 sel = [x for x in cands if x.scope_key == i.scope_key]
+                same_scope = cands[0].rule["scope"] == i.rule["scope"]      # no fallback between instances of one scope
                 if not sel and all(x.scope_key == "00000" for x in cands):
                     sel = cands
-                if not sel and i.cwa:
+                if not sel and i.cwa and not same_scope:
                     sel = [x for x in cands if x.cwa == i.cwa]
                 if not sel and i.scope_key == "00000":
                     sel = cands
@@ -328,8 +331,7 @@ def plan_sync(store) -> SyncPlan:
             ch["basis_refs"] = br
         allowed = {e.partition("@")[0] for e in i.rule.get("inputs") or [] if not e.startswith("doc:")}
         cur = list(d.get("inputs") or [])
-        keep = [x for x in cur if x in ins or docs.get(x, {}).get("planned_ifr")
-                or not (docs.get(x, {}).get("rule") and docs[x]["rule"].split("|")[0] not in allowed)]
+        keep = [x for x in cur if x in ins or docs.get(x, {}).get("planned_ifr") or not docs.get(x, {}).get("rule")]
         new_in = [x for x in ins if x not in keep and x != d["id"]]
         if new_in or len(keep) != len(cur):
             ch["inputs"] = keep + new_in

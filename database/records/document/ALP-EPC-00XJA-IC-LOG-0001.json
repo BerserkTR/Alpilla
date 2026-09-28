@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.064414Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:58.040083Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:37:42.227018Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -14,8 +14,6 @@
   "doc_type": "diagram",
   "id": "ALP-EPC-00XJA-IC-LOG-0001",
   "inputs": [
-    "ALP-EPC-00SAA-IC-CNR-0001",
-    "ALP-EPC-00SAA-HV-PID-0001",
     "ALP-EPC-00000-IC-RPT-0001"
   ],
   "originator": "EPC",

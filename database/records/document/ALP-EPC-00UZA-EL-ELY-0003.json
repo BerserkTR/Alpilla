@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.966906Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:57.951155Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:37:42.218963Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -16,7 +16,6 @@
   "ewp": "EWP-12-EL-01",
   "id": "ALP-EPC-00UZA-EL-ELY-0003",
   "inputs": [
-    "ALP-EPC-00UZD-CV-FND-0001",
     "ALP-EPC-00UZA-CV-CVL-0002",
     "ALP-EPC-00000-EL-STU-0003",
     "ALP-EPC-00000-EL-STU-0004"

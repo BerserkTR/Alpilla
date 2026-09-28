@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.972880Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:04:05.507549Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T17:38:15.681180Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -14,7 +14,6 @@
   "doc_type": "specification",
   "id": "ALP-EPC-00QUA-IC-SPC-0001",
   "inputs": [
-    "ALP-EPC-00000-IC-DBR-0001",
     "ALP-EPC-00QUA-PR-SDS-0001"
   ],
   "mr": "MR-IC-003",

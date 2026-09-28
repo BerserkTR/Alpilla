@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:19:40.055575Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:21:21.243101Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T17:38:15.625810Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -17,7 +17,8 @@
   "id": "ALP-EPC-00UQA-HS-GAD-0001",
   "inputs": [
     "ALP-EPC-00UQA-CV-ARC-0001",
-    "ALP-EPC-00000-HS-HAZ-0009"
+    "ALP-EPC-00000-HS-HAZ-0009",
+    "ALP-EPC-00000-HS-DBR-0001"
   ],
   "originator": "EPC",
   "review": "approval",
