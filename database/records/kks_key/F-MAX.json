@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.908421Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.965651Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-MAX",
+  "key": "MAX",
+  "level": "function",
+  "main_group": "Main machine sets",
+  "status": "agreed",
+  "title": "ST control fluid system",
+  "verified": false
+}

@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.847649Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.545801Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-16.03"
+  ],
+  "discipline": "commissioning",
+  "doc_type": "procedure",
+  "id": "ALP-EPC-00000-CM-CMP-0003",
+  "inputs": [
+    "ALP-EPC-00000-EL-STU-0006",
+    "ALP-IEC-10MKA-EL-RPT-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "Grid Code compliance test programme",
+  "type_code": "CMP",
+  "weight": 60.0
+}

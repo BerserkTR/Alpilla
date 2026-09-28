@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.135363Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.228973Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "civil_structural",
+  "id": "00GQA",
+  "scope": "IEPC",
+  "title": "Storm water drainage",
+  "unit_no": "00"
+}

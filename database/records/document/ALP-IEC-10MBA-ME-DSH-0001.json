@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.849084Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.777054Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-01.08",
+    "requirement:ER-05.01",
+    "requirement:ER-05.03",
+    "requirement:ER-05.04",
+    "requirement:ER-05.07",
+    "scope_item:DR-001",
+    "scope_item:DR-009",
+    "scope_item:SC-006",
+    "source:SRC-IECE-0006"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "10MBA10"
+  ],
+  "id": "ALP-IEC-10MBA-ME-DSH-0001",
+  "originator": "IEC",
+  "planned_ifc": "2026-12-28",
+  "planned_ifr": "2026-11-02",
+  "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "source": "SRC-IECE-0006",
+  "status": "planned",
+  "system": "10MBA",
+  "systems": [
+    "10MBL",
+    "10MBP",
+    "10MBN",
+    "10MBU",
+    "10MBV"
+  ],
+  "title": "Gas turbine IE-9H.02 datasheet",
+  "type_code": "DSH",
+  "vendor_ref": "IEC-ALP-DS-101",
+  "weight": 16.0
+}

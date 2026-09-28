@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.923715Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.935153Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "A-CQ",
+  "key": "CQ",
+  "level": "equipment_unit",
+  "main_group": "equipment unit",
+  "status": "agreed",
+  "title": "Direct measuring circuit - analysis",
+  "verified": false
+}

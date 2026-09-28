@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.911465Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.969709Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-PAC",
+  "key": "PAC",
+  "level": "function",
+  "main_group": "Cooling water systems",
+  "status": "agreed",
+  "title": "CW pumps",
+  "verified": false
+}

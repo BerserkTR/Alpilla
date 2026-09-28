@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.935307Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.651702Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-EPC-00PBA-ME-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00PBA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-005",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00PBA",
+  "title": "Inspection and test plan - Electro-chlorination package",
+  "type_code": "ITP",
+  "weight": 16.0
+}

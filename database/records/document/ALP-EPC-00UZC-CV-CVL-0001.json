@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.011036Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.709353Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-02.09",
+    "requirement:ER-02.13",
+    "requirement:ER-09.06",
+    "scope_item:SC-005"
+  ],
+  "cwa": "CWA-12",
+  "discipline": "civil",
+  "doc_type": "drawing",
+  "ewp": "EWP-12-CV-02",
+  "id": "ALP-EPC-00UZC-CV-CVL-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-RPT-0001",
+    "ALP-EPC-00000-PI-PLT-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 6,
+  "status": "planned",
+  "system": "00UZC",
+  "systems": [
+    "00GQA"
+  ],
+  "title": "Site grading, storm and oily drainage master plan",
+  "type_code": "CVL",
+  "weight": 90.0
+}

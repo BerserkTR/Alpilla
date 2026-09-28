@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.833895Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:50:08.833895Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "civil",
+  "duration": 300,
+  "id": "CWP-12-CV-02",
+  "phase": "construction",
+  "predecessors": [
+    "CWP-12-CV-01:SS+60"
+  ],
+  "responsible": "Civil contractor",
+  "title": "Roads, drainage and underground services",
+  "type": "task",
+  "wbs": "ALP.C.12"
+}

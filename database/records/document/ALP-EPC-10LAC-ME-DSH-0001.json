@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.982890Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.722037Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "10LAC10AP001",
+    "10LAC10AP002"
+  ],
+  "id": "ALP-EPC-10LAC-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-10LAC-ME-CAL-0001",
+    "ALP-EPC-10LAC-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-001",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "10LAC",
+  "tender": true,
+  "title": "Datasheet - Boiler feed pumps: pump (2 items)",
+  "type_code": "DSH",
+  "weight": 16.0
+}

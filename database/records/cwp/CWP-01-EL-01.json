@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.621277Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.784027Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-01-EL-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Electrical contractor",
+  "cwa": "CWA-01",
+  "discipline": "electrical",
+  "ewp_lead_days": 20,
+  "id": "CWP-01-EL-01",
+  "scope": "UAT, busduct connections, cabling, lighting, earthing connections",
+  "status": "agreed",
+  "title": "Electrical - power block GT/HRSG"
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.844554Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:50:08.844554Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "piping",
+  "duration": 120,
+  "id": "CWP-08-PI-01",
+  "phase": "construction",
+  "predecessors": [
+    "CWP-08-ME-01:SS+30"
+  ],
+  "responsible": "Mechanical contractor",
+  "title": "Piping - BOP utilities",
+  "type": "task",
+  "wbs": "ALP.C.08"
+}

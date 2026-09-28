@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.871170Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.767757Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "calculation",
+  "id": "ALP-EPC-20MAN-ME-CAL-0001",
+  "inputs": [
+    "ALP-EPC-20MAN-PR-SDS-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "system": "20MAN",
+  "title": "Sizing and hydraulic calculation - Turbine bypass stations and piping",
+  "type_code": "CAL",
+  "weight": 60.0
+}

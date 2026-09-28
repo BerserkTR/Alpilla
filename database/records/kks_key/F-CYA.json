@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.898827Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.955486Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-CYA",
+  "key": "CYA",
+  "level": "function",
+  "main_group": "Instrumentation and control",
+  "status": "agreed",
+  "title": "Communication, CCTV, access control and security",
+  "verified": false
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.829957Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.214123Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "cwp": "CWP-05-ME-01",
+  "discipline": "mechanical",
+  "id": "EWP-05-ME-01",
+  "status": "agreed",
+  "title": "IFC documents for CW pumps, screens, electro-chlorination"
+}

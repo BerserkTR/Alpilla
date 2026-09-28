@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.843633Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T14:54:08.475481Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "i_and_c",
+  "duration": 70,
+  "id": "CWP-07-IC-01",
+  "phase": "construction",
+  "predecessors": [
+    "CWP-07-EL-01:SS+20"
+  ],
+  "responsible": "I&C contractor",
+  "title": "I&C - water treatment",
+  "type": "task",
+  "wbs": "ALP.C.07"
+}

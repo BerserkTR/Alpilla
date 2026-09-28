@@ -1,13 +1,13 @@
 {
   "entity": "document",
-  "title": "Deliverable / document register entry (MDR line)",
-  "id_pattern": "^[A-Z0-9][A-Z0-9._-]*$",
+  "title": "Deliverable / document register entry (MDL line); number = ALP-<ORG>-<KKS>-<DISC>-<TYPE>-<NNNN>",
+  "id_pattern": "^ALP-[A-Z0-9]{3}-[0-9]{2}([A-Z]{3}|000)-[A-Z]{2}-[A-Z][A-Z0-9]{2}-[0-9]{4}$",
   "display": [
     "title",
-    "discipline",
-    "doc_type",
-    "status",
-    "planned_ifc"
+    "type_code",
+    "system",
+    "ewp",
+    "status"
   ],
   "fields": {
     "title": {
@@ -115,6 +115,80 @@
     },
     "remarks": {
       "type": "text"
+    },
+    "type_code": {
+      "type": "ref",
+      "to": "doc_type",
+      "description": "document type of the numbering system (TYPE part of the number)"
+    },
+    "systems": {
+      "type": "ref_list",
+      "to": "system",
+      "description": "further systems covered"
+    },
+    "cwa": {
+      "type": "ref",
+      "to": "cwa"
+    },
+    "ewp": {
+      "type": "ref",
+      "to": "ewp"
+    },
+    "mr": {
+      "type": "ref",
+      "to": "mr"
+    },
+    "equipment": {
+      "type": "ref_list",
+      "to": "equipment"
+    },
+    "inputs": {
+      "type": "ref_list",
+      "to": "document",
+      "description": "documents this one needs (workflow network)"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "requirement",
+        "decision",
+        "reference",
+        "tie_in",
+        "scope_item",
+        "guarantee"
+      ],
+      "description": "requirements it satisfies, sources it uses"
+    },
+    "review": {
+      "type": "enum",
+      "values": [
+        "approval",
+        "review",
+        "information",
+        "internal"
+      ],
+      "description": "overrides the type's Owner review class"
+    },
+    "bdp": {
+      "type": "boolean",
+      "description": "part of the Basic Design Package (21-day Owner review, ER-17.01)"
+    },
+    "sheets": {
+      "type": "integer"
+    },
+    "vendor_ref": {
+      "type": "string",
+      "description": "supplier's own document number"
+    },
+    "source": {
+      "type": "ref",
+      "to": "source",
+      "description": "received file of a supplier document"
+    },
+    "tender": {
+      "type": "boolean",
+      "description": "tender-stage document: exists from the bid design, first issue (IFR) at NTP"
     }
   }
 }

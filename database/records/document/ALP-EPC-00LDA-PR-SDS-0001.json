@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.895558Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.638682Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-09.04",
+    "scope_item:DR-024",
+    "scope_item:SC-019"
+  ],
+  "discipline": "process",
+  "doc_type": "report",
+  "id": "ALP-EPC-00LDA-PR-SDS-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-DBR-0001",
+    "ALP-EPC-00000-PR-PFD-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00LDA",
+  "tender": true,
+  "title": "System design description - Condensate polishing",
+  "type_code": "SDS",
+  "weight": 60.0
+}

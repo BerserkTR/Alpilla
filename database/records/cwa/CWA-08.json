@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.482818Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.378190Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "basis_refs": [
+    "source:SRC-IECE-0009",
+    "source:SRC-OWNR-0010"
+  ],
+  "description": "BFPs, CCW, compressed air, auxiliary boiler, N2, chemical dosing, ammonia storage, fire pumps",
+  "e_max": 290,
+  "e_min": 180,
+  "id": "CWA-08",
+  "n_max": 125,
+  "n_min": 55,
+  "path_seq": 4,
+  "status": "agreed",
+  "structures": [
+    "00UQA"
+  ],
+  "title": "BOP utilities"
+}

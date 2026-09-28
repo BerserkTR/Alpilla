@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:40.108867Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T14:58:24.094451Z",
+    "updated_by": "EPCE"
+  },
+  "category": "report",
+  "construction": false,
+  "dcc": "D",
+  "hours": 60,
+  "id": "RPT",
+  "input_maturity": "IFR",
+  "prep_days": 15,
+  "procurement": false,
+  "review": "review",
+  "title": "Technical report",
+  "update_days": 5
+}

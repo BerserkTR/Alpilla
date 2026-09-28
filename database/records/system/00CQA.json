@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.132541Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.225345Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "i_and_c",
+  "id": "00CQA",
+  "scope": "IEPC",
+  "title": "Continuous emission monitoring",
+  "unit_no": "00"
+}

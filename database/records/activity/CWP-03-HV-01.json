@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.839789Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:50:08.839789Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "hvac",
+  "duration": 70,
+  "id": "CWP-03-HV-01",
+  "phase": "construction",
+  "predecessors": [
+    "CWP-03-SS-01:SS+100"
+  ],
+  "responsible": "HVAC contractor",
+  "title": "HVAC plant and electrical building HVAC",
+  "type": "task",
+  "wbs": "ALP.C.03"
+}

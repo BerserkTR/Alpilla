@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.133755Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.226181Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "fuel_gas",
+  "id": "00EGB",
+  "scope": "IEPC",
+  "title": "LDO storage",
+  "unit_no": "00"
+}

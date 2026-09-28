@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.903562Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.653010Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "bdp": false,
+  "discipline": "process",
+  "doc_type": "diagram",
+  "id": "ALP-EPC-00PBA-PR-PID-0001",
+  "inputs": [
+    "ALP-EPC-00000-PI-SPC-0001",
+    "ALP-EPC-00PBA-PR-SDS-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00PBA",
+  "title": "P&ID - Electro-chlorination",
+  "type_code": "PID",
+  "weight": 100.0
+}

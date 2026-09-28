@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.532725Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:11.893834Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Centrifugal Pump",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "cwa": "CWA-08",
+  "cwp": "CWP-08-ME-01",
+  "description": "Boiler feed pump A (2 x 100 %, VFD)",
+  "equipment_type": "pump",
+  "id": "10LAC10AP001",
+  "mr": "MR-ME-001",
+  "quantity": 1,
+  "rated_power": 3600.0,
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "10LAC"
+}

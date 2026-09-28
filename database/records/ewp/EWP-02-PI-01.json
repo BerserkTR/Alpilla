@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.827727Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.209747Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "cwp": "CWP-02-PI-01",
+  "discipline": "piping",
+  "id": "EWP-02-PI-01",
+  "status": "agreed",
+  "title": "IFC documents for Piping - ST island"
+}

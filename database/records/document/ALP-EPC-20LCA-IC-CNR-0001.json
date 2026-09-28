@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.872125Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.762525Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "i_and_c",
+  "doc_type": "report",
+  "id": "ALP-EPC-20LCA-IC-CNR-0001",
+  "inputs": [
+    "ALP-EPC-00000-IC-DBR-0001",
+    "ALP-EPC-20LCA-PR-PID-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "system": "20LCA",
+  "title": "Control narrative - Main condensate piping",
+  "type_code": "CNR",
+  "weight": 60.0
+}

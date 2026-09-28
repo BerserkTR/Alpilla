@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.970133Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.595946Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "i_and_c",
+  "doc_type": "other",
+  "id": "ALP-EPC-00CJA-IC-MRQ-0001",
+  "inputs": [
+    "ALP-EPC-00CJA-IC-DSH-0001",
+    "ALP-EPC-00CJA-IC-SPC-0001"
+  ],
+  "mr": "MR-IC-001",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00CJA",
+  "title": "Material requisition - Plant DCS",
+  "type_code": "MRQ",
+  "weight": 24.0
+}

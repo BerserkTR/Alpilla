@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.837206Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.218471Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "cwp": "CWP-09-IC-01",
+  "discipline": "i_and_c",
+  "id": "EWP-09-IC-01",
+  "status": "agreed",
+  "title": "IFC documents for I&C - gas station"
+}

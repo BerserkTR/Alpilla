@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.898541Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.955206Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-CQA",
+  "key": "CQA",
+  "level": "function",
+  "main_group": "Instrumentation and control",
+  "status": "agreed",
+  "title": "Continuous emission monitoring",
+  "verified": false
+}

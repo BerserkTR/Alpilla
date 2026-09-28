@@ -2,16 +2,16 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:09.704384Z",
     "created_by": "CASE",
-    "rev": 1,
-    "updated_at": "2026-09-27T16:48:09.704384Z",
-    "updated_by": "CASE"
+    "rev": 2,
+    "updated_at": "2026-09-28T14:31:43.333103Z",
+    "updated_by": "OWNR"
   },
   "contract": "ALP-EPC-001",
   "discipline": "process",
   "id": "ER-06.04",
   "section": "ER-06 Heat recovery steam generator",
   "status": "contractual",
-  "text": "Aqueous ammonia storage (2x7 days at base load), unloading, vaporisation and dosing with leak detection and bunding.",
+  "text": "Aqueous ammonia (24.5 %) storage in 2 tanks, each for 7 days at base load on natural gas, together covering 72 h of LDO operation (2 x 30 m3), unloading from road tankers, vaporisation and dosing with leak detection and bunding (TQ-034).",
   "title": "Ammonia system",
   "verification": "inspection"
 }

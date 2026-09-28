@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.552315Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:11.889410Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Power Transformer",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "cwa": "CWA-01",
+  "cwp": "CWP-01-EL-01",
+  "description": "GT unit auxiliary transformer 21/10.5 kV 31.5 MVA",
+  "equipment_type": "transformer",
+  "id": "10BBT10",
+  "mr": "MR-EL-002",
+  "quantity": 1,
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "10BBT"
+}

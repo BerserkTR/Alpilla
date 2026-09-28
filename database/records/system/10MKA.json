@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.119678Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.247853Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "generator",
+  "id": "10MKA",
+  "parent": "10MK",
+  "scope": "IEC",
+  "title": "GT generator",
+  "unit_no": "10"
+}

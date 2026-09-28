@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.964890Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.589096Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "electrical",
+  "doc_type": "procedure",
+  "id": "ALP-EPC-00BFA-EL-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00BFA-EL-SPC-0001"
+  ],
+  "mr": "MR-EL-005",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00BFA",
+  "title": "Inspection and test plan - LV switchboards and MCCs",
+  "type_code": "ITP",
+  "weight": 16.0
+}

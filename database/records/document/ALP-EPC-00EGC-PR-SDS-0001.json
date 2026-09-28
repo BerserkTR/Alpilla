@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.882410Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.607941Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-03.07",
+    "requirement:ER-03.09",
+    "scope_item:DR-007",
+    "scope_item:SC-053"
+  ],
+  "discipline": "process",
+  "doc_type": "report",
+  "id": "ALP-EPC-00EGC-PR-SDS-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-DBR-0001",
+    "ALP-EPC-00000-PR-PFD-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00EGC",
+  "tender": true,
+  "title": "System design description - LDO forwarding and treatment",
+  "type_code": "SDS",
+  "weight": 60.0
+}

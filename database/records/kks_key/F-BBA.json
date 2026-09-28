@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.892515Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.952116Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-BBA",
+  "key": "BBA",
+  "level": "function",
+  "main_group": "Power transmission and auxiliary power supply",
+  "status": "agreed",
+  "title": "MV switchgear 10.5 kV, normal supply",
+  "verified": false
+}

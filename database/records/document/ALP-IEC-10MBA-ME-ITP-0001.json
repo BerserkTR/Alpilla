@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.858279Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.777707Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-IEC-10MBA-ME-ITP-0001",
+  "originator": "IEC",
+  "planned_ifc": "2027-02-22",
+  "planned_ifr": "2027-01-25",
+  "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "status": "planned",
+  "system": "10MBA",
+  "systems": [
+    "20MAA",
+    "10HAA",
+    "10MKA"
+  ],
+  "title": "Power island inspection and test plans",
+  "type_code": "ITP",
+  "vendor_ref": "IEC-ALP-QA-101",
+  "weight": 16.0
+}

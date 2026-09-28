@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.112417Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.245749Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "gas_turbine",
+  "id": "10MBA",
+  "parent": "10MB",
+  "scope": "IEC",
+  "title": "Gas turbine",
+  "unit_no": "10"
+}

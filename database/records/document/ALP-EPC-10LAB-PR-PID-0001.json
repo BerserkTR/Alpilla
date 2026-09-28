@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.862205Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.720772Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "bdp": true,
+  "discipline": "process",
+  "doc_type": "diagram",
+  "id": "ALP-EPC-10LAB-PR-PID-0001",
+  "inputs": [
+    "ALP-EPC-00000-PI-SPC-0001",
+    "ALP-EPC-10LAB-PR-SDS-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 4,
+  "status": "planned",
+  "system": "10LAB",
+  "title": "P&ID - Feedwater piping",
+  "type_code": "PID",
+  "weight": 140.0
+}

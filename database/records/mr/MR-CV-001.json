@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.063150Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.613478Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "award_days": 15,
+  "bid_days": 20,
+  "cwps": [
+    "CWP-01-CV-01",
+    "CWP-02-CV-01"
+  ],
+  "discipline": "civil",
+  "id": "MR-CV-001",
+  "manufacture_weeks": 4,
+  "package_type": "subcontract",
+  "status": "agreed",
+  "title": "Piling works",
+  "transport_weeks": 0,
+  "vdr_weeks": 2
+}

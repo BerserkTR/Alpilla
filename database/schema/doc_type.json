@@ -1,0 +1,114 @@
+{
+  "entity": "doc_type",
+  "title": "Document type of the project numbering system with its workflow rules (preparation, review, inputs, maturity)",
+  "id_pattern": "^[A-Z][A-Z0-9]{2}$",
+  "display": [
+    "title",
+    "dcc",
+    "category",
+    "review",
+    "prep_days"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "dcc": {
+      "type": "enum",
+      "values": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "L",
+        "M",
+        "P",
+        "Q",
+        "S"
+      ],
+      "required": true,
+      "description": "IEC 61355-1 document kind class (main class letter)"
+    },
+    "category": {
+      "type": "enum",
+      "required": true,
+      "values": [
+        "report",
+        "specification",
+        "datasheet",
+        "list",
+        "calculation",
+        "drawing",
+        "diagram",
+        "layout",
+        "isometric",
+        "model",
+        "procedure",
+        "schedule",
+        "manual",
+        "study",
+        "other"
+      ],
+      "description": "legacy document.doc_type value"
+    },
+    "review": {
+      "type": "enum",
+      "values": [
+        "approval",
+        "review",
+        "information",
+        "internal"
+      ],
+      "required": true,
+      "description": "Owner review class: approval (code 1 needed before IFC), review (comments), information, internal"
+    },
+    "prep_days": {
+      "type": "integer",
+      "required": true,
+      "unit": "working days",
+      "description": "start of work to first issue (IFR / IFI)"
+    },
+    "update_days": {
+      "type": "integer",
+      "required": true,
+      "unit": "working days",
+      "description": "incorporating comments to the next issue (IFA / IFC)"
+    },
+    "input_maturity": {
+      "type": "enum",
+      "values": [
+        "IFR",
+        "IFC"
+      ],
+      "required": true,
+      "description": "issue state the inputs must have reached before this document can start"
+    },
+    "input_types": {
+      "type": "list",
+      "description": "document type codes that normally feed this type (checked on every document)"
+    },
+    "hours": {
+      "type": "number",
+      "unit": "h",
+      "description": "default budget per document (per sheet for drawings)"
+    },
+    "construction": {
+      "type": "boolean",
+      "description": "issued for construction: belongs to an EWP"
+    },
+    "procurement": {
+      "type": "boolean",
+      "description": "part of an MR (specification, datasheet, requisition)"
+    },
+    "required_for": {
+      "type": "list",
+      "description": "system categories for which every system needs a document of this type"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

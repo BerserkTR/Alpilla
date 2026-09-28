@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.136112Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.230736Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "cooling",
+  "id": "00PAA",
+  "scope": "IEPC",
+  "title": "CW intake, screens and outfall",
+  "unit_no": "00"
+}

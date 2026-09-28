@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.854432Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.775769Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-06.03",
+    "scope_item:DR-011"
+  ],
+  "discipline": "process",
+  "doc_type": "diagram",
+  "id": "ALP-IEC-10HAA-PR-PID-0001",
+  "originator": "IEC",
+  "planned_ifc": "2027-03-08",
+  "planned_ifr": "2027-01-11",
+  "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "sheets": 8,
+  "status": "planned",
+  "system": "10HAA",
+  "systems": [
+    "10HSA",
+    "10HNA"
+  ],
+  "title": "HRSG P&IDs incl. SCR and ammonia injection",
+  "type_code": "PID",
+  "vendor_ref": "IEC-ALP-PID-102",
+  "weight": 220.0
+}

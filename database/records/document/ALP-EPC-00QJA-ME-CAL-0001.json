@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.910189Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.667363Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "calculation",
+  "id": "ALP-EPC-00QJA-ME-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00QJA-PR-SDS-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00QJA",
+  "title": "Sizing and hydraulic calculation - Nitrogen supply",
+  "type_code": "CAL",
+  "weight": 60.0
+}

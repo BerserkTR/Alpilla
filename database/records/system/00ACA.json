@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.127545Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.221363Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "electrical_hv",
+  "id": "00ACA",
+  "scope": "IEPC",
+  "title": "380 kV GIS switchyard",
+  "unit_no": "00"
+}

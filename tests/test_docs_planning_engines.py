@@ -16,14 +16,14 @@ def setup_data(project):
     s = base(project, data_date="2026-02-16", holidays=["2026-02-02"])
     for rid, pct in (("STARTED", 10), ("IFR", 50), ("IFA", 70), ("IFC", 100)):
         s.create("progress_rule", {"id": rid, "percent": pct}, "t")
-    s.create("document", {"id": "ALP-DS-001", "title": "BFP datasheet", "discipline": "mechanical", "doc_type": "datasheet",
+    s.create("document", {"id": "ALP-EPC-10LAC-ME-DSH-0001", "title": "BFP datasheet", "discipline": "mechanical", "doc_type": "datasheet",
                           "weight": 30, "planned_ifr": "2026-01-19", "planned_ifc": "2026-02-09"}, "t")
-    s.create("document", {"id": "ALP-LL-001", "title": "Load list", "discipline": "electrical", "doc_type": "list",
+    s.create("document", {"id": "ALP-EPC-00000-EL-LST-0001", "title": "Load list", "discipline": "electrical", "doc_type": "list",
                           "weight": 10, "planned_ifc": "2026-03-30"}, "t")
-    s.create("document_revision", {"document": "ALP-DS-001", "revision": "A", "purpose": "IFR", "issue_date": "2026-01-21"}, "t")
-    s.create("review_comment", {"revision": "ALP-DS-001_A", "originator": "Client", "comment": "Add NPSH margin"}, "t")
+    s.create("document_revision", {"document": "ALP-EPC-10LAC-ME-DSH-0001", "revision": "A", "purpose": "IFR", "issue_date": "2026-01-21"}, "t")
+    s.create("review_comment", {"revision": "ALP-EPC-10LAC-ME-DSH-0001_A", "originator": "Client", "comment": "Add NPSH margin"}, "t")
     act(s, "A-10", 5)
-    act(s, "A-20", 10, ["A-10"], deliverables=["ALP-DS-001"])
+    act(s, "A-20", 10, ["A-10"], deliverables=["ALP-EPC-10LAC-ME-DSH-0001"])
     act(s, "A-30", 0, ["A-20:FS+3"], type="finish_milestone", constraint="finish_no_later_than", constraint_date="2026-02-06")
     return s
 
@@ -63,12 +63,12 @@ def test_register_and_progress(project):
     assert any("1 document(s) late" in w for w in m["warnings"])          # DS-001 planned IFC 09-Feb passed
     ws = load_workbook(project.output / "document_register" / "ALP_document_register.xlsx")["MDR"]
     rows = {r[0]: r for r in ws.iter_rows(min_row=5, values_only=True)}
-    assert rows["ALP-DS-001"][9:11] == ("A", "IFR") and rows["ALP-DS-001"][18] == "LATE"
-    assert rows["ALP-DS-001"][19] == 1 and rows["ALP-DS-001"][20] == 50
+    assert rows["ALP-EPC-10LAC-ME-DSH-0001"][9:11] == ("A", "IFR") and rows["ALP-EPC-10LAC-ME-DSH-0001"][18] == "LATE"
+    assert rows["ALP-EPC-10LAC-ME-DSH-0001"][19] == 1 and rows["ALP-EPC-10LAC-ME-DSH-0001"][20] == 50
     run(project, "progress_report")
     html = (project.output / "progress_report" / "ALP_progress_report.html").read_text()
     assert "37.5%" in html        # earned: DS-001 IFR 50% x 30/40
-    assert "Table view" in html and "ALP-DS-001" in html
+    assert "Table view" in html and "ALP-EPC-10LAC-ME-DSH-0001" in html
 
 
 def test_validate_catches_loops_and_plan_cli(project, capsys):

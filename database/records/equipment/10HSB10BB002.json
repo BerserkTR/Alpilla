@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.548743Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:11.893456Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Tank",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "cwa": "CWA-08",
+  "cwp": "CWP-08-ME-01",
+  "description": "Aqueous ammonia tank B 30 m3",
+  "equipment_type": "tank",
+  "id": "10HSB10BB002",
+  "mr": "MR-ME-018",
+  "quantity": 1,
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "10HSB"
+}

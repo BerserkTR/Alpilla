@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.060530Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.618061Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "award_days": 15,
+  "bid_days": 20,
+  "cwps": [
+    "CWP-12-EL-01",
+    "CWP-01-EL-01",
+    "CWP-02-EL-01"
+  ],
+  "discipline": "electrical",
+  "id": "MR-EL-009",
+  "manufacture_weeks": 16,
+  "package_type": "bulk",
+  "status": "agreed",
+  "title": "Cable trays, earthing and lighting materials",
+  "transport_weeks": 2,
+  "vdr_weeks": 4
+}

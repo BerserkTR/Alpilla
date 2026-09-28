@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.003458Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.592765Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "electrical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00BRA10"
+  ],
+  "id": "ALP-EPC-00BRA-EL-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00BRA-EL-SPC-0001"
+  ],
+  "mr": "MR-EL-007",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00BRA",
+  "tender": true,
+  "title": "Datasheet - UPS: ups",
+  "type_code": "DSH",
+  "weight": 16.0
+}

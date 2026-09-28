@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.552054Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:05:46.735724Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Switchgear And Controlgear",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "cwa": "CWA-04",
+  "cwp": "CWP-04-EL-01",
+  "description": "380 kV GIS, double busbar, 6 bays",
+  "equipment_type": "switchgear",
+  "id": "00ACA10",
+  "mr": "MR-EL-001",
+  "quantity": 1,
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00ACA"
+}

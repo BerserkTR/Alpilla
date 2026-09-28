@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.856939Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.781390Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-04.04",
+    "requirement:ER-04.05"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "report",
+  "id": "ALP-IEC-10MBY-IC-CNR-0001",
+  "originator": "IEC",
+  "planned_ifc": "2027-04-05",
+  "planned_ifr": "2027-02-08",
+  "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "status": "planned",
+  "system": "10MBY",
+  "systems": [
+    "20MAY"
+  ],
+  "title": "Power island operating and control description (start-up, load, trips)",
+  "type_code": "CNR",
+  "vendor_ref": "IEC-ALP-IC-103",
+  "weight": 60.0
+}

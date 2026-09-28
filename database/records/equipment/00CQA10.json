@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.555091Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:05:55.425673Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Analyser",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "cwa": "CWA-01",
+  "cwp": "CWP-01-IC-01",
+  "description": "Continuous emission monitoring system",
+  "equipment_type": "analyser",
+  "id": "00CQA10",
+  "mr": "MR-IC-002",
+  "quantity": 1,
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00CQA"
+}

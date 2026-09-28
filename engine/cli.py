@@ -15,6 +15,7 @@
     python -m engine lib find|show|attr|tree ...     AVEVA class library (classes, attributes, units, lists)
     python -m engine lib build <ttl> --reason "..."  recompile the class library from its source
     python -m engine plan [--all]                   schedule status + critical path (computed)
+    python -m engine kks <tag|docno> ... | --next ORG KKS DISC TYPE   KKS / document number check, next number
     python -m engine engines                       list engines
     python -m engine run <engine>|--all|--stale [--option k=v]
     python -m engine deliver <engine> --title T --purpose P --to R --reason "..." [--files GLOB]
@@ -330,6 +331,26 @@ def cmd_plan(p: Project, a) -> int:
     return 0
 
 
+def cmd_kks(p: Project, a) -> int:
+    """Explain KKS tags / document numbers against the project key list, or propose the next document number."""
+    from .core import kks
+    store = Store(p)
+    kk = kks.keys(store)
+    if a.next:
+        org, code, disc, dtype = a.next
+        print(kks.next_number([d["id"] for d in store.records("document")], org, code, disc, dtype))
+        return 0
+    rc = 0
+    for t in a.tags:
+        lines = kks.explain(t, kk)
+        bad = any("not" in x or "unknown" in x for x in lines)
+        rc |= bad
+        print(f"{t}: {'INVALID' if bad else 'ok'}")
+        for x in lines:
+            print(f"  {x}")
+    return rc
+
+
 def cmd_engines(p: Project, a) -> int:
     from .engines import registry
     for name, e in registry().items():
@@ -420,6 +441,8 @@ def main(argv=None) -> int:
     s.add_argument("--to", required=True); s.add_argument("--reason", required=True)
     s.add_argument("--files", nargs="*", help="glob(s) to select files, default all")
     s = sub.add_parser("setup"); s.add_argument("--user-code")
+    s = sub.add_parser("kks", help="explain / check KKS tags and document numbers; --next ORG KKS DISC TYPE")
+    s.add_argument("tags", nargs="*"); s.add_argument("--next", nargs=4, metavar=("ORG", "KKS", "DISC", "TYPE"))
 
     lib = sub.add_parser("lib", help="AVEVA class library").add_subparsers(dest="op", required=True)
     s = lib.add_parser("build"); s.add_argument("ttl"); s.add_argument("--reason", required=True)
@@ -457,7 +480,7 @@ def main(argv=None) -> int:
         ap.error("reconcile needs <entity> <id> or --all")
     p = Project.locate()
     fn = {"status": cmd_status, "validate": cmd_validate, "db": cmd_db, "engines": cmd_engines, "lib": cmd_lib, "plan": cmd_plan,
-          "run": cmd_run, "deliver": cmd_deliver, "setup": cmd_setup}[a.cmd]
+          "run": cmd_run, "deliver": cmd_deliver, "setup": cmd_setup, "kks": cmd_kks}[a.cmd]
     try:
         return fn(p, a)
     except (StoreError, RuntimeError, ValueError, KeyError) as e:

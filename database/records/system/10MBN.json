@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.118157Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.246333Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "gas_turbine",
+  "id": "10MBN",
+  "parent": "10MB",
+  "scope": "IEC",
+  "title": "GT liquid fuel and water injection",
+  "unit_no": "10"
+}

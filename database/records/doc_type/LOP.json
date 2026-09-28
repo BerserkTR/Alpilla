@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:40.114505Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:49:40.114505Z",
+    "updated_by": "EPCE"
+  },
+  "category": "diagram",
+  "construction": true,
+  "dcc": "M",
+  "hours": 30,
+  "id": "LOP",
+  "input_maturity": "IFR",
+  "input_types": [
+    "IOL"
+  ],
+  "prep_days": 15,
+  "procurement": false,
+  "review": "information",
+  "title": "Loop / connection diagram",
+  "update_days": 5
+}

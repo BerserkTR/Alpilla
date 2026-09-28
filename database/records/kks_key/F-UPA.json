@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.918763Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.977161Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-UPA",
+  "key": "UPA",
+  "level": "function",
+  "main_group": "Structures",
+  "status": "agreed",
+  "title": "CW intake and outfall structures (marine)",
+  "verified": false
+}

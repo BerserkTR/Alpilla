@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.842905Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.565166Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "hse",
+  "doc_type": "study",
+  "id": "ALP-EPC-00000-HS-HAZ-0005",
+  "inputs": [
+    "ALP-EPC-00GBA-PR-PID-0001",
+    "ALP-EPC-00GCA-PR-PID-0001",
+    "ALP-EPC-00GHA-PR-PID-0001",
+    "ALP-EPC-00GKA-PR-PID-0001",
+    "ALP-EPC-00GMA-PR-PID-0001",
+    "ALP-EPC-00GNA-PR-PID-0001",
+    "ALP-EPC-00GUA-PR-PID-0001",
+    "ALP-EPC-00QCA-PR-PID-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "HAZOP report - Water treatment and chemicals",
+  "type_code": "HAZ",
+  "weight": 160.0
+}

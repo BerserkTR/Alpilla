@@ -255,8 +255,11 @@ def _checks(res: Result, refs: dict):
                 u = sm["fuel_Sm3h"] / val * 100
                 C.append(("OK" if u <= 100 else "WARN", f"gas flow {sm['fuel_Sm3h']:,.0f} Sm3/h = {u:.1f} % of {rid} ({val:,.0f} Sm3/h)"))
             elif unit.startswith("MW export"):
-                C.append(("OK" if sm["net"] / 1000 <= val else "WARN",
-                          f"net export {sm['net'] / 1000:,.1f} MW vs {rid} connection capacity {val:,.0f} MW (this case)"))
+                over = sm["net"] / 1000 > val
+                lim = case.get("export_limiter")
+                C.append(("OK" if not over else ("INFO" if lim else "WARN"),
+                          f"net export {sm['net'] / 1000:,.1f} MW vs {rid} connection capacity {val:,.0f} MW (this case)"
+                          + (f"; capability above the capacity, export limited: {lim}" if over and lim else "")))
             elif unit.startswith("mbar"):
                 x = sm["condenser_pressure_mbar"]
                 if x is not None:

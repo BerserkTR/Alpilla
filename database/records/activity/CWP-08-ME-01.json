@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.844356Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T14:54:06.116959Z",
+    "updated_by": "EPCE"
+  },
+  "constraint": "start_no_earlier_than",
+  "constraint_date": "2027-11-29",
+  "discipline": "mechanical",
+  "duration": 120,
+  "id": "CWP-08-ME-01",
+  "phase": "construction",
+  "predecessors": [
+    "CWP-08-SS-01:SS+60"
+  ],
+  "responsible": "Mechanical contractor",
+  "title": "BOP utilities equipment",
+  "type": "task",
+  "wbs": "ALP.C.08"
+}

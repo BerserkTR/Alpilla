@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.625192Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.788714Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-04-EL-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "GIS supplier / electrical contractor",
+  "cwa": "CWA-04",
+  "discipline": "electrical",
+  "ewp_lead_days": 20,
+  "id": "CWP-04-EL-01",
+  "scope": "GIS erection, GSU HV connections, protection, testing",
+  "status": "agreed",
+  "title": "GIS erection, HV connections, testing"
+}

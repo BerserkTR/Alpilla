@@ -87,18 +87,18 @@ def test_document_progress_drives_activity(project):
     s = base(project, data_date="2026-03-02")
     for rid, pct in (("STARTED", 10), ("IFR", 50), ("IFA", 70), ("IFC", 100)):
         s.create("progress_rule", {"id": rid, "percent": pct}, R)
-    s.create("document", {"id": "ALP-DS-001", "title": "BFP datasheet", "discipline": "mechanical",
+    s.create("document", {"id": "ALP-EPC-10LAC-ME-DSH-0001", "title": "BFP datasheet", "discipline": "mechanical",
                           "doc_type": "datasheet", "weight": 30, "planned_ifr": "2026-02-02", "planned_ifc": "2026-03-02"}, R)
-    s.create("document", {"id": "ALP-DS-002", "title": "CEP datasheet", "discipline": "mechanical",
+    s.create("document", {"id": "ALP-EPC-10LAC-ME-DSH-0002", "title": "CEP datasheet", "discipline": "mechanical",
                           "doc_type": "datasheet", "weight": 10, "status": "in_progress", "planned_ifc": "2026-04-06"}, R)
-    r = s.create("document_revision", {"document": "ALP-DS-001", "revision": "A", "purpose": "IFR", "issue_date": "2026-02-03"}, R)
-    assert r["id"] == "ALP-DS-001_A"
+    r = s.create("document_revision", {"document": "ALP-EPC-10LAC-ME-DSH-0001", "revision": "A", "purpose": "IFR", "issue_date": "2026-02-03"}, R)
+    assert r["id"] == "ALP-EPC-10LAC-ME-DSH-0001_A"
     with pytest.raises(StoreError, match="already exists"):
-        s.create("document_revision", {"document": "ALP-DS-001", "revision": "A", "purpose": "IFA", "issue_date": "2026-02-04"}, R)
-    s.create("document_revision", {"document": "ALP-DS-001", "revision": "B", "purpose": "IFA", "issue_date": "2026-03-10"}, R)  # after data date
-    act(s, "E-1", 20, deliverables=["ALP-DS-001", "ALP-DS-002"], percent_complete=5)
+        s.create("document_revision", {"document": "ALP-EPC-10LAC-ME-DSH-0001", "revision": "A", "purpose": "IFA", "issue_date": "2026-02-04"}, R)
+    s.create("document_revision", {"document": "ALP-EPC-10LAC-ME-DSH-0001", "revision": "B", "purpose": "IFA", "issue_date": "2026-03-10"}, R)  # after data date
+    act(s, "E-1", 20, deliverables=["ALP-EPC-10LAC-ME-DSH-0001", "ALP-EPC-10LAC-ME-DSH-0002"], percent_complete=5)
     st = Store(project, who())
-    assert planning.document_progress(st, date(2026, 3, 2)) == {"ALP-DS-001": 50.0, "ALP-DS-002": 10.0}
+    assert planning.document_progress(st, date(2026, 3, 2)) == {"ALP-EPC-10LAC-ME-DSH-0001": 50.0, "ALP-EPC-10LAC-ME-DSH-0002": 10.0}
     a = planning.compute(st)[0][0]
     assert a.pct == pytest.approx((50 * 30 + 10 * 10) / 40)             # weighted, manual % ignored
     cal = planning.calendar_for(st)[0]

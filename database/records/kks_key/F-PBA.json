@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.911824Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.970343Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-PBA",
+  "key": "PBA",
+  "level": "function",
+  "main_group": "Cooling water systems",
+  "status": "agreed",
+  "title": "Electro-chlorination",
+  "verified": false
+}

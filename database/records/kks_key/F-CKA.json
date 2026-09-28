@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.897681Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.954936Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-CKA",
+  "key": "CKA",
+  "level": "function",
+  "main_group": "Instrumentation and control",
+  "status": "agreed",
+  "title": "Plant information, historian, performance monitoring, operator training simulator",
+  "verified": false
+}

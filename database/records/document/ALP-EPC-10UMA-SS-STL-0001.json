@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.015444Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.761871Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "scope_item:DR-039"
+  ],
+  "cwa": "CWA-01",
+  "discipline": "structural",
+  "doc_type": "drawing",
+  "ewp": "EWP-01-SS-01",
+  "id": "ALP-EPC-10UMA-SS-STL-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-CAL-0001",
+    "ALP-EPC-00000-SS-SPC-0001",
+    "ALP-EPC-10UMA-PI-LAY-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 8,
+  "status": "planned",
+  "system": "10UMA",
+  "title": "Steel structure drawings - Gas turbine hall",
+  "type_code": "STL",
+  "weight": 110.0
+}

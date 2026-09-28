@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.553383Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:05:46.790144Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Power Transformer",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "cwa": "CWA-03",
+  "cwp": "CWP-03-EL-01",
+  "description": "LV transformer 10.5/0.4 kV 2.5 MVA, B",
+  "equipment_type": "transformer",
+  "id": "00BFT20",
+  "mr": "MR-EL-004",
+  "quantity": 1,
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00BFT"
+}

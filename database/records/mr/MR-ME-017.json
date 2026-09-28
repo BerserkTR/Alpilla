@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.057399Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.624231Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "award_days": 20,
+  "bid_days": 30,
+  "cwps": [
+    "CWP-10-ME-01"
+  ],
+  "discipline": "mechanical",
+  "id": "MR-ME-017",
+  "manufacture_weeks": 12,
+  "package_type": "subcontract",
+  "status": "agreed",
+  "title": "LDO storage tanks (field-erected, API 650)",
+  "transport_weeks": 2,
+  "vdr_weeks": 6
+}

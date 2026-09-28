@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.858526Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.778694Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "ewp": "EWP-01-ME-01",
+  "id": "ALP-IEC-10MBA-ME-PRC-0001",
+  "originator": "IEC",
+  "planned_ifc": "2027-09-06",
+  "planned_ifr": "2027-07-12",
+  "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "status": "planned",
+  "system": "10MBA",
+  "systems": [
+    "20MAA",
+    "10HAA"
+  ],
+  "title": "Power island erection manuals and procedures",
+  "type_code": "PRC",
+  "vendor_ref": "IEC-ALP-ER-101",
+  "weight": 80.0
+}

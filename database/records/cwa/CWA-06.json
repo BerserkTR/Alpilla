@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.482333Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.377556Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "basis_refs": [
+    "source:SRC-IECE-0009",
+    "source:SRC-OWNR-0010"
+  ],
+  "description": "Intake head, intake and outfall pipelines, outfall diffuser; works window 1 October - 30 April",
+  "e_max": 300,
+  "e_min": 100,
+  "id": "CWA-06",
+  "n_max": 0,
+  "n_min": -720,
+  "path_seq": 3,
+  "status": "agreed",
+  "structures": [
+    "00UPA"
+  ],
+  "title": "Marine works (offshore)"
+}

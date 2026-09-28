@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.998765Z",
+    "created_by": "EPCE",
+    "rev": 5,
+    "updated_at": "2026-09-28T15:06:12.682516Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00SMA10",
+    "00SMA20"
+  ],
+  "id": "ALP-EPC-00SMA-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00SMA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-021",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00SMA",
+  "tender": true,
+  "title": "Datasheet - Cranes and hoists: crane (2 items)",
+  "type_code": "DSH",
+  "weight": 16.0
+}

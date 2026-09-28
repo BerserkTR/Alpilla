@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.052884Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:58.498811Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "IEPC",
+    "IEC"
+  ],
+  "agreed_refs": [
+    "TQ-IEC-023"
+  ],
+  "award_days": 0,
+  "basis_refs": [
+    "source:SRC-EPCE-0009"
+  ],
+  "bid_days": 0,
+  "cwps": [
+    "CWP-01-IC-01",
+    "CWP-02-IC-01"
+  ],
+  "discipline": "i_and_c",
+  "id": "MR-IC-101",
+  "manufacture_weeks": 40,
+  "package_type": "iec_supply",
+  "po_date": "2026-11-02",
+  "scope": "Supplied under the consortium agreement ALP-CA-001; PO = NTP; delivery per IEC manufacturing schedule",
+  "status": "agreed",
+  "supplier": "IEC",
+  "title": "Turbine control system (IEC)",
+  "transport_weeks": 2,
+  "vdr_weeks": 12
+}

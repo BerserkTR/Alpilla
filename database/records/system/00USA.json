@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.143696Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.239202Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "civil_structural",
+  "id": "00USA",
+  "scope": "IEPC",
+  "title": "Workshop and warehouse",
+  "unit_no": "00"
+}

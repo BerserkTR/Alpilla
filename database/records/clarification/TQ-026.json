@@ -2,13 +2,18 @@
   "_meta": {
     "created_at": "2026-09-27T18:46:46.083763Z",
     "created_by": "CONS",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:46:46.083763Z",
-    "updated_by": "CONS"
+    "rev": 2,
+    "updated_at": "2026-09-28T14:31:42.176978Z",
+    "updated_by": "OWNR"
   },
+  "changed_records": [
+    "scope_item/SC-013"
+  ],
   "contract": "ALP-EPC-001",
   "discipline": "i_and_c",
   "id": "TQ-026",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
   "proposal": "Accept as compliant with SC-013.",
   "question": "IEC's turbine control system keeps its own controllers (turbine protection) with the HMI integration package: graphics and alarms native on the plant DCS operator stations, one KKS tag database, common time sync, own IEC 62443 zone (TQ-IEC-004). Does the Owner accept this as 'integrated in the DCS' under SC-013?",
   "raised_by": "IEPC",
@@ -17,7 +22,10 @@
     "scope_item:SC-013",
     "requirement:ER-12.01"
   ],
+  "responded_by": "OWNER",
+  "response": "Accepted as compliant with SC-013 and ER-12.01 on condition that (1) all power island operation, alarms and trends are available on the DCS operator stations with the DCS look and feel (no separate operator HMI needed in normal operation), (2) alarm management follows the plant alarm philosophy (EEMUA 191 / IEC 62682), (3) all TCS signals are archived in the plant historian. SC-013 is reworded accordingly.",
+  "response_date": "2026-09-28",
   "round": 4,
-  "status": "open",
+  "status": "closed",
   "subject": "Power island control system: integration solution for SC-013"
 }

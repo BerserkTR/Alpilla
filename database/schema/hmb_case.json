@@ -151,6 +151,10 @@
     },
     "remarks": {
       "type": "text"
+    },
+    "export_limiter": {
+      "type": "text",
+      "description": "agreed limitation of the export at the grid connection when the case capability exceeds it (check becomes INFO)"
     }
   }
 }

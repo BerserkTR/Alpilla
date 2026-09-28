@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.852170Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.783814Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "source:SRC-IECE-0011"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "ewp": "EWP-02-ME-01",
+  "id": "ALP-IEC-20MAA-ME-GAD-0001",
+  "originator": "IEC",
+  "planned_ifc": "2027-01-11",
+  "planned_ifr": "2026-11-02",
+  "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "source": "SRC-IECE-0011",
+  "status": "planned",
+  "system": "20MAA",
+  "systems": [
+    "20MKA",
+    "20MAG"
+  ],
+  "title": "Steam turbine, generator and condenser - GA, maintenance",
+  "type_code": "GAD",
+  "vendor_ref": "IEC-ALP-GA-102",
+  "weight": 60.0
+}

@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.912191Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.970841Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-QCA",
+  "key": "QCA",
+  "level": "function",
+  "main_group": "Auxiliary systems",
+  "status": "agreed",
+  "title": "Chemical dosing",
+  "verified": false
+}

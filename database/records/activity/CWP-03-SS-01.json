@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.839331Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:50:08.839331Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "structural",
+  "duration": 150,
+  "id": "CWP-03-SS-01",
+  "phase": "construction",
+  "predecessors": [
+    "CWP-03-CV-01:SS+40"
+  ],
+  "responsible": "Building contractor",
+  "title": "Electrical building",
+  "type": "task",
+  "wbs": "ALP.C.03"
+}

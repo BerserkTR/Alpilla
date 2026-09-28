@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.899695Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.956549Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-EKA",
+  "key": "EKA",
+  "level": "function",
+  "main_group": "Conventional fuel supply and residues disposal",
+  "status": "agreed",
+  "title": "Gas receiving, filtration and fiscal metering",
+  "verified": false
+}

@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.950158Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.600561Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-EPC-00EGA-ME-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00EGA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-016",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00EGA",
+  "title": "Inspection and test plan - LDO unloading and forwarding / treatment skids",
+  "type_code": "ITP",
+  "weight": 16.0
+}

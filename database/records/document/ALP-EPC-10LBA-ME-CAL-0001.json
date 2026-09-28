@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.866797Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.728467Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "calculation",
+  "id": "ALP-EPC-10LBA-ME-CAL-0001",
+  "inputs": [
+    "ALP-EPC-10LBA-PR-SDS-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "system": "10LBA",
+  "title": "Sizing and hydraulic calculation - Main steam piping",
+  "type_code": "CAL",
+  "weight": 60.0
+}

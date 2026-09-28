@@ -16,8 +16,8 @@ def test_pid_sheet(project):
     s = Store(project, who())
     seed_piping(s)
     m = run_engine(project, Store(project, who()), registry()["pid"], {})
-    assert sorted(m["files"]) == ["ALP-PID-10LAB-001.dxf", "ALP-PID-10LAB-001.pdf"]
-    doc = ezdxf.readfile(project.output / "pid" / "ALP-PID-10LAB-001.dxf")
+    assert sorted(m["files"]) == ["ALP-EPC-10LAB-PR-PID-0001.dxf", "ALP-EPC-10LAB-PR-PID-0001.pdf"]
+    doc = ezdxf.readfile(project.output / "pid" / "ALP-EPC-10LAB-PR-PID-0001.dxf")
     assert doc.dxfversion == "AC1032" and not doc.audit().has_errors
     inserts = doc.modelspace().query("INSERT")
     tags = {i.dxf.name: i.get_attrib_text("TAG") for i in inserts if i.has_attrib("TAG")}
@@ -32,20 +32,20 @@ def test_pid_sheet(project):
     for p in pipes:                                   # orthogonal routing only
         pts = [q[:2] for q in p.get_points()]
         assert all(abs(a[0] - b[0]) < 1e-6 or abs(a[1] - b[1]) < 1e-6 for a, b in zip(pts, pts[1:]))
-    assert (project.output / "pid" / "ALP-PID-10LAB-001.pdf").read_bytes()[:4] == b"%PDF"
+    assert (project.output / "pid" / "ALP-EPC-10LAB-PR-PID-0001.pdf").read_bytes()[:4] == b"%PDF"
 
 
 def test_pid_offpage_connector(project):
     s = Store(project, who())
     seed_piping(s)
-    s.create("document", {"id": "ALP-PID-10HAC-001", "title": "P&ID HP economiser", "discipline": "process",
+    s.create("document", {"id": "ALP-EPC-10HAC-PR-PID-0001", "title": "P&ID HP economiser", "discipline": "process",
                           "doc_type": "diagram"}, "t")
-    s.update("equipment", "10HAC10AC001", {"pid": "ALP-PID-10HAC-001"}, "moved to its own sheet")
+    s.update("equipment", "10HAC10AC001", {"pid": "ALP-EPC-10HAC-PR-PID-0001"}, "moved to its own sheet")
     run_engine(project, Store(project, who()), registry()["pid"], {})
-    doc = ezdxf.readfile(project.output / "pid" / "ALP-PID-10LAB-001.dxf")
+    doc = ezdxf.readfile(project.output / "pid" / "ALP-EPC-10LAB-PR-PID-0001.dxf")
     assert "OFFPAGE" in [i.dxf.name for i in doc.modelspace().query("INSERT")]
-    assert {"to 10HAC10AC001", "ALP-PID-10HAC-001"} <= set(texts(doc))
-    assert (project.output / "pid" / "ALP-PID-10HAC-001.dxf").exists()
+    assert {"to 10HAC10AC001", "ALP-EPC-10HAC-PR-PID-0001"} <= set(texts(doc))
+    assert (project.output / "pid" / "ALP-EPC-10HAC-PR-PID-0001.dxf").exists()
 
 
 def test_plot_plan(project):

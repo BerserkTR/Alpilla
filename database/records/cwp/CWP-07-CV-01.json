@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.627384Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.790625Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-07-CV-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Civil contractor",
+  "cwa": "CWA-07",
+  "discipline": "civil",
+  "ewp_lead_days": 20,
+  "id": "CWP-07-CV-01",
+  "scope": "Demolition of old foundations, basins, foundations",
+  "status": "agreed",
+  "title": "Demolition and foundations - water treatment"
+}

@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:40.112841Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T14:58:03.130384Z",
+    "updated_by": "EPCE"
+  },
+  "category": "list",
+  "construction": false,
+  "dcc": "P",
+  "hours": 80,
+  "id": "LST",
+  "input_maturity": "IFR",
+  "input_types": [
+    "PID",
+    "PFD",
+    "LST",
+    "SLD",
+    "DBR",
+    "PRC"
+  ],
+  "prep_days": 15,
+  "procurement": false,
+  "review": "review",
+  "title": "List / index (equipment, lines, valves, instruments, loads, tie-ins)",
+  "update_days": 10
+}

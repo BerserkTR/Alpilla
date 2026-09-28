@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.851919Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.777396Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "scope_item:DR-003",
+    "source:SRC-IECE-0010"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "drawing",
+  "ewp": "EWP-01-ME-01",
+  "id": "ALP-IEC-10MBA-ME-GAD-0001",
+  "originator": "IEC",
+  "planned_ifc": "2027-01-11",
+  "planned_ifr": "2026-11-02",
+  "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "source": "SRC-IECE-0010",
+  "status": "planned",
+  "system": "10MBA",
+  "systems": [
+    "10MKA"
+  ],
+  "title": "Gas turbine and generator - GA, maintenance and installation",
+  "type_code": "GAD",
+  "vendor_ref": "IEC-ALP-GA-101",
+  "weight": 60.0
+}

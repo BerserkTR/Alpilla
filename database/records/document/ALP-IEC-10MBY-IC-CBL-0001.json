@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.857274Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.781086Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "i_and_c",
+  "doc_type": "list",
+  "ewp": "EWP-01-IC-01",
+  "id": "ALP-IEC-10MBY-IC-CBL-0001",
+  "originator": "IEC",
+  "planned_ifc": "2027-07-26",
+  "planned_ifr": "2027-05-31",
+  "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "status": "planned",
+  "system": "10MBY",
+  "systems": [
+    "20MAY"
+  ],
+  "title": "Power island cable list (IEC scope and interfaces)",
+  "type_code": "CBL",
+  "vendor_ref": "IEC-ALP-IC-104",
+  "weight": 60.0
+}

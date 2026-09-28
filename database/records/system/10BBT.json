@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.120768Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.241589Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "electrical_mv_lv",
+  "id": "10BBT",
+  "scope": "IEPC",
+  "title": "GT unit auxiliary transformer",
+  "unit_no": "10"
+}

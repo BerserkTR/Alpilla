@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.622475Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.786035Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-02-CV-02",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Civil contractor",
+  "cwa": "CWA-02",
+  "discipline": "civil",
+  "ewp_lead_days": 20,
+  "id": "CWP-02-CV-02",
+  "scope": "ST spring-mounted table-top, condenser and CEP pits, GSU bay",
+  "status": "agreed",
+  "title": "Foundations - ST hall and condenser"
+}

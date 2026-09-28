@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.055429Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.622013Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "award_days": 20,
+  "bid_days": 30,
+  "cwps": [
+    "CWP-08-ME-01"
+  ],
+  "discipline": "mechanical",
+  "id": "MR-ME-008",
+  "manufacture_weeks": 30,
+  "package_type": "equipment",
+  "status": "agreed",
+  "title": "Air compressors and dryers",
+  "transport_weeks": 4,
+  "vdr_weeks": 8
+}

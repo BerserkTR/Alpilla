@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:59.873806Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:49:59.873806Z",
+    "updated_by": "EPCE"
+  },
+  "category": "drawing",
+  "construction": true,
+  "dcc": "L",
+  "hours": 40,
+  "id": "STL",
+  "input_maturity": "IFR",
+  "input_types": [
+    "GAD",
+    "CAL"
+  ],
+  "prep_days": 20,
+  "procurement": false,
+  "review": "approval",
+  "title": "Steel structure drawing",
+  "update_days": 10
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.024273Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.686684Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "cwa": "CWA-03",
+  "discipline": "electrical",
+  "doc_type": "list",
+  "ewp": "EWP-03-EL-01",
+  "id": "ALP-EPC-00UBA-EL-CBL-0001",
+  "inputs": [
+    "ALP-EPC-00000-EL-CAL-0001",
+    "ALP-EPC-00000-EL-SLD-0001",
+    "ALP-EPC-00UBA-EL-ELY-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00UBA",
+  "title": "Cable schedule and routing - Electrical building and emergency power",
+  "type_code": "CBL",
+  "weight": 60.0
+}

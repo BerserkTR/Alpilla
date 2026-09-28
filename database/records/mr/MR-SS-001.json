@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.062722Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.626611Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "award_days": 20,
+  "bid_days": 25,
+  "cwps": [
+    "CWP-01-SS-01",
+    "CWP-02-SS-01",
+    "CWP-08-SS-01"
+  ],
+  "discipline": "structural",
+  "id": "MR-SS-001",
+  "manufacture_weeks": 16,
+  "package_type": "subcontract",
+  "status": "agreed",
+  "title": "Structural steel supply and fabrication",
+  "transport_weeks": 2,
+  "vdr_weeks": 4
+}

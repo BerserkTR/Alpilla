@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.120369Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.240955Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "electrical_hv",
+  "id": "10BAA",
+  "scope": "IEC",
+  "title": "GT generator busduct",
+  "unit_no": "10"
+}

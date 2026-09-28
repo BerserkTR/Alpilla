@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.014411Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.758473Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-01",
+  "discipline": "civil",
+  "doc_type": "drawing",
+  "ewp": "EWP-01-CV-02",
+  "id": "ALP-EPC-10UHN-CV-FND-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-CAL-0001",
+    "ALP-EPC-00000-CV-RPT-0001",
+    "ALP-EPC-10HNE-SS-SPC-0001",
+    "ALP-EPC-10UMA-PI-LAY-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 3,
+  "status": "planned",
+  "system": "10UHN",
+  "title": "Foundation and underground drawings - Stack foundation",
+  "type_code": "FND",
+  "weight": 60.0
+}

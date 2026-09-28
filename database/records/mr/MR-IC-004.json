@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.061494Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.619705Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "award_days": 20,
+  "bid_days": 25,
+  "cwps": [
+    "CWP-01-IC-01",
+    "CWP-02-IC-01",
+    "CWP-05-IC-01",
+    "CWP-07-IC-01",
+    "CWP-08-IC-01",
+    "CWP-09-IC-01",
+    "CWP-10-IC-01"
+  ],
+  "discipline": "i_and_c",
+  "id": "MR-IC-004",
+  "manufacture_weeks": 26,
+  "package_type": "bulk",
+  "status": "agreed",
+  "title": "Field instruments",
+  "transport_weeks": 4,
+  "vdr_weeks": 6
+}

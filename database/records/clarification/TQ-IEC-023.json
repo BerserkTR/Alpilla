@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T15:03:57.448470Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:57.716299Z",
+    "updated_by": "IECE"
+  },
+  "changed_records": [
+    "mr/MR-EL-101"
+  ],
+  "contract": "ALP-CA-001",
+  "discipline": "general",
+  "id": "TQ-IEC-023",
+  "impact": "none",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "Ship the GT generator with the GT; ST generator unchanged (needed at CWP-02-ME-01 start).",
+  "question": "(1) ER-01.06 requires KKS for all systems, equipment and documents. Please confirm that the power island (main groups MB, MK, HA, MA, BA/BAT for the GSUs, CJ/MBY for the TCS) is tagged with the project KKS key list (proposal ALP-EPC-00000-GE-PRC-0001) to component level B, and that your internal part numbers stay below component level. (2) Please confirm that every IEC deliverable carries the project document number ALP-IEC-<KKS>-<DISC>-<TYPE>-<NNNN> as primary number and the IEC number as secondary (vendor reference), as allocated in the MDL. (3) Please confirm the VDRL first-issue and final dates in the MDL (weeks after NTP). (4) The MDL / AWP timeline shows the GT generator (MR-EL-101, 52 weeks + 4 weeks sea transport) on site 2027-11-29, while GT erection CWP-01-ME-01 starts 2027-11-15 (generator set directly after the GT). Can the GT generator ship with the GT (50 weeks)?",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-28",
+  "references": [
+    "requirement:ER-01.06",
+    "requirement:ER-17.01",
+    "source:SRC-EPCE-0009"
+  ],
+  "responded_by": "IEC",
+  "response": "(1) Confirmed. IEC tags the power island with the project KKS to component level (B), systems and equipment units per the project key list; IEC part numbers are kept as vendor attributes below component level. IEC checks the key titles of its main groups against its VGB-S-811 licence copy and reports deviations with the KKS manual review (IFR). (2) Confirmed: project number primary, IEC number as vendor reference on the title block. (3) Confirmed: the VDRL dates in the MDL are the IEC commitment. (4) Confirmed with an improvement: generator shop tests are brought forward; the GT generators leave the works in week 49 together with the GT (sea transport 4 weeks), on site 2027-11-08. The ST generator follows the ST train (no change).",
+  "response_date": "2026-09-28",
+  "round": 7,
+  "status": "closed",
+  "subject": "Engineering start: project KKS and document numbering, VDRL dates, generator delivery"
+}

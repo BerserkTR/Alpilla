@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.139394Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.235722Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "other",
+  "id": "00SMA",
+  "scope": "IEPC",
+  "title": "Cranes and hoists",
+  "unit_no": "00"
+}

@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.058721Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.615014Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "award_days": 0,
+  "bid_days": 0,
+  "cwps": [
+    "CWP-04-EL-01"
+  ],
+  "discipline": "electrical",
+  "id": "MR-EL-001",
+  "manufacture_weeks": 52,
+  "package_type": "equipment",
+  "po_date": "2026-12-15",
+  "scope": "Long-lead item: order placed from the tender-stage specification at NTP + 6 weeks",
+  "status": "agreed",
+  "title": "380 kV GIS",
+  "transport_weeks": 6,
+  "vdr_weeks": 12
+}

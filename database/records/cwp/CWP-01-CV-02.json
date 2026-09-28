@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.620305Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.783682Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-01-CV-02",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Civil contractor",
+  "cwa": "CWA-01",
+  "discipline": "civil",
+  "ewp_lead_days": 20,
+  "id": "CWP-01-CV-02",
+  "scope": "GT/generator block foundation, HRSG and stack foundations, filter house, GSU bay with oil pit, underground",
+  "status": "agreed",
+  "title": "Foundations - power block GT/HRSG"
+}

@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.624842Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.788487Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-04-CV-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Civil contractor",
+  "cwa": "CWA-04",
+  "discipline": "civil",
+  "ewp_lead_days": 20,
+  "id": "CWP-04-CV-01",
+  "scope": "GIS building foundations, line gantry",
+  "status": "agreed",
+  "title": "Foundations - GIS building and gantry"
+}

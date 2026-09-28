@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.839547Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:50:08.839547Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "electrical",
+  "duration": 90,
+  "id": "CWP-03-EL-01",
+  "phase": "construction",
+  "predecessors": [
+    "CWP-03-SS-01:SS+110"
+  ],
+  "responsible": "Electrical contractor",
+  "title": "MV/LV switchgear, UPS, DC, emergency diesel",
+  "type": "task",
+  "wbs": "ALP.C.03"
+}

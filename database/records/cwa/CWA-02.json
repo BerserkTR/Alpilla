@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.481140Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.376241Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "basis_refs": [
+    "source:SRC-IECE-0009",
+    "source:SRC-OWNR-0010"
+  ],
+  "description": "ST hall, ST, generator, condenser, CEPs, ST GSU bay",
+  "e_max": 175,
+  "e_min": 80,
+  "id": "CWA-02",
+  "n_max": 125,
+  "n_min": 55,
+  "path_seq": 3,
+  "status": "agreed",
+  "structures": [
+    "20UMB",
+    "00UBF"
+  ],
+  "title": "Power block - ST and condenser"
+}

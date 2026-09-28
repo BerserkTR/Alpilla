@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.125253Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.252461Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "steam_turbine",
+  "id": "20MAW",
+  "parent": "20MA",
+  "scope": "IEC",
+  "title": "Gland steam system",
+  "unit_no": "20"
+}

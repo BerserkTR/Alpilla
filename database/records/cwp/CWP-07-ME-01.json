@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.627746Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.791501Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-07-ME-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Mechanical contractor",
+  "cwa": "CWA-07",
+  "discipline": "mechanical",
+  "ewp_lead_days": 20,
+  "id": "CWP-07-ME-01",
+  "scope": "SWRO, demin, CPP, WWT, sanitary, tanks",
+  "status": "agreed",
+  "title": "Water treatment packages and tanks"
+}

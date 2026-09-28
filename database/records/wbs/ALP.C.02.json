@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.670794Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:50:08.670794Z",
+    "updated_by": "EPCE"
+  },
+  "id": "ALP.C.02",
+  "parent": "ALP.C",
+  "title": "Power block - ST and condenser"
+}

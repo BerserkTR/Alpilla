@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.795664Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T14:50:36.252134Z",
+    "updated_by": "EPCE"
+  },
+  "description": "received IEC-ALP-IF-001 Rev A",
+  "document": "ALP-IEC-00000-GE-LST-0001",
+  "file": "sources/iec/IEC-ALP-IF-001_RevA.pdf",
+  "id": "ALP-IEC-00000-GE-LST-0001_A",
+  "issue_date": "2026-09-28",
+  "purpose": "IFR",
+  "revision": "A"
+}

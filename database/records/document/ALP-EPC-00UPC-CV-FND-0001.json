@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.027608Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.700125Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-05",
+  "discipline": "civil",
+  "doc_type": "drawing",
+  "ewp": "EWP-05-CV-01",
+  "id": "ALP-EPC-00UPC-CV-FND-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-CAL-0001",
+    "ALP-EPC-00000-CV-RPT-0001",
+    "ALP-EPC-00UPC-PI-LAY-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 3,
+  "status": "planned",
+  "system": "00UPC",
+  "title": "Foundation and underground drawings - CW pump house",
+  "type_code": "FND",
+  "weight": 60.0
+}

@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.902176Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.959044Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-GUA",
+  "key": "GUA",
+  "level": "function",
+  "main_group": "Water supply and disposal",
+  "status": "agreed",
+  "title": "Sanitary waste water treatment",
+  "verified": false
+}

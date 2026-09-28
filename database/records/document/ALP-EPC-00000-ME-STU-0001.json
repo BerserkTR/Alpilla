@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.830568Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.574971Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-02.14",
+    "scope_item:DR-040"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "study",
+  "id": "ALP-EPC-00000-ME-STU-0001",
+  "inputs": [
+    "ALP-EPC-00000-PI-PLT-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "Heavy transport, lifting and erection study (barge, SPMT, cranes)",
+  "type_code": "STU",
+  "weight": 160.0
+}

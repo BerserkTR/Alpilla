@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.063381Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.614161Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "award_days": 15,
+  "bid_days": 20,
+  "cwps": [
+    "CWP-12-CV-01",
+    "CWP-01-CV-02",
+    "CWP-02-CV-02",
+    "CWP-03-CV-01",
+    "CWP-05-CV-01"
+  ],
+  "discipline": "civil",
+  "id": "MR-CV-002",
+  "manufacture_weeks": 2,
+  "package_type": "subcontract",
+  "status": "agreed",
+  "title": "Civil and building works",
+  "transport_weeks": 0,
+  "vdr_weeks": 2
+}

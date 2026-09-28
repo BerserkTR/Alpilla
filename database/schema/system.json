@@ -64,6 +64,15 @@
       "type": "aveva_attrs",
       "class_field": "aveva_class",
       "description": "attributes of the AVEVA class: --attr \"Name=value [unit]\""
+    },
+    "scope": {
+      "type": "ref",
+      "to": "party",
+      "description": "party responsible for the system engineering"
+    },
+    "cwas": {
+      "type": "ref_list",
+      "to": "cwa"
     }
   }
 }

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.123910Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.245464Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "water_steam_cycle",
+  "id": "10LBD",
+  "scope": "IEPC",
+  "title": "LP steam piping",
+  "unit_no": "10"
+}

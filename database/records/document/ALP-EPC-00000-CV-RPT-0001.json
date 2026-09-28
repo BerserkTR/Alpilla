@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.838886Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.551613Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-02.07",
+    "scope_item:SC-004"
+  ],
+  "discipline": "civil",
+  "doc_type": "report",
+  "id": "ALP-EPC-00000-CV-RPT-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-DBR-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "Geotechnical interpretation report and pile design basis",
+  "type_code": "RPT",
+  "weight": 60.0
+}

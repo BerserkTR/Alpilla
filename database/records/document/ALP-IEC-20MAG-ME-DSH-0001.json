@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.850305Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.784576Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-07.04",
+    "requirement:ER-07.07",
+    "requirement:ER-07.08",
+    "scope_item:DR-021",
+    "scope_item:SC-012",
+    "source:SRC-EPCE-0006"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "20MAG10"
+  ],
+  "id": "ALP-IEC-20MAG-ME-DSH-0001",
+  "originator": "IEC",
+  "planned_ifc": "2026-12-28",
+  "planned_ifr": "2026-11-02",
+  "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "source": "SRC-EPCE-0006",
+  "status": "planned",
+  "system": "20MAG",
+  "systems": [
+    "20MAJ"
+  ],
+  "title": "Seawater-cooled surface condenser datasheet",
+  "type_code": "DSH",
+  "vendor_ref": "IEC-ALP-DS-105",
+  "weight": 16.0
+}

@@ -1,0 +1,34 @@
+{
+  "code_hash": "7ce5a28c94e54a8a",
+  "db_hash": "e2b68d74c65308eb",
+  "engine": "engineering_plan",
+  "engine_version": "1.0.0",
+  "files": {
+    "ALP_MDL.xlsx": "23ef10eca3546e51dd4c2b9c3fa33ba70c2f1f32b65ad28dd0e0545e651e95fc",
+    "ALP_engineering_timeline.pdf": "3ddb479025820550b23e055db5ee3794fc8e0a1be1366fd3bbec305971b63bd0"
+  },
+  "generated_at": "2026-09-28T15:06:19.089114Z",
+  "generated_by": "SETUP",
+  "git_commit": "d0fb64a",
+  "inputs": [
+    "activity",
+    "cwa",
+    "cwp",
+    "doc_type",
+    "document",
+    "document_revision",
+    "equipment",
+    "ewp",
+    "kks_key",
+    "mr",
+    "party",
+    "project",
+    "requirement",
+    "scope_item",
+    "system",
+    "wbs"
+  ],
+  "inputs_hash": "59983e4648c22c39",
+  "options": {},
+  "warnings": []
+}

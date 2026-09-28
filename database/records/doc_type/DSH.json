@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:40.112433Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:49:40.112433Z",
+    "updated_by": "EPCE"
+  },
+  "category": "datasheet",
+  "construction": false,
+  "dcc": "E",
+  "hours": 16,
+  "id": "DSH",
+  "input_maturity": "IFR",
+  "input_types": [
+    "SPC"
+  ],
+  "prep_days": 10,
+  "procurement": true,
+  "review": "approval",
+  "title": "Datasheet",
+  "update_days": 5
+}

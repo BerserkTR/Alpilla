@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.135555Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.229233Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "water_treatment",
+  "id": "00GUA",
+  "scope": "IEPC",
+  "title": "Sanitary waste water treatment",
+  "unit_no": "00"
+}

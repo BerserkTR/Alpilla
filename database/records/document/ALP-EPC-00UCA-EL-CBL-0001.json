@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.049963Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.689294Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "cwa": "CWA-11",
+  "discipline": "electrical",
+  "doc_type": "list",
+  "ewp": "EWP-11-EL-01",
+  "id": "ALP-EPC-00UCA-EL-CBL-0001",
+  "inputs": [
+    "ALP-EPC-00000-EL-CAL-0001",
+    "ALP-EPC-00000-EL-SLD-0001",
+    "ALP-EPC-00UCA-EL-ELY-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00UCA",
+  "title": "Cable schedule and routing - Control, administration and workshop buildings",
+  "type_code": "CBL",
+  "weight": 60.0
+}

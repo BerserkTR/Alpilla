@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.848073Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:50:08.848073Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "i_and_c",
+  "duration": 60,
+  "id": "CWP-10-IC-01",
+  "phase": "construction",
+  "predecessors": [
+    "CWP-10-EL-01:SS+20"
+  ],
+  "responsible": "I&C contractor",
+  "title": "I&C - LDO",
+  "type": "task",
+  "wbs": "ALP.C.10"
+}

@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.483893Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.378848Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "basis_refs": [
+    "source:SRC-IECE-0009",
+    "source:SRC-OWNR-0010"
+  ],
+  "description": "4 unloading bays, 2 x 3,500 m3 tanks in bund, forwarding and treatment",
+  "e_max": 300,
+  "e_min": 215,
+  "id": "CWA-10",
+  "n_max": 295,
+  "n_min": 220,
+  "path_seq": 5,
+  "status": "agreed",
+  "structures": [
+    "00UEG"
+  ],
+  "title": "LDO tank farm and unloading"
+}

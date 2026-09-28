@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:40.107712Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:49:40.107712Z",
+    "updated_by": "EPCE"
+  },
+  "category": "procedure",
+  "construction": false,
+  "dcc": "B",
+  "hours": 80,
+  "id": "PRC",
+  "input_maturity": "IFR",
+  "prep_days": 15,
+  "procurement": false,
+  "review": "approval",
+  "title": "Procedure / project standard",
+  "update_days": 10
+}

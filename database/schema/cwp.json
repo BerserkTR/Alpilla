@@ -1,0 +1,77 @@
+{
+  "entity": "cwp",
+  "title": "Construction work package (AWP): one discipline's work in one CWA, scheduled by its activity",
+  "id_pattern": "^CWP-[0-9]{2}-[A-Z]{2}-[0-9]{2}$",
+  "display": [
+    "cwa",
+    "discipline",
+    "title",
+    "activity"
+  ],
+  "fields": {
+    "cwa": {
+      "type": "ref",
+      "to": "cwa",
+      "required": true
+    },
+    "discipline": {
+      "type": "enum",
+      "values": [
+        "general",
+        "process",
+        "mechanical",
+        "piping",
+        "electrical",
+        "i_and_c",
+        "civil",
+        "structural",
+        "hvac",
+        "hse",
+        "commissioning",
+        "project_control"
+      ],
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "scope": {
+      "type": "text",
+      "required": true
+    },
+    "activity": {
+      "type": "ref",
+      "to": "activity",
+      "description": "schedule activity that carries the CWP dates (CPM)"
+    },
+    "ewp_lead_days": {
+      "type": "integer",
+      "unit": "working days",
+      "description": "EWP needed at IFC this long before the CWP start (default 20)"
+    },
+    "quantities": {
+      "type": "text"
+    },
+    "contractor": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "proposed",
+        "agreed",
+        "superseded"
+      ],
+      "required": true
+    },
+    "agreed_by": {
+      "type": "ref_list",
+      "to": "party"
+    },
+    "agreed_refs": {
+      "type": "ref_list",
+      "to": "clarification"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.619500Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.797705Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-12-CV-02",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Civil contractor",
+  "cwa": "CWA-12",
+  "discipline": "civil",
+  "ewp_lead_days": 20,
+  "id": "CWP-12-CV-02",
+  "scope": "Permanent roads, storm and oily drainage, culverts, cable trenches, final paving",
+  "status": "agreed",
+  "title": "Roads, drainage and underground services"
+}

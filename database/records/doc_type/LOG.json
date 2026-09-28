@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:40.114274Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.306598Z",
+    "updated_by": "OWNR"
+  },
+  "category": "diagram",
+  "construction": false,
+  "dcc": "F",
+  "hours": 60,
+  "id": "LOG",
+  "input_maturity": "IFR",
+  "input_types": [
+    "CNR",
+    "IOL"
+  ],
+  "prep_days": 20,
+  "procurement": false,
+  "remarks": "Approval class per TQ-035 (safety relevant)",
+  "review": "approval",
+  "title": "Logic diagram",
+  "update_days": 10
+}

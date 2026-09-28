@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.142173Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.249293Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "civil_structural",
+  "id": "10UMA",
+  "scope": "IEPC",
+  "title": "Gas turbine hall",
+  "unit_no": "10"
+}

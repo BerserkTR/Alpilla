@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.125819Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.251915Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "water_steam_cycle",
+  "id": "20MAN",
+  "parent": "20MA",
+  "scope": "IEPC",
+  "title": "Turbine bypass stations and piping",
+  "unit_no": "20"
+}

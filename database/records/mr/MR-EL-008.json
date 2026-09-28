@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.060262Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:04:01.617729Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "award_days": 15,
+  "bid_days": 20,
+  "cwps": [
+    "CWP-01-EL-01",
+    "CWP-02-EL-01",
+    "CWP-03-EL-01",
+    "CWP-05-EL-01",
+    "CWP-07-EL-01",
+    "CWP-08-EL-01",
+    "CWP-09-EL-01",
+    "CWP-10-EL-01",
+    "CWP-11-EL-01",
+    "CWP-04-EL-01"
+  ],
+  "discipline": "electrical",
+  "id": "MR-EL-008",
+  "manufacture_weeks": 20,
+  "package_type": "bulk",
+  "status": "agreed",
+  "title": "Power and control cables",
+  "transport_weeks": 2,
+  "vdr_weeks": 4
+}

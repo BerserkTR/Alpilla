@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:31:43.072518Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T14:31:43.482724Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "requirement/ER-06.04"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "TQ-034",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "2 tanks of 30 m3 (27 t of 24.5 % solution each): 7 days on gas per tank, 72 h on LDO from one full and one half-full tank; unloading from 25 t road tankers.",
+  "question": "ER-06.04 requires aqueous ammonia storage for 2 x 7 days at base load. SCR consumption is 125 kg/h on gas and 480 kg/h on LDO (TQ-IEC-018). 7 days on gas is 21 t per tank; 72 h on LDO (the LDO storage autonomy, ER-03.08) needs 34.6 t. Please confirm the basis: 2 x 7 days on gas, and the total also covering 72 h of LDO operation.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-28",
+  "references": [
+    "requirement:ER-06.04",
+    "requirement:ER-03.08",
+    "tie_in:IF-25"
+  ],
+  "responded_by": "OWNER",
+  "response": "Accepted: 2 x 30 m3 as proposed; ER-06.04 clarified. The ammonia inventory (about 54 t) is added to the major accident notification (PMT-015).",
+  "response_date": "2026-09-28",
+  "round": 6,
+  "status": "closed",
+  "subject": "Aqueous ammonia storage basis (ER-06.04)"
+}

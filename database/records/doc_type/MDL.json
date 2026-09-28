@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:40.104567Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:49:40.104567Z",
+    "updated_by": "EPCE"
+  },
+  "category": "list",
+  "construction": false,
+  "dcc": "A",
+  "hours": 60,
+  "id": "MDL",
+  "input_maturity": "IFR",
+  "prep_days": 10,
+  "procurement": false,
+  "review": "information",
+  "title": "Master document list",
+  "update_days": 5
+}

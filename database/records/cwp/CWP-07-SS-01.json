@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.627571Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.791994Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-07-SS-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Building contractor",
+  "cwa": "CWA-07",
+  "discipline": "structural",
+  "ewp_lead_days": 20,
+  "id": "CWP-07-SS-01",
+  "scope": "Structure and finishes",
+  "status": "agreed",
+  "title": "Water treatment building"
+}

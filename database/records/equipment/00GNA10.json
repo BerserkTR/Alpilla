@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.547114Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:05:55.431427Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Equipment Package Skid",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "cwa": "CWA-07",
+  "cwp": "CWP-07-ME-01",
+  "description": "Waste water treatment package",
+  "equipment_type": "package",
+  "id": "00GNA10",
+  "mr": "MR-ME-014",
+  "quantity": 1,
+  "rated_power": 60.0,
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00GNA"
+}

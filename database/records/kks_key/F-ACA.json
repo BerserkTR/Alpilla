@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.884190Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.950767Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-ACA",
+  "key": "ACA",
+  "level": "function",
+  "main_group": "Grid and distribution systems",
+  "status": "agreed",
+  "title": "380 kV switchgear (GIS)",
+  "verified": false
+}

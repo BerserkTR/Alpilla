@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.822612Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.562776Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "bdp": true,
+  "discipline": "general",
+  "doc_type": "procedure",
+  "id": "ALP-EPC-00000-GE-PRC-0001",
+  "originator": "EPC",
+  "status": "planned",
+  "title": "KKS identification manual (project key list and tagging rules)",
+  "type_code": "PRC",
+  "weight": 80.0
+}

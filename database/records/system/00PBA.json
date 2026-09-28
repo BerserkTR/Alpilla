@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.136830Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.232064Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "cooling",
+  "id": "00PBA",
+  "scope": "IEPC",
+  "title": "Electro-chlorination",
+  "unit_no": "00"
+}

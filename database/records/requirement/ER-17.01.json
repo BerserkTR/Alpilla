@@ -2,16 +2,16 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:09.725094Z",
     "created_by": "CASE",
-    "rev": 1,
-    "updated_at": "2026-09-27T16:48:09.725094Z",
-    "updated_by": "CASE"
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.553815Z",
+    "updated_by": "OWNR"
   },
   "contract": "ALP-EPC-001",
   "discipline": "project_control",
   "id": "ER-17.01",
   "section": "ER-17 Documentation, training, O&M and spares",
   "status": "contractual",
-  "text": "Documents submitted electronically with the Owner's numbering and a master document register; review period 14 days (21 days for the Basic Design Package).",
+  "text": "Documents submitted electronically with the project numbering (consortium proposal adopted by the Owner in TQ-035: ALP-<ORG>-<KKS>-<DISC>-<TYPE>-<NNNN>) and a master document register; review period 14 days (21 days for the Basic Design Package).",
   "title": "Document management",
   "verification": "review"
 }

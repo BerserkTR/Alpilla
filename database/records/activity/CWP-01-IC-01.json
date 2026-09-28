@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.836654Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:50:08.836654Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "i_and_c",
+  "duration": 120,
+  "id": "CWP-01-IC-01",
+  "phase": "construction",
+  "predecessors": [
+    "CWP-01-PI-01:SS+40"
+  ],
+  "responsible": "I&C contractor",
+  "title": "I&C - power block GT/HRSG",
+  "type": "task",
+  "wbs": "ALP.C.01"
+}

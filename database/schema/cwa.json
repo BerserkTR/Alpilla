@@ -1,0 +1,77 @@
+{
+  "entity": "cwa",
+  "title": "Construction work area (AWP): geographic area of the site, basis of the path of construction",
+  "id_pattern": "^CWA-[0-9]{2}$",
+  "display": [
+    "title",
+    "path_seq",
+    "e_min",
+    "n_min",
+    "e_max",
+    "n_max"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "path_seq": {
+      "type": "integer",
+      "required": true,
+      "description": "order in the path of construction"
+    },
+    "e_min": {
+      "type": "number",
+      "unit": "m"
+    },
+    "n_min": {
+      "type": "number",
+      "unit": "m"
+    },
+    "e_max": {
+      "type": "number",
+      "unit": "m"
+    },
+    "n_max": {
+      "type": "number",
+      "unit": "m"
+    },
+    "structures": {
+      "type": "list",
+      "description": "KKS structure codes (U..) in the area"
+    },
+    "systems": {
+      "type": "ref_list",
+      "to": "system"
+    },
+    "description": {
+      "type": "text"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "decision",
+        "reference",
+        "requirement"
+      ]
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "proposed",
+        "agreed",
+        "superseded"
+      ],
+      "required": true
+    },
+    "agreed_by": {
+      "type": "ref_list",
+      "to": "party"
+    },
+    "agreed_refs": {
+      "type": "ref_list",
+      "to": "clarification"
+    }
+  }
+}

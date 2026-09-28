@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.960342Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T04:13:05.330663Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T14:50:10.321838Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Synchronous Generator",
@@ -12,6 +12,8 @@
     "source:SRC-IECE-0009",
     "source:SRC-IECE-0011"
   ],
+  "cwa": "CWA-02",
+  "cwp": "CWP-02-ME-01",
   "description": "ST generator 270 MVA, TEWAC",
   "equipment_type": "generator",
   "height": 5200,
@@ -20,6 +22,7 @@
   "location": "ST hall, west of the ST; rotor withdrawal 12 m west",
   "manufacturer": "Imaginary Electric Company",
   "model": "IE-GA270",
+  "mr": "MR-EL-101",
   "orientation": 0,
   "position": [
     109300,
@@ -31,7 +34,8 @@
   "remarks": "0.85 pf",
   "shape": "box",
   "status": "preliminary",
-  "system": "20MK",
+  "supply": "IEC",
+  "system": "20MKA",
   "voltage": 15750,
   "width": 4100
 }

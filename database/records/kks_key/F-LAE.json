@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.904103Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.961236Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-LAE",
+  "key": "LAE",
+  "level": "function",
+  "main_group": "Steam, water, gas cycles",
+  "status": "agreed",
+  "title": "HP attemperation spray water",
+  "verified": false
+}

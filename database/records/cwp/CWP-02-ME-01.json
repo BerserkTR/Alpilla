@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.623202Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.786784Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-02-ME-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Mechanical contractor",
+  "cwa": "CWA-02",
+  "discipline": "mechanical",
+  "ewp_lead_days": 20,
+  "id": "CWP-02-ME-01",
+  "scope": "Condenser modules, ST casings and rotors, generator, CEPs, tube cleaning",
+  "status": "agreed",
+  "title": "Condenser, ST and generator erection"
+}

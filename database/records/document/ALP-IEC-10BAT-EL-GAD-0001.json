@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.852621Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.774395Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "source:SRC-IECE-0013"
+  ],
+  "discipline": "electrical",
+  "doc_type": "drawing",
+  "ewp": "EWP-01-EL-01",
+  "id": "ALP-IEC-10BAT-EL-GAD-0001",
+  "originator": "IEC",
+  "planned_ifc": "2027-01-11",
+  "planned_ifr": "2026-11-02",
+  "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "source": "SRC-IECE-0013",
+  "status": "planned",
+  "system": "10BAT",
+  "systems": [
+    "20BAT"
+  ],
+  "title": "Generator step-up transformers - GA, installation and maintenance",
+  "type_code": "GAD",
+  "vendor_ref": "IEC-ALP-GA-104",
+  "weight": 60.0
+}

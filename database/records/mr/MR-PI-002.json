@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.062107Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.625875Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "award_days": 20,
+  "bid_days": 25,
+  "cwps": [
+    "CWP-01-PI-01",
+    "CWP-02-PI-01"
+  ],
+  "discipline": "piping",
+  "id": "MR-PI-002",
+  "manufacture_weeks": 40,
+  "package_type": "bulk",
+  "status": "agreed",
+  "title": "Alloy piping P91 / P22 (main steam, reheat)",
+  "transport_weeks": 6,
+  "vdr_weeks": 6
+}

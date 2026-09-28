@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.837572Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:50:08.837572Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "structural",
+  "duration": 110,
+  "id": "CWP-02-SS-01",
+  "phase": "construction",
+  "predecessors": [
+    "CWP-02-CV-02:SS+60"
+  ],
+  "responsible": "Steel contractor",
+  "title": "ST hall steel, cladding, crane",
+  "type": "task",
+  "wbs": "ALP.C.02"
+}

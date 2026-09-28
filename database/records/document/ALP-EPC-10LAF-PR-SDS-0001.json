@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.865158Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.727827Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "scope_item:DR-019"
+  ],
+  "discipline": "process",
+  "doc_type": "report",
+  "id": "ALP-EPC-10LAF-PR-SDS-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-DBR-0001",
+    "ALP-EPC-00000-PR-PFD-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "system": "10LAF",
+  "tender": true,
+  "title": "System design description - Reheat attemperation spray water",
+  "type_code": "SDS",
+  "weight": 60.0
+}

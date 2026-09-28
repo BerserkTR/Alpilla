@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T15:03:58.775470Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.050458Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "doc_type/LOG"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "TQ-035",
+  "impact": "technical_only",
+  "outcome": "requirement_changed",
+  "proposal": "Adopt the consortium numbering as the Owner's numbering under ER-17.01; approve the key list with verification by the Owner's Engineer; accept the MDL, review classes and AWP definitions.",
+  "question": "(1) ER-17.01 requires the Owner's document numbering, which has not been provided. The consortium proposes ALP-<ORG>-<KKS system or 00000>-<DISC>-<TYPE>-<NNNN> (procedure ALP-EPC-00000-GE-PRC-0002), with the IEC 61355 document class on every document type. Does the Owner accept it as the project numbering? (2) Please approve the project KKS key list (125 function, equipment-unit and component keys, 0 = common / 1 = GT+HRSG / 2 = ST unit numbering) for use in engineering. (3) Please accept the MDL (623 documents incl. the IEC VDRL) as the document baseline, the review classes per document type (approval / review / information / internal) and the Basic Design Package flag (21-day review). (4) Please accept the AWP definitions: 12 CWAs in path-of-construction order, one CWP per CWA and discipline, one EWP per CWP needed 20 working days before the CWP starts, MRs as PWPs (ROS at the first CWP start); IWPs are prepared by the construction contractors from the CWPs.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-28",
+  "references": [
+    "requirement:ER-01.06",
+    "requirement:ER-17.01",
+    "requirement:ER-17.02"
+  ],
+  "responded_by": "OWNER",
+  "response": "(1) Accepted: the consortium numbering is the project numbering under ER-17.01; the Owner's EDMS will use it unchanged. (2) The KKS key list is approved for engineering. The Owner's Engineer verifies each key title against the VGB-S-811 key catalogue with the KKS manual review; until then keys stay flagged 'not verified'. (3) MDL accepted as baseline for the Basic Design Package. Review classes accepted with one change: logic diagrams (LOG) incl. cause and effect are safety relevant and are for approval. The MDL is updated monthly with the progress report. (4) AWP definitions accepted. The Owner requires every CWP to be released for construction only when its EWP is complete (all IFC) and its PWP materials are on site or have a confirmed delivery before the planned installation.",
+  "response_date": "2026-09-28",
+  "round": 7,
+  "status": "closed",
+  "subject": "Engineering start-up: KKS key list, document numbering, MDL, review classes and AWP definitions"
+}

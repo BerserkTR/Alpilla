@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.142456Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.253910Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "civil_structural",
+  "id": "20UMB",
+  "scope": "IEPC",
+  "title": "Steam turbine hall",
+  "unit_no": "20"
+}

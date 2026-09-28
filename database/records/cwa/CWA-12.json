@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.484456Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.379429Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "basis_refs": [
+    "source:SRC-IECE-0009",
+    "source:SRC-OWNR-0010"
+  ],
+  "description": "Mobilisation, temporary facilities, roads, drainage, fencing, underground services, earthing grid, site lighting",
+  "e_max": 400,
+  "e_min": 0,
+  "id": "CWA-12",
+  "n_max": 300,
+  "n_min": 0,
+  "path_seq": 1,
+  "status": "agreed",
+  "structures": [
+    "00UZA",
+    "00UZB",
+    "00UZC"
+  ],
+  "title": "Site-wide infrastructure"
+}

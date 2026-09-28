@@ -155,6 +155,25 @@
       "type": "ref",
       "to": "document",
       "description": "P&ID sheet showing this equipment"
+    },
+    "cwa": {
+      "type": "ref",
+      "to": "cwa"
+    },
+    "cwp": {
+      "type": "ref",
+      "to": "cwp",
+      "description": "CWP that installs the item"
+    },
+    "mr": {
+      "type": "ref",
+      "to": "mr",
+      "description": "MR / PWP that buys the item"
+    },
+    "supply": {
+      "type": "ref",
+      "to": "party",
+      "description": "supplying party (IEC / IEPC)"
     }
   }
 }

@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:40.111153Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:49:40.111153Z",
+    "updated_by": "EPCE"
+  },
+  "category": "diagram",
+  "construction": false,
+  "dcc": "F",
+  "hours": 80,
+  "id": "PID",
+  "input_maturity": "IFR",
+  "input_types": [
+    "SDS"
+  ],
+  "prep_days": 25,
+  "procurement": false,
+  "required_for": [
+    "water_steam_cycle",
+    "condensate_feedwater",
+    "cooling",
+    "water_treatment",
+    "auxiliary_mechanical",
+    "fuel_gas",
+    "fire_protection"
+  ],
+  "review": "approval",
+  "title": "Piping and instrumentation diagram",
+  "update_days": 15
+}

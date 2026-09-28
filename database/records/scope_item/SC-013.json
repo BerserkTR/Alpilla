@@ -2,9 +2,9 @@
   "_meta": {
     "created_at": "2026-09-27T16:48:09.899748Z",
     "created_by": "CASE",
-    "rev": 1,
-    "updated_at": "2026-09-27T16:48:09.899748Z",
-    "updated_by": "CASE"
+    "rev": 2,
+    "updated_at": "2026-09-28T14:31:42.028080Z",
+    "updated_by": "OWNR"
   },
   "area": "Power island",
   "commission": "IEC",
@@ -12,7 +12,8 @@
   "design": "IEC",
   "id": "SC-013",
   "install": "IEPC",
-  "item": "Power island control system (TCS/ST controls) integrated in plant DCS",
+  "item": "Power island control system (TCS) by IEC, integrated with the plant DCS: native graphics and alarms on the DCS operator stations, one KKS tag database, common time synchronisation, separate IEC 62443 zone (IF-40)",
+  "remarks": "Integration solution accepted in TQ-026.",
   "supply": "IEC",
   "terminal_point": "DCS interface (redundant fibre)"
 }

@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.843366Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.565701Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "hse",
+  "doc_type": "study",
+  "id": "ALP-EPC-00000-HS-HAZ-0006",
+  "inputs": [
+    "ALP-EPC-00PGA-PR-PID-0001",
+    "ALP-EPC-00QEA-PR-PID-0001",
+    "ALP-EPC-00QHA-PR-PID-0001",
+    "ALP-EPC-00QJA-PR-PID-0001",
+    "ALP-EPC-00QJB-PR-PID-0001",
+    "ALP-EPC-00SGA-PR-PID-0001",
+    "ALP-EPC-00SGC-PR-PID-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "HAZOP report - BOP utilities (aux boiler, air, N2, H2, CCW)",
+  "type_code": "HAZ",
+  "weight": 160.0
+}

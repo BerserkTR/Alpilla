@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.140372Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.237543Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "civil_structural",
+  "id": "00UEG",
+  "scope": "IEPC",
+  "title": "LDO tank farm structures",
+  "unit_no": "00"
+}

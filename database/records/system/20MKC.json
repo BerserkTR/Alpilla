@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.126318Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.253553Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "generator",
+  "id": "20MKC",
+  "parent": "20MK",
+  "scope": "IEC",
+  "title": "ST excitation",
+  "unit_no": "20"
+}

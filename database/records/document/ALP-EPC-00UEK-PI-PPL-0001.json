@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.039212Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.695831Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-09",
+  "discipline": "piping",
+  "doc_type": "drawing",
+  "ewp": "EWP-09-PI-01",
+  "id": "ALP-EPC-00UEK-PI-PPL-0001",
+  "inputs": [
+    "ALP-EPC-00000-PI-M3D-0001",
+    "ALP-EPC-00000-PI-SPC-0002",
+    "ALP-EPC-00UEK-PI-LAY-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 4,
+  "status": "planned",
+  "system": "00UEK",
+  "title": "Piping general arrangement - Fuel gas station",
+  "type_code": "PPL",
+  "weight": 105.0
+}

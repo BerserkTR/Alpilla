@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.819104Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.561029Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "general",
+  "doc_type": "list",
+  "id": "ALP-EPC-00000-GE-MDL-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-PLN-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "Master document list (MDL)",
+  "type_code": "MDL",
+  "weight": 60.0
+}

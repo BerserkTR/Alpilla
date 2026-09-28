@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.138018Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.233766Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "auxiliary_mechanical",
+  "id": "00QJB",
+  "scope": "IEPC",
+  "title": "Hydrogen and CO2 supply",
+  "unit_no": "00"
+}

@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.620493Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.785482Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-01-SS-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Steel contractor",
+  "cwa": "CWA-01",
+  "discipline": "structural",
+  "ewp_lead_days": 20,
+  "id": "CWP-01-SS-01",
+  "scope": "GT hall steel and cladding, EOT crane, pipe racks",
+  "status": "agreed",
+  "title": "GT hall steel, cladding, crane, pipe racks"
+}

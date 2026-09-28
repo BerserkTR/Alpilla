@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.624660Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.788020Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-03-HV-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "HVAC contractor",
+  "cwa": "CWA-03",
+  "discipline": "hvac",
+  "ewp_lead_days": 20,
+  "id": "CWP-03-HV-01",
+  "scope": "Chillers, AHUs, pressurisation",
+  "status": "agreed",
+  "title": "HVAC plant and electrical building HVAC"
+}

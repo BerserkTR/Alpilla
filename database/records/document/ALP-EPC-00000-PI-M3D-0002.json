@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.833434Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.576648Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "piping",
+  "doc_type": "model",
+  "id": "ALP-EPC-00000-PI-M3D-0002",
+  "inputs": [
+    "ALP-EPC-00UEG-PI-PPL-0001",
+    "ALP-EPC-00UEK-PI-PPL-0001",
+    "ALP-EPC-00UGA-PI-PPL-0001",
+    "ALP-EPC-00UPC-PI-PPL-0001",
+    "ALP-EPC-00UQA-PI-PPL-0001",
+    "ALP-EPC-00UZA-PI-PPL-0001",
+    "ALP-EPC-10UMA-PI-PPL-0001",
+    "ALP-EPC-20UMB-PI-PPL-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "60 % 3D model review report",
+  "type_code": "M3D",
+  "weight": 80.0
+}

@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.119884Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.248143Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "generator",
+  "id": "10MKC",
+  "parent": "10MK",
+  "scope": "IEC",
+  "title": "GT excitation and static frequency converter",
+  "unit_no": "10"
+}

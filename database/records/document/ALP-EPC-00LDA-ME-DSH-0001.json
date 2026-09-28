@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.991242Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.636579Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00LDA10"
+  ],
+  "id": "ALP-EPC-00LDA-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00LDA-ME-CAL-0001",
+    "ALP-EPC-00LDA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-012",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00LDA",
+  "tender": true,
+  "title": "Datasheet - Condensate polishing: package",
+  "type_code": "DSH",
+  "weight": 16.0
+}

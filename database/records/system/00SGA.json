@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.138631Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.234668Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "fire_protection",
+  "id": "00SGA",
+  "scope": "IEPC",
+  "title": "Fire water system",
+  "unit_no": "00"
+}

@@ -35,7 +35,7 @@ def refs_for(s, case):
 class HeatMassBalance(Engine):
     name = "hmb"
     title = "Heat and mass balance: diagram (DXF + PDF) and calculation workbook (Excel) per HMB case"
-    version = "1.1.0"
+    version = "1.1.1"
     inputs = ["project", "hmb_case", "process_stream", "aux_load", "guarantee", "design_parameter", "contract"]
     formats = ["dxf", "pdf", "xlsx"]
     code_deps = ["engine/core/hmb.py", "engine/core/thermo.py", "engine/core/dxfkit.py", "templates/hmb"]
@@ -279,7 +279,7 @@ class HeatMassBalance(Engine):
                 line([(cx, y1), (cx, y1 + 6.8)], "HMB-DATA")
                 T(f"{name} DRUM", cx, y1 + 19, 2.4, lay, "CENTER")
             T(nd["label"], x0 + 2, y1 + 25, 3.2, lay)
-            T("GAS FLOW  -->", x0 + (x1 - x0) / 2, y1 - 6, 2.6, "HMB-DATA", "CENTER")
+            T("GAS FLOW  -->", x1 - 2, y1 + 25, 2.6, "HMB-DATA", "RIGHT")      # above the box, clear of the section lines
         elif sym == "steam_turbine":
             x, y = nd["at"]
             line([(x - 85, y + 10), (x - 45, y + 18), (x - 45, y - 18), (x - 85, y - 10)], lay, close=True)     # HP

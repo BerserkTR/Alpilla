@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.632718Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.795131Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-10-EL-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Electrical contractor",
+  "cwa": "CWA-10",
+  "discipline": "electrical",
+  "ewp_lead_days": 20,
+  "id": "CWP-10-EL-01",
+  "scope": "Cabling, Ex equipment",
+  "status": "agreed",
+  "title": "Electrical - LDO"
+}

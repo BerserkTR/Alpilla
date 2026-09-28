@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.616450Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:04:00.797428Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-12-CV-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Civil contractor",
+  "cwa": "CWA-12",
+  "discipline": "civil",
+  "ewp_lead_days": 5,
+  "id": "CWP-12-CV-01",
+  "scope": "Temporary facilities on TP-A1, site offices, construction roads, storm water outlet TP-D1, fencing",
+  "status": "agreed",
+  "title": "Mobilisation, temporary facilities, site preparation"
+}

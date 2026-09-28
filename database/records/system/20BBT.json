@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.126911Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.250189Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "electrical_mv_lv",
+  "id": "20BBT",
+  "scope": "IEPC",
+  "title": "ST unit auxiliary transformer",
+  "unit_no": "20"
+}

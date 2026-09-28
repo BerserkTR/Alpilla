@@ -1,0 +1,63 @@
+{
+  "entity": "kks_key",
+  "title": "KKS key of the project key list (VGB-S-811 / VGB-B 105): function (incl. U structures), equipment unit and component keys",
+  "id_pattern": "^(F|A|B)-[A-Z]{2,3}$",
+  "display": [
+    "level",
+    "key",
+    "title",
+    "status"
+  ],
+  "fields": {
+    "level": {
+      "type": "enum",
+      "values": [
+        "function",
+        "equipment_unit",
+        "component"
+      ],
+      "required": true,
+      "description": "function = F1F2F3 (and U structures / points of installation); equipment_unit = A1A2; component = B1B2"
+    },
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "main_group": {
+      "type": "string",
+      "description": "meaning of the first letter"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "scope_note": {
+      "type": "text",
+      "description": "project use: what is coded with this key"
+    },
+    "verified": {
+      "type": "boolean",
+      "description": "title checked against the licensed VGB key list"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "proposed",
+        "agreed",
+        "superseded"
+      ],
+      "required": true
+    },
+    "agreed_by": {
+      "type": "ref_list",
+      "to": "party"
+    },
+    "agreed_refs": {
+      "type": "ref_list",
+      "to": "clarification"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

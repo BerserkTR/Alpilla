@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.123042Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.244381Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "condensate_feedwater",
+  "id": "10LAF",
+  "scope": "IEPC",
+  "title": "Reheat attemperation spray water",
+  "unit_no": "10"
+}

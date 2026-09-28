@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.920645Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.930675Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "A-AA",
+  "key": "AA",
+  "level": "equipment_unit",
+  "main_group": "equipment unit",
+  "status": "agreed",
+  "title": "Valves, dampers",
+  "verified": false
+}

@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.627142Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.790397Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-06-CV-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Marine contractor",
+  "cwa": "CWA-06",
+  "discipline": "civil",
+  "ewp_lead_days": 20,
+  "id": "CWP-06-CV-01",
+  "scope": "Intake head, intake and outfall pipelines, diffuser (window 1 October - 30 April)",
+  "status": "agreed",
+  "title": "Marine works"
+}

@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.967222Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.593380Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "electrical",
+  "doc_type": "other",
+  "id": "ALP-EPC-00BRA-EL-MRQ-0001",
+  "inputs": [
+    "ALP-EPC-00BRA-EL-DSH-0001",
+    "ALP-EPC-00BRA-EL-SPC-0001",
+    "ALP-EPC-00BTA-EL-DSH-0001"
+  ],
+  "mr": "MR-EL-007",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00BRA",
+  "title": "Material requisition - UPS, batteries and DC systems",
+  "type_code": "MRQ",
+  "weight": 24.0
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.849017Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:50:08.849017Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "i_and_c",
+  "duration": 100,
+  "id": "CWP-11-IC-01",
+  "phase": "construction",
+  "predecessors": [
+    "CWP-11-SS-01:SS+130"
+  ],
+  "responsible": "DCS supplier / I&C contractor",
+  "title": "DCS, CCR, telecom, CCTV",
+  "type": "task",
+  "wbs": "ALP.C.11"
+}

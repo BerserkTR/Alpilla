@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.824614Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.561984Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-15.01",
+    "requirement:ER-15.03"
+  ],
+  "discipline": "general",
+  "doc_type": "report",
+  "id": "ALP-EPC-00000-GE-PLN-0003",
+  "inputs": [
+    "ALP-EPC-00000-GE-PRC-0002"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "Project quality plan (engineering, procurement, construction)",
+  "type_code": "PLN",
+  "weight": 120.0
+}

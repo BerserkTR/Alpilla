@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.137602Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.233200Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "auxiliary_mechanical",
+  "id": "00QHA",
+  "scope": "IEPC",
+  "title": "Auxiliary boiler",
+  "unit_no": "00"
+}

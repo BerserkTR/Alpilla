@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.481424Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.376589Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "basis_refs": [
+    "source:SRC-IECE-0009",
+    "source:SRC-OWNR-0010"
+  ],
+  "description": "MV/LV switchgear, UPS/DC, emergency diesel, HVAC plant rooms",
+  "e_max": 75,
+  "e_min": 20,
+  "id": "CWA-03",
+  "n_max": 240,
+  "n_min": 100,
+  "path_seq": 4,
+  "status": "agreed",
+  "structures": [
+    "00UBA"
+  ],
+  "title": "Electrical building and emergency power"
+}

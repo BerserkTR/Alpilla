@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.122345Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.243561Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "condensate_feedwater",
+  "id": "10LAB",
+  "scope": "IEPC",
+  "title": "Feedwater piping",
+  "unit_no": "10"
+}

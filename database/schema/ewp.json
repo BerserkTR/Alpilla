@@ -1,0 +1,59 @@
+{
+  "entity": "ewp",
+  "title": "Engineering work package (AWP): the IFC documents one CWP needs; documents belong to it via document.ewp",
+  "id_pattern": "^EWP-[0-9]{2}-[A-Z]{2}-[0-9]{2}$",
+  "display": [
+    "cwp",
+    "discipline",
+    "title"
+  ],
+  "fields": {
+    "cwp": {
+      "type": "ref",
+      "to": "cwp",
+      "required": true
+    },
+    "discipline": {
+      "type": "enum",
+      "values": [
+        "general",
+        "process",
+        "mechanical",
+        "piping",
+        "electrical",
+        "i_and_c",
+        "civil",
+        "structural",
+        "hvac",
+        "hse",
+        "commissioning",
+        "project_control"
+      ],
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "remarks": {
+      "type": "text"
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "proposed",
+        "agreed",
+        "superseded"
+      ],
+      "required": true
+    },
+    "agreed_by": {
+      "type": "ref_list",
+      "to": "party"
+    },
+    "agreed_refs": {
+      "type": "ref_list",
+      "to": "clarification"
+    }
+  }
+}

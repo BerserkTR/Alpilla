@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.951007Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.603915Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "other",
+  "id": "ALP-EPC-00EGB-ME-MRQ-0001",
+  "inputs": [
+    "ALP-EPC-00EGB-ME-DSH-0001",
+    "ALP-EPC-00EGB-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-017",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00EGB",
+  "title": "Material requisition - LDO storage tanks (field-erected, API 650)",
+  "type_code": "MRQ",
+  "weight": 24.0
+}

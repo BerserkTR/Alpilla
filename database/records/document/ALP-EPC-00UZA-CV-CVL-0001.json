@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.010194Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.706968Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "scope_item:SC-005",
+    "scope_item:SC-045"
+  ],
+  "cwa": "CWA-12",
+  "discipline": "civil",
+  "doc_type": "drawing",
+  "ewp": "EWP-12-CV-01",
+  "id": "ALP-EPC-00UZA-CV-CVL-0001",
+  "inputs": [
+    "ALP-EPC-00000-PI-PLT-0001"
+  ],
+  "originator": "EPC",
+  "review": "information",
+  "sheets": 2,
+  "status": "planned",
+  "system": "00UZA",
+  "title": "Temporary facilities and construction site layout (TP-A1)",
+  "type_code": "CVL",
+  "weight": 50.0
+}

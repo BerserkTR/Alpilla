@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.994372Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.609007Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "datasheet",
+  "equipment": [
+    "00EKA10"
+  ],
+  "id": "ALP-EPC-00EKA-ME-DSH-0001",
+  "inputs": [
+    "ALP-EPC-00EKA-ME-CAL-0001",
+    "ALP-EPC-00EKA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-015",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00EKA",
+  "tender": true,
+  "title": "Datasheet - Gas receiving, filtration and fiscal metering station: package",
+  "type_code": "DSH",
+  "weight": 16.0
+}

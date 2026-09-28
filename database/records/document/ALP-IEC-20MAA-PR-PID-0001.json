@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.854706Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.784234Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "basis_refs": [
+    "requirement:ER-07.05",
+    "requirement:ER-07.06",
+    "scope_item:DR-017"
+  ],
+  "discipline": "process",
+  "doc_type": "diagram",
+  "id": "ALP-IEC-20MAA-PR-PID-0001",
+  "originator": "IEC",
+  "planned_ifc": "2027-03-22",
+  "planned_ifr": "2027-01-25",
+  "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "sheets": 10,
+  "status": "planned",
+  "system": "20MAA",
+  "systems": [
+    "20MAB",
+    "20MAJ",
+    "20MAV",
+    "20MAW",
+    "20MAX",
+    "20MAG"
+  ],
+  "title": "Steam turbine and condenser P&IDs (lube, gland, vacuum, EHC, bypass valves)",
+  "type_code": "PID",
+  "vendor_ref": "IEC-ALP-PID-103",
+  "weight": 260.0
+}

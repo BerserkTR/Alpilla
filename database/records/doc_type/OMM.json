@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:59.874915Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:49:59.874915Z",
+    "updated_by": "EPCE"
+  },
+  "category": "manual",
+  "construction": false,
+  "dcc": "D",
+  "hours": 200,
+  "id": "OMM",
+  "input_maturity": "IFR",
+  "input_types": [
+    "PID"
+  ],
+  "prep_days": 30,
+  "procurement": false,
+  "review": "review",
+  "title": "Operation and maintenance manual",
+  "update_days": 10
+}

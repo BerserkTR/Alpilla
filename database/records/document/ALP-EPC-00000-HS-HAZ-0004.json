@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.842543Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.564845Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "hse",
+  "doc_type": "study",
+  "id": "ALP-EPC-00000-HS-HAZ-0004",
+  "inputs": [
+    "ALP-EPC-00EGA-PR-PID-0001",
+    "ALP-EPC-00EGB-PR-PID-0001",
+    "ALP-EPC-00EGC-PR-PID-0001",
+    "ALP-EPC-10HSB-PR-PID-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "HAZOP report - LDO and ammonia systems",
+  "type_code": "HAZ",
+  "weight": 160.0
+}

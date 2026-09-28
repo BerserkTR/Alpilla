@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.633885Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.796686Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-11-HV-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "HVAC contractor",
+  "cwa": "CWA-11",
+  "discipline": "hvac",
+  "ewp_lead_days": 20,
+  "id": "CWP-11-HV-01",
+  "scope": "HVAC of the control, administration and workshop buildings",
+  "status": "agreed",
+  "title": "HVAC - buildings"
+}

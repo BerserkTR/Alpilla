@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.624475Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.787776Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-03-EL-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "Electrical contractor",
+  "cwa": "CWA-03",
+  "discipline": "electrical",
+  "ewp_lead_days": 20,
+  "id": "CWP-03-EL-01",
+  "scope": "Installation, cabling and energisation",
+  "status": "agreed",
+  "title": "MV/LV switchgear, UPS, DC, emergency diesel"
+}

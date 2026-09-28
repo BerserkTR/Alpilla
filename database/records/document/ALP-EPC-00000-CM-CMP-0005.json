@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.848075Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.546553Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-16.08",
+    "scope_item:SC-056"
+  ],
+  "discipline": "commissioning",
+  "doc_type": "procedure",
+  "id": "ALP-EPC-00000-CM-CMP-0005",
+  "inputs": [
+    "ALP-EPC-00EGC-PR-PID-0001",
+    "ALP-IEC-10MBA-PR-PID-0001",
+    "ALP-IEC-10MBY-IC-CNR-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "Tests on LDO procedure",
+  "type_code": "CMP",
+  "weight": 60.0
+}

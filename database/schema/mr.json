@@ -1,0 +1,114 @@
+{
+  "entity": "mr",
+  "title": "Material requisition / procurement work package (PWP): what is bought, from whom, when it must be on site",
+  "id_pattern": "^MR-[A-Z]{2}-[0-9]{3}$",
+  "display": [
+    "title",
+    "package_type",
+    "supplier",
+    "cwps"
+  ],
+  "fields": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "discipline": {
+      "type": "enum",
+      "values": [
+        "general",
+        "process",
+        "mechanical",
+        "piping",
+        "electrical",
+        "i_and_c",
+        "civil",
+        "structural",
+        "hvac",
+        "hse",
+        "commissioning",
+        "project_control"
+      ],
+      "required": true
+    },
+    "package_type": {
+      "type": "enum",
+      "values": [
+        "iec_supply",
+        "equipment",
+        "bulk",
+        "subcontract"
+      ],
+      "required": true
+    },
+    "supplier": {
+      "type": "ref",
+      "to": "party",
+      "description": "awarded or contracted supplier (IEC for the power island)"
+    },
+    "cwps": {
+      "type": "ref_list",
+      "to": "cwp",
+      "required": true,
+      "description": "CWPs that install the material (need date = earliest start)"
+    },
+    "bid_days": {
+      "type": "integer",
+      "unit": "working days",
+      "description": "MR issue to bids received"
+    },
+    "award_days": {
+      "type": "integer",
+      "unit": "working days",
+      "description": "bid evaluation (TBE/CBE) to PO"
+    },
+    "manufacture_weeks": {
+      "type": "number",
+      "unit": "weeks",
+      "description": "PO to ready for shipment"
+    },
+    "transport_weeks": {
+      "type": "number",
+      "unit": "weeks",
+      "description": "shipment to site (ROS)"
+    },
+    "po_date": {
+      "type": "date",
+      "description": "fixed PO date (contracted packages, e.g. IEC at NTP)"
+    },
+    "vdr_weeks": {
+      "type": "number",
+      "unit": "weeks",
+      "description": "vendor data (certified drawings) after PO"
+    },
+    "scope": {
+      "type": "text"
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": [
+        "source",
+        "decision",
+        "reference",
+        "requirement"
+      ]
+    },
+    "status": {
+      "type": "enum",
+      "values": [
+        "proposed",
+        "agreed",
+        "superseded"
+      ],
+      "required": true
+    },
+    "agreed_by": {
+      "type": "ref_list",
+      "to": "party"
+    },
+    "agreed_refs": {
+      "type": "ref_list",
+      "to": "clarification"
+    }
+  }
+}

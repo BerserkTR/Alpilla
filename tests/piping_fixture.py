@@ -16,18 +16,18 @@ def seed_piping(s: Store):
     s.create("system", {"id": "10LAB", "title": "Feedwater piping", "category": "condensate_feedwater"}, R)
     s.create("system", {"id": "10HAC", "title": "HP economiser", "category": "hrsg"}, R)
     s.create("system", {"id": "10LAC", "title": "Feedwater pumps", "category": "condensate_feedwater"}, R)
-    s.create("document", {"id": "ALP-PID-10LAB-001", "title": "P&ID HP feedwater", "discipline": "process",
+    s.create("document", {"id": "ALP-EPC-10LAB-PR-PID-0001", "title": "P&ID HP feedwater", "discipline": "process",
                           "doc_type": "diagram"}, R)
     s.create("equipment", {"id": "10LAA10BB001", "description": "Feedwater tank / deaerator", "system": "10LAB",
                            "equipment_type": "tank", "shape": "horizontal_cylinder", "position": [2000, 5000, 8000],
-                           "length": 9000, "diameter": 3200, "orientation": 0, "pid": "ALP-PID-10LAB-001"}, R)
+                           "length": 9000, "diameter": 3200, "orientation": 0, "pid": "ALP-EPC-10LAB-PR-PID-0001"}, R)
     s.create("equipment", {"id": "10LAC10AP001", "description": "HP/IP boiler feed pump A", "system": "10LAC",
                            "equipment_type": "pump", "shape": "box", "position": [10000, 5000, 0], "length": 4500,
                            "width": 1600, "height": 1200, "orientation": 0, "rated_power": 3200,
-                           "pid": "ALP-PID-10LAB-001"}, R)
+                           "pid": "ALP-EPC-10LAB-PR-PID-0001"}, R)
     s.create("equipment", {"id": "10HAC10AC001", "description": "HP economiser 1", "system": "10HAC",
                            "equipment_type": "heat exchanger", "shape": "box", "position": [20000, 5000, 0],
-                           "length": 3000, "width": 6000, "height": 12000, "pid": "ALP-PID-10LAB-001"}, R)
+                           "length": 3000, "width": 6000, "height": 12000, "pid": "ALP-EPC-10LAB-PR-PID-0001"}, R)
     s.create("nozzle", {"equipment": "10LAA10BB001", "name": "N5", "service": "outlet", "dn": "DN200",
                         "position": [4000, 5000, 6400], "direction": [0, 0, -1]}, R)
     s.create("nozzle", {"equipment": "10LAC10AP001", "name": "S", "service": "suction", "dn": "DN200",
@@ -41,11 +41,11 @@ def seed_piping(s: Store):
                       "to_nozzle": "10HAC10AC001_N1", "design_pressure": 190, "design_temperature": 160,
                       "operating_pressure": 165, "operating_temperature": 145, "test_pressure": 285,
                       "fluid_density": 920, "flow": 320, "insulation": "hot", "insulation_thickness": 80,
-                      "pid": "ALP-PID-10LAB-001"}, R)
+                      "pid": "ALP-EPC-10LAB-PR-PID-0001"}, R)
     s.create("line", {"id": "10LAB10BR002", "service": "BFP A suction", "fluid_code": "BFW", "phase": "liquid",
                       "system": "10LAB", "dn": "DN200", "spec": "D1A", "from_nozzle": "10LAA10BB001_N5",
                       "to_nozzle": "10LAC10AP001_S", "design_pressure": 16, "design_temperature": 160,
-                      "pid": "ALP-PID-10LAB-001"}, R)
+                      "pid": "ALP-EPC-10LAB-PR-PID-0001"}, R)
     x, y = 10000, 5000
     comps = [
         ("0010", "FLANGE", dict(end1=[x, y, 1200], end2=[x, y, 1350])),
@@ -61,8 +61,8 @@ def seed_piping(s: Store):
     for seq, typ, kw in comps:
         s.create("pipe_component", {"line": "10LAB10BR001", "seq": seq, "type": typ, **kw}, R)
     s.create("instrument", {"id": "10LAB10CP001", "function": "PT", "loop": "1001", "service": "BFP A discharge pressure",
-                            "line": "10LAB10BR001", "signal": "4-20mA HART", "location": "dcs", "pid": "ALP-PID-10LAB-001"}, R)
+                            "line": "10LAB10BR001", "signal": "4-20mA HART", "location": "dcs", "pid": "ALP-EPC-10LAB-PR-PID-0001"}, R)
     s.create("instrument", {"id": "10LAB10CF001", "function": "FT", "loop": "1002", "service": "BFP A discharge flow",
-                            "line": "10LAB10BR001", "signal": "4-20mA HART", "location": "dcs", "pid": "ALP-PID-10LAB-001"}, R)
+                            "line": "10LAB10BR001", "signal": "4-20mA HART", "location": "dcs", "pid": "ALP-EPC-10LAB-PR-PID-0001"}, R)
     s.create("instrument", {"id": "10LAB10CT001", "function": "TI", "loop": "1003", "service": "BFP suction temperature",
-                            "line": "10LAB10BR002", "location": "field", "pid": "ALP-PID-10LAB-001"}, R)
+                            "line": "10LAB10BR002", "location": "field", "pid": "ALP-EPC-10LAB-PR-PID-0001"}, R)

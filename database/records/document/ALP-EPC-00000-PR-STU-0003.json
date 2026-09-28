@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.828846Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.583923Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-08.05"
+  ],
+  "discipline": "process",
+  "doc_type": "study",
+  "id": "ALP-EPC-00000-PR-STU-0003",
+  "inputs": [
+    "ALP-EPC-00000-PR-HMB-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "CW thermal plume and outfall dispersion study",
+  "type_code": "STU",
+  "weight": 160.0
+}

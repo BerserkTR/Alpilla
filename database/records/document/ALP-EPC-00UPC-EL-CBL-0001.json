@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.029063Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.700420Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "cwa": "CWA-05",
+  "discipline": "electrical",
+  "doc_type": "list",
+  "ewp": "EWP-05-EL-01",
+  "id": "ALP-EPC-00UPC-EL-CBL-0001",
+  "inputs": [
+    "ALP-EPC-00000-EL-CAL-0001",
+    "ALP-EPC-00000-EL-SLD-0001",
+    "ALP-EPC-00UPC-EL-ELY-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00UPC",
+  "title": "Cable schedule and routing - CW pump house and onshore CW",
+  "type_code": "CBL",
+  "weight": 60.0
+}

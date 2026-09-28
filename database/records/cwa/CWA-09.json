@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.483135Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.378542Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "basis_refs": [
+    "source:SRC-IECE-0009",
+    "source:SRC-OWNR-0010"
+  ],
+  "description": "Gas receiving, filtration, fiscal metering (TP-G1)",
+  "e_max": 395,
+  "e_min": 300,
+  "id": "CWA-09",
+  "n_max": 295,
+  "n_min": 220,
+  "path_seq": 5,
+  "status": "agreed",
+  "structures": [
+    "00UEK"
+  ],
+  "title": "Fuel gas station"
+}

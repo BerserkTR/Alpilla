@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.130604Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.223033Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "electrical_mv_lv",
+  "id": "00BLA",
+  "scope": "IEPC",
+  "title": "Lighting and small power",
+  "unit_no": "00"
+}

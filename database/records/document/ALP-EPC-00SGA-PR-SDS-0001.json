@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.913465Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.680555Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-10.05",
+    "scope_item:SC-024"
+  ],
+  "discipline": "process",
+  "doc_type": "report",
+  "id": "ALP-EPC-00SGA-PR-SDS-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-DBR-0001",
+    "ALP-EPC-00000-PR-PFD-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00SGA",
+  "tender": true,
+  "title": "System design description - Fire water system",
+  "type_code": "SDS",
+  "weight": 60.0
+}

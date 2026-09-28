@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.834249Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.554515Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-04.10"
+  ],
+  "discipline": "electrical",
+  "doc_type": "list",
+  "id": "ALP-EPC-00000-EL-LST-0001",
+  "inputs": [
+    "ALP-EPC-00000-PR-LST-0001",
+    "ALP-IEC-10MBA-EL-LST-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "tender": true,
+  "title": "Electrical load list",
+  "type_code": "LST",
+  "weight": 80.0
+}

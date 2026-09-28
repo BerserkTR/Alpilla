@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.018519Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.769348Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-02",
+  "discipline": "civil",
+  "doc_type": "drawing",
+  "ewp": "EWP-02-CV-01",
+  "id": "ALP-EPC-20UMB-CV-FND-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-RPT-0001",
+    "ALP-EPC-00000-CV-SPC-0002",
+    "ALP-EPC-20UMB-PI-LAY-0001",
+    "ALP-IEC-20MAA-CV-CAL-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 4,
+  "status": "planned",
+  "system": "20UMB",
+  "title": "Piling layout and pile schedule - Power block - ST and condenser",
+  "type_code": "FND",
+  "weight": 70.0
+}

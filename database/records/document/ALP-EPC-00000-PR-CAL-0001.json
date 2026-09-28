@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.827729Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.581309Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-04.01",
+    "requirement:ER-04.02",
+    "requirement:ER-04.03",
+    "requirement:ER-04.11"
+  ],
+  "discipline": "process",
+  "doc_type": "calculation",
+  "id": "ALP-EPC-00000-PR-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00000-PR-HMB-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "Performance guarantee calculation and correction curves",
+  "type_code": "CAL",
+  "weight": 60.0
+}

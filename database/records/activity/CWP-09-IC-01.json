@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.846792Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:50:08.846792Z",
+    "updated_by": "EPCE"
+  },
+  "discipline": "i_and_c",
+  "duration": 50,
+  "id": "CWP-09-IC-01",
+  "phase": "construction",
+  "predecessors": [
+    "CWP-09-EL-01:SS+20"
+  ],
+  "responsible": "I&C contractor",
+  "title": "I&C - gas station",
+  "type": "task",
+  "wbs": "ALP.C.09"
+}

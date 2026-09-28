@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.844206Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.566771Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-10.05",
+    "scope_item:SC-024"
+  ],
+  "discipline": "hse",
+  "doc_type": "study",
+  "id": "ALP-EPC-00000-HS-HAZ-0009",
+  "inputs": [
+    "ALP-EPC-00000-PI-PLT-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "Fire protection concept and fire risk assessment (NFPA 850)",
+  "type_code": "HAZ",
+  "weight": 160.0
+}

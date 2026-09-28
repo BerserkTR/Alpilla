@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.847027Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:50:08.847027Z",
+    "updated_by": "EPCE"
+  },
+  "constraint": "start_no_earlier_than",
+  "constraint_date": "2027-07-01",
+  "discipline": "civil",
+  "duration": 90,
+  "id": "CWP-10-CV-01",
+  "phase": "construction",
+  "predecessors": [
+    "CWP-12-CV-01"
+  ],
+  "responsible": "Civil contractor",
+  "title": "Bund and tank foundations - LDO",
+  "type": "task",
+  "wbs": "ALP.C.10"
+}

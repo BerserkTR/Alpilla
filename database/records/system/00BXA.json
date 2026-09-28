@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.131488Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.224223Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "common",
+  "id": "00BXA",
+  "scope": "IEPC",
+  "title": "Earthing and lightning protection",
+  "unit_no": "00"
+}

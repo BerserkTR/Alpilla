@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.907630Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.964954Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "F-MAN",
+  "key": "MAN",
+  "level": "function",
+  "main_group": "Main machine sets",
+  "status": "agreed",
+  "title": "Turbine bypass stations",
+  "verified": false
+}

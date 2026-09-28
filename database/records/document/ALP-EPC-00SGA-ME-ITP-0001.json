@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.955204Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.678879Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "mechanical",
+  "doc_type": "procedure",
+  "id": "ALP-EPC-00SGA-ME-ITP-0001",
+  "inputs": [
+    "ALP-EPC-00SGA-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-020",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00SGA",
+  "title": "Inspection and test plan - Fire pumps and fire protection systems",
+  "type_code": "ITP",
+  "weight": 16.0
+}

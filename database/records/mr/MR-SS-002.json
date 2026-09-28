@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.062921Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.626864Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "award_days": 20,
+  "bid_days": 30,
+  "cwps": [
+    "CWP-01-ME-01"
+  ],
+  "discipline": "structural",
+  "id": "MR-SS-002",
+  "manufacture_weeks": 30,
+  "package_type": "subcontract",
+  "status": "agreed",
+  "title": "Stack 65 m with silencer",
+  "transport_weeks": 4,
+  "vdr_weeks": 8
+}

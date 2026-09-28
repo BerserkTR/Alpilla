@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.856014Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.776427Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "electrical",
+  "doc_type": "list",
+  "id": "ALP-IEC-10MBA-EL-LST-0001",
+  "originator": "IEC",
+  "planned_ifc": "2027-02-08",
+  "planned_ifr": "2026-12-28",
+  "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "status": "planned",
+  "system": "10MBA",
+  "title": "Power island electrical load list",
+  "type_code": "LST",
+  "vendor_ref": "IEC-ALP-EL-101",
+  "weight": 80.0
+}

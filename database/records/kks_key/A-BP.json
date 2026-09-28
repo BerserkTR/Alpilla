@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:39.922139Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:03:59.933633Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "id": "A-BP",
+  "key": "BP",
+  "level": "equipment_unit",
+  "main_group": "equipment unit",
+  "status": "agreed",
+  "title": "Flow restrictors, orifices",
+  "verified": false
+}

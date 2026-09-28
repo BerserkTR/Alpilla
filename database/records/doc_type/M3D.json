@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:49:59.867193Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T14:58:03.131548Z",
+    "updated_by": "EPCE"
+  },
+  "category": "model",
+  "construction": false,
+  "dcc": "L",
+  "hours": 80,
+  "id": "M3D",
+  "input_maturity": "IFR",
+  "input_types": [
+    "PLT",
+    "LAY",
+    "PPL",
+    "ISO"
+  ],
+  "prep_days": 15,
+  "procurement": false,
+  "review": "review",
+  "title": "3D model review report (30 / 60 / 90 %)",
+  "update_days": 5
+}

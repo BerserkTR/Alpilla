@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.929716Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.652674Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "discipline": "piping",
+  "doc_type": "isometric",
+  "ewp": "EWP-05-PI-01",
+  "id": "ALP-EPC-00PBA-PI-ISO-0001",
+  "inputs": [
+    "ALP-EPC-00000-PI-M3D-0002",
+    "ALP-EPC-00PBA-PR-PID-0001",
+    "ALP-EPC-00UPC-PI-PPL-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 15,
+  "status": "planned",
+  "system": "00PBA",
+  "title": "Isometric drawings - Electro-chlorination",
+  "type_code": "ISO",
+  "weight": 120
+}

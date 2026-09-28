@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:10.062303Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.626144Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "award_days": 20,
+  "bid_days": 25,
+  "cwps": [
+    "CWP-01-PI-01",
+    "CWP-02-PI-01",
+    "CWP-08-PI-01"
+  ],
+  "discipline": "piping",
+  "id": "MR-PI-003",
+  "manufacture_weeks": 26,
+  "package_type": "bulk",
+  "status": "agreed",
+  "title": "Valves (manual and check)",
+  "transport_weeks": 4,
+  "vdr_weeks": 6
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.131669Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.240661Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "electrical_mv_lv",
+  "id": "00XJA",
+  "scope": "IEPC",
+  "title": "Emergency diesel generator",
+  "unit_no": "00"
+}

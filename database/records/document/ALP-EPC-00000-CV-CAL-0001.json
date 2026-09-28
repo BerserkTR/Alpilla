@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.839573Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.549802Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-13.01"
+  ],
+  "discipline": "civil",
+  "doc_type": "calculation",
+  "id": "ALP-EPC-00000-CV-CAL-0001",
+  "inputs": [
+    "ALP-EPC-00000-CV-DBR-0001",
+    "ALP-IEC-10HAA-CV-CAL-0001",
+    "ALP-IEC-10MBA-CV-CAL-0001",
+    "ALP-IEC-20MAA-CV-CAL-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "Design loads: wind, seismic, equipment and crane loads",
+  "type_code": "CAL",
+  "weight": 60.0
+}

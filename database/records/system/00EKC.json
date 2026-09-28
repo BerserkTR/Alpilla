@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.133390Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.227053Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "fuel_gas",
+  "id": "00EKC",
+  "scope": "IEPC",
+  "title": "Fuel gas distribution to GT and auxiliary boiler",
+  "unit_no": "00"
+}

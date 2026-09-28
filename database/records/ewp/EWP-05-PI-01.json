@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.830132Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.214484Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "cwp": "CWP-05-PI-01",
+  "discipline": "piping",
+  "id": "EWP-05-PI-01",
+  "status": "agreed",
+  "title": "IFC documents for CW GRP piping onshore"
+}

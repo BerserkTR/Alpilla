@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.840227Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:01.221014Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "cwp": "CWP-11-HV-01",
+  "discipline": "hvac",
+  "id": "EWP-11-HV-01",
+  "status": "agreed",
+  "title": "IFC documents for HVAC - buildings"
+}

@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.832606Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.578787Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "discipline": "piping",
+  "doc_type": "report",
+  "id": "ALP-EPC-00000-PI-RPT-0001",
+  "inputs": [
+    "ALP-EPC-00000-PI-SPC-0002",
+    "ALP-EPC-00000-PR-HMB-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "title": "Pipe stress analysis criteria and critical line list",
+  "type_code": "RPT",
+  "weight": 60.0
+}

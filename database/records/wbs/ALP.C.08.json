@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:08.672789Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T14:50:08.672789Z",
+    "updated_by": "EPCE"
+  },
+  "id": "ALP.C.08",
+  "parent": "ALP.C",
+  "title": "BOP utilities"
+}

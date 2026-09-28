@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.960520Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T04:13:05.665597Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T14:50:10.322336Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Condenser",
@@ -12,6 +12,8 @@
     "source:SRC-IECE-0009",
     "source:SRC-IECE-0011"
   ],
+  "cwa": "CWA-02",
+  "cwp": "CWP-02-ME-01",
   "description": "Surface condenser, titanium tubes, 15,200 m2",
   "equipment_type": "heat exchanger",
   "height": 13000,
@@ -20,6 +22,7 @@
   "location": "ST hall, south of the ST (side exhaust); tube pull 11 m east",
   "manufacturer": "Imaginary Electric Company",
   "model": "IEC condenser",
+  "mr": "MR-ME-103",
   "orientation": 0,
   "position": [
     142000,
@@ -30,6 +33,7 @@
   "remarks": "duty 289.96 MW at SRC",
   "shape": "box",
   "status": "preliminary",
+  "supply": "IEC",
   "system": "20MAG",
   "width": 20000
 }

@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.118730Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.246869Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "gas_turbine",
+  "id": "10MBU",
+  "parent": "10MB",
+  "scope": "IEC",
+  "title": "GT compressor washing",
+  "unit_no": "10"
+}

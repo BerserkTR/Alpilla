@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.119163Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.247153Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "gas_turbine",
+  "id": "10MBV",
+  "parent": "10MB",
+  "scope": "IEC",
+  "title": "GT lube oil system",
+  "unit_no": "10"
+}

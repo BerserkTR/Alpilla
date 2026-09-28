@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:09.623842Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:04:00.786551Z",
+    "updated_by": "EPCE"
+  },
+  "activity": "CWP-02-IC-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_refs": [
+    "TQ-035"
+  ],
+  "contractor": "I&C contractor",
+  "cwa": "CWA-02",
+  "discipline": "i_and_c",
+  "ewp_lead_days": 20,
+  "id": "CWP-02-IC-01",
+  "scope": "Field instruments and cabling",
+  "status": "agreed",
+  "title": "I&C - ST island"
+}

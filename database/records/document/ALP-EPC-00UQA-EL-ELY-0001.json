@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.036765Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T15:06:12.703070Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "cwa": "CWA-08",
+  "discipline": "electrical",
+  "doc_type": "drawing",
+  "ewp": "EWP-08-EL-01",
+  "id": "ALP-EPC-00UQA-EL-ELY-0001",
+  "inputs": [
+    "ALP-EPC-00000-EL-SLD-0001",
+    "ALP-EPC-00000-EL-STU-0003",
+    "ALP-EPC-00UQA-PI-LAY-0001"
+  ],
+  "originator": "EPC",
+  "sheets": 6,
+  "status": "planned",
+  "system": "00UQA",
+  "title": "Electrical layouts (equipment, trays, earthing, lighting) - BOP utilities",
+  "type_code": "ELY",
+  "weight": 90.0
+}

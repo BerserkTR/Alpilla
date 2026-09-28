@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.855105Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.782789Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Drawing",
+  "discipline": "process",
+  "doc_type": "diagram",
+  "id": "ALP-IEC-10MKA-PR-PID-0001",
+  "originator": "IEC",
+  "planned_ifc": "2027-03-22",
+  "planned_ifr": "2027-01-25",
+  "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
+  "sheets": 4,
+  "status": "planned",
+  "system": "10MKA",
+  "systems": [
+    "10MKG",
+    "20MKA"
+  ],
+  "title": "Generator auxiliary P&IDs (H2/CO2, seal oil, stator water)",
+  "type_code": "PID",
+  "vendor_ref": "IEC-ALP-PID-104",
+  "weight": 140.0
+}

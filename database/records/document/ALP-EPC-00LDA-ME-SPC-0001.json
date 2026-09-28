@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.943203Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.637674Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "discipline": "mechanical",
+  "doc_type": "specification",
+  "id": "ALP-EPC-00LDA-ME-SPC-0001",
+  "inputs": [
+    "ALP-EPC-00000-ME-SPC-0001",
+    "ALP-EPC-00LDA-PR-SDS-0001"
+  ],
+  "mr": "MR-ME-012",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00LDA",
+  "tender": true,
+  "title": "Technical specification - Water treatment package (SWRO, demin, condensate polishing)",
+  "type_code": "SPC",
+  "weight": 80.0
+}

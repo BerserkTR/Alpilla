@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.903244Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.653321Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Deliverables Documents",
+  "basis_refs": [
+    "requirement:ER-08.04",
+    "scope_item:SC-017"
+  ],
+  "discipline": "process",
+  "doc_type": "report",
+  "id": "ALP-EPC-00PBA-PR-SDS-0001",
+  "inputs": [
+    "ALP-EPC-00000-GE-DBR-0001",
+    "ALP-EPC-00000-PR-PFD-0001"
+  ],
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00PBA",
+  "tender": true,
+  "title": "System design description - Electro-chlorination",
+  "type_code": "SDS",
+  "weight": 60.0
+}

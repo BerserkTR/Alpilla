@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:00.134789Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T15:06:12.228177Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "System",
+  "category": "water_treatment",
+  "id": "00GKA",
+  "scope": "IEPC",
+  "title": "Potable water",
+  "unit_no": "00"
+}

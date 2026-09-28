@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.955608Z",
+    "created_by": "EPCE",
+    "rev": 5,
+    "updated_at": "2026-09-28T15:06:12.683565Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-10.07",
+    "scope_item:SC-026"
+  ],
+  "discipline": "mechanical",
+  "doc_type": "specification",
+  "id": "ALP-EPC-00SMA-ME-SPC-0001",
+  "inputs": [
+    "ALP-EPC-00000-ME-SPC-0001"
+  ],
+  "mr": "MR-ME-021",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00SMA",
+  "tender": true,
+  "title": "Technical specification - EOT cranes",
+  "type_code": "SPC",
+  "weight": 80.0
+}

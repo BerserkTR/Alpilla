@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:27.240326Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T04:13:04.705339Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T14:50:10.320605Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Power Transformer",
@@ -12,6 +12,8 @@
     "source:SRC-IECE-0009",
     "source:SRC-IECE-0013"
   ],
+  "cwa": "CWA-01",
+  "cwp": "CWP-01-EL-01",
   "description": "GT step-up transformer 560 MVA 400/21 kV",
   "equipment_type": "transformer",
   "height": 4600,
@@ -20,6 +22,7 @@
   "location": "GSU bay north of the GT hall, fire wall to the hall",
   "manufacturer": "Imaginary Electric Company",
   "model": "IEC GSU 560",
+  "mr": "MR-EL-102",
   "orientation": 0,
   "position": [
     114000,
@@ -29,6 +32,7 @@
   "quantity": 1,
   "shape": "box",
   "status": "preliminary",
+  "supply": "IEC",
   "system": "10BAT",
   "voltage": 400000,
   "width": 4100

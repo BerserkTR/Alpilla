@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:27.792404Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T14:50:42.461608Z",
+    "updated_by": "EPCE"
+  },
+  "description": "received IEC-ALP-PER-001 Rev B",
+  "document": "ALP-IEC-10MBA-PR-HMB-0001",
+  "file": "sources/iec/IEC-ALP-PER-001_RevB.pdf",
+  "id": "ALP-IEC-10MBA-PR-HMB-0001_B",
+  "issue_date": "2026-09-28",
+  "purpose": "IFR",
+  "revision": "B"
+}

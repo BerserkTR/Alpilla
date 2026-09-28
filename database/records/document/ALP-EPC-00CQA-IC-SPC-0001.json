@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T14:50:26.971421Z",
+    "created_by": "EPCE",
+    "rev": 4,
+    "updated_at": "2026-09-28T15:06:12.598816Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Specification Documents",
+  "basis_refs": [
+    "requirement:ER-12.04",
+    "requirement:ER-14.02"
+  ],
+  "discipline": "i_and_c",
+  "doc_type": "specification",
+  "id": "ALP-EPC-00CQA-IC-SPC-0001",
+  "inputs": [
+    "ALP-EPC-00000-HS-RPT-0001",
+    "ALP-EPC-00000-IC-DBR-0001"
+  ],
+  "mr": "MR-IC-002",
+  "originator": "EPC",
+  "status": "planned",
+  "system": "00CQA",
+  "tender": true,
+  "title": "Technical specification - Continuous emission monitoring system",
+  "type_code": "SPC",
+  "weight": 80.0
+}
