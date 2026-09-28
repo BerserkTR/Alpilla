@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.405638Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:17:56.555579Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.718556Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 76,
   "status": "planned",
   "system": "00GNA",
-  "title": "Supplier electrical schematics and wiring diagrams - Waste water and sanitary treatment packages",
+  "title": "Waste Water and Sanitary Treatment Packages - Supplier Electrical Schematics and Wiring Diagrams",
   "type_code": "WIR",
   "weight": 42.0
 }

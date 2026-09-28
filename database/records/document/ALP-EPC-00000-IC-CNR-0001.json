@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.838432Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.569416Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.978127Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -20,7 +20,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Unit coordination, load control, export limiter and fuel transfer",
+  "title": "Unit Coordination, Load Control, Export Limiter and Fuel Transfer",
   "type_code": "CNR",
   "weight": 60.0
 }

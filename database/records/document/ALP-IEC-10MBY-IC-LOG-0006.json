@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:20:25.882235Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.274858Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.848071Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
     "requirement:ER-12.02"
   ],
+  "description": "IEC",
   "discipline": "i_and_c",
   "doc_type": "diagram",
   "id": "ALP-IEC-10MBY-IC-LOG-0006",
@@ -23,7 +24,7 @@
   "sheets": 250,
   "status": "planned",
   "system": "10MBY",
-  "title": "Supplier logic diagrams - Turbine control system (IEC) - part 6 of 6",
+  "title": "Turbine Control System - Supplier Logic Diagrams, Part 6 of 6",
   "type_code": "LOG",
   "weight": 133.0
 }

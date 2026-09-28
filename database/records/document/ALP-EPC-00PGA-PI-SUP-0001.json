@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.192604Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.993963Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.579081Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 38,
   "status": "planned",
   "system": "00PGA",
-  "title": "Pipe support drawings - Closed cooling water",
+  "title": "Closed Cooling Water - Pipe Support Drawings",
   "type_code": "SUP",
   "weight": 228
 }

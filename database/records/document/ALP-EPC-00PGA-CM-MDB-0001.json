@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.923114Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:15:11.456805Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.122030Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "00PGA",
-  "title": "System turnover dossier - Closed cooling water",
+  "title": "Closed Cooling Water - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

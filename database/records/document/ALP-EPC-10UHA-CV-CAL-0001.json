@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.943177Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:15:03.213826Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.156275Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -24,7 +24,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "10UHA",
-  "title": "Structural and foundation calculation - HRSG foundations and structures",
+  "title": "HRSG Foundations and Structures - Structural and Foundation Calculation",
   "type_code": "CAL",
   "weight": 120
 }

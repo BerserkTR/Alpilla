@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.856641Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:37:42.269429Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.815226Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC",
   "discipline": "i_and_c",
   "doc_type": "list",
   "id": "ALP-IEC-10MBY-IC-IOL-0001",
@@ -26,7 +27,7 @@
   "systems": [
     "20MAY"
   ],
-  "title": "TCS I/O list and interface signal list",
+  "title": "Turbine Control System - Supplier I/O List, Control Philosophy and Interface Signals",
   "type_code": "IOL",
   "vendor_ref": "IEC-ALP-IC-102",
   "weight": 5

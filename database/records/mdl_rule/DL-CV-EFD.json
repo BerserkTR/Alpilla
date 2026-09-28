@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:11:38.918729Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:39:14.094003Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:39.935261Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -36,6 +36,6 @@
     "10UHA",
     "10UHN"
   ],
-  "title": "Equipment foundation drawings - {name}",
+  "title": "{name} - Equipment Foundation Drawings",
   "type_code": "EFD"
 }

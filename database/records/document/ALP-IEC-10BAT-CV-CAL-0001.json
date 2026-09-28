@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.469810Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.257163Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.752298Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC",
   "discipline": "civil",
   "doc_type": "calculation",
   "id": "ALP-IEC-10BAT-CV-CAL-0001",
@@ -20,7 +21,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10BAT",
-  "title": "Supplier foundation loads and anchor bolt drawings - Generator step-up transformers (IEC)",
+  "title": "Generator Step-Up Transformers - Supplier Foundation Loads and Anchor Bolt Drawings",
   "type_code": "CAL",
   "weight": 5
 }

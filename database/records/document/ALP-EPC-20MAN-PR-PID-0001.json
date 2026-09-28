@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.870605Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.706373Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.611049Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -28,7 +28,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "20MAN",
-  "title": "P&ID - Turbine bypass stations and piping",
+  "title": "Turbine Bypass Stations and Piping - P&ID",
   "type_code": "PID",
   "weight": 220
 }

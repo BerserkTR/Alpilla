@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.688234Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.353837Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.898870Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00BFA",
-  "title": "Spare parts and special tools lists - LV switchboards and MCCs",
+  "title": "LV Switchboards and MCCs - Spare Parts and Special Tools Lists",
   "type_code": "LST",
   "weight": 6
 }

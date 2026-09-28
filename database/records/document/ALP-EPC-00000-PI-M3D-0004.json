@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:05:18.202273Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:28:45.252443Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:40:08.988568Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -11,6 +11,7 @@
     "requirement:ER-01.10",
     "requirement:ER-17.03"
   ],
+  "description": "native model format",
   "discipline": "piping",
   "doc_type": "model",
   "duration": 60,
@@ -23,7 +24,7 @@
   "review": "review",
   "sheets": 1,
   "status": "planned",
-  "title": "Plant 3D model (native) and IFC4 export - as-built",
+  "title": "Plant 3D Model and IFC4 Export - As-Built",
   "type_code": "M3D",
   "weight": 1500.0
 }

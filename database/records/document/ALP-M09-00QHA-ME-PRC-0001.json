@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.432934Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.145808Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.731493Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00QHA",
-  "title": "Supplier installation and erection manual - Auxiliary boiler",
+  "title": "Auxiliary Boiler - Supplier Installation and Erection Manual",
   "type_code": "PRC",
   "weight": 6
 }

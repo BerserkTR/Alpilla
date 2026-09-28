@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.357016Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.092661Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.688382Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "description": "carbon steel, stainless",
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "id": "ALP-P01-00000-ME-DSH-0001",
@@ -21,7 +22,7 @@
   "rule": "DL-V-CAT|MR-PI-001|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Supplier catalogues and material datasheets - Piping bulk materials (carbon steel, stainless)",
+  "title": "Piping Bulk Materials - Supplier Catalogues and Material Datasheets",
   "type_code": "DSH",
   "weight": 6
 }

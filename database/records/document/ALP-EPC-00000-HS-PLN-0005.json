@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:05:18.195360Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:05:19.080653Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:40:08.973831Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-14.05"
   ],
+  "description": "construction and operation",
   "discipline": "hse",
   "doc_type": "report",
   "id": "ALP-EPC-00000-HS-PLN-0005",
@@ -19,7 +20,7 @@
   "originator": "EPC",
   "sheets": 1,
   "status": "planned",
-  "title": "Emergency response plan (construction and operation)",
+  "title": "Emergency Response Plan",
   "type_code": "PLN",
   "weight": 80.0
 }

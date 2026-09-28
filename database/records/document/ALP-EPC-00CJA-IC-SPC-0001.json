@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.969761Z",
     "created_by": "EPCE",
-    "rev": 8,
-    "updated_at": "2026-09-28T17:38:15.680502Z",
+    "rev": 9,
+    "updated_at": "2026-09-28T18:38:48.506962Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -24,7 +24,7 @@
   "status": "planned",
   "system": "00CJA",
   "tender": true,
-  "title": "Technical specification - Plant DCS",
+  "title": "Plant DCS - Technical Specification",
   "type_code": "SPC",
   "weight": 80.0
 }

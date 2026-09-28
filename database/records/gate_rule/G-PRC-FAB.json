@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:50:51.412784Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T18:12:41.505952Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:40:35.935691Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
     "decision:DEC-EPCE-0013",
     "requirement:ER-15.02"
   ],
+  "description": "certified supplier data accepted",
   "id": "G-PRC-FAB",
   "need": "fabrication",
   "package_types": [
@@ -26,5 +27,5 @@
   ],
   "scope": "mr",
   "status": "agreed",
-  "title": "Manufacturing release (certified supplier data accepted)"
+  "title": "Manufacturing Release"
 }

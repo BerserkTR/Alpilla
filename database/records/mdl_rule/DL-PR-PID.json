@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.886714Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:38:09.968030Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:39.951798Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -36,6 +36,6 @@
   "quantity": "q_pid_sheets",
   "scope": "system",
   "status": "agreed",
-  "title": "P&ID - {name}",
+  "title": "{name} - P&ID",
   "type_code": "PID"
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.317176Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:17:56.539146Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.664657Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -27,7 +27,7 @@
   "sheets": 120,
   "status": "planned",
   "system": "20UMB",
-  "title": "Steel fabrication and erection drawings - Steam turbine hall",
+  "title": "Steam Turbine Hall - Steel Fabrication and Erection Drawings",
   "type_code": "STL",
   "weight": 60.0
 }

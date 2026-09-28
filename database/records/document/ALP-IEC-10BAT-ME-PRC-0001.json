@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.419365Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.252049Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.725652Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "procedure",
   "id": "ALP-IEC-10BAT-ME-PRC-0001",
@@ -20,7 +21,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10BAT",
-  "title": "Supplier installation and erection manual - Generator step-up transformers (IEC)",
+  "title": "Generator Step-Up Transformers - Supplier Installation and Erection Manual",
   "type_code": "PRC",
   "weight": 6
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.983737Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:57.968026Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.217209Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,6 +11,7 @@
     "requirement:ER-10.06"
   ],
   "cwa": "CWA-01",
+  "description": "plumbing, HVAC ducting, fire fighting",
   "discipline": "hvac",
   "doc_type": "drawing",
   "ewp": "EWP-01-CV-02",
@@ -24,7 +25,7 @@
   "sheets": 10,
   "status": "planned",
   "system": "10UMA",
-  "title": "Building services (plumbing, HVAC ducting, fire fighting) - Gas turbine hall",
+  "title": "Gas Turbine Hall - Building Services",
   "type_code": "GAD",
   "weight": 250
 }

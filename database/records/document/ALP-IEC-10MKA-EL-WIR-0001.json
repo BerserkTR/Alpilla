@@ -2,12 +2,13 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.390990Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.249067Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.710265Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "cwa": "CWA-01",
+  "description": "IEC",
   "discipline": "electrical",
   "doc_type": "diagram",
   "ewp": "EWP-01-ME-01",
@@ -22,7 +23,7 @@
   "sheets": 46,
   "status": "planned",
   "system": "10MKA",
-  "title": "Supplier electrical schematics and wiring diagrams - Generators, excitation, GCB and busducts (IEC)",
+  "title": "Generators, Excitation, GCB and Busducts - Supplier Electrical Schematics and Wiring Diagrams",
   "type_code": "WIR",
   "weight": 27.0
 }

@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.359565Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.095063Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.690162Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "description": "strainers, steam traps, expansion joints, sight glasses",
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "id": "ALP-P06-00000-ME-DSH-0001",
@@ -21,7 +22,7 @@
   "rule": "DL-V-CAT|MR-PI-006|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Supplier catalogues and material datasheets - Piping specialty items (strainers, steam traps, expansion joints, sight glasses)",
+  "title": "Piping Specialty Items - Supplier Catalogues and Material Datasheets",
   "type_code": "DSH",
   "weight": 6
 }

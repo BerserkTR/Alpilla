@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.901785Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.277874Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.958734Z",
     "updated_by": "EPCE"
   },
   "discipline": "process",
@@ -25,6 +25,6 @@
   "review": "approval",
   "scope": "mr",
   "status": "agreed",
-  "title": "Supplier P&IDs - {name}",
+  "title": "{name} - Supplier P&IDs",
   "type_code": "PID"
 }

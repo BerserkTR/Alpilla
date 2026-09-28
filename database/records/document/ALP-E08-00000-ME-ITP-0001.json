@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.573856Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.275149Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.827673Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -21,7 +21,7 @@
   "rule": "DL-V-ITP|MR-EL-008|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Supplier inspection and test plan - Power and control cables",
+  "title": "Power and Control Cables - Supplier Inspection and Test Plan",
   "type_code": "ITP",
   "weight": 6
 }

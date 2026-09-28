@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.998378Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:57.983124Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.271023Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00UEK",
-  "title": "Fire detection and alarm layouts - Gas station structures",
+  "title": "Gas Station Structures - Fire Detection and Alarm Layouts",
   "type_code": "ELY",
   "weight": 14
 }

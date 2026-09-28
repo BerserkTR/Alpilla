@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.077907Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:38:15.651844Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.443510Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -27,7 +27,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00GKA",
-  "title": "Datasheet - Potable water: filter",
+  "title": "Potable Water: Filter - Datasheet",
   "type_code": "DSH",
   "weight": 16
 }

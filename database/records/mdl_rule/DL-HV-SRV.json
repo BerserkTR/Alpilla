@@ -2,13 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.899302Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.261258Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.942448Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
     "requirement:ER-10.06"
   ],
+  "description": "plumbing, HVAC ducting, fire fighting",
   "discipline": "hvac",
   "ewp_disc": "CV",
   "hours_per_sheet": 25,
@@ -21,6 +22,6 @@
   "quantity": "q_services_sheets",
   "scope": "structure",
   "status": "agreed",
-  "title": "Building services (plumbing, HVAC ducting, fire fighting) - {name}",
+  "title": "{name} - Building Services",
   "type_code": "GAD"
 }

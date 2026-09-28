@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.926520Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.521361Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.544505Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -26,7 +26,7 @@
   "sheets": 150,
   "status": "planned",
   "system": "00EKA",
-  "title": "Isometric drawings - Gas receiving, filtration and fiscal metering station",
+  "title": "Gas Receiving, Filtration and Fiscal Metering Station - Isometric Drawings",
   "type_code": "ISO",
   "weight": 1500
 }

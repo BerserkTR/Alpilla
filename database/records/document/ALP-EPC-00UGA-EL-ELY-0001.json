@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.033231Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.400061Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.201731Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,6 +11,7 @@
     "requirement:ER-11.07"
   ],
   "cwa": "CWA-07",
+  "description": "equipment, trays, earthing, lighting",
   "discipline": "electrical",
   "doc_type": "drawing",
   "ewp": "EWP-07-EL-01",
@@ -25,7 +26,7 @@
   "sheets": 6,
   "status": "planned",
   "system": "00UGA",
-  "title": "Electrical layouts (equipment, trays, earthing, lighting) - Water treatment and effluents",
+  "title": "Water Treatment and Effluents - Electrical Layouts",
   "type_code": "ELY",
   "weight": 180
 }

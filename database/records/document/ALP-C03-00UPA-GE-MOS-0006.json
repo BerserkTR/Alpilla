@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.270948Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.038014Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.644853Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00UPA",
-  "title": "Subcontractor method statements - Marine works - part 6 of 6",
+  "title": "Marine Works - Subcontractor Method Statements, Part 6 of 6",
   "type_code": "MOS",
   "weight": 8
 }

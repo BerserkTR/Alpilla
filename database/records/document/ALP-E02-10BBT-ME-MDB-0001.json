@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.602609Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.297595Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.850631Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -26,7 +26,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10BBT",
-  "title": "Manufacturing record book and conformity certificates - Unit auxiliary transformers",
+  "title": "Unit Auxiliary Transformers - Manufacturing Record Book and Conformity Certificates",
   "type_code": "MDB",
   "weight": 6
 }

@@ -12,6 +12,10 @@
       "type": "string",
       "required": true
     },
+    "description": {
+      "type": "text",
+      "description": "what the gate checks (titles carry no bracketed text)"
+    },
     "process": {
       "type": "enum",
       "required": true,

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.913946Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:38:15.637698Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.419173Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 12,
   "status": "planned",
   "system": "00SGA",
-  "title": "Sizing and hydraulic calculation - Fire water system",
+  "title": "Fire Water System - Sizing and Hydraulic Calculation",
   "type_code": "CAL",
   "weight": 126
 }

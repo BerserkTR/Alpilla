@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.847847Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.546216Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.940011Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -20,7 +20,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Operational demonstration and reliability run procedure",
+  "title": "Operational Demonstration and Reliability Run Procedure",
   "type_code": "CMP",
   "weight": 60.0
 }

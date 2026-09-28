@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.555765Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.259010Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.813445Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00QUA",
-  "title": "Supplier I/O list, control philosophy and interface signals - Steam/water analysis system",
+  "title": "Steam/Water Analysis System - Supplier I/O List, Control Philosophy and Interface Signals",
   "type_code": "IOL",
   "weight": 6
 }

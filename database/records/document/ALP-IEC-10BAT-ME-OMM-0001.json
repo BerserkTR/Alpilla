@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.647405Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.277658Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.876577Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-17.04"
   ],
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "manual",
   "id": "ALP-IEC-10BAT-ME-OMM-0001",
@@ -23,7 +24,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10BAT",
-  "title": "Supplier operation and maintenance manual - Generator step-up transformers (IEC)",
+  "title": "Generator Step-Up Transformers - Supplier Operation and Maintenance Manual",
   "type_code": "OMM",
   "weight": 12
 }

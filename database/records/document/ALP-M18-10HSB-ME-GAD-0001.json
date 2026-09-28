@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.529735Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.579268Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.786398Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -30,7 +30,7 @@
   "sheets": 8,
   "status": "planned",
   "system": "10HSB",
-  "title": "Supplier GA drawings - Aqueous ammonia storage and forwarding",
+  "title": "Aqueous Ammonia Storage and Forwarding - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 16.0
 }

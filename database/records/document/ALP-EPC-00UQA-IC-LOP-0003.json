@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.071904Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:12:58.048717Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.398172Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 207,
   "status": "planned",
   "system": "00UQA",
-  "title": "Loop and connection diagrams - BOP utilities - part 2 of 2",
+  "title": "BOP Utilities - Loop and Connection Diagrams, Part 2 of 2",
   "type_code": "LOP",
   "weight": 310.5
 }

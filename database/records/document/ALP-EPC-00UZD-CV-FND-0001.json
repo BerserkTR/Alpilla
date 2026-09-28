@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.944873Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:15:03.218725Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.167346Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 14,
   "status": "planned",
   "system": "00UZD",
-  "title": "Foundation and underground drawings - Pipe racks and pipe sleepers",
+  "title": "Pipe Racks and Pipe Sleepers - Foundation and Underground Drawings",
   "type_code": "FND",
   "weight": 700
 }

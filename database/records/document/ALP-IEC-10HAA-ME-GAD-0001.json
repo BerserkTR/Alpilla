@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.852407Z",
     "created_by": "EPCE",
-    "rev": 9,
-    "updated_at": "2026-09-28T17:37:42.263892Z",
+    "rev": 10,
+    "updated_at": "2026-09-28T18:38:48.788635Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,6 +11,7 @@
     "source:SRC-IECE-0012"
   ],
   "cwa": "CWA-01",
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "drawing",
   "equipment": [
@@ -34,7 +35,7 @@
   "source": "SRC-IECE-0012",
   "status": "planned",
   "system": "10HAA",
-  "title": "HRSG IE-HR3 - GA, erection and maintenance",
+  "title": "HRSG incl. SCR - Supplier GA Drawings",
   "type_code": "GAD",
   "vendor_ref": "IEC-ALP-GA-103",
   "weight": 79.0

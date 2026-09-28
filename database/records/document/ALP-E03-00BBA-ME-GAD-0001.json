@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.513411Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.562341Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.774880Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -28,7 +28,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00BBA",
-  "title": "Supplier GA drawings - MV switchgear 10.5 kV",
+  "title": "MV Switchgear 10.5 kV - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 7.0
 }

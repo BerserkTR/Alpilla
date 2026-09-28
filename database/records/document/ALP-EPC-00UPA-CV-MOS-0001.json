@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:05:18.205249Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:05:19.088117Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:40:09.000100Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "permit:PMT-006"
   ],
+  "description": "intake, outfall, dredging",
   "discipline": "civil",
   "doc_type": "procedure",
   "id": "ALP-EPC-00UPA-CV-MOS-0001",
@@ -20,7 +21,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00UPA",
-  "title": "Marine works construction method statement (intake, outfall, dredging)",
+  "title": "Marine Works Construction Method Statement",
   "type_code": "MOS",
   "weight": 80.0
 }

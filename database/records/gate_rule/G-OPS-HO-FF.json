@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:50:51.417662Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:12:41.504130Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:35.934215Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -23,6 +23,7 @@
     "hrsg",
     "other"
   ],
+  "description": "fuel, GT and auxiliary systems",
   "id": "G-OPS-HO-FF",
   "need": "activity:KD-040",
   "process": "operations",
@@ -32,5 +33,5 @@
   ],
   "scope": "system",
   "status": "agreed",
-  "title": "Handover of the system to operations"
+  "title": "Handover of the System to Operations"
 }

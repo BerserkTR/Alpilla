@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.049003Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.584823Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.666357Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,6 +11,7 @@
     "requirement:ER-13.02"
   ],
   "cwa": "CWA-11",
+  "description": "concrete / steel",
   "discipline": "structural",
   "doc_type": "drawing",
   "ewp": "EWP-11-SS-01",
@@ -25,7 +26,7 @@
   "sheets": 5,
   "status": "planned",
   "system": "00USA",
-  "title": "Structural drawings (concrete / steel) - Workshop and warehouse",
+  "title": "Workshop and Warehouse - Structural Drawings",
   "type_code": "STL",
   "weight": 175
 }

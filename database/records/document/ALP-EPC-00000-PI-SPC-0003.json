@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.831582Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.579733Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.990319Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -19,7 +19,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Welding, heat treatment and NDE specification",
+  "title": "Welding, Heat Treatment and NDE Specification",
   "type_code": "SPC",
   "weight": 80.0
 }

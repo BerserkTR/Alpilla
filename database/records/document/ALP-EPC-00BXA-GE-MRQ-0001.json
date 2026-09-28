@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.106557Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.949093Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.485553Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "marine structures, buried piping and tanks",
   "discipline": "general",
   "doc_type": "other",
   "id": "ALP-EPC-00BXA-GE-MRQ-0001",
@@ -22,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00BXA",
-  "title": "Material requisition - Cathodic protection (marine structures, buried piping and tanks)",
+  "title": "Cathodic Protection - Material Requisition",
   "type_code": "MRQ",
   "weight": 24
 }

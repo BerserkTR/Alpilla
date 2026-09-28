@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.032244Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.584438Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.666056Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,6 +11,7 @@
     "requirement:ER-13.02"
   ],
   "cwa": "CWA-07",
+  "description": "concrete / steel",
   "discipline": "structural",
   "doc_type": "drawing",
   "ewp": "EWP-07-SS-01",
@@ -25,7 +26,7 @@
   "sheets": 5,
   "status": "planned",
   "system": "00UGA",
-  "title": "Structural drawings (concrete / steel) - Water treatment building and basins",
+  "title": "Water Treatment Building and Basins - Structural Drawings",
   "type_code": "STL",
   "weight": 175
 }

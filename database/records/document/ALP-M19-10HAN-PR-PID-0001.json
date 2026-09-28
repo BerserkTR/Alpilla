@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.685164Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.351380Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.895141Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -22,7 +22,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "10HAN",
-  "title": "Supplier P&IDs - HRSG blowdown and drain tanks",
+  "title": "HRSG Blowdown and Drain Tanks - Supplier P&IDs",
   "type_code": "PID",
   "weight": 10
 }

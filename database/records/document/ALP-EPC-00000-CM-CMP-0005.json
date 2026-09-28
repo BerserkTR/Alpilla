@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.848075Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.546553Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.940532Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -21,7 +21,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Tests on LDO procedure",
+  "title": "Tests on LDO Procedure",
   "type_code": "CMP",
   "weight": 60.0
 }

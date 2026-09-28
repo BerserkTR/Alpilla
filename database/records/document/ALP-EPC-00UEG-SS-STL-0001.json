@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.322487Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:18:36.257362Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.668321Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00UEG",
-  "title": "Steel structure drawings - LDO tank farm structures",
+  "title": "LDO Tank Farm Structures - Steel Structure Drawings",
   "type_code": "STL",
   "weight": 140
 }

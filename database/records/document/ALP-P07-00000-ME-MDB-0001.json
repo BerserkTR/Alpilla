@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.641577Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.324527Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.872089Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "rule": "DL-V-MDB|MR-PI-007|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Manufacturing record book and conformity certificates - Safety and relief valves",
+  "title": "Safety and Relief Valves - Manufacturing Record Book and Conformity Certificates",
   "type_code": "MDB",
   "weight": 6
 }

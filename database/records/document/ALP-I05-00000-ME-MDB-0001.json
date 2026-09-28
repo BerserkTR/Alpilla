@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.613427Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.306443Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.857954Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "rule": "DL-V-MDB|MR-IC-005|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Manufacturing record book and conformity certificates - Control valves",
+  "title": "Control Valves - Manufacturing Record Book and Conformity Certificates",
   "type_code": "MDB",
   "weight": 6
 }

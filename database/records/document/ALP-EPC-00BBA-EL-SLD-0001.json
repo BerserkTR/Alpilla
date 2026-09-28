@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.873927Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:05:57.902076Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:40:08.996736Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -28,7 +28,7 @@
     "10BBT",
     "20BBT"
   ],
-  "title": "Single line diagram - MV switchgear 10.5 kV",
+  "title": "MV Switchgear 10.5 kV - Single Line Diagram",
   "type_code": "SLD",
   "weight": 75.0
 }

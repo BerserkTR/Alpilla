@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.827303Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.582618Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:40:08.992777Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -18,7 +18,7 @@
   "sheets": 4,
   "status": "planned",
   "tender": true,
-  "title": "Plant process flow diagrams",
+  "title": "Plant Process Flow Diagrams",
   "type_code": "PFD",
   "weight": 105.0
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.833953Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:38:15.622000Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.178810Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "tender": true,
-  "title": "Electrical design criteria",
+  "title": "Electrical Design Criteria",
   "type_code": "DBR",
   "weight": 160
 }

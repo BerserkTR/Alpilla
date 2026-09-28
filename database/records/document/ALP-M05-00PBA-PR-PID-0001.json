@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.677891Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.346967Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.890292Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -22,7 +22,7 @@
   "sheets": 3,
   "status": "planned",
   "system": "00PBA",
-  "title": "Supplier P&IDs - Electro-chlorination package",
+  "title": "Electro-Chlorination Package - Supplier P&IDs",
   "type_code": "PID",
   "weight": 13
 }

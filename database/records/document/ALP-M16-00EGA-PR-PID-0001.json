@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.683775Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.350719Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.894324Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -22,7 +22,7 @@
   "sheets": 6,
   "status": "planned",
   "system": "00EGA",
-  "title": "Supplier P&IDs - LDO unloading and forwarding / treatment skids",
+  "title": "LDO Unloading and Forwarding / Treatment Skids - Supplier P&IDs",
   "type_code": "PID",
   "weight": 22
 }

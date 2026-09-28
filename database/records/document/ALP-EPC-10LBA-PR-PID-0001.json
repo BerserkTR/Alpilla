@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.866264Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.704366Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.609049Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -27,7 +27,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10LBA",
-  "title": "P&ID - Main steam piping",
+  "title": "Main Steam Piping - P&ID",
   "type_code": "PID",
   "weight": 120
 }

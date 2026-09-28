@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.883734Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.271108Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.952317Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -33,6 +33,6 @@
   ],
   "scope": "system",
   "status": "agreed",
-  "title": "System design description - {name}",
+  "title": "{name} - System Design Description",
   "type_code": "SDS"
 }

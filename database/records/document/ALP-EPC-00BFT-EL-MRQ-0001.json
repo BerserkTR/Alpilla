@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.962893Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.484147Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.483522Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -23,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00BFT",
-  "title": "Material requisition - LV transformers",
+  "title": "LV Transformers - Material Requisition",
   "type_code": "MRQ",
   "weight": 24.0
 }

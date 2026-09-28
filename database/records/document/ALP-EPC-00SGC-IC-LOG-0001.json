@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.063037Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:58.038120Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.379970Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -23,7 +23,7 @@
   "sheets": 38,
   "status": "planned",
   "system": "00SGC",
-  "title": "Logic diagrams - Deluge, spray and foam systems",
+  "title": "Deluge, Spray and Foam Systems - Logic Diagrams",
   "type_code": "LOG",
   "weight": 320
 }

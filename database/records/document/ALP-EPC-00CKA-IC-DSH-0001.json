@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.996252Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:16:42.945725Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.265904Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -26,7 +26,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00CKA",
-  "title": "Datasheet - Historian, performance monitoring and operator training simulator: control system",
+  "title": "Historian, Performance Monitoring and Operator Training Simulator: Control System - Datasheet",
   "type_code": "DSH",
   "weight": 16
 }

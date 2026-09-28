@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.624034Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.315289Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.865214Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -11,6 +11,7 @@
     "permit:PMT-016",
     "requirement:ER-15.04"
   ],
+  "description": "SWRO, demin, condensate polishing",
   "discipline": "mechanical",
   "doc_type": "report",
   "id": "ALP-M12-00GBA-ME-MDB-0001",
@@ -26,7 +27,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00GBA",
-  "title": "Manufacturing record book and conformity certificates - Water treatment package (SWRO, demin, condensate polishing)",
+  "title": "Water Treatment Package - Manufacturing Record Book and Conformity Certificates",
   "type_code": "MDB",
   "weight": 6
 }

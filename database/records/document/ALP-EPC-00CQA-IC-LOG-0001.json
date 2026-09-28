@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.049390Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.226251Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.365673Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -21,7 +21,7 @@
   "sheets": 14,
   "status": "planned",
   "system": "00CQA",
-  "title": "Logic diagrams - Continuous emission monitoring",
+  "title": "Continuous Emission Monitoring - Logic Diagrams",
   "type_code": "LOG",
   "weight": 128
 }

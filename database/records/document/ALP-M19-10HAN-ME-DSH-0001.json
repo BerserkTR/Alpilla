@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.386111Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:16:42.990077Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.706148Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -28,7 +28,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "10HAN",
-  "title": "Supplier certified datasheets and performance curves - HRSG blowdown and drain tanks",
+  "title": "HRSG Blowdown and Drain Tanks - Supplier Certified Datasheets and Performance Curves",
   "type_code": "DSH",
   "weight": 8
 }

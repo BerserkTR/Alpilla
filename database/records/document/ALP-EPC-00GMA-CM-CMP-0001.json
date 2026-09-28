@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.855342Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:57.900402Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.057143Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00GMA",
-  "title": "System commissioning procedure - Process drains and waste water collection",
+  "title": "Process Drains and Waste Water Collection - System Commissioning Procedure",
   "type_code": "CMP",
   "weight": 40
 }

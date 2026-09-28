@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.305746Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:17:56.534112Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.659626Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -27,7 +27,7 @@
   "sheets": 40,
   "status": "planned",
   "system": "00UAC",
-  "title": "Steel fabrication and erection drawings - GIS building",
+  "title": "GIS Building - Steel Fabrication and Erection Drawings",
   "type_code": "STL",
   "weight": 20.0
 }

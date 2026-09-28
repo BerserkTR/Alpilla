@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.966906Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.218963Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.196557Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 10,
   "status": "planned",
   "system": "00UZA",
-  "title": "Earthing and lightning protection layouts - Roads and paving",
+  "title": "Roads and Paving - Earthing and Lightning Protection Layouts",
   "type_code": "ELY",
   "weight": 200
 }

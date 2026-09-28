@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.977807Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.498491Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.499313Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "manual and check",
   "discipline": "piping",
   "doc_type": "other",
   "id": "ALP-EPC-00000-PI-MRQ-0003",
@@ -21,7 +22,7 @@
   "rule": "DL-MR-MRQ|MR-PI-003|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Material requisition - Valves (manual and check)",
+  "title": "Valves - Material Requisition",
   "type_code": "MRQ",
   "weight": 24.0
 }

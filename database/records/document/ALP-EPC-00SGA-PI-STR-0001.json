@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.174359Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:58.099737Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.568240Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -24,7 +24,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00SGA",
-  "title": "Pipe stress analysis - Fire water system",
+  "title": "Fire Water System - Pipe Stress Analysis",
   "type_code": "STR",
   "weight": 80
 }

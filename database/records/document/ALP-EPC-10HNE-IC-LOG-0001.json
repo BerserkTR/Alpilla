@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.065529Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.227798Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.383772Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -21,7 +21,7 @@
   "sheets": 11,
   "status": "planned",
   "system": "10HNE",
-  "title": "Logic diagrams - Stack 65 m with CEMS platform and silencer",
+  "title": "Stack 65 m with CEMS Platform and Silencer - Logic Diagrams",
   "type_code": "LOG",
   "weight": 104
 }

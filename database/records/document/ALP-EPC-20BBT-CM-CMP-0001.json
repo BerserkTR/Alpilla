@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.885951Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.215244Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.074173Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -21,7 +21,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "20BBT",
-  "title": "System commissioning procedure - ST unit auxiliary transformer",
+  "title": "ST Unit Auxiliary Transformer - System Commissioning Procedure",
   "type_code": "CMP",
   "weight": 40
 }

@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.844428Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.567096Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.971902Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-14.07"
   ],
+  "description": "Seveso lower tier",
   "discipline": "hse",
   "doc_type": "study",
   "id": "ALP-EPC-00000-HS-HAZ-0010",
@@ -19,7 +20,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Major accident assessment and QRA (Seveso lower tier)",
+  "title": "Major Accident Assessment and QRA",
   "type_code": "HAZ",
   "weight": 160.0
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.524269Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.573939Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.782134Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -37,7 +37,7 @@
   "sheets": 11,
   "status": "planned",
   "system": "00PBA",
-  "title": "Supplier GA drawings - Electro-chlorination package",
+  "title": "Electro-Chlorination Package - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 20.5
 }

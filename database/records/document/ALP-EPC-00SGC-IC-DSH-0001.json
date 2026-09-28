@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.033655Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:58.001419Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.333271Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -23,7 +23,7 @@
   "sheets": 80,
   "status": "planned",
   "system": "00SGC",
-  "title": "Instrument datasheets - Deluge, spray and foam systems",
+  "title": "Deluge, Spray and Foam Systems - Instrument Datasheets",
   "type_code": "DSH",
   "weight": 128.0
 }

@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.690942Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.281210Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.900566Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-17.06"
   ],
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "list",
   "id": "ALP-IEC-10MKA-ME-LST-0001",
@@ -23,7 +24,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10MKA",
-  "title": "Spare parts and special tools lists - Generators, excitation, GCB and busducts (IEC)",
+  "title": "Generators, Excitation, GCB and Busducts - Spare Parts and Special Tools Lists",
   "type_code": "LST",
   "weight": 6
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.528076Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.577726Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:39:37.936405Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -32,10 +32,10 @@
   "po_weeks_ifr": 6,
   "review": "review",
   "rule": "DL-V-GAD|MR-ME-013|1",
-  "sheets": 18,
+  "sheets": 10,
   "status": "planned",
   "system": "00GHA",
-  "title": "Supplier GA drawings - Shop-built tanks and demin forwarding pumps",
+  "title": "Shop-Built Tanks and Demin Forwarding Pumps - Supplier GA Drawings",
   "type_code": "GAD",
-  "weight": 31.0
+  "weight": 19.0
 }

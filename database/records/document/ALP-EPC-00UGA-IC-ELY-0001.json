@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.034675Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.426060Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.348989Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 6,
   "status": "planned",
   "system": "00UGA",
-  "title": "Instrument location and I&C cable routing - Water treatment and effluents",
+  "title": "Water Treatment and Effluents - Instrument Location and I&C Cable Routing",
   "type_code": "ELY",
   "weight": 96
 }

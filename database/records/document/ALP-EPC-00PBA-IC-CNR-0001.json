@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.903826Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.414397Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.247877Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00PBA",
-  "title": "Control narrative - Electro-chlorination",
+  "title": "Electro-Chlorination - Control Narrative",
   "type_code": "CNR",
   "weight": 60.0
 }

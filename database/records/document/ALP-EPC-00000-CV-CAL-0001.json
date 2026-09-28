@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.839573Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.549802Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.949835Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -21,7 +21,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Design loads: wind, seismic, equipment and crane loads",
+  "title": "Design Loads: Wind, Seismic, Equipment and Crane Loads",
   "type_code": "CAL",
   "weight": 60.0
 }

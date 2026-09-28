@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.939632Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:15:03.212284Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.152747Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00UPC",
-  "title": "Structural and foundation calculation - CW pump house",
+  "title": "CW Pump House - Structural and Foundation Calculation",
   "type_code": "CAL",
   "weight": 120
 }

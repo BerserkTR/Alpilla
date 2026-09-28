@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.034350Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.223598Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.334555Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -22,7 +22,7 @@
   "sheets": 10,
   "status": "planned",
   "system": "10BBT",
-  "title": "Instrument datasheets - GT unit auxiliary transformer",
+  "title": "GT Unit Auxiliary Transformer - Instrument Datasheets",
   "type_code": "DSH",
   "weight": 23.0
 }

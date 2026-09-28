@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:50:51.412293Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:12:41.506550Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:35.936132Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -26,5 +26,5 @@
   ],
   "scope": "mr",
   "status": "agreed",
-  "title": "Purchase order award"
+  "title": "Purchase Order Award"
 }

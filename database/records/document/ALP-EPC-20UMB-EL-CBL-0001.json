@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.020688Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.389972Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.182477Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "sheets": 31,
   "status": "planned",
   "system": "20UMB",
-  "title": "Cable schedule and routing - Power block - ST and condenser",
+  "title": "Power Block - ST and Condenser - Cable Schedule and Routing",
   "type_code": "CBL",
   "weight": 82
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.225200Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:38:15.689714Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.594641Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -24,7 +24,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "10LAB",
-  "title": "Control valve sizing and datasheets - Feedwater piping",
+  "title": "Feedwater Piping - Control Valve Sizing and Datasheets",
   "type_code": "DSH",
   "weight": 32
 }

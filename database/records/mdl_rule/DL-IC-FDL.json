@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.900044Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.262509Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.944517Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -36,6 +36,6 @@
     "00USA",
     "00UYA"
   ],
-  "title": "Fire detection and alarm layouts - {name}",
+  "title": "{name} - Fire Detection and Alarm Layouts",
   "type_code": "ELY"
 }

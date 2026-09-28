@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:50:51.416193Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:12:41.501749Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:35.932433Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -16,6 +16,7 @@
     "electrical_mv_lv",
     "common"
   ],
+  "description": "need: KD-010 - 40 wd",
   "id": "G-COM-SC-EL",
   "need": "activity:KD-010",
   "offset_days": -40,
@@ -27,5 +28,5 @@
   ],
   "scope": "system",
   "status": "agreed",
-  "title": "Start of system commissioning (before KD-010)"
+  "title": "Start of System Commissioning before Back-Feed"
 }

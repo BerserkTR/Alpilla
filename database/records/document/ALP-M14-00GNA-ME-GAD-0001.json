@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.528512Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.578051Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.785246Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -44,7 +44,7 @@
   "sheets": 26,
   "status": "planned",
   "system": "00GNA",
-  "title": "Supplier GA drawings - Waste water and sanitary treatment packages",
+  "title": "Waste Water and Sanitary Treatment Packages - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 43.0
 }

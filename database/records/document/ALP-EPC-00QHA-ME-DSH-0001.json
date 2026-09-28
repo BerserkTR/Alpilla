@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.989123Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.666762Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.459202Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -28,7 +28,7 @@
   "status": "planned",
   "system": "00QHA",
   "tender": true,
-  "title": "Datasheet - Auxiliary boiler: boiler",
+  "title": "Auxiliary Boiler - Datasheet",
   "type_code": "DSH",
   "weight": 16.0
 }

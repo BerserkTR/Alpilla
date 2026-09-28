@@ -36,7 +36,7 @@ def test_rule_expansion_parts_register_and_zero_quantity(project):
     ids = sorted(k for k in inst if k.startswith("DL-IC-IDS"))
     assert ids == ["DL-IC-IDS|00PAC|1", "DL-IC-IDS|00PAC|2", "DL-IC-IDS|00PAC|3"]          # 250 sheets / max 100
     assert sorted(inst[k].sheets for k in ids) == [83, 83, 84] and inst[ids[0]].hours == 8 + 1.5 * 84
-    assert "part 1 of 3" in inst[ids[0]].title
+    assert inst[ids[0]].title == "Instrument Datasheets - CW Pumps, Part 1 of 3"
     assert not any(k.startswith("DL-PI-ISO") for k in inst)                                  # quantity 0: not required
     lay = inst["DL-PI-LAY|CWA-05|1"]
     assert lay.sheets == 2                                                                  # min_sheets applies at q = 0 ...

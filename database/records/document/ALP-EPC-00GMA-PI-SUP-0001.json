@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.185481Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.989254Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.575732Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 15,
   "status": "planned",
   "system": "00GMA",
-  "title": "Pipe support drawings - Process drains and waste water collection",
+  "title": "Process Drains and Waste Water Collection - Pipe Support Drawings",
   "type_code": "SUP",
   "weight": 90
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.872620Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:38:15.642715Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.427200Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "20LCA",
-  "title": "Sizing and hydraulic calculation - Main condensate piping",
+  "title": "Main Condensate Piping - Sizing and Hydraulic Calculation",
   "type_code": "CAL",
   "weight": 62
 }

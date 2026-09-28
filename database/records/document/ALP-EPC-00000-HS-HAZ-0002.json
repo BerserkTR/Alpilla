@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.841768Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.564167Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.969322Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -20,7 +20,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "HAZOP report - GT fuel gas system and gas station",
+  "title": "GT Fuel Gas System and Gas Station - HAZOP Report",
   "type_code": "HAZ",
   "weight": 160.0
 }

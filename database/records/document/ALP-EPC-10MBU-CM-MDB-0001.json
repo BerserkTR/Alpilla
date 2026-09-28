@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T18:00:25.787198Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T18:15:11.472247Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.136575Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -20,7 +20,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "10MBU",
-  "title": "System turnover dossier - GT compressor washing",
+  "title": "GT Compressor Washing - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

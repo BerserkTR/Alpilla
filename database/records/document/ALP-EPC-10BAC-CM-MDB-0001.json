@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T18:00:25.777870Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T18:15:11.463368Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.128848Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -20,7 +20,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "10BAC",
-  "title": "System turnover dossier - GT generator circuit breaker",
+  "title": "GT Generator Circuit Breaker - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

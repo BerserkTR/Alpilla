@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.879960Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.409359Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.237912Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00EKC",
-  "title": "Control narrative - Fuel gas distribution to GT and auxiliary boiler",
+  "title": "Fuel Gas Distribution to GT and Auxiliary Boiler - Control Narrative",
   "type_code": "CNR",
   "weight": 60.0
 }

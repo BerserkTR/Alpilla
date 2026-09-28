@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.437768Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.150318Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.734138Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10HSB",
-  "title": "Supplier installation and erection manual - Aqueous ammonia storage and forwarding",
+  "title": "Aqueous Ammonia Storage and Forwarding - Supplier Installation and Erection Manual",
   "type_code": "PRC",
   "weight": 6
 }

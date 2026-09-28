@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.840136Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.584783Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:40:08.995927Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -19,7 +19,7 @@
   "originator": "EPC",
   "status": "planned",
   "tender": true,
-  "title": "Structural steel specification",
+  "title": "Structural Steel Specification",
   "type_code": "SPC",
   "weight": 80.0
 }

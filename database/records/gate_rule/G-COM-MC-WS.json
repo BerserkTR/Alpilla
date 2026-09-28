@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:50:51.417981Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:12:41.501311Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:35.932162Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -15,6 +15,7 @@
     "condensate_feedwater",
     "steam_turbine"
   ],
+  "description": "water-steam cycle systems; need: first CC synchronisation KD-030 - 60 wd",
   "id": "G-COM-MC-WS",
   "need": "activity:KD-030",
   "offset_days": -60,
@@ -25,5 +26,5 @@
   ],
   "scope": "system",
   "status": "agreed",
-  "title": "Mechanical completion of the system (before KD-030)"
+  "title": "Mechanical Completion of the System before First Synchronisation"
 }

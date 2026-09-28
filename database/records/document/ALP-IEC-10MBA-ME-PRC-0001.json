@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.858526Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:37:42.253066Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.735420Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "procedure",
   "ewp": "EWP-01-ME-01",
@@ -28,7 +29,7 @@
     "20MAA",
     "10HAA"
   ],
-  "title": "Power island erection manuals and procedures",
+  "title": "Gas Turbine Package incl. Auxiliaries - Supplier Installation and Erection Manual",
   "type_code": "PRC",
   "vendor_ref": "IEC-ALP-ER-101",
   "weight": 6

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.891632Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.695655Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.600616Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 3,
   "status": "planned",
   "system": "00GNA",
-  "title": "P&ID - Waste water treatment",
+  "title": "Waste Water Treatment - P&ID",
   "type_code": "PID",
   "weight": 320
 }

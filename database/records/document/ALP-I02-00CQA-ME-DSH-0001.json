@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.367001Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:16:42.979705Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.697019Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -25,7 +25,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00CQA",
-  "title": "Supplier certified datasheets and performance curves - Continuous emission monitoring system",
+  "title": "Continuous Emission Monitoring System - Supplier Certified Datasheets and Performance Curves",
   "type_code": "DSH",
   "weight": 8
 }

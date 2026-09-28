@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.114499Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.953236Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.500272Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "strainers, steam traps, expansion joints, sight glasses",
   "discipline": "general",
   "doc_type": "other",
   "id": "ALP-EPC-00000-GE-MRQ-0007",
@@ -21,7 +22,7 @@
   "rule": "DL-MR-MRQ|MR-PI-006|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Material requisition - Piping specialty items (strainers, steam traps, expansion joints, sight glasses)",
+  "title": "Piping Specialty Items - Material Requisition",
   "type_code": "MRQ",
   "weight": 24
 }

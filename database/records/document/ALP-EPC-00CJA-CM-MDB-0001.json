@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.913243Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:15:11.444796Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.109863Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "00CJA",
-  "title": "System turnover dossier - Plant DCS",
+  "title": "Plant DCS - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

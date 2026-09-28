@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.860087Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:38:15.638343Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.420646Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-01.02"
   ],
+  "description": "EPC tanks and headers",
   "discipline": "mechanical",
   "doc_type": "calculation",
   "id": "ALP-EPC-10HAN-ME-CAL-0001",
@@ -22,7 +23,7 @@
   "sheets": 6,
   "status": "planned",
   "system": "10HAN",
-  "title": "Sizing and hydraulic calculation - HRSG blowdown and drains (EPC tanks and headers)",
+  "title": "HRSG Blowdown and Drains - Sizing and Hydraulic Calculation",
   "type_code": "CAL",
   "weight": 78
 }

@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T18:00:25.791796Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T18:15:11.474178Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.138767Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-16.01"
   ],
+  "description": "H2/CO2",
   "discipline": "commissioning",
   "doc_type": "report",
   "id": "ALP-EPC-10MKG-CM-MDB-0001",
@@ -20,7 +21,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "10MKG",
-  "title": "System turnover dossier - GT generator gas system (H2/CO2)",
+  "title": "GT Generator Gas System - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

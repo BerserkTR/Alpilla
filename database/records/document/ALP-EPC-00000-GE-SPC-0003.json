@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.121131Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:13:27.934053Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.509886Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "tubing, fittings, junction boxes, supports",
   "discipline": "general",
   "doc_type": "specification",
   "id": "ALP-EPC-00000-GE-SPC-0003",
@@ -21,7 +22,7 @@
   "rule": "DL-MR-SPC|MR-IC-010|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Technical specification - Instrument installation materials (tubing, fittings, junction boxes, supports)",
+  "title": "Instrument Installation Materials - Technical Specification",
   "type_code": "SPC",
   "weight": 80
 }

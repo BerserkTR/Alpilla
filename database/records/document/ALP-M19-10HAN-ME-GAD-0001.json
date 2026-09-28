@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.530753Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.579668Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.786769Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -30,7 +30,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "10HAN",
-  "title": "Supplier GA drawings - HRSG blowdown and drain tanks",
+  "title": "HRSG Blowdown and Drain Tanks - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 10.0
 }

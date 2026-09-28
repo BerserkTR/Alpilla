@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.046478Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.224845Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.361457Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -21,7 +21,7 @@
   "sheets": 60,
   "status": "planned",
   "system": "00BLA",
-  "title": "Logic diagrams - Lighting and small power",
+  "title": "Lighting and Small Power - Logic Diagrams",
   "type_code": "LOG",
   "weight": 496
 }

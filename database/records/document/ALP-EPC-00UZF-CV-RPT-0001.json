@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:05:18.204286Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:05:57.922431Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:09.001095Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00UZF",
-  "title": "Temporary barge landing design report and removal plan",
+  "title": "Temporary Barge Landing Design Report and Removal Plan",
   "type_code": "RPT",
   "weight": 160.0
 }

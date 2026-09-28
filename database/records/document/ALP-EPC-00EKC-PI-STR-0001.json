@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.922673Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.546354Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.566503Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00EKC",
-  "title": "Pipe stress analysis - Fuel gas distribution to GT and auxiliary boiler",
+  "title": "Fuel Gas Distribution to GT and Auxiliary Boiler - Pipe Stress Analysis",
   "type_code": "STR",
   "weight": 140
 }

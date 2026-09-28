@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.329612Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.074573Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.672563Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00ACA",
-  "title": "Supplier design calculations - 380 kV GIS",
+  "title": "380 kV GIS - Supplier Design Calculations",
   "type_code": "CAL",
   "weight": 8
 }

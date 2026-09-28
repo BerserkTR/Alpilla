@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.894355Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.258893Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.939742Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -23,6 +23,6 @@
   "quantity": "q_cables",
   "scope": "cwa",
   "status": "agreed",
-  "title": "Cable schedule and routing - {name}",
+  "title": "{name} - Cable Schedule and Routing",
   "type_code": "CBL"
 }

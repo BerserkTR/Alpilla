@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.000791Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:12:57.942365Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.189542Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-11.04"
   ],
+  "description": "2 items",
   "discipline": "electrical",
   "doc_type": "datasheet",
   "equipment": [
@@ -28,7 +29,7 @@
   "status": "planned",
   "system": "00BBA",
   "tender": true,
-  "title": "Datasheet - MV switchgear 10.5 kV: switchgear (2 items)",
+  "title": "MV Switchgear 10.5 kV - Datasheet",
   "type_code": "DSH",
   "weight": 26
 }

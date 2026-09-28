@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.914575Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.701720Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.606580Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -27,7 +27,7 @@
   "sheets": 6,
   "status": "planned",
   "system": "00SGC",
-  "title": "P&ID - Deluge, spray and foam systems",
+  "title": "Deluge, Spray and Foam Systems - P&ID",
   "type_code": "PID",
   "weight": 620
 }

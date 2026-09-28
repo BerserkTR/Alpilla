@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.242052Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:38:15.712188Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.615801Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -23,7 +23,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00QHA",
-  "title": "Safety / relief valve sizing and datasheets - Auxiliary boiler",
+  "title": "Auxiliary Boiler - Safety / Relief Valve Sizing and Datasheets",
   "type_code": "DSH",
   "weight": 32
 }

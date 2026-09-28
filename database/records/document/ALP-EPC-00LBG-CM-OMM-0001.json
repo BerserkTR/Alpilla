@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.896997Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.742698Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.088154Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-17.04"
   ],
+  "description": "English / Turkish",
   "discipline": "commissioning",
   "doc_type": "manual",
   "id": "ALP-EPC-00LBG-CM-OMM-0001",
@@ -21,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00LBG",
-  "title": "Operating procedures (English / Turkish) - Auxiliary steam",
+  "title": "Auxiliary Steam - Operating Procedures",
   "type_code": "OMM",
   "weight": 32
 }

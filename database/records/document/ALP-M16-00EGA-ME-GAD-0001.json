@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.529317Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.578850Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.786042Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -41,7 +41,7 @@
   "sheets": 18,
   "status": "planned",
   "system": "00EGA",
-  "title": "Supplier GA drawings - LDO unloading and forwarding / treatment skids",
+  "title": "LDO Unloading and Forwarding / Treatment Skids - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 31.0
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.836010Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.556287Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.959453Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -15,7 +15,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "LV and MV motor specification",
+  "title": "LV and MV Motor Specification",
   "type_code": "SPC",
   "weight": 80.0
 }

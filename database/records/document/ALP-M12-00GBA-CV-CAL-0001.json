@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.482809Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.188655Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.755278Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "SWRO, demin, condensate polishing",
   "discipline": "civil",
   "doc_type": "calculation",
   "id": "ALP-M12-00GBA-CV-CAL-0001",
@@ -22,7 +23,7 @@
   "sheets": 6,
   "status": "planned",
   "system": "00GBA",
-  "title": "Supplier foundation loads and anchor bolt drawings - Water treatment package (SWRO, demin, condensate polishing)",
+  "title": "Water Treatment Package - Supplier Foundation Loads and Anchor Bolt Drawings",
   "type_code": "CAL",
   "weight": 10
 }

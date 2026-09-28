@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.859853Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.417760Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.255455Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-12.02"
   ],
+  "description": "EPC tanks and headers",
   "discipline": "i_and_c",
   "doc_type": "report",
   "id": "ALP-EPC-10HAN-IC-CNR-0001",
@@ -22,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10HAN",
-  "title": "Control narrative - HRSG blowdown and drains (EPC tanks and headers)",
+  "title": "HRSG Blowdown and Drains - Control Narrative",
   "type_code": "CNR",
   "weight": 60.0
 }

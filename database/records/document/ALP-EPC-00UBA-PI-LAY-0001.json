@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.005914Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.538479Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.558249Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 8,
   "status": "planned",
   "system": "00UBA",
-  "title": "Equipment layout - Electrical building and emergency power",
+  "title": "Electrical Building and Emergency Power - Equipment Layout",
   "type_code": "LAY",
   "weight": 320
 }

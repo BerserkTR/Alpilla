@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.997640Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:18:36.249588Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.269573Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00UBA",
-  "title": "Fire detection and alarm layouts - Electrical building",
+  "title": "Electrical Building - Fire Detection and Alarm Layouts",
   "type_code": "ELY",
   "weight": 56
 }

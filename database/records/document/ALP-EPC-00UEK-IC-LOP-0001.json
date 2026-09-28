@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.040660Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.431559Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.398862Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 104,
   "status": "planned",
   "system": "00UEK",
-  "title": "Loop and connection diagrams - Fuel gas station",
+  "title": "Fuel Gas Station - Loop and Connection Diagrams",
   "type_code": "LOP",
   "weight": 156.0
 }

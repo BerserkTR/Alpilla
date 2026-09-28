@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.900927Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:38:15.633485Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.411198Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00PAB",
-  "title": "Sizing and hydraulic calculation - CW piping",
+  "title": "CW Piping - Sizing and Hydraulic Calculation",
   "type_code": "CAL",
   "weight": 46
 }

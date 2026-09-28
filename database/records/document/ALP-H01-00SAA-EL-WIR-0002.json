@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.392371Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:17:56.545024Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.711293Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 60,
   "status": "planned",
   "system": "00SAA",
-  "title": "Supplier electrical schematics and wiring diagrams - HVAC plant and equipment - part 2 of 2",
+  "title": "HVAC Plant and Equipment - Supplier Electrical Schematics and Wiring Diagrams, Part 2 of 2",
   "type_code": "WIR",
   "weight": 34.0
 }

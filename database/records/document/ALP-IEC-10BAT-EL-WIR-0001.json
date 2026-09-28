@@ -2,12 +2,13 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.391425Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.249487Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.710617Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "cwa": "CWA-01",
+  "description": "IEC",
   "discipline": "electrical",
   "doc_type": "diagram",
   "ewp": "EWP-01-EL-01",
@@ -22,7 +23,7 @@
   "sheets": 24,
   "status": "planned",
   "system": "10BAT",
-  "title": "Supplier electrical schematics and wiring diagrams - Generator step-up transformers (IEC)",
+  "title": "Generator Step-Up Transformers - Supplier Electrical Schematics and Wiring Diagrams",
   "type_code": "WIR",
   "weight": 16.0
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.007604Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.540334Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.559564Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00UGA",
-  "title": "Equipment layout - Water treatment and effluents",
+  "title": "Water Treatment and Effluents - Equipment Layout",
   "type_code": "LAY",
   "weight": 160
 }

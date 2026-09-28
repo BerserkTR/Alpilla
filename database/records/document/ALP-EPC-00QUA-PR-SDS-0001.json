@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.911432Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:04:05.576073Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.628919Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "status": "planned",
   "system": "00QUA",
   "tender": true,
-  "title": "System design description - Sampling and SWAS",
+  "title": "Sampling and SWAS - System Design Description",
   "type_code": "SDS",
   "weight": 80
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.342647Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.082090Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.679046Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "20LCB",
-  "title": "Supplier design calculations - Condensate extraction pumps",
+  "title": "Condensate Extraction Pumps - Supplier Design Calculations",
   "type_code": "CAL",
   "weight": 5
 }

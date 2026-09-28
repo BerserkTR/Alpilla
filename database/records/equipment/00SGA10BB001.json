@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.551160Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.442925Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:39:28.637529Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Fixed Roof Tank",
@@ -12,10 +12,10 @@
   ],
   "cwa": "CWA-08",
   "cwp": "CWP-08-ME-01",
-  "description": "Fire water tank",
+  "description": "Fire water tank A",
   "equipment_type": "tank",
   "id": "00SGA10BB001",
-  "mr": "MR-ME-013",
+  "mr": "MR-ME-017",
   "quantity": 1,
   "status": "preliminary",
   "supply": "IEPC",

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.848581Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.212047Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.049975Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -21,7 +21,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00BTA",
-  "title": "System commissioning procedure - Batteries and DC 220 V",
+  "title": "Batteries and DC 220 V - System Commissioning Procedure",
   "type_code": "CMP",
   "weight": 40
 }

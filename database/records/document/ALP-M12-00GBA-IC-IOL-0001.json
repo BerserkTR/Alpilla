@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.564485Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.266514Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.819610Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "SWRO, demin, condensate polishing",
   "discipline": "i_and_c",
   "doc_type": "list",
   "id": "ALP-M12-00GBA-IC-IOL-0001",
@@ -22,7 +23,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00GBA",
-  "title": "Supplier I/O list, control philosophy and interface signals - Water treatment package (SWRO, demin, condensate polishing)",
+  "title": "Water Treatment Package - Supplier I/O List, Control Philosophy and Interface Signals",
   "type_code": "IOL",
   "weight": 8
 }

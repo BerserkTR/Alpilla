@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.841014Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.567452Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.972339Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -18,7 +18,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "HSE in design plan and safety-in-design register",
+  "title": "HSE in Design Plan and Safety-in-Design Register",
   "type_code": "PLN",
   "weight": 120.0
 }

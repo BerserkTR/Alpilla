@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:38:08.295157Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:38:08.295157Z",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:38:39.936773Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
     "requirement:ER-13.01"
   ],
   "bdp": true,
+  "description": "TBDY 2018, Eurocodes",
   "discipline": "civil",
   "hours_base": 160,
   "id": "DL-DBR-CV",
@@ -19,6 +20,6 @@
   "originator": "EPC",
   "scope": "plant",
   "status": "agreed",
-  "title": "Civil and structural design criteria (TBDY 2018, Eurocodes)",
+  "title": "Civil and Structural Design Criteria",
   "type_code": "DBR"
 }

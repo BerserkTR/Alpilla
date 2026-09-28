@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.928957Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:37:42.233529Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.553098Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -27,7 +27,7 @@
   "sheets": 100,
   "status": "planned",
   "system": "00SGC",
-  "title": "Isometric drawings - Deluge, spray and foam systems",
+  "title": "Deluge, Spray and Foam Systems - Isometric Drawings",
   "type_code": "ISO",
   "weight": 1000
 }

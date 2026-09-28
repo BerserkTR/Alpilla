@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.179592Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.234662Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.572692Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 13,
   "status": "planned",
   "system": "00EGB",
-  "title": "Pipe support drawings - LDO storage",
+  "title": "LDO Storage - Pipe Support Drawings",
   "type_code": "SUP",
   "weight": 78
 }

@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.073002Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:38:15.644569Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.430390Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-10.01"
   ],
+  "description": "4 items",
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
@@ -30,7 +31,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00EGA",
-  "title": "Datasheet - LDO unloading: pump (4 items)",
+  "title": "LDO Unloading: Pumps - Datasheet",
   "type_code": "DSH",
   "weight": 46
 }

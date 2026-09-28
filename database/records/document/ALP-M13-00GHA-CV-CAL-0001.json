@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.483288Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.189064Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:39:37.935998Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -19,10 +19,10 @@
   "po_weeks_ifr": 6,
   "review": "review",
   "rule": "DL-V-FDL|MR-ME-013|1",
-  "sheets": 4,
+  "sheets": 2,
   "status": "planned",
   "system": "00GHA",
-  "title": "Supplier foundation loads and anchor bolt drawings - Shop-built tanks and demin forwarding pumps",
+  "title": "Shop-Built Tanks and Demin Forwarding Pumps - Supplier Foundation Loads and Anchor Bolt Drawings",
   "type_code": "CAL",
-  "weight": 8
+  "weight": 6
 }

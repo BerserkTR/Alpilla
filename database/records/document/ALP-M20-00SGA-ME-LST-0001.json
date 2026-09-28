@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.705674Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.372415Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.914219Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00SGA",
-  "title": "Spare parts and special tools lists - Fire pumps and fire protection systems",
+  "title": "Fire Pumps and Fire Protection Systems - Spare Parts and Special Tools Lists",
   "type_code": "LST",
   "weight": 6
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.531820Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:17:56.580385Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.787466Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -36,7 +36,7 @@
   "sheets": 8,
   "status": "planned",
   "system": "00SMA",
-  "title": "Supplier GA drawings - EOT cranes",
+  "title": "EOT Cranes - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 16.0
 }

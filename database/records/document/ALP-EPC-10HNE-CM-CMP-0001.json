@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.882134Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.214645Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.068577Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -21,7 +21,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10HNE",
-  "title": "System commissioning procedure - Stack 65 m with CEMS platform and silencer",
+  "title": "Stack 65 m with CEMS Platform and Silencer - System Commissioning Procedure",
   "type_code": "CMP",
   "weight": 40
 }

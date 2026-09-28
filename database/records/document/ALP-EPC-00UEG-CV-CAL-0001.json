@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.938012Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:15:03.210750Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.151335Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00UEG",
-  "title": "Structural and foundation calculation - LDO tank farm structures",
+  "title": "LDO Tank Farm Structures - Structural and Foundation Calculation",
   "type_code": "CAL",
   "weight": 120
 }

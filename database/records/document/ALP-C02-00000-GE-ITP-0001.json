@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.251166Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.027623Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.636168Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -24,7 +24,7 @@
   "rule": "DL-S-ITP|MR-CV-002|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Subcontractor inspection and test plans - Civil and building works",
+  "title": "Civil and Building Works - Subcontractor Inspection and Test Plans",
   "type_code": "ITP",
   "weight": 8
 }

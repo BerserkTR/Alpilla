@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.825798Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.560404Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.963964Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -18,7 +18,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Permits and authorities register",
+  "title": "Permits and Authorities Register",
   "type_code": "LST",
   "weight": 80.0
 }

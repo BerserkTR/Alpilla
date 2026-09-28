@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.857274Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.781086Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:09.006627Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC scope and interfaces",
   "discipline": "i_and_c",
   "doc_type": "list",
   "ewp": "EWP-01-IC-01",
@@ -20,7 +21,7 @@
   "systems": [
     "20MAY"
   ],
-  "title": "Power island cable list (IEC scope and interfaces)",
+  "title": "Power Island Cable List",
   "type_code": "CBL",
   "vendor_ref": "IEC-ALP-IC-104",
   "weight": 60.0

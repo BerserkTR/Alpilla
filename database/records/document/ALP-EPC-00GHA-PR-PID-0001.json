@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.887194Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.694642Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.599574Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -26,7 +26,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00GHA",
-  "title": "P&ID - Demineralised water storage and distribution",
+  "title": "Demineralised Water Storage and Distribution - P&ID",
   "type_code": "PID",
   "weight": 220
 }

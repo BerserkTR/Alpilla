@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:11:40.549550Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:11:40.559263Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.159615Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00UBA",
-  "title": "Equipment foundation drawings - Electrical building",
+  "title": "Electrical Building - Equipment Foundation Drawings",
   "type_code": "EFD",
   "weight": 100
 }

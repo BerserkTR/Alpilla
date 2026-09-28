@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.537360Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:16:43.013584Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.793541Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -26,7 +26,7 @@
   "sheets": 15,
   "status": "planned",
   "system": "00PAC",
-  "title": "Supplier instrument list and datasheets - CW pumps",
+  "title": "CW Pumps - Supplier Instrument List and Datasheets",
   "type_code": "DSH",
   "weight": 7.0
 }

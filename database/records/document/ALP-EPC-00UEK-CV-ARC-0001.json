@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.934379Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:18:36.167930Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.147330Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00UEK",
-  "title": "Architectural drawings - Gas station structures",
+  "title": "Gas Station Structures - Architectural Drawings",
   "type_code": "ARC",
   "weight": 70
 }

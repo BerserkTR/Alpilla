@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.512851Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:17:56.561979Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.774487Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -33,7 +33,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "10BBT",
-  "title": "Supplier GA drawings - Unit auxiliary transformers",
+  "title": "Unit Auxiliary Transformers - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 7.0
 }

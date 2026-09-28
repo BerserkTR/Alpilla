@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.972880Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.681180Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.507632Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -23,7 +23,7 @@
   "status": "planned",
   "system": "00QUA",
   "tender": true,
-  "title": "Technical specification - Steam/water analysis system",
+  "title": "Steam/Water Analysis System - Technical Specification",
   "type_code": "SPC",
   "weight": 80.0
 }

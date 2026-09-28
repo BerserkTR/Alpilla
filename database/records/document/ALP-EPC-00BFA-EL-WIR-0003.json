@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.971733Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:18:36.239202Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.204958Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 96,
   "status": "planned",
   "system": "00BFA",
-  "title": "LV schematic and wiring diagrams - part 11 of 13",
+  "title": "LV Schematic and Wiring Diagrams, Part 11 of 13",
   "type_code": "WIR",
   "weight": 308
 }

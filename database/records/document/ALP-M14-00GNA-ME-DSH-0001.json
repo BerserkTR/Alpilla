@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.380665Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.540291Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.704673Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -42,7 +42,7 @@
   "sheets": 26,
   "status": "planned",
   "system": "00GNA",
-  "title": "Supplier certified datasheets and performance curves - Waste water and sanitary treatment packages",
+  "title": "Waste Water and Sanitary Treatment Packages - Supplier Certified Datasheets and Performance Curves",
   "type_code": "DSH",
   "weight": 30
 }

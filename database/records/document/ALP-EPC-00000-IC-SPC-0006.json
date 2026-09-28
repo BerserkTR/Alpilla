@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:05:18.220407Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:00:13.721765Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.982170Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-12.03"
   ],
+  "description": "IEC 61511",
   "discipline": "i_and_c",
   "doc_type": "specification",
   "id": "ALP-EPC-00000-IC-SPC-0006",
@@ -19,7 +20,7 @@
   "originator": "EPC",
   "sheets": 1,
   "status": "planned",
-  "title": "Safety requirements specification (IEC 61511) - BOP SIS",
+  "title": "BOP SIS - Safety Requirements Specification",
   "type_code": "SPC",
   "weight": 120.0
 }

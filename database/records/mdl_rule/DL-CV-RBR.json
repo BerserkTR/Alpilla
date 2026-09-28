@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.897888Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.258265Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.936356Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -21,6 +21,6 @@
   "quantity": "q_rebar_sheets",
   "scope": "structure",
   "status": "agreed",
-  "title": "Reinforcement drawings - {name}",
+  "title": "{name} - Reinforcement Drawings",
   "type_code": "RBR"
 }

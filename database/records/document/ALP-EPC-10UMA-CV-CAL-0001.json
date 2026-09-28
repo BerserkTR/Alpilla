@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.943878Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:15:03.215208Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.156948Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -24,7 +24,7 @@
   "sheets": 3,
   "status": "planned",
   "system": "10UMA",
-  "title": "Structural and foundation calculation - Gas turbine hall",
+  "title": "Gas Turbine Hall - Structural and Foundation Calculation",
   "type_code": "CAL",
   "weight": 160
 }

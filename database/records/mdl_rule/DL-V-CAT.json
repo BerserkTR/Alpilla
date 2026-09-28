@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.908065Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.273446Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.954069Z",
     "updated_by": "EPCE"
   },
   "discipline": "mechanical",
@@ -21,6 +21,6 @@
   "review": "review",
   "scope": "mr",
   "status": "agreed",
-  "title": "Supplier catalogues and material datasheets - {name}",
+  "title": "{name} - Supplier Catalogues and Material Datasheets",
   "type_code": "DSH"
 }

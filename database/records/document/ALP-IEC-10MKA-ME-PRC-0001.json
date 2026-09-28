@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.418147Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.251581Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.725249Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "procedure",
   "id": "ALP-IEC-10MKA-ME-PRC-0001",
@@ -20,7 +21,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10MKA",
-  "title": "Supplier installation and erection manual - Generators, excitation, GCB and busducts (IEC)",
+  "title": "Generators, Excitation, GCB and Busducts - Supplier Installation and Erection Manual",
   "type_code": "PRC",
   "weight": 6
 }

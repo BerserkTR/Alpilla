@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.874641Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.592449Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.997741Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "systems": [
     "00XJA"
   ],
-  "title": "Single line diagram - Emergency LV switchgear",
+  "title": "Emergency LV Switchgear - Single Line Diagram",
   "type_code": "SLD",
   "weight": 75.0
 }

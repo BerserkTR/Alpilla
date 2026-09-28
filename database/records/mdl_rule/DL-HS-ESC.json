@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.899812Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:38:14.374510Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:39.941755Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -24,6 +24,6 @@
   "review": "approval",
   "scope": "structure",
   "status": "agreed",
-  "title": "Fire fighting, escape route and safety signage layouts - {name}",
+  "title": "{name} - Fire Fighting, Escape Route and Safety Signage Layouts",
   "type_code": "GAD"
 }

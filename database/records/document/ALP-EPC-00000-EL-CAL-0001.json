@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.836662Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.553821Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.953771Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -15,7 +15,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Cable sizing calculation",
+  "title": "Cable Sizing Calculation",
   "type_code": "CAL",
   "weight": 60.0
 }

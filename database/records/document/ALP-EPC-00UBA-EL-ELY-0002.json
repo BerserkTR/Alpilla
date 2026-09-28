@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.957644Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.820346Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.186638Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00UBA",
-  "title": "Cable routing, tray and trench layouts - Electrical building and emergency power",
+  "title": "Electrical Building and Emergency Power - Cable Routing, Tray and Trench Layouts",
   "type_code": "ELY",
   "weight": 100
 }

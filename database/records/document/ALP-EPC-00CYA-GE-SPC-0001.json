@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.118695Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:13:27.937508Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.508930Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -23,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00CYA",
-  "title": "Technical specification - Telecom, CCTV, access control and perimeter security",
+  "title": "Telecom, CCTV, Access Control and Perimeter Security - Technical Specification",
   "type_code": "SPC",
   "weight": 80
 }

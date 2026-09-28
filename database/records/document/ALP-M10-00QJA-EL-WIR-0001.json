@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.403591Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:17:56.553268Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.717227Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00QJA",
-  "title": "Supplier electrical schematics and wiring diagrams - Nitrogen, hydrogen and CO2 supply",
+  "title": "Nitrogen, Hydrogen and CO2 Supply - Supplier Electrical Schematics and Wiring Diagrams",
   "type_code": "WIR",
   "weight": 6.0
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.850556Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:37:42.247041Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.695914Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -13,6 +13,7 @@
     "scope_item:SC-014",
     "source:SRC-EPCE-0007"
   ],
+  "description": "IEC",
   "discipline": "electrical",
   "doc_type": "datasheet",
   "equipment": [
@@ -37,7 +38,7 @@
   "systems": [
     "20BAT"
   ],
-  "title": "Generator step-up transformers datasheet",
+  "title": "Generator Step-Up Transformers - Supplier Certified Datasheets and Performance Curves",
   "type_code": "DSH",
   "vendor_ref": "IEC-ALP-DS-106",
   "weight": 6

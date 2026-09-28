@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.827054Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.581615Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:40:08.991405Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -12,6 +12,7 @@
     "requirement:ER-04.06"
   ],
   "bdp": true,
+  "description": "9 cases",
   "discipline": "process",
   "doc_type": "diagram",
   "id": "ALP-EPC-00000-PR-HMB-0001",
@@ -22,7 +23,7 @@
   "sheets": 9,
   "status": "planned",
   "tender": true,
-  "title": "Plant heat and mass balances (9 cases)",
+  "title": "Plant Heat and Mass Balances",
   "type_code": "HMB",
   "weight": 480.0
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.358641Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:16:42.974092Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.689338Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -26,7 +26,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00PAB",
-  "title": "Supplier catalogues and material datasheets - GRP CW pipes and fittings",
+  "title": "GRP CW Pipes and Fittings - Supplier Catalogues and Material Datasheets",
   "type_code": "DSH",
   "weight": 6
 }

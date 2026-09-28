@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.287815Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.046729Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.651833Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-14.05"
   ],
+  "description": "subcontract",
   "discipline": "general",
   "doc_type": "procedure",
   "id": "ALP-M23-00000-GE-MOS-0003",
@@ -24,7 +25,7 @@
   "rule": "DL-S-MOS|MR-ME-023|3",
   "sheets": 1,
   "status": "planned",
-  "title": "Subcontractor method statements - Mechanical and piping erection (subcontract) - part 3 of 6",
+  "title": "Mechanical and Piping Erection - Subcontractor Method Statements, Part 3 of 6",
   "type_code": "MOS",
   "weight": 8
 }

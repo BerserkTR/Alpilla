@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:05:18.214805Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:05:19.094403Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:40:08.992441Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -19,7 +19,7 @@
   "originator": "EPC",
   "sheets": 1,
   "status": "planned",
-  "title": "Chemical consumption, effluent and emission inventory",
+  "title": "Chemical Consumption, Effluent and Emission Inventory",
   "type_code": "LST",
   "weight": 60.0
 }

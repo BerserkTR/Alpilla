@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.257202Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.030997Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.639104Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10HNE",
-  "title": "Subcontractor inspection and test plans - Stack 65 m with silencer",
+  "title": "Stack 65 m with Silencer - Subcontractor Inspection and Test Plans",
   "type_code": "ITP",
   "weight": 8
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.892846Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.255352Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.933421Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -22,6 +22,7 @@
     "electrical_hv",
     "i_and_c"
   ],
+  "description": "English / Turkish",
   "discipline": "commissioning",
   "hours_base": 32,
   "id": "DL-CM-OPR",
@@ -34,6 +35,6 @@
   ],
   "scope": "system",
   "status": "agreed",
-  "title": "Operating procedures (English / Turkish) - {name}",
+  "title": "{name} - Operating Procedures",
   "type_code": "OMM"
 }

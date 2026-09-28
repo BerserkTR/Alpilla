@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.349661Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.087149Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.683169Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 5,
   "status": "planned",
   "system": "00EKA",
-  "title": "Supplier design calculations - Gas receiving and metering station",
+  "title": "Gas Receiving and Metering Station - Supplier Design Calculations",
   "type_code": "CAL",
   "weight": 9
 }

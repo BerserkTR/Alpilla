@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.853957Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:37:42.279917Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.896085Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -29,6 +29,7 @@
     "tie_in:IF-20",
     "tie_in:IF-33"
   ],
+  "description": "IEC",
   "discipline": "process",
   "doc_type": "diagram",
   "id": "ALP-IEC-10MBA-PR-PID-0001",
@@ -52,7 +53,7 @@
     "10MBU",
     "10MBV"
   ],
-  "title": "Gas turbine P&IDs (fuel gas, liquid fuel, lube oil, inlet air, washing)",
+  "title": "Gas Turbine Package incl. Auxiliaries - Supplier P&IDs",
   "type_code": "PID",
   "vendor_ref": "IEC-ALP-PID-101",
   "weight": 55

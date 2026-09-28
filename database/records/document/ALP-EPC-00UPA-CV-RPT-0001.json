@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:05:18.204748Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:05:19.087770Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:40:09.000416Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "permit:PMT-006"
   ],
+  "description": "bathymetry, geophysics",
   "discipline": "civil",
   "doc_type": "report",
   "id": "ALP-EPC-00UPA-CV-RPT-0001",
@@ -20,7 +21,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00UPA",
-  "title": "Marine route survey (bathymetry, geophysics) for intake and outfall pipelines",
+  "title": "Marine Route Survey for Intake and Outfall Pipelines",
   "type_code": "RPT",
   "weight": 120.0
 }

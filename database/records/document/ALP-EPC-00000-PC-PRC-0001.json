@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.826822Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.575329Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.986539Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -15,7 +15,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Progress measurement and reporting procedure",
+  "title": "Progress Measurement and Reporting Procedure",
   "type_code": "PRC",
   "weight": 80.0
 }

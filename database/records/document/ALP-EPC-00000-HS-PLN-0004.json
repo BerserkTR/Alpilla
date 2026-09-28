@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:05:18.193882Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:05:19.079844Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:40:08.973416Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -11,6 +11,7 @@
     "reference:REF-CONS-0008",
     "requirement:ER-14.01"
   ],
+  "description": "construction and operation",
   "discipline": "hse",
   "doc_type": "report",
   "id": "ALP-EPC-00000-HS-PLN-0004",
@@ -20,7 +21,7 @@
   "originator": "EPC",
   "sheets": 1,
   "status": "planned",
-  "title": "Waste management plan (construction and operation)",
+  "title": "Waste Management Plan",
   "type_code": "PLN",
   "weight": 80.0
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.890310Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:38:15.695307Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.600228Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 3,
   "status": "planned",
   "system": "00GMA",
-  "title": "P&ID - Process drains and waste water collection",
+  "title": "Process Drains and Waste Water Collection - P&ID",
   "type_code": "PID",
   "weight": 320
 }

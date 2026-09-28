@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.008376Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.864737Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.289647Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
     "requirement:ER-12.02"
   ],
+  "description": "HMI graphics",
   "discipline": "i_and_c",
   "doc_type": "diagram",
   "id": "ALP-EPC-00PGA-IC-HMI-0001",
@@ -22,7 +23,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00PGA",
-  "title": "Operator displays (HMI graphics) - Closed cooling water",
+  "title": "Closed Cooling Water - Operator Displays",
   "type_code": "HMI",
   "weight": 56
 }

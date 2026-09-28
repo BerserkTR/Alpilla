@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.590546Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.288612Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.838061Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00QCA",
-  "title": "Supplier inspection and test plan - Chemical dosing skid",
+  "title": "Chemical Dosing Skid - Supplier Inspection and Test Plan",
   "type_code": "ITP",
   "weight": 6
 }

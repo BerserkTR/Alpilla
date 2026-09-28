@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.994775Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.644208Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.429690Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -28,7 +28,7 @@
   "status": "planned",
   "system": "00EGA",
   "tender": true,
-  "title": "Datasheet - LDO unloading: package",
+  "title": "LDO Unloading: Package - Datasheet",
   "type_code": "DSH",
   "weight": 16.0
 }

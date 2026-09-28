@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.955204Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.481433Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.480383Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00SGA",
-  "title": "Inspection and test plan - Fire pumps and fire protection systems",
+  "title": "Fire Pumps and Fire Protection Systems - Inspection and Test Plan",
   "type_code": "ITP",
   "weight": 16.0
 }

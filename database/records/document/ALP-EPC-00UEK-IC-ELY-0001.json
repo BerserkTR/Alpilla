@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.041198Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.427228Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.350316Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00UEK",
-  "title": "Instrument location and I&C cable routing - Fuel gas station",
+  "title": "Fuel Gas Station - Instrument Location and I&C Cable Routing",
   "type_code": "ELY",
   "weight": 64
 }

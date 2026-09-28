@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.028129Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:28:46.281966Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.562827Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 17,
   "status": "planned",
   "system": "00UPC",
-  "title": "Piping general arrangement - CW pump house and onshore CW",
+  "title": "CW Pump House and Onshore CW - Piping General Arrangement",
   "type_code": "PPL",
   "weight": 1530
 }

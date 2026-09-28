@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T18:00:25.788086Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T18:15:11.472644Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.137028Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -20,7 +20,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "10MBV",
-  "title": "System turnover dossier - GT lube oil system",
+  "title": "GT Lube Oil System - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

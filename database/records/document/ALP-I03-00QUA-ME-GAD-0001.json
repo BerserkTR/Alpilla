@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.518999Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.567649Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.778724Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -28,7 +28,7 @@
   "sheets": 3,
   "status": "planned",
   "system": "00QUA",
-  "title": "Supplier GA drawings - Steam/water analysis system",
+  "title": "Steam/Water Analysis System - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 8.5
 }

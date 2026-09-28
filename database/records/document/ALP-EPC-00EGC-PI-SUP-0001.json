@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.180250Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.986773Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.572990Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 30,
   "status": "planned",
   "system": "00EGC",
-  "title": "Pipe support drawings - LDO forwarding and treatment",
+  "title": "LDO Forwarding and Treatment - Pipe Support Drawings",
   "type_code": "SUP",
   "weight": 180
 }

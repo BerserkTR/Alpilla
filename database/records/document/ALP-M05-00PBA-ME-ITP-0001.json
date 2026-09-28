@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.587083Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.284574Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.835879Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00PBA",
-  "title": "Supplier inspection and test plan - Electro-chlorination package",
+  "title": "Electro-Chlorination Package - Supplier Inspection and Test Plan",
   "type_code": "ITP",
   "weight": 6
 }

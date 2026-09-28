@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.852621Z",
     "created_by": "EPCE",
-    "rev": 10,
-    "updated_at": "2026-09-28T17:37:42.262279Z",
+    "rev": 11,
+    "updated_at": "2026-09-28T18:38:48.777098Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -15,6 +15,7 @@
     "tie_in:IF-35"
   ],
   "cwa": "CWA-01",
+  "description": "IEC",
   "discipline": "electrical",
   "doc_type": "drawing",
   "equipment": [
@@ -40,7 +41,7 @@
   "systems": [
     "20BAT"
   ],
-  "title": "Generator step-up transformers - GA, installation and maintenance",
+  "title": "Generator Step-Up Transformers - Supplier GA Drawings",
   "type_code": "GAD",
   "vendor_ref": "IEC-ALP-GA-104",
   "weight": 7.0

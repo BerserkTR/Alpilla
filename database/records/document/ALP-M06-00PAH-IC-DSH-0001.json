@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.539174Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:16:43.014706Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.794979Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -29,7 +29,7 @@
   "sheets": 10,
   "status": "planned",
   "system": "00PAH",
-  "title": "Supplier instrument list and datasheets - Condenser tube cleaning system",
+  "title": "Condenser Tube Cleaning System - Supplier Instrument List and Datasheets",
   "type_code": "DSH",
   "weight": 6.0
 }

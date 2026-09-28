@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.823161Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.563136Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:40:08.968360Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -15,7 +15,7 @@
   "id": "ALP-EPC-00000-GE-PRC-0002",
   "originator": "EPC",
   "status": "planned",
-  "title": "Document numbering and document control procedure",
+  "title": "Document Numbering and Document Control Procedure",
   "type_code": "PRC",
   "weight": 80.0
 }

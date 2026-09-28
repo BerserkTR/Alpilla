@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:05:18.209966Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:03:25.012589Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.956384Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "tender": true,
-  "title": "Construction power load list",
+  "title": "Construction Power Load List",
   "type_code": "LST",
   "weight": 24.0
 }

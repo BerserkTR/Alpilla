@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.417147Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.135940Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.724369Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "marine structures, buried piping and tanks",
   "discipline": "mechanical",
   "doc_type": "procedure",
   "id": "ALP-E10-00BXA-ME-PRC-0001",
@@ -22,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00BXA",
-  "title": "Supplier installation and erection manual - Cathodic protection (marine structures, buried piping and tanks)",
+  "title": "Cathodic Protection - Supplier Installation and Erection Manual",
   "type_code": "PRC",
   "weight": 6
 }

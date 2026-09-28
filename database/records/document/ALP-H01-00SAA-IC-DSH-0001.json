@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.534592Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:16:43.011677Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.791339Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -48,7 +48,7 @@
   "sheets": 75,
   "status": "planned",
   "system": "00SAA",
-  "title": "Supplier instrument list and datasheets - HVAC plant and equipment",
+  "title": "HVAC Plant and Equipment - Supplier Instrument List and Datasheets",
   "type_code": "DSH",
   "weight": 19.0
 }

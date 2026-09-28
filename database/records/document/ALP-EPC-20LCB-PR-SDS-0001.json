@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.872863Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:04:05.582183Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.635065Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -26,7 +26,7 @@
   "status": "planned",
   "system": "20LCB",
   "tender": true,
-  "title": "System design description - Condensate extraction pumps",
+  "title": "Condensate Extraction Pumps - System Design Description",
   "type_code": "SDS",
   "weight": 80
 }

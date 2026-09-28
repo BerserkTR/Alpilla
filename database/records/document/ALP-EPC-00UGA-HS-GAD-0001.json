@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:19:40.054290Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:38:15.625001Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.210631Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -26,7 +26,7 @@
   "sheets": 3,
   "status": "planned",
   "system": "00UGA",
-  "title": "Fire fighting, escape route and safety signage layouts - Water treatment building and basins",
+  "title": "Water Treatment Building and Basins - Fire Fighting, Escape Route and Safety Signage Layouts",
   "type_code": "GAD",
   "weight": 36
 }

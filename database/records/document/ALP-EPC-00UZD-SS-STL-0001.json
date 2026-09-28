@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.327775Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:18:36.258566Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.671190Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 40,
   "status": "planned",
   "system": "00UZD",
-  "title": "Steel structure drawings - Pipe racks and pipe sleepers",
+  "title": "Pipe Racks and Pipe Sleepers - Steel Structure Drawings",
   "type_code": "STL",
   "weight": 1400
 }

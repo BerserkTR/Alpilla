@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.992477Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:57.976441Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.228325Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10LBB",
-  "title": "Cause and effect matrix - Hot reheat piping",
+  "title": "Hot Reheat Piping - Cause and Effect Matrix",
   "type_code": "CEM",
   "weight": 28
 }

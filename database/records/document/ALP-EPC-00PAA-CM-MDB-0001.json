@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.921284Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:15:11.454596Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.119957Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "00PAA",
-  "title": "System turnover dossier - CW intake, screens and outfall",
+  "title": "CW Intake, Screens and Outfall - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

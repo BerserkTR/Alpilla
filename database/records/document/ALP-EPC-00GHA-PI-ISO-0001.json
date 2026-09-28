@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.927213Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.523015Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.545954Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 50,
   "status": "planned",
   "system": "00GHA",
-  "title": "Isometric drawings - Demineralised water storage and distribution",
+  "title": "Demineralised Water Storage and Distribution - Isometric Drawings",
   "type_code": "ISO",
   "weight": 500
 }

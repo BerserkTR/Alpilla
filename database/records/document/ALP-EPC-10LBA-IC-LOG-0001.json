@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.067901Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:58.044017Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.387641Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -23,7 +23,7 @@
   "sheets": 8,
   "status": "planned",
   "system": "10LBA",
-  "title": "Logic diagrams - Main steam piping",
+  "title": "Main Steam Piping - Logic Diagrams",
   "type_code": "LOG",
   "weight": 80
 }

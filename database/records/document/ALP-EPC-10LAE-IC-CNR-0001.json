@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.864704Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.419288Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.258230Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10LAE",
-  "title": "Control narrative - HP attemperation spray water",
+  "title": "HP Attemperation Spray Water - Control Narrative",
   "type_code": "CNR",
   "weight": 60.0
 }

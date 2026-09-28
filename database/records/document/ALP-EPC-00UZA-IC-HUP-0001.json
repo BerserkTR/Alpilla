@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.021795Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:19:40.062047Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.312016Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00UZA",
-  "title": "Instrument hook-up drawings - Site-wide infrastructure",
+  "title": "Site-Wide Infrastructure - Instrument Hook-Up Drawings",
   "type_code": "HUP",
   "weight": 16
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.186314Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.989732Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.576099Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 15,
   "status": "planned",
   "system": "00GNA",
-  "title": "Pipe support drawings - Waste water treatment",
+  "title": "Waste Water Treatment - Pipe Support Drawings",
   "type_code": "SUP",
   "weight": 90
 }

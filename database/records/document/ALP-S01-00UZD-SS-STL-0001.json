@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.314286Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:18:36.256133Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.663361Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -27,7 +27,7 @@
   "sheets": 80,
   "status": "planned",
   "system": "00UZD",
-  "title": "Steel fabrication and erection drawings - Pipe racks and pipe sleepers - part 1 of 2",
+  "title": "Pipe Racks and Pipe Sleepers - Steel Fabrication and Erection Drawings, Part 1 of 2",
   "type_code": "STL",
   "weight": 40.0
 }

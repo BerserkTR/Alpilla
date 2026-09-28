@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.105266Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.948462Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.473501Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "IEC 61511",
   "discipline": "general",
   "doc_type": "procedure",
   "id": "ALP-EPC-00CJG-GE-ITP-0001",
@@ -22,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00CJG",
-  "title": "Inspection and test plan - BOP safety instrumented system (IEC 61511)",
+  "title": "BOP Safety Instrumented System - Inspection and Test Plan",
   "type_code": "ITP",
   "weight": 16
 }

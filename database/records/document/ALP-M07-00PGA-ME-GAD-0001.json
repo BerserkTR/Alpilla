@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.525409Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.575231Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.782826Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -33,7 +33,7 @@
   "sheets": 8,
   "status": "planned",
   "system": "00PGA",
-  "title": "Supplier GA drawings - Closed cooling water heat exchangers, pumps, tank",
+  "title": "Closed Cooling Water Heat Exchangers, Pumps, Tank - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 16.0
 }

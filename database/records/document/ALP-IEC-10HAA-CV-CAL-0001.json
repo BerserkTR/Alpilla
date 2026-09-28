@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.853279Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:37:42.258359Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.758447Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC",
   "discipline": "civil",
   "doc_type": "calculation",
   "id": "ALP-IEC-10HAA-CV-CAL-0001",
@@ -23,7 +24,7 @@
   "sheets": 10,
   "status": "planned",
   "system": "10HAA",
-  "title": "Foundation load data and anchor bolt drawings - HRSG",
+  "title": "HRSG incl. SCR - Supplier Foundation Loads and Anchor Bolt Drawings",
   "type_code": "CAL",
   "vendor_ref": "IEC-ALP-FL-102",
   "weight": 14

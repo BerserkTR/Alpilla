@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.996950Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:16:42.946781Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.268041Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -26,7 +26,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00SGY",
-  "title": "Datasheet - Fire detection and alarm: control system",
+  "title": "Fire Detection and Alarm: Control System - Datasheet",
   "type_code": "DSH",
   "weight": 16
 }

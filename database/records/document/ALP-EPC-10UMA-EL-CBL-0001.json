@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.016749Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.389531Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.182195Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "sheets": 65,
   "status": "planned",
   "system": "10UMA",
-  "title": "Cable schedule and routing - Power block - GT and HRSG",
+  "title": "Power Block - GT and HRSG - Cable Schedule and Routing",
   "type_code": "CBL",
   "weight": 150
 }

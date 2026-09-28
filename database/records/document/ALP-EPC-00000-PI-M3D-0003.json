@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.833741Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.576984Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.988236Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -55,7 +55,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "90 % 3D model review report",
+  "title": "90 % 3D Model Review Report",
   "type_code": "M3D",
   "weight": 80.0
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.900306Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:21:20.266561Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:39.949040Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -24,6 +24,6 @@
   ],
   "scope": "mr",
   "status": "agreed",
-  "title": "Technical specification - {name}",
+  "title": "{name} - Technical Specification",
   "type_code": "SPC"
 }

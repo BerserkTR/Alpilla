@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.259142Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.032429Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.640109Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -24,7 +24,7 @@
   "rule": "DL-S-MOS|MR-CV-001|3",
   "sheets": 1,
   "status": "planned",
-  "title": "Subcontractor method statements - Piling works - part 3 of 6",
+  "title": "Piling Works - Subcontractor Method Statements, Part 3 of 6",
   "type_code": "MOS",
   "weight": 8
 }

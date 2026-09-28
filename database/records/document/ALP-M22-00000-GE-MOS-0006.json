@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.285436Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.045725Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.650817Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-14.05"
   ],
+  "description": "subcontract",
   "discipline": "general",
   "doc_type": "procedure",
   "id": "ALP-M22-00000-GE-MOS-0006",
@@ -24,7 +25,7 @@
   "rule": "DL-S-MOS|MR-ME-022|6",
   "sheets": 1,
   "status": "planned",
-  "title": "Subcontractor method statements - Painting and insulation (subcontract) - part 6 of 6",
+  "title": "Painting and Insulation - Subcontractor Method Statements, Part 6 of 6",
   "type_code": "MOS",
   "weight": 8
 }

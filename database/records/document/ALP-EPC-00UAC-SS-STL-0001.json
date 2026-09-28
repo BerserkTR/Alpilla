@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.026188Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.583153Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.664978Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,6 +11,7 @@
     "requirement:ER-13.02"
   ],
   "cwa": "CWA-04",
+  "description": "concrete / steel",
   "discipline": "structural",
   "doc_type": "drawing",
   "ewp": "EWP-04-SS-01",
@@ -25,7 +26,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00UAC",
-  "title": "Structural drawings (concrete / steel) - GIS building",
+  "title": "GIS Building - Structural Drawings",
   "type_code": "STL",
   "weight": 140
 }

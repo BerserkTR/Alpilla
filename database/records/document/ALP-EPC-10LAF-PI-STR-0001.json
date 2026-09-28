@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.176931Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:58.101336Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.569839Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10LAF",
-  "title": "Pipe stress analysis - Reheat attemperation spray water",
+  "title": "Reheat Attemperation Spray Water - Pipe Stress Analysis",
   "type_code": "STR",
   "weight": 80
 }

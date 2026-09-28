@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.600450Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.296279Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.845399Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "strainers, steam traps, expansion joints, sight glasses",
   "discipline": "mechanical",
   "doc_type": "procedure",
   "id": "ALP-P06-00000-ME-ITP-0001",
@@ -21,7 +22,7 @@
   "rule": "DL-V-ITP|MR-PI-006|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Supplier inspection and test plan - Piping specialty items (strainers, steam traps, expansion joints, sight glasses)",
+  "title": "Piping Specialty Items - Supplier Inspection and Test Plan",
   "type_code": "ITP",
   "weight": 6
 }

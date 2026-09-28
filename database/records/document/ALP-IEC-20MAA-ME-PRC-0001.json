@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.440555Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.253876Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.736106Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "procedure",
   "id": "ALP-IEC-20MAA-ME-PRC-0001",
@@ -20,7 +21,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "20MAA",
-  "title": "Supplier installation and erection manual - Steam turbine and condenser (IEC)",
+  "title": "Steam Turbine and Condenser - Supplier Installation and Erection Manual",
   "type_code": "PRC",
   "weight": 6
 }

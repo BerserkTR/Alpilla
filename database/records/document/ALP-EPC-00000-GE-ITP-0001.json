@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.103275Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:03:23.668557Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.471275Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "RMU, temporary distribution",
   "discipline": "general",
   "doc_type": "procedure",
   "id": "ALP-EPC-00000-GE-ITP-0001",
@@ -23,7 +24,7 @@
   "sheets": 1,
   "status": "planned",
   "tender": true,
-  "title": "Inspection and test plan - Construction power supply (RMU, temporary distribution)",
+  "title": "Construction Power Supply - Inspection and Test Plan",
   "type_code": "ITP",
   "weight": 16
 }

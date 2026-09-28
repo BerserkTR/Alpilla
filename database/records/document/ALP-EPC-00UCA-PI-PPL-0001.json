@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.169875Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:28:46.284592Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.565223Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 14,
   "status": "planned",
   "system": "00UCA",
-  "title": "Piping general arrangement - Control, administration and workshop buildings",
+  "title": "Control, Administration and Workshop Buildings - Piping General Arrangement",
   "type_code": "PPL",
   "weight": 1260
 }

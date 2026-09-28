@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.840608Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:38:15.622825Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.180297Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -21,7 +21,7 @@
   "sheets": 1,
   "status": "planned",
   "tender": true,
-  "title": "HVAC design criteria",
+  "title": "HVAC Design Criteria",
   "type_code": "DBR",
   "weight": 160
 }

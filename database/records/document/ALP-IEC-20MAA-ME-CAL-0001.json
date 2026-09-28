@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.354001Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.244031Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.685850Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "calculation",
   "id": "ALP-IEC-20MAA-ME-CAL-0001",
@@ -20,7 +21,7 @@
   "sheets": 16,
   "status": "planned",
   "system": "20MAA",
-  "title": "Supplier design calculations - Steam turbine and condenser (IEC)",
+  "title": "Steam Turbine and Condenser - Supplier Design Calculations",
   "type_code": "CAL",
   "weight": 20
 }

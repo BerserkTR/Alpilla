@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.853514Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:37:42.259119Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.758797Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC",
   "discipline": "civil",
   "doc_type": "calculation",
   "id": "ALP-IEC-20MAA-CV-CAL-0001",
@@ -27,7 +28,7 @@
     "20MKA",
     "20MAG"
   ],
-  "title": "Foundation load data - ST, generator and condenser",
+  "title": "Steam Turbine and Condenser - Supplier Foundation Loads and Anchor Bolt Drawings",
   "type_code": "CAL",
   "vendor_ref": "IEC-ALP-FL-103",
   "weight": 14

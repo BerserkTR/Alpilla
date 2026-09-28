@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.850763Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:12:57.892905Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.051406Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-16.01"
   ],
+  "description": "BOP",
   "discipline": "commissioning",
   "doc_type": "procedure",
   "id": "ALP-EPC-00CJG-CM-CMP-0001",
@@ -21,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00CJG",
-  "title": "System commissioning procedure - Safety instrumented systems (BOP)",
+  "title": "Safety Instrumented Systems - System Commissioning Procedure",
   "type_code": "CMP",
   "weight": 40
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.844723Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:38:31.523078Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:40:08.976971Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -11,6 +11,7 @@
     "requirement:ER-14.03",
     "requirement:ER-14.04"
   ],
+  "description": "near field and environmental",
   "discipline": "hse",
   "doc_type": "study",
   "id": "ALP-EPC-00000-HS-STU-0001",
@@ -21,7 +22,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Noise study (near field and environmental)",
+  "title": "Noise Study",
   "type_code": "STU",
   "weight": 160.0
 }

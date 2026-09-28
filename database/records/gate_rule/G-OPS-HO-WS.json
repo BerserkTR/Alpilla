@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:50:51.418647Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:12:41.504457Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:35.934446Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -15,6 +15,7 @@
     "condensate_feedwater",
     "steam_turbine"
   ],
+  "description": "water-steam cycle systems",
   "id": "G-OPS-HO-WS",
   "need": "activity:KD-040",
   "process": "operations",
@@ -24,5 +25,5 @@
   ],
   "scope": "system",
   "status": "agreed",
-  "title": "Handover of the system to operations"
+  "title": "Handover of the System to Operations"
 }

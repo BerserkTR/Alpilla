@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.887350Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.261982Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.943819Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -35,6 +35,6 @@
   "quantity": "q_loops",
   "scope": "system",
   "status": "agreed",
-  "title": "Control narrative - {name}",
+  "title": "{name} - Control Narrative",
   "type_code": "CNR"
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.936126Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:57.920032Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.149648Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 8,
   "status": "planned",
   "system": "20UMB",
-  "title": "Architectural drawings - Steam turbine hall",
+  "title": "Steam Turbine Hall - Architectural Drawings",
   "type_code": "ARC",
   "weight": 280
 }

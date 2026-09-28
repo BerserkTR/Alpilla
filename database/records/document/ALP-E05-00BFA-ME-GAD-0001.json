@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.514700Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.563121Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.775612Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -37,7 +37,7 @@
   "sheets": 15,
   "status": "planned",
   "system": "00BFA",
-  "title": "Supplier GA drawings - LV switchboards and MCCs",
+  "title": "LV Switchboards and MCCs - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 26.5
 }

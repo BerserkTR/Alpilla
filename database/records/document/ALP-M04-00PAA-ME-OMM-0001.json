@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.658649Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.337132Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.881249Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00PAA",
-  "title": "Supplier operation and maintenance manual - Travelling band screens and trash rakes",
+  "title": "Travelling Band Screens and Trash Rakes - Supplier Operation and Maintenance Manual",
   "type_code": "OMM",
   "weight": 12
 }

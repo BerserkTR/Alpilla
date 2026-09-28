@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.014411Z",
     "created_by": "EPCE",
-    "rev": 8,
-    "updated_at": "2026-09-28T17:12:57.938091Z",
+    "rev": 9,
+    "updated_at": "2026-09-28T18:38:48.168426Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -29,7 +29,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "10UHN",
-  "title": "Foundation and underground drawings - Stack foundation",
+  "title": "Stack Foundation - Foundation and Underground Drawings",
   "type_code": "FND",
   "weight": 100
 }

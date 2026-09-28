@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.057399Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:02:55.918804Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:39:27.486790Z",
     "updated_by": "EPCE"
   },
   "agreed_by": [
@@ -16,6 +16,7 @@
   "award_days": 20,
   "bid_days": 30,
   "cwps": [
+    "CWP-08-ME-01",
     "CWP-10-ME-01"
   ],
   "discipline": "mechanical",
@@ -25,7 +26,7 @@
   "status": "agreed",
   "supplier_code": "M17",
   "system": "00EGB",
-  "title": "LDO storage tanks (field-erected, API 650)",
+  "title": "Field-erected storage tanks (API 650): LDO storage and fire water",
   "transport_weeks": 2,
   "vdr_weeks": 6
 }

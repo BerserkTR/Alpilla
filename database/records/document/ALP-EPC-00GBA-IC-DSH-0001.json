@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.024834Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:57.992613Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.317513Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -23,7 +23,7 @@
   "sheets": 60,
   "status": "planned",
   "system": "00GBA",
-  "title": "Instrument datasheets - Seawater reverse osmosis",
+  "title": "Seawater Reverse Osmosis - Instrument Datasheets",
   "type_code": "DSH",
   "weight": 98.0
 }

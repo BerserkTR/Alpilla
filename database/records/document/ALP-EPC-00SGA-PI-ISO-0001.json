@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.928738Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:37:42.233139Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.552760Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -28,7 +28,7 @@
   "sheets": 150,
   "status": "planned",
   "system": "00SGA",
-  "title": "Isometric drawings - Fire water system",
+  "title": "Fire Water System - Isometric Drawings",
   "type_code": "ISO",
   "weight": 1500
 }

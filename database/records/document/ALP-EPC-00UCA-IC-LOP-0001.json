@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.050379Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.432691Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.400201Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 112,
   "status": "planned",
   "system": "00UCA",
-  "title": "Loop and connection diagrams - Control, administration and workshop buildings",
+  "title": "Control, Administration and Workshop Buildings - Loop and Connection Diagrams",
   "type_code": "LOP",
   "weight": 168.0
 }

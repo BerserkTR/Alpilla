@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.823718Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.561341Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.966338Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-01.09"
   ],
+  "description": "workflow, interfaces, timeline",
   "discipline": "general",
   "doc_type": "report",
   "id": "ALP-EPC-00000-GE-PLN-0001",
@@ -19,7 +20,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Engineering execution plan (workflow, interfaces, timeline)",
+  "title": "Engineering Execution Plan",
   "type_code": "PLN",
   "weight": 120.0
 }

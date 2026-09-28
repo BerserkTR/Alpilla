@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.911876Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:15:11.441455Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.108046Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "00BMA",
-  "title": "System turnover dossier - Emergency LV switchgear",
+  "title": "Emergency LV Switchgear - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.836872Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:38:15.623184Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.180736Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "tender": true,
-  "title": "I&C design criteria and control philosophy",
+  "title": "I&C Design Criteria and Control Philosophy",
   "type_code": "DBR",
   "weight": 160
 }

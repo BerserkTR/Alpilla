@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.933200Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:15:11.475917Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.141044Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "20LCA",
-  "title": "System turnover dossier - Main condensate piping",
+  "title": "Main Condensate Piping - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

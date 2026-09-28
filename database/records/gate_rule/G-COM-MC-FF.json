@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:50:51.416904Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:12:41.500881Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:35.931830Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -23,6 +23,7 @@
     "hrsg",
     "other"
   ],
+  "description": "fuel, GT and auxiliary systems; need: GT first fire KD-020 - 60 wd",
   "id": "G-COM-MC-FF",
   "need": "activity:KD-020",
   "offset_days": -60,
@@ -33,5 +34,5 @@
   ],
   "scope": "system",
   "status": "agreed",
-  "title": "Mechanical completion of the system (before KD-020)"
+  "title": "Mechanical Completion of the System before GT First Fire"
 }

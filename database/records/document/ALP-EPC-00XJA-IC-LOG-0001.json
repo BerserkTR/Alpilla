@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.064414Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.227018Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.381917Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -21,7 +21,7 @@
   "sheets": 11,
   "status": "planned",
   "system": "00XJA",
-  "title": "Logic diagrams - Emergency diesel generator",
+  "title": "Emergency Diesel Generator - Logic Diagrams",
   "type_code": "LOG",
   "weight": 104
 }

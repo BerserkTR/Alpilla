@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.107931Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.949800Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.486227Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "subcontract",
   "discipline": "general",
   "doc_type": "other",
   "id": "ALP-EPC-00000-GE-MRQ-0002",
@@ -21,7 +22,7 @@
   "rule": "DL-MR-MRQ|MR-EL-012|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Material requisition - Electrical and I&C installation (subcontract)",
+  "title": "Electrical and I&C Installation - Material Requisition",
   "type_code": "MRQ",
   "weight": 24
 }

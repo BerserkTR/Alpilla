@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.048531Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.378484Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.148692Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 10,
   "status": "planned",
   "system": "00USA",
-  "title": "Architectural drawings - Workshop and warehouse",
+  "title": "Workshop and Warehouse - Architectural Drawings",
   "type_code": "ARC",
   "weight": 350
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:20:01.064951Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:21:20.277003Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:39.957241Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -38,6 +38,6 @@
   "review": "review",
   "scope": "mr",
   "status": "agreed",
-  "title": "Supplier logic diagrams - {name}",
+  "title": "{name} - Supplier Logic Diagrams",
   "type_code": "LOG"
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.443587Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.155180Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.737959Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00XJA",
-  "title": "Factory acceptance test procedure - Emergency diesel generator",
+  "title": "Emergency Diesel Generator - Factory Acceptance Test Procedure",
   "type_code": "TST",
   "weight": 8
 }

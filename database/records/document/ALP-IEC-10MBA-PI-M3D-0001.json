@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.858018Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.779365Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:40:09.005256Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "for the plant model",
   "discipline": "piping",
   "doc_type": "model",
   "id": "ALP-IEC-10MBA-PI-M3D-0001",
@@ -20,7 +21,7 @@
     "20MAA",
     "10HAA"
   ],
-  "title": "Power island 3D model export (for the plant model)",
+  "title": "Power Island 3D Model Export",
   "type_code": "M3D",
   "vendor_ref": "IEC-ALP-M3D-101",
   "weight": 80.0

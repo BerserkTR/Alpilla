@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.869581Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.705376Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.610066Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -27,7 +27,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10LBD",
-  "title": "P&ID - LP steam piping",
+  "title": "LP Steam Piping - P&ID",
   "type_code": "PID",
   "weight": 120
 }

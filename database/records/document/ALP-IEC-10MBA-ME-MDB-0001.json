@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.628307Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.276313Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.868277Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -11,6 +11,7 @@
     "permit:PMT-016",
     "requirement:ER-15.04"
   ],
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "report",
   "id": "ALP-IEC-10MBA-ME-MDB-0001",
@@ -24,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10MBA",
-  "title": "Manufacturing record book and conformity certificates - Gas turbine package incl. auxiliaries (IEC)",
+  "title": "Gas Turbine Package incl. Auxiliaries - Manufacturing Record Book and Conformity Certificates",
   "type_code": "MDB",
   "weight": 6
 }

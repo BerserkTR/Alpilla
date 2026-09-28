@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.888420Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:38:11.776478Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:39.952059Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -36,6 +36,6 @@
   "quantity": "q_relief_valves",
   "scope": "system",
   "status": "agreed",
-  "title": "Safety / relief valve sizing and datasheets - {name}",
+  "title": "{name} - Safety / Relief Valve Sizing and Datasheets",
   "type_code": "DSH"
 }

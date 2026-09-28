@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.336318Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.242327Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.675191Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "calculation",
   "id": "ALP-IEC-10BAT-ME-CAL-0001",
@@ -20,7 +21,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10BAT",
-  "title": "Supplier design calculations - Generator step-up transformers (IEC)",
+  "title": "Generator Step-Up Transformers - Supplier Design Calculations",
   "type_code": "CAL",
   "weight": 5
 }

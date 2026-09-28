@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.893898Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.258619Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.939468Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -23,6 +23,6 @@
   "quantity": "q_cables",
   "scope": "plant",
   "status": "agreed",
-  "title": "Cable block diagrams",
+  "title": "Cable Block Diagrams",
   "type_code": "BLK"
 }

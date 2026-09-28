@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.169262Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:28:46.283506Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.564245Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 41,
   "status": "planned",
   "system": "00UQA",
-  "title": "Piping general arrangement - BOP utilities - part 3 of 3",
+  "title": "BOP Utilities - Piping General Arrangement, Part 3 of 3",
   "type_code": "PPL",
   "weight": 3690
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.849355Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:37:42.246612Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.695508Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -14,6 +14,7 @@
     "scope_item:SC-009",
     "source:SRC-EPCE-0003"
   ],
+  "description": "IEC",
   "discipline": "electrical",
   "doc_type": "datasheet",
   "equipment": [
@@ -53,7 +54,7 @@
     "20BAC",
     "10MKG"
   ],
-  "title": "Generators, GCB and isolated phase busduct datasheet",
+  "title": "Generators, Excitation, GCB and Busducts - Supplier Certified Datasheets and Performance Curves",
   "type_code": "DSH",
   "vendor_ref": "IEC-ALP-DS-102",
   "weight": 29

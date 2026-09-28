@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.932892Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:15:11.475589Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.140502Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "20BBT",
-  "title": "System turnover dossier - ST unit auxiliary transformer",
+  "title": "ST Unit Auxiliary Transformer - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

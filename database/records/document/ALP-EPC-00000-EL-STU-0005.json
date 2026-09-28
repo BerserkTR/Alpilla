@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.835501Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.559112Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.962063Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "380 kV",
   "discipline": "electrical",
   "doc_type": "study",
   "id": "ALP-EPC-00000-EL-STU-0005",
@@ -15,7 +16,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Insulation coordination study (380 kV)",
+  "title": "Insulation Coordination Study",
   "type_code": "STU",
   "weight": 160.0
 }

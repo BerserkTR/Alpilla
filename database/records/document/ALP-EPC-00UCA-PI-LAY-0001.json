@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.009393Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.541922Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.561033Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 12,
   "status": "planned",
   "system": "00UCA",
-  "title": "Equipment layout - Control, administration and workshop buildings",
+  "title": "Control, Administration and Workshop Buildings - Equipment Layout",
   "type_code": "LAY",
   "weight": 480
 }

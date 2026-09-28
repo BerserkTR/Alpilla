@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.856287Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:05:57.931793Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:09.006268Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -15,6 +15,7 @@
     "scope_item:SC-037",
     "tie_in:IF-40"
   ],
+  "description": "OPC UA, IEC 62443 zone",
   "discipline": "i_and_c",
   "doc_type": "diagram",
   "id": "ALP-IEC-10MBY-IC-BLK-0001",
@@ -27,7 +28,7 @@
   "systems": [
     "20MAY"
   ],
-  "title": "TCS architecture and DCS integration (OPC UA, IEC 62443 zone)",
+  "title": "TCS Architecture and DCS Integration",
   "type_code": "BLK",
   "vendor_ref": "IEC-ALP-IC-101",
   "weight": 40.0

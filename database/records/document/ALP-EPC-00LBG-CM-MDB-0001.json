@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.920540Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:15:11.453691Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.118808Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "00LBG",
-  "title": "System turnover dossier - Auxiliary steam",
+  "title": "Auxiliary Steam - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

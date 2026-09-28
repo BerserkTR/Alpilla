@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.884664Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.693765Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.598837Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 3,
   "status": "planned",
   "system": "00GBA",
-  "title": "P&ID - Seawater reverse osmosis",
+  "title": "Seawater Reverse Osmosis - P&ID",
   "type_code": "PID",
   "weight": 320
 }

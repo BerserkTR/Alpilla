@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.597235Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.294176Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.842870Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "carbon steel, stainless",
   "discipline": "mechanical",
   "doc_type": "procedure",
   "id": "ALP-P01-00000-ME-ITP-0001",
@@ -21,7 +22,7 @@
   "rule": "DL-V-ITP|MR-PI-001|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Supplier inspection and test plan - Piping bulk materials (carbon steel, stainless)",
+  "title": "Piping Bulk Materials - Supplier Inspection and Test Plan",
   "type_code": "ITP",
   "weight": 6
 }

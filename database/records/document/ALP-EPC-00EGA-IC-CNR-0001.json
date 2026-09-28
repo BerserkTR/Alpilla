@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.881026Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.407730Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.230803Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00EGA",
-  "title": "Control narrative - LDO unloading",
+  "title": "LDO Unloading - Control Narrative",
   "type_code": "CNR",
   "weight": 60.0
 }

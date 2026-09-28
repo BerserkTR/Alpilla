@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.199862Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.997876Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.582486Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,6 +11,7 @@
     "requirement:ER-13.03"
   ],
   "cwa": "CWA-01",
+  "description": "EPC tanks and headers",
   "discipline": "piping",
   "doc_type": "drawing",
   "ewp": "EWP-01-PI-01",
@@ -25,7 +26,7 @@
   "sheets": 20,
   "status": "planned",
   "system": "10HAN",
-  "title": "Pipe support drawings - HRSG blowdown and drains (EPC tanks and headers)",
+  "title": "HRSG Blowdown and Drains - Pipe Support Drawings",
   "type_code": "SUP",
   "weight": 120
 }

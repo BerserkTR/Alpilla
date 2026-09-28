@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:50:51.413636Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:12:41.506804Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:35.936344Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -25,5 +25,5 @@
   ],
   "scope": "mr",
   "status": "agreed",
-  "title": "Release for shipment"
+  "title": "Release for Shipment"
 }

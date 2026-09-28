@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.922332Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:15:11.455996Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.121237Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "00PAH",
-  "title": "System turnover dossier - Condenser tube cleaning",
+  "title": "Condenser Tube Cleaning - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

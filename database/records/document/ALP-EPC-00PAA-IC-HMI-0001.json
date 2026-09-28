@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.006440Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.862660Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.286129Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
     "requirement:ER-12.02"
   ],
+  "description": "HMI graphics",
   "discipline": "i_and_c",
   "doc_type": "diagram",
   "id": "ALP-EPC-00PAA-IC-HMI-0001",
@@ -22,7 +23,7 @@
   "sheets": 3,
   "status": "planned",
   "system": "00PAA",
-  "title": "Operator displays (HMI graphics) - CW intake, screens and outfall",
+  "title": "CW Intake, Screens and Outfall - Operator Displays",
   "type_code": "HMI",
   "weight": 44
 }

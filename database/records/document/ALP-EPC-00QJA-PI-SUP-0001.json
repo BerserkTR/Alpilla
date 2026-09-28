@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.195255Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.239625Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.580421Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 10,
   "status": "planned",
   "system": "00QJA",
-  "title": "Pipe support drawings - Nitrogen supply",
+  "title": "Nitrogen Supply - Pipe Support Drawings",
   "type_code": "SUP",
   "weight": 60
 }

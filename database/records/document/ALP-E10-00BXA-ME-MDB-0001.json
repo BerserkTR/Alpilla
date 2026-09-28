@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.607654Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.302099Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.853857Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -11,6 +11,7 @@
     "permit:PMT-016",
     "requirement:ER-15.04"
   ],
+  "description": "marine structures, buried piping and tanks",
   "discipline": "mechanical",
   "doc_type": "report",
   "id": "ALP-E10-00BXA-ME-MDB-0001",
@@ -26,7 +27,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00BXA",
-  "title": "Manufacturing record book and conformity certificates - Cathodic protection (marine structures, buried piping and tanks)",
+  "title": "Cathodic Protection - Manufacturing Record Book and Conformity Certificates",
   "type_code": "MDB",
   "weight": 6
 }

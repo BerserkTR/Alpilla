@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.027608Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:12:57.936230Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.166038Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -26,7 +26,7 @@
   "sheets": 8,
   "status": "planned",
   "system": "00UPC",
-  "title": "Foundation and underground drawings - CW pump house",
+  "title": "CW Pump House - Foundation and Underground Drawings",
   "type_code": "FND",
   "weight": 400
 }

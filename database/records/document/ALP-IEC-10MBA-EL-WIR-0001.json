@@ -2,12 +2,13 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.410333Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.250179Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.720876Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "cwa": "CWA-01",
+  "description": "IEC",
   "discipline": "electrical",
   "doc_type": "diagram",
   "ewp": "EWP-01-ME-01",
@@ -22,7 +23,7 @@
   "sheets": 49,
   "status": "planned",
   "system": "10MBA",
-  "title": "Supplier electrical schematics and wiring diagrams - Gas turbine package incl. auxiliaries (IEC) - part 1 of 2",
+  "title": "Gas Turbine Package incl. Auxiliaries - Supplier Electrical Schematics and Wiring Diagrams, Part 1 of 2",
   "type_code": "WIR",
   "weight": 28.5
 }

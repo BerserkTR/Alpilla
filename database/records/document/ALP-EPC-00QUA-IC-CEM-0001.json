@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.988752Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:57.972995Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.224121Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -22,7 +22,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00QUA",
-  "title": "Cause and effect matrix - Sampling and SWAS",
+  "title": "Sampling and SWAS - Cause and Effect Matrix",
   "type_code": "CEM",
   "weight": 40
 }

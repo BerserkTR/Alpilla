@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.850042Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:37:42.248227Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.707717Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -15,6 +15,7 @@
     "scope_item:SC-010",
     "source:SRC-IECE-0007"
   ],
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
@@ -41,7 +42,7 @@
     "10HNA",
     "10HSA"
   ],
-  "title": "HRSG IE-HR3 datasheet",
+  "title": "HRSG incl. SCR - Supplier Certified Datasheets and Performance Curves",
   "type_code": "DSH",
   "vendor_ref": "IEC-ALP-DS-104",
   "weight": 54

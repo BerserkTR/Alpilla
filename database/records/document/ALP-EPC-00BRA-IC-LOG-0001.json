@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.047166Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.225558Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.363051Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -21,7 +21,7 @@
   "sheets": 30,
   "status": "planned",
   "system": "00BRA",
-  "title": "Logic diagrams - UPS",
+  "title": "UPS - Logic Diagrams",
   "type_code": "LOG",
   "weight": 256
 }

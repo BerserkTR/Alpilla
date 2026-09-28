@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.903850Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.276668Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.956998Z",
     "updated_by": "EPCE"
   },
   "discipline": "mechanical",
@@ -23,6 +23,6 @@
   "review": "approval",
   "scope": "mr",
   "status": "agreed",
-  "title": "Supplier inspection and test plan - {name}",
+  "title": "{name} - Supplier Inspection and Test Plan",
   "type_code": "ITP"
 }

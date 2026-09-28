@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:57.712083Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.273700Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.954307Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -28,6 +28,6 @@
   "review": "approval",
   "scope": "mr",
   "status": "agreed",
-  "title": "Supplier commissioning procedures - {name}",
+  "title": "{name} - Supplier Commissioning Procedures",
   "type_code": "CMP"
 }

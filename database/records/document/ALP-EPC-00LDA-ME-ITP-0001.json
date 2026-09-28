@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.944330Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.478744Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.478105Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "SWRO, demin, condensate polishing",
   "discipline": "mechanical",
   "doc_type": "procedure",
   "id": "ALP-EPC-00LDA-ME-ITP-0001",
@@ -22,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00LDA",
-  "title": "Inspection and test plan - Water treatment package (SWRO, demin, condensate polishing)",
+  "title": "Water Treatment Package - Inspection and Test Plan",
   "type_code": "ITP",
   "weight": 16.0
 }

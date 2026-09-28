@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.117363Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:38:15.679826Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.506269Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "subcontract",
   "discipline": "general",
   "doc_type": "specification",
   "id": "ALP-EPC-00000-GE-SPC-0002",
@@ -21,7 +22,7 @@
   "rule": "DL-MR-SPC|MR-EL-012|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Technical specification - Electrical and I&C installation (subcontract)",
+  "title": "Electrical and I&C Installation - Technical Specification",
   "type_code": "SPC",
   "weight": 80
 }

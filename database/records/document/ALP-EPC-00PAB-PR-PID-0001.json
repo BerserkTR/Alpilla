@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.900334Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.697327Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.602247Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -26,7 +26,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00PAB",
-  "title": "P&ID - CW piping",
+  "title": "CW Piping - P&ID",
   "type_code": "PID",
   "weight": 220
 }

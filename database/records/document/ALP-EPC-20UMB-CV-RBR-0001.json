@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.955823Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.819018Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.178145Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -23,7 +23,7 @@
   "sheets": 36,
   "status": "planned",
   "system": "20UMB",
-  "title": "Reinforcement drawings - Steam turbine hall",
+  "title": "Steam Turbine Hall - Reinforcement Drawings",
   "type_code": "RBR",
   "weight": 1260
 }

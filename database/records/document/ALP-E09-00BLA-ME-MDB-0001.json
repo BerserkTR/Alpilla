@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.607072Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.301575Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.853455Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -26,7 +26,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00BLA",
-  "title": "Manufacturing record book and conformity certificates - Cable trays, earthing and lighting materials",
+  "title": "Cable Trays, Earthing and Lighting Materials - Manufacturing Record Book and Conformity Certificates",
   "type_code": "MDB",
   "weight": 6
 }

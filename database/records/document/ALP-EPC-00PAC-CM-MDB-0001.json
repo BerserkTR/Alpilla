@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.921993Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:15:11.455519Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.120806Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "00PAC",
-  "title": "System turnover dossier - CW pumps",
+  "title": "CW Pumps - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

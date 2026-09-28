@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.016358Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.398073Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.199778Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,6 +11,7 @@
     "requirement:ER-11.07"
   ],
   "cwa": "CWA-01",
+  "description": "equipment, trays, earthing, lighting",
   "discipline": "electrical",
   "doc_type": "drawing",
   "ewp": "EWP-01-EL-01",
@@ -25,7 +26,7 @@
   "sheets": 33,
   "status": "planned",
   "system": "10UMA",
-  "title": "Electrical layouts (equipment, trays, earthing, lighting) - Power block - GT and HRSG",
+  "title": "Power Block - GT and HRSG - Electrical Layouts",
   "type_code": "ELY",
   "weight": 990
 }

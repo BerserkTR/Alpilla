@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.875886Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:05:57.906385Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.218569Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -27,7 +27,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00CKA",
-  "title": "System architecture - Historian, performance monitoring and operator training simulator",
+  "title": "Historian, Performance Monitoring and Operator Training Simulator - System Architecture",
   "type_code": "BLK",
   "weight": 40.0
 }

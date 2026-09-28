@@ -2,13 +2,14 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.898741Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.272485Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.953327Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
     "requirement:ER-13.02"
   ],
+  "description": "concrete / steel",
   "discipline": "structural",
   "ewp_disc": "SS",
   "hours_per_sheet": 35,
@@ -30,6 +31,6 @@
     "00USA",
     "00UYA"
   ],
-  "title": "Structural drawings (concrete / steel) - {name}",
+  "title": "{name} - Structural Drawings",
   "type_code": "STL"
 }

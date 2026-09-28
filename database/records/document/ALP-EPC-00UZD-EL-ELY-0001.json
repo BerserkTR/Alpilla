@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.968093Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:37:42.220584Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.197458Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 5,
   "status": "planned",
   "system": "00UZD",
-  "title": "Earthing and lightning protection layouts - Pipe racks and pipe sleepers",
+  "title": "Pipe Racks and Pipe Sleepers - Earthing and Lightning Protection Layouts",
   "type_code": "ELY",
   "weight": 100
 }

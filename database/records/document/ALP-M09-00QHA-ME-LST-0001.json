@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.700725Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.366461Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.907390Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00QHA",
-  "title": "Spare parts and special tools lists - Auxiliary boiler",
+  "title": "Auxiliary Boiler - Spare Parts and Special Tools Lists",
   "type_code": "LST",
   "weight": 6
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.910771Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:15:11.437700Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.106614Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "00BFA",
-  "title": "System turnover dossier - LV switchgear 0.4 kV",
+  "title": "LV Switchgear 0.4 kV - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

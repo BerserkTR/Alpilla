@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T18:00:25.789039Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T18:15:11.473123Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.137408Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-16.01"
   ],
+  "description": "TCS",
   "discipline": "commissioning",
   "doc_type": "report",
   "id": "ALP-EPC-10MBY-CM-MDB-0001",
@@ -20,7 +21,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "10MBY",
-  "title": "System turnover dossier - GT control and protection (TCS)",
+  "title": "GT Control and Protection - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.134869Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:00:25.808167Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.527014Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "marine structures, buried piping and tanks",
   "discipline": "general",
   "doc_type": "report",
   "id": "ALP-EPC-00BXA-GE-RPT-0001",
@@ -24,7 +25,7 @@
   "start_after": "bids",
   "status": "planned",
   "system": "00BXA",
-  "title": "Technical bid evaluation - Cathodic protection (marine structures, buried piping and tanks)",
+  "title": "Cathodic Protection - Technical Bid Evaluation",
   "type_code": "RPT",
   "weight": 40
 }

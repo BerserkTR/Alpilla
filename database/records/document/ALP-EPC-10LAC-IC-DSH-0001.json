@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.036293Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:58.006619Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.338093Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -23,7 +23,7 @@
   "sheets": 70,
   "status": "planned",
   "system": "10LAC",
-  "title": "Instrument datasheets - Boiler feed pumps",
+  "title": "Boiler Feed Pumps - Instrument Datasheets",
   "type_code": "DSH",
   "weight": 113.0
 }

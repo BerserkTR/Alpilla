@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:17:56.531418Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:38:15.654231Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.446889Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -27,7 +27,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00GMA",
-  "title": "Datasheet - Process drains and waste water collection: tank",
+  "title": "Process Drains and Waste Water Collection: Tank - Datasheet",
   "type_code": "DSH",
   "weight": 16
 }

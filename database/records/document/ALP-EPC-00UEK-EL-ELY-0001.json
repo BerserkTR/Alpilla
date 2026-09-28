@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.039739Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.400878Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.202565Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,6 +11,7 @@
     "requirement:ER-11.07"
   ],
   "cwa": "CWA-09",
+  "description": "equipment, trays, earthing, lighting",
   "discipline": "electrical",
   "doc_type": "drawing",
   "ewp": "EWP-09-EL-01",
@@ -25,7 +26,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00UEK",
-  "title": "Electrical layouts (equipment, trays, earthing, lighting) - Fuel gas station",
+  "title": "Fuel Gas Station - Electrical Layouts",
   "type_code": "ELY",
   "weight": 120
 }

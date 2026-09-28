@@ -2,12 +2,13 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.396603Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.249827Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.713870Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "cwa": "CWA-01",
+  "description": "IEC",
   "discipline": "electrical",
   "doc_type": "diagram",
   "ewp": "EWP-01-IC-01",
@@ -22,7 +23,7 @@
   "sheets": 28,
   "status": "planned",
   "system": "10MBY",
-  "title": "Supplier electrical schematics and wiring diagrams - Turbine control system (IEC)",
+  "title": "Turbine Control System - Supplier Electrical Schematics and Wiring Diagrams",
   "type_code": "WIR",
   "weight": 18.0
 }

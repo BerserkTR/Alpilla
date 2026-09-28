@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.041475Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:19:40.062494Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.352633Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00UZA",
-  "title": "Instrument location and I&C cable routing - Site-wide infrastructure",
+  "title": "Site-Wide Infrastructure - Instrument Location and I&C Cable Routing",
   "type_code": "ELY",
   "weight": 16
 }

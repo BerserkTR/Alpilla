@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:05:18.199944Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:05:19.084282Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:40:08.945752Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -19,7 +19,7 @@
   "originator": "EPC",
   "sheets": 1,
   "status": "planned",
-  "title": "Punch list and completion procedure",
+  "title": "Punch List and Completion Procedure",
   "type_code": "PRC",
   "weight": 40.0
 }

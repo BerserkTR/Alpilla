@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.069381Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.228183Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.390071Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -21,7 +21,7 @@
   "sheets": 8,
   "status": "planned",
   "system": "20BBT",
-  "title": "Logic diagrams - ST unit auxiliary transformer",
+  "title": "ST Unit Auxiliary Transformer - Logic Diagrams",
   "type_code": "LOG",
   "weight": 80
 }

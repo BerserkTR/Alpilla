@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.073772Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:38:15.645624Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.432488Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-10.01"
   ],
+  "description": "3 items",
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
@@ -29,7 +30,7 @@
   "sheets": 3,
   "status": "planned",
   "system": "00EGC",
-  "title": "Datasheet - LDO forwarding and treatment: filter (3 items)",
+  "title": "LDO Forwarding and Treatment: Filters - Datasheet",
   "type_code": "DSH",
   "weight": 36
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.892472Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.254701Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.932167Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -39,6 +39,6 @@
   ],
   "scope": "system",
   "status": "agreed",
-  "title": "System commissioning procedure - {name}",
+  "title": "{name} - System Commissioning Procedure",
   "type_code": "CMP"
 }

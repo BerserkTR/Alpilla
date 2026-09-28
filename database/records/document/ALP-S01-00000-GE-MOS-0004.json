@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.298491Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.051832Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.656518Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -24,7 +24,7 @@
   "rule": "DL-S-MOS|MR-SS-001|4",
   "sheets": 1,
   "status": "planned",
-  "title": "Subcontractor method statements - Structural steel supply and fabrication - part 4 of 6",
+  "title": "Structural Steel Supply and Fabrication - Subcontractor Method Statements, Part 4 of 6",
   "type_code": "MOS",
   "weight": 8
 }

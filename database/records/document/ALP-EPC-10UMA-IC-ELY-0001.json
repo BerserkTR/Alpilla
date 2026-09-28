@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.017670Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.424791Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.345413Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 11,
   "status": "planned",
   "system": "10UMA",
-  "title": "Instrument location and I&C cable routing - Power block - GT and HRSG",
+  "title": "Power Block - GT and HRSG - Instrument Location and I&C Cable Routing",
   "type_code": "ELY",
   "weight": 176
 }

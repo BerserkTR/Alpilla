@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.845499Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.567766Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.974544Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -18,7 +18,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "EIA conditions compliance matrix",
+  "title": "EIA Conditions Compliance Matrix",
   "type_code": "RPT",
   "weight": 60.0
 }

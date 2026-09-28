@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.015943Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.872725Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.302072Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
     "requirement:ER-12.02"
   ],
+  "description": "HMI graphics",
   "discipline": "i_and_c",
   "doc_type": "diagram",
   "id": "ALP-EPC-10LBC-IC-HMI-0001",
@@ -22,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10LBC",
-  "title": "Operator displays (HMI graphics) - Cold reheat piping",
+  "title": "Cold Reheat Piping - Operator Displays",
   "type_code": "HMI",
   "weight": 20
 }

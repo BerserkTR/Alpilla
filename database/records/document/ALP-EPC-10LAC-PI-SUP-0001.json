@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.201910Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.998907Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.583777Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 18,
   "status": "planned",
   "system": "10LAC",
-  "title": "Pipe support drawings - Boiler feed pumps",
+  "title": "Boiler Feed Pumps - Pipe Support Drawings",
   "type_code": "SUP",
   "weight": 108
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.307185Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:17:56.534981Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.660270Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -27,7 +27,7 @@
   "sheets": 8,
   "status": "planned",
   "system": "00UBF",
-  "title": "Steel fabrication and erection drawings - Transformer bays",
+  "title": "Transformer Bays - Steel Fabrication and Erection Drawings",
   "type_code": "STL",
   "weight": 4.0
 }

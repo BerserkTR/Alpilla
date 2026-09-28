@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.930485Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.533365Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.554410Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -28,7 +28,7 @@
   "sheets": 70,
   "status": "planned",
   "system": "10LAC",
-  "title": "Isometric drawings - Boiler feed pumps",
+  "title": "Boiler Feed Pumps - Isometric Drawings",
   "type_code": "ISO",
   "weight": 700
 }

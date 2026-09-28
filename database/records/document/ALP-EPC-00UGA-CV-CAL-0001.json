@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.938702Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:15:03.211781Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.152057Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00UGA",
-  "title": "Structural and foundation calculation - Water treatment building and basins",
+  "title": "Water Treatment Building and Basins - Structural and Foundation Calculation",
   "type_code": "CAL",
   "weight": 120
 }

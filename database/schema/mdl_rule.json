@@ -13,6 +13,10 @@
       "required": true,
       "description": "title template: {name} = scope title, {part} = part number"
     },
+    "description": {
+      "type": "text",
+      "description": "description copied to the documents (content, standards, language)"
+    },
     "type_code": {
       "type": "ref",
       "to": "doc_type",
@@ -151,7 +155,10 @@
     },
     "start_after": {
       "type": "enum",
-      "values": ["bids", "alap"],
+      "values": [
+        "bids",
+        "alap"
+      ],
       "description": "copied to the documents: bids = start after the bids of the MR are received (requisition IFC + bid_days); alap = as late as possible (latest start - 60 working days)"
     },
     "po_weeks_final": {

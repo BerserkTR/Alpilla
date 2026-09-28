@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.875406Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:05:57.905066Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.217913Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -28,7 +28,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00CJA",
-  "title": "System architecture - Plant DCS",
+  "title": "Plant DCS - System Architecture",
   "type_code": "BLK",
   "weight": 40.0
 }

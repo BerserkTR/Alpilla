@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.892019Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:21:20.262265Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:39.944218Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -27,6 +27,6 @@
   "supply": [
     "IEPC"
   ],
-  "title": "Datasheet - {name}",
+  "title": "{name} - Datasheet",
   "type_code": "DSH"
 }

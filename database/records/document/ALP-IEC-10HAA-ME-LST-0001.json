@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.707061Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.283678Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.916256Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-17.06"
   ],
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "list",
   "id": "ALP-IEC-10HAA-ME-LST-0001",
@@ -23,7 +24,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10HAA",
-  "title": "Spare parts and special tools lists - HRSG incl. SCR (IEC)",
+  "title": "HRSG incl. SCR - Spare Parts and Special Tools Lists",
   "type_code": "LST",
   "weight": 6
 }

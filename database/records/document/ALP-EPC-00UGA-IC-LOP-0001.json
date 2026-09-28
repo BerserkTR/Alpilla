@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.034237Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.430534Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.396867Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 162,
   "status": "planned",
   "system": "00UGA",
-  "title": "Loop and connection diagrams - Water treatment and effluents",
+  "title": "Water Treatment and Effluents - Loop and Connection Diagrams",
   "type_code": "LOP",
   "weight": 243.0
 }

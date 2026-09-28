@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.043711Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.432117Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.399580Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 96,
   "status": "planned",
   "system": "00UEG",
-  "title": "Loop and connection diagrams - LDO tank farm and unloading",
+  "title": "LDO Tank Farm and Unloading - Loop and Connection Diagrams",
   "type_code": "LOP",
   "weight": 144.0
 }

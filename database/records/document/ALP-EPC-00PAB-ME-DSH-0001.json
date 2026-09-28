@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.087113Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:38:15.658812Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.452254Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-10.01"
   ],
+  "description": "2 items",
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
@@ -28,7 +29,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00PAB",
-  "title": "Datasheet - CW piping: valve (2 items)",
+  "title": "CW Piping: Valves - Datasheet",
   "type_code": "DSH",
   "weight": 26
 }

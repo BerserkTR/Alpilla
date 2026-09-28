@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.049317Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.049317Z",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:39:29.590427Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Tank",
@@ -15,7 +15,7 @@
   "description": "Fire water tank B",
   "equipment_type": "tank",
   "id": "00SGA10BB002",
-  "mr": "MR-ME-020",
+  "mr": "MR-ME-017",
   "quantity": 1,
   "status": "preliminary",
   "supply": "IEPC",

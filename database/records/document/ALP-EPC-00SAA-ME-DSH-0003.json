@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.098396Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:38:15.671153Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.463303Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-10.01"
   ],
+  "description": "2 items",
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
@@ -28,7 +29,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00SAA",
-  "title": "Datasheet - HVAC: pump (2 items)",
+  "title": "HVAC: Pumps - Datasheet",
   "type_code": "DSH",
   "weight": 26
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.843629Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.566104Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.970879Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -11,6 +11,7 @@
     "requirement:ER-12.03",
     "scope_item:SC-037"
   ],
+  "description": "IEC 61511",
   "discipline": "hse",
   "doc_type": "study",
   "id": "ALP-EPC-00000-HS-HAZ-0007",
@@ -23,7 +24,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "SIL determination and verification (IEC 61511)",
+  "title": "SIL Determination and Verification",
   "type_code": "HAZ",
   "weight": 160.0
 }

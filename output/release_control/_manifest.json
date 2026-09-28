@@ -1,14 +1,14 @@
 {
-  "code_hash": "a4415959161b3e15",
-  "db_hash": "432655f3489327f5",
+  "code_hash": "68c71e576387f6ab",
+  "db_hash": "9005ae76905b2ae7",
   "engine": "release_control",
-  "engine_version": "1.0.0",
+  "engine_version": "1.1.0",
   "files": {
-    "ALP_release_control.xlsx": "57058b81acbf35d51c25ccbd3c3778f0165b26e23a14438174cb8ad7fa4d353f"
+    "ALP_release_control.xlsx": "88e7ffb0ce6248dd255b047bc53420a175a7881ff92d1b58daf8db0cfb427c29"
   },
-  "generated_at": "2026-09-28T18:17:52.025014Z",
+  "generated_at": "2026-09-28T18:42:57.456501Z",
   "generated_by": "SETUP",
-  "git_commit": "d7d7d25",
+  "git_commit": "ffaccaf",
   "inputs": [
     "activity",
     "cwa",
@@ -26,7 +26,7 @@
     "system",
     "wbs"
   ],
-  "inputs_hash": "c4bbf20e594cf886",
+  "inputs_hash": "c2213bfbbb17abe0",
   "options": {},
   "warnings": [
     "gate G-OWN-BDP 00000: planned 2027-07-21 after the need date 2027-02-02 (-121 wd)",

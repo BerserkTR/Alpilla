@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.189787Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.992239Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.577797Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 10,
   "status": "planned",
   "system": "00PAB",
-  "title": "Pipe support drawings - CW piping",
+  "title": "CW Piping - Pipe Support Drawings",
   "type_code": "SUP",
   "weight": 60
 }

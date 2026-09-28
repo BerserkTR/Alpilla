@@ -17,12 +17,15 @@ import math
 from collections import defaultdict
 from dataclasses import dataclass, field
 
-from . import kks
+from . import kks, titles
 
 ACTUAL = {"q_equipment": "equipment", "q_instruments": "instrument", "q_lines": "line"}
 FALLBACK = {"PI": ["ME", "HV", "CV"], "IC": ["PI", "EL", "CV"], "EL": ["CV"], "SS": ["CV"], "HV": ["CV"], "ME": ["PI", "CV"], "CV": ["SS"]}
 DRAWING_CATS = {"drawing", "diagram", "layout", "isometric"}
 SPEC_CATS = {"specification", "datasheet"}
+PLURAL = {"switchgear": "switchgear", "ups": "UPS", "battery": "batteries", "control system": "control systems",
+          "package": "packages", "heat exchanger": "heat exchangers", "HRSG": "HRSGs", "gas turbine": "gas turbines",
+          "steam turbine": "steam turbines"}
 
 
 class MdlError(Exception):
@@ -51,10 +54,20 @@ class Inst:
 
     @property
     def title(self):
-        t = self.rule["title"].format(name=self.name, part=self.part, kks=self.kks).strip(" -")
+        """'<Subject> - <Document Type>' in title case; bracketed parts of the name go to the description."""
+        name, _ = titles.split(self.name)
+        t = self.rule["title"].format(name=name, part=self.part, kks=self.kks).strip(" -")
         if self.parts > 1 and "{part}" not in self.rule["title"]:
-            t += f" - part {self.part} of {self.parts}"
-        return t
+            t += f", Part {self.part} of {self.parts}"
+        return titles.proper(titles.split(t)[0])
+
+    @property
+    def description(self):
+        """Rule description, the bracketed parts of the scope name and of the rule title (explanations, standards)."""
+        _, nparts = titles.split(self.name)
+        _, tparts = titles.split(self.rule["title"])
+        d = [x for x in [self.rule.get("description"), *tparts, *nparts] if x]
+        return "; ".join(dict.fromkeys(d)) or None
 
 
 class Ctx:
@@ -164,7 +177,10 @@ def _scopes(rule, c: Ctx):
             key = f"{sy}:{mr}:{typ}"
             if key in excl:
                 continue
-            name = f"{c.systems.get(sy, {}).get('title', sy)}: {typ}" + (f" ({len(tags)} items)" if len(tags) > 1 else "")
+            sy_t = c.systems.get(sy, {}).get("title", sy)
+            what = PLURAL.get(typ, typ + "s") if len(tags) > 1 else typ
+            name = (sy_t if typ.split()[0].lower() in sy_t.lower() else f"{sy_t}: {what}") \
+                + (f" ({len(tags)} items)" if len(tags) > 1 else "")
             out.append((key, name, sy, {sy}, c.cwa_of(sy), None if mr == "-" else mr, sorted(tags)))
     elif sc == "mr":
         pts, ids = set(rule.get("package_types") or []), set(rule.get("mrs") or [])
@@ -258,7 +274,7 @@ def required(store) -> tuple[dict[str, Inst], list[str]]:
 def _doc_fields(i: Inst, c_types: dict) -> dict:
     t = c_types[i.rule["type_code"]]
     cat = t.get("category", "other")
-    rec = {"title": i.title, "discipline": i.rule["discipline"], "doc_type": cat, "type_code": i.rule["type_code"],
+    rec = {"title": i.title, "description": i.description, "discipline": i.rule["discipline"], "doc_type": cat, "type_code": i.rule["type_code"],
            "originator": i.org, "status": "planned", "sheets": i.sheets, "weight": i.hours, "rule": i.key,
            "aveva_class": "Drawing" if cat in DRAWING_CATS else ("Specification Documents" if cat in SPEC_CATS
                                                                  else "Deliverables Documents")}
@@ -273,6 +289,8 @@ def _doc_fields(i: Inst, c_types: dict) -> dict:
         rec["mr"] = i.mr
     if i.equipment:
         rec["equipment"] = i.equipment
+    if rec["description"] is None:
+        del rec["description"]
     if i.rule.get("basis_refs"):
         rec["basis_refs"] = sorted(i.rule["basis_refs"])
     return rec
@@ -317,7 +335,7 @@ def plan_sync(store) -> SyncPlan:
                 p.links.append((i.doc_id, ins))
             continue
         ch = {}
-        for k in ("sheets", "weight", "po_weeks_ifr", "po_weeks_final", "review", "start_after"):
+        for k in ("title", "description", "sheets", "weight", "po_weeks_ifr", "po_weeks_final", "review", "start_after"):
             if want.get(k) is not None and d.get(k) != want[k]:
                 ch[k] = want[k]
         if want.get("ewp") and (not d.get("ewp") or d["ewp"].split("-")[2] != want["ewp"].split("-")[2]):

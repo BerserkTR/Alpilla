@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:38:08.294624Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:38:08.294624Z",
+    "rev": 2,
+    "updated_at": "2026-09-28T18:38:39.937496Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -19,6 +19,6 @@
   "originator": "EPC",
   "scope": "plant",
   "status": "agreed",
-  "title": "Electrical design criteria",
+  "title": "Electrical Design Criteria",
   "type_code": "DBR"
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.835090Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.558427Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:40:08.961181Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -11,6 +11,7 @@
     "requirement:ER-11.07",
     "scope_item:SC-034"
   ],
+  "description": "IEEE 80",
   "discipline": "electrical",
   "doc_type": "study",
   "id": "ALP-EPC-00000-EL-STU-0003",
@@ -23,7 +24,7 @@
   "systems": [
     "00BXA"
   ],
-  "title": "Earthing study (IEEE 80)",
+  "title": "Earthing Study",
   "type_code": "STU",
   "weight": 160.0
 }

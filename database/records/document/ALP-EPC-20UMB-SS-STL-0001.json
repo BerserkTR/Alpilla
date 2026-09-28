@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.019410Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.586280Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.672235Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -26,7 +26,7 @@
   "sheets": 30,
   "status": "planned",
   "system": "20UMB",
-  "title": "Steel structure drawings - Steam turbine hall",
+  "title": "Steam Turbine Hall - Steel Structure Drawings",
   "type_code": "STL",
   "weight": 1050
 }

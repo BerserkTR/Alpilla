@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.929955Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:37:42.229933Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.549235Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 30,
   "status": "planned",
   "system": "00PAH",
-  "title": "Isometric drawings - Condenser tube cleaning",
+  "title": "Condenser Tube Cleaning - Isometric Drawings",
   "type_code": "ISO",
   "weight": 300
 }

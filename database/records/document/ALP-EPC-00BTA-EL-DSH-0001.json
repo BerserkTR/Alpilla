@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.003868Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:12:57.944512Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.191450Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -27,7 +27,7 @@
   "status": "planned",
   "system": "00BTA",
   "tender": true,
-  "title": "Datasheet - Batteries and DC 220 V: battery",
+  "title": "Batteries and DC 220 V: Battery - Datasheet",
   "type_code": "DSH",
   "weight": 16.0
 }

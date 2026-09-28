@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.926000Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:37:42.228885Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.543881Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 50,
   "status": "planned",
   "system": "00EGB",
-  "title": "Isometric drawings - LDO storage",
+  "title": "LDO Storage - Isometric Drawings",
   "type_code": "ISO",
   "weight": 500
 }

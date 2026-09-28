@@ -2,20 +2,23 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.951007Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.495626Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:39:37.929716Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "API 650",
   "discipline": "mechanical",
   "doc_type": "other",
   "id": "ALP-EPC-00EGB-ME-MRQ-0001",
   "inputs": [
     "ALP-EPC-00EGB-ME-DSH-0001",
-    "ALP-EPC-00EGB-ME-SPC-0001"
+    "ALP-EPC-00EGB-ME-SPC-0001",
+    "ALP-EPC-00SGA-ME-DSH-0002",
+    "ALP-EPC-00SGA-ME-DSH-0001"
   ],
   "mr": "MR-ME-017",
   "originator": "EPC",
@@ -23,7 +26,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00EGB",
-  "title": "Material requisition - LDO storage tanks (field-erected, API 650)",
+  "title": "Field-Erected Storage Tanks: LDO Storage and Fire Water - Material Requisition",
   "type_code": "MRQ",
   "weight": 24.0
 }

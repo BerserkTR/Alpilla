@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.845708Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.568081Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.974937Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "AWP input",
   "discipline": "hse",
   "doc_type": "report",
   "id": "ALP-EPC-00000-HS-RPT-0002",
@@ -16,7 +17,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Constructability and maintainability review (AWP input)",
+  "title": "Constructability and Maintainability Review",
   "type_code": "RPT",
   "weight": 60.0
 }

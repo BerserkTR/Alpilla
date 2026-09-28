@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.908367Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.271781Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.952837Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -26,6 +26,6 @@
   "review": "review",
   "scope": "mr",
   "status": "agreed",
-  "title": "Subcontractor method statements - {name}",
+  "title": "{name} - Subcontractor Method Statements",
   "type_code": "MOS"
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.851676Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.778072Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:09.004413Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -21,7 +21,7 @@
   "source": "SRC-IECE-0009",
   "status": "planned",
   "system": "10MBA",
-  "title": "Power island arrangement - installation and maintenance spaces",
+  "title": "Power Island Arrangement - Installation and Maintenance Spaces",
   "type_code": "LAY",
   "vendor_ref": "IEC-ALP-GA-100",
   "weight": 80.0

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.881190Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.213739Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.067296Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -21,7 +21,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00XJA",
-  "title": "System commissioning procedure - Emergency diesel generator",
+  "title": "Emergency Diesel Generator - System Commissioning Procedure",
   "type_code": "CMP",
   "weight": 40
 }

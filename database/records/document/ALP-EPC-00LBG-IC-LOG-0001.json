@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.056134Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:58.028872Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.372176Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -23,7 +23,7 @@
   "sheets": 12,
   "status": "planned",
   "system": "00LBG",
-  "title": "Logic diagrams - Auxiliary steam",
+  "title": "Auxiliary Steam - Logic Diagrams",
   "type_code": "LOG",
   "weight": 112
 }

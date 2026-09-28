@@ -56,7 +56,7 @@ def analyse(s, res=None):
         f = feeds.get(k, [])
         first = min(f, key=lambda x: (x[3] is None, x[3] if x[3] is not None else 0)) if f else None
         rows.append({
-            "id": k, "title": d.get("title"), "originator": d.get("originator", "EPC"), "discipline": d.get("discipline"),
+            "id": k, "title": d.get("title"), "description": d.get("description"), "originator": d.get("originator", "EPC"), "discipline": d.get("discipline"),
             "type": d.get("type_code"), "review": release.review_class(d, types), "wave": wave.get(k),
             "status": release.NAME[me.level], "rev": me.rev, "code": me.code, "issued": me.issued,
             "action": release.next_action(d, me, types), "next": nxt,
@@ -110,7 +110,7 @@ def analyse(s, res=None):
 class ReleaseControl(Engine):
     name = "release_control"
     title = "Document release control: release order and revisions, prerequisites, process gates, impacts (Excel)"
-    version = "1.0.0"
+    version = "1.1.0"
     inputs = ["project", "document", "document_revision", "doc_type", "gate_rule", "system", "mr", "cwp", "ewp", "cwa",
               "activity", "wbs", "milestone", "eng_resource", "kks_key"]
     formats = ["xlsx"]
@@ -200,18 +200,19 @@ class ReleaseControl(Engine):
         sheet(ws, "Document release control - rules and summary", [("Item", 27), ("Rule / result", 150)], text, wrap=(2,),
               note="release rules: engine/core/release.py; gates: gate_rule records")
         # Gates
+        gdesc = {g["id"]: g.get("description") for g in s.records("gate_rule")}
         data = []
         for g in sorted(gs, key=lambda g: (g.float if g.float is not None else 10 ** 6, g.gate, g.scope_key)):
-            data.append([g.gate, PROCESS_TITLE.get(g.process, g.process), g.scope_key, g.title,
+            data.append([g.gate, PROCESS_TITLE.get(g.process, g.process), g.scope_key, g.title, gdesc.get(g.gate),
                          "OPEN" if g.ok_now else "blocked", d(g.need), d(g.ready), g.float,
                          len({i for i, _ in g.members}), sum(len(r[2]) for r in g.rows), g.empty])
         ws = sheet(wb.create_sheet("Gates"), "Process gates (sorted by float)",
-                   [("Gate", 13), ("Process", 18), ("Scope", 14), ("Title", 52), ("Now", 8), ("Need", 11),
+                   [("Gate", 13), ("Process", 18), ("Scope", 14), ("Title", 44), ("Description", 40), ("Now", 8), ("Need", 11),
                     ("Planned ready", 11), ("Float wd", 8), ("Documents", 11), ("Not met now", 11),
-                    ("Requirement without documents", 34)], data, wrap=(4, 11))
+                    ("Requirement without documents", 34)], data, wrap=(4, 5, 12))
         for i, row in enumerate(data, 5):
-            fl = row[7]
-            ws.cell(i, 8).fill = red if fl is not None and fl < 0 else (amber if fl is not None and fl < 10 else green)
+            fl = row[8]
+            ws.cell(i, 9).fill = red if fl is not None and fl < 0 else (amber if fl is not None and fl < 10 else green)
         # Gate requirements
         data = []
         for g in sorted(gs, key=lambda g: (g.gate, g.scope_key)):
@@ -224,21 +225,21 @@ class ReleaseControl(Engine):
               [("Gate", 13), ("Scope", 14), ("Requirement", 40), ("Documents", 11), ("Not met now", 11),
                ("Planned (last)", 11), ("Driving document", 30), ("Need", 11), ("Float wd", 8)], data)
         # Release plan
-        data = [[r["wave"], r["id"], r["title"], r["originator"], r["discipline"], r["type"], r["review"], r["status"],
+        data = [[r["wave"], r["id"], r["title"], r["description"], r["originator"], r["discipline"], r["type"], r["review"], r["status"],
                  r["rev"], r["code"], r["action"], r["next"], r["next_rev"], r["can"], r["why"][:6], r["suspect"],
                  d(r["start"]), d(r["ifr"]), d(r["ifa"]), d(r["accepted"]), d(r["ifc"]), r["driver"],
                  r["gate_first"], d(r["gate_need"]), r["gates"][:8]] for r in rows]
         ws = sheet(wb.create_sheet("Release plan"), "Release plan: every document in release order (network waves)",
-                   [("Wave", 6), ("Document", 30), ("Title", 48), ("Orig.", 7), ("Discipline", 12), ("Type", 6),
+                   [("Wave", 6), ("Document", 30), ("Title", 48), ("Description", 36), ("Orig.", 7), ("Discipline", 12), ("Type", 6),
                     ("Review", 10), ("Status now", 10), ("Rev", 5), ("Code", 5), ("Next action", 30), ("Next purpose", 8),
                     ("Next rev", 7), ("Can issue now", 7), ("Blocked by (first 6)", 60), ("Check required (inputs revised)", 30),
                     ("Start", 11), ("IFR", 11), ("IFA", 11), ("Accepted", 11), ("IFC", 11), ("Driver", 30),
                     ("First gate", 22), ("Gate need", 11), ("Gates fed (first 8)", 40)],
-                   data, wrap=(3, 15, 16, 25))
+                   data, wrap=(3, 4, 16, 17, 26))
         for i, r in enumerate(rows, 5):
-            ws.cell(i, 14).fill = green if r["can"] == "yes" else (red if r["can"] == "no" else amber)
+            ws.cell(i, 15).fill = green if r["can"] == "yes" else (red if r["can"] == "no" else amber)
             if r["suspect"]:
-                ws.cell(i, 16).fill = red
+                ws.cell(i, 17).fill = red
         # Relations
         sheet(wb.create_sheet("Relations"), "Document relations: input links with the maturity required",
               [("Document", 30), ("Title", 44), ("Input", 30), ("Input title", 44), ("Input orig.", 8),
@@ -251,11 +252,12 @@ class ReleaseControl(Engine):
         # Gate rules
         rules = sorted(s.records("gate_rule"), key=lambda g: g["id"])
         sheet(wb.create_sheet("Gate rules"), "Gate rules (gate_rule records)",
-              [("Gate", 13), ("Process", 18), ("Scope", 8), ("Title", 60), ("Requires", 60), ("Need", 18),
+              [("Gate", 13), ("Process", 18), ("Scope", 8), ("Title", 44), ("Description", 40), ("Requires", 60), ("Need", 18),
                ("Offset wd", 8), ("Filter", 40), ("Basis", 30), ("Status", 9)],
-              [[g["id"], PROCESS_TITLE.get(g["process"], g["process"]), g["scope"], g["title"], g["requires"], g["need"],
+              [[g["id"], PROCESS_TITLE.get(g["process"], g["process"]), g["scope"], g["title"], g.get("description"),
+                g["requires"], g["need"],
                 g.get("offset_days"), g.get("package_types") or g.get("categories") or g.get("parties"),
-                g.get("basis_refs"), g.get("status")] for g in rules], wrap=(4, 5, 8, 9))
+                g.get("basis_refs"), g.get("status")] for g in rules], wrap=(4, 5, 6, 9, 10))
         out = ctx.out_dir / f"{stem}.xlsx"
         wb.save(out)
         return out

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.910262Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:15:11.437254Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.106005Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -23,7 +23,7 @@
   "start_after": "alap",
   "status": "planned",
   "system": "00BBA",
-  "title": "System turnover dossier - MV switchgear 10.5 kV",
+  "title": "MV Switchgear 10.5 kV - System Turnover Dossier",
   "type_code": "MDB",
   "weight": 16
 }

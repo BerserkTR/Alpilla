@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.120478Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:38:15.682523Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.509555Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00CKA",
-  "title": "Technical specification - Operator training simulator, historian and performance monitoring",
+  "title": "Operator Training Simulator, Historian and Performance Monitoring - Technical Specification",
   "type_code": "SPC",
   "weight": 80
 }

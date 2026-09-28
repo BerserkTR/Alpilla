@@ -2,12 +2,13 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.395791Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:17:56.548357Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.713209Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "cwa": "CWA-11",
+  "description": "IEC 61511",
   "discipline": "electrical",
   "doc_type": "diagram",
   "ewp": "EWP-11-IC-01",
@@ -24,7 +25,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00CJG",
-  "title": "Supplier electrical schematics and wiring diagrams - BOP safety instrumented system (IEC 61511)",
+  "title": "BOP Safety Instrumented System - Supplier Electrical Schematics and Wiring Diagrams",
   "type_code": "WIR",
   "weight": 6.0
 }

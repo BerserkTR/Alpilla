@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:11:40.550671Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:39:15.097050Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.160056Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -27,7 +27,7 @@
   "sheets": 3,
   "status": "planned",
   "system": "00UBF",
-  "title": "Equipment foundation drawings - Transformer bays",
+  "title": "Transformer Bays - Equipment Foundation Drawings",
   "type_code": "EFD",
   "weight": 150
 }

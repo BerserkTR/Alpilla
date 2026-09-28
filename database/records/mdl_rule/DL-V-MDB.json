@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.907832Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.277338Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.958089Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -27,6 +27,6 @@
   "review": "information",
   "scope": "mr",
   "status": "agreed",
-  "title": "Manufacturing record book and conformity certificates - {name}",
+  "title": "{name} - Manufacturing Record Book and Conformity Certificates",
   "type_code": "MDB"
 }

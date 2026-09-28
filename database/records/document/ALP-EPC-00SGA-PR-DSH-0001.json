@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.245090Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:38:15.713470Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.617069Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -23,7 +23,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00SGA",
-  "title": "Safety / relief valve sizing and datasheets - Fire water system",
+  "title": "Fire Water System - Safety / Relief Valve Sizing and Datasheets",
   "type_code": "DSH",
   "weight": 32
 }

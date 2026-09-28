@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.995813Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:16:42.945150Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.265207Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-12.01"
   ],
+  "description": "BOP",
   "discipline": "i_and_c",
   "doc_type": "datasheet",
   "equipment": [
@@ -26,7 +27,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00CJG",
-  "title": "Datasheet - Safety instrumented systems (BOP): control system",
+  "title": "Safety Instrumented Systems: Control System - Datasheet",
   "type_code": "DSH",
   "weight": 16
 }

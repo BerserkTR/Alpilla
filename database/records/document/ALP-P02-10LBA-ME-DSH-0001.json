@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.357567Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.093436Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.688713Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
+  "description": "main steam, reheat",
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "id": "ALP-P02-10LBA-ME-DSH-0001",
@@ -22,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10LBA",
-  "title": "Supplier catalogues and material datasheets - Alloy piping P91 / P22 (main steam, reheat)",
+  "title": "Alloy Piping P91 / P22 - Supplier Catalogues and Material Datasheets",
   "type_code": "DSH",
   "weight": 6
 }

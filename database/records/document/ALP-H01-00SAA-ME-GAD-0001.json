@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.517311Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.565751Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.777461Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -50,7 +50,7 @@
   "sheets": 60,
   "status": "planned",
   "system": "00SAA",
-  "title": "Supplier GA drawings - HVAC plant and equipment",
+  "title": "HVAC Plant and Equipment - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 94.0
 }

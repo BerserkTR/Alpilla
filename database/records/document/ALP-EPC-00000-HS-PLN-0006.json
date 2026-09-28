@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:05:18.196062Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:05:19.080979Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:40:08.974207Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "permit:PMT-013"
   ],
+  "description": "industrial radiography",
   "discipline": "hse",
   "doc_type": "report",
   "id": "ALP-EPC-00000-HS-PLN-0006",
@@ -19,7 +20,7 @@
   "originator": "EPC",
   "sheets": 1,
   "status": "planned",
-  "title": "Radiation protection plan (industrial radiography)",
+  "title": "Radiation Protection Plan",
   "type_code": "PLN",
   "weight": 40.0
 }

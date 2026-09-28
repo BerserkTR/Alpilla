@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:50:51.415763Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:12:41.500076Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:35.931188Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -15,6 +15,7 @@
     "electrical_mv_lv",
     "common"
   ],
+  "description": "electrical systems; need: back-feed energisation KD-010 - 60 wd",
   "id": "G-COM-MC-EL",
   "need": "activity:KD-010",
   "offset_days": -60,
@@ -25,5 +26,5 @@
   ],
   "scope": "system",
   "status": "agreed",
-  "title": "Mechanical completion of the system (before KD-010)"
+  "title": "Mechanical Completion of the System before Back-Feed"
 }

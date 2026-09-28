@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.826056Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:05:57.899007Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:40:08.964407Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -82,7 +82,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Tie-in and terminal point register",
+  "title": "Tie-in and Terminal Point Register",
   "type_code": "LST",
   "weight": 80.0
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:20:25.885121Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:20:25.891355Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.849899Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 91,
   "status": "planned",
   "system": "00GNA",
-  "title": "Supplier logic diagrams - Waste water and sanitary treatment packages",
+  "title": "Waste Water and Sanitary Treatment Packages - Supplier Logic Diagrams",
   "type_code": "LOG",
   "weight": 53.5
 }

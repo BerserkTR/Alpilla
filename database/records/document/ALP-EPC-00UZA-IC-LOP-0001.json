@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.045734Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:19:40.062901Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.360126Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00UZA",
-  "title": "Junction box and cabinet interconnection diagrams - Site-wide infrastructure",
+  "title": "Site-Wide Infrastructure - Junction Box and Cabinet Interconnection Diagrams",
   "type_code": "LOP",
   "weight": 10.0
 }

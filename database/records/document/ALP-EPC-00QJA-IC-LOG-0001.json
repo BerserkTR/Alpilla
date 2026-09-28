@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.060901Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:58.034918Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.376265Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -23,7 +23,7 @@
   "sheets": 12,
   "status": "planned",
   "system": "00QJA",
-  "title": "Logic diagrams - Nitrogen supply",
+  "title": "Nitrogen Supply - Logic Diagrams",
   "type_code": "LOG",
   "weight": 112
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.847448Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.545355Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:40:08.938694Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -11,6 +11,7 @@
     "requirement:ER-16.04",
     "scope_item:DR-041"
   ],
+  "description": "ASME PTC 46",
   "discipline": "commissioning",
   "doc_type": "procedure",
   "id": "ALP-EPC-00000-CM-CMP-0002",
@@ -20,7 +21,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Performance test procedure (ASME PTC 46)",
+  "title": "Performance Test Procedure",
   "type_code": "CMP",
   "weight": 60.0
 }

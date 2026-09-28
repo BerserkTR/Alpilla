@@ -14,6 +14,10 @@
       "type": "string",
       "required": true
     },
+    "description": {
+      "type": "text",
+      "description": "explanation of the title: content, standards, language, quantities (titles carry no bracketed text)"
+    },
     "discipline": {
       "type": "enum",
       "required": true,
@@ -208,7 +212,10 @@
     },
     "start_after": {
       "type": "enum",
-      "values": ["bids", "alap"],
+      "values": [
+        "bids",
+        "alap"
+      ],
       "description": "earliest start besides the inputs: bids = after the bids of its MR are received (requisition IFC + bid_days), e.g. technical bid evaluation; alap = as late as possible (latest start from the need date - 60 working days), e.g. turnover dossiers compiled from site records"
     },
     "po_weeks_final": {

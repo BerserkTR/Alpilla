@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.359049Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.094708Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.689684Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -21,7 +21,7 @@
   "rule": "DL-V-CAT|MR-PI-005|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Supplier catalogues and material datasheets - Pipe supports, spring hangers and snubbers",
+  "title": "Pipe Supports, Spring Hangers and Snubbers - Supplier Catalogues and Material Datasheets",
   "type_code": "DSH",
   "weight": 6
 }

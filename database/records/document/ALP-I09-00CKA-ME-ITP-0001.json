@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.582533Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.281826Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.833378Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00CKA",
-  "title": "Supplier inspection and test plan - Operator training simulator, historian and performance monitoring",
+  "title": "Operator Training Simulator, Historian and Performance Monitoring - Supplier Inspection and Test Plan",
   "type_code": "ITP",
   "weight": 6
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.881267Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:38:15.627545Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.401469Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 5,
   "status": "planned",
   "system": "00EGA",
-  "title": "Sizing and hydraulic calculation - LDO unloading",
+  "title": "LDO Unloading - Sizing and Hydraulic Calculation",
   "type_code": "CAL",
   "weight": 70
 }

@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.553581Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.268702Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.810876Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC",
   "discipline": "i_and_c",
   "doc_type": "list",
   "id": "ALP-IEC-10MKA-IC-IOL-0001",
@@ -20,7 +21,7 @@
   "sheets": 8,
   "status": "planned",
   "system": "10MKA",
-  "title": "Supplier I/O list, control philosophy and interface signals - Generators, excitation, GCB and busducts (IEC)",
+  "title": "Generators, Excitation, GCB and Busducts - Supplier I/O List, Control Philosophy and Interface Signals",
   "type_code": "IOL",
   "weight": 12
 }

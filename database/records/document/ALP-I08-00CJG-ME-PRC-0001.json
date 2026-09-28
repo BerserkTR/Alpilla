@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.423171Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.140062Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.727933Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC 61511",
   "discipline": "mechanical",
   "doc_type": "procedure",
   "id": "ALP-I08-00CJG-ME-PRC-0001",
@@ -22,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00CJG",
-  "title": "Supplier installation and erection manual - BOP safety instrumented system (IEC 61511)",
+  "title": "BOP Safety Instrumented System - Supplier Installation and Erection Manual",
   "type_code": "PRC",
   "weight": 6
 }

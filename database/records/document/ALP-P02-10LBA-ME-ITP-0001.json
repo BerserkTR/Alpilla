@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.597706Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.294529Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.843681Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "main steam, reheat",
   "discipline": "mechanical",
   "doc_type": "procedure",
   "id": "ALP-P02-10LBA-ME-ITP-0001",
@@ -22,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10LBA",
-  "title": "Supplier inspection and test plan - Alloy piping P91 / P22 (main steam, reheat)",
+  "title": "Alloy Piping P91 / P22 - Supplier Inspection and Test Plan",
   "type_code": "ITP",
   "weight": 6
 }

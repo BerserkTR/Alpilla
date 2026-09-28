@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.887747Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:38:10.873169Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:39.947440Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -35,6 +35,6 @@
   "quantity": "q_lines",
   "scope": "system",
   "status": "agreed",
-  "title": "Sizing and hydraulic calculation - {name}",
+  "title": "{name} - Sizing and Hydraulic Calculation",
   "type_code": "CAL"
 }

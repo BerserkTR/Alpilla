@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.901569Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:21:20.275116Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:39.955612Z",
     "updated_by": "EPCE"
   },
   "discipline": "civil",
@@ -55,6 +55,6 @@
   "review": "review",
   "scope": "mr",
   "status": "agreed",
-  "title": "Supplier foundation loads and anchor bolt drawings - {name}",
+  "title": "{name} - Supplier Foundation Loads and Anchor Bolt Drawings",
   "type_code": "CAL"
 }

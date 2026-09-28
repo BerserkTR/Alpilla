@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.040280Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:58.011913Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.344816Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -23,7 +23,7 @@
   "sheets": 30,
   "status": "planned",
   "system": "20MAN",
-  "title": "Instrument datasheets - Turbine bypass stations and piping",
+  "title": "Turbine Bypass Stations and Piping - Instrument Datasheets",
   "type_code": "DSH",
   "weight": 53.0
 }

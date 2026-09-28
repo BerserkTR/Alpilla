@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.852170Z",
     "created_by": "EPCE",
-    "rev": 9,
-    "updated_at": "2026-09-28T17:37:42.264503Z",
+    "rev": 10,
+    "updated_at": "2026-09-28T18:38:48.789110Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,6 +11,7 @@
     "source:SRC-IECE-0011"
   ],
   "cwa": "CWA-02",
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "drawing",
   "equipment": [
@@ -43,7 +44,7 @@
     "20MKA",
     "20MAG"
   ],
-  "title": "Steam turbine, generator and condenser - GA, maintenance",
+  "title": "Steam Turbine and Condenser - Supplier GA Drawings",
   "type_code": "GAD",
   "vendor_ref": "IEC-ALP-GA-102",
   "weight": 73.0

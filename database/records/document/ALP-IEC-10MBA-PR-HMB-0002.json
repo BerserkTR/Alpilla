@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.848742Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.779990Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:40:09.005951Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
     "source:SRC-IECE-0005"
   ],
+  "description": "case book",
   "discipline": "process",
   "doc_type": "diagram",
   "id": "ALP-IEC-10MBA-PR-HMB-0002",
@@ -21,7 +22,7 @@
   "source": "SRC-IECE-0005",
   "status": "planned",
   "system": "10MBA",
-  "title": "Power island off-design heat balances (case book)",
+  "title": "Power Island Off-Design Heat Balances",
   "type_code": "HMB",
   "vendor_ref": "IEC-ALP-PER-003",
   "weight": 480.0

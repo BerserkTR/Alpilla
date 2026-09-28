@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.102710Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.947018Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.470963Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "marine structures, buried piping and tanks",
   "discipline": "general",
   "doc_type": "procedure",
   "id": "ALP-EPC-00BXA-GE-ITP-0001",
@@ -22,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00BXA",
-  "title": "Inspection and test plan - Cathodic protection (marine structures, buried piping and tanks)",
+  "title": "Cathodic Protection - Inspection and Test Plan",
   "type_code": "ITP",
   "weight": 16
 }

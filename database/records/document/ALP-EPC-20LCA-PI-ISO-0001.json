@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.921697Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.536422Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.556685Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -26,7 +26,7 @@
   "sheets": 110,
   "status": "planned",
   "system": "20LCA",
-  "title": "Isometric drawings - Main condensate piping",
+  "title": "Main Condensate Piping - Isometric Drawings",
   "type_code": "ISO",
   "weight": 1100
 }

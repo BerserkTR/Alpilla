@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.587924Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.284908Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.836203Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00PAH",
-  "title": "Supplier inspection and test plan - Condenser tube cleaning system",
+  "title": "Condenser Tube Cleaning System - Supplier Inspection and Test Plan",
   "type_code": "ITP",
   "weight": 6
 }

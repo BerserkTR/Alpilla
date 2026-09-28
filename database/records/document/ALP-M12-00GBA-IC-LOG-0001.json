@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:20:25.884616Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:20:25.890995Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.849547Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
     "requirement:ER-12.02"
   ],
+  "description": "SWRO, demin, condensate polishing",
   "discipline": "i_and_c",
   "doc_type": "diagram",
   "id": "ALP-M12-00GBA-IC-LOG-0001",
@@ -25,7 +26,7 @@
   "sheets": 103,
   "status": "planned",
   "system": "00GBA",
-  "title": "Supplier logic diagrams - Water treatment package (SWRO, demin, condensate polishing)",
+  "title": "Water Treatment Package - Supplier Logic Diagrams",
   "type_code": "LOG",
   "weight": 59.5
 }

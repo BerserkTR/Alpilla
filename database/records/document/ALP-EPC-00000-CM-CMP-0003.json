@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.847649Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T15:06:12.545801Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:40:08.939404Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -19,7 +19,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Grid Code compliance test programme",
+  "title": "Grid Code Compliance Test Programme",
   "type_code": "CMP",
   "weight": 60.0
 }

@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.003764Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.860303Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.281300Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
     "requirement:ER-12.02"
   ],
+  "description": "HMI graphics",
   "discipline": "i_and_c",
   "doc_type": "diagram",
   "id": "ALP-EPC-00GHA-IC-HMI-0001",
@@ -22,7 +23,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00GHA",
-  "title": "Operator displays (HMI graphics) - Demineralised water storage and distribution",
+  "title": "Demineralised Water Storage and Distribution - Operator Displays",
   "type_code": "HMI",
   "weight": 32
 }

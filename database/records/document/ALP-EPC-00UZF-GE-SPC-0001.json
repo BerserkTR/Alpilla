@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.123028Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:13:27.938172Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.518495Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "subcontract",
   "discipline": "general",
   "doc_type": "specification",
   "id": "ALP-EPC-00UZF-GE-SPC-0001",
@@ -24,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00UZF",
-  "title": "Technical specification - Heavy transport, barge landing and marine logistics (subcontract)",
+  "title": "Heavy Transport, Barge Landing and Marine Logistics - Technical Specification",
   "type_code": "SPC",
   "weight": 80
 }

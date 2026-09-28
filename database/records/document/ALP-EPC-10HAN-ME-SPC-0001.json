@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.953165Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:04:05.516512Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.516719Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -24,7 +24,7 @@
   "status": "planned",
   "system": "10HAN",
   "tender": true,
-  "title": "Technical specification - HRSG blowdown and drain tanks",
+  "title": "HRSG Blowdown and Drain Tanks - Technical Specification",
   "type_code": "SPC",
   "weight": 80.0
 }

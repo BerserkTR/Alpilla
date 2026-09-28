@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.443108Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.154850Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.737679Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00BFA",
-  "title": "Factory acceptance test procedure - LV switchboards and MCCs",
+  "title": "LV Switchboards and MCCs - Factory Acceptance Test Procedure",
   "type_code": "TST",
   "weight": 8
 }

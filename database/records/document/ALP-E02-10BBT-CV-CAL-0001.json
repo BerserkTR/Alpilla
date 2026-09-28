@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.465162Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.175450Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.751312Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10BBT",
-  "title": "Supplier foundation loads and anchor bolt drawings - Unit auxiliary transformers",
+  "title": "Unit Auxiliary Transformers - Supplier Foundation Loads and Anchor Bolt Drawings",
   "type_code": "CAL",
   "weight": 5
 }

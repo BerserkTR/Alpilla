@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.866797Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:38:15.641138Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.424474Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "10LBA",
-  "title": "Sizing and hydraulic calculation - Main steam piping",
+  "title": "Main Steam Piping - Sizing and Hydraulic Calculation",
   "type_code": "CAL",
   "weight": 46
 }

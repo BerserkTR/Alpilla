@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.837108Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.571764Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.980314Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "EEMUA 191 / IEC 62682",
   "discipline": "i_and_c",
   "doc_type": "report",
   "id": "ALP-EPC-00000-IC-RPT-0001",
@@ -15,7 +16,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Alarm management philosophy (EEMUA 191 / IEC 62682)",
+  "title": "Alarm Management Philosophy",
   "type_code": "RPT",
   "weight": 60.0
 }

@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.152277Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:00:25.821128Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.536100Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "SWRO, demin, condensate polishing",
   "discipline": "general",
   "doc_type": "report",
   "id": "ALP-EPC-00GBA-GE-RPT-0001",
@@ -24,7 +25,7 @@
   "start_after": "bids",
   "status": "planned",
   "system": "00GBA",
-  "title": "Technical bid evaluation - Water treatment package (SWRO, demin, condensate polishing)",
+  "title": "Water Treatment Package - Technical Bid Evaluation",
   "type_code": "RPT",
   "weight": 40
 }

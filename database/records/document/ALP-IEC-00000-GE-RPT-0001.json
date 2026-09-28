@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.851062Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.772552Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:40:09.002155Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -19,7 +19,7 @@
   "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
   "source": "SRC-EPCE-0009",
   "status": "planned",
-  "title": "Division of responsibility - power island and balance of plant",
+  "title": "Power Island and Balance of Plant - Division of Responsibility",
   "type_code": "RPT",
   "vendor_ref": "IEC-ALP-DOR-001",
   "weight": 60.0

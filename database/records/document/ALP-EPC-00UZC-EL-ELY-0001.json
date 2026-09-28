@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.967716Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.220205Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.197176Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 10,
   "status": "planned",
   "system": "00UZC",
-  "title": "Earthing and lightning protection layouts - Site drainage and culverts",
+  "title": "Site Drainage and Culverts - Earthing and Lightning Protection Layouts",
   "type_code": "ELY",
   "weight": 200
 }

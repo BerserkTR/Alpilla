@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.858279Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:37:42.271820Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.841827Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
   "basis_refs": [
     "requirement:ER-15.02"
   ],
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "procedure",
   "id": "ALP-IEC-10MBA-ME-ITP-0001",
@@ -31,7 +32,7 @@
     "10HAA",
     "10MKA"
   ],
-  "title": "Power island inspection and test plans",
+  "title": "Gas Turbine Package incl. Auxiliaries - Supplier Inspection and Test Plan",
   "type_code": "ITP",
   "vendor_ref": "IEC-ALP-QA-101",
   "weight": 6

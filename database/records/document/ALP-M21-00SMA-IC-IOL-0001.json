@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.568451Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.269947Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.822758Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00SMA",
-  "title": "Supplier I/O list, control philosophy and interface signals - EOT cranes",
+  "title": "EOT Cranes - Supplier I/O List, Control Philosophy and Interface Signals",
   "type_code": "IOL",
   "weight": 5
 }

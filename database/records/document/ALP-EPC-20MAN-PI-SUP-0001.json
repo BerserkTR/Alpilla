@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.208375Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.002410Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.586675Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 23,
   "status": "planned",
   "system": "20MAN",
-  "title": "Pipe support drawings - Turbine bypass stations and piping",
+  "title": "Turbine Bypass Stations and Piping - Pipe Support Drawings",
   "type_code": "SUP",
   "weight": 138
 }

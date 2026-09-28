@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:50:51.417330Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:12:41.502109Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:35.932718Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -24,6 +24,7 @@
     "hrsg",
     "other"
   ],
+  "description": "need: KD-020 - 40 wd",
   "id": "G-COM-SC-FF",
   "need": "activity:KD-020",
   "offset_days": -40,
@@ -35,5 +36,5 @@
   ],
   "scope": "system",
   "status": "agreed",
-  "title": "Start of system commissioning (before KD-020)"
+  "title": "Start of System Commissioning before GT First Fire"
 }

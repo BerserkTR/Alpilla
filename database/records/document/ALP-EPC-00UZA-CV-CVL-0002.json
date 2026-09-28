@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.011474Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:12:57.931431Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.157907Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -29,7 +29,7 @@
   "sheets": 30,
   "status": "planned",
   "system": "00UZA",
-  "title": "Roads, paving and cable trenches",
+  "title": "Roads and Paving - Civil Drawings",
   "type_code": "CVL",
   "weight": 1200
 }

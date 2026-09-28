@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.531298Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.580018Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.787132Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -41,7 +41,7 @@
   "sheets": 28,
   "status": "planned",
   "system": "00SGA",
-  "title": "Supplier GA drawings - Fire pumps and fire protection systems",
+  "title": "Fire Pumps and Fire Protection Systems - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 46.0
 }

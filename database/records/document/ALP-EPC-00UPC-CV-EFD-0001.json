@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:11:40.554725Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:11:40.562233Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.161336Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -26,7 +26,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "00UPC",
-  "title": "Equipment foundation drawings - CW pump house",
+  "title": "CW Pump House - Equipment Foundation Drawings",
   "type_code": "EFD",
   "weight": 200
 }

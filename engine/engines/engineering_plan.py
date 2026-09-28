@@ -217,7 +217,7 @@ def check_engineering(s, res) -> list[tuple[str, str, str, str]]:
 class EngineeringPlan(Engine):
     name = "engineering_plan"
     title = "Engineering plan: MDL, workflow network and timeline, AWP (CWA/CWP/EWP/PWP), coverage checks (Excel + PDF)"
-    version = "1.4.0"
+    version = "1.5.0"
     inputs = ["project", "document", "document_revision", "doc_type", "kks_key", "system", "equipment", "cwa", "cwp", "ewp",
               "mr", "activity", "wbs", "requirement", "scope_item", "party", "eng_resource", "mdl_rule", "mdl_benchmark",
               "instrument", "line", "decision", "gate_rule", "milestone"]
@@ -292,7 +292,7 @@ class EngineeringPlan(Engine):
             e = res.ewps.get(r.get("ewp"), {})
             need = e.get("need")
             lr = latest.get(k)
-            rows.append([k, r["title"], r.get("originator"), (r.get("system") or "00000"),
+            rows.append([k, r["title"], r.get("description"), r.get("originator"), (r.get("system") or "00000"),
                          systems.get(r.get("system"), {}).get("title", "plant general"), r["discipline"], r.get("type_code"),
                          t.get("dcc"), r.get("review") or t.get("review"), "yes" if r.get("bdp") else "",
                          "yes" if r.get("tender") else "", r.get("sheets"), r.get("weight"), r.get("ewp"),
@@ -301,11 +301,12 @@ class EngineeringPlan(Engine):
                          d(need), None if need is None else need - x.ifc, x.driver,
                          r.get("vendor_ref"), f"{lr['revision']} {lr['purpose']} {lr['issue_date']}" if lr else ""])
         sheet(wb.active, "Master document list (MDL)",
-              [("Document number", 30), ("Title", 55), ("Org", 6), ("KKS", 7), ("System", 28), ("Discipline", 12), ("Type", 6),
+              [("Document number", 30), ("Title", 55), ("Description", 40), ("Org", 6), ("KKS", 7), ("System", 28),
+               ("Discipline", 12), ("Type", 6),
                ("DCC", 5), ("Owner review", 10), ("BDP", 5), ("Tender", 6), ("Sheets", 6), ("Hours", 7), ("EWP", 14),
                ("CWP", 14), ("CWA", 8), ("MR", 11), ("Equipment", 16), ("Inputs", 6), ("Start", 11), ("IFR", 11), ("IFA", 11),
                ("IFC", 11), ("EWP need", 11), ("Float wd", 8), ("Driving input", 30), ("Vendor ref", 18), ("Latest issue", 18)],
-              rows, wrap=(2, 18))
+              rows, wrap=(2, 3, 19))
         wb.active.title = "MDL"
         edges = []
         for k in sorted(res.docs):

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.982024Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:04:05.502108Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.502258Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -23,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "tender": true,
-  "title": "Technical specification - Marine works",
+  "title": "Marine Works - Technical Specification",
   "type_code": "SPC",
   "weight": 80.0
 }

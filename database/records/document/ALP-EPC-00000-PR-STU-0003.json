@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.828846Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.583923Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.995323Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -18,7 +18,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "CW thermal plume and outfall dispersion study",
+  "title": "CW Thermal Plume and Outfall Dispersion Study",
   "type_code": "STU",
   "weight": 160.0
 }

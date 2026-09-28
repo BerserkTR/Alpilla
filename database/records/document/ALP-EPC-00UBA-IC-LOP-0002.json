@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.071125Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:18:36.252783Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.394787Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 127,
   "status": "planned",
   "system": "00UBA",
-  "title": "Loop and connection diagrams - Electrical building and emergency power",
+  "title": "Electrical Building and Emergency Power - Loop and Connection Diagrams",
   "type_code": "LOP",
   "weight": 190.5
 }

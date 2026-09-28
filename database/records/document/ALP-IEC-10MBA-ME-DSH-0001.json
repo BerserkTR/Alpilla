@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.849084Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:37:42.247810Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.707303Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -18,6 +18,7 @@
     "scope_item:SC-006",
     "source:SRC-IECE-0006"
   ],
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
@@ -50,7 +51,7 @@
     "10MBU",
     "10MBV"
   ],
-  "title": "Gas turbine IE-9H.02 datasheet",
+  "title": "Gas Turbine Package incl. Auxiliaries - Supplier Certified Datasheets and Performance Curves",
   "type_code": "DSH",
   "vendor_ref": "IEC-ALP-DS-101",
   "weight": 61

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.642154Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.324868Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.872510Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00ACA",
-  "title": "Supplier operation and maintenance manual - 380 kV GIS",
+  "title": "380 kV GIS - Supplier Operation and Maintenance Manual",
   "type_code": "OMM",
   "weight": 12
 }

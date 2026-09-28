@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.913718Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.701404Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.606252Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 6,
   "status": "planned",
   "system": "00SGA",
-  "title": "P&ID - Fire water system",
+  "title": "Fire Water System - P&ID",
   "type_code": "PID",
   "weight": 620
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.920915Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.532029Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.553420Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,6 +11,7 @@
     "requirement:ER-01.02"
   ],
   "cwa": "CWA-01",
+  "description": "EPC tanks and headers",
   "discipline": "piping",
   "doc_type": "isometric",
   "ewp": "EWP-01-PI-01",
@@ -26,7 +27,7 @@
   "sheets": 80,
   "status": "planned",
   "system": "10HAN",
-  "title": "Isometric drawings - HRSG blowdown and drains (EPC tanks and headers)",
+  "title": "HRSG Blowdown and Drains - Isometric Drawings",
   "type_code": "ISO",
   "weight": 800
 }

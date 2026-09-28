@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.017994Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:12:57.985889Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.305275Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 14,
   "status": "planned",
   "system": "10UMA",
-  "title": "Instrument hook-up drawings - Power block - GT and HRSG",
+  "title": "Power Block - GT and HRSG - Instrument Hook-Up Drawings",
   "type_code": "HUP",
   "weight": 112
 }

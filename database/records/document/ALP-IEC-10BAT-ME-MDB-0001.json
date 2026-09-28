@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.609190Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:37:42.275595Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.854972Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -11,6 +11,7 @@
     "permit:PMT-016",
     "requirement:ER-15.04"
   ],
+  "description": "IEC",
   "discipline": "mechanical",
   "doc_type": "report",
   "id": "ALP-IEC-10BAT-ME-MDB-0001",
@@ -24,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10BAT",
-  "title": "Manufacturing record book and conformity certificates - Generator step-up transformers (IEC)",
+  "title": "Generator Step-Up Transformers - Manufacturing Record Book and Conformity Certificates",
   "type_code": "MDB",
   "weight": 6
 }

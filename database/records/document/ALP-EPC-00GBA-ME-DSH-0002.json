@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.076026Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:38:15.647996Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.437395Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-10.01"
   ],
+  "description": "5 items",
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
@@ -31,7 +32,7 @@
   "sheets": 5,
   "status": "planned",
   "system": "00GBA",
-  "title": "Datasheet - Seawater reverse osmosis: filter (5 items)",
+  "title": "Seawater Reverse Osmosis: Filters - Datasheet",
   "type_code": "DSH",
   "weight": 56
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.899024Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.256148Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.934256Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -21,6 +21,6 @@
   "quantity": "q_arch_sheets",
   "scope": "structure",
   "status": "agreed",
-  "title": "Architectural drawings - {name}",
+  "title": "{name} - Architectural Drawings",
   "type_code": "ARC"
 }

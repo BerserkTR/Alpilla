@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.243681Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:38:15.712830Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.616445Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -23,7 +23,7 @@
   "sheets": 3,
   "status": "planned",
   "system": "00QJB",
-  "title": "Safety / relief valve sizing and datasheets - Hydrogen and CO2 supply",
+  "title": "Hydrogen and CO2 Supply - Safety / Relief Valve Sizing and Datasheets",
   "type_code": "DSH",
   "weight": 26
 }

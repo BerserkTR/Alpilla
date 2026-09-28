@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.004272Z",
     "created_by": "EPCE",
-    "rev": 8,
-    "updated_at": "2026-09-28T17:16:42.944742Z",
+    "rev": 9,
+    "updated_at": "2026-09-28T18:38:48.264428Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-12.01"
   ],
+  "description": "6 items",
   "discipline": "i_and_c",
   "doc_type": "datasheet",
   "equipment": [
@@ -32,7 +33,7 @@
   "status": "planned",
   "system": "00CJA",
   "tender": true,
-  "title": "Datasheet - Plant DCS: control system",
+  "title": "Plant DCS: Control Systems - Datasheet",
   "type_code": "DSH",
   "weight": 66
 }

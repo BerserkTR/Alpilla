@@ -124,7 +124,7 @@ def test_release_control_engine_and_gate_cli(project, capsys):
     order = [r[1] for r in plan]
     assert order.index(DBR) < order.index(PID) < order.index("ALP-EPC-00PAC-PI-ISO-0001")
     row = plan[order.index(DBR)]
-    assert row[11] == "IFR" and row[12] == "A" and row[13] == "yes"          # next purpose, revision, can issue now
+    assert row[12] == "IFR" and row[13] == "A" and row[14] == "yes"          # next purpose, revision, can issue now
     imp = {r[0]: r for r in wb["Impacts"].iter_rows(min_row=5, values_only=True)}
     assert imp[DBR][3] >= 4 and "G-OWN-BDP" in imp[DBR][6]
 
@@ -140,3 +140,14 @@ def test_after_activity_and_as_late_as_possible(project):
     d = r.docs[LST]
     assert d.late_start < workflow.NO_NEED and d.start == d.late_start - workflow.ALAP_MARGIN
     assert d.driver == "as late as possible (need)"
+
+
+def test_titles_subject_type_and_description():
+    from engine.core import titles
+    assert titles.make("Technical specification - MV switchgear 10.5 kV", {"technical specification"}) == \
+        ("MV Switchgear 10.5 kV - Technical Specification", None)
+    assert titles.make("Process design criteria (design margins, API 520/521)") == \
+        ("Process Design Criteria", "design margins, API 520/521")
+    assert titles.make("GT generator gas system (H2/CO2) - System turnover dossier") == \
+        ("GT Generator Gas System - System Turnover Dossier", "H2/CO2")
+    assert titles.proper("stack 65 m with CEMS platform and silencer") == "Stack 65 m with CEMS Platform and Silencer"

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:38:15.618056Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:38:15.620757Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.181070Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -12,6 +12,7 @@
     "requirement:ER-10.01"
   ],
   "bdp": true,
+  "description": "rotating and static equipment codes, margins, NPSH, vibration, noise, materials and corrosion allowance",
   "discipline": "mechanical",
   "doc_type": "report",
   "id": "ALP-EPC-00000-ME-DBR-0001",
@@ -23,7 +24,7 @@
   "rule": "DL-DBR-ME|00000|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Mechanical design criteria (rotating and static equipment codes, margins, NPSH, vibration, noise, materials and corrosion allowance)",
+  "title": "Mechanical Design Criteria",
   "type_code": "DBR",
   "weight": 200
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.141271Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:00:25.812570Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.530237Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -24,7 +24,7 @@
   "start_after": "bids",
   "status": "planned",
   "system": "00SGY",
-  "title": "Technical bid evaluation - Fire detection and alarm system",
+  "title": "Fire Detection and Alarm System - Technical Bid Evaluation",
   "type_code": "RPT",
   "weight": 40
 }

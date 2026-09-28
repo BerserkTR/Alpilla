@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.181786Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.987511Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.573614Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 15,
   "status": "planned",
   "system": "00EKC",
-  "title": "Pipe support drawings - Fuel gas distribution to GT and auxiliary boiler",
+  "title": "Fuel Gas Distribution to GT and Auxiliary Boiler - Pipe Support Drawings",
   "type_code": "SUP",
   "weight": 90
 }

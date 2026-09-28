@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.847061Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:37:42.210402Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.047966Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -21,7 +21,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00BFT",
-  "title": "System commissioning procedure - LV transformers",
+  "title": "LV Transformers - System Commissioning Procedure",
   "type_code": "CMP",
   "weight": 40
 }

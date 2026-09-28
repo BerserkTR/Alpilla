@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.021538Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.425196Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.346105Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "20UMB",
-  "title": "Instrument location and I&C cable routing - Power block - ST and condenser",
+  "title": "Power Block - ST and Condenser - Instrument Location and I&C Cable Routing",
   "type_code": "ELY",
   "weight": 64
 }

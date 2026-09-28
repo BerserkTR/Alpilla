@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.981158Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:04:05.501745Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.501936Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "tender": true,
-  "title": "Technical specification - Civil and building works",
+  "title": "Civil and Building Works - Technical Specification",
   "type_code": "SPC",
   "weight": 80.0
 }

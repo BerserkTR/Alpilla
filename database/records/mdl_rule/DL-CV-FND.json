@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.897286Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:21:20.257546Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:39.935792Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -30,6 +30,6 @@
   "quantity": "q_fnd_sheets",
   "scope": "structure",
   "status": "agreed",
-  "title": "Foundation and underground drawings - {name}",
+  "title": "{name} - Foundation and Underground Drawings",
   "type_code": "FND"
 }

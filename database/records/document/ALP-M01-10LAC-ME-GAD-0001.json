@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.522477Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:17:56.571420Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.780817Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -28,7 +28,7 @@
   "sheets": 4,
   "status": "planned",
   "system": "10LAC",
-  "title": "Supplier GA drawings - Boiler feed pumps",
+  "title": "Boiler Feed Pumps - Supplier GA Drawings",
   "type_code": "GAD",
   "weight": 10.0
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.542199Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:16:43.016837Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.798783Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -34,7 +34,7 @@
   "sheets": 20,
   "status": "planned",
   "system": "00QCA",
-  "title": "Supplier instrument list and datasheets - Chemical dosing skid",
+  "title": "Chemical Dosing Skid - Supplier Instrument List and Datasheets",
   "type_code": "DSH",
   "weight": 8.0
 }

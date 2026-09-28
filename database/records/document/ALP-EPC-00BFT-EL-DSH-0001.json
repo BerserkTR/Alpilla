@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.001206Z",
     "created_by": "EPCE",
-    "rev": 8,
-    "updated_at": "2026-09-28T17:16:42.942919Z",
+    "rev": 9,
+    "updated_at": "2026-09-28T18:38:48.190186Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-11.04"
   ],
+  "description": "4 items",
   "discipline": "electrical",
   "doc_type": "datasheet",
   "equipment": [
@@ -30,7 +31,7 @@
   "status": "planned",
   "system": "00BFT",
   "tender": true,
-  "title": "Datasheet - LV transformers: transformer (2 items)",
+  "title": "LV Transformers - Datasheet",
   "type_code": "DSH",
   "weight": 46
 }

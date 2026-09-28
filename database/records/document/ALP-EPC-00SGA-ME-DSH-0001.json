@@ -2,14 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.998002Z",
     "created_by": "EPCE",
-    "rev": 8,
-    "updated_at": "2026-09-28T17:38:15.671939Z",
+    "rev": 10,
+    "updated_at": "2026-09-28T18:39:37.928830Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-10.01"
   ],
+  "description": "3 items",
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
@@ -21,8 +22,8 @@
   "inputs": [
     "ALP-EPC-00SGA-ME-CAL-0001",
     "ALP-EPC-00SGA-ME-SPC-0001",
-    "ALP-EPC-00GHA-ME-SPC-0001",
-    "ALP-EPC-00000-ME-DBR-0001"
+    "ALP-EPC-00000-ME-DBR-0001",
+    "ALP-EPC-00EGB-ME-SPC-0001"
   ],
   "mr": "MR-ME-020",
   "originator": "EPC",
@@ -31,7 +32,7 @@
   "status": "planned",
   "system": "00SGA",
   "tender": true,
-  "title": "Datasheet - Fire water system: pump (3 items)",
+  "title": "Fire Water System: Pumps - Datasheet",
   "type_code": "DSH",
   "weight": 36
 }

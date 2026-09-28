@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.896914Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:21:20.257921Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:39.936096Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -26,6 +26,6 @@
   "quantity": "q_pile_sheets",
   "scope": "structure",
   "status": "agreed",
-  "title": "Piling layout and pile schedule - {name}",
+  "title": "{name} - Piling Layout and Pile Schedule",
   "type_code": "FND"
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.031046Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:57.998924Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.328390Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -23,7 +23,7 @@
   "sheets": 45,
   "status": "planned",
   "system": "00QEA",
-  "title": "Instrument datasheets - Compressed air",
+  "title": "Compressed Air - Instrument Datasheets",
   "type_code": "DSH",
   "weight": 75.5
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.855105Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:37:42.279512Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.887993Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -21,6 +21,7 @@
     "tie_in:IF-37",
     "tie_in:IF-41"
   ],
+  "description": "IEC",
   "discipline": "process",
   "doc_type": "diagram",
   "id": "ALP-IEC-10MKA-PR-PID-0001",
@@ -41,7 +42,7 @@
     "10MKG",
     "20MKA"
   ],
-  "title": "Generator auxiliary P&IDs (H2/CO2, seal oil, stator water)",
+  "title": "Generators, Excitation, GCB and Busducts - Supplier P&IDs",
   "type_code": "PID",
   "vendor_ref": "IEC-ALP-PID-104",
   "weight": 16

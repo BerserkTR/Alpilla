@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.851332Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:12.772872Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:40:09.002643Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -19,7 +19,7 @@
   "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
   "source": "SRC-EPCE-0010",
   "status": "planned",
-  "title": "Power island interface requirements to the EPC",
+  "title": "Power Island Interface Requirements to the EPC",
   "type_code": "SPC",
   "vendor_ref": "IEC-ALP-REQ-001",
   "weight": 80.0

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.959057Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:04.822265Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.187819Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -26,7 +26,7 @@
   "sheets": 6,
   "status": "planned",
   "system": "00UQA",
-  "title": "Cable routing, tray and trench layouts - BOP utilities",
+  "title": "BOP Utilities - Cable Routing, Tray and Trench Layouts",
   "type_code": "ELY",
   "weight": 150
 }

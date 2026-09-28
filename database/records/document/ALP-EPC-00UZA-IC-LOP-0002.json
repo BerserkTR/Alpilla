@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.072280Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T17:19:40.063410Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T18:38:48.400876Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 30,
   "status": "planned",
   "system": "00UZA",
-  "title": "Loop and connection diagrams - Site-wide infrastructure",
+  "title": "Site-Wide Infrastructure - Loop and Connection Diagrams",
   "type_code": "LOP",
   "weight": 45.0
 }

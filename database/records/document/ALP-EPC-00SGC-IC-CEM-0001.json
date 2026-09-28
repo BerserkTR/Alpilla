@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:03.989524Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:12:57.973701Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.224763Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -22,7 +22,7 @@
   "sheets": 3,
   "status": "planned",
   "system": "00SGC",
-  "title": "Cause and effect matrix - Deluge, spray and foam systems",
+  "title": "Deluge, Spray and Foam Systems - Cause and Effect Matrix",
   "type_code": "CEM",
   "weight": 52
 }

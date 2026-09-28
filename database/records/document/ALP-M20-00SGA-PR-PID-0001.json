@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.685820Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.351857Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.895693Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -22,7 +22,7 @@
   "sheets": 12,
   "status": "planned",
   "system": "00SGA",
-  "title": "Supplier P&IDs - Fire pumps and fire protection systems",
+  "title": "Fire Pumps and Fire Protection Systems - Supplier P&IDs",
   "type_code": "PID",
   "weight": 40
 }

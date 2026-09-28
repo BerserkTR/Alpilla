@@ -2,11 +2,12 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.853044Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T17:37:42.257699Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T18:38:48.758127Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
+  "description": "IEC",
   "discipline": "civil",
   "doc_type": "calculation",
   "id": "ALP-IEC-10MBA-CV-CAL-0001",
@@ -26,7 +27,7 @@
   "systems": [
     "10MKA"
   ],
-  "title": "Foundation load data and anchor bolt drawings - GT and generator",
+  "title": "Gas Turbine Package incl. Auxiliaries - Supplier Foundation Loads and Anchor Bolt Drawings",
   "type_code": "CAL",
   "vendor_ref": "IEC-ALP-FL-101",
   "weight": 16

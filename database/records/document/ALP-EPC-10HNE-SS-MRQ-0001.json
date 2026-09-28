@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.980162Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.500575Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.501235Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -23,7 +23,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10HNE",
-  "title": "Material requisition - Stack 65 m with silencer",
+  "title": "Stack 65 m with Silencer - Material Requisition",
   "type_code": "MRQ",
   "weight": 24.0
 }

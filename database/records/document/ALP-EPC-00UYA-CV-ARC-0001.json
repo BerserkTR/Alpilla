@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.047455Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.378985Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.148997Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 16,
   "status": "planned",
   "system": "00UYA",
-  "title": "Architectural drawings - Administration building",
+  "title": "Administration Building - Architectural Drawings",
   "type_code": "ARC",
   "weight": 560
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.681414Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.349059Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.892345Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -22,7 +22,7 @@
   "sheets": 3,
   "status": "planned",
   "system": "00QCA",
-  "title": "Supplier P&IDs - Chemical dosing skid",
+  "title": "Chemical Dosing Skid - Supplier P&IDs",
   "type_code": "PID",
   "weight": 13
 }

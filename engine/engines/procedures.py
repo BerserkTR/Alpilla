@@ -44,7 +44,7 @@ def _short(parties, pid):
 class Procedures(Engine):
     name = "procedures"
     title = "Engineering procedures: KKS manual, document numbering and control, engineering and AWP execution plans (Word + PDF)"
-    version = "1.3.0"
+    version = "1.4.0"
     inputs = ["project", "document", "document_revision", "doc_type", "kks_key", "system", "equipment", "cwa", "cwp", "ewp",
               "mr", "activity", "wbs", "requirement", "scope_item", "party", "eng_resource", "clarification", "decision",
               "mdl_rule", "mdl_benchmark", "instrument", "line", "gate_rule", "milestone"]
@@ -100,7 +100,8 @@ class Procedures(Engine):
         plan = (f"IFR {self.res.d(t.ifr)}" + (f", IFA {self.res.d(t.ifa)}" if t.ifa is not None else "")
                 + f", IFC {self.res.d(t.ifc)}") if t else "-"
         dt = ctx.store.get("doc_type", rec.get("type_code") or "") or {}
-        rows = [("Document number", no), ("Revision", rev), ("Originator", _short(self.parties, "IEPC")),
+        rows = [("Document number", no)] + ([("Description", rec["description"])] if rec.get("description") else []) + [
+                ("Revision", rev), ("Originator", _short(self.parties, "IEPC")),
                 ("Review class", f"{rec.get('review') or dt.get('review') or '-'}" + (" (Basic Design Package)" if rec.get("bdp") else "")),
                 ("Planned issue (workflow timeline)", plan),
                 ("Basis", ", ".join(rec.get("basis_refs") or []) or "-")]

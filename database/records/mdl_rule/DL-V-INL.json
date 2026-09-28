@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.903617Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:21:20.276007Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:39.956492Z",
     "updated_by": "EPCE"
   },
   "discipline": "i_and_c",
@@ -26,6 +26,6 @@
   "review": "review",
   "scope": "mr",
   "status": "agreed",
-  "title": "Supplier instrument list and datasheets - {name}",
+  "title": "{name} - Supplier Instrument List and Datasheets",
   "type_code": "DSH"
 }

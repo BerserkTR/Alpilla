@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.902752Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.414036Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.247212Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00PAH",
-  "title": "Control narrative - Condenser tube cleaning",
+  "title": "Condenser Tube Cleaning - Control Narrative",
   "type_code": "CNR",
   "weight": 60.0
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.406676Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:17:56.556761Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:38:48.719276Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 40,
   "status": "planned",
   "system": "00EGA",
-  "title": "Supplier electrical schematics and wiring diagrams - LDO unloading and forwarding / treatment skids",
+  "title": "LDO Unloading and Forwarding / Treatment Skids - Supplier Electrical Schematics and Wiring Diagrams",
   "type_code": "WIR",
   "weight": 24.0
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.458811Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.169705Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.747430Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -25,7 +25,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00GHA",
-  "title": "Factory acceptance test procedure - Shop-built tanks and demin forwarding pumps",
+  "title": "Shop-Built Tanks and Demin Forwarding Pumps - Factory Acceptance Test Procedure",
   "type_code": "TST",
   "weight": 8
 }

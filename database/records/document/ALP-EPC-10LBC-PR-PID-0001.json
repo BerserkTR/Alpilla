@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.868197Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.705029Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.609738Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -27,7 +27,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "10LBC",
-  "title": "P&ID - Cold reheat piping",
+  "title": "Cold Reheat Piping - P&ID",
   "type_code": "PID",
   "weight": 120
 }

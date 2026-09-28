@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.206890Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.001709Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.586019Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 28,
   "status": "planned",
   "system": "20LCA",
-  "title": "Pipe support drawings - Main condensate piping",
+  "title": "Main Condensate Piping - Pipe Support Drawings",
   "type_code": "SUP",
   "weight": 168
 }

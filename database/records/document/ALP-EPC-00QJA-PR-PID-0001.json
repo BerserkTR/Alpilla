@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.909658Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T17:38:15.700044Z",
+    "rev": 8,
+    "updated_at": "2026-09-28T18:38:48.604833Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -25,7 +25,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00QJA",
-  "title": "P&ID - Nitrogen supply",
+  "title": "Nitrogen Supply - P&ID",
   "type_code": "PID",
   "weight": 220
 }

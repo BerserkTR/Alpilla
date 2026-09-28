@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.025686Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.376083Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.146176Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 8,
   "status": "planned",
   "system": "00UAC",
-  "title": "Architectural drawings - GIS building",
+  "title": "GIS Building - Architectural Drawings",
   "type_code": "ARC",
   "weight": 280
 }

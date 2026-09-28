@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.359985Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.095503Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.690531Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -21,7 +21,7 @@
   "rule": "DL-V-CAT|MR-PI-007|1",
   "sheets": 1,
   "status": "planned",
-  "title": "Supplier catalogues and material datasheets - Safety and relief valves",
+  "title": "Safety and Relief Valves - Supplier Catalogues and Material Datasheets",
   "type_code": "DSH",
   "weight": 6
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.828005Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T15:06:12.583307Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T18:40:08.994696Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -15,7 +15,7 @@
   ],
   "originator": "EPC",
   "status": "planned",
-  "title": "Plant water balance",
+  "title": "Plant Water Balance",
   "type_code": "STU",
   "weight": 160.0
 }

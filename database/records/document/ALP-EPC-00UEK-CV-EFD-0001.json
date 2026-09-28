@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:11:40.552795Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:11:40.561020Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.160704Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 2,
   "status": "planned",
   "system": "00UEK",
-  "title": "Equipment foundation drawings - Gas station structures",
+  "title": "Gas Station Structures - Equipment Foundation Drawings",
   "type_code": "EFD",
   "weight": 100
 }

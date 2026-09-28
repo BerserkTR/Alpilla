@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.031778Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T17:04:05.377949Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T18:38:48.147685Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -24,7 +24,7 @@
   "sheets": 10,
   "status": "planned",
   "system": "00UGA",
-  "title": "Architectural drawings - Water treatment building and basins",
+  "title": "Water Treatment Building and Basins - Architectural Drawings",
   "type_code": "ARC",
   "weight": 350
 }

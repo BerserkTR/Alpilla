@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.431957Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:04:05.144703Z",
+    "rev": 3,
+    "updated_at": "2026-09-28T18:38:48.730830Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,7 +22,7 @@
   "sheets": 1,
   "status": "planned",
   "system": "00PGA",
-  "title": "Supplier installation and erection manual - Closed cooling water heat exchangers, pumps, tank",
+  "title": "Closed Cooling Water Heat Exchangers, Pumps, Tank - Supplier Installation and Erection Manual",
   "type_code": "PRC",
   "weight": 6
 }
