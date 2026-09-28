@@ -2,21 +2,35 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:57.266405Z",
     "created_by": "OWNR",
-    "rev": 2,
-    "updated_at": "2026-09-27T17:45:59.630589Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T03:42:04.575159Z",
     "updated_by": "OWNR"
   },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_ref": "TQ-030",
   "available_by": "2027-02-28",
   "basis_refs": [
+    "decision:DEC-EPCE-0004",
     "source:SRC-OWNR-0005",
-    "source:SRC-OWNR-0010",
-    "source:SRC-OWNR-0009"
+    "source:SRC-OWNR-0009",
+    "source:SRC-OWNR-0010"
   ],
+  "boundary": "Owner: municipal main, connection, meter, backflow preventer and outlet valve in the meter pit at the north gate. Contractor: from the outlet flange (counter-flange, gasket, bolts) to storage and distribution.",
+  "category": "utility",
+  "connection": "DN150 PN16 EN 1092-1 flange at the outlet of the Owner's meter pit valve",
   "contract": "ALP-EPC-001",
   "contractor_side": "Potable water storage and distribution",
+  "density": 1000.0,
   "design_pressure": 10,
   "design_temperature": 30,
+  "flow_max": 20.0,
+  "flow_normal": 10.0,
+  "flow_unit": "m3/h",
   "id": "TP-W1",
+  "isolation": "Owner valves before and after the meter; Contractor isolation valve downstream.",
   "location": [
     200000,
     300000,
@@ -24,9 +38,23 @@
   ],
   "location_text": "North gate",
   "medium": "water",
-  "operating_conditions": "3 barg, 20 m3/h",
+  "metering": "Municipal meter in the pit.",
+  "needed_by": "2027-03-15",
+  "operating_conditions": "2.5-6.0 barg at the meter outlet, 20 m3/h (municipal supply), potable quality per the Turkish drinking water regulation.",
+  "operating_pressure_max": 6.0,
+  "operating_pressure_min": 2.5,
+  "operating_temperature_max": 25.0,
+  "operating_temperature_min": 5.0,
   "owner_side": "DN150 municipal main connection and meter, 3 barg, 20 m3/h",
+  "protection": "Owner backflow preventer (TS EN 1717).",
+  "quality_refs": [
+    "source:SRC-OWNR-0005"
+  ],
+  "related_scope": [
+    "SC-045"
+  ],
   "scope_item": "SC-043",
   "service": "Potable water",
-  "size": "DN150"
+  "size": "DN150",
+  "status": "agreed"
 }

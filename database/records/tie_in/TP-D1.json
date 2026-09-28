@@ -2,17 +2,29 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:57.269302Z",
     "created_by": "OWNR",
-    "rev": 2,
-    "updated_at": "2026-09-27T17:45:59.187229Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:42:02.790538Z",
     "updated_by": "OWNR"
   },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_ref": "TQ-030",
   "available_by": "2026-11-02",
   "basis_refs": [
+    "decision:DEC-EPCE-0004",
     "source:SRC-OWNR-0005",
     "source:SRC-OWNR-0010"
   ],
+  "boundary": "Owner: water authority consent for the discharge. Contractor: separate clean/oily drainage, oil interceptors (ER-09.06), outlet structure on the plot boundary and the channel protection within 5 m of the outlet.",
+  "category": "civil",
+  "connection": "Contractor outlet structure with energy dissipation at the western stream channel",
   "contract": "ALP-EPC-001",
   "contractor_side": "Site drainage, oil interceptors, outlet structure",
+  "density": 1000.0,
+  "flow_max": 2.0,
+  "flow_unit": "m3/s",
   "id": "TP-D1",
   "location": [
     0,
@@ -21,6 +33,12 @@
   ],
   "location_text": "Western stream channel (max 2 m3/s) or to sea",
   "medium": "storm water",
+  "needed_by": "2027-01-15",
   "owner_side": "Water authority consent",
-  "service": "Storm water discharge"
+  "quality_refs": [
+    "requirement:ER-09.06",
+    "source:SRC-OWNR-0007"
+  ],
+  "service": "Storm water discharge",
+  "status": "agreed"
 }

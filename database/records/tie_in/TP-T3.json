@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:42:00.914346Z",
+    "created_by": "OWNR",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:42:04.420655Z",
+    "updated_by": "OWNR"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_ref": "TQ-030",
+  "available_by": "2028-05-01",
+  "basis_refs": [
+    "source:SRC-OWNR-0005",
+    "source:SRC-OWNR-0010"
+  ],
+  "boundary": "Owner/TSO: signal list, IEC 60870-5-104 profile, TSO end equipment and the OPGW up to the joint box on the Contractor's gantry. Contractor: joint box, fibre to the telecom room, RTU, revenue meters and SCADA tests with the TSO.",
+  "category": "control",
+  "connection": "IEC 60870-5-104 over OPGW fibre (TP-E1) and a second path via the operator fibre (TP-T1)",
+  "contract": "ALP-EPC-001",
+  "contractor_side": "RTU, revenue meters, fibre from the gantry joint box, telecom equipment (SC-035)",
+  "id": "TP-T3",
+  "isolation": "-",
+  "location_text": "TSO RTU and metering cubicle in the control building",
+  "medium": "data",
+  "needed_by": "2028-06-01",
+  "owner_side": "TSO signal list and protocol, TSO end of the link, OPGW on the Owner's line",
+  "scope_item": "SC-035",
+  "service": "TSO SCADA and revenue metering link",
+  "status": "agreed"
+}

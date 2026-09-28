@@ -2,19 +2,33 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:57.265905Z",
     "created_by": "OWNR",
-    "rev": 3,
-    "updated_at": "2026-09-27T17:45:59.237129Z",
+    "rev": 7,
+    "updated_at": "2026-09-28T03:42:02.946405Z",
     "updated_by": "OWNR"
   },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_ref": "TQ-030",
   "available_by": "2028-07-15",
   "basis_refs": [
+    "decision:DEC-EPCE-0004",
     "source:SRC-OWNR-0005",
-    "source:SRC-OWNR-0010",
-    "source:SRC-OWNR-0009"
+    "source:SRC-OWNR-0009",
+    "source:SRC-OWNR-0010"
   ],
+  "boundary": "Owner (line contractor): OHL, conductors and OPGW strung to the tension insulator strings on the Contractor's line gantry, incl. the line clamps. Contractor: gantry, insulator strings and hardware, jumpers and downleads to the GIS outdoor bushings, surge arresters, OPGW joint box on the gantry and fibre to the telecom room.",
+  "category": "electrical",
+  "connection": "Line-side terminals of the Contractor's tension insulator strings on the gantry",
   "contract": "ALP-EPC-001",
   "contractor_side": "Gantry, GIS switchyard, protection and metering",
+  "flow_limited": true,
+  "flow_max": 640.0,
+  "flow_unit": "MW",
+  "hmb_metric": "net",
   "id": "TP-E1",
+  "isolation": "Contractor GIS line bay circuit breaker, line disconnector and line earthing switch; Owner/TSO breaker at the remote end (Kiyi substation).",
   "location": [
     30000,
     290000,
@@ -22,9 +36,27 @@
   ],
   "location_text": "Line gantry at the north-west corner",
   "medium": "electricity",
-  "operating_conditions": "360-410 kV; SCL 12-40 kA",
+  "metering": "Revenue metering class 0.2S on both line bays (SC-035), TSO approved.",
+  "needed_by": "2028-07-22",
+  "operating_conditions": "380 kV nominal, 420 kV highest; 360-410 kV normal, 342-420 kV up to 30 min; 49.0-51.0 Hz; short-circuit 12-40 kA (2029), 50 kA (2035 planning); connection capacity 640 MW export / 40 MW import (ALP-OWN-ELE-001).",
   "owner_side": "Double-circuit 380 kV OHL up to the dead-end tower, conductors to the gantry",
+  "protection": "Export limiter in the plant control system: 640 MW net at the 380 kV revenue meters (TQ-027); line differential 87L main 1 / main 2 with the remote end (plant end by the Contractor, remote end by the Owner), settings coordinated with the TSO (ER-18.02).",
+  "quality_refs": [
+    "source:SRC-OWNR-0006",
+    "requirement:ER-11.01"
+  ],
+  "related_scope": [
+    "SC-031",
+    "SC-048"
+  ],
+  "remarks": "Short-circuit values include the Alpilla generators' contribution (TSO, TQ-031). Reactive capability per ER-04.08 at the generator terminals (TQ-032).",
   "scope_item": "SC-030",
   "service": "Grid connection 380 kV",
-  "size": "380 kV, 2 circuits"
+  "short_circuit": 50.0,
+  "short_circuit_rating": 50.0,
+  "size": "380 kV, 2 circuits",
+  "status": "agreed",
+  "voltage_max": 420.0,
+  "voltage_min": 342.0,
+  "voltage_nominal": 380.0
 }

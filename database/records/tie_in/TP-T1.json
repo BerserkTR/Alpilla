@@ -2,19 +2,29 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:57.268203Z",
     "created_by": "OWNR",
-    "rev": 2,
-    "updated_at": "2026-09-27T17:45:59.586685Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:42:04.111833Z",
     "updated_by": "OWNR"
   },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_ref": "TQ-030",
   "available_by": "2027-06-30",
   "basis_refs": [
+    "decision:DEC-EPCE-0004",
     "source:SRC-OWNR-0005",
-    "source:SRC-OWNR-0010",
-    "source:SRC-OWNR-0009"
+    "source:SRC-OWNR-0009",
+    "source:SRC-OWNR-0010"
   ],
+  "boundary": "Owner: operators' fibre in ducts up to the boundary draw pits. Contractor: ducts and fibre from the draw pits to the telecom room, telecom equipment.",
+  "category": "control",
+  "connection": "2 x HDPE ducts with draw pits at the plot boundary (two operators)",
   "contract": "ALP-EPC-001",
   "contractor_side": "Site telecom network and SCADA links",
   "id": "TP-T1",
+  "isolation": "-",
   "location": [
     200000,
     300000,
@@ -22,7 +32,12 @@
   ],
   "location_text": "North gate",
   "medium": "fibre",
+  "needed_by": "2028-05-01",
   "owner_side": "Fibre ducts of two operators to the plot boundary",
+  "related_scope": [
+    "SC-044"
+  ],
   "scope_item": "SC-035",
-  "service": "Telecommunication"
+  "service": "Telecommunication",
+  "status": "agreed"
 }

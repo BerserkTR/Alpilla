@@ -2,20 +2,46 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.746314Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.746314Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:38.981327Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-05-01",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC supplies the dump devices in the condenser neck with weld ends; EPC supplies the IP/LP bypass downstream piping and the welds.",
+  "category": "process",
+  "connection": "butt-weld end at the condenser neck dump devices",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: condenser neck dump devices (IEC)",
+  "design_pressure": 15.0,
+  "design_temperature": 250.0,
+  "flow_max": 141.5,
+  "flow_unit": "kg/s",
   "id": "IF-14",
+  "isolation": "Bypass valves (IF-13).",
   "location_text": "condenser neck dump devices (IEC)",
   "medium": "steam",
-  "operating_conditions": "design 16 bar(a) / 250 degC; operating at SRC: start-up / trip",
+  "needed_by": "2028-06-01",
+  "operating_conditions": "Start-up and trip only; 100 % HRH + LP flow.",
+  "operating_pressure_max": 12.0,
+  "operating_pressure_min": -1.0,
+  "operating_temperature_max": 250.0,
+  "operating_temperature_min": 40.0,
   "owner_side": "EPC: IP/LP bypass downstream piping (EPC)",
+  "protection": "Condenser rupture discs (IEC) and bypass trip on high condenser pressure.",
+  "quality_refs": [
+    "requirement:ER-09.03",
+    "source:SRC-EPCE-0010"
+  ],
   "service": "Bypass steam to condenser",
-  "size": "2 x 36\" + 1 x 28\""
+  "size": "2 x 36 in + 1 x 28 in",
+  "status": "agreed"
 }

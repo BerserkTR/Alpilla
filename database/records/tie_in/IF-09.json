@@ -2,20 +2,48 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.745375Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.745375Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:38.195720Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-09-30",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0005",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC supplies the HRSG reheater outlet stop valve with pup piece; field weld, PWHT, NDT by EPC.",
+  "category": "process",
+  "connection": "butt-weld end, IEC pup piece",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: HRSG reheater outlet stop valve, weld end",
+  "design_pressure": 49.0,
+  "design_temperature": 610.0,
+  "flow_max": 125.0,
+  "flow_normal": 117.5,
+  "flow_unit": "kg/s",
+  "hmb_stream": 11,
   "id": "IF-09",
+  "isolation": "IEC HRH outlet stop valve.",
   "location_text": "HRSG reheater outlet stop valve, weld end",
   "medium": "steam",
-  "operating_conditions": "design 50 bar(a) / 610 degC; operating at SRC: 117.50 kg/s, 37.6 bar(a)",
+  "needed_by": "2028-10-16",
+  "operating_pressure_max": 38.5,
+  "operating_pressure_min": 17.0,
+  "operating_temperature_max": 600.0,
+  "operating_temperature_min": 550.0,
   "owner_side": "EPC: hot reheat piping (EPC)",
+  "protection": "IEC hot reheat safety valves set <= 48 bar(a).",
+  "quality_refs": [
+    "requirement:ER-09.03",
+    "source:SRC-EPCE-0010"
+  ],
   "service": "Hot reheat",
-  "size": "28\" (P91) weld end"
+  "size": "28 in P91 (SA-335 P91)",
+  "status": "agreed"
 }

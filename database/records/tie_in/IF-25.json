@@ -2,20 +2,47 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.748468Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.748468Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:40.954653Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-11-01",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC ammonia injection skid inlet flange; EPC storage, unloading and forwarding pumps.",
+  "category": "utility",
+  "connection": "ASME B16.5 CL150 RF flange (316L)",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: ammonia injection skid inlet (IEC)",
+  "design_pressure": 10.0,
+  "design_temperature": 40.0,
+  "flow_max": 0.5,
+  "flow_normal": 0.125,
+  "flow_unit": "t/h",
   "id": "IF-25",
+  "isolation": "EPC ESD valve (fail-closed) and manual valve.",
   "location_text": "ammonia injection skid inlet (IEC)",
   "medium": "NH4OH 24.5 %",
-  "operating_conditions": "design 10 barg / 40 degC; operating at SRC: 125 kg/h",
+  "needed_by": "2028-11-15",
+  "operating_conditions": "Aqueous ammonia 24.5 %: 125 kg/h on gas, 480 kg/h on LDO (TQ-IEC-018).",
+  "operating_pressure_max": 7.0,
+  "operating_pressure_min": 3.0,
+  "operating_temperature_max": 40.0,
+  "operating_temperature_min": 5.0,
   "owner_side": "EPC: storage, unloading, forwarding pumps (EPC)",
+  "protection": "EPC forwarding pump relief 9 barg.",
+  "quality_refs": [
+    "requirement:ER-06.03",
+    "source:SRC-EPCE-0010"
+  ],
   "service": "Aqueous ammonia",
-  "size": "1\""
+  "size": "1 in",
+  "status": "agreed"
 }

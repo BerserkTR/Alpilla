@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:43:51.062838Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:43:51.062838Z",
+    "updated_by": "EPCE"
+  },
+  "action": "Fill every tie_in field, run tie_in_register, raise a TQ for every WARN and for unmapped boundary-crossing streams; set status agreed only with agreed_by and the TQ reference",
+  "context": "IEC IF-001 Rev 0 gave the ST inlet rated pressures as design (IF-06/10/12 below the HRSG outlets feeding them), had no terminal point for the attemperation spray water (HMB streams 29/30), and put IF-03 at 16 barg while the water-injection stream was at 60 bar(a); the Owner register lacked the plot handover, TSO and emission data links",
+  "date": "2026-09-28",
+  "id": "L-EPCE-0001",
+  "lesson": "Only structured tie-in data (barg/degC ranges, capacity, voltage, short circuit, upstream + chain dp, dates) checked by the tie_in_register engine against all HMB cases exposes these gaps; unmapped HMB streams and uncovered scope items show missing points",
+  "status": "active",
+  "tags": [
+    "tie-in",
+    "interfaces",
+    "hmb",
+    "vendor"
+  ],
+  "title": "Tie-in conditions are numbers checked against the HMB and the upstream point, not text"
+}

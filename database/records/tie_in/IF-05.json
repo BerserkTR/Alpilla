@@ -2,20 +2,49 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.744397Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.744397Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:37.323999Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-09-30",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0005",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC supplies the HP SH outlet stop valve with a 300 mm pup piece (matching material and wall); the field weld, its PWHT and 100 % RT/UT are by EPC, witnessed by IEC.",
+  "category": "process",
+  "connection": "butt-weld end ASME B16.25, IEC pup piece 300 mm",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: HRSG HP SH outlet stop valve, weld end",
+  "design_pressure": 209.0,
+  "design_temperature": 610.0,
+  "flow_max": 105.0,
+  "flow_normal": 100.16,
+  "flow_unit": "kg/s",
+  "hmb_stream": 6,
   "id": "IF-05",
+  "isolation": "IEC HP SH outlet motor-operated stop valve and non-return valve.",
   "location_text": "HRSG HP SH outlet stop valve, weld end",
   "medium": "steam",
-  "operating_conditions": "design 210 bar(a) / 610 degC; operating at SRC: 100.16 kg/s, 187.0 bar(a), 600 degC",
+  "needed_by": "2028-10-16",
+  "operating_conditions": "Sliding pressure 60-193 bar(a); attemperation to 600 degC.",
+  "operating_pressure_max": 192.0,
+  "operating_pressure_min": 59.0,
+  "operating_temperature_max": 600.0,
+  "operating_temperature_min": 560.0,
   "owner_side": "EPC: main steam piping (EPC)",
+  "protection": "IEC HRSG HP SH safety valves set <= 196 bar(a), electromatic relief 194 bar(a).",
+  "quality_refs": [
+    "requirement:ER-09.03",
+    "source:SRC-EPCE-0010"
+  ],
   "service": "HP steam",
-  "size": "12\" (P91) weld end"
+  "size": "12 in P91 (SA-335 P91)",
+  "status": "agreed"
 }

@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:41:58.942637Z",
+    "created_by": "CONS",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:42:01.940001Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "tie_in/TP-A1",
+    "tie_in/TP-A2",
+    "tie_in/TP-CW1",
+    "tie_in/TP-CW2",
+    "tie_in/TP-D1",
+    "tie_in/TP-E1",
+    "tie_in/TP-E2",
+    "tie_in/TP-G1",
+    "tie_in/TP-L1",
+    "tie_in/TP-M1",
+    "tie_in/TP-R1",
+    "tie_in/TP-S1",
+    "tie_in/TP-T1",
+    "tie_in/TP-T2",
+    "tie_in/TP-T3",
+    "tie_in/TP-W1"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "TQ-030",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "Confirm the draft; TP-W1 6 barg max; add TP-A2, TP-T2, TP-T3; TP-A1 from 2027-02-01.",
+  "question": "The Consortium's tie-in register (draft) states for each terminal point the exact scope break, connection, isolation, protection, operating envelope, capacity and the dates needed from the Contractor's commissioning sequence. Please confirm, and provide the missing data: (a) TP-W1 maximum supply pressure; (b) TP-E2 prospective short-circuit current of the 34.5 kV supply; (c) SC-001 (site boundary) has no terminal point - propose TP-A2 plot handover incl. the 11 kV cable relocation by 2027-06-30; (d) SC-035 and SC-038 need Owner/TSO/authority input - propose TP-T3 (TSO SCADA and metering link) and TP-T2 (emission data link to the Ministry); (e) TP-A1 is available on 2027-03-01, the day it is needed (no float): earlier access requested.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-28",
+  "references": [
+    "tie_in:TP-W1",
+    "tie_in:TP-E2",
+    "tie_in:TP-A1",
+    "scope_item:SC-001",
+    "scope_item:SC-035",
+    "scope_item:SC-038",
+    "source:SRC-OWNR-0005"
+  ],
+  "responded_by": "OWNER",
+  "response": "Register confirmed with: (a) TP-W1 2.5-6.0 barg; (b) TP-E2 12.5 kA; (c) TP-A2 added (plot, 11 kV cable relocated by 2027-06-30, east strip E 370-400 until then not available); (d) TP-T2 and TP-T3 added; (e) TP-A1 lease from 2027-02-01. The conditions of all terminal points TP-A1..TP-W1 are agreed.",
+  "response_date": "2026-09-28",
+  "round": 5,
+  "status": "closed",
+  "subject": "Tie-in register: confirmation of the terminal point conditions"
+}

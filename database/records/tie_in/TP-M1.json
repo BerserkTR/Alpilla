@@ -2,17 +2,26 @@
   "_meta": {
     "created_at": "2026-09-27T17:17:25.194422Z",
     "created_by": "OWNR",
-    "rev": 3,
-    "updated_at": "2026-09-27T17:45:59.446667Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T03:42:03.600921Z",
     "updated_by": "OWNR"
   },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_ref": "TQ-030",
   "available_by": "2027-09-30",
   "basis_refs": [
+    "decision:DEC-EPCE-0004",
     "source:SRC-OWNR-0005",
     "source:SRC-OWNR-0007",
-    "source:SRC-OWNR-0010",
-    "source:SRC-OWNR-0009"
+    "source:SRC-OWNR-0009",
+    "source:SRC-OWNR-0010"
   ],
+  "boundary": "Owner: coastal permit (application by 2027-04-30 based on the Contractor's design). Contractor: design, construction, operation, removal and reinstatement of the barge landing; heavy haul road to the site.",
+  "category": "marine",
+  "connection": "Temporary ro-ro barge landing on the public coastal strip",
   "contract": "ALP-EPC-001",
   "contractor_side": "Design, construction, operation and removal of the landing; marine works only 1 October - 30 April",
   "id": "TP-M1",
@@ -23,6 +32,9 @@
   ],
   "location_text": "Public coastal strip south of the plot",
   "medium": "heavy transport",
+  "needed_by": "2027-11-01",
+  "operating_conditions": "Heaviest pieces: GT generator stator 340 t, GT GSU 268 t (transport weights, IEC data).",
   "owner_side": "Coastal permit: application by 2027-04-30 if the Contractor's permit design is received by 2027-03-31; permit targeted by 2027-09-30",
-  "service": "Temporary barge landing"
+  "service": "Temporary barge landing",
+  "status": "agreed"
 }

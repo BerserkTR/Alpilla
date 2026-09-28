@@ -2,13 +2,18 @@
   "_meta": {
     "created_at": "2026-09-27T18:46:46.204846Z",
     "created_by": "CONS",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:46:46.204846Z",
-    "updated_by": "CONS"
+    "rev": 2,
+    "updated_at": "2026-09-28T03:41:59.596153Z",
+    "updated_by": "OWNR"
   },
+  "changed_records": [
+    "tie_in/TP-E1"
+  ],
   "contract": "ALP-EPC-001",
   "discipline": "electrical",
   "id": "TQ-027",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
   "proposal": "Limiter set to 640 MW net.",
   "question": "Below about 5 degC the plant can export more than 640 MW (about 670 MW net at -4.8 degC). The TCS provides an export limiter at the HV metering point. Please confirm the export limit to be set (640 MW net at the 380 kV meters?) and whether the Owner intends to increase the connection capacity.",
   "raised_by": "IEPC",
@@ -17,7 +22,10 @@
     "design_parameter:DP-OWNR-0051",
     "requirement:ER-18.02"
   ],
+  "responded_by": "OWNER",
+  "response": "The export limiter shall be set to 640 MW net at the 380 kV revenue meters. The Owner has applied to the TSO for a connection capacity of 680 MW; if granted, the Owner will instruct the new set point as a variation.",
+  "response_date": "2026-09-28",
   "round": 4,
-  "status": "open",
+  "status": "closed",
   "subject": "Export above the 640 MW connection capacity in winter"
 }

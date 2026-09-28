@@ -2,20 +2,46 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.746092Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.746092Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:38.827607Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-02-01",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "Loose supply: IEC supplies HP, IP and LP bypass valves with desuperheaters (free issue to site); EPC installs them in its piping, supplies the spray water lines from the BFP discharge/interstage and CEP discharge and all welds.",
+  "category": "process",
+  "connection": "butt-weld ends; spray water flanges CL2500 (HP) / CL600 (IP, LP)",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: valves supplied loose by IEC (incl. desuperheating)",
+  "design_pressure": 214.0,
+  "design_temperature": 610.0,
+  "flow_max": 125.0,
+  "flow_unit": "kg/s",
   "id": "IF-13",
+  "isolation": "EPC isolation on the spray water lines; bypass valves close on loss of spray water (IEC logic).",
   "location_text": "valves supplied loose by IEC (incl. desuperheating)",
   "medium": "steam / water",
-  "operating_conditions": "design -; operating at SRC: start-up / trip",
+  "needed_by": "2028-03-01",
+  "operating_conditions": "Inlet side most onerous (HP bypass inlet); delivery of the loose valves by 2028-02-01 for piping erection.",
+  "operating_pressure_max": 192.0,
+  "operating_pressure_min": 1.0,
+  "operating_temperature_max": 600.0,
+  "operating_temperature_min": 150.0,
   "owner_side": "EPC: installation in EPC piping, spray water from BFP/CEP (EPC)",
+  "protection": "HP bypass downstream design 52 bar(a) (CRH); IP/LP bypass downstream 16 bar(a) (IF-14).",
+  "quality_refs": [
+    "requirement:ER-09.03",
+    "source:SRC-EPCE-0010"
+  ],
   "service": "HP / IP / LP bypass valves",
-  "size": "per valve datasheets"
+  "size": "HP 12 in / IP 28 in / LP 20 in (per valve datasheets)",
+  "status": "agreed"
 }

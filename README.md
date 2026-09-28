@@ -67,6 +67,7 @@ python -m engine validate && git add -A && git commit -m "..." && git push
 | `clarification_register` | technical query registers (xlsx), one per contract (Owner contract, IEPC-IEC agreement): rounds, answers, outcomes, price effects, changed records |
 | `requirements_matrix` | requirements traceability matrix (xlsx): requirement -> guarantee -> design data / equipment, coverage |
 | `hmb` | heat and mass balance per `hmb_case` (DXF + PDF A1 diagram, Excel): IAPWS-IF97 / ideal-gas enthalpies, node mass and energy balances, auxiliary loads, net output and heat rate, checks against guarantees and limits |
+| `tie_in_register` | tie-in / terminal point register (xlsx + docx + pdf): data card per point, checks of completeness, HMB envelope over all cases, Owner -> EPC -> IEC chain (pressure, design, flow, voltage, short circuit), dates and agreement |
 | `governance` | rules.md / ledger.md |
 
 Import: `python -m engine db import-pcf <file.pcf> --line <id> --reason "..."` reads routing from Plant 3D / E3D PCF.
@@ -102,6 +103,10 @@ items), the IEC-EPC interfaces (`IF-xx` tie-ins) and the EPC-IEC queries (`TQ-IE
 The plant heat balance is data: `hmb_case` (conditions, power-island outputs, `check_refs`), `process_stream` (node to node,
 from the vendor's heat balance) and `aux_load`; the `hmb` engine recomputes and checks it (`engine/core/hmb.py`,
 `engine/core/thermo.py`). The generators of the simulated vendor documents are in `temporary_codes/case_iec_documents/`.
+Tie-ins (`TP-` Owner/Contractor, `IF-` EPC/IEC) carry the exact scope break, connection, isolation, protection, design and
+operating envelope (barg / degC), capacity, electrical data, the HMB stream or power crossing the point (`hmb_stream`,
+`hmb_metric`), the upstream point with the agreed pressure loss (`upstream`, `chain_dp`), dates (`available_by`,
+`needed_by`) and the agreement (`status`, `agreed_by`, `agreed_ref`); `tie_in_register` checks them.
 
 ## Document control and planning
 `document` (MDR line with planned IFR/IFA/IFC dates and weight) -> `document_revision` (each issue: rev, purpose,

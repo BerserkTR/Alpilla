@@ -2,20 +2,47 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.748987Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.748987Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:41.456968Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-08-09",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC cooler inlet/outlet flanges; EPC CCW system.",
+  "category": "utility",
+  "connection": "ASME B16.5 CL150 RF flanges",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: IEC coolers inlet/outlet flanges",
+  "density": 1000.0,
+  "design_pressure": 10.0,
+  "design_temperature": 60.0,
+  "flow_max": 1160.0,
+  "flow_normal": 1055.0,
+  "flow_unit": "m3/h",
   "id": "IF-28",
+  "isolation": "EPC valves per consumer.",
   "location_text": "IEC coolers inlet/outlet flanges",
   "medium": "demin water + inhibitor",
-  "operating_conditions": "design 10 barg / 60 degC; operating at SRC: see IEC-ALP-REQ-001 table 5.1",
+  "needed_by": "2028-08-16",
+  "operating_conditions": "9,400 kW; supply <= 36 degC (ST TEWAC) / 38 degC (others).",
+  "operating_pressure_max": 6.0,
+  "operating_pressure_min": 3.0,
+  "operating_temperature_max": 36.0,
+  "operating_temperature_min": 20.0,
   "owner_side": "EPC: CCW system (EPC)",
+  "protection": "EPC CCW pump shut-off <= 8 barg.",
+  "quality_refs": [
+    "source:SRC-EPCE-0010"
+  ],
   "service": "Closed cooling water",
-  "size": "various"
+  "size": "various (DN50 - DN400)",
+  "status": "agreed"
 }

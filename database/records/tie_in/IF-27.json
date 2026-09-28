@@ -2,20 +2,53 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.748822Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.748822Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:41.281421Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-09-01",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0005",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC condenser water box inlet/outlet flanges; EPC CW piping (GRP), expansion joints, counter-flanges and bolts.",
+  "category": "process",
+  "connection": "EN 1092-1 PN6 flanges, rubber-lined water boxes",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: condenser water box flanges (2 inlets, 2 outlets)",
+  "density": 1025.0,
+  "design_pressure": 4.0,
+  "design_temperature": 40.0,
+  "flow_max": 38000.0,
+  "flow_normal": 36050.0,
+  "flow_unit": "m3/h",
+  "hmb_stream": 25,
   "id": "IF-27",
+  "isolation": "EPC butterfly valves per inlet and outlet half (condenser half-side operation).",
   "location_text": "condenser water box flanges (2 inlets, 2 outlets)",
   "medium": "seawater",
-  "operating_conditions": "design 4 barg / 40 degC; operating at SRC: 36,050 m3/h",
+  "needed_by": "2028-09-15",
+  "operating_conditions": "Design flow 38,000 m3/h (DEC-EPCE-0002); condenser pressure drop 0.62 bar clean.",
+  "operating_pressure_max": 3.0,
+  "operating_pressure_min": 0.5,
+  "operating_temperature_max": 35.0,
+  "operating_temperature_min": 5.0,
   "owner_side": "EPC: CW pipes (EPC)",
+  "protection": "EPC CW pump shut-off head <= 3.5 barg at the condenser; surge analysis for pump trip <= 4 barg; vacuum breaker at the outlet high point.",
+  "quality_refs": [
+    "source:SRC-OWNR-0002",
+    "requirement:ER-02.04"
+  ],
+  "related_scope": [
+    "SC-012"
+  ],
   "service": "Circulating water",
-  "size": "4 x DN1800"
+  "size": "4 x DN1800",
+  "status": "agreed"
 }

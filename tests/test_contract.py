@@ -96,10 +96,12 @@ def test_tie_ins_clarifications_and_appendices(project):
     s.create("source", {"id": "SRC-AAA-0001", "title": "Site report", "originator": "Owner Co (Owner)", "doc_ref": "OWN-001",
                         "file": "sources/owner/x.md"}, R)
     s.create("tie_in", {"id": "TP-G1", "contract": "K-1", "service": "Natural gas", "medium": "gas", "location": [380000, 300000, 14000],
+                        "category": "process", "status": "draft",
                         "location_text": "NE corner", "owner_side": "spur line", "contractor_side": "metering station",
                         "available_by": "2028-06-30", "basis_refs": ["source:SRC-AAA-0001"]}, R)
     with pytest.raises(StoreError, match="must be \\[x, y, z\\]"):
         s.create("tie_in", {"id": "TP-E1", "contract": "K-1", "service": "x", "medium": "x", "location": [1, 2],
+                            "category": "electrical", "status": "draft",
                             "location_text": "x", "owner_side": "x", "contractor_side": "x"}, R)
     s.create("clarification", {"id": "TQ-001", "contract": "K-1", "round": 1, "raised_by": "LEAD", "raised_date": "2026-09-18",
                                "discipline": "process", "subject": "Gas pressure", "question": "Is 40 barg possible?",
@@ -122,6 +124,7 @@ def test_tie_ins_clarifications_and_appendices(project):
     s3.create("scope_item", {"id": "DR-001", "contract": "CA-1", "area": "Steam", "item": "Main steam piping",
                              "design": "LEAD", "supply": "LEAD"}, R)
     s3.create("tie_in", {"id": "IF-05", "contract": "CA-1", "service": "HP steam", "medium": "steam", "location_text": "HRSG outlet",
+                         "category": "process", "status": "draft",
                          "owner_side": "piping", "contractor_side": "HRSG"}, R)
     s3.create("clarification", {"id": "TQ-MEMB-001", "contract": "CA-1", "round": 1, "raised_by": "LEAD", "raised_date": "2026-09-27",
                                 "discipline": "piping", "subject": "Piping pressure drop", "question": "Confirm 7 bar?",

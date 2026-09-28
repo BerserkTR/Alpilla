@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:42:00.712853Z",
+    "created_by": "OWNR",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:42:04.268584Z",
+    "updated_by": "OWNR"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_ref": "TQ-030",
+  "available_by": "2028-08-01",
+  "basis_refs": [
+    "source:SRC-OWNR-0005",
+    "source:SRC-OWNR-0010"
+  ],
+  "boundary": "Owner: registration with the Ministry of Environment continuous emission monitoring centre, the operator credentials and the data-link agreement. Contractor: CEMS (SC-038), data acquisition system, firewall and VPN router in the control building; scope break at the router's public network port.",
+  "category": "control",
+  "connection": "Authority continuous emission monitoring protocol over the public network (VPN), per the Ministry's data-link rules",
+  "contract": "ALP-EPC-001",
+  "contractor_side": "CEMS, data acquisition and the data link (SC-038) up to the Ministry server interface",
+  "id": "TP-T2",
+  "isolation": "-",
+  "location_text": "CEMS data logger in the control building",
+  "medium": "data",
+  "needed_by": "2028-10-02",
+  "owner_side": "Registration of the plant with the Ministry's continuous emission monitoring centre, credentials, connection agreement",
+  "scope_item": "SC-038",
+  "service": "Emission data link to the environmental authority",
+  "status": "agreed"
+}

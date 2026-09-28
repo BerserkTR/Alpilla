@@ -2,20 +2,51 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.744657Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.744657Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:37.624332Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-09-30",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0005",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC supplies the ST main stop valve with pup piece; field weld, PWHT and NDT by EPC.",
+  "category": "process",
+  "chain_dp": 6.0,
+  "connection": "butt-weld end ASME B16.25, IEC pup piece 300 mm",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: ST main stop valve inlet, weld end",
+  "design_pressure": 214.0,
+  "design_temperature": 610.0,
+  "flow_max": 105.0,
+  "flow_normal": 100.16,
+  "flow_unit": "kg/s",
+  "hmb_stream": 7,
   "id": "IF-06",
+  "isolation": "IEC main stop valve (ST trip).",
   "location_text": "ST main stop valve inlet, weld end",
   "medium": "steam",
-  "operating_conditions": "design 200 bar(a) / 605 degC; operating at SRC: 180.0 bar(a), 597 degC",
+  "needed_by": "2028-10-16",
+  "operating_conditions": "ST rated inlet 180 bar(a) / 598 degC per IEC 60045-1; main steam line pressure drop <= 6.0 bar at 105 kg/s.",
+  "operating_pressure_max": 186.0,
+  "operating_pressure_min": 52.0,
+  "operating_temperature_max": 600.0,
+  "operating_temperature_min": 560.0,
   "owner_side": "EPC: main steam piping (EPC)",
+  "protection": "Upstream HRSG HP SH safety valves (IF-05) <= 196 bar(a); MSV casing design 215 bar(a) / 610 degC (TQ-IEC-021 item 1).",
+  "quality_refs": [
+    "requirement:ER-09.03",
+    "source:SRC-EPCE-0010"
+  ],
   "service": "HP steam",
-  "size": "12\" (P91) weld end"
+  "size": "12 in P91 (SA-335 P91)",
+  "status": "agreed",
+  "upstream": "IF-05"
 }

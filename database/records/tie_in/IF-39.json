@@ -2,20 +2,37 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.751140Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.751140Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:43.366678Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-08-09",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "EPC DC and UPS distribution feeders up to the IEC panel terminals.",
+  "category": "electrical",
+  "connection": "IEC panel incoming terminals",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: TCS, protection, emergency oil pumps",
   "id": "IF-39",
+  "isolation": "EPC feeder MCB/fuse.",
   "location_text": "TCS, protection, emergency oil pumps",
   "medium": "electrical",
-  "operating_conditions": "design -; operating at SRC: see REQ-001 7.2",
+  "needed_by": "2028-08-16",
+  "operating_conditions": "GT 37 kW / ST 45 kW DC emergency oil pumps, 3 h autonomy; 45 kVA UPS for the TCS.",
   "owner_side": "EPC: 220 V DC and 230 V AC UPS (EPC)",
+  "protection": "EPC selective fusing.",
   "service": "DC and UPS",
-  "size": "-"
+  "size": "220 V DC / 230 V AC UPS",
+  "status": "agreed",
+  "voltage_max": 0.242,
+  "voltage_min": 0.187,
+  "voltage_nominal": 0.22
 }

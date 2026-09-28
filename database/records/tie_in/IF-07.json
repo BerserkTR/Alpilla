@@ -2,20 +2,48 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.744845Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.744845Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:37.849195Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-09-30",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0005",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC supplies the HP turbine exhaust nozzle with pup piece and the CRH non-return valve; field weld by EPC.",
+  "category": "process",
+  "connection": "butt-weld end, IEC pup piece",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: HP turbine exhaust, weld end",
+  "design_pressure": 51.0,
+  "design_temperature": 420.0,
+  "flow_max": 105.0,
+  "flow_normal": 100.16,
+  "flow_unit": "kg/s",
+  "hmb_stream": 8,
   "id": "IF-07",
+  "isolation": "IEC CRH non-return valve (power assisted).",
   "location_text": "HP turbine exhaust, weld end",
   "medium": "steam",
-  "operating_conditions": "design 52 bar(a) / 420 degC; operating at SRC: 40.2 bar(a), 366 degC",
+  "needed_by": "2028-10-16",
+  "operating_pressure_max": 41.0,
+  "operating_pressure_min": 18.0,
+  "operating_temperature_max": 395.0,
+  "operating_temperature_min": 340.0,
   "owner_side": "EPC: cold reheat piping (EPC)",
+  "protection": "Reheater safety valves on the HRSG (IEC).",
+  "quality_refs": [
+    "requirement:ER-09.03",
+    "source:SRC-EPCE-0010"
+  ],
   "service": "Cold reheat",
-  "size": "24\" (P22/A106) weld end"
+  "size": "24 in SA-335 P22",
+  "status": "agreed"
 }

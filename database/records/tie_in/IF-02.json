@@ -2,20 +2,55 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.743759Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.743759Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:36.771322Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-11-15",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0005",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC supplies the liquid fuel skid inlet flange; EPC supplies counter-flange, gasket, bolts, the last pipe support and the joint.",
+  "category": "process",
+  "connection": "ASME B16.5 CL150 RF flange",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: liquid fuel skid inlet flange",
+  "design_pressure": 16.0,
+  "design_temperature": 60.0,
+  "flow_max": 24.0,
+  "flow_normal": 22.41,
+  "flow_unit": "kg/s",
+  "hmb_stream": 27,
   "id": "IF-02",
+  "isolation": "EPC: LDO ESD valve (fail-closed) and manual valve with spectacle blind at the skid boundary. IEC: skid stop valve.",
   "location_text": "liquid fuel skid inlet flange",
   "medium": "LDO",
-  "operating_conditions": "design 16 barg / 60 degC; operating at SRC: 22.1 kg/s (LDO operation)",
+  "metering": "EPC Coriolis meter on the forwarding skid (consumption and performance tests).",
+  "needed_by": "2028-12-01",
+  "operating_conditions": "LDO treated by the EPC to the GT inlet limits (ER-03.07); filtration 5 um.",
+  "operating_pressure_max": 6.0,
+  "operating_pressure_min": 3.0,
+  "operating_temperature_max": 45.0,
+  "operating_temperature_min": 10.0,
   "owner_side": "EPC: LDO forwarding/treatment system",
+  "protection": "EPC forwarding pumps: discharge relief to tank set 12 barg (< 16 barg design).",
+  "quality_refs": [
+    "requirement:ER-03.07",
+    "source:SRC-OWNR-0004",
+    "source:SRC-EPCE-0010"
+  ],
+  "related_scope": [
+    "SC-053",
+    "SC-054"
+  ],
   "service": "LDO to GT",
-  "size": "6\" CL150"
+  "size": "6 in (DN150) CL150",
+  "status": "agreed"
 }

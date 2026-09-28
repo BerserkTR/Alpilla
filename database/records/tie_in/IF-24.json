@@ -2,20 +2,45 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.748297Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.748297Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:40.744677Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-09-01",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC sample nozzles with root valves; EPC sample lines, coolers and the SWAS.",
+  "category": "utility",
+  "connection": "socket-weld, IEC root valve",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: sample nozzles with root valves (IEC)",
+  "design_pressure": 234.0,
+  "design_temperature": 610.0,
+  "flow_max": 0.5,
+  "flow_unit": "kg/s",
   "id": "IF-24",
+  "isolation": "IEC root valve; EPC isolation at the SWAS.",
   "location_text": "sample nozzles with root valves (IEC)",
   "medium": "water/steam",
-  "operating_conditions": "design -; operating at SRC: -",
+  "needed_by": "2028-09-15",
+  "operating_conditions": "Sample points per IEC-ALP-REQ-001 section 4.",
+  "operating_pressure_max": 215.0,
+  "operating_pressure_min": -1.0,
+  "operating_temperature_max": 600.0,
+  "operating_temperature_min": 20.0,
   "owner_side": "EPC: sample lines, coolers, SWAS (EPC)",
+  "protection": "EPC sample line design = upstream design.",
+  "quality_refs": [
+    "source:SRC-EPCE-0010"
+  ],
   "service": "Sampling",
-  "size": "1/2\""
+  "size": "1/2 in",
+  "status": "agreed"
 }

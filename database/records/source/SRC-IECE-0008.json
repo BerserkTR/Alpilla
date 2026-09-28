@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:40:21.824458Z",
+    "created_by": "IECE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:40:21.824458Z",
+    "updated_by": "IECE"
+  },
+  "doc_ref": "IEC-ALP-IF-001",
+  "file": "sources/iec/IEC-ALP-IF-001_RevA.pdf",
+  "id": "SRC-IECE-0008",
+  "originator": "Imaginary Electric Company (consortium member, power island supplier)",
+  "received_date": "2026-09-28",
+  "remarks": "Rev A (TQ-IEC-021): ST valve casing design at IF-06/10/12, IF-45/IF-46 added, IF-03 at the skid inlet, IPB tap-off 200 kA, operating envelopes, scope breaks and dates agreed with the EPC. Supersedes Rev 0. Native Word sources/iec/IEC-ALP-IF-001_RevA.docx.",
+  "revision": "A",
+  "title": "Terminal points and interface data - power island - Rev A"
+}

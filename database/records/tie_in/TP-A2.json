@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:42:00.518462Z",
+    "created_by": "OWNR",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:42:02.261384Z",
+    "updated_by": "OWNR"
+  },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_ref": "TQ-030",
+  "available_by": "2026-11-02",
+  "basis_refs": [
+    "source:SRC-OWNR-0005",
+    "source:SRC-OWNR-0010"
+  ],
+  "boundary": "Owner: plot per land-use plan, levelled to +15.0 m with compaction records, boundary monuments, free of encumbrances except the buried 11 kV utility cable along the east boundary (E 390, N 0-300), which the Owner relocates outside the plot by 2027-06-30; the east strip E 370-400 is not available to the Contractor before then. Contractor: everything within the plot boundary from the access date, incl. demolition of the abandoned foundations (E 300-360, N 20-60) and the 10 m channel buffer.",
+  "category": "land_access",
+  "connection": "Plot boundary per land-use plan with boundary survey monuments",
+  "contract": "ALP-EPC-001",
+  "contractor_side": "All works within the plot from the access date",
+  "id": "TP-A2",
+  "location": [
+    200000,
+    150000,
+    15000
+  ],
+  "location_text": "Plot E 0-400, N 0-300 (plant grid), levelled to +15.0 m",
+  "medium": "land",
+  "needed_by": "2026-11-16",
+  "operating_conditions": "East strip E 370-400 available 2027-06-30 (needed by the Contractor 2027-09-01 for the gas station civil works).",
+  "owner_side": "Plot free of encumbrances, levelled to +15.0 m, boundary monuments; relocation of the buried 11 kV cable (E 390) by 2027-06-30",
+  "scope_item": "SC-001",
+  "service": "Site (plot) handover",
+  "status": "agreed"
+}

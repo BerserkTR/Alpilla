@@ -665,7 +665,58 @@ IF_ROWS = [
 ]
 
 
+def _if_rev_a():
+    from iec_if_revA import IF
+
+    def num(v, d=1):
+        return "-" if v is None else f"{v:,.{d}f}"
+
+    names = {r[0]: r for r in IF_ROWS[1:]}
+    names["IF-44"] = ["IF-44", "Condenser tube cleaning balls", "ball injection nozzles on the inlet water boxes",
+                      "tube cleaning system (EPC)", "seawater + balls"]
+    main = [["Tag", "Service", "IEC side", "EPC side", "Size / connection", "Design p / T", "Operating envelope at the point",
+             "Flow normal / max"]]
+    brk = [["Tag", "Scope break", "Isolation", "Protection", "Available / needed"]]
+    for tag, d in sorted(IF.items()):
+        n = names.get(tag) or [tag, d["service"], d["contractor_side"].replace("IEC: ", ""),
+                               d["owner_side"].replace("EPC: ", ""), d["medium"]]
+        if d.get("voltage_nominal") is not None:
+            env = f"{num(d['voltage_nominal'], 2)} kV ({num(d['voltage_min'], 2)}-{num(d['voltage_max'], 2)} kV)"
+            if d.get("short_circuit") is not None:
+                env += f"; Isc {num(d['short_circuit'], 0)} kA, rating {num(d.get('short_circuit_rating'), 0)} kA"
+            des = "-"
+        elif d.get("design_pressure") is not None:
+            env = (f"{num(d['operating_pressure_min'], 3 if abs(d['operating_pressure_min']) < 1 else 1)} to "
+                   f"{num(d['operating_pressure_max'], 2 if abs(d['operating_pressure_max']) < 1 else 1)} barg; "
+                   f"{num(d['operating_temperature_min'], 0)}-{num(d['operating_temperature_max'], 0)} degC")
+            des = f"{num(d['design_pressure'], 2 if d['design_pressure'] < 1 else 1)} barg / {num(d['design_temperature'], 0)} degC"
+        else:
+            env, des = "-", "-"
+        flow = (f"{num(d.get('flow_normal'), 2)} / {num(d['flow_max'], 2)} {d['flow_unit']}" if d.get("flow_max") is not None else "-")
+        main.append([tag, n[1], n[2], n[3], f"{d.get('size') or '-'}; {d.get('connection') or '-'}", des, env, flow])
+        brk.append([tag, d["boundary"], d.get("isolation") or "-", d.get("protection") or "-", f"{d['dates'][0]} / {d['dates'][1]}"])
+    return main, brk
+
+
 def if001():
+    if REV["rev"] != "0":
+        main, brk = _if_rev_a()
+        blocks = [
+            ("h", "1. Terminal points between IEC and the EPC"),
+            ("p", "Rev A incorporates TQ-IEC-021: ST valve casing design conditions at IF-06/IF-10/IF-12, new terminal points "
+                  "IF-45/IF-46 (attemperation spray water), IF-03 located at the water injection skid inlet (upstream of the "
+                  "IEC injection pumps), IPB tap-off short-circuit rating (IF-36), and the operating envelopes and dates "
+                  "agreed with the EPC. Pressures in barg (IEC bar(a) values less 1.013 bar). The operating envelope is the "
+                  "range the providing side maintains at the point in all PER-003 cases; the EPC side is designed for at least "
+                  "the design conditions stated."),
+            ("t", main, (1.1, 2.4, 3.6, 3.2, 3.8, 2.4, 4.6, 2.8), 6, "Terminal point data"),
+            ("h", "2. Scope break, isolation, protection and dates"),
+            ("p", "Available = date the providing side has its side ready; needed = date the receiving side needs it (EPC "
+                  "commissioning sequence DEC-EPCE-0004)."),
+            ("t", brk, (1.1, 10.2, 5.8, 6.4, 2.4), 6, "Scope break"),
+        ]
+        render("IEC-ALP-IF-001", "Terminal Points and Interface Data - Power Island", blocks, landscape=True)
+        return
     blocks = [
         ("h", "1. Terminal points between IEC and the EPC"),
         ("p", "Each terminal point is the physical boundary between the IEC supply (power island) and the EPC's balance of plant. "

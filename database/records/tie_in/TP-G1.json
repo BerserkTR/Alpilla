@@ -2,21 +2,35 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:57.260086Z",
     "created_by": "OWNR",
-    "rev": 2,
-    "updated_at": "2026-09-27T17:45:59.340409Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:42:03.282235Z",
     "updated_by": "OWNR"
   },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_ref": "TQ-030",
   "available_by": "2028-06-30",
   "basis_refs": [
+    "decision:DEC-EPCE-0004",
     "source:SRC-OWNR-0005",
-    "source:SRC-OWNR-0010",
-    "source:SRC-OWNR-0009"
+    "source:SRC-OWNR-0009",
+    "source:SRC-OWNR-0010"
   ],
+  "boundary": "Owner: spur line, tap valve station, remotely operable isolation valve and monolithic insulating joint; scope break at the downstream flange of the insulating joint. Contractor: counter-flange, gasket, stud bolts and everything downstream (gas receiving and metering station, SC-028). The Owner's cathodic protection ends at the insulating joint; plant earthing starts downstream.",
+  "category": "process",
+  "connection": "ASME B16.5 CL600 RF weld-neck flange, 16 in",
   "contract": "ALP-EPC-001",
   "contractor_side": "Gas receiving and metering station from the inlet flange",
+  "density": 0.7325,
   "design_pressure": 75,
   "design_temperature": 50,
+  "flow_max": 115000.0,
+  "flow_normal": 101600.0,
+  "flow_unit": "Sm3/h",
   "id": "TP-G1",
+  "isolation": "Owner boundary isolation valve (operated by the network operator); Contractor station inlet ESD valve.",
   "location": [
     380000,
     300000,
@@ -24,9 +38,25 @@
   ],
   "location_text": "North-east plot corner, flange at EL +14.0",
   "medium": "natural gas",
-  "operating_conditions": "45-70 barg normal/minimum, 40 barg exceptional (72 h/year); 5-25 degC; 115,000 Sm3/h firm",
+  "metering": "Fiscal metering by the Contractor in the station, approved by the network operator (ER-18.03).",
+  "needed_by": "2028-08-15",
+  "operating_conditions": "Normal 55-65 barg; minimum 45 barg for full load; exceptional 40 barg up to 72 h/year (GT load limited, ER-03.03); MOP 70 / MAOP 75 barg; 5-25 degC; 115,000 Sm3/h firm (density 0.7325 kg/Sm3 at 15 degC, reference gas).",
+  "operating_pressure_max": 70.0,
+  "operating_pressure_min": 45.0,
+  "operating_temperature_max": 25.0,
+  "operating_temperature_min": 5.0,
   "owner_side": "16-inch spur line (4.5 km), tap valve station, isolation valve and insulating joint",
+  "protection": "Owner pipeline MAOP 75 barg; the Contractor's station is designed for 75 barg up to the regulators.",
+  "quality_refs": [
+    "source:SRC-OWNR-0003",
+    "requirement:ER-03.06"
+  ],
+  "related_scope": [
+    "SC-027",
+    "SC-047"
+  ],
   "scope_item": "SC-028",
   "service": "Natural gas supply",
-  "size": "16 in (DN400), CL600"
+  "size": "16 in (DN400), CL600",
+  "status": "agreed"
 }

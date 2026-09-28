@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:40:36.267564Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:40:44.609137Z",
+    "updated_by": "EPCE"
+  },
+  "agreed_by": [
+    "IEPC",
+    "IEC"
+  ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-09-01",
+  "basis_refs": [
+    "source:SRC-IECE-0008",
+    "source:SRC-IECE-0005",
+    "decision:DEC-EPCE-0004"
+  ],
+  "boundary": "IEC reheat attemperator spray control station inlet; EPC spray water line from the BFP interstage.",
+  "category": "process",
+  "connection": "butt-weld end",
+  "contract": "ALP-CA-001",
+  "contractor_side": "IEC: reheat attemperator spray control station",
+  "design_pressure": 59.0,
+  "design_temperature": 200.0,
+  "flow_max": 3.0,
+  "flow_unit": "kg/s",
+  "hmb_stream": 30,
+  "id": "IF-46",
+  "isolation": "EPC isolation valve at the interstage header; IEC block valve.",
+  "location_text": "HRSG reheat attemperator spray control station inlet",
+  "medium": "feedwater",
+  "needed_by": "2028-09-15",
+  "operating_pressure_max": 48.0,
+  "operating_pressure_min": 20.0,
+  "operating_temperature_max": 170.0,
+  "operating_temperature_min": 130.0,
+  "owner_side": "EPC: spray water line from the BFP interstage",
+  "protection": "As IF-19 (interstage <= 58 bar(a)).",
+  "quality_refs": [
+    "requirement:ER-09.03",
+    "source:SRC-EPCE-0010"
+  ],
+  "service": "Reheat attemperation spray water",
+  "size": "2 in (DN50) CL600",
+  "status": "agreed"
+}

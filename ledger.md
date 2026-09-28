@@ -5,6 +5,11 @@
 Read before working. Add a lesson whenever something went wrong or a better way was found:
 `python -m engine db add lesson --set title="..." --set lesson="..." --reason "..."`
 
+### L-EPCE-0001 (2026-09-28) Tie-in conditions are numbers checked against the HMB and the upstream point, not text [tie-in, interfaces, hmb, vendor]
+- Context: IEC IF-001 Rev 0 gave the ST inlet rated pressures as design (IF-06/10/12 below the HRSG outlets feeding them), had no terminal point for the attemperation spray water (HMB streams 29/30), and put IF-03 at 16 barg while the water-injection stream was at 60 bar(a); the Owner register lacked the plot handover, TSO and emission data links
+- Lesson: Only structured tie-in data (barg/degC ranges, capacity, voltage, short circuit, upstream + chain dp, dates) checked by the tie_in_register engine against all HMB cases exposes these gaps; unmapped HMB streams and uncovered scope items show missing points
+- Action: Fill every tie_in field, run tie_in_register, raise a TQ for every WARN and for unmapped boundary-crossing streams; set status agreed only with agreed_by and the TQ reference
+
 ### L-SETUP-0008 (2026-09-27) Output staleness must follow code changes, and field names must not be SQL keywords [engine, tooling, database]
 - Context: An engine edit without a version bump left outputs looking current; a field named 'case' broke db list --where
 - Lesson: Manifests now carry a code fingerprint (engine module + code_deps); SQL errors are reported cleanly

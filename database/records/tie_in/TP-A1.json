@@ -2,15 +2,24 @@
   "_meta": {
     "created_at": "2026-09-27T17:17:25.426644Z",
     "created_by": "OWNR",
-    "rev": 2,
-    "updated_at": "2026-09-27T17:45:59.044926Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T03:42:02.102823Z",
     "updated_by": "OWNR"
   },
-  "available_by": "2027-03-01",
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_ref": "TQ-030",
+  "available_by": "2027-02-01",
   "basis_refs": [
+    "decision:DEC-EPCE-0004",
     "source:SRC-OWNR-0005",
     "source:SRC-OWNR-0010"
   ],
+  "boundary": "Owner: lease of the field until Taking-Over, free of charge to the Contractor. Contractor: fencing, surfacing, drainage, temporary facilities and restoration to the original condition.",
+  "category": "land_access",
+  "connection": "Fenced 5.04 ha field E 0-180, N 320-600",
   "contract": "ALP-EPC-001",
   "contractor_side": "Laydown, pre-assembly, contractor facilities; restoration at the end",
   "id": "TP-A1",
@@ -21,6 +30,9 @@
   ],
   "location_text": "E 0-180, N 320-600 (5.04 ha), north of the plot, west of the access road",
   "medium": "land",
+  "needed_by": "2027-03-01",
   "owner_side": "Lease of the 5 ha field until Taking-Over, free of charge to the Contractor",
-  "service": "Temporary construction area (5 ha)"
+  "remarks": "Lease starts 2027-02-01 (TQ-030).",
+  "service": "Temporary construction area (5 ha)",
+  "status": "agreed"
 }

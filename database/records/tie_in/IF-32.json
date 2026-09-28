@@ -2,20 +2,47 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.749653Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.749653Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:42.185388Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-09-30",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC gland steam header inlet; EPC auxiliary steam line from the auxiliary boiler.",
+  "category": "utility",
+  "connection": "butt-weld end",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: gland steam header inlet (IEC)",
+  "design_pressure": 15.0,
+  "design_temperature": 320.0,
+  "flow_max": 7.5,
+  "flow_normal": 4.5,
+  "flow_unit": "t/h",
   "id": "IF-32",
+  "isolation": "EPC isolation valve.",
   "location_text": "gland steam header inlet (IEC)",
   "medium": "steam",
-  "operating_conditions": "design 16 bar(a) / 320 degC; operating at SRC: 4.5 t/h at start-up",
+  "needed_by": "2028-10-16",
+  "operating_conditions": "4.5 t/h gland sealing, 3 t/h HRSG sparging (optional).",
+  "operating_pressure_max": 9.5,
+  "operating_pressure_min": 8.0,
+  "operating_temperature_max": 300.0,
+  "operating_temperature_min": 250.0,
   "owner_side": "EPC: auxiliary boiler steam (EPC)",
+  "protection": "EPC auxiliary steam header relief set 15 barg.",
+  "quality_refs": [
+    "requirement:ER-09.03",
+    "source:SRC-EPCE-0010"
+  ],
   "service": "Auxiliary steam",
-  "size": "4\""
+  "size": "4 in (DN100) CL300",
+  "status": "agreed"
 }

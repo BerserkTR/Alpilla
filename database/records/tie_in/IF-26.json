@@ -2,20 +2,51 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.748646Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.748646Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:41.112987Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-06-30",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0005",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC HRSG outlet transition duct flange (drilled); EPC fabric expansion joint, stack, silencer, CEMS and damper (if any).",
+  "category": "process",
+  "connection": "bolted flange with EPC fabric expansion joint",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: HRSG outlet transition flange",
+  "design_pressure": 0.05,
+  "design_temperature": 200.0,
+  "flow_max": 850.0,
+  "flow_normal": 796.7,
+  "flow_unit": "kg/s",
+  "hmb_stream": 5,
   "id": "IF-26",
+  "isolation": "None (no stack damper).",
   "location_text": "HRSG outlet transition flange",
   "medium": "flue gas",
-  "operating_conditions": "design +/- 50 mbar / 200 degC; operating at SRC: 796.7 kg/s, 80.5 degC",
+  "needed_by": "2028-09-15",
+  "operating_pressure_max": 0.03,
+  "operating_pressure_min": 0.0,
+  "operating_temperature_max": 120.0,
+  "operating_temperature_min": 60.0,
   "owner_side": "EPC: stack (EPC), CEMS (EPC)",
+  "protection": "HRSG casing design +/- 50 mbar.",
+  "quality_refs": [
+    "requirement:ER-14.02"
+  ],
+  "related_scope": [
+    "SC-010",
+    "SC-011"
+  ],
   "service": "Flue gas to stack",
-  "size": "D 9.2 m"
+  "size": "D 9.2 m",
+  "status": "agreed"
 }

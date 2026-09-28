@@ -2,20 +2,46 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.749313Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.749313Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:41.835251Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-09-01",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC lay-up / purge connections; EPC nitrogen supply.",
+  "category": "utility",
+  "connection": "ASME B16.5 CL150 RF flange",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: HRSG lay-up / generator purge connections",
+  "density": 1.25,
+  "design_pressure": 10.0,
+  "design_temperature": 50.0,
+  "flow_max": 1000.0,
+  "flow_unit": "Nm3/h",
   "id": "IF-30",
+  "isolation": "EPC valve + IEC valve.",
   "location_text": "HRSG lay-up / generator purge connections",
   "medium": "N2",
-  "operating_conditions": "design 10 barg; operating at SRC: lay-up",
+  "needed_by": "2028-09-15",
+  "operating_conditions": "99.9 % N2; 3,000 Nm3 per lay-up event.",
+  "operating_pressure_max": 8.0,
+  "operating_pressure_min": 5.0,
+  "operating_temperature_max": 40.0,
+  "operating_temperature_min": 5.0,
   "owner_side": "EPC: N2 supply (EPC)",
+  "protection": "EPC pressure regulator + relief 9 barg.",
+  "quality_refs": [
+    "source:SRC-EPCE-0010"
+  ],
   "service": "Nitrogen",
-  "size": "1\""
+  "size": "1 in",
+  "status": "agreed"
 }

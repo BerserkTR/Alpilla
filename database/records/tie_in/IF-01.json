@@ -2,20 +2,56 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.741535Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.741535Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:36.608110Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-08-31",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0005",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC supplies the performance gas heater inlet flange; EPC supplies the counter-flange, gasket (spiral wound, 316L/graphite), stud bolts and the pipe support nearest the flange, and makes the joint. Hydrotest up to the flange by each party; joint leak test with gas-in by EPC.",
+  "category": "process",
+  "chain_dp": 4.7,
+  "connection": "ASME B16.5 CL600 RF weld-neck flange",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: performance gas heater inlet flange",
+  "design_pressure": 63.0,
+  "design_temperature": 80.0,
+  "flow_max": 23.0,
+  "flow_normal": 20.67,
+  "flow_unit": "kg/s",
+  "hmb_stream": 2,
   "id": "IF-01",
+  "isolation": "EPC: gas station outlet ESD valve (fail-closed, SIL 2, closed by the TCS gas trip) and manual valve with spectacle blind upstream of IF-01. IEC: gas skid stop and control valves.",
   "location_text": "performance gas heater inlet flange",
   "medium": "natural gas",
-  "operating_conditions": "design 63 barg / 80 degC; operating at SRC: 20.67 kg/s, 37.0 barg, 25 degC",
+  "metering": "Fiscal metering (ultrasonic 2 x 100 % + gas chromatograph) in the EPC gas station; IEC skid flow meter for control only.",
+  "needed_by": "2028-09-18",
+  "operating_conditions": "Pressure rate of change <= 0.7 bar/s; >= 28 K superheat above hydrocarbon and water dew points; filtration 3 um absolute; below 36.5 barg the TCS load limiter applies (DEC-EPCE-0003).",
+  "operating_pressure_max": 41.0,
+  "operating_pressure_min": 36.5,
+  "operating_temperature_max": 40.0,
+  "operating_temperature_min": 5.0,
   "owner_side": "EPC: gas from EPC gas receiving/metering station",
+  "protection": "EPC gas station pressure control: monitor + active regulator, slam-shut set 46 barg, token relief 44 barg; downstream design 63 barg (EN 12186 / ASME B31.8).",
+  "quality_refs": [
+    "requirement:ER-03.06",
+    "source:SRC-OWNR-0003",
+    "source:SRC-EPCE-0010"
+  ],
+  "related_scope": [
+    "SC-029"
+  ],
   "service": "Natural gas to GT",
-  "size": "12\" ASME CL600 RF"
+  "size": "12 in (DN300) CL600",
+  "status": "agreed",
+  "upstream": "TP-G1"
 }

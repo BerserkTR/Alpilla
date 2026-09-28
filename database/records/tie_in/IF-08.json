@@ -2,20 +2,50 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.745035Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.745035Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:38.013338Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-09-30",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0005",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC supplies the HRSG reheater inlet with pup piece and the CRH safety valves; field weld by EPC.",
+  "category": "process",
+  "chain_dp": 1.0,
+  "connection": "butt-weld end, IEC pup piece",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: HRSG reheater inlet, weld end",
+  "design_pressure": 51.0,
+  "design_temperature": 420.0,
+  "flow_max": 105.0,
+  "flow_normal": 100.16,
+  "flow_unit": "kg/s",
+  "hmb_stream": 9,
   "id": "IF-08",
+  "isolation": "None at the HRSG inlet (CRH non-return valve at IF-07).",
   "location_text": "HRSG reheater inlet, weld end",
   "medium": "steam",
-  "operating_conditions": "design 52 bar(a) / 420 degC; operating at SRC: 39.4 bar(a), 365 degC",
+  "needed_by": "2028-10-16",
+  "operating_pressure_max": 41.0,
+  "operating_pressure_min": 17.0,
+  "operating_temperature_max": 395.0,
+  "operating_temperature_min": 340.0,
   "owner_side": "EPC: cold reheat piping (EPC)",
+  "protection": "IEC cold reheat safety valves set 50 bar(a).",
+  "quality_refs": [
+    "requirement:ER-09.03",
+    "source:SRC-EPCE-0010"
+  ],
   "service": "Cold reheat",
-  "size": "24\" weld end"
+  "size": "24 in SA-335 P22",
+  "status": "agreed",
+  "upstream": "IF-07"
 }

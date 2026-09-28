@@ -2,21 +2,47 @@
   "_meta": {
     "created_at": "2026-09-27T18:45:30.260749Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:45:30.260749Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:44.249434Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-09-01",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC ball injection nozzles on the condenser inlet water boxes; EPC tube cleaning system (ball strainers in the outlet lines, recirculation pumps, collectors).",
+  "category": "process",
+  "connection": "EN 1092-1 PN10 flanges",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: injection nozzles and outlet flanges on the water boxes",
+  "density": 1025.0,
+  "design_pressure": 4.0,
+  "design_temperature": 40.0,
+  "flow_max": 200.0,
+  "flow_unit": "m3/h",
   "id": "IF-44",
+  "isolation": "EPC valves at the nozzles.",
   "location_text": "condenser inlet water boxes (injection) and outlet water box flanges (strainers)",
   "medium": "seawater + sponge balls",
-  "operating_conditions": "CW pressure drop 0.62 bar (condenser, clean) + 0.15 bar per debris filter",
+  "needed_by": "2028-09-15",
+  "operating_pressure_max": 3.5,
+  "operating_pressure_min": 0.5,
+  "operating_temperature_max": 35.0,
+  "operating_temperature_min": 5.0,
   "owner_side": "EPC: ball recirculation units, strainers, debris filters, controls",
+  "protection": "As IF-27.",
+  "quality_refs": [
+    "source:SRC-OWNR-0002",
+    "requirement:ER-02.04"
+  ],
   "remarks": "added by TQ-IEC-005",
   "service": "Condenser tube cleaning balls",
-  "size": "2 x DN150 per inlet half; DN1800 outlet flanges"
+  "size": "2 x DN150 per inlet half",
+  "status": "agreed"
 }

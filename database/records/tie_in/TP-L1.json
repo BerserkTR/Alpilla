@@ -2,18 +2,34 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:57.269574Z",
     "created_by": "OWNR",
-    "rev": 2,
-    "updated_at": "2026-09-27T17:45:59.394567Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:42:03.440731Z",
     "updated_by": "OWNR"
   },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_ref": "TQ-030",
   "available_by": "2028-09-01",
   "basis_refs": [
+    "decision:DEC-EPCE-0004",
     "source:SRC-OWNR-0005",
     "source:SRC-OWNR-0010"
   ],
+  "boundary": "Owner (LDO supplier): road tankers delivered to the unloading bays, tanker hoses and coupling halves on the tanker, first fill of the storage tanks (SC-055). Contractor: unloading bays, coupling halves on the plant side, pumps, metering, storage and treatment.",
+  "category": "process",
+  "connection": "Dry-break tanker coupling at the Contractor's unloading bays",
   "contract": "ALP-EPC-001",
   "contractor_side": "Unloading station and storage",
+  "density": 835.0,
+  "design_pressure": 10.0,
+  "design_temperature": 50.0,
+  "flow_max": 150.0,
+  "flow_normal": 100.0,
+  "flow_unit": "m3/h",
   "id": "TP-L1",
+  "isolation": "Tanker bottom valve (supplier); Contractor unloading valve and ESD at each bay.",
   "location": [
     200000,
     300000,
@@ -21,7 +37,25 @@
   ],
   "location_text": "North gate (road tankers)",
   "medium": "light diesel oil",
+  "metering": "Contractor unloading flow meter per bay; tanker delivery notes (Owner supplier).",
+  "needed_by": "2028-11-01",
+  "operating_conditions": "Up to 25 trucks/day (about 30 m3 each); 4 bays at about 100 m3/h each unloading pump set; LDO per TS EN 590 based specification.",
+  "operating_pressure_max": 3.0,
+  "operating_pressure_min": 0.0,
+  "operating_temperature_max": 40.0,
+  "operating_temperature_min": 0.0,
   "owner_side": "LDO supply contract (up to 25 trucks/day), first fill",
+  "protection": "Contractor unloading pumps relief; bay earthing and overfill interlock (tanker earthing permissive).",
+  "quality_refs": [
+    "source:SRC-OWNR-0004",
+    "requirement:ER-03.07"
+  ],
+  "related_scope": [
+    "SC-055",
+    "SC-052"
+  ],
   "scope_item": "SC-052",
-  "service": "LDO supply"
+  "service": "LDO supply",
+  "size": "4 in tanker coupling (API RP 1004 bottom loading / dry-break)",
+  "status": "agreed"
 }

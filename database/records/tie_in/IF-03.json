@@ -2,20 +2,54 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.743990Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.743990Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:36.938449Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-11-15",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0005",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC supplies the water injection skid inlet flange (skid with high-pressure pumps by IEC); EPC supplies counter-flange, gasket, bolts and the demin water forwarding pumps.",
+  "category": "process",
+  "connection": "ASME B16.5 CL150 RF flange",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: water injection skid inlet",
+  "design_pressure": 16.0,
+  "design_temperature": 50.0,
+  "flow_max": 15.0,
+  "flow_normal": 13.44,
+  "flow_unit": "kg/s",
+  "hmb_check": "flow_temperature",
+  "hmb_stream": 28,
   "id": "IF-03",
+  "isolation": "EPC manual isolation valve and spectacle blind; IEC skid inlet valve.",
   "location_text": "water injection skid inlet",
   "medium": "demin water",
-  "operating_conditions": "design 16 barg / 50 degC; operating at SRC: 22.5 kg/s (LDO operation)",
+  "needed_by": "2028-12-01",
+  "operating_conditions": "Water/fuel ratio 0.60 on LDO (TQ-IEC-018). HMB stream 28 is at the IEC skid discharge (60 bar(a)); pressure at IF-03 is 3.0-6.0 barg.",
+  "operating_pressure_max": 6.0,
+  "operating_pressure_min": 3.0,
+  "operating_temperature_max": 40.0,
+  "operating_temperature_min": 10.0,
   "owner_side": "EPC: demin water storage/pumps",
+  "protection": "EPC demin forwarding pumps shut-off head <= 12 barg (< 16 barg design).",
+  "quality_refs": [
+    "requirement:ER-09.03",
+    "source:SRC-EPCE-0010"
+  ],
+  "related_scope": [
+    "SC-054"
+  ],
+  "remarks": "HMB pressure check not applicable: PER-003 stream 28 is downstream of the IEC injection pumps (TQ-IEC-021 item 3); the injection pump power is part of the IEC GT auxiliaries.",
   "service": "Demin water for water injection",
-  "size": "4\" CL150"
+  "size": "4 in (DN100) CL150",
+  "status": "agreed"
 }

@@ -2,20 +2,41 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.750329Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.750329Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:42.904466Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-08-09",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC IPB tap-off flange between GCB and GSU; EPC UAT, UAT busduct and flexible links.",
+  "category": "electrical",
+  "connection": "IPB tap-off flange (IEC), EPC MV busduct",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: IPB tap-off flange (GT and ST IPB)",
+  "flow_max": 31.5,
+  "flow_unit": "MVA",
   "id": "IF-36",
+  "isolation": "IEC tap-off disconnector link; EPC UAT MV circuit breaker.",
   "location_text": "IPB tap-off flange (GT and ST IPB)",
   "medium": "electrical",
-  "operating_conditions": "design -; operating at SRC: -",
+  "needed_by": "2028-08-16",
+  "operating_conditions": "Prospective 169 kA at the GT generator bus (96 kA via GSU + 73 kA generator); ST bus 125 kA. IPB tap-off rated 200 kA sym / 550 kA peak (TQ-IEC-021 item 4).",
   "owner_side": "EPC: UAT and MV busduct (EPC)",
+  "protection": "UAT differential and overcurrent by EPC, integrated in the IEC unit trip matrix.",
   "service": "UAT supply",
-  "size": "21 kV / 15.75 kV"
+  "short_circuit": 169.0,
+  "short_circuit_rating": 200.0,
+  "size": "21 kV (GT) / 15.75 kV (ST)",
+  "status": "agreed",
+  "voltage_max": 22.05,
+  "voltage_min": 19.95,
+  "voltage_nominal": 21.0
 }

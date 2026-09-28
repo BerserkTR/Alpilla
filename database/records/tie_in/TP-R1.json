@@ -2,16 +2,25 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:57.268431Z",
     "created_by": "OWNR",
-    "rev": 2,
-    "updated_at": "2026-09-27T17:45:59.493794Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T03:42:03.764968Z",
     "updated_by": "OWNR"
   },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_ref": "TQ-030",
   "available_by": "2026-11-02",
   "basis_refs": [
+    "decision:DEC-EPCE-0004",
     "source:SRC-OWNR-0005",
-    "source:SRC-OWNR-0010",
-    "source:SRC-OWNR-0009"
+    "source:SRC-OWNR-0009",
+    "source:SRC-OWNR-0010"
   ],
+  "boundary": "Owner: existing road to the state road up to the north gate. Contractor: site roads from the gate, road condition survey before and after construction and repair of construction damage; abnormal loads via TP-M1.",
+  "category": "land_access",
+  "connection": "Existing 6 m asphalt road at the north gate (E 200, N 300)",
   "contract": "ALP-EPC-001",
   "contractor_side": "Site roads and gate",
   "id": "TP-R1",
@@ -22,6 +31,9 @@
   ],
   "location_text": "North gate",
   "medium": "road",
+  "needed_by": "2026-11-16",
+  "operating_conditions": "6 m asphalt, state road bridges limited to 120 t gross vehicle weight; components above about 90 t via the barge landing TP-M1 (ALP-OWN-GEN-001 section 3).",
   "owner_side": "Existing 6 m asphalt road to the state road",
-  "service": "Road access"
+  "service": "Road access",
+  "status": "agreed"
 }

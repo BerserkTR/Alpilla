@@ -2,20 +2,50 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.745550Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.745550Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:38.351514Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-09-30",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0005",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC supplies the ST IP stop/control valve with pup piece; field weld, PWHT, NDT by EPC.",
+  "category": "process",
+  "chain_dp": 1.5,
+  "connection": "butt-weld end, IEC pup piece",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: ST IP stop-control valve inlet",
+  "design_pressure": 51.0,
+  "design_temperature": 610.0,
+  "flow_max": 125.0,
+  "flow_normal": 117.5,
+  "flow_unit": "kg/s",
+  "hmb_stream": 12,
   "id": "IF-10",
+  "isolation": "IEC IP stop valve (ST trip).",
   "location_text": "ST IP stop-control valve inlet",
   "medium": "steam",
-  "operating_conditions": "design 48 bar(a) / 605 degC; operating at SRC: 36.0 bar(a), 597 degC",
+  "needed_by": "2028-10-16",
+  "operating_pressure_max": 38.5,
+  "operating_pressure_min": 15.5,
+  "operating_temperature_max": 600.0,
+  "operating_temperature_min": 550.0,
   "owner_side": "EPC: hot reheat piping (EPC)",
+  "protection": "Upstream HRH safety valves (IF-09) <= 48 bar(a); IP valve casing design 52 bar(a) / 610 degC (TQ-IEC-021 item 1).",
+  "quality_refs": [
+    "requirement:ER-09.03",
+    "source:SRC-EPCE-0010"
+  ],
   "service": "Hot reheat",
-  "size": "28\" (P91) weld end"
+  "size": "28 in P91 (SA-335 P91)",
+  "status": "agreed",
+  "upstream": "IF-09"
 }

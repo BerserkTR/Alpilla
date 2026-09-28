@@ -2,19 +2,31 @@
   "_meta": {
     "created_at": "2026-09-27T17:13:57.266153Z",
     "created_by": "OWNR",
-    "rev": 2,
-    "updated_at": "2026-09-27T17:45:59.281538Z",
+    "rev": 5,
+    "updated_at": "2026-09-28T03:42:03.113475Z",
     "updated_by": "OWNR"
   },
+  "agreed_by": [
+    "OWNER",
+    "IEPC"
+  ],
+  "agreed_ref": "TQ-030",
   "available_by": "2027-02-28",
   "basis_refs": [
+    "decision:DEC-EPCE-0004",
     "source:SRC-OWNR-0005",
-    "source:SRC-OWNR-0010",
-    "source:SRC-OWNR-0009"
+    "source:SRC-OWNR-0009",
+    "source:SRC-OWNR-0010"
   ],
+  "boundary": "Owner (distribution company): 34.5 kV line/cable to the metering kiosk at the north gate, incl. the utility meter and load-break switch. Contractor: cable from the kiosk outgoing terminals, 34.5 kV ring main unit and construction substations.",
+  "category": "electrical",
+  "connection": "34.5 kV cable terminations at the outgoing side of the utility metering kiosk",
   "contract": "ALP-EPC-001",
   "contractor_side": "Construction substations and distribution",
+  "flow_max": 5.0,
+  "flow_unit": "MVA",
   "id": "TP-E2",
+  "isolation": "Utility load-break switch in the kiosk; Contractor RMU incoming switch with earthing switch.",
   "location": [
     200000,
     300000,
@@ -22,8 +34,21 @@
   ],
   "location_text": "North gate",
   "medium": "electricity",
+  "metering": "Utility meter in the kiosk (construction energy paid by the Contractor, SC-045).",
+  "needed_by": "2027-03-15",
+  "operating_conditions": "34.5 kV +/- 10 %, 5 MVA, prospective short-circuit 12.5 kA (distribution company).",
   "owner_side": "34.5 kV connection, 5 MVA, metering",
+  "protection": "Contractor RMU incoming circuit breaker (overcurrent / earth fault) graded with the utility.",
+  "related_scope": [
+    "SC-045"
+  ],
   "scope_item": "SC-045",
   "service": "Construction power",
-  "size": "34.5 kV / 5 MVA"
+  "short_circuit": 12.5,
+  "short_circuit_rating": 16.0,
+  "size": "34.5 kV / 5 MVA",
+  "status": "agreed",
+  "voltage_max": 37.95,
+  "voltage_min": 31.05,
+  "voltage_nominal": 34.5
 }

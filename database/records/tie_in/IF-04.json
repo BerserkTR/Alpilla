@@ -2,20 +2,48 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:14.744199Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-27T18:29:14.744199Z",
+    "rev": 4,
+    "updated_at": "2026-09-28T03:40:37.145575Z",
     "updated_by": "EPCE"
   },
-  "basis_refs": [
-    "source:SRC-EPCE-0008"
+  "agreed_by": [
+    "IEPC",
+    "IEC"
   ],
+  "agreed_ref": "TQ-IEC-021",
+  "available_by": "2028-09-15",
+  "basis_refs": [
+    "decision:DEC-EPCE-0004",
+    "source:SRC-IECE-0008"
+  ],
+  "boundary": "IEC wash skid inlet flange; EPC demin water line, counter-flange, gasket and bolts.",
+  "category": "utility",
+  "connection": "ASME B16.5 CL150 RF flange",
   "contract": "ALP-CA-001",
   "contractor_side": "IEC: wash skid inlet",
+  "density": 1000.0,
+  "design_pressure": 10.0,
+  "design_temperature": 50.0,
+  "flow_max": 10.0,
+  "flow_normal": 5.0,
+  "flow_unit": "m3/h",
   "id": "IF-04",
+  "isolation": "EPC manual valve; IEC skid inlet valve.",
   "location_text": "wash skid inlet",
   "medium": "demin water",
-  "operating_conditions": "design 10 barg / 50 degC; operating at SRC: 5 m3 per wash",
+  "needed_by": "2028-12-15",
+  "operating_conditions": "5 m3 per wash (off-line), tank filling at up to 10 m3/h.",
+  "operating_pressure_max": 6.0,
+  "operating_pressure_min": 3.0,
+  "operating_temperature_max": 40.0,
+  "operating_temperature_min": 10.0,
   "owner_side": "EPC: demin water",
+  "protection": "EPC demin pumps shut-off <= 8 barg.",
+  "quality_refs": [
+    "requirement:ER-09.03",
+    "source:SRC-EPCE-0010"
+  ],
   "service": "Compressor wash water",
-  "size": "2\" CL150"
+  "size": "2 in (DN50) CL150",
+  "status": "agreed"
 }
