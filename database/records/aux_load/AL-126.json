@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:30.195911Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:01:30.195911Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0010"
+  ],
+  "counts_as": "auxiliary",
+  "description": "ST generator auxiliaries (excitation, TEWAC)",
+  "hmb_case": "SRC-NG-GT80",
+  "id": "AL-126",
+  "method": "fixed",
+  "power": 260.0,
+  "status": "preliminary",
+  "supplier": "IEC"
+}

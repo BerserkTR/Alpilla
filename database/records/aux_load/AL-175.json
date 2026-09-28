@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:30.215459Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:12:56.552508Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "counts_as": "transformer_loss",
+  "description": "ST GSU losses at this case load",
+  "hmb_case": "SRC-NG-MEL",
+  "id": "AL-175",
+  "method": "fixed",
+  "power": 215.0,
+  "status": "preliminary",
+  "supplier": "IEC"
+}

@@ -1,14 +1,14 @@
 {
   "code_hash": "8c5d4e8f3eb8c59a",
-  "db_hash": "0e6c360eb75d1a7e",
+  "db_hash": "895fe5391b9eda89",
   "engine": "requirements_matrix",
   "engine_version": "1.0.0",
   "files": {
-    "ALP_requirements_matrix.xlsx": "f2cc3bdf617326f231c2382c3610d35d5968ea489dfa59287df89a1a65ffdf05"
+    "ALP_requirements_matrix.xlsx": "c84a817634ab73657835a0604219676c02f333113b4b6b506d98565a2aad5d68"
   },
-  "generated_at": "2026-09-27T18:48:59.820892Z",
+  "generated_at": "2026-09-28T03:17:05.442977Z",
   "generated_by": "SETUP",
-  "git_commit": "63a72d4",
+  "git_commit": "ca86373",
   "inputs": [
     "contract",
     "design_parameter",
@@ -19,7 +19,7 @@
     "requirement",
     "scope_item"
   ],
-  "inputs_hash": "8e875a4b1e374b26",
+  "inputs_hash": "2b137c5df807778c",
   "options": {},
   "warnings": [
     "37 of 150 requirements traced to database records (113 open - trace them as design data is added)"

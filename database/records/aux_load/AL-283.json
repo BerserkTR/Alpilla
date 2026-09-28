@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:30.262305Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:01:30.262305Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0010"
+  ],
+  "counts_as": "auxiliary",
+  "description": "Condenser vacuum pump (1 running)",
+  "hmb_case": "MAX-NG-100",
+  "id": "AL-283",
+  "method": "fixed",
+  "power": 75.0,
+  "status": "preliminary",
+  "supplier": "IEC"
+}

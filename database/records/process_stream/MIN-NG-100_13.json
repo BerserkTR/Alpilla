@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.132687Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.811495Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "LP steam at HRSG outlet",
+  "fluid": "steam",
+  "from_node": "HRSG",
+  "hmb_case": "MIN-NG-100",
+  "id": "MIN-NG-100_13",
+  "mass_flow": 12.266,
+  "number": 13,
+  "pressure": 5.522,
+  "status": "preliminary",
+  "temperature": 251.11,
+  "to_node": "PIPE"
+}

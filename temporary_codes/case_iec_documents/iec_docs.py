@@ -4,6 +4,7 @@ iec_data.json (iec_model.py), so datasheets, heat balance and interface data are
 from __future__ import annotations
 
 import json
+import os
 import re
 import subprocess
 import sys
@@ -22,7 +23,8 @@ OUT.mkdir(parents=True, exist_ok=True)
 VENDOR = "Imaginary Electric Company"
 DIV = "Power Generation Division - Plant Integration"
 RED = RGBColor(0x8B, 0x1A, 0x1A)
-DATE = "2026-09-27"
+import os as _os
+DATE = _os.environ.get("IEC_DATE", "2026-09-27")
 P, PS, ST = D["perf"], {s["no"]: s for s in D["streams"]}, D["pressures"]
 AMB = {r["T_amb"]: r for r in D["ambient"]}
 
@@ -283,6 +285,11 @@ def per001():
               f"Drum saturation temperatures HP/IP/LP: {P['Tsat']['HP_drum']} / {P['Tsat']['IP_drum']} / {P['Tsat']['LP_drum']} degC. "
               f"Steam turbine section outputs (shaft): HP {P['P_hp']:.2f} MW, IP {P['P_ip']:.2f} MW, LP {P['P_lp']:.2f} MW; "
               f"LP exhaust moisture {100 - P['x_ueep'] * 100:.2f} %."),
+    ] + ([("p", "**Rev B (TQ-IEC-016):** the HRSG arrangement of Rev 0/Rev A placed the IP superheater after HP economiser 2 and "
+                "the LP superheater after HP economiser 1 / IP economiser, where the gas is colder than the steam outlet "
+                "(temperature cross). Corrected arrangement: IP superheater directly after the HP evaporator, LP superheater "
+                "directly after the IP evaporator; LP steam temperature 250 degC. Rated off-design heat balances: IEC-ALP-PER-003.")]
+         if REV["rev"] not in ("0", "A") else []) + [
         ("pb",),
         ("h", "6. Performance at other ambient conditions and part load (estimates)"),
         ("p", "Base load on natural gas, seawater temperature as shown, other conditions as SRC. GT from the IE-9H.02 correction "
@@ -315,6 +322,13 @@ def per001():
     render("IEC-ALP-PER-001", "Power Island Thermal Performance Data (Heat Balance)", blocks, landscape=True)
 
 
+def _ldo_exhaust():
+    """GT exhaust flow / temperature on LDO from the case book (IEC_CASES)."""
+    C = json.loads(Path(os.environ["IEC_CASES"]).read_text())
+    s4 = next(s for c in C["cases"] if c["id"] == "SRC-LDO-100" for s in c["streams"] if s["no"] == 4)
+    return [f(s4["mass_flow"]), f(s4["temperature"])]
+
+
 def ds101():
     gt = PS
     blocks = [
@@ -335,7 +349,8 @@ def ds101():
                ["ISO 2314 (15 degC, 60 %, 1013.25 mbar, no inlet/outlet losses), gas", "432.0", "8,240", "43.69", "801.0", "638.0"],
                ["SRC-NG-100 (10/36 mbar losses, fuel 215 degC)", f(P["gt_P_gen"]), f(P["gt_HR"], 0), f(P["gt_eta"] * 100, 2),
                 f(gt[4]["mass_flow"]), f(gt[4]["temperature"])],
-               ["SRC, LDO with water injection (base load)", "395.0", "8,650", "41.62", "812.0", "622.0"],
+               ["SRC, LDO with water injection (base load)"] + (["395.0", "8,650", "41.62", "812.0", "622.0"] if REV["rev"] == "0" else
+                                                                 ["400.5 (TQ-IEC-018)", "8,640", "41.67"] + _ldo_exhaust()),
                ["Maximum output (cold ambient, generator/shaft limit)", "470.0", "-", "-", "-", "-"]],
          (6.6, 1.8, 2.2, 1.8, 1.8, 1.8), 8),
         ("h", "3. Fuel requirements (at IEC terminal points, see IEC-ALP-IF-001)"),
@@ -352,9 +367,13 @@ def ds101():
                                 "station (electric or water-bath heater, gas >= 28 K superheat)", "-"]], (3.2, 8.2, 6.0), 8),
         ("h", "4. Emissions and noise"),
         ("t", [["Parameter", "Natural gas", "LDO"],
-               ["NOx at GT outlet (15 % O2, dry), 40-100 % load", "<= 50 mg/Nm3", "<= 90 mg/Nm3 (water/fuel ratio 1.02)"],
+               ["NOx at GT outlet (15 % O2, dry), 40-100 % load", "<= 50 mg/Nm3",
+                "<= 90 mg/Nm3 (water/fuel ratio 1.02)" if REV["rev"] == "0" else
+                "<= 150 mg/Nm3 (water/fuel ratio 0.60); IEC SCR sized for 67 % removal on LDO -> <= 50 mg/Nm3 at the stack"],
                ["CO at GT outlet, 40-100 % load", "<= 20 mg/Nm3", "<= 25 mg/Nm3"],
-               ["Minimum emissions-compliant GT load (MECL)", "40 % GT load (with SCR)", "50 % GT load"],
+               ["Minimum emissions-compliant GT load (MECL)",
+                "40 % GT load (with SCR)" if REV["rev"] == "0" else "30 % GT load with the DLN-H2 low-load extension (TQ-IEC-019)",
+                "50 % GT load"],
                ["Near-field noise, enclosure and inlet", "85 dB(A) at 1 m", "85 dB(A) at 1 m"]], (8.0, 4.7, 4.7), 8.5),
         ("h", "5. Operation and maintenance"),
         ("t", [["Item", "Data"],
@@ -468,13 +487,19 @@ def ds104():
                ["Cycling", "250 starts/year, 30-year fatigue life per EN 12952-3 (hot 180, warm 60, cold 10 per year)"],
                ["Gas side pressure loss at SRC", "30 mbar (incl. SCR and CO catalyst, clean)"],
                ["Outlet to stack", "HRSG outlet transition duct flange, 9.2 m diameter (stack by EPC, IF-26)"],
-               ["SCR", "V2O5/TiO2 honeycomb at 360 - 375 degC (between HP evaporator and HP economiser 2), aqueous ammonia "
+               ["SCR", ("V2O5/TiO2 honeycomb at 360 - 375 degC (between HP evaporator and HP economiser 2), aqueous ammonia "
+                        if REV["rev"] == "0" else
+                        "V2O5/TiO2 honeycomb at 360 - 370 degC (between IP superheater and HP economiser 2), aqueous ammonia ") + 
                        "24.5 % injection grid (IEC); design NOx at HRSG outlet 22 mg/Nm3 (15 % O2); NH3 slip <= 3 mg/Nm3; "
                        "catalyst life 24,000 h"],
                ["CO catalyst", "Pt/Pd oxidation catalyst at 450 degC (after HP superheater/reheater)"],
-               ["Aqueous ammonia consumption", "125 kg/h at base load on gas (24.5 % solution); 190 kg/h on LDO"],
+               ["Aqueous ammonia consumption", "125 kg/h at base load on gas (24.5 % solution); 190 kg/h on LDO" if REV["rev"] in ("0", "A")
+                else "125 kg/h at base load on gas; 480 kg/h on LDO (GT-outlet NOx 150 mg/Nm3, 67 % removal, TQ-IEC-018)"],
                ["Stack damper", "not included (stack by EPC)"]], (4.5, 12.9), 8.5),
         ("h", "2. Thermal data at SRC-NG-100"),
+    ] + ([("p", "**Rev B (TQ-IEC-018):** SCR catalyst volume increased by 35 % and ammonia injection grid resized for LDO operation "
+                "with GT-outlet NOx up to 150 mg/Nm3 (water/fuel ratio 0.60); ammonium bisulphate protection: minimum SCR inlet "
+                "temperature 330 degC on LDO.")] if REV["rev"] not in ("0", "A") else []) + [
         ("t", [["Circuit", "Flow kg/s", "Outlet pressure bar(a)", "Outlet temperature degC", "Drum pressure bar(a)",
                 "Design pressure bar(a)"],
                ["HP superheater", f(PS[6]["mass_flow"], 2), f(PS[6]["pressure"], 1), f(PS[6]["temperature"], 1), f(ST["HP_drum"], 1), "210"],
@@ -818,13 +843,70 @@ def req001():
            blocks)
 
 
-DOCS = {"PER": per001, "DS101": ds101, "DS102": ds102, "DS103": ds103, "DS104": ds104, "DS105": ds105, "DS106": ds106,
+def per003():
+    C = json.loads(Path(os.environ["IEC_CASES"]).read_text())
+    cases = C["cases"]
+    summ = [["Case", "Ambient degC", "RH %", "Seawater degC", "Fuel", "GT load %", "GT MW", "GT HR kJ/kWh", "Exhaust kg/s",
+             "Exhaust degC", "ST MW", "Gross MW", "Stack degC", "Condenser mbar", "Spray HP/RH kg/s", "Water inj. kg/s"]]
+    for c in cases:
+        s4 = next(s for s in c["streams"] if s["no"] == 4)
+        summ.append([c["id"], f(c["amb"]["T_amb"]), f(c["amb"]["RH"], 0), f(c["amb"]["T_sw"]), c["fuel"].upper(), f(c["gt_load"]),
+                     f(c["gt"]["P_gen"] / 1000), f(c["gt"]["HR"], 0), f(s4["mass_flow"]), f(s4["temperature"]), f(c["st_output"] / 1000, 2),
+                     f((c["gt"]["P_gen"] + c["st_output"]) / 1000, 2), f(c["T_stack"]), f(c["p_cond"]),
+                     f"{c['sprays'][0]:.2f} / {c['sprays'][1]:.2f}", f(c["water_inj"], 2) if c["water_inj"] else "-"])
+    blocks = [
+        ("h", "1. Purpose and method"),
+        ("p", "Rated off-design heat balances of the IEC power island for the EPC plant heat and mass balance (all operating and "
+              "guarantee cases agreed in TQ-IEC-017). Expected values, new and clean."),
+        ("ul", ["Design point and surfaces: IEC-ALP-PER-001 Rev B (corrected HRSG arrangement, EPC piping values). The model "
+                "reproduces the Rev B design point exactly.",
+                "HRSG: fixed surface per section (UA from the design point, gas-side scaling with flow^0.6), HP superheater and "
+                "reheater, HP economiser 1 and IP economiser as parallel banks with the design gas split; economisers limited to "
+                "2 K below saturation; HRSG casing loss 0.4 % of gas-side duty.",
+                "Steam turbine: sliding pressure (Stodola cone law) above 60 bar(a) HP; section efficiencies reduced off design "
+                "(1 - 0.3 (1 - m/m_design)^2); LP exhaust loss proportional to the square of the exhaust volume flow (minimum 30 %).",
+                "Attemperation to 600 degC main and reheat steam with spray water from the BFP discharge / interstage (streams 29 "
+                "and 30 where in service).",
+                "Condenser: fixed surface (HEI cleanliness 0.85), constant CW flow as at SRC; seawater cp 4.07 kJ/kg K.",
+                "GT: IE-9H.02 correction curves; output limit 470 MW (generator/shaft) below about -1 degC; part load by IGV "
+                "(exhaust temperature held at 640 degC down to 60 % load); minimum emissions-compliant load 40 % GT load.",
+                f"LDO: {C['ldo']['formula']} pseudo-formula, LHV {C['ldo']['LHV']} MJ/kg, 30 degC at IF-02; water injection "
+                f"{C['ldo']['water_fuel']} kg water per kg fuel at 60 bar(a), 30 degC (IF-03); performance gas heater out of service.",
+                "Case SRC-NG-060: GT load found by IEC so that the plant net output is 60 % of case SRC-NG-100 using the EPC "
+                "auxiliary-load model (DEC-EPCE-0001); the EPC HMB confirms the achieved load."]),
+        ("h", "2. Case summary"),
+        ("t", summ, (2.3, 1.2, 0.9, 1.3, 0.9, 1.1, 1.2, 1.4, 1.4, 1.3, 1.2, 1.3, 1.2, 1.4, 1.6, 1.3), 6.5, "Case summary"),
+        ("p", "GT output at the limit in cases WIN-NG-100 and MIN-NG-100. Gross output before auxiliaries and transformer losses; "
+              "net values are the EPC's. " + ("IEC notes: SRC-NG-MEL (GT 40 %) gives about 45 % plant net load; SRC-LDO-100 about "
+                                              "559 MW net with the EPC auxiliaries - see the consortium clarifications."
+                                              if REV["rev"] == "0" else
+                                              "Rev A: SRC-LDO-100 with the compressor air flow of gas operation and water/fuel 0.60 "
+                                              "(TQ-IEC-018); SRC-NG-MEL at 30 % GT load with the DLN-H2 low-load extension "
+                                              "(TQ-IEC-019).")),
+    ]
+    for c in cases:
+        rows = [["No", "Description", "From", "To", "Flow kg/s", "p bar(a)", "T degC", "h kJ/kg"]]
+        for s in sorted(c["streams"], key=lambda s: s["no"]):
+            rows.append([str(s["no"]), s["description"], s["from_node"], s["to_node"], f(s["mass_flow"], 3),
+                         f(s["pressure"], 5 if s["pressure"] < 0.1 else 3), f(s["temperature"], 2),
+                         f(s["enthalpy"], 2) if s["enthalpy"] is not None else "-"])
+        blocks += [("pb",), ("h", f"3.{cases.index(c) + 1} Case {c['id']} - {c['title']}"),
+                   ("p", f"Ambient {c['amb']['T_amb']} degC, {c['amb']['RH']} % RH, seawater {c['amb']['T_sw']} degC; GT "
+                         f"{c['gt']['P_gen'] / 1000:.1f} MW ({c['gt_load']:.1f} % load), HR {c['gt']['HR']:,.0f} kJ/kWh; ST "
+                         f"{c['st_output'] / 1000:.2f} MW; GSU losses GT {c['gsu_gt']:.0f} kW, ST {c['gsu_st']:.0f} kW; HRSG gas "
+                         f"temperatures {', '.join(f'{v:.1f}' for v in c['gas_T'].values())} degC."),
+                   ("t", rows, (1.0, 10.0, 1.6, 1.6, 2.4, 2.4, 2.0, 2.2), 7, c["id"])]
+    render("IEC-ALP-PER-003", "Power Island Off-design Heat Balances (Case Book)", blocks, landscape=True)
+
+
+DOCS = {"PER": per001, "PER3": per003, "DS101": ds101, "DS102": ds102, "DS103": ds103, "DS104": ds104, "DS105": ds105, "DS106": ds106,
         "IF": if001, "DOR": dor001, "REQ": req001}
 
 if __name__ == "__main__":
     import os
     if os.environ.get("IEC_REV"):
         REV["rev"] = os.environ["IEC_REV"]
-        REV["history"] = [[REV["rev"], DATE, os.environ.get("IEC_REV_NOTE", "revised")]]
+        REV["history"] = json.loads(os.environ["IEC_REV_HISTORY"]) if os.environ.get("IEC_REV_HISTORY") else \
+            [[REV["rev"], DATE, os.environ.get("IEC_REV_NOTE", "revised")]]
     for k in (sys.argv[3:] or DOCS):
         DOCS[k]()

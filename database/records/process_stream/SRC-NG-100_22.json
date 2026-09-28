@@ -2,23 +2,23 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:27.665099Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-27T18:46:25.822127Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T03:12:46.740626Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
-    "source:SRC-IECE-0001"
+    "source:SRC-IECE-0005"
   ],
-  "description": "HP feedwater at BFP discharge",
+  "description": "HP feedwater at BFP discharge to HP economiser",
   "fluid": "water",
   "from_node": "BFP",
   "hmb_case": "SRC-NG-100",
   "id": "SRC-NG-100_22",
-  "mass_flow": 100.15,
+  "mass_flow": 100.155,
   "number": 22,
   "pressure": 209.0,
   "remarks": "EPC-side conditions as assumed by IEC (IEC-ALP-PER-001 section 1) - EPC to confirm",
   "status": "preliminary",
-  "temperature": 161.8,
+  "temperature": 161.83,
   "to_node": "HRSG"
 }

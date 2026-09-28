@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.122136Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.800770Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "LP steam at ST LP admission",
+  "fluid": "steam",
+  "from_node": "PIPE",
+  "hmb_case": "WIN-NG-100",
+  "id": "WIN-NG-100_14",
+  "mass_flow": 12.389,
+  "number": 14,
+  "pressure": 5.232,
+  "status": "preliminary",
+  "temperature": 250.78,
+  "to_node": "ST"
+}

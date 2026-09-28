@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.128305Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.806513Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "Ambient air to GT compressor inlet",
+  "fluid": "air",
+  "from_node": "AMB",
+  "hmb_case": "MIN-NG-100",
+  "id": "MIN-NG-100_1",
+  "mass_flow": 801.288,
+  "number": 1,
+  "pressure": 1.012,
+  "status": "preliminary",
+  "temperature": -8.0,
+  "to_node": "GT"
+}

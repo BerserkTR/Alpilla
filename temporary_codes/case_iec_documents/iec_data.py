@@ -114,6 +114,11 @@ PIPING_EPC = {  # EPC preliminary piping design (TQ-IEC-003): pressure / tempera
 
 
 def apply_variant(name):
+    if name == "revB":                     # Rev A piping values + corrected HRSG arrangement (TQ-IEC-016)
+        apply_variant("revA")
+        m.ARR["ipsh_after_hpev"] = True
+        m.ARR["lpsh_after_ipev"] = True
+        m.T["LP_sh_out"] = 250.0             # feasible LP steam temperature at the new LP SH position
     if name == "revA":
         m.P.update(PIPING_EPC["P"])
         m.T.update(PIPING_EPC["T"])

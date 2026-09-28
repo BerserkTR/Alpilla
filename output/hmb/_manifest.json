@@ -1,16 +1,41 @@
 {
-  "code_hash": "76ba376983fe218a",
-  "db_hash": "0e6c360eb75d1a7e",
+  "code_hash": "fb6b8898b8fec7ec",
+  "db_hash": "895fe5391b9eda89",
   "engine": "hmb",
-  "engine_version": "1.0.0",
+  "engine_version": "1.1.0",
   "files": {
-    "ALP-HMB-SRC-NG-100.dxf": "a93ac235560a14785c11dbb484757678a4f38cbefb3c533299a2e08690a680c4",
-    "ALP-HMB-SRC-NG-100.pdf": "0d18dccaf47d119f2d301ef53a562776d3dc33956c03f755f9fe5535642372b7",
-    "ALP-HMB-SRC-NG-100.xlsx": "64235d581c5e0d01ac05aebca5535954347c212c12b708208198b50618ef41fc"
+    "ALP-HMB-CASES.xlsx": "083f0a68cc7a6a41d609399941c801d6f52583b1be2fff5f9ffc9b4858911054",
+    "ALP-HMB-MAX-NG-100.dxf": "f3e96e3eae50f6651cae74399b13d65d7bae752a2b442ff6117211cc6ade893b",
+    "ALP-HMB-MAX-NG-100.pdf": "c99fc4bc1284a2feffc54b014da7fb880bb4956391838a46838bd8038a7d81a0",
+    "ALP-HMB-MAX-NG-100.xlsx": "0d3c9ebc04345cac459e5ca070cfb5f517765bf95b660f15b8acb3f0c3dbcb82",
+    "ALP-HMB-MIN-NG-100.dxf": "d2ee3ca6f2c4076abc7c5c74305aa9937c9ff0ccf8284381d86983ed63cad9d9",
+    "ALP-HMB-MIN-NG-100.pdf": "5d6d51522c4d15fa9788ba1a64cb7bf6cbabab99c99483623b67835a2f0401d0",
+    "ALP-HMB-MIN-NG-100.xlsx": "3bae6dfc1f87c54bfe68bd10059fbca3d392e8897ef0304d75e4f64e3a43b15f",
+    "ALP-HMB-SRC-LDO-100.dxf": "c37e3402c8c260f02905df396af8bc88d2ab88e8a4bc6d6db1dc12065d15be7b",
+    "ALP-HMB-SRC-LDO-100.pdf": "14e9a1ed395afa3557ccc2c154efdae0e23b2891ddc45d33542d49080a5f8bea",
+    "ALP-HMB-SRC-LDO-100.xlsx": "c0e8845ee795ad6ea5651573ca47986efa03ad6aba64e09407395c96f2a723fd",
+    "ALP-HMB-SRC-NG-060.dxf": "aff45424704aa6b30b8b6a5dfdaf8428c78dcb63d59f040c6c9c3aca8a75c32e",
+    "ALP-HMB-SRC-NG-060.pdf": "22e8565aba72fc1eb2f6b7d4f075133afe57ca1cc2eb277a7456b55a992db3de",
+    "ALP-HMB-SRC-NG-060.xlsx": "e45ac70597b4c29a53f2a76d5e722a59919b755c2bbc2ae17087b7689e1fbe41",
+    "ALP-HMB-SRC-NG-100.dxf": "2731cc700f0079d4ec1064d68eea170a178d9f4c94d426ff4f496ef42f08fe3b",
+    "ALP-HMB-SRC-NG-100.pdf": "b913c0d3c3450611c5950e35b3b74ce0964c1c12aa72d3f93bd6a7c548988aef",
+    "ALP-HMB-SRC-NG-100.xlsx": "3ff91583349e243aa79714df4da9c7e67cb1dcaebb5d23a767398c9617da8926",
+    "ALP-HMB-SRC-NG-GT80.dxf": "4b26b276bd2addc44329440e05c0162614f4853893857c00e9ef3b45ae0e9ff0",
+    "ALP-HMB-SRC-NG-GT80.pdf": "10f34e9e144b4cb4ff1cf5b3a86cf87db097d811bad1f18d9bdf8c1afc241376",
+    "ALP-HMB-SRC-NG-GT80.xlsx": "a5e0dee1646a68f06a95f1ab98f8c4e48c8afcca4615efa672807c6e8e4664f4",
+    "ALP-HMB-SRC-NG-MEL.dxf": "5f55b24616799cb0a0c2af1c6fef42bcf8809602c08685373a55e4c50051bc2c",
+    "ALP-HMB-SRC-NG-MEL.pdf": "a8517ffbab0a7fc6fccdd48ddd09f903c08050fb5281a9c103e5ad97009999b3",
+    "ALP-HMB-SRC-NG-MEL.xlsx": "c5555a854c4e7a70d48a3f64ed46ff2e24958cb1fcecc985dc1e5202f77c6ec1",
+    "ALP-HMB-SUM-NG-100.dxf": "bb7c3332e6cdb2345837b7ac634672689fe5126b2ab18eb9334291bdc18873f9",
+    "ALP-HMB-SUM-NG-100.pdf": "97f4f1e302d5f9033edaf5c560e3fcc85d07415ce6de50cd2886f02619b3522d",
+    "ALP-HMB-SUM-NG-100.xlsx": "994c43849a5469c0854227abcdb653cb2c15f7b85f2e764eadf8761a8b18d28d",
+    "ALP-HMB-WIN-NG-100.dxf": "d8f4525ed69ee614ffebc3188c1b0b5173d8e5a3a464e286cd12d2136eff9473",
+    "ALP-HMB-WIN-NG-100.pdf": "e69f4b55d4e4c51983bab9ed1e81fc039052f76baf52e4131d8f19e52be70aed",
+    "ALP-HMB-WIN-NG-100.xlsx": "cbd49bd4d710ea4733df8dd14c6e488f4b4fa7e7bbe30591b1d00c28a8bb52f1"
   },
-  "generated_at": "2026-09-27T18:48:55.615116Z",
+  "generated_at": "2026-09-28T03:15:47.097661Z",
   "generated_by": "SETUP",
-  "git_commit": "63a72d4",
+  "git_commit": "ca86373",
   "inputs": [
     "aux_load",
     "contract",
@@ -20,9 +45,11 @@
     "process_stream",
     "project"
   ],
-  "inputs_hash": "745a1d896d59ed4c",
+  "inputs_hash": "a363d729afc29597",
   "options": {},
   "warnings": [
-    "SRC-NG-100: fuel LHV from the composition (ISO 6976) 47.48 MJ/kg vs DP-CASE-0018 48.4 MJ/kg (-1.90 %)"
+    "SRC-NG-100: fuel LHV from the composition (ISO 6976) 47.48 MJ/kg vs DP-CASE-0018 48.4 MJ/kg (-1.90 %)",
+    "MIN-NG-100: net export 662.4 MW vs DP-OWNR-0051 connection capacity 640 MW (this case)",
+    "WIN-NG-100: net export 665.3 MW vs DP-OWNR-0051 connection capacity 640 MW (this case)"
   ]
 }

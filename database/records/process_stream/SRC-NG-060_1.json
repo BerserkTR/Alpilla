@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.085846Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.756913Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "Ambient air to GT compressor inlet",
+  "fluid": "air",
+  "from_node": "AMB",
+  "hmb_case": "SRC-NG-060",
+  "id": "SRC-NG-060_1",
+  "mass_flow": 559.914,
+  "number": 1,
+  "pressure": 1.012,
+  "status": "preliminary",
+  "temperature": 15.0,
+  "to_node": "GT"
+}

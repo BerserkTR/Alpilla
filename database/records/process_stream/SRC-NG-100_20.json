@@ -2,23 +2,23 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:27.664789Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-27T18:46:25.593631Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T03:12:46.739813Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
-    "source:SRC-IECE-0001"
+    "source:SRC-IECE-0005"
   ],
   "description": "Condensate to HRSG condensate preheater inlet",
   "fluid": "water",
   "from_node": "CMIX",
   "hmb_case": "SRC-NG-100",
   "id": "SRC-NG-100_20",
-  "mass_flow": 141.36,
+  "mass_flow": 141.874,
   "number": 20,
   "pressure": 15.5,
   "remarks": "EPC-side conditions as assumed by IEC (IEC-ALP-PER-001 section 1) - EPC to confirm",
   "status": "preliminary",
-  "temperature": 30.9,
+  "temperature": 30.85,
   "to_node": "HRSG"
 }

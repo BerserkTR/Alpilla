@@ -29,10 +29,30 @@
       "type": "string",
       "description": "gas: component=mol% separated by ';' (CH4, C2H6, C3H8, iC4H10, nC4H10, C5H12, N2, CO2, O2, H2, He)"
     },
+    "fuel_formula": {
+      "type": "string",
+      "description": "liquid fuel as a pseudo-molecule CcHh, e.g. C12H23 (LDO)"
+    },
+    "fuel_lhv": {
+      "type": "number",
+      "unit": "MJ/kg",
+      "description": "liquid fuel LHV (natural gas LHV is calculated from the composition)"
+    },
     "load_pct": {
       "type": "number",
       "unit": "%",
-      "required": true
+      "required": true,
+      "description": "plant net load, % of the reference case net output (100 for base-load cases)"
+    },
+    "gt_load_pct": {
+      "type": "number",
+      "unit": "%",
+      "description": "GT load, % of base load at the case ambient"
+    },
+    "reference_case": {
+      "type": "ref",
+      "to": "hmb_case",
+      "description": "base-load case the plant load % is measured against"
     },
     "ambient_temperature": {
       "type": "number",

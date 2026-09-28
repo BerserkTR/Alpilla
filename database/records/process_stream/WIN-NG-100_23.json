@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.126780Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.804771Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "IP feedwater at BFP interstage to IP economiser",
+  "fluid": "water",
+  "from_node": "BFP",
+  "hmb_case": "WIN-NG-100",
+  "id": "WIN-NG-100_23",
+  "mass_flow": 31.595,
+  "number": 23,
+  "pressure": 47.94,
+  "status": "preliminary",
+  "temperature": 160.37,
+  "to_node": "HRSG"
+}

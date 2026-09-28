@@ -27,6 +27,9 @@ T = {"HP_sh_out": 600.0, "HP_st_in": 597.0, "HRH_out": 600.0, "IP_st_in": 597.0,
      "dT_lp": 2.0, "pinch_HP": 8.0, "pinch_IP": 8.0, "pinch_LP": 8.0, "appr_HP": 5.0, "appr_IP": 5.0, "appr_LP": 5.0,
      "TTD": 3.4, "dT_cw": 7.0, "fgh_return": 75.0, "hrsg_loss": 0.004}
 PUMP = {"BFP": 0.80, "CEP": 0.80}
+# HRSG arrangement. Rev 0 / Rev A placed the IP superheater after HP economiser 2 (gas about 300 degC, below the 330 degC
+# steam outlet - a temperature cross found by the EPC, TQ-IEC-016). Rev B: IP SH directly after the HP evaporator.
+ARR = {"ipsh_after_hpev": False, "lpsh_after_ipev": False}   # Rev B: both True (TQ-IEC-016)
 
 
 def gt_balance(amb, gt=GT):
@@ -108,9 +111,14 @@ def steam_cycle(g, amb=SRC):
     for _ in range(100):
         # sections 1+2 (HP SH + RH + HP EVAP) -> HP flow for the given IP flow (IP steam is reheated too)
         m_hp_new = (Q12 - m_ip * (h_hrh - h_ip_sh)) / ((h_hp_sh - h_hp_eco) + (h_hrh - h_crh_in_hp))
-        # section 3 (HP ECO2) then sections 4+5 (IP SH + IP EVAP) down to the IP pinch -> IP flow
-        h3 = hg(T2) - m_hp_new * (h_hp_eco - h_x) / (mg * keep)
-        m_ip_new = mg * keep * (h3 - hg(T5)) / (h_ip_sh - h_ip_eco)
+        if ARR["ipsh_after_hpev"]:
+            # IP SH, then HP ECO2, then IP EVAP down to the IP pinch -> IP flow
+            h3 = hg(T2) - m_ip * (h_ip_sh - h_ip_g) / (mg * keep) - m_hp_new * (h_hp_eco - h_x) / (mg * keep)
+            m_ip_new = mg * keep * (h3 - hg(T5)) / (h_ip_g - h_ip_eco)
+        else:
+            # section 3 (HP ECO2) then sections 4+5 (IP SH + IP EVAP) down to the IP pinch -> IP flow
+            h3 = hg(T2) - m_hp_new * (h_hp_eco - h_x) / (mg * keep)
+            m_ip_new = mg * keep * (h3 - hg(T5)) / (h_ip_sh - h_ip_eco)
         done = abs(m_hp_new - m_hp) < 1e-7 and abs(m_ip_new - m_ip) < 1e-7
         m_hp, m_ip = m_hp_new, m_ip_new
         if done:
@@ -123,29 +131,50 @@ def steam_cycle(g, amb=SRC):
     T2 = Tsat["HP_drum"] + T["pinch_HP"]
     Q2 = m_hp * (h_hp_g - h_hp_eco)
     Q3 = m_hp * (h_hp_eco - h_x)
-    h3 = hg(T2) - Q3 / (mg * keep)
-    T3 = Tg(h3)
     Q4 = m_ip * (h_ip_sh - h_ip_g)
-    h4 = h3 - Q4 / (mg * keep)
-    T4 = Tg(h4)
+    if ARR["ipsh_after_hpev"]:
+        hA = hg(T2) - Q4 / (mg * keep)                                  # after IP SH
+        T3a = Tg(hA)
+        h4 = hA - Q3 / (mg * keep)                                      # after HP ECO2
+        T4 = Tg(h4)
+        T3 = T3a
+    else:
+        h3 = hg(T2) - Q3 / (mg * keep)
+        T3 = Tg(h3)
+        h4 = h3 - Q4 / (mg * keep)
+        T4 = Tg(h4)
     T5 = Tsat["IP_drum"] + T["pinch_IP"]
     Q5 = m_ip * (h_ip_g - h_ip_eco)
     # section 6: HP ECO1 + IP ECO (IP ECO flow = IP steam + fuel gas heater water)
     m_ipeco = m_ip + m_fgh_w
     Q6 = m_hp * (h_x - h_bfp_hp) + m_ipeco * (h_ip_eco - h_bfp_ip)
-    h6 = hg(T5) - Q6 / (mg * keep)
-    T6 = Tg(h6)
-    # section 7 (LP SH) + 8 (LP EVAP): LP pinch
     T8 = Tsat["LP_drum"] + T["pinch_LP"]
     h_lp_f = t.h_f(P["LP_drum"])
     # LP drum balance: feed from CPH (h_cph_out); outflows: LP steam + BFP suction (m_hp + m_ipeco) as sat. water
     # LP evaporator duty = m_lp*(h_lp_g - h_cph_out) + m_bfp*(h_lp_f - h_cph_out)
     m_bfp = m_hp + m_ipeco
-    Q78 = mg * keep * (h6 - hg(T8))
-    m_lp = (Q78 - m_bfp * (h_lp_f - h_cph_out)) / ((h_lp_sh - h_lp_g) + (h_lp_g - h_cph_out))
-    Q7 = m_lp * (h_lp_sh - h_lp_g)
-    T7 = Tg(h6 - Q7 / (mg * keep))
-    Q8 = Q78 - Q7
+    if ARR["lpsh_after_ipev"]:
+        # LP SH directly after the IP evaporator, then HP ECO1 / IP ECO, then LP EVAP down to the LP pinch
+        m_lp = 10.0
+        for _ in range(100):
+            Q7 = m_lp * (h_lp_sh - h_lp_g)
+            h7 = hg(T5) - Q7 / (mg * keep)
+            h6 = h7 - Q6 / (mg * keep)
+            Q8 = mg * keep * (h6 - hg(T8))
+            m_new = (Q8 - m_bfp * (h_lp_f - h_cph_out)) / (h_lp_g - h_cph_out)
+            if abs(m_new - m_lp) < 1e-9:
+                break
+            m_lp = m_new
+        T7, T6 = Tg(h7), Tg(h6)
+    else:
+        h6 = hg(T5) - Q6 / (mg * keep)
+        T6 = Tg(h6)
+        # section 7 (LP SH) + 8 (LP EVAP): LP pinch
+        Q78 = mg * keep * (h6 - hg(T8))
+        m_lp = (Q78 - m_bfp * (h_lp_f - h_cph_out)) / ((h_lp_sh - h_lp_g) + (h_lp_g - h_cph_out))
+        Q7 = m_lp * (h_lp_sh - h_lp_g)
+        T7 = Tg(h6 - Q7 / (mg * keep))
+        Q8 = Q78 - Q7
     # section 9: condensate preheater: all feed water (m_lp + m_bfp) from the mix of condensate + FGH return
     m_cond = m_hp + m_ip + m_lp                                    # steam to condenser (no losses in this summary)
     m_cph = m_cond + m_fgh_w
@@ -173,8 +202,12 @@ def steam_cycle(g, amb=SRC):
     return dict(p_cond=p_cond, T_cond=T_cond, m_hp=m_hp, m_ip=m_ip, m_lp=m_lp, m_rh=m_rh, m_lpt=m_lpt, m_fgh_w=m_fgh_w,
                 m_ipeco=m_ipeco, m_cond=m_cond, m_cw=m_cw, Q_cond=Q_cond, P_st=P_st, P_hp=P_hp, P_ip=P_ip, P_lp=P_lp,
                 T_stack=T_stack, Q_gas=Q_gas, Q_water=Q_water, sections=dict(
-                    HPSH_RH=(GT_T_exh, T1, Q1), HPEVAP=(T1, T2, Q2), HPECO2=(T2, T3, Q3), IPSH=(T3, T4, Q4),
-                    IPEVAP=(T4, T5, Q5), HPECO1_IPECO=(T5, T6, Q6), LPSH=(T6, T7, Q7), LPEVAP=(T7, T8, Q8),
+                    HPSH_RH=(GT_T_exh, T1, Q1), HPEVAP=(T1, T2, Q2),
+                    **({"IPSH": (T2, T3, Q4), "HPECO2": (T3, T4, Q3)} if ARR["ipsh_after_hpev"] else
+                       {"HPECO2": (T2, T3, Q3), "IPSH": (T3, T4, Q4)}),
+                    IPEVAP=(T4, T5, Q5),
+                    **({"LPSH": (T5, T7, Q7), "HPECO1_IPECO": (T7, T6, Q6), "LPEVAP": (T6, T8, Q8)} if ARR["lpsh_after_ipev"] else
+                       {"HPECO1_IPECO": (T5, T6, Q6), "LPSH": (T6, T7, Q7), "LPEVAP": (T7, T8, Q8)}),
                     CPH=(T8, T_stack, Q9)),
                 states=dict(h_hp_in=h_hp_in, h_hp_exh=h_hp_exh, T_hp_exh=T_hp_exh, h_ip_in=h_ip_in, h_ip_exh=h_ip_exh,
                             T_ip_exh=t.T_ph(P["IP_st_exh"], h_ip_exh), h_mix_lp=h_mix_lp, h_ueep=h_ueep,

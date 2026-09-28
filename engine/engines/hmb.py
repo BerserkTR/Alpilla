@@ -35,7 +35,7 @@ def refs_for(s, case):
 class HeatMassBalance(Engine):
     name = "hmb"
     title = "Heat and mass balance: diagram (DXF + PDF) and calculation workbook (Excel) per HMB case"
-    version = "1.0.0"
+    version = "1.1.0"
     inputs = ["project", "hmb_case", "process_stream", "aux_load", "guarantee", "design_parameter", "contract"]
     formats = ["dxf", "pdf", "xlsx"]
     code_deps = ["engine/core/hmb.py", "engine/core/thermo.py", "engine/core/dxfkit.py", "templates/hmb"]
@@ -49,21 +49,87 @@ class HeatMassBalance(Engine):
             ctx.warnings.append("no hmb_case records - nothing generated")
             return []
         layout = json.loads(ctx.template("hmb", ctx.options.get("layout", "layout_1x1_3prh") + ".json").read_text())
-        files = []
-        for case in sorted(cases, key=lambda c: c["id"]):
+        files, results = [], {}
+        allcases = {c["id"]: c for c in s.records("hmb_case")}
+        # reference (base-load) cases first, so part-load cases can express their plant load against them
+        order = sorted(cases, key=lambda c: (bool(c.get("reference_case")), c["id"]))
+        for case in order:
             streams = [x for x in s.records("process_stream") if x["hmb_case"] == case["id"]]
             aux = [x for x in s.records("aux_load") if x["hmb_case"] == case["id"]]
             if not streams:
                 ctx.warnings.append(f"{case['id']}: no process streams")
                 continue
-            res = hmb.calculate(case, streams, aux, refs_for(s, case))
+            ref = case.get("reference_case")
+            if ref and ref not in results:
+                rc = allcases[ref]
+                results[ref] = hmb.calculate(rc, [x for x in s.records("process_stream") if x["hmb_case"] == ref],
+                                             [x for x in s.records("aux_load") if x["hmb_case"] == ref], refs_for(s, rc))
+            res = hmb.calculate(case, streams, aux, refs_for(s, case), results[ref].summary if ref else None)
+            results[case["id"]] = res
             for st, text in res.checks:
                 if st == "WARN":
                     ctx.warnings.append(f"{case['id']}: {text}")
             stem = f"{ctx.project_record()['id']}-HMB-{case['id']}"
             files += self._drawing(ctx, case, res, layout, stem)
             files.append(self._workbook(ctx, case, res, stem))
+        if len(cases) > 1:
+            files.append(self._summary(ctx, [c for c in sorted(cases, key=lambda c: c["id"]) if c["id"] in results], results))
         return files
+
+    def _summary(self, ctx, cases, results):
+        """All cases side by side (Excel)."""
+        from openpyxl import Workbook
+        from openpyxl.styles import Alignment, Font, PatternFill
+        wb = Workbook()
+        ws = wb.active
+        ws.title = "Cases"
+        ws.append([f"{ctx.project_record().get('name', '')} - heat and mass balance case summary"])
+        ws["A1"].font = Font(bold=True, size=12)
+        ws.append([f"engine {self.name} v{self.version} | data {ctx.stamp['inputs_hash']} | {ctx.stamp['generated_at'][:19]}Z"])
+        rows = [("Title", lambda c, r: c["title"], ""), ("Fuel", lambda c, r: c["fuel"], ""),
+                ("Ambient temperature", lambda c, r: c["ambient_temperature"], "degC"),
+                ("Relative humidity", lambda c, r: c["relative_humidity"], "%"),
+                ("Seawater temperature", lambda c, r: c["seawater_temperature"], "degC"),
+                ("GT load", lambda c, r: c.get("gt_load_pct"), "%"),
+                ("GT output", lambda c, r: r.summary["gt_output"] / 1000, "MW"), ("ST output", lambda c, r: r.summary["st_output"] / 1000, "MW"),
+                ("Gross output", lambda c, r: r.summary["gross"] / 1000, "MW"),
+                ("Auxiliary loads + transformer losses", lambda c, r: (r.summary["aux"] + r.summary["transformer_losses"]) / 1000, "MW"),
+                ("Net output", lambda c, r: r.summary["net"] / 1000, "MW"),
+                ("Plant load (net, % of reference)", lambda c, r: r.summary.get("plant_load_pct"), "%"),
+                ("Heat input (LHV)", lambda c, r: r.summary["heat_input"] / 1000, "MW"),
+                ("Net heat rate (LHV)", lambda c, r: r.summary["net_hr"], "kJ/kWh"), ("Net efficiency", lambda c, r: r.summary["net_eff"] * 100, "%"),
+                ("Fuel flow", lambda c, r: r.summary["fuel_flow"], "kg/s"), ("Fuel gas flow", lambda c, r: r.summary["fuel_Sm3h"], "Sm3/h"),
+                ("Water injection", lambda c, r: r.summary.get("water_injection"), "kg/s"),
+                ("Condenser pressure", lambda c, r: r.summary["condenser_pressure_mbar"], "mbar(a)"),
+                ("CW temperature rise", lambda c, r: r.summary["cw_rise"], "K"),
+                ("Checks WARN", lambda c, r: sum(1 for s_, _ in r.checks if s_ == "WARN"), "")]
+        ws.append(["Item", "Unit"] + [c["id"] for c in cases])
+        for c in ws[3]:
+            c.font, c.fill = Font(bold=True, color="FFFFFF"), PatternFill("solid", fgColor="1F3864")
+        for label, fn, unit in rows:
+            vals = []
+            for c in cases:
+                v = fn(c, results[c["id"]])
+                vals.append(round(v, 2) if isinstance(v, float) else v)
+            ws.append([label, unit] + vals)
+        ws.column_dimensions["A"].width = 38
+        for i in range(len(cases)):
+            ws.column_dimensions[chr(67 + i)].width = 16
+        for row in ws.iter_rows(min_row=4):
+            for c in row:
+                c.alignment = Alignment(wrap_text=True, vertical="top")
+        ws.freeze_panes = "C4"
+        wc = wb.create_sheet("Warnings")
+        wc.append(["Case", "Check"])
+        for c in cases:
+            for st, text in results[c["id"]].checks:
+                if st == "WARN":
+                    wc.append([c["id"], text])
+        wc.column_dimensions["A"].width = 16
+        wc.column_dimensions["B"].width = 150
+        out = ctx.out_dir / f"{ctx.project_record()['id']}-HMB-CASES.xlsx"
+        wb.save(out)
+        return out
 
     # ------------------------------------------------------------------ drawing
     def _drawing(self, ctx, case, res, L, stem):
@@ -83,7 +149,13 @@ class HeatMassBalance(Engine):
         rect(10, 10, W - 10, H - 10, "BORDER")
         nodes = L["nodes"]
         warn_nodes = {t.split(":")[0].split()[-1] for st, t in res.checks if st == "WARN" and t.startswith(("energy", "mass"))}
+        used = {s["from_node"] for s in res.streams} | {s["to_node"] for s in res.streams}
         for n, nd in nodes.items():
+            if n not in used:
+                if nd["symbol"] in ("boundary", "junction"):
+                    continue                           # connection not used in this case (e.g. LDO supply on gas)
+                if nd.get("label"):
+                    nd = dict(nd, label=nd["label"] + " - not in service")
             self._symbol(m, T, line, rect, n, nd, n in warn_nodes)
         for g in L.get("generators", []):
             x, y = g["at"]
@@ -144,7 +216,7 @@ class HeatMassBalance(Engine):
         dxfkit.title_block(m, W - 12, 12, 1.0, [
             ("PROJECT", ctx.project_record().get("name", "")),
             ("TITLE", f"HEAT AND MASS BALANCE - {case['id']}"),
-            ("CASE", case["title"][:60]),
+            ("CASE", case["title"][:80]),
             ("DOCUMENT", stem),
             ("STATUS", f"{case.get('status', '')} - generated by engine {self.name} v{self.version}"),
             ("DATA", f"{ctx.stamp['inputs_hash']} | {ctx.stamp['generated_at'][:10]}"),
@@ -285,7 +357,10 @@ class HeatMassBalance(Engine):
                 ("Gross heat rate (LHV)", sm["gross_hr"], "kJ/kWh"), ("NET HEAT RATE (LHV)", sm["net_hr"], "kJ/kWh"),
                 ("Net efficiency (LHV)", sm["net_eff"] * 100, "%"),
                 ("Fuel LHV (ISO 6976, from composition)", sm["fuel_LHV"], "MJ/kg"), ("Fuel gas flow", sm["fuel_Sm3h"], "Sm3/h"),
-                ("Circulating water flow", sm["cw_m3h"], "m3/h")]
+                ("Circulating water flow", sm["cw_m3h"], "m3/h"),
+                ("GT load", case.get("gt_load_pct"), "%"),
+                ("PLANT LOAD (NET, % OF " + (case.get("reference_case") or "-") + ")", sm.get("plant_load_pct"), "%"),
+                ("Water injection (NOx)", sm.get("water_injection") or None, "kg/s")]
         y -= 2
         for label, v, u in rows:
             if v is None:                      # e.g. no condenser in the case

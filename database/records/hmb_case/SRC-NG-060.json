@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:08.797071Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:12:45.973081Z",
+    "updated_by": "EPCE"
+  },
+  "ambient_temperature": 15.0,
+  "barometric_pressure": 1011.5,
+  "basis_refs": [
+    "requirement:ER-02.03",
+    "source:SRC-IECE-0005",
+    "requirement:ER-03.02"
+  ],
+  "check_refs": [
+    "guarantee:PG-03",
+    "guarantee:IG-07"
+  ],
+  "fuel": "natural_gas",
+  "fuel_composition": "CH4=93.0; C2H6=3.5; C3H8=0.8; iC4H10=0.15; nC4H10=0.15; C5H12=0.05; N2=1.55; CO2=0.8; O2=0.001; He=0.01",
+  "gt_generator_efficiency": 0.989,
+  "gt_load_pct": 55.78,
+  "gt_other_losses": 3800.0,
+  "gt_output": 237071.0,
+  "hrsg_heat_loss": 0.4,
+  "id": "SRC-NG-060",
+  "load_pct": 60.0,
+  "reference_case": "SRC-NG-100",
+  "relative_humidity": 70.0,
+  "seawater_salinity": 22.0,
+  "seawater_temperature": 16.0,
+  "st_generator_efficiency": 0.988,
+  "st_mechanical_efficiency": 0.9955,
+  "st_output": 140729.0,
+  "status": "preliminary",
+  "title": "Site Reference Conditions, natural gas, 60 % plant net load (guarantee PG-03)"
+}

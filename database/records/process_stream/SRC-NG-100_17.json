@@ -2,22 +2,22 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:27.664252Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-27T18:46:25.252523Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T03:12:46.738509Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
-    "source:SRC-IECE-0001"
+    "source:SRC-IECE-0005"
   ],
   "description": "Condensate at hotwell outlet / CEP suction",
   "fluid": "water",
   "from_node": "COND",
   "hmb_case": "SRC-NG-100",
   "id": "SRC-NG-100_17",
-  "mass_flow": 128.88,
+  "mass_flow": 129.394,
   "number": 17,
-  "pressure": 0.0344,
+  "pressure": 0.03444,
   "status": "preliminary",
-  "temperature": 26.3,
+  "temperature": 26.35,
   "to_node": "CEP"
 }

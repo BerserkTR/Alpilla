@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:30.235795Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:01:30.235795Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0001"
+  ],
+  "counts_as": "auxiliary",
+  "description": "Circulating water pumps 2 x 50 %",
+  "head": 16.0,
+  "hmb_case": "WIN-NG-100",
+  "id": "AL-223",
+  "method": "cw_pump",
+  "motor_efficiency": 0.96,
+  "node": "COND",
+  "pump_efficiency": 0.86,
+  "status": "assumption",
+  "supplier": "IEPC"
+}

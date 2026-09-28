@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:12:31.056859Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:12:33.954224Z",
+    "updated_by": "IECE"
+  },
+  "changed_records": [
+    "source (PER-003 Rev A, DS-101 Rev A, DS-104 Rev B)",
+    "guarantee/IG-09",
+    "guarantee/IG-10"
+  ],
+  "contract": "ALP-CA-001",
+  "discipline": "process",
+  "id": "TQ-IEC-018",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "Reduce water injection and size the SCR for the higher GT-outlet NOx on LDO (ER-03.11 already requires an SCR designed for LDO).",
+  "question": "The EPC HMB of PER-003 case SRC-LDO-100 gives 558.8 MW net against PG-15 (>= 560 MW), margin -0.21 %. In addition the case implies a compressor air flow of 701 kg/s on LDO against 776 kg/s on gas at the same ambient with the IGV fully open, which is not plausible: with the gas-operation air flow the stated LDO rating and water/fuel ratio 1.02 give an exhaust temperature of about 553 degC and about 543 MW / 6,300 kJ/kWh net, missing PG-15 and PG-16. Please re-rate the LDO case with the real air flow and propose how the LDO guarantees are met.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-28",
+  "references": [
+    "guarantee:PG-15",
+    "guarantee:PG-16",
+    "hmb_case:SRC-LDO-100",
+    "requirement:ER-03.11",
+    "source:SRC-IECE-0004"
+  ],
+  "responded_by": "IEC",
+  "response": "Agreed - the Rev 0 LDO case back-calculated the air flow. PER-003 Rev A: gas-operation air flow (776.0 kg/s), LDO rating 400.5 MW / 8,640 kJ/kWh, water/fuel 0.60 (13.4 kg/s) with GT-outlet NOx <= 150 mg/Nm3 and the IEC SCR sized for 67 % removal on LDO (DS-104 Rev B: catalyst +35 %, ammonia 480 kg/h on LDO). Exhaust 811.9 kg/s at 592.7 degC; ST 178.37 MW; about 567 MW / 6,100 kJ/kWh net with the EPC auxiliaries. New IEC guarantees IG-09/IG-10 on LDO.",
+  "response_date": "2026-09-28",
+  "round": 5,
+  "status": "closed",
+  "subject": "LDO case: net output below PG-15 and implausible air flow"
+}

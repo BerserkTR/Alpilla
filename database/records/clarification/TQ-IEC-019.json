@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:12:31.399588Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:12:34.430676Z",
+    "updated_by": "IECE"
+  },
+  "changed_records": [
+    "guarantee/IG-08",
+    "source (DS-101 Rev A)"
+  ],
+  "contract": "ALP-CA-001",
+  "discipline": "process",
+  "id": "TQ-IEC-019",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "IEC low-load extension to reach <= 35 % plant load; as part of the power island scope (back-to-back PG-11).",
+  "question": "With the GT minimum emissions-compliant load of 40 % (DS-101), case SRC-NG-MEL gives 274.3 MW net = 44.7 % of the SRC net output, against PG-11 (<= 40 % of plant net output). Please provide a lower MECL.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-28",
+  "references": [
+    "guarantee:PG-11",
+    "hmb_case:SRC-NG-MEL",
+    "source:SRC-EPCE-0002"
+  ],
+  "responded_by": "IEC",
+  "response": "IEC includes the DLN-H2 low-load extension in the power island scope at no price change (back-to-back PG-11): MECL 30 % GT load with CO <= 30 mg/Nm3 at the stack (oxidation catalyst). PER-003 Rev A case SRC-NG-MEL at 30 % GT load: about 213 MW net = 34.8 % of the SRC net output. New IEC guarantee IG-08.",
+  "response_date": "2026-09-28",
+  "round": 5,
+  "status": "closed",
+  "subject": "Minimum environmental load: 44.7 % against PG-11 (40 %)"
+}

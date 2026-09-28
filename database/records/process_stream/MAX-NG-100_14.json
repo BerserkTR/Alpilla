@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.153902Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.836211Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "LP steam at ST LP admission",
+  "fluid": "steam",
+  "from_node": "PIPE",
+  "hmb_case": "MAX-NG-100",
+  "id": "MAX-NG-100_14",
+  "mass_flow": 10.156,
+  "number": 14,
+  "pressure": 4.558,
+  "status": "preliminary",
+  "temperature": 244.65,
+  "to_node": "ST"
+}

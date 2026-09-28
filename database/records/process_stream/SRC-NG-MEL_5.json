@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.097630Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.773940Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "Flue gas at HRSG outlet to stack",
+  "fluid": "flue_gas",
+  "from_node": "HRSG",
+  "hmb_case": "SRC-NG-MEL",
+  "id": "SRC-NG-MEL_5",
+  "mass_flow": 441.951,
+  "number": 5,
+  "pressure": 1.014,
+  "status": "preliminary",
+  "temperature": 68.15,
+  "to_node": "STK"
+}

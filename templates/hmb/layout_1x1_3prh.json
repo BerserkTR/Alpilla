@@ -1,5 +1,5 @@
 {
-  "description": "HMB diagram layout for a 1x1 multi-shaft combined cycle with triple-pressure reheat HRSG, seawater condenser and performance fuel gas heating. Coordinates in paper mm on A1 landscape (841 x 594). Streams are keyed by stream number of the HMB case; a stream without a route is drawn straight between its node anchors and reported.",
+  "description": "HMB diagram layout for a 1x1 multi-shaft combined cycle with triple-pressure reheat HRSG, seawater condenser and performance fuel gas heating. Coordinates in paper mm on A1 landscape (841 x 594). Streams are keyed by stream number of the HMB case; a stream without a route is drawn straight between its node anchors and reported. HRSG section order per IEC-ALP-PER-001 Rev B (IP SH after the HP evaporator, LP SH after the IP evaporator).",
   "paper": [
     841,
     594
@@ -26,22 +26,22 @@
       "sections": [
         "HP SH / RH",
         "HP EVAP",
-        "HP ECO 2",
         "IP SH",
+        "HP ECO 2",
         "IP EVAP",
-        "HP ECO 1 / IP ECO",
         "LP SH",
+        "HP ECO 1 / IP ECO",
         "LP EVAP",
         "CPH"
       ],
       "section_widths": [
         62,
         26,
-        26,
         22,
         26,
-        34,
+        26,
         24,
+        34,
         26,
         34
       ],
@@ -181,6 +181,22 @@
         145
       ],
       "label": "TO OUTFALL"
+    },
+    "LDS": {
+      "symbol": "boundary",
+      "at": [
+        62,
+        294
+      ],
+      "label": "LDO FROM EPC LDO SYSTEM"
+    },
+    "DMW": {
+      "symbol": "boundary",
+      "at": [
+        196,
+        294
+      ],
+      "label": "DEMIN WATER (EPC)"
     }
   },
   "generators": [
@@ -458,31 +474,31 @@
     "13": {
       "route": [
         [
-          448,
+          414,
           395
         ],
         [
-          448,
+          414,
           365
         ]
       ],
       "tag": [
-        448,
+        414,
         380
       ],
       "box": [
-        412,
+        380,
         345
       ]
     },
     "14": {
       "route": [
         [
-          448,
+          414,
           300
         ],
         [
-          448,
+          414,
           274
         ],
         [
@@ -495,11 +511,11 @@
         ]
       ],
       "tag": [
-        448,
-        280
+        414,
+        285
       ],
       "box": [
-        452,
+        418,
         283
       ]
     },
@@ -686,17 +702,17 @@
           380
         ],
         [
-          408,
+          432,
           380
         ],
         [
-          408,
+          432,
           395
         ]
       ],
       "tag": [
-        500,
-        360
+        470,
+        380
       ],
       "box": [
         537,
@@ -718,17 +734,17 @@
           385
         ],
         [
-          418,
+          442,
           385
         ],
         [
-          418,
+          442,
           395
         ]
       ],
       "tag": [
         514,
-        350
+        352
       ],
       "box": [
         537,
@@ -738,11 +754,11 @@
     "24": {
       "route": [
         [
-          428,
+          452,
           395
         ],
         [
-          428,
+          452,
           390
         ],
         [
@@ -801,6 +817,126 @@
       "box": [
         431,
         152
+      ]
+    },
+    "27": {
+      "route": [
+        [
+          70,
+          300
+        ],
+        [
+          70,
+          405
+        ],
+        [
+          152,
+          405
+        ],
+        [
+          152,
+          422
+        ]
+      ],
+      "tag": [
+        70,
+        350
+      ],
+      "box": [
+        26,
+        352
+      ]
+    },
+    "28": {
+      "route": [
+        [
+          196,
+          300
+        ],
+        [
+          196,
+          400
+        ],
+        [
+          166,
+          400
+        ],
+        [
+          166,
+          422
+        ]
+      ],
+      "tag": [
+        196,
+        350
+      ],
+      "box": [
+        200,
+        338
+      ]
+    },
+    "29": {
+      "route": [
+        [
+          506,
+          333
+        ],
+        [
+          526,
+          333
+        ],
+        [
+          526,
+          505
+        ],
+        [
+          262,
+          505
+        ],
+        [
+          262,
+          470
+        ]
+      ],
+      "tag": [
+        400,
+        505
+      ],
+      "box": [
+        330,
+        508
+      ]
+    },
+    "30": {
+      "route": [
+        [
+          506,
+          327
+        ],
+        [
+          529,
+          327
+        ],
+        [
+          529,
+          509
+        ],
+        [
+          276,
+          509
+        ],
+        [
+          276,
+          470
+        ]
+      ],
+      "tag": [
+        440,
+        509
+      ],
+      "box": [
+        365,
+        512
       ]
     }
   }

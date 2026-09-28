@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.102534Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.777868Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "LP steam at ST LP admission",
+  "fluid": "steam",
+  "from_node": "PIPE",
+  "hmb_case": "SRC-NG-MEL",
+  "id": "SRC-NG-MEL_14",
+  "mass_flow": 6.357,
+  "number": 14,
+  "pressure": 2.602,
+  "status": "preliminary",
+  "temperature": 217.65,
+  "to_node": "ST"
+}

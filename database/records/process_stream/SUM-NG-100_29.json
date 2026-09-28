@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.147620Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.828366Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "HP attemperation spray water (BFP discharge)",
+  "fluid": "water",
+  "from_node": "BFP",
+  "hmb_case": "SUM-NG-100",
+  "id": "SUM-NG-100_29",
+  "mass_flow": 1.516,
+  "number": 29,
+  "pressure": 195.618,
+  "status": "preliminary",
+  "temperature": 158.66,
+  "to_node": "HRSG"
+}

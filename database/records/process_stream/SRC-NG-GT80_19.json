@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.082421Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.752061Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "Fuel gas heater water return to condensate",
+  "fluid": "water",
+  "from_node": "FGH",
+  "hmb_case": "SRC-NG-GT80",
+  "id": "SRC-NG-GT80_19",
+  "mass_flow": 11.002,
+  "number": 19,
+  "pressure": 37.068,
+  "status": "preliminary",
+  "temperature": 75.0,
+  "to_node": "CMIX"
+}

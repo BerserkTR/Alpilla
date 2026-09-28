@@ -57,3 +57,19 @@ def test_saturation_over_ice_and_water():
     assert t.p_sat_water(-10.0) * 1e5 == pytest.approx(259.9, abs=0.5)      # IAPWS 2011 sublimation, 263.15 K
     assert t.p_sat_water(20.0) * 1e5 == pytest.approx(2339.2, abs=1.0)      # IF97 region 4
     assert t.p_sat_water(0.0) * 1e5 == pytest.approx(611.2, abs=0.5)
+
+
+def test_liquid_fuel_and_water_injection():
+    ldo = t.liquid_fuel("C12H23", 42.9)
+    assert ldo["M"] == pytest.approx(167.31, abs=0.01)
+    assert 23 * 1.00794 / ldo["M"] == pytest.approx(0.1386, abs=1e-3)            # hydrogen mass fraction of diesel
+    air = t.humid_air(15.0, 70.0, 1.0115)
+    n_air, n_f, n_w = 27000.0, 130.0, 1250.0                                      # mol/s
+    prod = t.combustion(air, n_air, ldo["x"], n_f, n_water=n_w, atoms=ldo["atoms"])
+    m_in = n_air * t.mixture_M(air) + n_f * ldo["M"] + n_w * t.M["H2O"]
+    assert sum(n * t.M[k] for k, n in prod.items()) == pytest.approx(m_in, rel=1e-9)
+    assert prod["CO2"] == pytest.approx(air["CO2"] * n_air + 12 * n_f)
+    # injected liquid water at 25 degC carries minus the latent heat on the gas basis (about -2442 kJ/kg)
+    assert t.h_water_gas_basis(20.0, 25.0) == pytest.approx(-2440.0, abs=5.0)
+    with pytest.raises(ValueError):
+        t.parse_formula("diesel")

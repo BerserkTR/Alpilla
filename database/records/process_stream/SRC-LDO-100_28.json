@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.108880Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.785020Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "Demineralised water for NOx water injection (IF-03)",
+  "fluid": "water",
+  "from_node": "DMW",
+  "hmb_case": "SRC-LDO-100",
+  "id": "SRC-LDO-100_28",
+  "mass_flow": 13.443,
+  "number": 28,
+  "pressure": 60.0,
+  "status": "preliminary",
+  "temperature": 30.0,
+  "to_node": "GT"
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:12:31.658342Z",
+    "created_by": "IECE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:12:31.658342Z",
+    "updated_by": "IECE"
+  },
+  "doc_ref": "IEC-ALP-PER-003",
+  "file": "sources/iec/IEC-ALP-PER-003_RevA.pdf",
+  "id": "SRC-IECE-0005",
+  "originator": "Imaginary Electric Company (consortium member, power island supplier)",
+  "received_date": "2026-09-28",
+  "remarks": "Rev A (TQ-IEC-018/019): SRC-LDO-100 re-rated with the gas-operation compressor air flow and water/fuel 0.60; SRC-NG-MEL at 30 % GT load with the DLN-H2 low-load extension. Supersedes Rev 0. Native Word sources/iec/IEC-ALP-PER-003_RevA.docx; tables sources/iec/IEC-ALP-PER-003_RevA_data.xlsx.",
+  "revision": "A",
+  "title": "Power island off-design heat balances (case book) - Rev A"
+}

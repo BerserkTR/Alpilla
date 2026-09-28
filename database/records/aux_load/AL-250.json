@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:30.250244Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:01:30.250244Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0001"
+  ],
+  "counts_as": "auxiliary",
+  "description": "HVAC and lighting",
+  "hmb_case": "MIN-NG-100",
+  "id": "AL-250",
+  "method": "fixed",
+  "power": 750.0,
+  "status": "assumption",
+  "supplier": "IEPC"
+}

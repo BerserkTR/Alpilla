@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:30.228570Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:01:30.228570Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0001"
+  ],
+  "counts_as": "transformer_loss",
+  "description": "UAT and MV/LV transformer losses",
+  "hmb_case": "SRC-LDO-100",
+  "id": "AL-208",
+  "method": "fixed",
+  "power": 240.0,
+  "status": "assumption",
+  "supplier": "IEPC"
+}

@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.148337Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.829210Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "Circulating seawater to condenser inlet",
+  "fluid": "seawater",
+  "from_node": "SEA",
+  "hmb_case": "SUM-NG-100",
+  "id": "SUM-NG-100_25",
+  "mass_flow": 10196.804,
+  "number": 25,
+  "pressure": 2.5,
+  "status": "preliminary",
+  "temperature": 24.0,
+  "to_node": "COND"
+}

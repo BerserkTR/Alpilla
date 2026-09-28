@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:30.245189Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:01:30.245189Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0010"
+  ],
+  "counts_as": "auxiliary",
+  "description": "ST auxiliaries (lube oil, EHC, gland steam exhausters)",
+  "hmb_case": "MIN-NG-100",
+  "id": "AL-236",
+  "method": "fixed",
+  "power": 380.0,
+  "status": "preliminary",
+  "supplier": "IEC"
+}

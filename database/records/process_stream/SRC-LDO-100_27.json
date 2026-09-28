@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.108545Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.784387Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "LDO at liquid fuel skid inlet (IEC terminal point IF-02)",
+  "fluid": "ldo",
+  "from_node": "LDS",
+  "hmb_case": "SRC-LDO-100",
+  "id": "SRC-LDO-100_27",
+  "mass_flow": 22.406,
+  "number": 27,
+  "pressure": 5.0,
+  "status": "preliminary",
+  "temperature": 30.0,
+  "to_node": "GT"
+}

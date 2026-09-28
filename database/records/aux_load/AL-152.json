@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:30.206637Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:12:56.550824Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "counts_as": "transformer_loss",
+  "description": "GT GSU losses at this case load",
+  "hmb_case": "SRC-NG-060",
+  "id": "AL-152",
+  "method": "fixed",
+  "power": 475.0,
+  "status": "preliminary",
+  "supplier": "IEC"
+}

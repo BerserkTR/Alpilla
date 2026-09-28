@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:14:06.811467Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:14:07.317944Z",
+    "updated_by": "IECE"
+  },
+  "changed_records": [
+    "guarantee/IG-10"
+  ],
+  "contract": "ALP-CA-001",
+  "discipline": "commercial",
+  "follows": "TQ-IEC-018",
+  "id": "TQ-IEC-020",
+  "impact": "technical_only",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "IG-10 <= 6,020 kJ/kWh (expected 5,977 kJ/kWh).",
+  "question": "At the IG-09/IG-10 limits (572.0 MW / 6,030 kJ/kWh gross) and the EPC auxiliaries of case SRC-LDO-100 the plant is 560.2 MW / 6,157 kJ/kWh net against PG-16 (6,150 kJ/kWh). Please tighten IG-10.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-09-28",
+  "references": [
+    "guarantee:IG-09",
+    "guarantee:IG-10",
+    "guarantee:PG-16",
+    "hmb_case:SRC-LDO-100"
+  ],
+  "responded_by": "IEC",
+  "response": "Accepted: IG-10 <= 6,020 kJ/kWh.",
+  "response_date": "2026-09-28",
+  "round": 5,
+  "status": "closed",
+  "subject": "IG-10 does not cover PG-16"
+}

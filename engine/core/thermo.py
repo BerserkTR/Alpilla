@@ -147,11 +147,15 @@ def h_fuel(fx: dict, T_C: float, steps: int = 40) -> float:
     return sum(cp_fuel(fx, a + (i + 0.5) * dt) for i in range(steps)) * dt
 
 
-def combustion(air_x: dict, n_air: float, fuel_x: dict, n_fuel: float) -> dict:
-    """Complete combustion; returns product moles by species (mol/s if inputs are mol/s)."""
+def combustion(air_x: dict, n_air: float, fuel_x: dict, n_fuel: float, n_water: float = 0.0, atoms: dict | None = None) -> dict:
+    """Complete combustion; returns product moles by species (mol/s if inputs are mol/s).
+    n_water: water injected into the combustor (leaves as vapour). atoms: {component: (C, H, O, N, LHV)} for fuels not in
+    FUEL (e.g. a liquid fuel as one pseudo-molecule CcHh)."""
+    table = {**FUEL, **(atoms or {})}
     out = {k: air_x.get(k, 0.0) * n_air for k in ("N2", "O2", "Ar", "CO2", "H2O")}
+    out["H2O"] += n_water
     for k, xf in fuel_x.items():
-        c, h, o, n, _ = FUEL[k]
+        c, h, o, n, _ = table[k]
         nf = xf * n_fuel
         if k in ("N2", "CO2", "O2"):
             out[k] += nf
@@ -160,10 +164,38 @@ def combustion(air_x: dict, n_air: float, fuel_x: dict, n_fuel: float) -> dict:
             continue
         out["CO2"] += c * nf
         out["H2O"] += h / 2 * nf
-        out["O2"] -= (c + h / 4) * nf
+        out["O2"] -= (c + h / 4 - o / 2) * nf
     if out["O2"] < 0:
         raise ValueError("not enough air for complete combustion")
     return out
+
+
+def parse_formula(formula: str) -> tuple[float, float]:
+    """'C12H23' -> (12, 23)."""
+    import re
+    m = re.fullmatch(r"C(\d+(?:\.\d+)?)H(\d+(?:\.\d+)?)", formula.replace(" ", ""))
+    if not m:
+        raise ValueError(f"liquid fuel formula must be CcHh, got {formula!r}")
+    return float(m.group(1)), float(m.group(2))
+
+
+def liquid_fuel(formula: str, lhv_mass: float, cp: float = 2.0) -> dict:
+    """Liquid fuel (e.g. LDO) as one pseudo-molecule CcHh with a stated LHV (MJ/kg) and liquid cp (kJ/kg K)."""
+    c, h = parse_formula(formula)
+    mm = c * 12.0107 + h * 1.00794
+    return {"x": {"LIQ": 1.0}, "M": mm, "LHV_mass": lhv_mass, "LHV_vol": None, "rel_density": None, "density_std": None,
+            "atoms": {"LIQ": (c, h, 0, 0, lhv_mass * mm)}, "cp_liquid": cp, "formula": formula}
+
+
+def h_liquid_fuel(fuel: dict, T_C: float) -> float:
+    """Sensible enthalpy of a liquid fuel relative to 25 degC (kJ/kg)."""
+    return fuel["cp_liquid"] * (T_C - 25.0)
+
+
+def h_water_gas_basis(p_bar: float, T_C: float) -> float:
+    """Enthalpy of liquid water on the ideal-gas basis used for flue gas (water vapour at 25 degC = 0): for water injected
+    into a combustor. IAPWS-IF97 enthalpy minus that of low-pressure vapour at 25 degC."""
+    return h_pT(p_bar, T_C) - h_pT(0.01, 25.0)          # 1 kPa: above the triple point, practically ideal gas
 
 
 def mole_fractions(n: dict) -> dict:

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:30.205073Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:01:30.205073Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0010"
+  ],
+  "counts_as": "auxiliary",
+  "description": "HRSG auxiliaries (CPH recirculation pump, ammonia skid, drains)",
+  "hmb_case": "SRC-NG-060",
+  "id": "AL-149",
+  "method": "fixed",
+  "power": 210.0,
+  "status": "preliminary",
+  "supplier": "IEC"
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:12:32.089204Z",
+    "created_by": "IECE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:12:32.089204Z",
+    "updated_by": "IECE"
+  },
+  "doc_ref": "IEC-ALP-DS-104",
+  "file": "sources/iec/IEC-ALP-DS-104_RevB.pdf",
+  "id": "SRC-IECE-0007",
+  "originator": "Imaginary Electric Company (consortium member, power island supplier)",
+  "received_date": "2026-09-28",
+  "remarks": "Rev B (TQ-IEC-018): SCR and ammonia injection sized for LDO (GT-outlet NOx 150 mg/Nm3). Supersedes Rev A. Native Word sources/iec/IEC-ALP-DS-104_RevB.docx.",
+  "revision": "B",
+  "title": "HRSG IE-HR3 datasheet - Rev B"
+}

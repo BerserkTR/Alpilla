@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.105104Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.780488Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "Condensate to HRSG condensate preheater inlet",
+  "fluid": "water",
+  "from_node": "CMIX",
+  "hmb_case": "SRC-NG-MEL",
+  "id": "SRC-NG-MEL_20",
+  "mass_flow": 73.895,
+  "number": 20,
+  "pressure": 15.5,
+  "status": "preliminary",
+  "temperature": 26.58,
+  "to_node": "HRSG"
+}

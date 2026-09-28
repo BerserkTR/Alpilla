@@ -35,27 +35,39 @@ def parse_composition(s: str) -> dict:
     return out
 
 
-def calculate(case: dict, streams: list[dict], aux_loads: list[dict], refs: dict[str, dict]) -> Result:
-    """refs: 'entity:id' -> record for the case's check_refs (guarantees with their contract kind in '_kind')."""
+FUEL_FLUIDS = ("fuel_gas", "ldo")
+
+
+def calculate(case: dict, streams: list[dict], aux_loads: list[dict], refs: dict[str, dict], reference: dict | None = None) -> Result:
+    """refs: 'entity:id' -> record for the case's check_refs (guarantees with their contract kind in '_kind').
+    reference: summary of the case's reference_case (base load) for the plant load %."""
     res = Result(case=case)
     p_amb = case["barometric_pressure"] / 1000.0
-    comp = parse_composition(case.get("fuel_composition", ""))
-    if case["fuel"] != "natural_gas" or not comp:
-        raise ValueError(f"hmb_case {case['id']}: only natural gas cases with a fuel_composition are supported")
-    fuel = t.fuel_properties(comp)
+    if case["fuel"] == "natural_gas":
+        comp = parse_composition(case.get("fuel_composition", ""))
+        if not comp:
+            raise ValueError(f"hmb_case {case['id']}: natural gas case without fuel_composition")
+        fuel = t.fuel_properties(comp)
+    else:
+        if not case.get("fuel_formula") or not case.get("fuel_lhv"):
+            raise ValueError(f"hmb_case {case['id']}: liquid fuel case needs fuel_formula and fuel_lhv")
+        fuel = t.liquid_fuel(case["fuel_formula"], case["fuel_lhv"])
     res.fuel = fuel
     air_x = t.humid_air(case["ambient_temperature"], case["relative_humidity"], p_amb)
     S = sorted(streams, key=lambda s: s["number"])
     by_to = {}
     for s in S:
         by_to.setdefault(s["to_node"], []).append(s)
-    # combustion node: receives both air and fuel gas
-    burner = next((n for n, ins in by_to.items() if {"air", "fuel_gas"} <= {s["fluid"] for s in ins}), None)
+    # combustion node: receives air and fuel (gas or liquid); water into it is injected water (leaves as vapour)
+    burner = next((n for n, ins in by_to.items() if "air" in {s["fluid"] for s in ins}
+                   and {s["fluid"] for s in ins} & set(FUEL_FLUIDS)), None)
     flue_x = {}
     if burner:
         m_air = sum(s["mass_flow"] for s in by_to[burner] if s["fluid"] == "air")
-        m_f = sum(s["mass_flow"] for s in by_to[burner] if s["fluid"] == "fuel_gas")
-        prod = t.combustion(air_x, m_air / t.mixture_M(air_x) * 1000, fuel["x"], m_f / fuel["M"] * 1000)
+        m_f = sum(s["mass_flow"] for s in by_to[burner] if s["fluid"] in FUEL_FLUIDS)
+        m_w = sum(s["mass_flow"] for s in by_to[burner] if s["fluid"] == "water")
+        prod = t.combustion(air_x, m_air / t.mixture_M(air_x) * 1000, fuel["x"], m_f / fuel["M"] * 1000,
+                            m_w / t.M["H2O"] * 1000, fuel.get("atoms"))
         flue_x = t.mole_fractions(prod)
     res.flue_x = flue_x
     sal = case.get("seawater_salinity") or 35.0
@@ -74,6 +86,8 @@ def calculate(case: dict, streams: list[dict], aux_loads: list[dict], refs: dict
             h = t.h_gas(flue_x, s["temperature"])
         elif f == "fuel_gas":
             h = t.h_fuel(fuel["x"], s["temperature"])
+        elif f == "ldo":
+            h = t.h_liquid_fuel(fuel, s["temperature"])
         elif f == "seawater":
             h = cp_sw * s["temperature"]
         else:
@@ -98,7 +112,10 @@ def calculate(case: dict, streams: list[dict], aux_loads: list[dict], refs: dict
         E_in, E_out = sum(s["E"] for s in io["in"]), sum(s["E"] for s in io["out"])
         work, note = 0.0, ""
         if n == burner:
-            E_in += sum(s["mass_flow"] for s in io["in"] if s["fluid"] == "fuel_gas") * fuel["LHV_mass"] * 1000
+            E_in += sum(s["mass_flow"] for s in io["in"] if s["fluid"] in FUEL_FLUIDS) * fuel["LHV_mass"] * 1000
+            # injected water: from the IAPWS basis to the flue-gas basis (vapour at 25 degC = 0)
+            E_in += sum(s["mass_flow"] * (t.h_water_gas_basis(s["pressure"], s["temperature"]) - s["h"])
+                        for s in io["in"] if s["fluid"] == "water")
             work = P_gt / case["gt_generator_efficiency"] + (case.get("gt_other_losses") or 0.0)
             note = "GT: shaft power (output / generator efficiency) + other losses"
         elif n == st_node:
@@ -141,7 +158,7 @@ def calculate(case: dict, streams: list[dict], aux_loads: list[dict], refs: dict
             aux_total += p
         res.aux.append(dict(a, kW=p, how=how))
     # plant summary
-    q_fuel = sum(s["mass_flow"] for s in res.streams if s["fluid"] == "fuel_gas" and s["to_node"] == burner) * fuel["LHV_mass"] * 1000
+    q_fuel = sum(s["mass_flow"] for s in res.streams if s["fluid"] in FUEL_FLUIDS and s["to_node"] == burner) * fuel["LHV_mass"] * 1000
     gross = P_gt + P_st
     net = gross - aux_total - tr_total
     sw = [s for s in res.streams if s["fluid"] == "seawater"]
@@ -153,7 +170,10 @@ def calculate(case: dict, streams: list[dict], aux_loads: list[dict], refs: dict
     res.summary = {
         "gt_output": P_gt, "st_output": P_st, "gross": gross, "aux": aux_total, "transformer_losses": tr_total, "net": net,
         "heat_input": q_fuel, "gross_hr": q_fuel * 3600 / gross, "net_hr": q_fuel * 3600 / net, "net_eff": net / q_fuel,
-        "aux_pct_gross": (aux_total + tr_total) / gross * 100, "fuel_flow": m_fuel, "fuel_Sm3h": m_fuel / fuel["density_std"] * 3600,
+        "aux_pct_gross": (aux_total + tr_total) / gross * 100, "fuel_flow": m_fuel,
+        "fuel_Sm3h": m_fuel / fuel["density_std"] * 3600 if fuel.get("density_std") else None,
+        "plant_load_pct": net / reference["net"] * 100 if reference else None,
+        "water_injection": sum(s["mass_flow"] for s in res.streams if s["fluid"] == "water" and s["to_node"] == burner),
         "fuel_LHV": fuel["LHV_mass"], "fuel_LHV_vol": fuel["LHV_vol"], "hrsg_gas_duty": q_gas,
         "cw_flow": cw_in["mass_flow"] if cw_in else None, "cw_m3h": cw_in["mass_flow"] / rho_sw * 3600 if cw_in else None,
         "cw_rise": (cw_out["temperature"] - cw_in["temperature"]) if cw_in and cw_out else None,
@@ -202,10 +222,10 @@ def _checks(res: Result, refs: dict):
             if unit == "MW":
                 metric, x = ("net output", sm["net"] / 1000) if owner else \
                     (("GT output", sm["gt_output"] / 1000) if "GT" in r["parameter"] else ("gross output", sm["gross"] / 1000))
-            elif unit == "kJ/kWh":
-                if "60 %" in r["parameter"] or "LDO" in r["parameter"]:
-                    continue
+            elif unit == "kJ/kWh":                       # which guarantee applies is decided by the case's check_refs
                 metric, x = ("net heat rate", sm["net_hr"]) if owner else ("gross heat rate", sm["gross_hr"])
+            elif unit.startswith("% of plant net"):
+                metric, x = "plant load (net, % of the reference case)", sm.get("plant_load_pct")
             elif unit == "K":
                 metric, x = "CW temperature rise", sm["cw_rise"]
             elif unit.startswith("mbar"):
@@ -224,10 +244,14 @@ def _checks(res: Result, refs: dict):
                 ok = sm["aux_pct_gross"] <= val
                 C.append(("OK" if ok else "WARN", f"auxiliary + transformer losses {sm['aux_pct_gross']:.2f} % of gross vs {rid} <= {val} %"))
             elif unit == "MJ/kg":
+                if case["fuel"] != "natural_gas":
+                    continue
                 d = (sm["fuel_LHV"] - val) / val * 100
                 C.append(("WARN" if abs(d) > 0.5 else "OK", f"fuel LHV from the composition (ISO 6976) {sm['fuel_LHV']:.2f} MJ/kg vs "
                                                               f"{rid} {val} MJ/kg ({d:+.2f} %)"))
             elif unit == "Sm3/h":
+                if sm["fuel_Sm3h"] is None:
+                    continue
                 u = sm["fuel_Sm3h"] / val * 100
                 C.append(("OK" if u <= 100 else "WARN", f"gas flow {sm['fuel_Sm3h']:,.0f} Sm3/h = {u:.1f} % of {rid} ({val:,.0f} Sm3/h)"))
             elif unit.startswith("MW export"):
@@ -241,7 +265,7 @@ def _checks(res: Result, refs: dict):
     g = {r["unit"]: r for k, r in refs.items() if k.startswith("guarantee:") and r.get("_kind") not in (None, "owner_contract")
          and "GT" not in r["parameter"] and r["unit"] in ("MW", "kJ/kWh")}
     o = {r["unit"]: r for k, r in refs.items() if k.startswith("guarantee:") and r.get("_kind", "owner_contract") == "owner_contract"
-         and r["unit"] in ("MW", "kJ/kWh") and "60 %" not in r["parameter"] and "LDO" not in r["parameter"]}
+         and r["unit"] in ("MW", "kJ/kWh")}                       # the case's check_refs select the applicable guarantees
     if {"MW", "kJ/kWh"} <= set(g) and {"MW", "kJ/kWh"} <= set(o):
         loads = (sm["aux"] + sm["transformer_losses"]) / 1000
         net_w = g["MW"]["guaranteed_value"] - loads
@@ -251,5 +275,9 @@ def _checks(res: Result, refs: dict):
                   f"guarantee cover: at {g['MW']['id']}/{g['kJ/kWh']['id']} limits and this HMB's auxiliaries the net plant is "
                   f"{net_w:.1f} MW / {hr_w:,.0f} kJ/kWh vs Owner {o['MW']['id']} {o['MW']['guaranteed_value']:.0f} MW / "
                   f"{o['kJ/kWh']['id']} {o['kJ/kWh']['guaranteed_value']:,.0f} kJ/kWh"))
+    if sm.get("plant_load_pct") is not None and case.get("load_pct", 100) < 100 \
+            and abs(sm["plant_load_pct"] - case["load_pct"]) > 1.0:
+        C.append(("WARN", f"plant load {sm['plant_load_pct']:.1f} % of {case.get('reference_case')} differs from the case "
+                          f"definition {case['load_pct']} %"))
     if case.get("cw_temperature_rise") and sm["cw_rise"] is not None and abs(sm["cw_rise"] - case["cw_temperature_rise"]) > 0.05:
         C.append(("WARN", f"CW temperature rise {sm['cw_rise']:.2f} K differs from the case value {case['cw_temperature_rise']} K"))

@@ -108,3 +108,30 @@ def test_code_or_template_change_makes_output_stale(project):
     tpl = project.root / "templates" / "hmb" / "layout_1x1_3prh.json"
     tpl.write_text(tpl.read_text() + "\n")                                # any change to a declared dependency
     assert [m for lvl, m in check_outputs(project, s) if "output/hmb/: STALE" in m]
+
+
+def test_ldo_case_with_water_injection_closes():
+    """Liquid fuel with injected water: the water enters on the IAPWS basis and leaves as vapour in the flue gas."""
+    fuel = th.liquid_fuel("C12H23", 42.9)
+    air = th.humid_air(15.0, 70.0, 1.0115)
+    m_a, m_f, m_w = 776.0, 22.4, 13.4
+    flue = th.mole_fractions(th.combustion(air, m_a / th.mixture_M(air) * 1000, fuel["x"], m_f / fuel["M"] * 1000,
+                                           m_w / th.M["H2O"] * 1000, fuel["atoms"]))
+    E_in = m_a * th.h_gas(air, 15.0) + m_f * (42900 + th.h_liquid_fuel(fuel, 30.0)) + m_w * th.h_water_gas_basis(60.0, 30.0)
+    W = 400500.0 / 0.989 + 3800.0
+    T_exh = th.T_from_h_gas(flue, (E_in - W) / (m_a + m_f + m_w))
+    case = {"id": "L1", "title": "LDO", "fuel": "ldo", "fuel_formula": "C12H23", "fuel_lhv": 42.9, "load_pct": 100,
+            "ambient_temperature": 15.0, "relative_humidity": 70.0, "barometric_pressure": 1011.5, "seawater_temperature": 16.0,
+            "gt_output": 400500.0, "gt_generator_efficiency": 0.989, "gt_other_losses": 3800.0, "st_output": 0.0,
+            "st_mechanical_efficiency": 1.0, "st_generator_efficiency": 1.0}
+    streams = [
+        {"number": 1, "description": "Air", "fluid": "air", "from_node": "AMB", "to_node": "GT", "mass_flow": m_a, "pressure": 1.0115, "temperature": 15.0},
+        {"number": 27, "description": "LDO", "fluid": "ldo", "from_node": "LDS", "to_node": "GT", "mass_flow": m_f, "pressure": 5.0, "temperature": 30.0},
+        {"number": 28, "description": "Water", "fluid": "water", "from_node": "DMW", "to_node": "GT", "mass_flow": m_w, "pressure": 60.0, "temperature": 30.0},
+        {"number": 4, "description": "Exhaust", "fluid": "flue_gas", "from_node": "GT", "to_node": "STK", "mass_flow": m_a + m_f + m_w,
+         "pressure": 1.05, "temperature": T_exh}]
+    res = hmb.calculate(case, streams, [], {})
+    assert abs(res.nodes["GT"]["residual"]) < 1.0
+    assert res.summary["heat_input"] == pytest.approx(m_f * 42900)
+    assert res.summary["water_injection"] == pytest.approx(m_w) and res.summary["fuel_Sm3h"] is None
+    assert 580 < T_exh < 600                            # injected water lowers the exhaust temperature

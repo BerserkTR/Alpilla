@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.078531Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.745700Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "Cold reheat steam at HP turbine exhaust",
+  "fluid": "steam",
+  "from_node": "ST",
+  "hmb_case": "SRC-NG-GT80",
+  "id": "SRC-NG-GT80_8",
+  "mass_flow": 87.346,
+  "number": 8,
+  "pressure": 35.276,
+  "status": "preliminary",
+  "temperature": 369.63,
+  "to_node": "PIPE"
+}

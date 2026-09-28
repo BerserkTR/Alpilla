@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.141934Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.822096Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "Hot reheat steam at HRSG outlet",
+  "fluid": "steam",
+  "from_node": "HRSG",
+  "hmb_case": "SUM-NG-100",
+  "id": "SUM-NG-100_11",
+  "mass_flow": 110.898,
+  "number": 11,
+  "pressure": 35.49,
+  "status": "preliminary",
+  "temperature": 600.0,
+  "to_node": "PIPE"
+}

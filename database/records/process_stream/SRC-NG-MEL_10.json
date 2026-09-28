@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.100615Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.776087Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "IP superheated steam (joins cold reheat inside the HRSG)",
+  "fluid": "steam",
+  "from_node": "HRSG",
+  "hmb_case": "SRC-NG-MEL",
+  "id": "SRC-NG-MEL_10",
+  "mass_flow": 10.61,
+  "number": 10,
+  "pressure": 20.885,
+  "status": "preliminary",
+  "temperature": 291.34,
+  "to_node": "HRSG"
+}

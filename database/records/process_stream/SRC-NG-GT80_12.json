@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.079948Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.748295Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "Hot reheat steam at ST IP stop/control valve inlet",
+  "fluid": "steam",
+  "from_node": "PIPE",
+  "hmb_case": "SRC-NG-GT80",
+  "id": "SRC-NG-GT80_12",
+  "mass_flow": 103.126,
+  "number": 12,
+  "pressure": 31.773,
+  "status": "preliminary",
+  "temperature": 598.5,
+  "to_node": "ST"
+}

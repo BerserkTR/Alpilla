@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.149484Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:12:46.830865Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "Fuel gas at performance gas heater inlet (IEC terminal point IF-01)",
+  "fluid": "fuel_gas",
+  "from_node": "FGS",
+  "hmb_case": "MAX-NG-100",
+  "id": "MAX-NG-100_2",
+  "mass_flow": 17.51,
+  "number": 2,
+  "pressure": 38.0,
+  "status": "preliminary",
+  "temperature": 25.0,
+  "to_node": "FGH"
+}

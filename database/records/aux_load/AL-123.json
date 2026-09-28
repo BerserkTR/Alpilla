@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:30.194781Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:01:30.194781Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0010"
+  ],
+  "counts_as": "auxiliary",
+  "description": "GT package auxiliaries (lube oil, hydraulic, enclosure ventilation, fuel skid, filter house)",
+  "hmb_case": "SRC-NG-GT80",
+  "id": "AL-123",
+  "method": "fixed",
+  "power": 1180.0,
+  "status": "preliminary",
+  "supplier": "IEC"
+}

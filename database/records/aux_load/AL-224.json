@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:30.236171Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:01:30.236171Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0001"
+  ],
+  "counts_as": "auxiliary",
+  "description": "Closed cooling water pumps",
+  "hmb_case": "WIN-NG-100",
+  "id": "AL-224",
+  "method": "fixed",
+  "power": 320.0,
+  "status": "assumption",
+  "supplier": "IEPC"
+}

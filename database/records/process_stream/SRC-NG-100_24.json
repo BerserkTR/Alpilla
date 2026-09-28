@@ -2,22 +2,22 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:27.665462Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-27T18:46:26.061441Z",
+    "rev": 6,
+    "updated_at": "2026-09-28T03:12:46.741454Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
-    "source:SRC-IECE-0001"
+    "source:SRC-IECE-0005"
   ],
   "description": "IP economiser water to performance fuel gas heater",
   "fluid": "water",
   "from_node": "HRSG",
   "hmb_case": "SRC-NG-100",
   "id": "SRC-NG-100_24",
-  "mass_flow": 12.48,
+  "mass_flow": 12.481,
   "number": 24,
   "pressure": 43.3,
   "status": "preliminary",
-  "temperature": 248.0,
+  "temperature": 247.98,
   "to_node": "FGH"
 }

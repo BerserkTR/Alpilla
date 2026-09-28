@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.114562Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.791294Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "Condensate at CEP discharge",
+  "fluid": "water",
+  "from_node": "CEP",
+  "hmb_case": "SRC-LDO-100",
+  "id": "SRC-LDO-100_18",
+  "mass_flow": 123.958,
+  "number": 18,
+  "pressure": 16.0,
+  "status": "preliminary",
+  "temperature": 26.0,
+  "to_node": "CMIX"
+}

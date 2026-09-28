@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.151716Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.833418Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "Cold reheat steam at HP turbine exhaust",
+  "fluid": "steam",
+  "from_node": "ST",
+  "hmb_case": "MAX-NG-100",
+  "id": "MAX-NG-100_8",
+  "mass_flow": 91.085,
+  "number": 8,
+  "pressure": 36.635,
+  "status": "preliminary",
+  "temperature": 368.13,
+  "to_node": "PIPE"
+}

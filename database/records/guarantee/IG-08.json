@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:12:34.165716Z",
+    "created_by": "IECE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:12:34.165716Z",
+    "updated_by": "IECE"
+  },
+  "category": "operational",
+  "conditions": "Natural gas per ER-03.02, NOx and CO within the stack limits with SCR and oxidation catalyst",
+  "contract": "ALP-CA-001",
+  "direction": "max",
+  "guaranteed_value": 30.0,
+  "id": "IG-08",
+  "parameter": "GT minimum emissions-compliant load (natural gas)",
+  "test_procedure": "emission test at MECL during commissioning",
+  "unit": "% GT load"
+}

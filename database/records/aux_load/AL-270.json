@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:30.257585Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-28T03:01:30.257585Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0001"
+  ],
+  "counts_as": "auxiliary",
+  "description": "Water treatment (SWRO, demineralisation, condensate polishing)",
+  "hmb_case": "SUM-NG-100",
+  "id": "AL-270",
+  "method": "fixed",
+  "power": 450.0,
+  "status": "assumption",
+  "supplier": "IEPC"
+}

@@ -10,3 +10,11 @@ only to the folder given on the command line, never to the database, `output/` o
 
 Because datasheets, heat balance and interface data come from one model they are mutually consistent; the EPC checks them
 independently with the `hmb` engine. Delete this folder when the case study is no longer needed.
+
+Off-design (added for PER-003):
+- `iec_offdesign.py` - rating model calibrated at PER-001 Rev B (fixed HRSG/condenser surfaces, sliding pressure, attemperation,
+  LDO with water injection); reproduces the design point exactly. Requires scipy.
+- `iec_cases.py <out.json> [revA]` - the nine HMB cases of IEC-ALP-PER-003 (Rev A: LDO with gas-operation air flow and
+  water/fuel 0.60, MEL at 30 % GT load)
+- `iec_data.py <out.json> revB` - PER-001 Rev B (corrected HRSG arrangement: IP SH after the HP evaporator, LP SH after the
+  IP evaporator)

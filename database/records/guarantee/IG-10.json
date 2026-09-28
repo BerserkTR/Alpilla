@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:12:33.719487Z",
+    "created_by": "IECE",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:14:07.074053Z",
+    "updated_by": "IECE"
+  },
+  "category": "performance",
+  "conditions": "SRC, LDO with water/fuel 0.60, new and clean, per IEC-ALP-PER-003 Rev A case SRC-LDO-100",
+  "contract": "ALP-CA-001",
+  "direction": "max",
+  "guaranteed_value": 6020.0,
+  "id": "IG-10",
+  "parameter": "Power island gross heat rate (LHV) on LDO",
+  "test_procedure": "ASME PTC 46 within the plant LDO performance test",
+  "unit": "kJ/kWh"
+}

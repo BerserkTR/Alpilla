@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:21.143492Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-28T03:12:46.823905Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "description": "IP turbine exhaust (crossover, internal)",
+  "fluid": "steam",
+  "from_node": "ST",
+  "hmb_case": "SUM-NG-100",
+  "id": "SUM-NG-100_15",
+  "mass_flow": 110.898,
+  "number": 15,
+  "pressure": 4.653,
+  "status": "preliminary",
+  "temperature": 309.17,
+  "to_node": "ST"
+}

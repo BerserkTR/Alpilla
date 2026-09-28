@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-28T03:01:30.224648Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-28T03:12:56.553700Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-IECE-0005"
+  ],
+  "counts_as": "transformer_loss",
+  "description": "ST GSU losses at this case load",
+  "hmb_case": "SRC-LDO-100",
+  "id": "AL-198",
+  "method": "fixed",
+  "power": 485.0,
+  "status": "preliminary",
+  "supplier": "IEC"
+}
