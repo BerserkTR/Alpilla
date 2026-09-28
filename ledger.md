@@ -5,6 +5,11 @@
 Read before working. Add a lesson whenever something went wrong or a better way was found:
 `python -m engine db add lesson --set title="..." --set lesson="..." --reason "..."`
 
+### L-EPCE-0011 (2026-09-28) Plan with the same prerequisites the release gates check [planning, document_control, procurement]
+- Context: The first gate analysis of MDL Rev B found 125 of 600 gate instances planned late: POs planned before their specifications, ITPs and bid evaluations; supplier test reports timed after shipment; basic design documents without any priority
+- Lesson: A plan that uses a simpler rule than the release check is not executable; gaps show only when the gates are evaluated against the plan
+- Action: Keep process gates as gate_rule data read by both the workflow and the release check; run python -m engine gate after every MDL or schedule change and raise a TQ for every gate that stays late
+
 ### L-EPCE-0010 (2026-09-28) Check the MDL for the key document of each discipline, not only for quantities [mdl, engineering, verification]
 - Context: MDL Rev B passed the quantity benchmarks but had no process, mechanical or HSE design criteria; the user noticed. While fixing it, a fallback in the rule input resolution was found to have linked 2,104 documents to the P&IDs, narratives and requisitions of other systems and packages in the same area
 - Lesson: Quantity checks do not show a missing key document, and plausible-looking networks can hide systematic wrong links; both need explicit checks
@@ -94,8 +99,3 @@ Read before working. Add a lesson whenever something went wrong or a better way 
 - Context: Datasheet PDFs were missing: soffice was on PATH but installed without Writer, conversion failed with 'source file could not be loaded'
 - Lesson: soffice on PATH is not enough; engines skip PDFs with a WARN line instead of failing
 - Action: Install libreoffice-writer-nogui and libreoffice-calc-nogui (or full LibreOffice) and read the WARN lines after every engine run
-
-### L-EPCE-0011 () Plan with the same prerequisites the release gates check [planning, document_control, procurement]
-- Context: The first gate analysis of MDL Rev B found 125 of 600 gate instances planned late: POs planned before their specifications, ITPs and bid evaluations; supplier test reports timed after shipment; basic design documents without any priority
-- Lesson: A plan that uses a simpler rule than the release check is not executable; gaps show only when the gates are evaluated against the plan
-- Action: Keep process gates as gate_rule data read by both the workflow and the release check; run python -m engine gate after every MDL or schedule change and raise a TQ for every gate that stays late
