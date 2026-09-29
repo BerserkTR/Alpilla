@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:14:04.470873Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:14:04.470873Z",
+    "updated_by": "EPCE"
+  },
+  "doc_ref": "IEC-ALP-DS-101",
+  "file": "sources/iec/IEC-ALP-DS-101_RevB.pdf",
+  "id": "SRC-EPCE-0012",
+  "originator": "Imaginary Electric Company (consortium member, power island supplier)",
+  "received_date": "2026-12-04",
+  "remarks": "TQ-IEC-025 answer",
+  "revision": "B",
+  "title": "Gas turbine IE-9H.02 datasheet - Rev B"
+}

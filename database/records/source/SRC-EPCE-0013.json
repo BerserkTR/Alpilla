@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:14:06.527513Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:14:06.527513Z",
+    "updated_by": "EPCE"
+  },
+  "doc_ref": "IEC-ALP-DS-102",
+  "file": "sources/iec/IEC-ALP-DS-102_RevA.pdf",
+  "id": "SRC-EPCE-0013",
+  "originator": "Imaginary Electric Company (consortium member, power island supplier)",
+  "received_date": "2026-12-04",
+  "remarks": "TQ-IEC-025 answer",
+  "revision": "A",
+  "title": "Generators, GCB and isolated phase busduct datasheet - Rev A"
+}

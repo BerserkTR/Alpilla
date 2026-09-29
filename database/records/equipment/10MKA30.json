@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:14:29.891658Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:14:29.891658Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Control Panel",
+  "basis_refs": [
+    "source:SRC-EPCE-0013"
+  ],
+  "cwa": "CWA-01",
+  "cwp": "CWP-01-ME-01",
+  "description": "GT generator protection panels (main 1 / main 2)",
+  "equipment_type": "control system",
+  "id": "10MKA30",
+  "mr": "MR-EL-101",
+  "quantity": 1,
+  "service": "Generator protection (IEC 61850)",
+  "status": "preliminary",
+  "supply": "IEC",
+  "system": "10MKA",
+  "voltage": 220
+}

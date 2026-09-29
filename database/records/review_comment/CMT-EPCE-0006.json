@@ -2,14 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T18:59:45.105913Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T18:59:45.105913Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:14:22.638730Z",
     "updated_by": "EPCE"
   },
+  "closed_in": "ALP-IEC-10MBA-ME-DSH-0001_B",
   "comment": "GT static frequency converter (tag 10MKC20, 8.5 MW) starting load profile and duration are needed for the unit auxiliary transformer and MV switchgear rating.",
   "id": "CMT-EPCE-0006",
   "location": "scope",
   "originator": "IEPC",
+  "response": "SFC profile given in the TQ-IEC-025 answer (8.5 MW for about 25 min per start).",
   "revision": "ALP-IEC-10MBA-ME-DSH-0001_A",
-  "status": "open"
+  "status": "closed"
 }

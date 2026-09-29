@@ -103,3 +103,27 @@ def test_consistency_checks(project):
     doc(s, "ALP-EPC-00PAC-ME-DSH-0009", "mechanical", "DSH", aveva_class="Specification Documents")
     txt = " | ".join(f"{a} {b} {c} {d}" for a, b, c, d in consistency.check(Store(project, who())))
     assert "ALP-EPC-00PAC-ME-DSH-0009 document inputs WARN" in txt              # no inputs: missing links
+
+
+def test_technical_documents_clauses_blocks_and_references(project):
+    s = data(project)
+    _params(s)
+    s.update("document", "ALP-EPC-00000-PR-DBR-0001", {"produced_by": "technical_documents", "title": "Process Design Criteria"}, R)
+    s.create("reference", {"id": "REF-TEST-0002", "code": "API 520", "title": "Sizing of pressure-relieving devices"}, R)
+    rows = [{"section": "1", "section_title": "Purpose and scope", "seq": 1, "text": "Criteria for the process design."},
+            {"section": "2", "section_title": "Site data", "seq": 1, "block": "params:site"},
+            {"section": "3", "section_title": "Margins", "seq": 1, "parameter": "Pump flow margin", "value": 10, "unit": "%",
+             "basis_refs": ["reference:REF-TEST-0002"]},
+            {"section": "3", "seq": 2, "text": "Relief valves shall be sized per API 520.", "basis_refs": ["reference:REF-TEST-0002"]},
+            {"section": "10", "section_title": "Matrix", "seq": 1, "parameter": "C-1 dust", "value_text": "enclosed conveyors",
+             "remarks": "DOC-1", "table_head": ["Condition", "Measure", "Evidence"]},
+            {"section": "4", "section_title": "Missing", "seq": 1, "block": "aux_loads:NO-CASE"}]
+    for i, r in enumerate(rows, 1):
+        s.create("doc_clause", {"id": f"DC-TEST-{i:04d}", "document": "ALP-EPC-00000-PR-DBR-0001", **r}, R)
+    m = run_engine(project, Store(project, who()), registry()["technical_documents"], {"pdf": "no"})
+    assert list(m["files"]) == ["ALP-EPC-00000-PR-DBR-0001.docx"]
+    assert any("block 'aux_loads:NO-CASE' has no data" in w for w in m["warnings"])
+    t = _text(project.output / "technical_documents" / "ALP-EPC-00000-PR-DBR-0001.docx")
+    assert t.index("1. Purpose and scope") < t.index("3. Margins") < t.index("4. Missing") < t.index("10. Matrix")  # numeric order
+    assert "Site grade level" in t and "15 m a.s.l." in t                  # block from the design parameters
+    assert "Pump flow margin" in t and "3.1 Relief valves" in t and "API 520" in t and "Evidence" in t

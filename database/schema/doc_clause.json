@@ -1,0 +1,65 @@
+{
+  "entity": "doc_clause",
+  "title": "Clause of a clause-based document (design criteria, general specifications, reports, procedures, compliance matrices): text, a required value, a matrix row or an automatic data block; the document is generated from its clauses by the technical_documents engine",
+  "id_prefix": "DC",
+  "display": ["document", "section", "seq", "parameter", "value_text"],
+  "fields": {
+    "document": {
+      "type": "ref",
+      "to": "document",
+      "required": true
+    },
+    "section": {
+      "type": "string",
+      "required": true,
+      "description": "section number, e.g. 3 or 3.2 (sections are printed in numeric order)"
+    },
+    "section_title": {
+      "type": "string",
+      "description": "title of the section (given on its first clause)"
+    },
+    "seq": {
+      "type": "integer",
+      "required": true,
+      "description": "order within the section"
+    },
+    "text": {
+      "type": "text",
+      "description": "requirement / statement text"
+    },
+    "parameter": {
+      "type": "string",
+      "description": "parameter or matrix item (printed in a table with value, unit, status, basis)"
+    },
+    "value": {
+      "type": "number"
+    },
+    "value_text": {
+      "type": "text",
+      "description": "value as text (ranges, criteria), or the compliance measure of a matrix row"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "table_head": {
+      "type": "list",
+      "description": "column titles for the table of this section (default: Item, Value, Unit, Status, Basis / remarks)"
+    },
+    "block": {
+      "type": "string",
+      "description": "automatic content from the records: params:<category,...> | equipment:system=<prefix,...> | equipment:type=<type,...> | guarantees | hmb_summary | aux_loads:<case> | requirements:<ER-id,...> | decisions:<id,...> | permits | tie_ins | progress_rules | doc_types"
+    },
+    "status": {
+      "type": "enum",
+      "values": ["assumption", "preliminary", "confirmed", "superseded"]
+    },
+    "basis_refs": {
+      "type": "ref_list",
+      "to": ["requirement", "design_parameter", "reference", "decision", "clarification", "document", "equipment", "guarantee", "tie_in", "source", "permit", "scope_item", "hmb_case"]
+    },
+    "remarks": {
+      "type": "text",
+      "description": "remarks, or the evidence / document of a matrix row"
+    }
+  }
+}

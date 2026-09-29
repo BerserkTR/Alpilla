@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:14:29.888647Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:14:29.888647Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Valve",
+  "basis_refs": [
+    "source:SRC-EPCE-0014"
+  ],
+  "cwa": "CWA-02",
+  "cwp": "CWP-02-ME-01",
+  "description": "HP bypass valve (to cold reheat)",
+  "design_pressure": 210,
+  "design_temperature": 610,
+  "equipment_type": "valve",
+  "id": "10LBA10AA501",
+  "mr": "MR-ME-103",
+  "quantity": 1,
+  "service": "HP steam bypass 100 %",
+  "status": "preliminary",
+  "supply": "IEC",
+  "system": "10LBA"
+}

@@ -2,9 +2,9 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.854706Z",
     "created_by": "EPCE",
-    "rev": 8,
-    "updated_at": "2026-09-28T18:38:48.897000Z",
-    "updated_by": "EPCE"
+    "rev": 9,
+    "updated_at": "2026-09-29T03:15:49.504122Z",
+    "updated_by": "SETUP"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
@@ -40,7 +40,7 @@
   "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
   "review": "approval",
   "rule": "DL-V-PID|MR-ME-103|1",
-  "sheets": 16,
+  "sheets": 19,
   "status": "planned",
   "system": "20MAA",
   "systems": [
@@ -54,5 +54,5 @@
   "title": "Steam Turbine and Condenser - Supplier P&IDs",
   "type_code": "PID",
   "vendor_ref": "IEC-ALP-PID-103",
-  "weight": 52
+  "weight": 61
 }

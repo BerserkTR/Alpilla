@@ -2,9 +2,9 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.852170Z",
     "created_by": "EPCE",
-    "rev": 10,
-    "updated_at": "2026-09-28T18:38:48.789110Z",
-    "updated_by": "EPCE"
+    "rev": 11,
+    "updated_at": "2026-09-29T03:15:49.500967Z",
+    "updated_by": "SETUP"
   },
   "aveva_class": "Drawing",
   "basis_refs": [
@@ -15,6 +15,9 @@
   "discipline": "mechanical",
   "doc_type": "drawing",
   "equipment": [
+    "10LBA10AA501",
+    "10LBB10AA501",
+    "10LBD10AA501",
     "20MAA10",
     "20MAB10",
     "20MAG10",
@@ -36,7 +39,7 @@
   "remarks": "IEC VDRL: dates agreed in TQ-IEC-023 (weeks after NTP)",
   "review": "review",
   "rule": "DL-V-GAD|MR-ME-103|1",
-  "sheets": 46,
+  "sheets": 49,
   "source": "SRC-IECE-0011",
   "status": "planned",
   "system": "20MAA",
@@ -47,5 +50,5 @@
   "title": "Steam Turbine and Condenser - Supplier GA Drawings",
   "type_code": "GAD",
   "vendor_ref": "IEC-ALP-GA-102",
-  "weight": 73.0
+  "weight": 77.5
 }

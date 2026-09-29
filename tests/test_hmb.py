@@ -135,3 +135,19 @@ def test_ldo_case_with_water_injection_closes():
     assert res.summary["heat_input"] == pytest.approx(m_f * 42900)
     assert res.summary["water_injection"] == pytest.approx(m_w) and res.summary["fuel_Sm3h"] is None
     assert 580 < T_exh < 600                            # injected water lowers the exhaust temperature
+
+
+def test_plant_hmb_document(project):
+    """The MDL document produced_by hmb: report (cases, results, checks, auxiliary loads) + all case diagrams."""
+    test_hmb_engine_outputs(project)
+    s = Store(project, who())
+    s.create("doc_type", {"id": "HMB", "title": "Heat and mass balance", "dcc": "F", "category": "report", "review": "approval",
+                          "prep_days": 10, "update_days": 5, "input_maturity": "IFR"}, R)
+    s.create("document", {"id": "ALP-EPC-00000-PR-HMB-0001", "title": "Plant Heat and Mass Balances", "discipline": "process",
+                          "doc_type": "report", "type_code": "HMB", "originator": "EPC", "produced_by": "hmb"}, R)
+    m = run_engine(project, Store(project, who()), registry()["hmb"], {})
+    assert "ALP-EPC-00000-PR-HMB-0001.docx" in m["files"]
+    from docx import Document
+    t = "\n".join(c.text for tb in Document(str(project.output / "hmb" / "ALP-EPC-00000-PR-HMB-0001.docx")).tables
+                  for r in tb.rows for c in r.cells)
+    assert "T1" in t and "Net heat rate LHV kJ/kWh" in t and "Rev A - IFR, draft (not issued)" in t

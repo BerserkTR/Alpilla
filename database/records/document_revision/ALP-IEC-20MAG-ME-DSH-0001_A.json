@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:14:13.482049Z",
+    "created_by": "IECE",
+    "rev": 2,
+    "updated_at": "2026-09-29T03:16:37.420791Z",
+    "updated_by": "EPCE"
+  },
+  "description": "received IEC-ALP-DS-105 Rev A (TQ-IEC-025)",
+  "document": "ALP-IEC-20MAG-ME-DSH-0001",
+  "file": "sources/iec/IEC-ALP-DS-105_RevA.pdf",
+  "id": "ALP-IEC-20MAG-ME-DSH-0001_A",
+  "issue_date": "2026-12-04",
+  "prepared_by": "IEC",
+  "purpose": "IFR",
+  "review_code": "1",
+  "review_date": "2026-12-11",
+  "revision": "A"
+}

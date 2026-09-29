@@ -2,14 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T18:59:42.509731Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T18:59:42.509731Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:14:18.105450Z",
     "updated_by": "EPCE"
   },
+  "closed_in": "ALP-IEC-10HAA-ME-DSH-0001_C",
   "comment": "Design temperatures of the HP superheater, reheater, IP and LP sections are missing; only design pressures are given. Needed for the terminal point design and the piping classes (TQ-IEC-025).",
   "id": "CMT-EPCE-0003",
   "location": "design data",
   "originator": "IEPC",
+  "response": "Design temperatures added: HP SH / RH 610, IP SH 350, LP SH 300, CPH 180 degC.",
   "revision": "ALP-IEC-10HAA-ME-DSH-0001_B",
-  "status": "open"
+  "status": "closed"
 }

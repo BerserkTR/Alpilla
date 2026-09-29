@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:16:35.704733Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:16:35.704733Z",
+    "updated_by": "EPCE"
+  },
+  "comment": "Add the CPH recirculation pumps 10HAA10AP001 / AP002 to the datasheet with the data given in the TQ-IEC-025 answer (2 x 100 %, 45 m3/h, 60 m, 30 kW, 400 V) - the TQ answer is not a design document.",
+  "id": "CMT-EPCE-0011",
+  "location": "section 2 / tagged items",
+  "originator": "IEPC",
+  "revision": "ALP-IEC-10HAA-ME-DSH-0001_C",
+  "status": "open"
+}

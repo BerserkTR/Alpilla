@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:14:29.890799Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:14:29.890799Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Transformer",
+  "basis_refs": [
+    "source:SRC-EPCE-0013"
+  ],
+  "capacity": 5500,
+  "capacity_unit": "kVA",
+  "cwa": "CWA-01",
+  "cwp": "CWP-01-EL-01",
+  "description": "GT excitation transformer",
+  "equipment_type": "transformer",
+  "id": "10MKC30",
+  "mr": "MR-EL-101",
+  "quantity": 1,
+  "service": "Static excitation supply",
+  "status": "preliminary",
+  "supply": "IEC",
+  "system": "10MKC",
+  "voltage": 21000
+}

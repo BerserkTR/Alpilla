@@ -2,14 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T18:59:41.290502Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T18:59:41.290502Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:14:16.496157Z",
     "updated_by": "EPCE"
   },
+  "closed_in": "ALP-IEC-20MAA-ME-DSH-0001_A",
   "comment": "HP / IP / LP bypass valves and dump devices are IEC scope per this datasheet but have no tags; provide tags and data for the plant equipment list (TQ-IEC-025).",
   "id": "CMT-EPCE-0002",
   "location": "section 1 scope",
   "originator": "IEPC",
+  "response": "Tags 10LBA10AA501 (HP bypass), 10LBB10AA501 (IP bypass), 10LBD10AA501 (LP bypass) added.",
   "revision": "ALP-IEC-20MAA-ME-DSH-0001_0",
-  "status": "open"
+  "status": "closed"
 }

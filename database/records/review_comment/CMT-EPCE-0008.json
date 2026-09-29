@@ -2,14 +2,16 @@
   "_meta": {
     "created_at": "2026-09-28T18:59:47.074169Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T18:59:47.074169Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:14:25.689779Z",
     "updated_by": "EPCE"
   },
+  "closed_in": "ALP-IEC-20MAG-ME-DSH-0001_A",
   "comment": "Circulating water flow 10,179 kg/s differs by 0.2 % from the heat balance stream 25 (10,196.8 kg/s); confirm the design flow. Water-side design pressure and test pressure are missing - needed for the CW pump shut-off head and the CW piping class (TQ-IEC-025).",
   "id": "CMT-EPCE-0008",
   "location": "water side",
   "originator": "IEPC",
+  "response": "Flow per heat balance Rev B (10,197 kg/s, 36,113 m3/h); water side design 4.0 barg, test 6.0 barg.",
   "revision": "ALP-IEC-20MAG-ME-DSH-0001_0",
-  "status": "open"
+  "status": "closed"
 }

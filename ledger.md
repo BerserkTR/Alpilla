@@ -104,3 +104,7 @@ Read before working. Add a lesson whenever something went wrong or a better way 
 - Context: Datasheet PDFs were missing: soffice was on PATH but installed without Writer, conversion failed with 'source file could not be loaded'
 - Lesson: soffice on PATH is not enough; engines skip PDFs with a WARN line instead of failing
 - Action: Install libreoffice-writer-nogui and libreoffice-calc-nogui (or full LibreOffice) and read the WARN lines after every engine run
+
+### L-EPCE-0013 () Review against the document itself: before commenting and before closing a comment [review, vendor, document_control]
+- Lesson: EPC comments CMT-EPCE-0009/0010 claimed missing lift weights that were in table 1 of the IEC GA drawings (rejected, EPC review error); CMT-EPCE-0004 was closed on DS-104 Rev C although the pump tags were only in the TQ answer, not in the datasheet
+- Action: Search the revision text (pdftotext | grep) for the item before raising a comment and again before closing it; a TQ answer closes a question, only the revised document closes a review comment

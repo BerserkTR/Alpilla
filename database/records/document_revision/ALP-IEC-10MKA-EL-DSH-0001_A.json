@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:14:07.626321Z",
+    "created_by": "IECE",
+    "rev": 2,
+    "updated_at": "2026-09-29T03:16:36.780416Z",
+    "updated_by": "EPCE"
+  },
+  "description": "received IEC-ALP-DS-102 Rev A (TQ-IEC-025)",
+  "document": "ALP-IEC-10MKA-EL-DSH-0001",
+  "file": "sources/iec/IEC-ALP-DS-102_RevA.pdf",
+  "id": "ALP-IEC-10MKA-EL-DSH-0001_A",
+  "issue_date": "2026-12-04",
+  "prepared_by": "IEC",
+  "purpose": "IFR",
+  "review_code": "1",
+  "review_date": "2026-12-11",
+  "revision": "A"
+}

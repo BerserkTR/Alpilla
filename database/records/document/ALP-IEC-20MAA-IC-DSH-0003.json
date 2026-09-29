@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:15:49.441164Z",
+    "created_by": "SETUP",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:15:49.441164Z",
+    "updated_by": "SETUP"
+  },
+  "aveva_class": "Specification Documents",
+  "description": "IEC",
+  "discipline": "i_and_c",
+  "doc_type": "datasheet",
+  "equipment": [
+    "10LBA10AA501",
+    "10LBB10AA501",
+    "10LBD10AA501",
+    "20MAA10",
+    "20MAB10",
+    "20MAG10",
+    "20MAJ10AP001",
+    "20MAJ10AP002",
+    "20MAV10",
+    "20MAW10",
+    "20MAX10"
+  ],
+  "id": "ALP-IEC-20MAA-IC-DSH-0003",
+  "mr": "MR-ME-103",
+  "originator": "IEC",
+  "po_weeks_final": 18,
+  "po_weeks_ifr": 10,
+  "review": "review",
+  "rule": "DL-V-INL|MR-ME-103|3",
+  "sheets": 103,
+  "status": "planned",
+  "system": "20MAA",
+  "title": "Steam Turbine and Condenser - Supplier Instrument List and Datasheets, Part 3 of 3",
+  "type_code": "DSH",
+  "weight": 24.6
+}

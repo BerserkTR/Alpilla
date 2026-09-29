@@ -353,6 +353,9 @@ def ds101():
                                                                  ["400.5 (TQ-IEC-018)", "8,640", "41.67"] + _ldo_exhaust()),
                ["Maximum output (cold ambient, generator/shaft limit)", "470.0", "-", "-", "-", "-"]],
          (6.6, 1.8, 2.2, 1.8, 1.8, 1.8), 8),
+    ] + ([("p", "**Rev B (TQ-IEC-025):** outputs are at the generator terminals. The SRC output above is the expected value; "
+                "guarantee IG-03 (418 MW at the generator terminals) is set 1.6 % below it (test uncertainty and margin).")]
+         if REV["rev"] not in ("0", "A") else []) + [
         ("h", "3. Fuel requirements (at IEC terminal points, see IEC-ALP-IF-001)"),
         ("t", [["Parameter", "Natural gas (IF-01, performance gas heater inlet)", "LDO (IF-02, liquid fuel skid inlet)"],
                ["Pressure", "36.5 barg minimum at base load; 41.0 barg maximum; max. rate of change 0.7 bar/s",
@@ -389,7 +392,8 @@ def ds101():
                ["GT core engine (shipping, with transport frame)", "13.2 x 5.9 x 5.6", "405"],
                ["Exhaust diffuser (2 pieces)", "8.5 x 7.2 x 7.0", "2 x 62"],
                ["Inlet filter house (modules)", "18 modules", "max. 28 per module"],
-               ["GT rotor (maintenance lift)", "11.0 x 3.2 x 3.2", "112"]], (8.0, 5.0, 4.4), 8.5),
+               ["GT rotor (maintenance lift)", "11.0 x 3.2 x 3.2", "112" if REV["rev"] in ("0", "A") else
+                "112 (117 with lifting beam; GT hall crane 120 t)"]], (8.0, 5.0, 4.4), 8.5),
         ("p", "The GT core engine exceeds the 120 t road limit (ALP-OWN-GEN-001): delivery by barge to the landing TP-M1; the EPC "
               "shall design the barge landing and the haul road for a 480 t gross transport (SPMT)."),
         ("h", "7. Auxiliary power (base load, SRC)"),
@@ -425,7 +429,15 @@ def ds102():
                 "Closed cooling water for H2 coolers, stator water coolers and TEWAC coolers: by EPC (IEC-ALP-REQ-001 table 5.1).",
                 "UAT tap-off from the IPB between GCB and GSU: IPB tap-off flange by IEC, UAT and MV busduct by EPC.",
                 "Neutral earthing: high-resistance earthing transformer in the generator neutral cubicle by IEC."]),
-    ]
+    ] + ([("h", "3. Tagged items (Rev A, TQ-IEC-025)"),
+          ("t", [["Tag", "Item", "Rating"],
+                 ["10MKA20", "GT generator neutral earthing transformer with secondary resistor", "21 kV / 240 V, 50 kVA, 10 s; limits earth fault current to 8 A"],
+                 ["20MKA20", "ST generator neutral earthing transformer with secondary resistor", "15.75 kV / 240 V, 40 kVA, 10 s; 7 A"],
+                 ["10MKC30", "GT excitation transformer", "21 / 0.9 kV, 5.5 MVA, dry type"],
+                 ["20MKC20", "ST excitation transformer", "15.75 / 0.7 kV, 2.5 MVA, dry type"],
+                 ["10MKA30", "GT generator protection panels (main 1 / main 2)", "IEC 61850, 220 V DC"],
+                 ["20MKA30", "ST generator protection panels (main 1 / main 2)", "IEC 61850, 220 V DC"]], (2.2, 8.0, 7.2), 8)]
+         if REV["rev"] != "0" else [])
     render("IEC-ALP-DS-102", "Generators, GCB and Isolated Phase Busduct - Datasheet", blocks)
 
 
@@ -442,7 +454,10 @@ def ds103():
                ["Exhaust loss at SRC", f(P["st_exh_loss"], 1) + " kJ/kg"],
                ["Governing", "throttle (sliding pressure above 50 % load), HP/IP combined stop-control valves, LP admission valve"],
                ["Bypass valves (supplied by IEC, installed in EPC piping)", "HP bypass 100 % to cold reheat; IP bypass 100 % and LP "
-                                                                             "bypass 100 % to condenser dump devices"],
+                                                                             "bypass 100 % to condenser dump devices"
+                                                                             + ("" if REV["rev"] == "0" else
+                                                                                "; tags 10LBA10AA501 (HP bypass), 10LBB10AA501 (IP "
+                                                                                "bypass), 10LBD10AA501 (LP bypass)")],
                ["Gland steam", "self-sealing above 40 % load; start-up sealing steam 4.5 t/h at 10 bar(a), 250 - 300 degC from the "
                                "EPC auxiliary boiler; gland steam condenser with 2 x 100 % exhausters (IEC)"],
                ["Lube / control oil", "ISO VG 46 lube oil, tank 32 m3, 2 x 100 % AC + DC pump; fire-resistant EHC fluid (ER-07.06)"],
@@ -476,6 +491,11 @@ def ds103():
     render("IEC-ALP-DS-103", "Steam Turbine IE-ST3R - Datasheet", blocks)
 
 
+def DT(text):
+    """Design temperatures added in DS-104 Rev C (TQ-IEC-025)."""
+    return text if REV["rev"] not in ("0", "A", "B") else ""
+
+
 def ds104():
     s = P["sections"]
     blocks = [
@@ -501,13 +521,13 @@ def ds104():
                 "with GT-outlet NOx up to 150 mg/Nm3 (water/fuel ratio 0.60); ammonium bisulphate protection: minimum SCR inlet "
                 "temperature 330 degC on LDO.")] if REV["rev"] not in ("0", "A") else []) + [
         ("t", [["Circuit", "Flow kg/s", "Outlet pressure bar(a)", "Outlet temperature degC", "Drum pressure bar(a)",
-                "Design pressure bar(a)"],
-               ["HP superheater", f(PS[6]["mass_flow"], 2), f(PS[6]["pressure"], 1), f(PS[6]["temperature"], 1), f(ST["HP_drum"], 1), "210"],
-               ["Reheater", f(PS[11]["mass_flow"], 2), f(PS[11]["pressure"], 1), f(PS[11]["temperature"], 1), "-", "50"],
-               ["IP superheater", f(PS[10]["mass_flow"], 2), f(PS[10]["pressure"], 1), f(PS[10]["temperature"], 1), f(ST["IP_drum"], 1), "50"],
-               ["LP superheater", f(PS[13]["mass_flow"], 2), f(PS[13]["pressure"], 2), f(PS[13]["temperature"], 1), f(ST["LP_drum"], 1), "10"],
+                "Design pressure bar(a)" + DT(" / temperature degC")],
+               ["HP superheater", f(PS[6]["mass_flow"], 2), f(PS[6]["pressure"], 1), f(PS[6]["temperature"], 1), f(ST["HP_drum"], 1), "210" + DT(" / 610")],
+               ["Reheater", f(PS[11]["mass_flow"], 2), f(PS[11]["pressure"], 1), f(PS[11]["temperature"], 1), "-", "50" + DT(" / 610")],
+               ["IP superheater", f(PS[10]["mass_flow"], 2), f(PS[10]["pressure"], 1), f(PS[10]["temperature"], 1), f(ST["IP_drum"], 1), "50" + DT(" / 350")],
+               ["LP superheater", f(PS[13]["mass_flow"], 2), f(PS[13]["pressure"], 2), f(PS[13]["temperature"], 1), f(ST["LP_drum"], 1), "10" + DT(" / 300")],
                ["Condensate preheater", f(PS[20]["mass_flow"], 2), f(ST["LP_drum"] + 1, 1), f(P["Tsat"]["LP_drum"] - P["approach"][2], 1),
-                "-", "25"]], (3.8, 2.0, 2.8, 3.0, 2.8, 3.0), 8),
+                "-", "25" + DT(" / 180")]], (3.8, 2.0, 2.8, 3.0, 2.8, 3.0), 8),
         ("t", [["Section", "Gas in degC", "Gas out degC", "Duty MW"]] + [[k.replace("_", " / "), f(a), f(b), f(q, 2)]
                                                                          for k, (a, b, q) in s.items()], (7.0, 3.0, 3.0, 3.0), 8.5),
         ("p", f"Stack temperature {P['T_stack']:.1f} degC at SRC. Condensate preheater inlet temperature is kept at not less than "
@@ -541,6 +561,8 @@ def ds105():
                ["Tube velocity", "2.1 m/s (ER-07.07: 1.8 - 2.2 m/s)"],
                ["Cleanliness factor", "0.85"],
                ["Seawater pressure loss", "0.62 bar (water boxes and tubes, clean)"],
+               *([["Water side design / test pressure (Rev A, TQ-IEC-025)", "4.0 barg / 6.0 barg; full vacuum on the water side "
+                   "not required (siphon break at the outlet water boxes)"]] if REV["rev"] != "0" else []),
                ["Tube sheets / water boxes", "titanium-clad carbon steel / rubber-lined carbon steel with impressed-current cathodic "
                                              "protection"],
                ["Hotwell", "30 m3 working volume (3.9 min at SRC condensate flow)"],

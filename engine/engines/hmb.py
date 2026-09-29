@@ -4,14 +4,19 @@ power balance and checks; Excel workbook with streams, node balances, auxiliary 
 The power-island data (GT/ST outputs, stream conditions) come from the vendor records; the engine recomputes every
 stream enthalpy (IAPWS-IF97 / ideal-gas mixtures), closes mass and energy balances per node, adds the balance-of-plant
 auxiliary loads and checks the result against the guarantees and limits listed in the case's check_refs.
-Layout: templates/hmb/<layout>.json. Options: case=<id> (default: all cases), layout=layout_1x1_3prh, pdf=no."""
+Layout: templates/hmb/<layout>.json. Options: case=<id> (default: all cases), layout=layout_1x1_3prh, pdf=no.
+The MDL document produced_by hmb (Plant Heat and Mass Balances) is issued as <number>.docx (basis, cases, results and
+checks against the guarantees, auxiliary loads, notes) and <number>.pdf (the report followed by all case diagrams)."""
 from __future__ import annotations
 
 import json
 import math
 
-from ..core import dxfkit, hmb
-from ..core.runner import Context, Engine
+import shutil
+import subprocess
+
+from ..core import docshell, dxfkit, hmb
+from ..core.runner import Context, Engine, pdf_from_office
 
 FLUID_LAYER = {"air": ("HMB-AIR", 8), "fuel_gas": ("HMB-FUEL", 30), "flue_gas": ("HMB-GAS", 34), "steam": ("HMB-STEAM", 1),
                "water": ("HMB-WATER", 5), "seawater": ("HMB-CW", 4), "ldo": ("HMB-FUEL", 30), "other": ("HMB-WATER", 5)}
@@ -35,10 +40,12 @@ def refs_for(s, case):
 class HeatMassBalance(Engine):
     name = "hmb"
     title = "Heat and mass balance: diagram (DXF + PDF) and calculation workbook (Excel) per HMB case"
-    version = "1.1.1"
-    inputs = ["project", "hmb_case", "process_stream", "aux_load", "guarantee", "design_parameter", "contract"]
-    formats = ["dxf", "pdf", "xlsx"]
-    code_deps = ["engine/core/hmb.py", "engine/core/thermo.py", "engine/core/dxfkit.py", "templates/hmb"]
+    version = "1.2.0"
+    inputs = ["project", "hmb_case", "process_stream", "aux_load", "guarantee", "design_parameter", "contract", "document",
+              "document_revision", "doc_type", "party", "system", "mr", "source"]
+    formats = ["dxf", "pdf", "xlsx", "docx"]
+    code_deps = ["engine/core/hmb.py", "engine/core/thermo.py", "engine/core/dxfkit.py", "templates/hmb",
+                 "engine/core/docshell.py", "engine/core/wordkit.py", "engine/core/release.py", "templates/docx/datasheet_base.docx"]
 
     def run(self, ctx: Context):
         s = ctx.store
@@ -74,6 +81,74 @@ class HeatMassBalance(Engine):
             files.append(self._workbook(ctx, case, res, stem))
         if len(cases) > 1:
             files.append(self._summary(ctx, [c for c in sorted(cases, key=lambda c: c["id"]) if c["id"] in results], results))
+        if not ctx.options.get("case"):
+            for d in s.records("document"):
+                if d.get("produced_by") == self.name and d.get("status") != "cancelled":
+                    files += self._report(ctx, d["id"], [c for c in sorted(cases, key=lambda c: c["id"]) if c["id"] in results],
+                                          results, [f for f in files if f.suffix == ".pdf"])
+        return files
+
+    def _report(self, ctx, no, cases, results, diagrams):
+        """Plant Heat and Mass Balances (MDL document): report + all case diagrams."""
+        s = ctx.store
+        d = docshell.word(ctx, no, self)
+        src = sorted({r for c in cases for r in c.get("basis_refs") or [] if r.startswith("source:")})
+        d.h("1. Purpose and basis")
+        d.p("This document gives the plant heat and mass balances of all design and guarantee cases: the power island "
+            "performance data of Imaginary Electric, the EPC piping pressure and temperature drops, the balance-of-plant "
+            "auxiliary loads and the other plant fuel consumers. Every stream enthalpy is recomputed (IAPWS-IF97 for "
+            "water / steam, ideal-gas mixtures for air, fuel and flue gas), every node is closed for mass and energy, and "
+            "each case is checked against the guarantees and limits it covers. Power island data:")
+        d.bullets([f"{r.split(':', 1)[1]} {(s.get('source', r.split(':', 1)[1]) or {}).get('title', '')}" for r in src] or ["-"])
+        d.h("2. Cases")
+        d.table(["Case", "Description", "Fuel", "Ambient degC", "RH %", "Seawater degC", "GT load %"],
+                [[c["id"], c["title"], {"natural_gas": "gas", "ldo": "LDO"}.get(c["fuel"], c["fuel"]), f"{c['ambient_temperature']:g}", f"{c['relative_humidity']:g}",
+                  f"{c['seawater_temperature']:g}", f"{c.get('gt_load_pct', c.get('load_pct')):g}"] for c in cases],
+                [2.4, 6.6, 1.6, 1.6, 1.2, 1.8, 1.4], size=7)
+        d.h("3. Results")
+        ids = [c["id"] for c in cases]
+        rows = []
+        for label, f in (("GT output MW", lambda r: r.summary["gt_output"] / 1000), ("ST output MW", lambda r: r.summary["st_output"] / 1000),
+                         ("Gross output MW", lambda r: r.summary["gross"] / 1000),
+                         ("Auxiliaries + transformer losses MW", lambda r: (r.summary["aux"] + r.summary["transformer_losses"]) / 1000),
+                         ("Net output MW", lambda r: r.summary["net"] / 1000), ("Heat input LHV MW", lambda r: r.summary["heat_input"] / 1000),
+                         ("of which other plant fuel consumers MW", lambda r: r.summary.get("heat_input_other", 0) / 1000),
+                         ("Net heat rate LHV kJ/kWh", lambda r: r.summary["net_hr"]), ("Net efficiency %", lambda r: r.summary["net_eff"] * 100)):
+            rows.append([label] + [f"{f(results[i]):,.1f}" for i in ids])
+        d.table(["Item"] + ids, rows, [4.2] + [12.4 / len(ids)] * len(ids), size=6)
+        d.h("4. Checks against guarantees and limits")
+        chk = [[i, st, text] for i in ids for st, text in results[i].checks if st != "OK" or "guarantee" in text.lower()]
+        d.table(["Case", "Result", "Check"], chk or [["-", "OK", "all checks passed"]], [2.6, 1.4, 12.6], size=7)
+        d.h("5. Auxiliary loads at Site Reference Conditions")
+        ref = next((i for i in ids if i == "SRC-NG-100"), ids[0])
+        d.table(["Id", "Consumer", "Basis", "kW"],
+                [[a["id"], a["description"], a.get("how", ""), f"{a['kW']:,.0f}"] for a in results[ref].aux],
+                [1.4, 7.4, 6.0, 1.8], size=7)
+        d.h("6. Notes")
+        d.bullets(["Performance cases are at continuous blowdown closed (as during the performance tests); the demineralised "
+                   "water make-up, blowdown and cycle losses in normal operation are given in the Plant Water Balance "
+                   "ALP-EPC-00000-PR-STU-0001.",
+                   "The station gas preheaters (indirect water-bath heaters, DEC-EPCE-0014) burn plant fuel downstream of the "
+                   "fiscal metering: their fuel (stream 31) is part of the plant heat input and of the net heat rate, not of "
+                   "the power island (gross) heat rate.",
+                   "Auxiliary loads of the balance of plant follow the preliminary equipment sizing (DEC-EPCE-0014 / 0015 / "
+                   "0016) and are updated with the electrical load list.",
+                   "The diagrams of all cases follow this report (A1 sheets, stream data in the boxes, node balances in the "
+                   "case workbooks ALP-HMB-<case>.xlsx)."])
+        out = ctx.out_dir / f"{no}.docx"
+        d.save(out)
+        files = [out]
+        if ctx.options.get("pdf", "yes") != "no":
+            pdf = pdf_from_office(out, ctx)
+            if pdf and shutil.which("pdfunite") and diagrams:
+                merged = ctx.out_dir / f"{no}_merged.pdf"
+                r = subprocess.run(["pdfunite", str(pdf), *[str(x) for x in diagrams], str(merged)], capture_output=True, text=True)
+                if r.returncode == 0:
+                    merged.replace(pdf)
+                else:
+                    ctx.warnings.append(f"{no}: diagrams not appended ({r.stderr.strip()[:120]})")
+            if pdf:
+                files.append(pdf)
         return files
 
     def _summary(self, ctx, cases, results):

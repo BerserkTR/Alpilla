@@ -2,13 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T18:59:50.360046Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T18:59:50.360046Z",
-    "updated_by": "EPCE"
+    "rev": 2,
+    "updated_at": "2026-09-29T03:14:28.714508Z",
+    "updated_by": "IECE"
   },
   "contract": "ALP-CA-001",
   "discipline": "general",
   "id": "TQ-IEC-025",
+  "impact": "technical_only",
+  "outcome": "confirmed_as_is",
   "question": "Review of the IEC datasheets against heat balance Rev B and the plant equipment list (review codes 2 on ALP-IEC-20MAA-ME-DSH-0001 Rev 0, ALP-IEC-10HAA-ME-DSH-0001 Rev B, ALP-IEC-10MBA-ME-DSH-0001 Rev A, ALP-IEC-10MKA-EL-DSH-0001 Rev 0, ALP-IEC-20MAG-ME-DSH-0001 Rev 0 and the GT / ST GA drawings): (1) update the ST datasheet LP flows to heat balance Rev B; (2) give the HRSG design temperatures per section; (3) state whether the GT 425 MW is shaft output and how it relates to IG-03 (418 MW at the terminals); (4) provide tags and ratings of the condensate preheater recirculation pumps, the HP / IP / LP bypass valves and dump devices, the generator neutral earthing and excitation transformers and the generator protection panels; (5) confirm the condenser circulating water design flow and give the water-side design and test pressure; (6) give the SFC starting load profile; (7) state the heaviest maintenance lift weights on the GT and ST GA drawings.",
   "raised_by": "IEPC",
   "raised_date": "2026-11-18",
@@ -18,7 +20,10 @@
     "source:SRC-IECE-0007",
     "source:SRC-EPCE-0006"
   ],
+  "responded_by": "IEC",
+  "response": "(1) DS-103 Rev A per heat balance Rev B. (2) DS-104 Rev C with design temperatures. (3) 425.0 MW is the expected output at the generator terminals at SRC; IG-03 (418 MW) is guaranteed 1.6 % below it (DS-101 Rev B). (4) Tags: CPH recirculation pumps 10HAA10AP001 / AP002 (2 x 100 %, 45 m3/h, 60 m, 30 kW, 400 V), bypass valves 10LBA10AA501 / 10LBB10AA501 / 10LBD10AA501, neutral earthing transformers 10MKA20 / 20MKA20, excitation transformers 10MKC30 / 20MKC20, generator protection panels 10MKA30 / 20MKA30 (DS-102 Rev A). (5) Condenser design flow 10,197 kg/s; water side 4.0 barg design, 6.0 barg test (DS-105 Rev A). (6) SFC: 8.5 MW from 10.5 kV for about 25 min per start (purge, light-off, acceleration to 3,000 rpm), none in operation. (7) The GT and ST GA drawings state the lift weights in table 1 (no change).",
+  "response_date": "2026-12-04",
   "round": 9,
-  "status": "open",
+  "status": "closed",
   "subject": "EPC review of the power island datasheets: heat balance consistency, missing design data and tags"
 }
