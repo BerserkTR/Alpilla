@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-27T18:29:27.240326Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T14:50:10.320605Z",
+    "rev": 5,
+    "updated_at": "2026-09-29T02:47:15.401532Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Power Transformer",
@@ -12,6 +12,8 @@
     "source:SRC-IECE-0009",
     "source:SRC-IECE-0013"
   ],
+  "capacity": 560000,
+  "capacity_unit": "kVA",
   "cwa": "CWA-01",
   "cwp": "CWP-01-EL-01",
   "description": "GT step-up transformer 560 MVA 400/21 kV",
@@ -19,8 +21,9 @@
   "height": 4600,
   "id": "10BAT10",
   "length": 16000,
-  "location": "GSU bay north of the GT hall, fire wall to the hall",
+  "location": "Transformer yard",
   "manufacturer": "Imaginary Electric Company",
+  "material": "Steel tank, natural ester (K-class) oil, 98 m3",
   "model": "IEC GSU 560",
   "mr": "MR-EL-102",
   "orientation": 0,
@@ -30,6 +33,9 @@
     15500
   ],
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "560 MVA ONAF (336 MVA ONAN), 400 +/-8x1.25 %/21 kV, YNd11, uk 14.5 %, OLTC per SRC-EPCE-0007 (IEC-ALP-DS-106); losses 1,110 kW at SRC vs aux_load AL-08 1,107 kW. Oil pit 110 % by EPC.",
+  "service": "GT generator step-up transformer 21/400 kV",
   "shape": "box",
   "status": "preliminary",
   "supply": "IEC",

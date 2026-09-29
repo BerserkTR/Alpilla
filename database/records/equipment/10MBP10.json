@@ -2,21 +2,31 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.065165Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.065165Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.414542Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "source:SRC-EPCE-0009"
   ],
+  "capacity": 74.4,
+  "capacity_unit": "t/h fuel gas",
   "cwa": "CWA-01",
   "cwp": "CWP-01-ME-01",
   "description": "GT fuel gas module incl. performance heater",
+  "design_flow": 74.4,
+  "design_pressure": 50,
+  "design_temperature": 270,
   "equipment_type": "package",
   "id": "10MBP10",
+  "location": "GT package area",
+  "material": "Carbon steel / stainless steel",
   "mr": "MR-ME-101",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "Fuel gas 20.67 kg/s at 38 bar / 25 degC to FGH, heated to 215 degC (HMB streams 2-3); heater water side IP economiser water 12.48 kg/s, 43.3 bar(a), 248 degC (streams 24/19). Gas supply 36.5-41.0 barg (SRC-IECE-0006, DS-101 Rev A sec 3); design pressure 50 barg set by IP water side (HRSG IP design 50 bar(a)), design temperature = 248 + 22 K. Heater duty and skid internals: IEC data at PO + x weeks (VDRL).",
+  "service": "GT fuel gas module incl. performance gas heater (215 degC)",
   "status": "preliminary",
   "supply": "IEC",
   "system": "10MBP"

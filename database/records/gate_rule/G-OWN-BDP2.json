@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:43:40.099801Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T02:43:40.099801Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "clarification:TQ-038",
+    "decision:DEC-EPCE-0013"
+  ],
+  "description": "payment milestone MS-13 (TQ-038)",
+  "id": "G-OWN-BDP2",
+  "need": "milestone:MS-13",
+  "process": "owner_acceptance",
+  "requires": [
+    "bdp:2 ACCEPTED"
+  ],
+  "scope": "plant",
+  "status": "agreed",
+  "title": "Basic Design Package Batch 2 Approved"
+}

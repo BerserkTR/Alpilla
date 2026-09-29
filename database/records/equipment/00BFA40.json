@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.057358Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.057358Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.293081Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Switchgear And Controlgear",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 1250,
+  "capacity_unit": "A",
   "cwa": "CWA-03",
   "cwp": "CWP-03-EL-01",
   "description": "LV MCC - CW pump house",
   "equipment_type": "switchgear",
   "id": "00BFA40",
+  "location": "CW pump house",
+  "material": "Steel enclosure, form 3b/4b, C5 coating",
   "mr": "MR-EL-005",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "About 0.6 MW LV load (AL-14 0.26 MW + screens, dosing, HVAC, lighting) = 1,000 A; fed from 1.6 MVA transformer 00BFT30 (uk 6 % = 38 kA + motors). Short-circuit 50 kA / 1 s.",
+  "service": "LV MCC CW pump house (screens, electro-chlorination AL-14, sump pumps, lighting)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00BFA"
+  "system": "00BFA",
+  "voltage": 400
 }

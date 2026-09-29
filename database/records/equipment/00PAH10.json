@@ -2,23 +2,34 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.541016Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.434185Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.350241Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 38000,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-02",
   "cwp": "CWP-02-ME-01",
   "description": "Condenser tube cleaning system (balls, strainers)",
+  "design_flow": 38650,
+  "design_pressure": 6,
+  "design_temperature": 50,
   "equipment_type": "package",
   "id": "00PAH10",
+  "location": "CW pump house / condenser area",
+  "material": "Rubber-lined CS / super duplex strainers, GRP piping",
   "mr": "MR-ME-006",
   "quantity": 1,
   "rated_power": 30.0,
+  "redundancy": "1 x 100 %",
+  "remarks": "Treats full CW design flow 38,000 m3/h. Package connected load: 1 ball pump 15 kW + 2 debris filter drives 2 x 4 kW + ball collector/injection drives and control, about 30 kW kept.",
+  "service": "Condenser tube cleaning system (sponge ball, ball collector, strainer sections)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00PAH"
+  "system": "00PAH",
+  "voltage": 400
 }

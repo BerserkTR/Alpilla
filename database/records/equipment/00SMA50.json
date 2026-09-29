@@ -2,23 +2,31 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.055177Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.055177Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.398043Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Crane",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 16,
+  "capacity_unit": "t",
   "cwa": "CWA-01",
   "cwp": "CWP-01-ME-01",
-  "description": "BFP maintenance hoist 10 t",
+  "description": "BFP maintenance hoist 16 t",
   "equipment_type": "crane",
   "id": "00SMA50",
+  "location": "Turbine hall (BFP area)",
+  "material": "Structural steel",
   "mr": "MR-ME-021",
   "quantity": 1,
   "rated_power": 5.0,
+  "redundancy": "1 x 100 %",
+  "remarks": "Heaviest BFP lift: 3.6 MW VFD motor (10LAC10AP001) about 12-15 t, so 16 t needed instead of the 10 t in the description (see findings); hoist 5 kW at 1 m/min retained. Vendor weight to confirm.",
+  "service": "BFP maintenance hoist 10 t",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00SMA"
+  "system": "00SMA",
+  "voltage": 400
 }

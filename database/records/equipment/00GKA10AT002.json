@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:47:14.470304Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.331895Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Filter",
+  "basis_refs": [
+    "decision:DEC-EPCE-0015"
+  ],
+  "capacity": 5,
+  "capacity_unit": "m3/h",
+  "cwa": "CWA-12",
+  "cwp": "CWP-12-EL-01",
+  "description": "Potable water remineralisation filter (calcite)",
+  "equipment_type": "filter",
+  "id": "00GKA10AT002",
+  "material": "GRP vessel, calcite media",
+  "mr": "MR-ME-013",
+  "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "service": "Remineralisation of SWRO permeate for drinking water",
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00GKA"
+}

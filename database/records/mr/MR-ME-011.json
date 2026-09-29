@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.056023Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T17:02:55.917118Z",
+    "rev": 4,
+    "updated_at": "2026-09-29T02:48:54.336444Z",
     "updated_by": "EPCE"
   },
   "agreed_by": [
@@ -14,7 +14,7 @@
     "TQ-035"
   ],
   "award_days": 15,
-  "bid_days": 20,
+  "bid_days": 15,
   "cwps": [
     "CWP-08-ME-01"
   ],

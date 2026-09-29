@@ -2,23 +2,34 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.548360Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.427791Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.313275Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 102,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-10",
   "cwp": "CWP-10-ME-01",
   "description": "LDO forwarding and treatment skid",
+  "design_flow": 86.4,
+  "design_pressure": 16,
+  "design_temperature": 65,
   "equipment_type": "package",
   "id": "00EGC10",
+  "location": "LDO forwarding pump area",
+  "material": "Carbon steel",
   "mr": "MR-ME-016",
   "quantity": 1,
-  "rated_power": 180.0,
+  "rated_power": 40,
+  "redundancy": "3 x 50 % pumps",
+  "remarks": "Sized to IF-02 flow_max 24 kg/s = 86.4 t/h = 102 m3/h; delivery 3-6 barg at GT (IF-02), design 16 barg. Rated power = skid own consumers (controls, heat tracing, HVAC) not counted in pump/centrifuge tags.",
+  "service": "LDO forwarding and treatment skid",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00EGC"
+  "system": "00EGC",
+  "voltage": 400
 }

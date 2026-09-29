@@ -2,23 +2,35 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.017072Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:17:53.280952Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.334723Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 15,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-12",
   "cwp": "CWP-12-EL-01",
   "description": "Chemical drain sump pump - water treatment",
+  "design_flow": 15,
+  "design_pressure": 4,
+  "design_temperature": 50,
   "equipment_type": "pump",
+  "head": 20,
   "id": "00GMA10AP005",
+  "location": "Sump / pit",
+  "material": "PVDF / PP lined",
   "mr": "MR-ME-014",
   "quantity": 1,
-  "rated_power": 7.5,
+  "rated_power": 2.2,
+  "redundancy": "1 x 100 %",
+  "remarks": "Rated 2.2 kW: 15 m3/h x 20 m / 0.50 = 1.6 kW shaft, /0.85 motor = 1.9 kW; acid/caustic service to neutralisation pit; was 7.5 kW placeholder.",
+  "service": "Chemical drain sump pump, water treatment",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00GMA"
+  "system": "00GMA",
+  "voltage": 400
 }

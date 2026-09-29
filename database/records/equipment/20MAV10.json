@@ -2,21 +2,28 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.071350Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.071350Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.428510Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "source:SRC-EPCE-0009"
   ],
+  "capacity": 32,
+  "capacity_unit": "m3 oil tank",
   "cwa": "CWA-02",
   "cwp": "CWP-02-ME-01",
   "description": "ST lube oil module",
   "equipment_type": "package",
   "id": "20MAV10",
+  "location": "Turbine hall",
+  "material": "Stainless steel tank and piping",
   "mr": "MR-ME-103",
   "quantity": 1,
+  "redundancy": "2 x 100 % AC pumps + DC emergency pump",
+  "remarks": "Tank 32 m3 per SRC-EPCE-0004 (DS-103 sec 1). Part of ST auxiliaries 380 kW (aux_load AL-03); pump and cooler ratings: IEC data at PO + x weeks (VDRL).",
+  "service": "ST lube oil module (ISO VG 46)",
   "status": "preliminary",
   "supply": "IEC",
   "system": "20MAV"

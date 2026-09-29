@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.070893Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.070893Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.427832Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
@@ -15,9 +15,16 @@
   "description": "Condenser vacuum pump B",
   "equipment_type": "pump",
   "id": "20MAJ10AP002",
+  "location": "Turbine hall",
+  "material": "Stainless steel / duplex",
   "mr": "MR-ME-103",
   "quantity": 1,
+  "rated_power": 75,
+  "redundancy": "2 x 100 %",
+  "remarks": "Rated 75 kW: 2 x 100 % liquid-ring pumps 75 kW each (holding), both in parallel for hogging (30 min to 150 mbar) per SRC-EPCE-0006 (DS-105 sec 1) and aux_load AL-06 (1 running, 75 kW). Capacity: IEC data at PO + x weeks (VDRL).",
+  "service": "Condenser vacuum pump B (liquid ring)",
   "status": "preliminary",
   "supply": "IEC",
-  "system": "20MAJ"
+  "system": "20MAJ",
+  "voltage": 400
 }

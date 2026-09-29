@@ -2,21 +2,31 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.050693Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.050693Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.392357Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Butterfly Valve",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 66,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-08",
   "cwp": "CWP-08-ME-01",
   "description": "Deluge valve set - GT lube oil module",
+  "design_flow": 66,
+  "design_pressure": 17,
+  "design_temperature": 50,
   "equipment_type": "valve",
   "id": "00SGC10AA004",
+  "location": "GT hall",
+  "material": "Ductile iron body, bronze/SS trim, epoxy coated (C5)",
   "mr": "MR-ME-020",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "Deluge demand 12.2 L/min/m2 x about 90 m2 = 1,100 L/min (NFPA 850/15).",
+  "service": "Deluge valve set - GT lube oil module",
   "status": "preliminary",
   "supply": "IEPC",
   "system": "00SGC"

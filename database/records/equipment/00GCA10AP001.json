@@ -2,23 +2,35 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.010045Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.010045Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.325819Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 30,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-07",
   "cwp": "CWP-07-ME-01",
   "description": "EDI feed pump A",
+  "design_flow": 30,
+  "design_pressure": 10,
+  "design_temperature": 50,
   "equipment_type": "pump",
+  "head": 80,
   "id": "00GCA10AP001",
+  "location": "Water treatment building (00UGA)",
+  "material": "316L",
   "mr": "MR-ME-012",
   "quantity": 1,
-  "rated_power": 30.0,
+  "rated_power": 11,
+  "redundancy": "2 x 100 %",
+  "remarks": "Rated 11 kW: 30 m3/h (27.2 +10 %) x 80 m / 0.70 = 9.3 kW shaft, /0.90 motor = 10.3 kW; head covers EDI + mixed bed dp and fill of demin tank; was 30 kW placeholder.",
+  "service": "EDI feed pump",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00GCA"
+  "system": "00GCA",
+  "voltage": 400
 }

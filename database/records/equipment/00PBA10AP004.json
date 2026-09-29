@@ -2,23 +2,35 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.031111Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.031111Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.355514Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 110,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-05",
   "cwp": "CWP-05-ME-01",
   "description": "Hypochlorite dosing pump B",
+  "design_flow": 112,
+  "design_pressure": 6,
+  "design_temperature": 50,
   "equipment_type": "pump",
+  "head": 30,
   "id": "00PBA10AP004",
+  "location": "Electro-chlorination building",
+  "material": "GRP / titanium wetted parts, PVDF / lined piping",
   "mr": "MR-ME-005",
   "quantity": 1,
   "rated_power": 15.0,
+  "redundancy": "2 x 100 %",
+  "remarks": "110 m3/h x 1.5 g/l = 165 kg/h Cl2 = 4.3 ppm shock on 38,000 m3/h; 110 m3/h x 30 m / 0.70 = 13 kW shaft, /0.92 = 14 kW, so 15 kW placeholder kept. Continuous duty 40 m3/h.",
+  "service": "Hypochlorite dosing to CW pump intake",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00PBA"
+  "system": "00PBA",
+  "voltage": 400
 }

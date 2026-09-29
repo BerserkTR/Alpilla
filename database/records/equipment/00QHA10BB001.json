@@ -2,21 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.039702Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.039702Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.371127Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Tank",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 8,
+  "capacity_unit": "m3",
   "cwa": "CWA-08",
   "cwp": "CWP-08-ME-01",
   "description": "Auxiliary boiler feed water tank / deaerator",
+  "design_pressure": 3.5,
+  "design_temperature": 150,
   "equipment_type": "tank",
   "id": "00QHA10BB001",
+  "location": "Auxiliary boiler house",
+  "material": "Carbon steel",
   "mr": "MR-ME-009",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "Spray/tray deaerator at 0.2 barg, 105 degC; 8 m3 = about 30 min at 12 t/h plus margin.",
+  "service": "Auxiliary boiler feed water tank / deaerator",
   "status": "preliminary",
   "supply": "IEPC",
   "system": "00QHA"

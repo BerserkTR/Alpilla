@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.553189Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:46.789742Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.295865Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Power Transformer",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 3150,
+  "capacity_unit": "kVA",
   "cwa": "CWA-03",
   "cwp": "CWP-03-EL-01",
-  "description": "LV transformer 10.5/0.4 kV 2.5 MVA, A",
+  "description": "LV transformer 10.5/0.42 kV 3.15 MVA - power block, A",
   "equipment_type": "transformer",
   "id": "00BFT10",
+  "location": "Transformer bay, electrical building",
+  "material": "Steel tank, C5 marine coating",
   "mr": "MR-EL-004",
   "quantity": 1,
+  "redundancy": "2 x 100 % (with 00BFT20)",
+  "remarks": "Rated 2,500 kVA (uk 6 %, Dyn11). LV load about 4.7 MW (AL-01..07 2.6 MW + AL-13..22 LV 2.1 MW) = 5.3 MVA at 0.88; 2 x 2,500 kVA covers it only as 2 x 50 % - see finding.",
+  "service": "LV transformer 10.5/0.4 kV feeding LV main board A",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00BFT"
+  "system": "00BFT",
+  "voltage": 10500
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.068660Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.068660Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.400637Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Switchgear And Controlgear",
@@ -15,9 +15,15 @@
   "description": "GT isolated phase busduct",
   "equipment_type": "switchgear",
   "id": "10BAA10",
+  "location": "Turbine hall / transformer yard",
+  "material": "Aluminium enclosure and conductor",
   "mr": "MR-EL-101",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "21 kV per SRC-EPCE-0003 (IEC-ALP-DS-102 sec 1). Current rating follows the GCB (20 kA); IPB details by IEC at PO + x weeks (VDRL). UAT tap-off flange by IEC, UAT and MV busduct by EPC.",
+  "service": "GT generator isolated phase busduct (generator - GCB - GSU LV, UAT tap-off)",
   "status": "preliminary",
   "supply": "IEC",
-  "system": "10BAA"
+  "system": "10BAA",
+  "voltage": 21000
 }

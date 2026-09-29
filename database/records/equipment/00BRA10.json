@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.554387Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:46.790942Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.300092Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "UPS Unit",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 100,
+  "capacity_unit": "kVA",
   "cwa": "CWA-03",
   "cwp": "CWP-03-EL-01",
   "description": "UPS 230 V AC (2 x 100 %)",
   "equipment_type": "ups",
   "id": "00BRA10",
+  "location": "Battery / UPS room, control building",
+  "material": "Steel cabinets, VRLA battery",
   "mr": "MR-EL-007",
-  "quantity": 1,
+  "quantity": 2,
+  "redundancy": "2 x 100 %",
+  "remarks": "UPS loads: turbine control and UPS load AL-07 60 kW + DCS/SIS/CEMS/telecom about 15 kW = 75 kW = 85 kVA at 0.9; rated 100 kVA (15 % margin), each of two units; battery autonomy 1 h at rated load, static bypass, DC-fed from 220 V system.",
+  "service": "230 V AC UPS (DCS, SIS, turbine control, CEMS, telecom, fire panels)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00BRA"
+  "system": "00BRA",
+  "voltage": 230
 }

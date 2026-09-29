@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.554867Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.367219Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.301779Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Control Cabinet",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 10600,
+  "capacity_unit": "I/O points (incl. 20 % spare)",
   "cwa": "CWA-11",
   "cwp": "CWP-11-IC-01",
   "description": "Plant DCS (controllers, networks, operator stations)",
   "equipment_type": "control system",
   "id": "00CJA10",
+  "location": "Control building - electronic room",
+  "material": "Steel cabinets",
   "mr": "MR-IC-001",
   "quantity": 1,
+  "redundancy": "Redundant controllers and networks",
+  "remarks": "Sum of remote I/O cabinets 00CJA20-60; basis: 3,945 instruments, 625 LV and 9 MV consumers, 166 control valves in system quantity records = about 8,800 used I/O; GT/ST controls are vendor TCS (MR-IC-101), linked by serial/Ethernet.",
+  "service": "Plant DCS: controllers, redundant networks, operator/engineering stations",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00CJA"
+  "system": "00CJA",
+  "voltage": 230
 }

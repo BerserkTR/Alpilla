@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.555091Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.425673Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.306246Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Analyser",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 7,
+  "capacity_unit": "analysers",
   "cwa": "CWA-01",
   "cwp": "CWP-01-IC-01",
   "description": "Continuous emission monitoring system",
   "equipment_type": "analyser",
   "id": "00CQA10",
+  "location": "HRSG stack platform / analyser shelter",
+  "material": "Heated sampling line PTFE / 316L, analyser shelter",
   "mr": "MR-IC-002",
   "quantity": 1,
+  "redundancy": "1 x 100 % (dual NOx/O2 analysers)",
+  "remarks": "Single stack: NOx, CO, O2 (2 off), NH3 slip, flow, dust = 7 analysers plus DAHS; consistent with q_instruments 30 (incl. sample conditioning).",
+  "service": "Continuous emission monitoring system (HRSG stack: NOx, CO, O2, NH3 slip, flow, dust)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00CQA"
+  "system": "00CQA",
+  "voltage": 230
 }

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:47:12.235260Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T02:47:12.235260Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0096",
+    "source:SRC-OWNR-0004"
+  ],
+  "category": "backup_fuel",
+  "id": "DP-EPCE-0005",
+  "parameter": "LDO density at 15 degC",
+  "status": "confirmed",
+  "unit": "kg/m3",
+  "value_text": "820 to 845 (840 for sizing)"
+}

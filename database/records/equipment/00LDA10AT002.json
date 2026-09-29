@@ -2,21 +2,31 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.022131Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.022131Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.343562Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Filter",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 530,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-07",
   "cwp": "CWP-07-ME-01",
   "description": "Condensate polisher vessel B",
+  "design_flow": 530,
+  "design_pressure": 25,
+  "design_temperature": 60,
   "equipment_type": "filter",
   "id": "00LDA10AT002",
+  "location": "Turbine building / water treatment area",
+  "material": "Rubber-lined carbon steel",
   "mr": "MR-ME-012",
   "quantity": 1,
+  "redundancy": "2 x 100 % (1 service, 1 standby/regenerated)",
+  "remarks": "At about 110 m/h service velocity 4.8 m2 (diameter about 2.5 m); CEP discharge 16 bar(a) (stream 18) and shut-off about 20 bar, design 25 barg.",
+  "service": "Condensate polisher mixed-bed vessel",
   "status": "preliminary",
   "supply": "IEPC",
   "system": "00LDA"

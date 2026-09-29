@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.073580Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.073580Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.421094Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Switchgear And Controlgear",
   "basis_refs": [
     "source:SRC-EPCE-0009"
   ],
+  "capacity": 12500,
+  "capacity_unit": "A",
   "cwa": "CWA-02",
   "cwp": "CWP-02-EL-01",
   "description": "ST generator circuit breaker",
   "equipment_type": "switchgear",
   "id": "20BAC10",
+  "location": "Turbine hall",
+  "material": "Indoor metal-enclosed GCB",
   "mr": "MR-EL-101",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "15.75 kV, 12.5 kA rated current, 100 kA per SRC-EPCE-0003 (IEC-ALP-DS-102 sec 1); rated current cross-check 270 MVA / (sqrt3 x 15.75 kV) = 9.9 kA.",
+  "service": "ST generator circuit breaker",
   "status": "preliminary",
   "supply": "IEC",
-  "system": "20BAC"
+  "system": "20BAC",
+  "voltage": 15750
 }

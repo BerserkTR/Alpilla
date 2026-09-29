@@ -294,8 +294,8 @@ def _select(sel: str, g: dict, key: str, docs: dict, types: dict, systems: dict,
         return [d for d in pool if (d.get("rule") or "").split("|")[0] == val]
     if kind == "id":
         return [d for d in pool if d["id"] == val]
-    if kind == "bdp":
-        return [d for d in pool if d.get("bdp")]
+    if kind == "bdp":                       # bdp = whole package, bdp:<n> = submission batch n
+        return [d for d in pool if d.get("bdp") and (not val or d.get("bdp_batch") == int(val))]
     if kind == "construction":
         return [d for d in pool if types.get(d.get("type_code"), {}).get("construction")]
     if kind == "ewp-first":

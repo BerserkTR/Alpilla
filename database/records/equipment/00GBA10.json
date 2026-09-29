@@ -2,23 +2,34 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.545283Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.428675Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.319524Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 32,
+  "capacity_unit": "m3/h permeate per train",
   "cwa": "CWA-07",
   "cwp": "CWP-07-ME-01",
   "description": "Seawater reverse osmosis package (2 x 100 %)",
+  "design_flow": 86,
+  "design_pressure": 70,
+  "design_temperature": 50,
   "equipment_type": "package",
   "id": "00GBA10",
+  "location": "Water treatment building (00UGA)",
+  "material": "Super duplex / duplex 2205 HP piping, FRP membrane vessels",
   "mr": "MR-ME-012",
   "quantity": 1,
-  "rated_power": 400.0,
+  "rated_power": 50,
+  "redundancy": "2 x 100 %",
+  "remarks": "Permeate 32 m3/h = (EDI feed 27.2 + potable/service 1.5) x 1.1; feed 76 m3/h at 42 % recovery (brine 44 m3/h to CW outfall). Rated 50 kW = package ancillaries only (ERD booster, CIP, backwash blower, controls); main pumps tagged separately; former 400 kW placeholder replaced.",
+  "service": "Seawater reverse osmosis package, 2 trains",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00GBA"
+  "system": "00GBA",
+  "voltage": 400
 }

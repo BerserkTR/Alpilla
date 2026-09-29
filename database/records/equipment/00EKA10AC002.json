@@ -2,23 +2,34 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.005327Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.005327Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.317691Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Plate Heat Exchanger",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 2200,
+  "capacity_unit": "kW",
   "cwa": "CWA-09",
   "cwp": "CWP-09-ME-01",
-  "description": "Gas preheater B (electric)",
+  "description": "Gas preheater B (indirect water-bath, gas-fired)",
+  "design_flow": 82.8,
+  "design_pressure": 75,
+  "design_temperature": 80,
   "equipment_type": "heat exchanger",
   "id": "00EKA10AC002",
+  "location": "Gas station (east of the GT hall)",
+  "material": "Carbon steel / LTCS, SS316 elements",
   "mr": "MR-ME-015",
   "quantity": 1,
-  "rated_power": 120.0,
+  "rated_power": 7.5,
+  "redundancy": "2 x 100 %",
+  "remarks": "As heater A (2 x 100 %)",
+  "service": "Gas preheater B (electric)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00EKA"
+  "system": "00EKA",
+  "voltage": 400
 }

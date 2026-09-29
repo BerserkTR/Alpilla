@@ -2,23 +2,34 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.003800Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.003800Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.316317Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Filter",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 15,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-10",
   "cwp": "CWP-10-ME-01",
   "description": "LDO treatment centrifuge",
+  "design_flow": 12.8,
+  "design_pressure": 10,
+  "design_temperature": 65,
   "equipment_type": "filter",
   "id": "00EGC10AT003",
+  "location": "LDO forwarding pump area",
+  "material": "Stainless steel bowl",
   "mr": "MR-ME-016",
   "quantity": 1,
   "rated_power": 30.0,
+  "redundancy": "1 x 100 %",
+  "remarks": "Polishing side stream about 15 % of GT flow (water, sediment) from tank suction; motor 30 kW retained (disc separator with feed pump, plausible).",
+  "service": "LDO treatment centrifuge",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00EGC"
+  "system": "00EGC",
+  "voltage": 400
 }

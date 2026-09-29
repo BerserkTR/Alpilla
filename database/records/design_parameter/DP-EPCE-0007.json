@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:47:13.606723Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T02:47:13.606723Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0069",
+    "decision:DEC-EPCE-0014"
+  ],
+  "category": "other",
+  "condition": "2 x 100 % tanks, 2 h",
+  "id": "DP-EPCE-0007",
+  "parameter": "Fire water storage",
+  "status": "preliminary",
+  "unit": "m3",
+  "value": 700
+}

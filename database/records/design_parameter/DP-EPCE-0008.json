@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:53:06.015121Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T02:53:06.015121Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-OWNR-0002"
+  ],
+  "category": "site",
+  "condition": "Owner-levelled platform +15.00 m",
+  "id": "DP-EPCE-0008",
+  "parameter": "Platform level acceptance tolerance",
+  "status": "confirmed",
+  "unit": "m",
+  "value": 0.15
+}

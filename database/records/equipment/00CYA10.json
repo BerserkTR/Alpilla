@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.063612Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.063612Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.306829Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Control Cabinet",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 60,
+  "capacity_unit": "CCTV cameras (plus access control, PABX, radio)",
   "cwa": "CWA-11",
   "cwp": "CWP-11-IC-01",
   "description": "Telecom, CCTV, access control and security system",
   "equipment_type": "control system",
   "id": "00CYA10",
+  "location": "Control building / site perimeter",
+  "material": "Steel racks / weatherproof housings",
   "mr": "MR-IC-007",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "About 60 fixed and PTZ cameras, perimeter intrusion detection, access control on 12 gates, PABX/radio; UPS-fed (00BRA10).",
+  "service": "Telecom, CCTV, access control and perimeter security",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00CYA"
+  "system": "00CYA",
+  "voltage": 230
 }

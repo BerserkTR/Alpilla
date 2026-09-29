@@ -47,10 +47,10 @@ class Procedures(Engine):
     version = "1.5.0"
     inputs = ["project", "document", "document_revision", "doc_type", "kks_key", "system", "equipment", "cwa", "cwp", "ewp",
               "mr", "activity", "wbs", "requirement", "scope_item", "party", "eng_resource", "clarification", "decision",
-              "mdl_rule", "mdl_benchmark", "instrument", "line", "gate_rule", "milestone"]
+              "mdl_rule", "mdl_benchmark", "instrument", "line", "gate_rule", "milestone", "delivery"]
     formats = ["docx", "pdf"]
     code_deps = ["engine/core/wordkit.py", "engine/core/workflow.py", "engine/core/kks.py", "engine/core/planning.py",
-                 "engine/core/mdl.py", "engine/core/release.py", "engine/core/docshell.py",
+                 "engine/core/mdl.py", "engine/core/release.py", "engine/core/docshell.py", "engine/core/consistency.py",
                  "engine/engines/engineering_plan.py", "templates/docx/datasheet_base.docx"]
 
     def run(self, ctx: Context):

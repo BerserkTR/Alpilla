@@ -2,21 +2,31 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.004324Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.004324Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.318174Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Filter",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 130000,
+  "capacity_unit": "Sm3/h",
   "cwa": "CWA-09",
   "cwp": "CWP-09-ME-01",
   "description": "Gas filter separator A",
+  "design_flow": 95.2,
+  "design_pressure": 75,
+  "design_temperature": 65,
   "equipment_type": "filter",
   "id": "00EKA10AT001",
+  "location": "Gas station (east of the GT hall)",
+  "material": "Carbon steel / LTCS, SS316 elements",
   "mr": "MR-ME-015",
   "quantity": 1,
+  "redundancy": "2 x 100 %",
+  "remarks": "Each 100 % of 130,000 Sm3/h; 0.3 micron 99.98 % on liquids/dust, dp <= 0.3 bar clean at 45 barg; supports Na+K/Pb/V limits (DP-OWNR-0028).",
+  "service": "Gas filter separator A",
   "status": "preliminary",
   "supply": "IEPC",
   "system": "00EKA"

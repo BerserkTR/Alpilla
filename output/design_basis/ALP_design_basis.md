@@ -5,8 +5,8 @@
 | Project | ALP |
 | Plant type | CCGT 1x1 multi-shaft, H-class GT, 3-pressure reheat HRSG, seawater cooling |
 | Location | Northern Marmara coast, Türkiye |
-| Generated | 2026-09-28T19:00:27Z by EPCE (design_basis v1.2.0) |
-| Data fingerprint | 188045b6c33ac38c (git 876a108) |
+| Generated | 2026-09-29T02:54:34Z by SETUP (design_basis v1.2.0) |
+| Data fingerprint | 52794fade12921a7 (git c460705) |
 
 This document is generated from the project database. Do not edit it; change the
 `design_parameter` records and re-run `python -m engine run design_basis`.
@@ -24,6 +24,7 @@ This document is generated from the project database. Do not edit it; change the
 | DP-OWNR-0045 | Heavy transport road limit | 120.0 | t gross | two bridges on the state road | confirmed | SRC-OWNR-0005 Site, existing infrastructure and tie-in points; ER-02.14 Access and transport |
 | DP-EPCE-0004 | Height datum | TUDKA-99 orthometric heights (m a.s.l.) |  |  | confirmed | SRC-EPCE-0011 Topographic survey point listing - plot, temporary area TP-A1 and coastal strip |
 | DP-EPCE-0001 | Plant grid origin in UTM zone 35N (E 0 / N 0) | E 541,250.000 m / N 4,532,480.000 m | m | TUREF (ITRF96), south-west plot corner | confirmed | SRC-EPCE-0011 Topographic survey point listing - plot, temporary area TP-A1 and coastal strip |
+| DP-EPCE-0008 | Platform level acceptance tolerance | 0.15 | m | Owner-levelled platform +15.00 m | confirmed | DEC-OWNR-0002 Acceptance tolerance of the Owner-levelled platform |
 | DP-OWNR-0044 | Plot dimensions | 400 x 300 | m | 12.0 ha; usable about 10.6 ha | confirmed | SRC-OWNR-0005 Site, existing infrastructure and tie-in points; ER-02.01 Site location and area |
 | DP-EPCE-0002 | Rotation plant grid to UTM grid | -0.3281 | deg | plant north = true north; grid convergence at site | confirmed | SRC-EPCE-0011 Topographic survey point listing - plot, temporary area TP-A1 and coastal strip |
 | DP-EPCE-0003 | Scale factor plant grid to UTM | 0.999612 | - | combined UTM point scale and height factor | confirmed | SRC-EPCE-0011 Topographic survey point listing - plot, temporary area TP-A1 and coastal strip |
@@ -56,7 +57,7 @@ This document is generated from the project database. Do not edit it; change the
 
 | ID | Parameter | Value | Unit | Condition | Status | Basis |
 |---|---|---|---|---|---|---|
-| DP-OWNR-0033 | Booked gas capacity (firm) | 115000.0 | Sm3/h | 130,000 interruptible | confirmed | SRC-OWNR-0003 Natural gas quality and supply conditions |
+| DP-OWNR-0033 | Booked gas capacity (firm) | 120000 | Sm3/h | firm from the first gas date (TQ-040), 130,000 interruptible | confirmed | SRC-OWNR-0003 Natural gas quality and supply conditions |
 | DP-OWNR-0032 | Exceptional minimum supply pressure | 40.0 | barg | max 72 h/year, 24 h notice | confirmed | SRC-OWNR-0003 Natural gas quality and supply conditions |
 | DP-OWNR-0029 | Fuel gas superheat above dew points at GT skid | 28.0 | K | minimum | confirmed | ER-03.06 Natural gas contaminant limits |
 | DP-CASE-0019 | Fuel LHV range | 44.2 to 50.0 | MJ/kg |  | confirmed | ER-03.02 Natural gas specification |
@@ -79,6 +80,7 @@ This document is generated from the project database. Do not edit it; change the
 |---|---|---|---|---|---|---|
 | DP-OWNR-0039 | LDO annual operating limit | 500.0 | h/year | back-up fuel status | confirmed | SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); SRC-OWNR-0007 Positive EIA decision - binding conditions |
 | DP-OWNR-0038 | LDO autonomy at base load | 72.0 | h | two tanks of 50 % | confirmed | SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); ER-03.08 LDO unloading and storage |
+| DP-EPCE-0005 | LDO density at 15 degC | 820 to 845 (840 for sizing) | kg/m3 |  | confirmed | REF-CONS-0096 TS EN 590; SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO) |
 | DP-OWNR-0034 | LDO LHV | 42.9 | MJ/kg | range 42.6-43.2 | confirmed | SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); ER-03.07 Light diesel oil specification and burner limits |
 | DP-OWNR-0036 | LDO Na + K at GT inlet | 0.5 | mg/kg | maximum; as delivered up to 1.0 (history 1.8) | confirmed | SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); ER-03.07 Light diesel oil specification and burner limits |
 | DP-OWNR-0040 | LDO resupply capacity | 25.0 | trucks/day | 30-36 m3 each | confirmed | SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO) |
@@ -161,12 +163,24 @@ This document is generated from the project database. Do not edit it; change the
 | DP-CASE-0036 | Starts per year | 250.0 | starts/year | 50 cold, 100 warm, 100 hot | confirmed | ER-01.03 Design life and operating regime |
 | DP-CASE-0038 | Warm start time to base load | 90.0 | min | maximum | confirmed | ER-04.04 Start-up times |
 
-## Open assumptions (0 of 100)
+## 11. Other
+
+| ID | Parameter | Value | Unit | Condition | Status | Basis |
+|---|---|---|---|---|---|---|
+| DP-EPCE-0006 | Fire water design flow and pressure | 341 | m3/h | 1,500 gpm at 110 m; largest single hazard (LDO tank) plus 500 gpm hose | preliminary | REF-CONS-0069 NFPA 850; REF-CONS-0070 NFPA 20; DEC-EPCE-0014 Preliminary equipment sizing basis and conventions |
+| DP-EPCE-0007 | Fire water storage | 700 | m3 | 2 x 100 % tanks, 2 h | preliminary | REF-CONS-0069 NFPA 850; DEC-EPCE-0014 Preliminary equipment sizing basis and conventions |
+
+## Open assumptions (0 of 104)
 
 _None - all parameters are preliminary or confirmed._
 
 ## Basis documents cited
 
+- DEC-EPCE-0014 Preliminary equipment sizing basis and conventions (decision)
+- DEC-OWNR-0002 Acceptance tolerance of the Owner-levelled platform (decision)
+- REF-CONS-0069 NFPA 850 (reference)
+- REF-CONS-0070 NFPA 20 (reference)
+- REF-CONS-0096 TS EN 590 (reference)
 - ER-01.03 Design life and operating regime (requirement)
 - ER-02.01 Site location and area (requirement)
 - ER-02.02 Ambient design range (requirement)

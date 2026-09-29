@@ -2,21 +2,29 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.067274Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.067274Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.419706Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "source:SRC-EPCE-0009"
   ],
+  "capacity": 12,
+  "capacity_unit": "Nm3/day H2 make-up",
   "cwa": "CWA-01",
   "cwp": "CWP-01-ME-01",
   "description": "GT generator gas unit (H2/CO2)",
+  "design_pressure": 5,
   "equipment_type": "package",
   "id": "10MKG10",
+  "location": "Turbine hall / gas rack area",
+  "material": "Stainless steel",
   "mr": "MR-EL-101",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "H2 make-up 12 Nm3/day, CO2 150 Nm3 per purge (SRC-EPCE-0003, DS-102 sec 1); H2 at 4.0 barg, design 5 barg EPC allowance. H2/CO2 bottle racks and piping by EPC (DOR item 5.6).",
+  "service": "GT generator gas unit (H2 cooling gas / CO2 purge control)",
   "status": "preliminary",
   "supply": "IEC",
   "system": "10MKG"

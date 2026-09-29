@@ -2,23 +2,35 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.017587Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:17:53.281366Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.335220Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 60,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-12",
   "cwp": "CWP-12-EL-01",
   "description": "Drain sump pump - CW pump house",
+  "design_flow": 60,
+  "design_pressure": 4,
+  "design_temperature": 50,
   "equipment_type": "pump",
+  "head": 25,
   "id": "00GMA10AP006",
+  "location": "Sump / pit",
+  "material": "Super duplex (seawater)",
   "mr": "MR-ME-014",
   "quantity": 1,
-  "rated_power": 11.0,
+  "rated_power": 7.5,
+  "redundancy": "1 x 100 %",
+  "remarks": "Rated 7.5 kW: 60 m3/h x 25 m / 0.65 = 6.3 kW shaft, /0.88 motor = 7.2 kW; seawater leakage/wash water; was 11 kW placeholder.",
+  "service": "Drain sump pump, CW pump house",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00GMA"
+  "system": "00GMA",
+  "voltage": 400
 }

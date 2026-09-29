@@ -180,6 +180,12 @@
       "type": "boolean",
       "description": "part of the Basic Design Package (21-day Owner review, ER-17.01)"
     },
+    "bdp_batch": {
+      "type": "integer",
+      "min": 1,
+      "max": 2,
+      "description": "Basic Design Package submission batch (TQ-038): 1 = design bases, key diagrams and layouts (MS-02), 2 = BOP P&IDs (MS-13)"
+    },
     "sheets": {
       "type": "integer"
     },

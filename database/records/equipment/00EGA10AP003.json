@@ -2,23 +2,35 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:03.999695Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:03.999695Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.309129Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 50,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-10",
   "cwp": "CWP-10-ME-01",
   "description": "LDO unloading pump C",
+  "design_flow": 42.5,
+  "design_pressure": 10,
+  "design_temperature": 65,
   "equipment_type": "pump",
+  "head": 50,
   "id": "00EGA10AP003",
+  "location": "LDO unloading area",
+  "material": "Carbon steel, cast iron casing",
   "mr": "MR-ME-016",
   "quantity": 1,
-  "rated_power": 30.0,
+  "rated_power": 11,
+  "redundancy": "4 x 25 % (one per bay)",
+  "remarks": "30 m3 truck in 45 min = 40 m3/h, +10 % = 50 m3/h (rho 850 assumed). Head 50 m (tank filling 15 m, filter, hose, piping). Shaft 50/3600 x 850 x 9.81 x 50 / 0.60 = 9.7 kW, motor 11 kW (was 30 kW placeholder).",
+  "service": "LDO truck unloading pump C",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00EGA"
+  "system": "00EGA",
+  "voltage": 400
 }

@@ -2,20 +2,22 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.083942Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T18:38:48.449096Z",
+    "rev": 7,
+    "updated_at": "2026-09-29T02:48:27.242679Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-10.01"
   ],
-  "description": "2 items",
+  "description": "4 items",
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
     "00GNA10BB001",
-    "00GNA10BB002"
+    "00GNA10BB002",
+    "00GNA10BB003",
+    "00GNA10BB004"
   ],
   "id": "ALP-EPC-00GNA-ME-DSH-0003",
   "inputs": [
@@ -26,10 +28,10 @@
   "mr": "MR-ME-014",
   "originator": "EPC",
   "rule": "DL-ME-DSH|00GNA:MR-ME-014:tank|1",
-  "sheets": 2,
+  "sheets": 4,
   "status": "planned",
   "system": "00GNA",
   "title": "Waste Water Treatment: Tanks - Datasheet",
   "type_code": "DSH",
-  "weight": 26
+  "weight": 46
 }

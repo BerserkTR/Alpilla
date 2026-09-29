@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.833953Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T18:38:48.178810Z",
+    "rev": 8,
+    "updated_at": "2026-09-29T02:43:38.470369Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -11,6 +11,7 @@
     "requirement:ER-11.04"
   ],
   "bdp": true,
+  "bdp_batch": 1,
   "discipline": "electrical",
   "doc_type": "report",
   "id": "ALP-EPC-00000-EL-DBR-0001",

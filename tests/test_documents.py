@@ -85,3 +85,21 @@ def test_site_survey_report_checks_transformation_and_levels(project):
     t = _text(project.output / "site_survey" / "ALP-EPC-00000-CV-RPT-0001.docx")
     assert "2 spot heights" in t or "(2 spot heights" in t
     assert "SP-0002" in t and "-200" in t
+
+
+def test_consistency_checks(project):
+    from engine.core import consistency
+    s = data(project)
+    s.update("equipment", "00PAC10AP001", {"service": "CW", "redundancy": "2 x 50 %", "capacity": 19000, "head": 17,
+                                           "design_pressure": 6, "design_temperature": 50, "material": "duplex",
+                                           "rated_power": 1900, "voltage": 400}, R)
+    rows = consistency.check(Store(project, who()))
+    txt = " | ".join(f"{a} {b} {c} {d}" for a, b, c, d in rows)
+    assert "1900 kW is not an IEC standard motor size" in txt and "1900 kW motor not on MV" in txt
+    assert "2 x 50 % but 1 pump unit(s)" in txt                            # redundancy needs 2 registered units
+    s.update("equipment", "00PAC10AP001", {"rated_power": 2000, "voltage": 10000, "quantity": 2}, R)
+    txt = " | ".join(f"{a} {b} {c} {d}" for a, b, c, d in consistency.check(Store(project, who())))
+    assert "motor size" not in txt and "redundancy" not in txt
+    doc(s, "ALP-EPC-00PAC-ME-DSH-0009", "mechanical", "DSH", aveva_class="Specification Documents")
+    txt = " | ".join(f"{a} {b} {c} {d}" for a, b, c, d in consistency.check(Store(project, who())))
+    assert "ALP-EPC-00PAC-ME-DSH-0009 document inputs WARN" in txt              # no inputs: missing links

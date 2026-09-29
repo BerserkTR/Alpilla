@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T03:01:30.229715Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T03:01:30.229715Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:16.199935Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -14,7 +14,8 @@
   "hmb_case": "SRC-LDO-100",
   "id": "AL-211",
   "method": "fixed",
-  "power": 420.0,
+  "power": 170,
+  "remarks": "forwarding 2 x 30 kW, centrifuge 30 kW, skid 40 kW, unloading about 11 kW (DEC-EPCE-0014)",
   "status": "assumption",
   "supplier": "IEPC"
 }

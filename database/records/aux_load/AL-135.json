@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T03:01:30.199023Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T03:01:30.199023Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:16.194841Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -14,7 +14,8 @@
   "hmb_case": "SRC-NG-GT80",
   "id": "AL-135",
   "method": "fixed",
-  "power": 320.0,
+  "power": 160,
+  "remarks": "1 x 160 kW running of 2 x 100 % (DEC-EPCE-0014)",
   "status": "assumption",
   "supplier": "IEPC"
 }

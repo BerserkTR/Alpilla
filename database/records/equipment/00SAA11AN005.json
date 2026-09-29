@@ -2,23 +2,33 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.044533Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.044533Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.380340Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Fan",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 15000,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-03",
   "cwp": "CWP-03-HV-01",
   "description": "AHU - GIS building",
+  "design_pressure": 0.1,
+  "design_temperature": 50,
   "equipment_type": "fan",
   "id": "00SAA11AN005",
+  "location": "GIS building",
+  "material": "Galvanised/epoxy-coated steel casing, C5",
   "mr": "MR-HV-001",
   "quantity": 1,
   "rated_power": 7.5,
+  "redundancy": "1 x 100 %",
+  "remarks": "GIS hall, 15,000 m3/h; coil about 80 kW; rated power kept. Coil duties total 960 kW = chillers duty. Design pressure = casing 0.1 barg.",
+  "service": "AHU - GIS building",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00SAA"
+  "system": "00SAA",
+  "voltage": 400
 }

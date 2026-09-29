@@ -2,18 +2,20 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.077907Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T18:38:48.443510Z",
+    "rev": 7,
+    "updated_at": "2026-09-29T02:48:27.241059Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
   "basis_refs": [
     "requirement:ER-10.01"
   ],
+  "description": "2 items",
   "discipline": "mechanical",
   "doc_type": "datasheet",
   "equipment": [
-    "00GKA10AT001"
+    "00GKA10AT001",
+    "00GKA10AT002"
   ],
   "id": "ALP-EPC-00GKA-ME-DSH-0002",
   "inputs": [
@@ -24,10 +26,10 @@
   "mr": "MR-ME-013",
   "originator": "EPC",
   "rule": "DL-ME-DSH|00GKA:MR-ME-013:filter|1",
-  "sheets": 1,
+  "sheets": 2,
   "status": "planned",
   "system": "00GKA",
-  "title": "Potable Water: Filter - Datasheet",
+  "title": "Potable Water: Filters - Datasheet",
   "type_code": "DSH",
-  "weight": 16
+  "weight": 26
 }

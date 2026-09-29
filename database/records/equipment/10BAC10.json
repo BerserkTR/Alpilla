@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.067899Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.067899Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.401084Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Switchgear And Controlgear",
   "basis_refs": [
     "source:SRC-EPCE-0009"
   ],
+  "capacity": 20000,
+  "capacity_unit": "A",
   "cwa": "CWA-01",
   "cwp": "CWP-01-EL-01",
   "description": "GT generator circuit breaker",
   "equipment_type": "switchgear",
   "id": "10BAC10",
+  "location": "Turbine hall",
+  "material": "Indoor metal-enclosed SF6/vacuum GCB (IEC 62271-37-013)",
   "mr": "MR-EL-101",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "21 kV, 20 kA rated current, 130 kA per SRC-EPCE-0003 (IEC-ALP-DS-102 sec 1); rated current cross-check: 560 MVA / (sqrt3 x 21 kV) = 15.4 kA.",
+  "service": "GT generator circuit breaker",
   "status": "preliminary",
   "supply": "IEC",
-  "system": "10BAC"
+  "system": "10BAC",
+  "voltage": 21000
 }

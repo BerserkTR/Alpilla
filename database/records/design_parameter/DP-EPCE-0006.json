@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:47:12.975921Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T02:47:12.975921Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0069",
+    "reference:REF-CONS-0070",
+    "decision:DEC-EPCE-0014"
+  ],
+  "category": "other",
+  "condition": "1,500 gpm at 110 m; largest single hazard (LDO tank) plus 500 gpm hose",
+  "id": "DP-EPCE-0006",
+  "parameter": "Fire water design flow and pressure",
+  "status": "preliminary",
+  "unit": "m3/h",
+  "value": 341
+}

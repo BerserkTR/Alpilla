@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:47:09.533028Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T02:47:09.533028Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0069",
+    "reference:REF-CONS-0070",
+    "reference:REF-CONS-0066"
+  ],
+  "date": "2026-11-27",
+  "decided_by": "IEPC engineering manager",
+  "decision": "Equipment is sized from the heat and mass balances (all cases; the maximum case governs flows) with the margins of the process design criteria: pumps +10 % flow and +5-10 % head, motors to the next IEC standard size, motors of 200 kW and above on 10 kV. The rated power of a package is the power of its own consumers that are not listed as separate tags (no double counting in the electrical load list). The CW system is designed for 38,000 m3/h (DEC-EPCE-0002; heat balance 36,050 m3/h). LDO storage 2 x 3,800 m3 nominal (3,500 m3 working each) gives 72.8 h at base load on LDO (80.7 t/h, 840 kg/m3). Fire protection per NFPA 850 / NFPA 20: fire water design flow 341 m3/h (1,500 gpm) at 110 m, electric and diesel fire pumps 1 x 100 % each, fire water tanks 2 x 100 % of 700 m3 (2 h). Natural gas preheating at the receiving station by 2 x 100 % indirect water-bath heaters (gas-fired, 2.2 MW thermal each) against Joule-Thomson cooling and to keep 28 K superheat at the GT skid; heater fuel is plant fuel and is included in the plant heat balance when the supply gas is below 20 degC.",
+  "id": "DEC-EPCE-0014",
+  "rationale": "Independent sizing of all 258 items against the heat balance and the auxiliary loads showed a CW pump power entered as the total of both pumps, LDO tanks 5 % short of 72 h usable, gas preheaters of 2 x 120 kW against about 2 MW needed each, and package powers double counted.",
+  "status": "agreed",
+  "title": "Preliminary equipment sizing basis and conventions"
+}

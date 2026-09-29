@@ -17,7 +17,7 @@ from collections import defaultdict
 from ..core import docshell
 from ..core.runner import Context, Engine, pdf_from_office
 
-TOL = 0.10          # m, acceptance of the levelled platform
+TOL = 0.10          # m, default acceptance of the levelled platform (design parameter "Platform level acceptance tolerance")
 CELL_PLOT = 25.0 * 25.0
 CELL_TP = 30.0 * 35.0
 
@@ -25,7 +25,7 @@ CELL_TP = 30.0 * 35.0
 class SiteSurvey(Engine):
     name = "site_survey"
     title = "Topographic survey and site setting-out report (Word + PDF)"
-    version = "1.0.0"
+    version = "1.1.0"
     inputs = ["project", "document", "document_revision", "doc_type", "survey_point", "design_parameter", "source", "party",
               "requirement", "system", "mr", "clarification"]
     formats = ["docx", "pdf"]
@@ -54,6 +54,7 @@ class SiteSurvey(Engine):
         s = ctx.store
         dp = {p["parameter"]: p for p in s.records("design_parameter") if p.get("status") != "superseded"}
         grade = dp.get("Site grade level", {}).get("value", 15.0)
+        tol = dp.get("Platform level acceptance tolerance", {}).get("value", TOL)
         rot = math.radians(dp.get("Rotation plant grid to UTM grid", {}).get("value", 0.0))
         k = dp.get("Scale factor plant grid to UTM", {}).get("value", 1.0)
         origin = dp.get("Plant grid origin in UTM zone 35N (E 0 / N 0)", {}).get("value_text", "")
@@ -110,17 +111,18 @@ class SiteSurvey(Engine):
             spots[p["area"]].append(p)
         plot = spots.get("plot", [])
         dev = [p["z"] - grade for p in plot]
-        out_tol = [p for p in plot if abs(p["z"] - grade) > TOL]
+        out_tol = [p for p in plot if abs(p["z"] - grade) > tol + 1e-9]
         if plot:
             mean = sum(dev) / len(dev)
             sd = math.sqrt(sum((x - mean) ** 2 for x in dev) / len(dev))
             cut = sum(max(0.0, x) for x in dev) * CELL_PLOT
             fill = sum(max(0.0, -x) for x in dev) * CELL_PLOT
+            fill_out = sum(max(0.0, -x - tol) for x in dev) * CELL_PLOT
             d.p(f"Plot ({len(plot)} spot heights on a 25 m grid, stream channel strip excluded): levels "
                 f"{min(p['z'] for p in plot):.2f} to {max(p['z'] for p in plot):.2f} m, mean deviation from the "
                 f"platform level +{grade:.2f} m {mean * 1000:+.0f} mm, standard deviation {sd * 1000:.0f} mm; "
                 f"{len(plot) - len(out_tol)} of {len(plot)} points ({(len(plot) - len(out_tol)) / len(plot):.0%}) within "
-                f"+-{TOL:.2f} m. Trimming to +{grade:.2f} m: cut {cut:,.0f} m3, fill {fill:,.0f} m3 (grid cell method, "
+                f"+-{tol:.2f} m (acceptance tolerance). Trimming to +{grade:.2f} m: cut {cut:,.0f} m3, fill {fill:,.0f} m3 (grid cell method, "
                 f"25 x 25 m cells).")
             if out_tol:
                 d.table(["Point", "E", "N", "Level m", "Deviation mm", "Area"],
@@ -128,7 +130,7 @@ class SiteSurvey(Engine):
                           "old warehouse foundations" if 300 <= p["e"] <= 360 and 20 <= p["n"] <= 60
                           else "south edge (setback fence)" if p["n"] <= 5 else "platform"]
                          for p in sorted(out_tol, key=lambda x: x["id"])], [1.8, 1.5, 1.5, 2.0, 2.2, 7.6], size=7)
-                ctx.warnings.append(f"{no}: {len(out_tol)} platform points outside +-{TOL:.2f} m (reported)")
+                ctx.warnings.append(f"{no}: {len(out_tol)} platform points outside +-{tol:.2f} m (reported)")
         tp = spots.get("TP-A1", [])
         if tp:
             zs = [p["z"] for p in tp]
@@ -166,9 +168,9 @@ class SiteSurvey(Engine):
              f"(limit 20 mm) - the plant grid is fixed and can be used for setting out."]
         if plot:
             f.append(f"Owner's platform: mean {mean * 1000:+.0f} mm against +{grade:.2f} m, {len(out_tol)} of {len(plot)} "
-                     f"points outside +-{TOL:.2f} m, with a systematic fall towards the south and the old warehouse "
+                     f"points outside +-{tol:.2f} m, with a systematic fall towards the south and the old warehouse "
                      f"foundations above the platform. Final trimming to +{grade:.2f} m needs about {fill:,.0f} m3 of "
-                     f"structural fill and {cut:,.0f} m3 of cut.")
+                     f"structural fill and {cut:,.0f} m3 of cut; fill below the tolerance band (-{tol:.2f} m): {fill_out:,.0f} m3.")
         tqs = [q for q in s.records("clarification") if no in (q.get("question") or "")]
         for q in tqs:
             f.append(f"{q['id']} ({q.get('status')}): {q.get('subject')}" + (f" - answer: {q['response']}" if q.get("response") else ""))

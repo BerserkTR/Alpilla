@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:47:14.471747Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:50:06.704955Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Centrifugal Pump",
+  "basis_refs": [
+    "decision:DEC-EPCE-0015"
+  ],
+  "capacity": 20,
+  "capacity_unit": "l/h",
+  "cwa": "CWA-07",
+  "cwp": "CWP-07-ME-01",
+  "description": "Neutralisation caustic dosing pump",
+  "design_pressure": 6,
+  "design_temperature": 50,
+  "equipment_type": "pump",
+  "head": 30,
+  "id": "00GNA10AP006",
+  "material": "316L / PTFE",
+  "mr": "MR-ME-014",
+  "quantity": 1,
+  "rated_power": 0.37,
+  "redundancy": "1 x 100 %",
+  "service": "Caustic dosing to neutralisation",
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00GNA",
+  "voltage": 400
+}

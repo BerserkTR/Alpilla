@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.069665Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.069665Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.407332Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
@@ -13,10 +13,17 @@
   "cwa": "CWA-01",
   "cwp": "CWP-01-ME-01",
   "description": "HRSG inlet duct and flue gas ducting",
+  "design_flow": 2868,
+  "design_temperature": 670,
   "equipment_type": "package",
   "id": "10HNA10",
+  "location": "HRSG area",
+  "material": "Carbon steel casing, internal insulation with liner",
   "mr": "MR-ME-102",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "GT exhaust 796.7 kg/s at 640 degC (HMB stream 4, SRC-EPCE-0002 / DS-101 Rev A sec 2; max exhaust 811.9 kg/s on LDO); design temperature 640 + 30 K EPC allowance, to be confirmed by IEC. HRSG outlet flange 9.2 m diameter (IF-26, stack by EPC). Design pressure: IEC data at PO + x weeks (VDRL); gas side loss only 30 mbar.",
+  "service": "GT exhaust diffuser transition, HRSG inlet duct and flue gas ducting to stack transition",
   "status": "preliminary",
   "supply": "IEC",
   "system": "10HNA"

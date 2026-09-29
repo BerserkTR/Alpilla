@@ -2,21 +2,29 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.065590Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.065590Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.413865Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "source:SRC-EPCE-0009"
   ],
+  "capacity": 79.6,
+  "capacity_unit": "t/h LDO",
   "cwa": "CWA-01",
   "cwp": "CWP-01-ME-01",
   "description": "GT liquid fuel and water injection module",
+  "design_flow": 79.6,
   "equipment_type": "package",
   "id": "10MBN10",
+  "location": "GT package area",
+  "material": "Stainless steel / CS",
   "mr": "MR-ME-101",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "LDO 22.1 kg/s at base load on LDO plus demin water 22.5 kg/s (81 t/h, water/fuel 0.60) per SRC-EPCE-0002 / SRC-IECE-0006 (DS-101 Rev A sec 3); LDO inlet 3-6 barg (IF-02), water IF-03. Pressures, filtration 5 um: IEC data at PO + x weeks (VDRL).",
+  "service": "GT liquid fuel (LDO) and NOx water injection module",
   "status": "preliminary",
   "supply": "IEC",
   "system": "10MBN"

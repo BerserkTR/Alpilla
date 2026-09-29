@@ -16,14 +16,16 @@ CWP activities (engine/core/workflow.py). Checks:
   indicative benchmarks (mdl_benchmark: below = WARN, above = INFO);
 - plant data: every equipment item, system and document carries an AVEVA class (ER-01.06); the KKS key list and the AWP
   definitions are agreed (INFO while proposed);
-- timeline: EWP float (IFC + lead before the CWP start), PWP float (delivery before the CWP start), key dates.
+- timeline: EWP float (IFC + lead before the CWP start), PWP float (delivery before the CWP start), key dates;
+- consistency and coverage (engine/core/consistency.py): equipment data per type, IEC motor sizes and MV threshold,
+  redundancy against registered units, documents without inputs, production coverage, issued revisions frozen.
 Options: pdf=no."""
 from __future__ import annotations
 
 from collections import Counter, defaultdict
 from datetime import date, timedelta
 
-from ..core import kks, mdl, workflow
+from ..core import consistency, kks, mdl, workflow
 from ..core.runner import Context, Engine
 
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
@@ -211,19 +213,20 @@ def check_engineering(s, res) -> list[tuple[str, str, str, str]]:
         if a:
             add(k, "key date", "WARN" if a.tf < 0 else "OK",
                 f"{a.title}: forecast {res.cal.finish_date(a.ef, a.es)}, float {a.tf} wd")
+    out += consistency.check(s)
     return out
 
 
 class EngineeringPlan(Engine):
     name = "engineering_plan"
     title = "Engineering plan: MDL, workflow network and timeline, AWP (CWA/CWP/EWP/PWP), coverage checks (Excel + PDF)"
-    version = "1.5.0"
+    version = "1.6.0"
     inputs = ["project", "document", "document_revision", "doc_type", "kks_key", "system", "equipment", "cwa", "cwp", "ewp",
               "mr", "activity", "wbs", "requirement", "scope_item", "party", "eng_resource", "mdl_rule", "mdl_benchmark",
-              "instrument", "line", "decision", "gate_rule", "milestone"]
+              "instrument", "line", "decision", "gate_rule", "milestone", "delivery"]
     formats = ["xlsx", "pdf"]
     code_deps = ["engine/core/workflow.py", "engine/core/kks.py", "engine/core/planning.py", "engine/core/mdl.py",
-                 "engine/core/release.py"]
+                 "engine/core/release.py", "engine/core/consistency.py"]
 
     def run(self, ctx: Context):
         s = ctx.store

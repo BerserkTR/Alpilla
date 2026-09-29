@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.062869Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.062869Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.305173Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Control Cabinet",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 300,
+  "capacity_unit": "I/O points (incl. 20 % spare)",
   "cwa": "CWA-11",
   "cwp": "CWP-11-IC-01",
   "description": "BOP safety instrumented system (logic solver and cabinets)",
   "equipment_type": "control system",
   "id": "00CJG10",
+  "location": "Control building - electronic room",
+  "material": "Steel cabinets",
   "mr": "MR-IC-008",
   "quantity": 1,
+  "redundancy": "Redundant logic solver (2oo3)",
+  "remarks": "BOP SIS functions: fuel gas/LDO ESD, ammonia, chlorine/hypochlorite, fire and gas, about 250 I/O; separate from GT/ST TCS (MR-IC-101).",
+  "service": "BOP safety instrumented system logic solver and cabinets (SIL 2, IEC 61511)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00CJG"
+  "system": "00CJG",
+  "voltage": 230
 }

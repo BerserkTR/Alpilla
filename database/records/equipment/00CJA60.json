@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.062534Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.062534Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.304687Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Control Cabinet",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 1400,
+  "capacity_unit": "I/O points (incl. 20 % spare)",
   "cwa": "CWA-11",
   "cwp": "CWP-11-IC-01",
   "description": "DCS remote I/O cabinets - fuel gas and LDO",
   "equipment_type": "control system",
   "id": "00CJA60",
+  "location": "Fuel gas / LDO area",
+  "material": "Steel cabinets IP54, C5 coating",
   "mr": "MR-IC-001",
   "quantity": 1,
+  "redundancy": "1 x 100 % (redundant I/O power supply)",
+  "remarks": "Gas station, LDO storage/forwarding; SIL functions in 00CJG10; I/O count estimated from area consumers/instruments, sum of 00CJA20-60 = 10,600.",
+  "service": "DCS remote I/O cabinets - fuel gas and LDO",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00CJA"
+  "system": "00CJA",
+  "voltage": 230
 }

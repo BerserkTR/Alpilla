@@ -2,21 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.542492Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.436388Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.359986Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Pressure Vessel",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 5,
+  "capacity_unit": "m3",
   "cwa": "CWA-08",
   "cwp": "CWP-08-ME-01",
   "description": "CCW expansion tank",
+  "design_pressure": 3,
+  "design_temperature": 65,
   "equipment_type": "tank",
   "id": "00PGA10BB001",
+  "location": "CCW area, turbine building (elevated)",
+  "material": "Carbon steel, epoxy-lined",
   "mr": "MR-ME-007",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "Thermal expansion of about 80 m3 system 25 to 45 degC (about 1 m3) plus about 10 min leak-detection/make-up buffer; 5 m3 preliminary.",
+  "service": "CCW expansion / make-up surge tank",
   "status": "preliminary",
   "supply": "IEPC",
   "system": "00PGA"

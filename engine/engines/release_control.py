@@ -110,7 +110,7 @@ def analyse(s, res=None):
 class ReleaseControl(Engine):
     name = "release_control"
     title = "Document release control: release order and revisions, prerequisites, process gates, impacts (Excel)"
-    version = "1.1.0"
+    version = "1.2.0"
     inputs = ["project", "document", "document_revision", "doc_type", "gate_rule", "system", "mr", "cwp", "ewp", "cwa",
               "activity", "wbs", "milestone", "eng_resource", "kks_key"]
     formats = ["xlsx"]
@@ -240,6 +240,13 @@ class ReleaseControl(Engine):
             ws.cell(i, 15).fill = green if r["can"] == "yes" else (red if r["can"] == "no" else amber)
             if r["suspect"]:
                 ws.cell(i, 17).fill = red
+        # printable release sequence (A3 landscape, readable): the essential columns of the release plan
+        ws = sheet(wb.create_sheet("Release sequence"), "Release sequence (print version of the release plan)",
+                   [("Wave", 6), ("Document", 30), ("Title", 70), ("Status now", 10), ("Next", 7), ("Rev", 5), ("Can issue", 8),
+                    ("Planned IFR", 12), ("Planned IFC", 12), ("First gate", 24), ("Gate need", 12)],
+                   [[r["wave"], r["id"], r["title"], r["status"], r["next"], r["next_rev"], r["can"], d(r["ifr"]), d(r["ifc"]),
+                     r["gate_first"], d(r["gate_need"])] for r in rows], wrap=(3,))
+        ws.print_title_rows = "4:4"
         # Relations
         sheet(wb.create_sheet("Relations"), "Document relations: input links with the maturity required",
               [("Document", 30), ("Title", 44), ("Input", 30), ("Input title", 44), ("Input orig.", 8),

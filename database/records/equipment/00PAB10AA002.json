@@ -2,23 +2,34 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.025503Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.025503Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.348826Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Butterfly Valve",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 19000,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-05",
   "cwp": "CWP-05-ME-01",
   "description": "CW pump discharge butterfly valve B DN2800 (motorised)",
+  "design_flow": 19300,
+  "design_pressure": 6,
+  "design_temperature": 50,
   "equipment_type": "valve",
   "id": "00PAB10AA002",
+  "location": "CW pump house",
+  "material": "Rubber-lined carbon steel body, super duplex disc and shaft",
   "mr": "MR-PI-004",
   "quantity": 1,
   "rated_power": 15.0,
+  "redundancy": "2 x 50 %",
+  "remarks": "Velocity check DN2800: 5.28 m3/s / 6.16 m2 = 0.86 m/s (low velocity, acceptable). Design pressure 6 barg covers pump shut-off (about 2 bar) plus surge. 15 kW actuator kept.",
+  "service": "CW pump discharge isolation / pump non-slam valve (DN2800)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00PAB"
+  "system": "00PAB",
+  "voltage": 400
 }

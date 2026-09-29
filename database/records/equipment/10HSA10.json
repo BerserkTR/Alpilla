@@ -2,21 +2,29 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.069251Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.069251Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.407984Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "source:SRC-EPCE-0009"
   ],
+  "capacity": 480,
+  "capacity_unit": "kg/h NH3 (24.5 % aq.) max on LDO",
   "cwa": "CWA-01",
   "cwp": "CWP-01-ME-01",
   "description": "SCR catalyst and ammonia injection grid",
+  "design_temperature": 400,
   "equipment_type": "package",
   "id": "10HSA10",
+  "location": "HRSG (between IP SH and HP ECO2)",
+  "material": "V2O5/TiO2 honeycomb catalyst, stainless steel injection grid",
   "mr": "MR-ME-102",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "SRC-EPCE-0005 / SRC-IECE-0007 (DS-104 Rev B): ammonia 125 kg/h on gas, 480 kg/h on LDO (GT-outlet NOx 150 mg/Nm3, 67 % removal, TQ-IEC-018); catalyst at 360-370 degC, design NOx at HRSG outlet 22 mg/Nm3, slip <= 3 mg/Nm3 (guarantees IG-06 30 mg/Nm3, PG-06 5 mg/Nm3). Design temperature EPC allowance above 370 degC operating.",
+  "service": "SCR catalyst (V2O5/TiO2) and aqueous ammonia injection grid",
   "status": "preliminary",
   "supply": "IEC",
   "system": "10HSA"

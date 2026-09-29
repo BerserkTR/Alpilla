@@ -2,21 +2,28 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.064851Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.064851Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.415963Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "source:SRC-EPCE-0009"
   ],
+  "capacity": 28,
+  "capacity_unit": "m3 oil tank",
   "cwa": "CWA-01",
   "cwp": "CWP-01-ME-01",
   "description": "GT lube oil module",
   "equipment_type": "package",
   "id": "10MBV10",
+  "location": "Turbine hall",
+  "material": "Stainless steel tank and piping",
   "mr": "MR-ME-101",
   "quantity": 1,
+  "redundancy": "2 x 100 % AC pumps + DC emergency pump",
+  "remarks": "Tank 28 m3, cooling duty 1.6 MW per SRC-IECE-0006 (DS-101 Rev A sec 5); closed cooling water by EPC. Part of GT package auxiliaries 1,180 kW (aux_load AL-01); pump ratings: IEC data at PO + x weeks (VDRL).",
+  "service": "GT lube oil module (ISO VG 32)",
   "status": "preliminary",
   "supply": "IEC",
   "system": "10MBV"

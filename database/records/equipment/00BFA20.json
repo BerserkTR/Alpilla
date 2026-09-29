@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.553784Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:46.789332Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.292009Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Switchgear And Controlgear",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 4000,
+  "capacity_unit": "A",
   "cwa": "CWA-03",
   "cwp": "CWP-03-EL-01",
   "description": "LV main switchboard 0.4 kV, B",
   "equipment_type": "switchgear",
   "id": "00BFA20",
+  "location": "Electrical building - LV room",
+  "material": "Steel enclosure, form 4b, C5 coating",
   "mr": "MR-EL-005",
   "quantity": 1,
+  "redundancy": "2 x 100 % (A/B with coupler)",
+  "remarks": "Busbar 4000 A = 2,500 kVA / (1.732 x 0.4) = 3,608 A. LV main board 400 V, 65 kA / 1 s (transformer 2.5 MVA, uk 6 % = 60 kA + motor contribution); no continuous parallel operation of A and B, interlocked coupler.",
+  "service": "LV main switchboard 0.4 kV section B (from transformer 00BFT20)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00BFA"
+  "system": "00BFA",
+  "voltage": 400
 }

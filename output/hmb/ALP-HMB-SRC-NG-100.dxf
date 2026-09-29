@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461312.7921064813
+2461313.121365741
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461312.7921064813
+2461313.121365741
   9
 $TDUUPDATE
  40
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{841873C6-6652-4810-8E4B-6CEEC231A06E}
+{978923EE-4B05-4883-A71D-0F4C3A15187E}
   9
 $VERSIONGUID
   2
-{96D43B69-C795-48BF-876D-2BEE392F3C2D}
+{FAA3418B-1699-4B94-BA18-03718767FA98}
   9
 $EXTNAMES
 290
@@ -27173,7 +27173,7 @@ AcDbText
  40
 2.3
   1
--10.30
+-9.86
   7
 ALPILLA
  72
@@ -27369,7 +27369,7 @@ AcDbText
  40
 2.3
   1
-613.50
+613.94
   7
 ALPILLA
  72
@@ -27663,7 +27663,7 @@ AcDbText
  40
 2.5
   1
-5,759
+5,755
   7
 ALPILLA
  72
@@ -27761,7 +27761,7 @@ AcDbText
  40
 2.3
   1
-62.51
+62.55
   7
 ALPILLA
  72
@@ -28795,7 +28795,7 @@ AcDbText
  40
 2.1
   1
-auxiliary + transformer losses 1.95 % of gross vs DP-CASE-0031 <= 2.2 %
+auxiliary + transformer losses 1.88 % of gross vs DP-CASE-0031 <= 2.2 %
   7
 ALPILLA
  11
@@ -28923,7 +28923,7 @@ AcDbText
  40
 2.1
   1
-gas flow 101,594 Sm3/h = 88.3 % of DP-OWNR-0033 (115,000 Sm3/h)
+gas flow 101,594 Sm3/h = 84.7 % of DP-OWNR-0033 (120,000 Sm3/h)
   7
 ALPILLA
  11
@@ -28987,7 +28987,7 @@ AcDbText
  40
 2.1
   1
-net export 613.5 MW vs DP-OWNR-0051 connection capacity 640 MW (this case)
+net export 613.9 MW vs DP-OWNR-0051 connection capacity 640 MW (this case)
   7
 ALPILLA
  11
@@ -29307,7 +29307,7 @@ AcDbText
  40
 2.1
   1
-net output 613.50 MW vs PG-01 >= 600.00 (margin +2.25 %)
+net output 613.94 MW vs PG-01 >= 600.00 (margin +2.32 %)
   7
 ALPILLA
  11
@@ -29371,7 +29371,7 @@ AcDbText
  40
 2.1
   1
-net heat rate 5,759.45 kJ/kWh vs PG-02 <= 5,860.00 (margin +1.72 %)
+net heat rate 5,755.32 kJ/kWh vs PG-02 <= 5,860.00 (margin +1.79 %)
   7
 ALPILLA
  11
@@ -29499,7 +29499,7 @@ AcDbText
  40
 2.1
   1
-guarantee cover: at IG-01/IG-02 limits and this HMB's auxiliaries the net plant is 602.8 MW / 5,851 kJ/kWh vs Owner
+guarantee cover: at IG-01/IG-02 limits and this HMB's auxiliaries the net plant is 603.2 MW / 5,847 kJ/kWh vs Owner
   7
 ALPILLA
  11
@@ -29721,7 +29721,7 @@ AcDbText
  40
 2.6
   1
-9f2d118f58330dd9 | 2026-09-28
+a6baea26d6584942 | 2026-09-29
   7
 ALPILLA
  11
@@ -31321,7 +31321,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-28T19:00:38.098698+00:00
+1.4.4 @ 2026-09-29T02:54:46.153753+00:00
   0
 VISUALSTYLE
   5
@@ -37883,7 +37883,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-28T19:00:38.147770+00:00
+1.4.4 @ 2026-09-29T02:54:46.191346+00:00
   0
 ENDSEC
   0

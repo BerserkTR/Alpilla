@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:47:17.034768Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:17.711969Z",
+    "updated_by": "OWNR"
+  },
+  "changed_records": [
+    "design_parameter/DP-OWNR-0033"
+  ],
+  "contract": "ALP-EPC-001",
+  "discipline": "process",
+  "id": "TQ-040",
+  "impact": "none",
+  "outcome": "owner_to_provide",
+  "question": "Peak gas demand is 113,950 Sm3/h (GT 23 kg/s at the maximum case per IF-01 plus the auxiliary boiler and the gas-fired station preheaters), 99 % of the firm booking of 115,000 Sm3/h (DP-OWNR-0033). Please confirm that the Owner will book at least 120,000 Sm3/h firm, or that the auxiliary boiler and the preheaters may be interrupted at GT full load in winter.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-11-27",
+  "references": [
+    "design_parameter:DP-OWNR-0033",
+    "tie_in:TP-G1"
+  ],
+  "responded_by": "OWNER",
+  "response": "The Owner will increase the firm booking to 120,000 Sm3/h from the first gas date; the network operator has confirmed the capacity is available at the TP-G1 connection.",
+  "response_date": "2026-12-02",
+  "round": 9,
+  "status": "closed",
+  "subject": "Firm gas capacity booking has 1 % margin over the plant peak demand"
+}

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.066319Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.066319Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.416639Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Control Cabinet",
@@ -15,9 +15,15 @@
   "description": "GT control and protection cabinets (TCS)",
   "equipment_type": "control system",
   "id": "10MBY10",
+  "location": "Electrical / control building",
+  "material": "Steel cabinets",
   "mr": "MR-IC-101",
   "quantity": 1,
+  "redundancy": "Redundant controllers",
+  "remarks": "Turbine control system and UPS load 60 kW shared with ST (aux_load AL-07). Cabinet quantities and power: IEC data at PO + x weeks (VDRL).",
+  "service": "GT control and protection cabinets (TCS)",
   "status": "preliminary",
   "supply": "IEC",
-  "system": "10MBY"
+  "system": "10MBY",
+  "voltage": 400
 }

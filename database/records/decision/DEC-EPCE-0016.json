@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:47:11.431927Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T02:47:11.431927Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0073",
+    "reference:REF-CONS-0075"
+  ],
+  "date": "2026-11-27",
+  "decided_by": "IEPC engineering manager",
+  "decision": "Unit auxiliary transformers 2 x 100 %: 10BBT (GT, 31.5 MVA) also feeds the GT static frequency converter (8.5 MW) during start-up, 20BBT (ST, 16 MVA) carries the full running load with 10BBT out of service. 10.5 kV switchgear 2,000 A, 31.5 kA 1 s. LV distribution in 2 x 100 % transformer pairs: power block 00BFT10/20 2 x 3.15 MVA, BOP and water treatment 00BFT30/40 2 x 2.0 MVA, CW intake and pump house 00BFT50/60 2 x 1.0 MVA (10.5/0.42 kV). UPS 2 x 100 kVA and 220 V DC 2 x 100 % (2 batteries of 500 Ah, 2 chargers). Emergency diesel generator 1,250 kVA. Fire pumps: electric 160 kW on LV, diesel 200 kW.",
+  "id": "DEC-EPCE-0016",
+  "rationale": "The equipment review found the LV transformers not able to carry the LV load 2 x 100 % (2 x 2.5 MVA for 5.3 MVA), two single transformers without redundancy, and single tags for redundant UPS and batteries.",
+  "status": "agreed",
+  "title": "Electrical auxiliary system concept (preliminary, before the electrical load list)"
+}

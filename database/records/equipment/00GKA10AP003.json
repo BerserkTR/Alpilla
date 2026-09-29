@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:47:14.470697Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:50:06.703954Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Centrifugal Pump",
+  "basis_refs": [
+    "decision:DEC-EPCE-0015"
+  ],
+  "capacity": 2,
+  "capacity_unit": "l/h",
+  "cwa": "CWA-12",
+  "cwp": "CWP-12-EL-01",
+  "description": "Potable water hypochlorite dosing pump",
+  "design_pressure": 6,
+  "design_temperature": 50,
+  "equipment_type": "pump",
+  "head": 40,
+  "id": "00GKA10AP003",
+  "material": "PVDF / PTFE",
+  "mr": "MR-ME-013",
+  "quantity": 1,
+  "rated_power": 0.37,
+  "redundancy": "1 x 100 %",
+  "service": "Residual chlorination of potable water",
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00GKA",
+  "voltage": 400
+}

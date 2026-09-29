@@ -2,23 +2,34 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.540205Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.432702Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.346599Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Filter",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 19000,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-05",
   "cwp": "CWP-05-ME-01",
   "description": "Travelling band screen A",
+  "design_flow": 19300,
+  "design_pressure": 1,
+  "design_temperature": 50,
   "equipment_type": "filter",
   "id": "00PAA10AT001",
+  "location": "Intake structure",
+  "material": "Super duplex / 316L mesh panels, coated CS frame (C5-M)",
   "mr": "MR-ME-004",
   "quantity": 1,
   "rated_power": 15.0,
+  "redundancy": "2 x 50 % (one per pump bay)",
+  "remarks": "Bay flow 19,000 m3/h (half of 38,000 m3/h design flow, DEC-EPCE-0002); band drive 15 kW placeholder kept. Water-level differential design about 1 m.",
+  "service": "Travelling band screen (fine debris removal), CW pump bay",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00PAA"
+  "system": "00PAA",
+  "voltage": 400
 }

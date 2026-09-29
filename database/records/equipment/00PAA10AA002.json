@@ -2,23 +2,33 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.023582Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.023582Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.345211Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Butterfly Valve",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 19000,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-05",
   "cwp": "CWP-05-ME-01",
   "description": "Intake stop log / sluice gate B (motorised)",
+  "design_pressure": 1,
+  "design_temperature": 50,
   "equipment_type": "valve",
   "id": "00PAA10AA002",
+  "location": "Intake structure",
+  "material": "Coated carbon steel (C5-M marine paint), stainless stem and seals",
   "mr": "MR-ME-004",
   "quantity": 1,
   "rated_power": 4.0,
+  "redundancy": "2 x 50 % (one per intake bay)",
+  "remarks": "One gate per CW pump bay; bay flow 19,000 m3/h = half of the 38,000 m3/h CW design flow (DEC-EPCE-0002). 4 kW actuator kept (slow-travel gate, not sized by flow).",
+  "service": "Intake bay isolation (stop log / sluice gate) upstream of screen",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00PAA"
+  "system": "00PAA",
+  "voltage": 400
 }

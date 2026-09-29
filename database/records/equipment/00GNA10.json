@@ -2,23 +2,34 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.547114Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.431427Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.336525Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 20,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-07",
   "cwp": "CWP-07-ME-01",
   "description": "Waste water treatment package",
+  "design_flow": 20,
+  "design_pressure": 2,
+  "design_temperature": 50,
   "equipment_type": "package",
   "id": "00GNA10",
+  "location": "Water treatment building (00UGA)",
+  "material": "316L / GRP / coated CS",
   "mr": "MR-ME-014",
   "quantity": 1,
-  "rated_power": 60.0,
+  "rated_power": 30,
+  "redundancy": "1 x 100 %",
+  "remarks": "20 m3/h peak vs approx 8 m3/h average (HRSG blowdown 1-1.5 t/h, MMF backwash, chemical drains, oily water, wash events); SWRO brine (44 m3/h) bypasses treatment to CW outfall. Rated 30 kW = package ancillaries (mixers, dosing, sludge press); was 60 kW placeholder.",
+  "service": "Waste water treatment package (oil removal, coagulation / settling, filtration, sludge dewatering)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00GNA"
+  "system": "00GNA",
+  "voltage": 400
 }

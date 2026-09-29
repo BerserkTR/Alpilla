@@ -2,23 +2,34 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.041173Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.041173Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.375428Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Compressor",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 480,
+  "capacity_unit": "kW cooling",
   "cwa": "CWA-03",
   "cwp": "CWP-03-HV-01",
   "description": "Chiller A",
+  "design_flow": 69,
+  "design_pressure": 10,
+  "design_temperature": 50,
   "equipment_type": "compressor",
   "id": "00SAA10AN001",
+  "location": "HVAC plant area (outdoor, roof)",
+  "material": "Evaporator CS/SS; condenser Cu/Al coils coated for C5 marine",
   "mr": "MR-HV-001",
   "quantity": 1,
   "rated_power": 150.0,
+  "redundancy": "3 x 50 %",
+  "remarks": "480 kW cooling / COP 3.2 = 150 kW electric (kept); 2 running = 960 kW = AHU coil duties; 6 K delta T: 480/(4.19 x 6) = 19.1 kg/s = 69 t/h. Refrigerant side per vendor.",
+  "service": "Chilled water chiller A (air-cooled screw, 7/13 degC)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00SAA"
+  "system": "00SAA",
+  "voltage": 400
 }

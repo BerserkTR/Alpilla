@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:27.005058Z",
     "created_by": "EPCE",
-    "rev": 6,
-    "updated_at": "2026-09-28T18:38:48.557643Z",
+    "rev": 7,
+    "updated_at": "2026-09-29T02:43:38.480238Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -11,6 +11,7 @@
     "requirement:ER-01.02"
   ],
   "bdp": true,
+  "bdp_batch": 1,
   "cwa": "CWA-01",
   "discipline": "piping",
   "doc_type": "layout",

@@ -2,23 +2,35 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.548927Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:11.892007Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.408684Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 2,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-08",
   "cwp": "CWP-08-ME-01",
   "description": "Ammonia forwarding pump A",
+  "design_flow": 1.8,
+  "design_pressure": 10,
+  "design_temperature": 65,
   "equipment_type": "pump",
+  "head": 60,
   "id": "10HSB10AP001",
+  "location": "Ammonia storage and forwarding area",
+  "material": "Stainless steel 316L (mag-drive), no copper alloys",
   "mr": "MR-ME-018",
   "quantity": 1,
-  "rated_power": 4.0,
+  "rated_power": 1.1,
+  "redundancy": "2 x 100 %",
+  "remarks": "Ammonia (24.5 % aq.) 125 kg/h on gas, 480 kg/h on LDO (IEC DS-104 Rev B, SRC-IECE-0007) = 0.14 / 0.53 m3/h; pump 2 m3/h x 60 m covers LDO operation; 1.1 kW",
+  "service": "Aqueous ammonia forwarding to SCR vaporiser skid",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "10HSB"
+  "system": "10HSB",
+  "voltage": 400
 }

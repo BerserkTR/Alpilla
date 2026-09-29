@@ -2,23 +2,31 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.551819Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.441186Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.374960Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 960,
+  "capacity_unit": "kW cooling (2 chillers duty)",
   "cwa": "CWA-03",
   "cwp": "CWP-03-HV-01",
   "description": "HVAC plant (chillers, AHUs, pressurisation)",
   "equipment_type": "package",
   "id": "00SAA10",
+  "location": "Electrical/control building roof and HVAC plant room",
+  "material": "Carbon steel piping, insulated",
   "mr": "MR-HV-001",
   "quantity": 1,
   "rated_power": 450.0,
+  "redundancy": "Chillers 3 x 50 %",
+  "remarks": "Rated 450 kW = sum of 3 chillers as installed (2 duty + 1 standby); parent duplicates the chiller motors - do not add to their power. Cooling 960 kW total; running power about 530 kW + lighting about 220 kW = AL-17 750 kW.",
+  "service": "HVAC plant package: chillers, chilled water pumps, AHUs, pressurisation (skid/package parent)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00SAA"
+  "system": "00SAA",
+  "voltage": 400
 }

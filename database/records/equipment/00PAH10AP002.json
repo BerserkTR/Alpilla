@@ -2,23 +2,35 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.026288Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.026288Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.351298Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 330,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-02",
   "cwp": "CWP-02-ME-01",
   "description": "Ball recirculation pump B",
+  "design_flow": 336,
+  "design_pressure": 6,
+  "design_temperature": 50,
   "equipment_type": "pump",
+  "head": 10,
   "id": "00PAH10AP002",
+  "location": "Condenser area",
+  "material": "Super duplex stainless steel (wetted)",
   "mr": "MR-ME-006",
   "quantity": 1,
   "rated_power": 15.0,
+  "redundancy": "2 x 50 % (one per condenser half, confirm with supplier)",
+  "remarks": "330 m3/h x 10 m / 0.72 = 12.7 kW shaft; /0.92 = 13.8 kW, so 15 kW placeholder kept. Ball-handling volute type.",
+  "service": "Condenser cleaning ball recirculation",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00PAH"
+  "system": "00PAH",
+  "voltage": 400
 }

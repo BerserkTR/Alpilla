@@ -2,23 +2,34 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.012306Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.012306Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.326691Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Filter",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 25,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-07",
   "cwp": "CWP-07-ME-01",
   "description": "EDI stack A",
+  "design_flow": 25,
+  "design_pressure": 10,
+  "design_temperature": 50,
   "equipment_type": "filter",
   "id": "00GCA10AT001",
+  "location": "Water treatment building (00UGA)",
+  "material": "PP / PVC-U housing, IX membranes",
   "mr": "MR-ME-012",
   "quantity": 1,
-  "rated_power": 15.0,
+  "rated_power": 10,
+  "redundancy": "2 x 100 %",
+  "remarks": "Rectifier approx 0.4 kWh/m3 x 25 m3/h = 10 kW; was 15 kW placeholder. Produces < 0.1 uS/cm feed to mixed bed polisher.",
+  "service": "Electrodeionisation (EDI) stack",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00GCA"
+  "system": "00GCA",
+  "voltage": 400
 }

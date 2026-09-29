@@ -2,23 +2,33 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.028826Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.028826Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.356378Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Filter",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 30,
+  "capacity_unit": "kg/h Cl2",
   "cwa": "CWA-05",
   "cwp": "CWP-05-ME-01",
   "description": "Electrolyser cell stack B",
+  "design_pressure": 6,
+  "design_temperature": 50,
   "equipment_type": "filter",
   "id": "00PBA10AT002",
+  "location": "Electro-chlorination building",
+  "material": "Coated titanium electrodes, PVC/CPVC cell body",
   "mr": "MR-ME-005",
   "quantity": 1,
-  "rated_power": 120.0,
+  "rated_power": 150,
+  "redundancy": "2 x 50 %",
+  "remarks": "30 kg/h Cl2 x 5.0 kWh/kg (low salinity 22-26 PSU, chloride up to 14,500 mg/l, DP-OWNR-0014/15) = 150 kW AC via rectifier; existing 120 kW gives only 24 kg/h. Two stacks 60 kg/h = 1.6 ppm at 38,000 m3/h.",
+  "service": "Electrolyser cell stack",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00PBA"
+  "system": "00PBA",
+  "voltage": 400
 }

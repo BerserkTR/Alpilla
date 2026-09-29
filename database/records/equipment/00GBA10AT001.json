@@ -2,21 +2,31 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.007457Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.007457Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.322556Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Filter",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 45,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-07",
   "cwp": "CWP-07-ME-01",
   "description": "SWRO multimedia filter A",
+  "design_flow": 46,
+  "design_pressure": 8,
+  "design_temperature": 50,
   "equipment_type": "filter",
   "id": "00GBA10AT001",
+  "location": "Water treatment building (00UGA)",
+  "material": "GRP / rubber-lined CS",
   "mr": "MR-ME-012",
   "quantity": 1,
+  "redundancy": "3 x 50 %",
+  "remarks": "2 duty + 1 standby/backwash: 2 x 45 = 90 m3/h >= 84 m3/h feed; approx 4.5 m2 each at 10 m/h; TSS up to 140 mg/l in storms (DP-OWNR-0017).",
+  "service": "SWRO multimedia pressure filter",
   "status": "preliminary",
   "supply": "IEPC",
   "system": "00GBA"

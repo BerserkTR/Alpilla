@@ -145,7 +145,8 @@ def test_release_control_engine_and_gate_cli(project, capsys):
     assert any("gate G-OWN-BDP 00000: planned" in w for w in m["warnings"])
     from openpyxl import load_workbook
     wb = load_workbook(next((project.output / "release_control").glob("*.xlsx")))
-    assert wb.sheetnames == ["Rules", "Gates", "Gate requirements", "Release plan", "Relations", "Impacts", "Gate rules"]
+    assert wb.sheetnames == ["Rules", "Gates", "Gate requirements", "Release plan", "Release sequence", "Relations", "Impacts",
+                            "Gate rules"]
     plan = [r for r in wb["Release plan"].iter_rows(min_row=5, values_only=True)]
     order = [r[1] for r in plan]
     assert order.index(DBR) < order.index(PID) < order.index("ALP-EPC-00PAC-PI-ISO-0001")

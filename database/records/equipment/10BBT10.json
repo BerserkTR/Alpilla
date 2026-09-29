@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.552315Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:11.889410Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.402217Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Power Transformer",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 31500,
+  "capacity_unit": "kVA",
   "cwa": "CWA-01",
   "cwp": "CWP-01-EL-01",
   "description": "GT unit auxiliary transformer 21/10.5 kV 31.5 MVA",
   "equipment_type": "transformer",
   "id": "10BBT10",
+  "location": "Power block transformer bay",
+  "material": "Steel tank, C5 marine coating",
   "mr": "MR-EL-002",
   "quantity": 1,
+  "redundancy": "2 x 100 % (with 20BBT10)",
+  "remarks": "Plant aux load SRC-NG-100 10.30 MW (AL-01..22 excl. GSU losses AL-08/09), LDO case about 10.9 MW, MAX case 9.70 MW; design MV bus load 11.1 MW incl. AL-21 losses = 12.6 MVA at pf 0.88, +10 % = 13.9 MVA (765 A at 10.5 kV). Each UAT must carry 100 %: 31.5 MVA also carries the GT static starter (SFC, about 9 MW, not in aux_load). uk 12 % gives 14.4 kA at 10.5 kV.",
+  "service": "GT unit auxiliary transformer 21/10.5 kV (GT generator terminals to MV section A)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "10BBT"
+  "system": "10BBT",
+  "voltage": 21000
 }

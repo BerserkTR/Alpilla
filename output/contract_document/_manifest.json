@@ -1,15 +1,15 @@
 {
   "code_hash": "7e952571d7941139",
-  "db_hash": "ab4d23c77ec2ca3a",
+  "db_hash": "9e4ca96e141e5557",
   "engine": "contract_document",
   "engine_version": "1.2.0",
   "files": {
-    "ALP-EPC-001_contract.docx": "25c8c0835fad291354accb03ef63e6dcd6ede14c5a29087de659f3a7064c8243",
-    "ALP-EPC-001_contract.pdf": "831299210d80ce4f0828b6b7f1706bcef0924ba15b85c33740e35d8c9ea73f2d"
+    "ALP-EPC-001_contract.docx": "8c33fc54e4fe131aa9c50bb73fb321e724ecac9148797962e4a89d29ebbc6981",
+    "ALP-EPC-001_contract.pdf": "9218b2d20b4c4ef7456f85e20f000fbc83f0fb611a134854311ac8f932961f6f"
   },
-  "generated_at": "2026-09-28T19:00:23.629118Z",
-  "generated_by": "EPCE",
-  "git_commit": "876a108",
+  "generated_at": "2026-09-29T02:54:30.888925Z",
+  "generated_by": "SETUP",
+  "git_commit": "c460705",
   "inputs": [
     "activity",
     "clarification",
@@ -26,9 +26,7 @@
     "tie_in",
     "wbs"
   ],
-  "inputs_hash": "7d05c4eb26bd0325",
+  "inputs_hash": "5dd832e7af1511bb",
   "options": {},
-  "warnings": [
-    "clarifications not closed: TQ-038, TQ-039"
-  ]
+  "warnings": []
 }

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:47:10.507278Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T02:47:10.507278Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0053",
+    "reference:REF-CONS-0054"
+  ],
+  "date": "2026-11-27",
+  "decided_by": "IEPC engineering manager",
+  "decision": "Cycle chemistry AVT(O) per VGB-S-010 / IAPWS TGD (ammonia only, no oxygen scavenger in operation); the oxygen scavenger dosing is kept for wet lay-up only; phosphate / caustic trim dosing of the HP drum for upsets. Condensate polishing 2 x 100 % mixed-bed vessels, resin exchange by a service contractor (no on-site regeneration). Seawater electro-chlorination: continuous low-level dosing 0.5 mg/l at the intake with pulse dosing to 2 mg/l for 3 x 30 min per day, residual controlled at the condenser outlet to 0.2 mg/l so that the outfall stays below 0.1 mg/l after mixing (DP-CASE-0017); generator capacity 60 kg/h Cl2 (1.5 mg/l on 38,000 m3/h), average consumption about 25 kg/h; no dechlorination. SWRO 2 x 100 % with isobaric energy recovery, brine returned to the CW outfall (checked in the EIA conditions compliance matrix), EDI reject recycled to the SWRO feed. Potable water from SWRO permeate with calcite remineralisation and hypochlorite residual chlorination. Neutralisation of the waste water with sulphuric acid and caustic dosing in the waste water treatment package.",
+  "id": "DEC-EPCE-0015",
+  "rationale": "The equipment review found an oxygen scavenger skid contradicting AVT(O), a chlorination dose that would exceed the outfall limit, no energy recovery or brine route for the SWRO, no remineralisation of potable water and no neutralisation chemicals.",
+  "status": "agreed",
+  "title": "Cycle chemistry, seawater chlorination and water treatment concept"
+}

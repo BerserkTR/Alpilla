@@ -2,23 +2,35 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.024692Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.024692Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.346140Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 110,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-05",
   "cwp": "CWP-05-ME-01",
   "description": "Screen wash pump B",
+  "design_flow": 112,
+  "design_pressure": 10,
+  "design_temperature": 50,
   "equipment_type": "pump",
+  "head": 60,
   "id": "00PAA10AP002",
+  "location": "Intake structure",
+  "material": "Super duplex stainless steel (wetted)",
   "mr": "MR-ME-004",
   "quantity": 1,
   "rated_power": 30.0,
+  "redundancy": "2 x 100 %",
+  "remarks": "Rated 110 m3/h x 60 m / 0.70 = 26 kW shaft; /0.93 motor = 28 kW, so 30 kW placeholder kept. 1 running (sequential washing of both screens) + 1 standby.",
+  "service": "Travelling band screen wash water supply",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00PAA"
+  "system": "00PAA",
+  "voltage": 400
 }

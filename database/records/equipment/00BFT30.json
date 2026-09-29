@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.059059Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.059059Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.296942Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Power Transformer",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 2000,
+  "capacity_unit": "kVA",
   "cwa": "CWA-03",
   "cwp": "CWP-03-EL-01",
-  "description": "LV transformer 10.5/0.4 kV 1.6 MVA - CW pump house",
+  "description": "LV transformer 10.5/0.42 kV 2.0 MVA - BOP and water treatment, A",
   "equipment_type": "transformer",
   "id": "00BFT30",
+  "location": "CW pump house",
+  "material": "Steel tank, C5 marine coating",
   "mr": "MR-EL-004",
   "quantity": 1,
+  "redundancy": "1 x 100 % (LV tie to main board)",
+  "remarks": "Rated 1,600 kVA (uk 6 %) for about 0.6 MW LV load (0.7 MVA); oversized 2x but keeps the 2 x 100 % option via LV tie to main board; single unit as tagged.",
+  "service": "LV transformer 10.5/0.4 kV for CW pump house MCC",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00BFT"
+  "system": "00BFT",
+  "voltage": 10500
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.072074Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.072074Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.429807Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
@@ -15,8 +15,13 @@
   "description": "ST control fluid unit",
   "equipment_type": "package",
   "id": "20MAX10",
+  "location": "Turbine hall",
+  "material": "Stainless steel",
   "mr": "MR-ME-103",
   "quantity": 1,
+  "redundancy": "2 x 100 % pumps",
+  "remarks": "Fire-resistant EHC fluid per ER-07.06 (SRC-EPCE-0004, DS-103 sec 1); power in ST auxiliaries AL-03. Volume and pump data: IEC data at PO + x weeks (VDRL).",
+  "service": "ST control fluid unit (fire-resistant EHC fluid)",
   "status": "preliminary",
   "supply": "IEC",
   "system": "20MAX"

@@ -2,23 +2,34 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.544356Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.436776Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.360856Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 141.9,
+  "capacity_unit": "t/h condensate treated",
   "cwa": "CWA-08",
   "cwp": "CWP-08-ME-01",
-  "description": "Chemical dosing skid (ammonia, oxygen scavenger)",
+  "description": "Chemical dosing skid (ammonia, phosphate / caustic trim, lay-up dosing)",
+  "design_flow": 141.9,
+  "design_pressure": 25,
+  "design_temperature": 50,
   "equipment_type": "package",
   "id": "00QCA10",
+  "location": "Chemical dosing building (00UQA)",
+  "material": "316L / HDPE",
   "mr": "MR-ME-011",
   "quantity": 1,
   "rated_power": 10.0,
+  "redundancy": "1 x 100 %",
+  "remarks": "Sized on condensate flow 141.9 t/h (HMB stream 20, SRC-NG-100): NH3 approx 1 mg/kg = 0.14 kg/h (0.6 l/h of 25 % solution), 5 mg/kg at start-up. Rated 10 kW kept: agitators, heat tracing, skid controls (AL-18 40 kW includes SCR ammonia).",
+  "service": "Chemical dosing skid (ammonia AVT(O), phosphate/caustic, oxygen scavenger for lay-up)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00QCA"
+  "system": "00QCA",
+  "voltage": 400
 }

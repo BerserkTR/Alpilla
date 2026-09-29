@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T03:01:30.226591Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T03:01:30.226591Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:16.199247Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -14,7 +14,8 @@
   "hmb_case": "SRC-LDO-100",
   "id": "AL-203",
   "method": "fixed",
-  "power": 260.0,
+  "power": 180,
+  "remarks": "average about 25 kg/h Cl2 (0.5 mg/l continuous + pulse), DEC-EPCE-0015",
   "status": "assumption",
   "supplier": "IEPC"
 }

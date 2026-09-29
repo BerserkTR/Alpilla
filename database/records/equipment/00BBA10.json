@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.552738Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:46.787199Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.290166Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Switchgear And Controlgear",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 2000,
+  "capacity_unit": "A",
   "cwa": "CWA-03",
   "cwp": "CWP-03-EL-01",
   "description": "MV switchgear 10.5 kV, section A",
   "equipment_type": "switchgear",
   "id": "00BBA10",
+  "location": "Electrical building - MV room",
+  "material": "Steel enclosure, vacuum circuit breakers, C5 coating",
   "mr": "MR-EL-003",
   "quantity": 1,
+  "redundancy": "2 x 100 % (sections A/B with bus tie)",
+  "remarks": "Busbar 2000 A (incomer 10BBT 31.5 MVA = 1,732 A; with tie closed one section carries the whole 13.9 MVA = 765 A). MV switchgear 12 kV class, 31.5 kA / 1 s (peak 80 kA): bus-tie closed short-circuit = 10BBT 14.4 kA + 20BBT 8.8 kA + MV motor contribution about 2 kA = 25 kA, 25 % margin; 40 kA not required. Panels: incomer, tie, BFP A, CEP A, CW pump A, SWRO HP pump A, LV transformers 00BFT10/30, spare.",
+  "service": "10.5 kV MV switchboard section A (fed from GT UAT 10BBT)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00BBA"
+  "system": "00BBA",
+  "voltage": 10500
 }

@@ -2,21 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.548571Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:11.892980Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.409875Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Tank",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 30,
+  "capacity_unit": "m3",
   "cwa": "CWA-08",
   "cwp": "CWP-08-ME-01",
   "description": "Aqueous ammonia tank A 30 m3",
+  "design_pressure": 0,
+  "design_temperature": 65,
   "equipment_type": "tank",
   "id": "10HSB10BB001",
+  "location": "Ammonia storage area (bunded)",
+  "material": "Carbon steel or 304L, atmospheric with vent/water seal",
   "mr": "MR-ME-018",
   "quantity": 1,
+  "redundancy": "2 x 100 %",
+  "remarks": "30 m3 each: 219 h on gas (0.14 m3/h), 57 h on LDO (0.53 m3/h); 2 x 30 m3 = 113 h on LDO; one 25 m3 road tanker per delivery",
+  "service": "Aqueous ammonia (25 %) storage",
   "status": "preliminary",
   "supply": "IEPC",
   "system": "10HSB"

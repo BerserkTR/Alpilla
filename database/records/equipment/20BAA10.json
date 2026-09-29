@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.074050Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.074050Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.420384Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Switchgear And Controlgear",
@@ -15,9 +15,15 @@
   "description": "ST isolated phase busduct",
   "equipment_type": "switchgear",
   "id": "20BAA10",
+  "location": "Turbine hall / transformer yard",
+  "material": "Aluminium enclosure and conductor",
   "mr": "MR-EL-101",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "15.75 kV per SRC-EPCE-0003 (IEC-ALP-DS-102), same design as GT IPB; rating: IEC data at PO + x weeks (VDRL).",
+  "service": "ST generator isolated phase busduct",
   "status": "preliminary",
   "supply": "IEC",
-  "system": "20BAA"
+  "system": "20BAA",
+  "voltage": 15750
 }

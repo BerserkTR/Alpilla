@@ -2,21 +2,31 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.051311Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.051311Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.393213Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Butterfly Valve",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 86,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-08",
   "cwp": "CWP-08-ME-01",
   "description": "Deluge valve set - LDO tank A",
+  "design_flow": 86,
+  "design_pressure": 17,
+  "design_temperature": 50,
   "equipment_type": "valve",
   "id": "00SGC10AA006",
+  "location": "LDO tank farm",
+  "material": "Ductile iron body, bronze/SS trim, epoxy coated (C5)",
   "mr": "MR-ME-020",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "Deluge demand 2 L/min/m2 x 720 m2 shell = 1,440 L/min (NFPA 850/15).",
+  "service": "Deluge valve set - LDO tank A cooling ring",
   "status": "preliminary",
   "supply": "IEPC",
   "system": "00SGC"

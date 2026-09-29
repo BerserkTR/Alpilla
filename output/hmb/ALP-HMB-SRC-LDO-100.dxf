@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461312.7922453703
+2461313.1215162035
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461312.7922453703
+2461313.1215162035
   9
 $TDUUPDATE
  40
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{541EFA5E-E5E3-471E-B81E-46F0FA5E1F23}
+{255217B9-15B8-4CDF-9E0C-482B0F8D8919}
   9
 $VERSIONGUID
   2
-{97197DA7-AD19-432A-9222-C60BD583C19D}
+{53670C84-FAB7-4FBC-AD49-B54948BA0FBB}
   9
 $EXTNAMES
 290
@@ -25839,7 +25839,7 @@ AcDbText
  40
 2.3
   1
--10.04
+-9.35
   7
 ALPILLA
  72
@@ -26035,7 +26035,7 @@ AcDbText
  40
 2.3
   1
-567.11
+567.80
   7
 ALPILLA
  72
@@ -26329,7 +26329,7 @@ AcDbText
  40
 2.5
   1
-6,102
+6,094
   7
 ALPILLA
  72
@@ -26427,7 +26427,7 @@ AcDbText
  40
 2.3
   1
-59.00
+59.07
   7
 ALPILLA
  72
@@ -26819,7 +26819,7 @@ AcDbText
  40
 2.5
   1
-92.44
+92.48
   7
 ALPILLA
  72
@@ -27431,7 +27431,7 @@ AcDbText
  40
 2.1
   1
-net export 567.1 MW vs DP-OWNR-0051 connection capacity 640 MW (this case)
+net export 567.8 MW vs DP-OWNR-0051 connection capacity 640 MW (this case)
   7
 ALPILLA
  11
@@ -27623,7 +27623,7 @@ AcDbText
  40
 2.1
   1
-net output 567.11 MW vs PG-15 >= 560.00 (margin +1.27 %)
+net output 567.80 MW vs PG-15 >= 560.00 (margin +1.39 %)
   7
 ALPILLA
  11
@@ -27687,7 +27687,7 @@ AcDbText
  40
 2.1
   1
-net heat rate 6,101.83 kJ/kWh vs PG-16 <= 6,150.00 (margin +0.78 %)
+net heat rate 6,094.42 kJ/kWh vs PG-16 <= 6,150.00 (margin +0.90 %)
   7
 ALPILLA
  11
@@ -27751,7 +27751,7 @@ AcDbText
  40
 2.1
   1
-guarantee cover: at IG-09/IG-10 limits and this HMB's auxiliaries the net plant is 560.2 MW / 6,146 kJ/kWh vs Owner
+guarantee cover: at IG-09/IG-10 limits and this HMB's auxiliaries the net plant is 560.9 MW / 6,139 kJ/kWh vs Owner
   7
 ALPILLA
  11
@@ -27973,7 +27973,7 @@ AcDbText
  40
 2.6
   1
-9f2d118f58330dd9 | 2026-09-28
+a6baea26d6584942 | 2026-09-29
   7
 ALPILLA
  11
@@ -29573,7 +29573,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-28T19:00:50.308917+00:00
+1.4.4 @ 2026-09-29T02:54:59.359354+00:00
   0
 VISUALSTYLE
   5
@@ -36135,7 +36135,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-28T19:00:50.344784+00:00
+1.4.4 @ 2026-09-29T02:54:59.393125+00:00
   0
 ENDSEC
   0

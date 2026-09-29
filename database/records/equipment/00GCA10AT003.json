@@ -2,21 +2,31 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.013019Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.013019Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.327583Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Filter",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 25,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-07",
   "cwp": "CWP-07-ME-01",
   "description": "Mixed bed polisher A",
+  "design_flow": 25,
+  "design_pressure": 10,
+  "design_temperature": 50,
   "equipment_type": "filter",
   "id": "00GCA10AT003",
+  "location": "Water treatment building (00UGA)",
+  "material": "Rubber-lined CS / GRP",
   "mr": "MR-ME-012",
   "quantity": 1,
+  "redundancy": "2 x 100 %",
+  "remarks": "Polishes EDI product to < 0.1 uS/cm; 25 m3/h at approx 30 m/h service velocity; resin exchange/off-site regeneration assumed (no acid/caustic regeneration in 00QCA).",
+  "service": "Mixed bed polisher",
   "status": "preliminary",
   "supply": "IEPC",
   "system": "00GCA"

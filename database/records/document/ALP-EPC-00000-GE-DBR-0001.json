@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.825249Z",
     "created_by": "EPCE",
-    "rev": 7,
-    "updated_at": "2026-09-28T18:46:28.968530Z",
+    "rev": 8,
+    "updated_at": "2026-09-29T02:43:38.471537Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -21,6 +21,7 @@
     "requirement:ER-03.01"
   ],
   "bdp": true,
+  "bdp_batch": 1,
   "discipline": "general",
   "doc_type": "report",
   "id": "ALP-EPC-00000-GE-DBR-0001",

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.072873Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.072873Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.432191Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Switchgear And Controlgear",
@@ -15,8 +15,13 @@
   "description": "ST static excitation",
   "equipment_type": "switchgear",
   "id": "20MKC10",
+  "location": "Electrical room",
+  "material": "Steel cubicles",
   "mr": "MR-EL-101",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "Static excitation (SRC-EPCE-0003, DS-102 sec 1). Rating: IEC data at PO + x weeks (VDRL).",
+  "service": "ST static excitation system",
   "status": "preliminary",
   "supply": "IEC",
   "system": "20MKC"

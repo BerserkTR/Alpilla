@@ -2,23 +2,35 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.536153Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:11.895049Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.423333Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 533,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-02",
   "cwp": "CWP-02-ME-01",
   "description": "Condensate extraction pump A (2 x 100 %)",
+  "design_flow": 530,
+  "design_pressure": 22,
+  "design_temperature": 65,
   "equipment_type": "pump",
+  "head": 175,
   "id": "20LCB10AP001",
+  "location": "Turbine building",
+  "material": "Cast steel / 13Cr impeller (vertical can-type)",
   "mr": "MR-ME-002",
   "quantity": 1,
-  "rated_power": 450.0,
+  "rated_power": 355,
+  "redundancy": "2 x 100 %",
+  "remarks": "133.9 kg/s (WIN-NG-100 stream 17/18) +10 % = 147 kg/s = 533 m3/h x 175 m (16 - 0.022 bar +7 %) /0.78 = 325 kW shaft, /0.95 = 342 kW so 355 kW MV (existing 450 oversized). Shut-off about 20 bar, design 22 barg.",
+  "service": "Condensate extraction from condenser hotwell to HRSG",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "20LCB"
+  "system": "20LCB",
+  "voltage": 10000
 }

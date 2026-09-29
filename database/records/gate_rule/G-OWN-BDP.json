@@ -2,22 +2,22 @@
   "_meta": {
     "created_at": "2026-09-28T17:50:51.414032Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:40:35.934741Z",
+    "rev": 4,
+    "updated_at": "2026-09-29T02:43:39.379291Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
     "decision:DEC-EPCE-0013",
     "requirement:ER-17.01"
   ],
-  "description": "payment milestone MS-02",
+  "description": "payment milestone MS-02 (TQ-038)",
   "id": "G-OWN-BDP",
   "need": "milestone:MS-02",
   "process": "owner_acceptance",
   "requires": [
-    "bdp ACCEPTED"
+    "bdp:1 ACCEPTED"
   ],
   "scope": "plant",
   "status": "agreed",
-  "title": "Basic Design Package Approved"
+  "title": "Basic Design Package Batch 1 Approved"
 }

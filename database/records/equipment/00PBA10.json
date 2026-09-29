@@ -2,23 +2,33 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.540751Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.434521Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.352616Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 60,
+  "capacity_unit": "kg/h Cl2",
   "cwa": "CWA-05",
   "cwp": "CWP-05-ME-01",
   "description": "Electro-chlorination package",
+  "design_pressure": 6,
+  "design_temperature": 50,
   "equipment_type": "package",
   "id": "00PBA10",
+  "location": "Electro-chlorination building (CW pump house)",
+  "material": "Titanium (coated) electrodes, PVC/PP/GRP piping",
   "mr": "MR-ME-005",
   "quantity": 1,
-  "rated_power": 260.0,
+  "rated_power": 340,
+  "redundancy": "2 x 50 % stacks",
+  "remarks": "Sized for 1.5 ppm Cl2 continuous at 38,000 m3/h = 57 kg/h (2 x 30 kg/h) plus shock dosing from storage; connected load 2 x 150 kW stacks + 15 (booster) + 15 (dosing) + 7.5 (fan) about 340 kW. AL-14 (260 kW) covers only about 45 kg/h at 5 kWh/kg, see findings.",
+  "service": "Seawater electro-chlorination package (on-site sodium hypochlorite generation)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00PBA"
+  "system": "00PBA",
+  "voltage": 400
 }

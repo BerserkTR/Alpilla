@@ -2,21 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.548101Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.427363Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.312286Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Fixed Roof Tank",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 3800,
+  "capacity_unit": "m3",
   "cwa": "CWA-10",
   "cwp": "CWP-10-ME-01",
-  "description": "LDO storage tank B 3,500 m3",
+  "description": "LDO storage tank B 3,800 m3",
+  "design_pressure": 0,
+  "design_temperature": 65,
   "equipment_type": "tank",
   "id": "00EGB10BB002",
+  "location": "LDO tank farm",
+  "material": "Carbon steel, API 650 fixed cone roof, internal coating, marine C5 external",
   "mr": "MR-ME-017",
   "quantity": 1,
+  "redundancy": "2 x 50 %",
+  "remarks": "3,800 m3 nominal, 3,500 m3 working; 2 x 3,500 m3 = 72.8 h at 80.7 t/h (SRC-LDO-100 stream 27, 840 kg/m3)",
+  "service": "LDO storage tank B",
   "status": "preliminary",
   "supply": "IEPC",
   "system": "00EGB"

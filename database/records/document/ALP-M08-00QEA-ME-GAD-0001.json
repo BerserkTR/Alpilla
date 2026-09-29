@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.525846Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T18:38:48.783196Z",
+    "rev": 6,
+    "updated_at": "2026-09-29T02:48:27.248037Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -15,6 +15,7 @@
     "00QEA10AN002",
     "00QEA10AN003",
     "00QEA10AT001",
+    "00QEA10AT002",
     "00QEA10AT003",
     "00QEA10BB001",
     "00QEA10BB002"

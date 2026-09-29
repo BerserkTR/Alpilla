@@ -2,23 +2,35 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.018654Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.018654Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.336976Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 25,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-07",
   "cwp": "CWP-07-ME-01",
   "description": "Waste water transfer pump A",
+  "design_flow": 25,
+  "design_pressure": 4,
+  "design_temperature": 50,
   "equipment_type": "pump",
+  "head": 25,
   "id": "00GNA10AP001",
+  "location": "Water treatment building (00UGA)",
+  "material": "316L",
   "mr": "MR-ME-014",
   "quantity": 1,
-  "rated_power": 7.5,
+  "rated_power": 4,
+  "redundancy": "2 x 100 %",
+  "remarks": "Rated 4 kW: 25 m3/h (20 +25 %) x 25 m / 0.60 = 2.8 kW shaft, /0.86 motor = 3.3 kW; was 7.5 kW placeholder.",
+  "service": "Waste water transfer pump (equalisation tank to treatment)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00GNA"
+  "system": "00GNA",
+  "voltage": 400
 }

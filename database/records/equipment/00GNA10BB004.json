@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:47:14.472460Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.340893Z",
+    "updated_by": "EPCE"
+  },
+  "aveva_class": "Tank",
+  "basis_refs": [
+    "decision:DEC-EPCE-0015"
+  ],
+  "capacity": 5,
+  "capacity_unit": "m3",
+  "cwa": "CWA-07",
+  "cwp": "CWP-07-ME-01",
+  "description": "Caustic tank (neutralisation)",
+  "design_pressure": 0,
+  "design_temperature": 50,
+  "equipment_type": "tank",
+  "id": "00GNA10BB004",
+  "material": "HDPE / carbon steel, bunded",
+  "mr": "MR-ME-014",
+  "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "service": "Caustic 32 % storage",
+  "status": "preliminary",
+  "supply": "IEPC",
+  "system": "00GNA"
+}

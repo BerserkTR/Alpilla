@@ -2,23 +2,33 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.544685Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.440537Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.374044Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 16,
+  "capacity_unit": "sample points",
   "cwa": "CWA-01",
   "cwp": "CWP-01-ME-01",
   "description": "Steam/water analysis system (SWAS)",
+  "design_pressure": 10,
+  "design_temperature": 50,
   "equipment_type": "package",
   "id": "00QUA10",
+  "location": "Turbine building sampling room",
+  "material": "Stainless steel 316L tubing and panels",
   "mr": "MR-IC-003",
   "quantity": 1,
   "rated_power": 20.0,
+  "redundancy": "1 x 100 %",
+  "remarks": "16 sample points: 3 pressure levels HP/IP/LP steam and drum water, HP/RH steam, condensate, CEP/polisher outlet, feedwater, blowdown; 20 kW analysers, chiller and panel kept.",
+  "service": "Steam/water sampling and analysis (SWAS) panel",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00QUA"
+  "system": "00QUA",
+  "voltage": 400
 }

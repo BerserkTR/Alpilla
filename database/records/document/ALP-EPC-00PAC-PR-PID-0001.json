@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:26.901537Z",
     "created_by": "EPCE",
-    "rev": 8,
-    "updated_at": "2026-09-28T18:38:48.602576Z",
+    "rev": 9,
+    "updated_at": "2026-09-29T02:43:38.476992Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -13,6 +13,7 @@
     "scope_item:SC-016"
   ],
   "bdp": true,
+  "bdp_batch": 2,
   "discipline": "process",
   "doc_type": "diagram",
   "id": "ALP-EPC-00PAC-PR-PID-0001",

@@ -2,21 +2,31 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.070024Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.070024Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.425777Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "source:SRC-EPCE-0009"
   ],
+  "capacity": 423,
+  "capacity_unit": "t/h IP steam",
   "cwa": "CWA-02",
   "cwp": "CWP-02-ME-01",
   "description": "IP/LP steam turbine",
+  "design_flow": 423,
+  "design_pressure": 47,
+  "design_temperature": 605,
   "equipment_type": "package",
   "id": "20MAB10",
+  "location": "Turbine hall",
+  "material": "CrMoV / 12 % Cr steel",
   "mr": "MR-ME-103",
   "quantity": 1,
+  "redundancy": "1 x 100 %",
+  "remarks": "IP inlet 117.49 kg/s (423 t/h) 36.2 bar(a) 598.5 degC (HMB stream 12), design 48 bar(a) / 605 degC (IF-10); LP admission 11.9 kg/s per stream 14 = 42.8 t/h, design 8 bar(a) / 330 degC (IF-12) per SRC-EPCE-0004 (DS-103 sec 2). Power included in 20MAA10.",
+  "service": "IP/LP steam turbine casing (double-flow LP, side exhaust) incl. IP/LP admission",
   "status": "preliminary",
   "supply": "IEC",
   "system": "20MAB"

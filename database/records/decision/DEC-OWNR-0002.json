@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:53:04.937210Z",
+    "created_by": "OWNR",
+    "rev": 1,
+    "updated_at": "2026-09-29T02:53:04.937210Z",
+    "updated_by": "OWNR"
+  },
+  "basis_refs": [
+    "source:SRC-EPCE-0011"
+  ],
+  "date": "2026-11-25",
+  "decided_by": "Owner project director",
+  "decision": "The Owner platform is accepted at +15.00 m +- 0.15 m; structural fill below +14.85 m is paid by the Owner at the unit rate of the Price Schedule against a joint survey; the Contractor trims locally (TQ-039).",
+  "id": "DEC-OWNR-0002",
+  "rationale": "Topographic survey ALP-SUR-TOP-001 showed the platform on average 66 mm low with a fall to the south.",
+  "status": "agreed",
+  "title": "Acceptance tolerance of the Owner-levelled platform"
+}

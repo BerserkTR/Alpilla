@@ -2,23 +2,35 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.016766Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:17:53.280573Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.334204Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 30,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-12",
   "cwp": "CWP-12-EL-01",
   "description": "Oily water sump pump - LDO area",
+  "design_flow": 30,
+  "design_pressure": 4,
+  "design_temperature": 50,
   "equipment_type": "pump",
+  "head": 20,
   "id": "00GMA10AP004",
+  "location": "Sump / pit",
+  "material": "Cast iron / 316L",
   "mr": "MR-ME-014",
   "quantity": 1,
-  "rated_power": 7.5,
+  "rated_power": 4,
+  "redundancy": "1 x 100 %",
+  "remarks": "Rated 4 kW: 30 m3/h x 20 m / 0.55 = 3.0 kW shaft, /0.85 motor = 3.5 kW; discharge to oil separator; was 7.5 kW placeholder.",
+  "service": "Oily water sump pump, LDO area",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00GMA"
+  "system": "00GMA",
+  "voltage": 400
 }

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.542644Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-28T18:38:48.799254Z",
+    "rev": 5,
+    "updated_at": "2026-09-29T02:48:27.250179Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Specification Documents",
@@ -16,6 +16,8 @@
     "00GBA10AP002",
     "00GBA10AP003",
     "00GBA10AP004",
+    "00GBA10AP005",
+    "00GBA10AP006",
     "00GBA10AT001",
     "00GBA10AT002",
     "00GBA10AT003",

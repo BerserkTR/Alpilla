@@ -2,23 +2,34 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.545554Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:55.429110Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.325349Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Equipment Package Skid",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 25,
+  "capacity_unit": "m3/h product per train",
   "cwa": "CWA-07",
   "cwp": "CWP-07-ME-01",
   "description": "Demineralisation package (EDI / mixed bed)",
+  "design_flow": 27.2,
+  "design_pressure": 10,
+  "design_temperature": 50,
   "equipment_type": "package",
   "id": "00GCA10",
+  "location": "Water treatment building (00UGA)",
+  "material": "PP / PVC-U / 316L piping",
   "mr": "MR-ME-012",
   "quantity": 1,
-  "rated_power": 80.0,
+  "rated_power": 20,
+  "redundancy": "2 x 100 %",
+  "remarks": "Product 25 m3/h vs demand 16.5 t/h on LDO (13.443 t/h water injection, HMB stream 28, + approx 3 t/h makeup) and tank refill; EDI recovery 92 %. Rated 20 kW = package ancillaries only (controls, dosing, mixed-bed regen/rinse); was 80 kW placeholder.",
+  "service": "Demineralisation package (EDI + mixed bed), 2 trains",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00GCA"
+  "system": "00GCA",
+  "voltage": 400
 }

@@ -2,22 +2,30 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.554668Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:05:46.791435Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.301183Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Battery Back-Up Power Supply Unit",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 500,
+  "capacity_unit": "Ah",
   "cwa": "CWA-03",
   "cwp": "CWP-03-EL-01",
   "description": "Battery and charger 220 V DC (2 x 100 %)",
   "equipment_type": "battery",
   "id": "00BTA10",
+  "location": "Battery room, electrical building",
+  "material": "Battery: sealed lead acid / NiCd",
   "mr": "MR-EL-007",
-  "quantity": 1,
+  "quantity": 2,
+  "redundancy": "2 x 100 %",
+  "remarks": "Autonomy 2 h: 80 A x 2 h = 160 Ah + emergency oil pumps 270 A x 0.5 h = 135 Ah, x 1.25 ageing x 1.1 temperature = 405 Ah, rated 500 Ah at C10 each battery; charger 150 A (load 80 A + recharge 50 A).",
+  "service": "220 V DC battery and charger (VRLA/NiCd, 108 cells)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00BTA"
+  "system": "00BTA",
+  "voltage": 220
 }

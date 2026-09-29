@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T03:01:30.217985Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T03:01:30.217985Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:16.198319Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -14,7 +14,8 @@
   "hmb_case": "SRC-NG-MEL",
   "id": "AL-181",
   "method": "fixed",
-  "power": 450.0,
+  "power": 250,
+  "remarks": "SWRO with energy recovery, EDI, polishing, forwarding (DEC-EPCE-0015)",
   "status": "assumption",
   "supplier": "IEPC"
 }

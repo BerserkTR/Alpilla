@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.575819Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-28T18:38:48.828924Z",
+    "rev": 4,
+    "updated_at": "2026-09-29T02:43:54.854163Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -16,6 +16,8 @@
   ],
   "mr": "MR-EL-011",
   "originator": "E11",
+  "planned_ifc": "2026-12-07",
+  "planned_ifr": "2026-11-23",
   "po_weeks_final": 8,
   "po_weeks_ifr": 4,
   "review": "approval",

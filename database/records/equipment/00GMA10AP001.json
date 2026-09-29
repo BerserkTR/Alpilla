@@ -2,23 +2,35 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.015725Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T17:17:53.203990Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T02:47:15.332717Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 40,
+  "capacity_unit": "m3/h",
   "cwa": "CWA-12",
   "cwp": "CWP-12-EL-01",
   "description": "Process drain sump pump - power block A",
+  "design_flow": 40,
+  "design_pressure": 4,
+  "design_temperature": 90,
   "equipment_type": "pump",
+  "head": 25,
   "id": "00GMA10AP001",
+  "location": "Sump / pit",
+  "material": "Cast stainless 316L",
   "mr": "MR-ME-014",
   "quantity": 1,
-  "rated_power": 11.0,
+  "rated_power": 5.5,
+  "redundancy": "2 x 100 %",
+  "remarks": "Rated 5.5 kW: 40 m3/h x 25 m / 0.60 = 4.5 kW shaft, /0.87 motor = 5.2 kW; covers HRSG blowdown tank / equipment drains; was 11 kW placeholder. Discharge to equalisation tank 00GNA10BB001.",
+  "service": "Process drain sump pump, power block",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00GMA"
+  "system": "00GMA",
+  "voltage": 400
 }

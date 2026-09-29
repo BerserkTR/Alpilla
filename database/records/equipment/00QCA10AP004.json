@@ -2,23 +2,35 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.034545Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-28T17:03:04.034545Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T02:47:15.362735Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Centrifugal Pump",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
+  "capacity": 5,
+  "capacity_unit": "l/h",
   "cwa": "CWA-08",
   "cwp": "CWP-08-ME-01",
   "description": "Oxygen scavenger dosing pump B",
+  "design_flow": 0.005,
+  "design_pressure": 25,
+  "design_temperature": 50,
   "equipment_type": "pump",
+  "head": 180,
   "id": "00QCA10AP004",
+  "location": "Chemical dosing building (00UQA)",
+  "material": "316L / PTFE diaphragm",
   "mr": "MR-ME-011",
   "quantity": 1,
-  "rated_power": 1.5,
+  "rated_power": 0.75,
+  "redundancy": "2 x 100 %",
+  "remarks": "Rated 0.75 kW (smallest listed motor); 5 l/h; not dosed in operation under AVT(O) (see findings); was 1.5 kW placeholder.",
+  "service": "Oxygen scavenger dosing for wet lay-up only (AVT(O) in operation)",
   "status": "preliminary",
   "supply": "IEPC",
-  "system": "00QCA"
+  "system": "00QCA",
+  "voltage": 400
 }
