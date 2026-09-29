@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.877363Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.877363Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.05"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0113",
+  "parameter": "Escape routes and emergency lighting",
+  "remarks": "EN 1838; supplied from the emergency board (EDG) with self-contained backup for the transfer time",
+  "section": "14",
+  "seq": 7,
+  "status": "preliminary",
+  "value_text": "1 lx minimum on the centre line, 5 lx at fire-fighting and first-aid equipment, 90 min autonomy"
+}

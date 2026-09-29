@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.839522Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.839522Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0073",
+    "reference:REF-CONS-0077",
+    "reference:REF-CONS-0075",
+    "reference:REF-CONS-0074",
+    "reference:REF-CONS-0037",
+    "reference:REF-CONS-0038",
+    "reference:REF-CONS-0040",
+    "reference:REF-CONS-0076"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0014",
+  "section": "4",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "Power installations above 1 kV shall comply with IEC 61936-1, low-voltage installations with IEC 60364, short-circuit calculations with IEC 60909, the GIS with IEC 62271-203, generators with IEC 60034-1, generator circuit breakers with IEC/IEEE 62271-37-013, transformers with IEC 60076 and communications with IEC 61850."
+}

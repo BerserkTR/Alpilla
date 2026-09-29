@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.120480Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.120480Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0372",
+  "section": "9",
+  "seq": 3,
+  "status": "assumption",
+  "text": "The GIS building shall be ventilated with low-level extraction (SF6 is heavier than air) with oxygen depletion / SF6 monitors at floor level, at least 4 air changes per hour under normal operation and 8 air changes per hour in the emergency mode started by the SF6 monitor; entry warning signs and ventilation before entry shall be provided."
+}

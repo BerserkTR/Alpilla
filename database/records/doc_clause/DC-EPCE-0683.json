@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.486685Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.486685Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.01"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0683",
+  "section": "5",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Evidence documents not yet issued (status planned): noise study, stack dispersion confirmation, thermal plume study, CESMP and waste management plan; the rows depending on them stay preliminary until the documents are issued."
+}

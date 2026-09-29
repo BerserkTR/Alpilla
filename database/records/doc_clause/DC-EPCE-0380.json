@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.128138Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.128138Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.03"
+  ],
+  "block": "params:noise",
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0380",
+  "section": "11",
+  "seq": 2,
+  "status": "confirmed"
+}

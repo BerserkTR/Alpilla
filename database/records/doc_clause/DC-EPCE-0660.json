@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.454206Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.454206Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0041",
+    "design_parameter:DP-OWNR-0042",
+    "design_parameter:DP-OWNR-0043",
+    "design_parameter:DP-OWNR-0039",
+    "design_parameter:DP-OWNR-0035",
+    "source:SRC-OWNR-0007",
+    "design_parameter:DP-EPCE-0009"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0660",
+  "parameter": "EIA 1.2 Air: NOx, CO, NH3 slip, SO2 and dust on light diesel oil (LDO, at most the annual hours of the EIA)",
+  "remarks": "ALP-EPC-00000-HS-DBR-0001; ALP-EPC-00000-PR-LST-0003 (chemical consumption, effluent and emission inventory); LDO operating hours counter reported per section 4.",
+  "section": "3",
+  "seq": 2,
+  "status": "preliminary",
+  "value_text": "LDO limits are held as DP-OWNR-0041 (NOx), DP-EPCE-0009 (CO), DP-OWNR-0042 (SO2) and DP-OWNR-0043 (dust); the NH3 slip limit DP-CASE-0042 applies to both fuels; LDO operation is limited to the annual hours in DP-OWNR-0039 by the LDO management and reporting procedure; the LDO sulphur content DP-OWNR-0035 supports the SO2 limit."
+}

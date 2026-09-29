@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.844598Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.844598Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0075",
+    "design_parameter:DP-OWNR-0049"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0030",
+  "section": "6",
+  "section_title": "Short-circuit ratings",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Short-circuit currents shall be calculated per IEC 60909 for maximum (voltage factor c max, all sources, tie closed) and minimum (c min, minimum grid level of DP-OWNR-0049, one source) conditions, including the contribution of MV and LV motors. Initial symmetrical current, peak current, breaking current and thermal current shall be reported for every bus."
+}

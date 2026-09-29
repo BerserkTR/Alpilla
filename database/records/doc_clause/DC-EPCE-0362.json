@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.111146Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.111146Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0362",
+  "section": "6",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Fresh air shall be provided at not less than 10 l/s per person for occupied rooms (7 l/s per person plus 0.7 l/s per m2 as ASHRAE 62.1 minimum) and enough to maintain the pressurisation of section 7; toilets and kitchens shall be exhausted at not less than 10 air changes per hour or 25 l/s per cubicle."
+}

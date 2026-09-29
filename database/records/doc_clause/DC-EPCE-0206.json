@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.927496Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.927496Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.03",
+    "requirement:ER-14.06",
+    "reference:REF-CONS-0081"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0206",
+  "section": "11",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Leakage: seat leakage class IV per IEC 60534-4 for control valves, class V or VI (bubble-tight) for tight shutoff, isolation and SIS valves; SIS shutdown valves are tight shutoff and fire safe, with partial stroke testing and a fail-safe spring return in the safe direction. Fugitive emission from stems for fuel gas services shall be tested per ISO 15848-1 class B or better."
+}

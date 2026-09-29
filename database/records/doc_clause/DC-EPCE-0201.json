@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.924032Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.924032Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014",
+    "reference:REF-CONS-0050"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0201",
+  "section": "11",
+  "section_title": "Control valve sizing criteria",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Control valves shall be sized per IEC 60534-2-1 (liquids, gases and steam) using the fluid properties and flows of all HMB cases and the process design criteria; the maximum case governs the flow (DEC-EPCE-0014), the normal and minimum cases shall be shown. The rated flow coefficient shall be the value for the maximum flow with a margin of 10 %."
+}

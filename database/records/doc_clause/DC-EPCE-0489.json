@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.245033Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.245033Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0489",
+  "section": "12",
+  "section_title": "Inspection, testing and documentation",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Vendors shall issue an inspection and test plan (ITP) for each major equipment item with hold points (H), witness points (W) and review points (R); the Engineer shall be given 15 days' notice of witnessed tests. Manufacturing shall not proceed beyond a hold point without release."
+}

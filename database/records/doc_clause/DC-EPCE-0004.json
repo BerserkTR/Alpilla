@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.836647Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.836647Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0004",
+  "section": "1",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Status of values: values marked preliminary are IEPC design criteria that hold until the electrical load list (ALP-EPC-00000-EL-LST-0001) and the studies of section 16 are issued; a change to a preliminary value is made in this document and reported to the affected specifications. The electrical auxiliary system concept is fixed by DEC-EPCE-0016."
+}

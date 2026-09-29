@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.124116Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.124116Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06",
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0376",
+  "section": "10",
+  "seq": 3,
+  "status": "assumption",
+  "text": "Power supply of the HVAC of the control and electrical rooms shall be from the essential (emergency diesel backed) section of the auxiliary system so that the cooling and pressurisation is restored automatically after the transfer to the emergency diesel generator within the time of the ride-through of the rooms (not more than 5 minutes with a room temperature rise of not more than 3 K); the chilled water thermal storage or the inertia of the loop shall be shown to cover the restart time of the chillers."
+}

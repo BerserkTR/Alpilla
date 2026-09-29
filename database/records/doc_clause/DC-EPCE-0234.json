@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.011691Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.011691Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.05"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0234",
+  "section": "16",
+  "section_title": "Historian, performance monitoring and operator training simulator",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Plant historian: a redundant historian server with 5 years of on-line storage (ER-12.05); all DCS, TCS, SIS, package and CEMS signals are archived, including all TCS signals (TQ-026), with the capacity for the number of archived tags of the historian record (00CKA10) plus 20 % spare; time-stamped at the source; data are not compressed for trip-relevant tags (a 1 s or faster recording, and high-resolution 100 ms snapshot on a trip)."
+}

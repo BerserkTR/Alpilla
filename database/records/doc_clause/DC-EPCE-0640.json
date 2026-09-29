@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.427145Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.427145Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0036",
+    "design_parameter:DP-CASE-0034",
+    "requirement:ER-01.03"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0640",
+  "section": "7",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "The design of steam piping shall consider the number of thermal cycles: 250 starts per year over the design life, with cold, warm and hot start cycles of the operating regime. Fatigue and creep shall be assessed for P91 and P22 lines in accordance with the code."
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.936457Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.936457Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.07",
+    "reference:REF-CONS-0082"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0219",
+  "section": "13",
+  "section_title": "Cybersecurity",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "OT cybersecurity shall be designed per IEC 62443 with the target security level SL-T 2 for every zone, as required by ER-12.07: zones and conduits per IEC 62443-3-2, security requirements of the systems per IEC 62443-3-3 (SL-C at or above SL-T), secure product development and component requirements of IEC 62443-4-1 and 4-2 demonstrated by the suppliers, and security acceptance test."
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.914312Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.914312Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0184",
+  "section": "9",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Temperature: Pt100 resistance thermometers class A (IEC 60751) in 3-wire or 4-wire connection, thermocouples type K (or N above 1,000 degC) to IEC 60584; transmitter mounted in the head or in the field for temperatures used in control loops. Analogue signals shall be wired in individually screened twisted pairs, screens earthed at one end (the DCS side)."
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.377927Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.377927Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.03"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0601",
+  "section": "2",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Where the codes give different rules, the more stringent shall apply; deviations shall be approved by IEPC. Interface piping to the IEC power island shall follow the interface data of the tie-in register and the OEM design data."
+}

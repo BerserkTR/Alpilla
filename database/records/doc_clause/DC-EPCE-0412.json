@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.163113Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.163113Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0083"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0412",
+  "parameter": "Hydrogen sources (electrolysis hydrogen of the electro-chlorination, H2 / CO2 bottle racks, battery rooms) to buildings and ignition sources",
+  "section": "7",
+  "seq": 5,
+  "status": "assumption",
+  "value_text": "not less than 8 m for the bottle racks (600 Nm3), open-air location with a light roof; electro-chlorination rooms ventilated per the process design"
+}

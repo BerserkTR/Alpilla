@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.374170Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.374170Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0056",
+    "reference:REF-CONS-0057",
+    "reference:REF-CONS-0058"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0598",
+  "section": "2",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Process piping in chemical, water treatment and ammonia service shall be designed to ASME B31.3 (normal fluid service; category M only when the toxicity assessment requires it). Gas pipework of the gas receiving and metering station from the terminal point to the fiscal metering and pressure control station outlet shall be designed to ASME B31.8 and EN 12186 as applicable; downstream fuel gas piping shall be designed to ASME B31.1."
+}

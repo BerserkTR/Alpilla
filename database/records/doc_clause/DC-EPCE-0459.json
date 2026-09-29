@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.212207Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.212207Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0459",
+  "section": "5",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Shaft sealing of pumps handling LDO, ammonia solution, hazardous or volatile liquids shall be single or dual mechanical seals to API 682 (or ISO 21049) with the piping plan selected per service; magnetic drive pumps are accepted for aqueous ammonia when the vendor demonstrates dry-run protection."
+}

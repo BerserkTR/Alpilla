@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.456874Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.456874Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0084",
+    "permit:PMT-017",
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0662",
+  "parameter": "EIA 1.4 Air: CEMS per EN 14181 with on-line reporting",
+  "remarks": "ALP-EPC-00CQA-IC-SPC-0001 (CEMS specification); ALP-EPC-00CQA-IC-TRP-0001 (QAL1, QAL2 and AST reports); ALP-EPC-00CQA-CM-CMP-0001; permit PMT-017.",
+  "section": "3",
+  "seq": 4,
+  "status": "preliminary",
+  "value_text": "One CEMS per HRSG stack, QAL1-certified analysers, QAL2 calibration and annual surveillance (AST) per the standard cited in reference REF-CONS-0084; data logger with the on-line emission data link to the authority (permit PMT-017) and to the Owner; CEMS scope covers NOx, CO, NH3, O2 and flow, plus SO2 and dust for LDO firing."
+}

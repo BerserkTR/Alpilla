@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.025455Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.025455Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0001",
+    "design_parameter:DP-EPCE-0008",
+    "decision:DEC-OWNR-0002"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0255",
+  "section": "5",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "The nominal platform level is +15.00 m. The Owner platform is accepted within +/- 0.15 m (DP-EPCE-0008). Finished floor levels and road levels shall be set on the as-surveyed platform with local trimming only; structural fill needed below +14.85 m is not Contractor scope of cost (paid by the Owner at the Price Schedule unit rate against a joint survey) as agreed in TQ-039 and DEC-OWNR-0002. The south edge strip (N 0 to 25 m) and the old warehouse foundations shall be resurveyed jointly before setting out."
+}

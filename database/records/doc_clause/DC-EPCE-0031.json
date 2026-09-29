@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.845032Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.845032Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0025",
+    "design_parameter:DP-OWNR-0049",
+    "requirement:ER-11.01"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0031",
+  "parameter": "380 kV GIS",
+  "remarks": "Upper Owner grid level of DP-OWNR-0049 plus generator infeed shall not exceed 80 % of the rating",
+  "section": "6",
+  "seq": 2,
+  "status": "confirmed",
+  "table_head": [
+    "Item",
+    "Rating criterion",
+    "Remarks"
+  ],
+  "value_text": "Short-circuit rating of DP-CASE-0025, 1 s (3 s for busbar and earthing switches), 100 % DC component design"
+}

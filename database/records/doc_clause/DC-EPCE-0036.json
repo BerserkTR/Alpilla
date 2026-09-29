@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.846643Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.846643Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0036",
+  "section": "6",
+  "seq": 7,
+  "status": "preliminary",
+  "text": "Where the calculated short-circuit current with the MV bus tie closed (transfer condition) exceeds the switchgear rating, the transfer shall be restricted (open transition) instead of increasing the rating. Parallel operation of the two LV sections A and B shall not be permitted in normal operation; the LV coupler is interlocked and closes only after the opening of the incoming breaker of the section to be supplied."
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.845392Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.845392Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016",
+    "reference:REF-CONS-0073"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0032",
+  "parameter": "10.5 kV switchgear",
+  "remarks": "Calculated maximum Ik'' with bus tie closed shall not exceed 80 % of the rating",
+  "section": "6",
+  "seq": 3,
+  "status": "confirmed",
+  "value_text": "31.5 kA, 1 s (peak 80 kA), 2,000 A busbar"
+}

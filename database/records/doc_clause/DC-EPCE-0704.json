@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.518154Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.518154Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02",
+    "decision:DEC-EPCE-0013"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0704",
+  "section": "5",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Before the cut-off the project control lead shall pull the shared branch, enter all issued revisions, actual dates and progress data through the database CLI with a reason, run python -m engine run --stale and python -m engine gate, check the warnings printed by the engines and resolve or explain each of them in the report. Reports are issued through python -m engine deliver."
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.901913Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.901913Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0161",
+  "parameter": "DCS controller loading",
+  "remarks": "Reserve for the growth and the peak load of the scan",
+  "section": "7",
+  "seq": 2,
+  "status": "preliminary",
+  "value_text": "Controller CPU load 60 % or less and memory 60 % or less at commissioning"
+}

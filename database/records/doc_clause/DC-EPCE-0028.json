@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.844021Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.844021Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016",
+    "reference:REF-CONS-0040"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0028",
+  "section": "5",
+  "seq": 12,
+  "status": "preliminary",
+  "text": "The LV transformers shall be cast-resin dry-type transformers to IEC 60076-11 installed indoors, vector group Dyn11, impedance to limit the LV short-circuit level to the switchgear rating, off-circuit tap changer +/- 2 x 2.5 %."
+}

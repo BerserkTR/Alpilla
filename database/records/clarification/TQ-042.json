@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:48:08.702186Z",
+    "created_by": "EPCE",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:49:05.500644Z",
+    "updated_by": "EPCE"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "project_control",
+  "id": "TQ-042",
+  "impact": "none",
+  "outcome": "contractor_proposal_accepted",
+  "proposal": "10 working days review, one cycle (review class 'review') for the six documents.",
+  "question": "The tender-stage design criteria ALP-EPC-00000-CV-DBR-0001, ALP-EPC-00000-EL-DBR-0001, ALP-EPC-00000-HV-DBR-0001, ALP-EPC-00000-IC-DBR-0001, ALP-EPC-00000-ME-SPC-0001, ALP-EPC-00000-PR-HMB-0001 were planned for first issue at NTP (2026-11-02) and are issued Rev A on 2026-12-14 after TQ-041. With the 21-day BDP review and an IFA cycle their IFC moves to late January 2027 and the civil EWPs of CWA-01/02/03/04/05/06/07/11/12 and the enquiries of MR-EL-009 and MR-PI-002 fall 1 to 23 working days behind their need dates. Please agree a review of 10 working days and acceptance in one review cycle (IFC after incorporation of the comments, no IFA) for these six documents.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-12-14",
+  "responded_by": "OWNER",
+  "response": "Withdrawn by the Contractor before use: the analysis showed the late first issue, not the review period, drives the civil path (the downstream documents need these criteria at IFR). The Owner answer of 2026-12-16 is not applied.",
+  "response_date": "2026-12-16",
+  "round": 10,
+  "status": "superseded",
+  "subject": "Expedited review of the tender-stage Basic Design Package criteria issued late"
+}

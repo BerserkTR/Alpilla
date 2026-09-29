@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:14.279778Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:14.279778Z",
+    "updated_by": "EPCE"
+  },
+  "applies_to": "HVAC design method and ventilation rates (HV-DBR-0001)",
+  "code": "ASHRAE 62.1 / 55 / 90.1",
+  "disciplines": [
+    "civil",
+    "hvac",
+    "hse"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-EPCE-0038",
+  "jurisdiction": "US",
+  "kind": "standard",
+  "remarks": "Proposed with the wave-2 design criteria; to be agreed with the Owner and IEC in the next codes and standards round.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "proposed",
+  "title": "Ventilation for acceptable indoor air quality; thermal comfort; energy standard for buildings"
+}

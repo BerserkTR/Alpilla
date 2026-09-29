@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.867438Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.867438Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.08"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0090",
+  "section": "11",
+  "seq": 10,
+  "status": "preliminary",
+  "text": "Time synchronisation of protection relays, disturbance recorders and DCS shall be from the GPS master clocks with a resolution of 1 ms for the sequence of events (ER-12.08). Relays use PTP (IEEE C37.238) or IRIG-B; see the I&C design criteria for the time synchronisation architecture."
+}

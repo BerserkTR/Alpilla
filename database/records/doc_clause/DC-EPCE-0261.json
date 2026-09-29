@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.029795Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.029795Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0034",
+    "requirement:ER-13.04",
+    "reference:REF-CONS-0087"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0261",
+  "section": "6",
+  "section_title": "Design loads",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Design life of the plant is per DP-CASE-0034; the structural design working life is 50 years (EN 1990 category 5) for buildings and main structures and 30 years minimum for replaceable items (pipe supports, cladding, non-structural elements), the concrete durability design being for 50 years (ER-13.04). Consequence class CC3 (EN 1990) applies to the power block structures, turbine foundations and the control and electrical building; CC2 to other structures."
+}

@@ -5,8 +5,8 @@
 | Project | ALP |
 | Plant type | CCGT 1x1 multi-shaft, H-class GT, 3-pressure reheat HRSG, seawater cooling |
 | Location | Northern Marmara coast, Türkiye |
-| Generated | 2026-09-29T02:54:34Z by SETUP (design_basis v1.2.0) |
-| Data fingerprint | 52794fade12921a7 (git c460705) |
+| Generated | 2026-09-29T03:49:41Z by EPCE (design_basis v1.2.0) |
+| Data fingerprint | 317e885b5112fb1b (git e89d9d3) |
 
 This document is generated from the project database. Do not edit it; change the
 `design_parameter` records and re-run `python -m engine run design_basis`.
@@ -15,6 +15,7 @@ This document is generated from the project database. Do not edit it; change the
 
 | ID | Parameter | Value | Unit | Condition | Status | Basis |
 |---|---|---|---|---|---|---|
+| DP-EPCE-0015 | 100-year coastal still water level | 0.9 | m | national datum; +1.40 m with 0.5 m sea-level rise; floor levels >= +1.90 m (ER-02.09); shoreline run-up +4.8 m | confirmed | SRC-OWNR-0002 Seawater quality and marine conditions; ER-02.09 Flood protection |
 | DP-CASE-0003 | Atmospheric corrosivity category | C5 (ISO 12944-2), durability H | - |  | confirmed | ER-02.08 Corrosive coastal atmosphere |
 | DP-CASE-0004 | Basic wind speed | 30.0 | m/s | 10 min mean, 10 m, 50-year return | confirmed | ER-02.05 Wind, snow and rain |
 | DP-CASE-0006 | Design rainfall intensity | 110.0 | mm/h | 10 min, 25-year return | confirmed | ER-02.05 Wind, snow and rain |
@@ -81,6 +82,7 @@ This document is generated from the project database. Do not edit it; change the
 | DP-OWNR-0039 | LDO annual operating limit | 500.0 | h/year | back-up fuel status | confirmed | SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); SRC-OWNR-0007 Positive EIA decision - binding conditions |
 | DP-OWNR-0038 | LDO autonomy at base load | 72.0 | h | two tanks of 50 % | confirmed | SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); ER-03.08 LDO unloading and storage |
 | DP-EPCE-0005 | LDO density at 15 degC | 820 to 845 (840 for sizing) | kg/m3 |  | confirmed | REF-CONS-0096 TS EN 590; SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO) |
+| DP-EPCE-0013 | LDO flash point | 55 | degC | minimum, EN ISO 2719 | confirmed | SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO) |
 | DP-OWNR-0034 | LDO LHV | 42.9 | MJ/kg | range 42.6-43.2 | confirmed | SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); ER-03.07 Light diesel oil specification and burner limits |
 | DP-OWNR-0036 | LDO Na + K at GT inlet | 0.5 | mg/kg | maximum; as delivered up to 1.0 (history 1.8) | confirmed | SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO); ER-03.07 Light diesel oil specification and burner limits |
 | DP-OWNR-0040 | LDO resupply capacity | 25.0 | trucks/day | 30-36 m3 each | confirmed | SRC-OWNR-0004 Secondary fuel: light diesel oil (LDO) |
@@ -118,6 +120,7 @@ This document is generated from the project database. Do not edit it; change the
 | DP-CASE-0015 | Condenser cooling water temperature rise | 7.0 | K | maximum, base load | confirmed | ER-07.04 Cooling water temperature rise |
 | DP-OWNR-0021 | Condenser pressure at SRC (maximum) | 36.0 | mbar(a) | base load, seawater 16.0 degC | confirmed | ER-07.08 Condenser pressure |
 | DP-OWNR-0023 | Condenser tube velocity | 1.8 to 2.2 | m/s | titanium | confirmed | ER-07.07 Condenser design standard |
+| DP-EPCE-0011 | CW intake velocity at the screens | 0.15 | m/s | maximum, with fish return system | confirmed | SRC-OWNR-0007 Positive EIA decision - binding conditions |
 | DP-OWNR-0019 | Jellyfish load design | 20.0 | kg/m3 | blooms June-September | confirmed | SRC-OWNR-0002 Seawater quality and marine conditions; ER-08.07 Jellyfish and mucilage |
 | DP-OWNR-0016 | Pycnocline depth | 20 to 25 | m |  | confirmed | SRC-OWNR-0002 Seawater quality and marine conditions |
 | DP-CASE-0017 | Residual chlorine at outfall | 0.1 | mg/l | maximum | confirmed | ER-08.04 Biofouling control |
@@ -130,6 +133,7 @@ This document is generated from the project database. Do not edit it; change the
 | DP-CASE-0013 | Seawater temperature range at intake | 6 to 27 | degC |  | confirmed | ER-02.04 Seawater conditions |
 | DP-OWNR-0017 | Seawater TSS maximum (storm) | 140.0 | mg/l |  | confirmed | SRC-OWNR-0002 Seawater quality and marine conditions |
 | DP-CASE-0014 | SRC seawater temperature | 16.0 | degC | Site Reference Conditions | confirmed | ER-02.03 Site Reference Conditions (SRC) |
+| DP-EPCE-0012 | SWRO brine salinity excess at 50 m from the diffuser | 5 | % | above ambient salinity, maximum | confirmed | SRC-OWNR-0007 Positive EIA decision - binding conditions |
 | DP-CASE-0016 | Thermal plume excess at 100 m mixing zone | 3.0 | K | maximum | confirmed | ER-08.05 Thermal plume |
 | DP-OWNR-0020 | Wave height Hs 50-year | 4.4 | m | Tp 8.5 s, SW | confirmed | SRC-OWNR-0002 Seawater quality and marine conditions |
 
@@ -138,6 +142,7 @@ This document is generated from the project database. Do not edit it; change the
 | ID | Parameter | Value | Unit | Condition | Status | Basis |
 |---|---|---|---|---|---|---|
 | DP-CASE-0041 | CO | 30.0 | mg/Nm3 | dry, 15 % O2, 50-100 % GT load | confirmed | ER-14.02 Air emissions |
+| DP-EPCE-0009 | CO on LDO | 50 | mg/Nm3 | dry, 15 % O2, 70-100 % GT load | confirmed | SRC-OWNR-0007 Positive EIA decision - binding conditions; ER-14.02 Air emissions |
 | DP-OWNR-0043 | Dust on LDO | 5.0 | mg/Nm3 | dry, 15 % O2 | confirmed | SRC-OWNR-0007 Positive EIA decision - binding conditions; ER-14.02 Air emissions |
 | DP-CASE-0042 | NH3 slip | 5.0 | mg/Nm3 | dry, 15 % O2 | confirmed | ER-14.02 Air emissions |
 | DP-CASE-0040 | NOx (as NO2) | 30.0 | mg/Nm3 | dry, 15 % O2, 50-100 % GT load | confirmed | ER-14.02 Air emissions |
@@ -150,6 +155,7 @@ This document is generated from the project database. Do not edit it; change the
 | ID | Parameter | Value | Unit | Condition | Status | Basis |
 |---|---|---|---|---|---|---|
 | DP-CASE-0044 | Near-field noise | 85.0 | dB(A) | 1 m from equipment | confirmed | ER-14.03 Near-field noise |
+| DP-EPCE-0010 | Noise at nearest receptor (day) | 55 | dB(A) | LAeq day | confirmed | SRC-OWNR-0007 Positive EIA decision - binding conditions; ER-14.04 Environmental noise |
 | DP-CASE-0045 | Noise at nearest receptor (night) | 45.0 | dB(A) | LAeq night | confirmed | ER-14.04 Environmental noise |
 
 ## 10. Operation
@@ -169,8 +175,9 @@ This document is generated from the project database. Do not edit it; change the
 |---|---|---|---|---|---|---|
 | DP-EPCE-0006 | Fire water design flow and pressure | 341 | m3/h | 1,500 gpm at 110 m; largest single hazard (LDO tank) plus 500 gpm hose | preliminary | REF-CONS-0069 NFPA 850; REF-CONS-0070 NFPA 20; DEC-EPCE-0014 Preliminary equipment sizing basis and conventions |
 | DP-EPCE-0007 | Fire water storage | 700 | m3 | 2 x 100 % tanks, 2 h | preliminary | REF-CONS-0069 NFPA 850; DEC-EPCE-0014 Preliminary equipment sizing basis and conventions |
+| DP-EPCE-0014 | Marine works window | 1 October - 30 April |  | no marine works 1 May - 30 September (fish spawning) | confirmed | SRC-OWNR-0007 Positive EIA decision - binding conditions |
 
-## Open assumptions (0 of 104)
+## Open assumptions (0 of 111)
 
 _None - all parameters are preliminary or confirmed._
 
@@ -189,6 +196,7 @@ _None - all parameters are preliminary or confirmed._
 - ER-02.05 Wind, snow and rain (requirement)
 - ER-02.06 Seismic design (requirement)
 - ER-02.08 Corrosive coastal atmosphere (requirement)
+- ER-02.09 Flood protection (requirement)
 - ER-02.10 Airborne salt and dust (requirement)
 - ER-02.11 Design ambient points (requirement)
 - ER-02.12 Lightning (requirement)

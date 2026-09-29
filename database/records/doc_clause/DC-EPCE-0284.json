@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.046485Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.046485Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0087"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0284",
+  "section": "8",
+  "seq": 2,
+  "status": "assumption",
+  "text": "The following project load cases shall be combined: dead, imposed, equipment operating, equipment empty and hydrotest, wind (four directions), seismic (two horizontal components with 100 % / 30 % combination and the vertical component where TBDY requires), snow, thermal, crane, pipe reactions, fault loads of the machines (short-circuit torque, blade loss, bearing failure per OEM) and construction / erection loads. Fault load cases of the OEM shall not be combined with seismic loads."
+}

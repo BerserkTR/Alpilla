@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.262708Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.262708Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0047",
+    "document:ALP-EPC-00000-EL-CAL-0005"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0505",
+  "section": "3",
+  "seq": 7,
+  "status": "assumption",
+  "text": "Buried and immersed items shall be designed for the soil conditions and groundwater level of the site geotechnical report (groundwater DP-OWNR-0047); the soil resistivity and aggressiveness shall be confirmed in the geotechnical survey before the design of underground metal piping and the cathodic protection."
+}

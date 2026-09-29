@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.840397Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.840397Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0024",
+    "design_parameter:DP-CASE-0026",
+    "requirement:ER-11.01"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0017",
+  "parameter": "380 kV grid and GIS",
+  "remarks": "Range 360-410 kV per DP-OWNR-0050; 47.5-52.5 Hz per ER-04.07",
+  "section": "5",
+  "section_title": "System voltages, frequency and earthing",
+  "seq": 1,
+  "status": "confirmed",
+  "table_head": [
+    "System",
+    "Voltage / earthing",
+    "Remarks"
+  ],
+  "value_text": "380 kV nominal (Um 420 kV), 50 Hz, solidly earthed"
+}

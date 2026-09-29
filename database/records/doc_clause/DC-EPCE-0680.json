@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.482701Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.482701Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0007",
+    "requirement:ER-14.01"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0680",
+  "section": "4",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Marine works: every marine works day is logged (activity, location, vessel) to demonstrate that no works were done between 1 May and 30 September."
+}

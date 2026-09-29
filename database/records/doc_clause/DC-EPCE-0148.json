@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.895124Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.895124Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01",
+    "requirement:ER-12.03"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0148",
+  "section": "5",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "The plant DCS shall not be used to execute functions of a certified SIL rating; those are in the SIS (section 8) or in the TCS protection system of the supplier. The DCS shall provide the plant-wide sequences, closed loops and monitoring of the BOP and the coordination of the units (unit coordination, load control, export limiter, fuel transfer)."
+}

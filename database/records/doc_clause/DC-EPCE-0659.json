@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.452783Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.452783Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0040",
+    "design_parameter:DP-CASE-0041",
+    "design_parameter:DP-CASE-0042",
+    "requirement:ER-14.02",
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0659",
+  "parameter": "EIA 1.1 Air: NOx, CO, NH3 slip on natural gas (dry, 15 % O2, 70-100 % load)",
+  "remarks": "ALP-EPC-00000-HS-DBR-0001 (HSE design criteria); ALP-IEC-10MBA-PR-HMB-0001; emission test ALP-EPC-00000-CM-CMP-0006 / CM-TRP-0006. Status preliminary until the IEC emission guarantee is confirmed.",
+  "section": "3",
+  "section_title": "Compliance matrix",
+  "seq": 1,
+  "status": "preliminary",
+  "table_head": [
+    "Condition",
+    "Compliance measure",
+    "Evidence / document"
+  ],
+  "value_text": "The GT combustion system, dry-low-NOx, and the SCR with ammonia slip control are designed to the emission design parameters DP-CASE-0040 (NOx), DP-CASE-0041 (CO) and DP-CASE-0042 (NH3 slip), which apply from 50 % GT load and therefore cover the 70-100 % load range of the EIA. IEC to confirm the values in the emission guarantee data; SCR catalyst volume and ammonia injection grid sized to the slip limit at end of catalyst life."
+}

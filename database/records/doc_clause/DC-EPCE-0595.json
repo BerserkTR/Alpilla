@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.370624Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.370624Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.03"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0595",
+  "section": "1",
+  "section_title": "Purpose and scope",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "This document defines the design and layout criteria for all piping of the power plant inside the battery limits: process, steam, water, fuel, chemical and utility piping, above ground and underground, from the equipment nozzles and the tie-in points of the interface register to the terminal points."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.008329Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.008329Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.04",
+    "reference:REF-CONS-0085"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0229",
+  "section": "15",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Automated measuring systems (AMS) shall be certified per EN 15267 (QAL1) for the measured components, with a certified range not larger than 1.5 times the emission limit where a certified range is available; the measuring range in use shall let the exceedances be shown and the fuel changeover (gas to LDO, with different limits) be handled in the DAHS."
+}

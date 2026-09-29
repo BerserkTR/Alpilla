@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.848950Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.848950Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.04",
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0043",
+  "section": "7",
+  "seq": 6,
+  "status": "confirmed",
+  "text": "MV distribution: the 10.5 kV switchboard has two sections A and B with bus tie (00BBA10 / 00BBA20), each section fed from one UAT. In normal operation the bus tie is open and each section carries its own loads (1 x 100 % of duplicated equipment on each section, e.g. BFP A on section A, BFP B on section B). The bus tie closes automatically on loss of one incomer."
+}

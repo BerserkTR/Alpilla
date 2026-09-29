@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.855322Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.855322Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.05",
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0061",
+  "section": "9",
+  "section_title": "Emergency power, UPS and DC systems",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "The emergency diesel generator (00XJA10, 1,250 kVA) supplies the emergency LV switchboard 00BMA10 for the safe shutdown loads: turning gear, lube and jacking oil, seal oil, closed cooling water, UPS and DC chargers, emergency lighting, HVAC of the electrical rooms, control air and fire detection. The load list of the EDG is the safe shutdown load list of the equipment records."
+}

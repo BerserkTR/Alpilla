@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.870688Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.870688Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.12",
+    "requirement:ER-11.07",
+    "reference:REF-CONS-0079",
+    "design_parameter:DP-OWNR-0009"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0098",
+  "section": "12",
+  "seq": 7,
+  "status": "confirmed",
+  "text": "Lightning protection shall follow IEC 62305 (all parts) with a risk assessment (IEC 62305-2) for every structure, based on the Owner data of ER-02.12: 26 thunderstorm days per year and a ground flash density of DP-OWNR-0009. The risk assessment (ALP-EPC-00000-EL-STU-0004) sets the lightning protection level (LPL) of each structure."
+}

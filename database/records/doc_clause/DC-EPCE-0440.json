@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.191438Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.191438Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0440",
+  "section": "1",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The specification does not apply to the gas turbine, steam turbine, generators and HRSG of the IEC power island, which follow the IEC contract specifications, except where this specification is referred to in the interface documents."
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.274718Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.274718Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0514",
+  "parameter": "LDO and lubricants",
+  "remarks": "Sodium and potassium contamination limits per DEC-OWNR-0001",
+  "section": "4",
+  "seq": 9,
+  "status": "preliminary",
+  "value_text": "Carbon steel; stainless steel filters and elements; no zinc-coated surfaces in wetted parts; no copper in injectors"
+}

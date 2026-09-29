@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.049672Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.049672Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0093",
+    "source:SRC-OWNR-0008"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0288",
+  "section": "9",
+  "seq": 3,
+  "status": "assumption",
+  "text": "Soil dynamic parameters shall be derived from the shear wave velocity measurements at the foundation. The dynamic analysis shall be run for the best-estimate shear modulus and for lower and upper bounds (0.5 and 2.0 times the best estimate, project assumption) and, for piled foundations, with the dynamic pile group stiffness; the frequency separation shall be met for all bounds."
+}

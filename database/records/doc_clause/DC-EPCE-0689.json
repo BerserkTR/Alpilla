@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.495083Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.495083Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-GE-PRC-0002",
+    "document:ALP-EPC-00000-GE-PLN-0001",
+    "decision:DEC-EPCE-0012",
+    "decision:DEC-EPCE-0013"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0689",
+  "section": "2",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Related documents: Level 3 Project Schedule ALP-EPC-00000-PC-SCH-0001, Advanced Work Packaging Execution Plan ALP-EPC-00000-GE-PLN-0002, Project Execution Plan ALP-EPC-00000-GE-PLN-0005, Document Numbering and Document Control Procedure ALP-EPC-00000-GE-PRC-0002."
+}

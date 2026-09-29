@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.434943Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.434943Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0055"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0646",
+  "section": "8",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Safety valve discharge piping shall be designed for the reaction force and shall discharge to a safe location; steam relief valves discharge through silencers to atmosphere at least 3 m above any platform within 15 m; discharge shall not be directed at other equipment."
+}

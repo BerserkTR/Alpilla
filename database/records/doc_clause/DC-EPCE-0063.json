@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.856042Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.856042Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.05",
+    "requirement:ER-02.10",
+    "design_parameter:DP-CASE-0008"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0063",
+  "section": "9",
+  "seq": 3,
+  "status": "assumption",
+  "text": "The EDG shall be rated for the standby (ESP) rating at the site ambient (DP-CASE-0008, 40 degC) and altitude, and have a day tank and fuel storage for at least 8 hours at rated load, refilled from the LDO system. The EDG shall be in an enclosure or room in the marine atmosphere with filtered combustion air (ER-02.10 salt loads)."
+}

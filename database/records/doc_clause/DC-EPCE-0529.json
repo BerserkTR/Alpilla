@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.291460Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.291460Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-EL-CAL-0005",
+    "design_parameter:DP-CASE-0034"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0529",
+  "section": "7",
+  "section_title": "Cathodic protection",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Cathodic protection of the seawater intake structure, pump house metalwork, outfall and buried carbon steel piping shall be designed in accordance with ALP-EPC-00000-EL-CAL-0005 (Cathodic Protection Design) for a design life of 30 years, with the current density and anode mass based on the seawater data of this report and on the coating breakdown factors of the coating specification."
+}

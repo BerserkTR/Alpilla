@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.102340Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.102340Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0352",
+  "parameter": "Electronic / server / DCS cabinet rooms",
+  "remarks": "Unmanned; 24 h operation",
+  "section": "5",
+  "seq": 2,
+  "status": "preliminary",
+  "value_text": "22 degC +/- 2 K, RH 40 to 55 %; maximum rate of change 5 K/h"
+}

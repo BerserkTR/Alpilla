@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.890604Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.890604Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0037",
+    "design_parameter:DP-CASE-0038",
+    "design_parameter:DP-CASE-0039",
+    "design_parameter:DP-CASE-0032",
+    "design_parameter:DP-CASE-0033",
+    "requirement:ER-12.02",
+    "requirement:ER-04.04",
+    "requirement:ER-04.05"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0140",
+  "section": "3",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Start-up times to base load (DP-CASE-0037 to DP-CASE-0039), the load ramp rate (DP-CASE-0032) and the minimum environmental load (DP-CASE-0033) are the performance targets of the automatic sequences and load control of section 6; the sequences shall be tuned and demonstrated against them."
+}

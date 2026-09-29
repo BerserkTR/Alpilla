@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.360510Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.360510Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-PI-SPC-0002"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0587",
+  "section": "7",
+  "seq": 11,
+  "status": "preliminary",
+  "text": "Hazard marking of equipment (yellow and black bands, safety signs) shall follow ISO 3864 and ISO 7010; colour codes of piping shall be shown on the piping and instrumentation diagrams and in the piping design criteria."
+}

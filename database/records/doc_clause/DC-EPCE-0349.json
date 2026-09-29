@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.099762Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.099762Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0002",
+    "design_parameter:DP-CASE-0007",
+    "design_parameter:DP-OWNR-0003"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0349",
+  "section": "4",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "The heating design shall be based on the winter design temperature of DP-OWNR-0002 (-4.8 degC at 88 % RH) for comfort heating and on -8 degC (DP-CASE-0007) for freeze protection and the minimum room temperatures of the process buildings; the design shall be checked at the record minimum of -11.4 degC (DP-OWNR-0003) without freezing of water piping."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.908893Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.908893Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.03",
+    "reference:REF-CONS-0081"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0174",
+  "section": "8",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Design rules for the SIS: de-energise-to-trip; sensors are independent from the control sensors (no shared transmitter); voting by 2oo3 for the safety functions of SIL 2 or higher and for the functions whose spurious trip means a unit trip; separate impulse lines; final elements dedicated to the SIS (no shared valve with control) with partial stroke testing and diagnostics, where possible; the safety response time budget shall be at most 50 % of the process safety time."
+}

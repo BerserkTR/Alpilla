@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:38:15.524631Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-29T02:43:38.472584Z",
+    "rev": 5,
+    "updated_at": "2026-09-29T03:35:16.631789Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Deliverables Documents",
@@ -22,6 +22,7 @@
     "ALP-EPC-00000-GE-DBR-0001"
   ],
   "originator": "EPC",
+  "produced_by": "technical_documents",
   "rule": "DL-DBR-HS|00000|1",
   "sheets": 1,
   "status": "planned",

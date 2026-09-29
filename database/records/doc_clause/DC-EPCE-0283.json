@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.045815Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.045815Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0087",
+    "reference:REF-CONS-0017"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0283",
+  "section": "8",
+  "section_title": "Load combinations",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Ultimate limit state combinations shall be per EN 1990 equation 6.10 (or 6.10a / 6.10b), with the partial factors and psi factors of the National Annex and category E / F imposed load factors for industrial areas. The seismic combination shall be per TBDY 2018 with EN 1990 equation 6.12b: G + psi2 x Q + E, psi2 = 0.6 for storage, laydown and equipment areas."
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.838748Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.838748Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0002",
+    "design_parameter:DP-OWNR-0048",
+    "reference:REF-CONS-0017"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0011",
+  "section": "3",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Seismic loads for all electrical equipment, anchorage, cable supports and battery racks follow TBDY 2018 with the PGA of DP-CASE-0002 and site class of DP-OWNR-0048. Equipment shall be qualified by type test or analysis per IEC 60068-3-3 or IEEE 344 for the required response spectrum, and shall keep its function (no trip, no loss of supply) after the design earthquake."
+}

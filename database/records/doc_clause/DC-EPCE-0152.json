@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.897267Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.897267Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.03"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0152",
+  "section": "5",
+  "seq": 9,
+  "status": "preliminary",
+  "text": "All emergency shutdown push buttons in the CCR (unit trip, fuel gas and LDO ESD, fire) shall be hardwired to the SIS or TCS independent of the DCS network. The DCS shall never be the only means to trip the plant."
+}

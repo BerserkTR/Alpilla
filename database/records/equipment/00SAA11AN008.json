@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.045609Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-29T02:47:15.381608Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:27:28.874959Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Fan",
@@ -24,7 +24,7 @@
   "mr": "MR-HV-001",
   "quantity": 1,
   "rated_power": 5.5,
-  "redundancy": "1 x 100 %",
+  "redundancy": "1 x 100 % unit with 2 x 100 % supply fans (N+1)",
   "remarks": "Overpressure with chemical filters at 800 Pa: 16,000 m3/h x 0.8 kPa / 0.72 = 4.4 kW shaft; coil about 20 kW; rated power kept. Coil duties total 960 kW = chillers duty. Design pressure = casing 0.1 barg.",
   "service": "Pressurisation unit - control building",
   "status": "preliminary",

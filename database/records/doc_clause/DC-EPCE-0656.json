@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.448723Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.448723Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.01"
+  ],
+  "block": "requirements:ER-14.01,ER-14.02,ER-14.03,ER-14.04",
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0656",
+  "section": "2",
+  "section_title": "Governing requirements and design data",
+  "seq": 1,
+  "status": "confirmed"
+}

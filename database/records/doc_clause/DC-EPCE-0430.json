@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.181149Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.181149Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0069",
+    "reference:REF-CONS-0016"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0430",
+  "section": "10",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Passive fire protection and compartmentation: the control and electrical building, the GIS building and the fire station shall be separate fire compartments with 2-hour walls; the cables shall be routed with fire barriers at compartment crossings; fire walls of transformers shall extend at least 0.6 m above and 0.6 m beyond the transformer and its conservator; structural fire resistance per the civil design criteria."
+}

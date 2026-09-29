@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.888397Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.888397Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "block": "requirements:ER-12.01,ER-12.02,ER-12.03,ER-12.04,ER-12.05,ER-12.06,ER-12.07,ER-12.08,ER-14.06,ER-14.07",
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0136",
+  "section": "2",
+  "section_title": "Governing requirements",
+  "seq": 1,
+  "status": "confirmed"
+}

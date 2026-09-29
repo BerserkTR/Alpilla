@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.095418Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.095418Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0344",
+  "section": "1",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Not included: the ventilation and fire protection of the gas turbine and steam turbine enclosures and of the HRSG (supplied by the power island OEM), the process ventilation of the electro-chlorination hydrogen dilution (equipment 00PBA10, process discipline) and hazardous area ventilation of the gas station; the interfaces shall be recorded in the interface register."
+}

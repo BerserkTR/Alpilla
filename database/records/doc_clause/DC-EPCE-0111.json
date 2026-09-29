@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.876523Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.876523Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0111",
+  "parameter": "Outdoor process areas and walkways",
+  "remarks": "EN 12464-2",
+  "section": "14",
+  "seq": 5,
+  "status": "preliminary",
+  "value_text": "50 lx general, 20 lx in walkways, 100 lx at valve stations and instrument points"
+}

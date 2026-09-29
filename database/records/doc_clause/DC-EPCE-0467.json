@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.221377Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.221377Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0467",
+  "section": "7",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Vessel design pressure and design temperature shall be set from the maximum operating conditions of the process cases plus a margin: design pressure at least 10 % (or 1.5 bar, whichever is greater) above the maximum operating pressure or the relief valve set pressure, and design temperature at least 15 K above the maximum operating temperature; vacuum service shall be full vacuum. The values shall agree with the equipment register (design_pressure, design_temperature)."
+}

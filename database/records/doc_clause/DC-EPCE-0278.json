@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.042042Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.042042Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0017"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0278",
+  "remarks": "Project limits are conservative against the code",
+  "section": "7",
+  "seq": 3,
+  "status": "assumption",
+  "text": "Behaviour factors: the ductility level shall be high for all lateral load resisting systems of power block structures; the response modification factor R and the overstrength factor D shall be taken from TBDY 2018 for the chosen system, with R limited to 6 for steel structures of the power block and to 5 for reinforced concrete frames without shear walls (project limit to keep drift under control), and R = 1.5 for non-building structures that are inverted-pendulum or that have no redundancy (stack, tanks on ring walls per the tank code)."
+}

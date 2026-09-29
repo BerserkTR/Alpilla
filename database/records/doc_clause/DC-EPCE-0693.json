@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.501625Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.501625Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0693",
+  "section": "3",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "The progress_rule records shall exist before the first monthly report: the progress_report engine stops with an error when they are missing. The percentages are proposed by project control, agreed with the Owner in the first progress meeting and changed only by a reviewed data change."
+}

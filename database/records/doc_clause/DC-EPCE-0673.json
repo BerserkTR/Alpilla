@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.471884Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.471884Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "permit:PMT-009",
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0673",
+  "parameter": "EIA 5.1 Traffic: heavy vehicles avoid the village road 07:30-09:00 and 16:00-18:00",
+  "remarks": "ALP-EPC-00000-ME-RPT-0001 (abnormal load route survey and transport drawings); ALP-EPC-00000-HS-PLN-0003; permit PMT-009.",
+  "section": "3",
+  "seq": 15,
+  "status": "preliminary",
+  "value_text": "The abnormal load transport and delivery scheduling excludes these periods on the village road; heavy transport uses the route defined in the route survey, and the abnormal load permits are applied for with these restrictions (PMT-009). The construction traffic management is part of the CESMP."
+}

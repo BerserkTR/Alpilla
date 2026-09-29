@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.091776Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.091776Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.08",
+    "design_parameter:DP-CASE-0003"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0340",
+  "section": "16",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Cladding and roofing: sandwich panels with a coated steel or aluminium skin suitable for C5 (Class RC5 or PVDF-coated, more than 15 years); fixings in stainless steel A4; roof and wall panels of the turbine hall and other buildings with hazardous gas potential shall have blow-out or vent area where required by the explosion protection document (HS-RPT-0005)."
+}

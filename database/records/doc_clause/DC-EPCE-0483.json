@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.238456Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.238456Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0072",
+    "reference:REF-CONS-0013"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0483",
+  "section": "10",
+  "section_title": "Lifting, handling and maintainability",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Every equipment item and every component heavier than 25 kg that must be handled for maintenance shall have lifting lugs, eyebolts or lifting points designed to EN 13155 (or the applicable code) for at least 2.0 x the working load; the lifting arrangement shall be shown on the general arrangement drawing. Items above 500 kg shall have a lifting plan and a designated lifting device (crane, monorail, or davit) in the layout."
+}

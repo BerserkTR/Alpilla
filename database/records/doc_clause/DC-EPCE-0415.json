@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.165967Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.165967Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.07"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0415",
+  "parameter": "Emergency assembly points",
+  "section": "7",
+  "seq": 8,
+  "status": "assumption",
+  "value_text": "two points upwind of the gas station and ammonia store outside the hazard ranges, located by the QRA"
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.444481Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.444481Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.01",
+    "reference:REF-CONS-0002"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0653",
+  "section": "1",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The matrix covers the conditions on air emissions, water, noise, marine works and ecology and other construction conditions, and the waste requirements of the Environmental Law (No. 2872) that ER-14.01 adds. One row is provided per condition; a condition that is not yet met or depends on a document not yet issued is marked 'preliminary' in the status column of the record and is listed in section 5."
+}

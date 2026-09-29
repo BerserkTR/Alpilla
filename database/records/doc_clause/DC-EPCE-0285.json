@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.047243Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.047243Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0087"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0285",
+  "section": "8",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Serviceability combinations (characteristic, frequent, quasi-permanent) shall be per EN 1990; the crack width and deflection limits of sections 9, 10 and 12 apply to the quasi-permanent combination unless stated otherwise."
+}

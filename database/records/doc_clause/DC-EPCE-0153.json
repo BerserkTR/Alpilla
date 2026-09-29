@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.897790Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.897790Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.02",
+    "requirement:ER-04.04",
+    "design_parameter:DP-CASE-0037",
+    "design_parameter:DP-CASE-0038",
+    "design_parameter:DP-CASE-0039"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0153",
+  "section": "6",
+  "section_title": "Automation level and operating modes",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Automatic start-up and shutdown sequences shall take the unit from standstill to base load with a single operator command (one-button start) for the hot, warm and cold start of DP-CASE-0037 to DP-CASE-0039, with the sequence steps (GT start, HRSG warm-up, steam admission, ST start, load ramp, emission compliance, SCR ammonia injection) coordinated by the unit coordination logic; the operator can hold, step or abort a sequence at each defined step."
+}

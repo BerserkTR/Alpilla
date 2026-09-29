@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.878245Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.878245Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.05"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0115",
+  "section": "14",
+  "seq": 9,
+  "status": "preliminary",
+  "text": "Lighting circuits are supplied from the LV board of the area; every area of an escape route has two supplies (normal and emergency) and a light control that avoids darkness on a supply loss. The lighting calculation (ALP-EPC-00000-EL-CAL-0004) shall demonstrate the illuminances above at the maintenance factor."
+}

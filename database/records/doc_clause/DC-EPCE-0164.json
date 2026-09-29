@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.903471Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.903471Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01",
+    "requirement:ER-11.05"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0164",
+  "parameter": "Power supplies",
+  "remarks": "Each cabinet is fed by two feeders from the two UPS distributions",
+  "section": "7",
+  "seq": 5,
+  "status": "confirmed",
+  "value_text": "Redundant power supplies (2 x 100 %) fed from two independent UPS sources (00BRA10) with monitoring; 24 V DC by redundant modules with diode / redundancy decoupling"
+}

@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.872371Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.872371Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.06",
+    "reference:REF-CONS-0083",
+    "reference:REF-CONS-0025",
+    "reference:REF-CONS-0014"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0102",
+  "section": "13",
+  "section_title": "Hazardous areas and explosion protection",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Hazardous areas shall be classified per IEC 60079-10-1 in the hazardous area classification report and drawings (ALP-EPC-00000-HS-HAZ-0008), based on the properties of the fuel gas (DP-OWNR-0024 to DP-OWNR-0032), the LDO, hydrogen for the generators, aqueous ammonia and battery hydrogen. Electrical equipment shall be selected accordingly and certified (ATEX 2014/34/EU, IECEx) for the zone, gas group and temperature class."
+}

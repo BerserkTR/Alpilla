@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.911115Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.911115Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.06",
+    "requirement:ER-14.07",
+    "reference:REF-CONS-0083",
+    "reference:REF-CONS-0071"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0178",
+  "section": "8",
+  "seq": 8,
+  "status": "preliminary",
+  "text": "Fire and gas detection shall be in the SIS with the mapping of the fire and gas detector study (ALP-EPC-00000-HS-STU-0003): voting 2oo3 for the executive actions, low alarm at 10 %, high alarm at 20 % and executive action at 40 % of the lower explosive limit for methane and hydrogen (as HS-DBR-0001 section 10); ammonia, chlorine and other toxic gases per the HAZOP results; detectors are certified for the zone (ER-14.06) and for the marine atmosphere."
+}

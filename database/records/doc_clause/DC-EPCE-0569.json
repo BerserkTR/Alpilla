@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.338833Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.338833Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0569",
+  "parameter": "Stainless steel (where coating required)",
+  "remarks": "Coating on stainless steel only when required by temperature and chloride conditions",
+  "section": "5",
+  "seq": 9,
+  "status": "preliminary",
+  "value_text": "Epoxy 2 x 80 micrometres after cleaning, no blast with iron grit"
+}

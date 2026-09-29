@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.028118Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.028118Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.09",
+    "design_parameter:DP-EPCE-0015",
+    "clarification:TQ-041"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0259",
+  "parameter": "Minimum floor level above 100-year coastal flood level",
+  "remarks": "100-year still water level per the design parameter (TQ-041)",
+  "section": "5",
+  "seq": 6,
+  "status": "confirmed",
+  "value_text": "floors at least 0.5 m above the 100-year coastal still water level plus 0.5 m sea-level rise, i.e. not below +1.90 m"
+}

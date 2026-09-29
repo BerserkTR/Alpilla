@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:14.282535Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:14.282535Z",
+    "updated_by": "EPCE"
+  },
+  "applies_to": "Occupational noise assessment",
+  "code": "ISO 9612",
+  "disciplines": [
+    "civil",
+    "hvac",
+    "hse"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-EPCE-0044",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "remarks": "Proposed with the wave-2 design criteria; to be agreed with the Owner and IEC in the next codes and standards round.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "proposed",
+  "title": "Acoustics - determination of occupational noise exposure"
+}

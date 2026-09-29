@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.522199Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.522199Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0707",
+  "section": "6",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The Level 3 schedule is a CPM schedule calculated by the engine (planning core) on the working calendar of the project record; it is delivered as MS Project XML (P6 import) and Excel / HTML Gantt, updated every month at the data date: completed activities are fixed at their actual dates, activities in progress keep their actual start and remaining work starts at the data date, activities not started cannot start before the data date."
+}

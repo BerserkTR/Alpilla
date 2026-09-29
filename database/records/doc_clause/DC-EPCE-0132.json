@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.886429Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.886429Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01",
+    "requirement:ER-12.02"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0132",
+  "section": "1",
+  "section_title": "Purpose and scope",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "This document defines the instrumentation and control (I&C) design criteria and the control philosophy of the Alpilla 1 x 1 combined cycle plant: the control system architecture and its integration with the turbine control systems (TCS) of the power island supplier, automation level, redundancy rules, the safety instrumented system, signal standards, field instrument and control valve criteria, alarm management, cybersecurity, time synchronisation, emission monitoring, historian and the operator training simulator."
+}

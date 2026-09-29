@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.405958Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.405958Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0623",
+  "parameter": "Aqueous ammonia, hypochlorite and chemicals",
+  "remarks": "Minimum 25 mm for clogging where dosing lines are of lower flow, otherwise 20 mm",
+  "section": "5",
+  "seq": 14,
+  "status": "preliminary",
+  "value_text": "0.5 to 1.5 m/s"
+}

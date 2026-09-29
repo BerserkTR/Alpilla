@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.055524Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.055524Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.04",
+    "source:SRC-OWNR-0008"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0296",
+  "parameter": "Cement type",
+  "remarks": "Sulphate and chloride resistance; heat of hydration",
+  "section": "10",
+  "seq": 4,
+  "status": "assumption",
+  "value_text": "CEM III/A 42.5 N (blast furnace slag >= 50 %) or CEM II/B-V with >= 6 % silica fume; no CEM I alone"
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.068862Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.068862Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0090"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0311",
+  "parameter": "Vertical deflection - roof purlins and cladding rails",
+  "section": "12",
+  "seq": 2,
+  "status": "assumption",
+  "value_text": "span / 200 (imposed and snow)"
+}

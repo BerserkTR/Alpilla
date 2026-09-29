@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.901371Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.901371Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0160",
+  "parameter": "DCS controllers",
+  "remarks": "A single failure shall not cause a loss of control or a trip",
+  "section": "7",
+  "section_title": "Redundancy and availability rules",
+  "seq": 1,
+  "status": "confirmed",
+  "table_head": [
+    "Item",
+    "Rule",
+    "Remarks"
+  ],
+  "value_text": "Redundant (hot standby), bumpless transfer, one pair per process unit or function group"
+}

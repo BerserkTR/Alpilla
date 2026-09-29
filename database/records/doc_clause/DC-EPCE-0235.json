@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.012313Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.012313Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.05",
+    "requirement:ER-12.07"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0235",
+  "section": "16",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Historian sampling and compression: analogue tags at 1 s scan with an exception deadband of 0.1 % of span, compression deviation of 0.2 % of span; digital tags on change; calculated performance tags every 60 s; the archives after 5 years go to offline storage for the design life period per the Owner's data policy; access to the Owner is read-only through the OT DMZ."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.081448Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.081448Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.07",
+    "source:SRC-OWNR-0008"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0327",
+  "section": "13",
+  "seq": 10,
+  "status": "preliminary",
+  "text": "Settlement of the fill and the compressible clay shall be assessed in a settlement analysis and preloading or waiting periods shall be scheduled before setting out of settlement-sensitive equipment; the pipe connections at the foundation - soil interface (underground piping, cable trenches, duct banks) shall accommodate the relative settlement between piled and grade-supported elements (flexible joints or transition slabs)."
+}

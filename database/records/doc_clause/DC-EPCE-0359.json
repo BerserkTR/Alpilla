@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.108522Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.108522Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0359",
+  "parameter": "Water treatment, pump and chemical buildings",
+  "section": "5",
+  "seq": 9,
+  "status": "assumption",
+  "value_text": "ventilation only: maximum ambient + 8 K; minimum +5 degC; chemical rooms with dedicated exhaust"
+}

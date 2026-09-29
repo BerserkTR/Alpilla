@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.422199Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.422199Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-PI-RPT-0001",
+    "design_parameter:DP-CASE-0004",
+    "design_parameter:DP-CASE-0002"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0636",
+  "section": "7",
+  "section_title": "Supports, expansion and stress analysis",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Pipe stress analysis shall follow ALP-EPC-00000-PI-RPT-0001, which contains the critical line list and the load cases (sustained, thermal expansion, occasional loads wind and seismic, water hammer, safety valve discharge). The wind speed and seismic load shall be those of the site data."
+}

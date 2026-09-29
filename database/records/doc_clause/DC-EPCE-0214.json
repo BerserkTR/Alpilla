@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.933314Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.933314Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0214",
+  "parameter": "Standing alarms",
+  "section": "12",
+  "seq": 5,
+  "status": "preliminary",
+  "value_text": "10 stale (standing) alarms or fewer at any time; no more than 5 alarms displayed as high priority at once"
+}

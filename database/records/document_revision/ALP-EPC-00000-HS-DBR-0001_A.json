@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:40:32.822392Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:40:32.822392Z",
+    "updated_by": "EPCE"
+  },
+  "approved_by": "EPC engineering manager",
+  "based_on": [
+    "ALP-EPC-00000-GE-DBR-0001_A"
+  ],
+  "checked_by": "EPC HSE lead",
+  "description": "First issue for Owner approval (Basic Design Package)",
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "ALP-EPC-00000-HS-DBR-0001_A",
+  "issue_date": "2026-12-14",
+  "prepared_by": "EPCE",
+  "purpose": "IFR",
+  "revision": "A"
+}

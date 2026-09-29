@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.493722Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.493722Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02"
+  ],
+  "block": "requirements:ER-17.02,ER-17.01",
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0688",
+  "section": "2",
+  "section_title": "Governing requirements and documents",
+  "seq": 1,
+  "status": "confirmed"
+}

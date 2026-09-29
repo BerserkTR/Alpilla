@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.011043Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.011043Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.04",
+    "requirement:ER-14.02"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0233",
+  "section": "15",
+  "seq": 6,
+  "status": "assumption",
+  "text": "The NOx and NH3 signals from the CEMS are used for the SCR ammonia dosing supervision only; the SCR control uses its own analysers or the TCS model, so that a CEMS calibration does not disturb the process control."
+}

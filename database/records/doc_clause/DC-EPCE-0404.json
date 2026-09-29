@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.155087Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.155087Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.05",
+    "requirement:ER-14.03"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0404",
+  "section": "5",
+  "seq": 4,
+  "status": "assumption",
+  "text": "Occupational noise: the upper exposure action value is 85 dB(A) (LEX,8h) and the peak limit 137 dB(C) (Turkish regulation on noise at work); areas with more than 85 dB(A) shall be marked as hearing protection zones, permanent workplaces (control room, offices, workshops) shall be designed for not more than 65 dB(A) where practicable (control room 40 dB(A), HVAC document); steam blowing, safety valve discharge and other intermittent noises shall use silencers."
+}

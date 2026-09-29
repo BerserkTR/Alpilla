@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.550041Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.550041Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0012",
+    "document:ALP-EPC-00000-GE-PLN-0001"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0726",
+  "section": "9",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Construction progress is measured by quantities: the installed quantity of each CWP (quantities field of the CWP: concrete, piles, steel, equipment, pipe, cable, instruments) is recorded per IWP each week and credited against the planned quantity; where quantities are not defined the work is measured by the milestone steps above. The progress of a work area is the average of its CWP weighted by budget hours; the CWP release follows the EWP and PWP conditions of ALP-EPC-00000-GE-PLN-0002."
+}

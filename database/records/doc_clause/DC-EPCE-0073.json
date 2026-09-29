@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.860468Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.860468Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0077",
+    "design_parameter:DP-CASE-0008",
+    "design_parameter:DP-CASE-0009"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0073",
+  "section": "10",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Current-carrying capacity per IEC 60364-5-52 and IEC 60287 for the actual installation: air temperature 40 degC (DP-CASE-0008) or 45 degC in areas outside HVAC (DP-CASE-0009 survival range), soil temperature 25 degC at 1.0 m depth with a thermal resistivity of 1.5 K m/W, grouping and proximity factors of the actual tray fill. Cables in conduit or duct banks shall be derated for the worst duct."
+}

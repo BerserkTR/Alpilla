@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.409615Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.409615Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-PI-RPT-0001"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0626",
+  "parameter": "Two-phase, wet steam and flash lines",
+  "remarks": "FAC-sensitive lines are in the critical line list",
+  "section": "5",
+  "seq": 17,
+  "status": "preliminary",
+  "value_text": "Maximum 25 m/s with erosion check; velocity per flow regime"
+}

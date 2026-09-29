@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.880038Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.880038Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0092",
+    "design_parameter:DP-CASE-0003"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0119",
+  "section": "15",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Enclosure ratings: switchgear rooms IP4X minimum, outdoor cabinets and junction boxes IP66, outdoor motors IP56, transformer terminal boxes IP54 minimum. Outdoor enclosures shall be of stainless steel 316L or coated to ISO 12944-2 C5-H, with sun shield, anti-condensation heaters and drains."
+}

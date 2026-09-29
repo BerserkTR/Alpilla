@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.210066Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.210066Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0457",
+  "section": "5",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Pumps shall have a continuously rising head-flow curve to shut-off, with a head rise of at least 5 % from rated point to shut-off; rated flow shall lie within 70 to 110 % of the best efficiency point (BEP) flow, and the minimum continuous stable flow shall be stated on the datasheet."
+}

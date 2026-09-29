@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.884487Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.884487Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0020"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0128",
+  "section": "16",
+  "seq": 8,
+  "status": "preliminary",
+  "text": "Harmonics and power quality: the study shall confirm THD (V) of 5 % or less at the 10.5 kV and 0.42 kV busbars with the SFC and the VFDs in operation, and the flicker and unbalance limits of the Grid Code at the connection point."
+}

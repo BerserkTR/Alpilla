@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.909919Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.909919Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.03",
+    "requirement:ER-12.07",
+    "reference:REF-CONS-0082"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0176",
+  "section": "8",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "The SIS shall be connected to the DCS by a redundant read-only data link (Modbus TCP or OPC UA) for indication and alarms; no command from the DCS to the SIS except reset and maintenance override through the dedicated, key-locked and alarmed route; the SIS engineering station is connected only to the SIS network."
+}

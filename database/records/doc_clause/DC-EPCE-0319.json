@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.075135Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.075135Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0017",
+    "source:SRC-OWNR-0008",
+    "requirement:ER-02.07"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0319",
+  "section": "13",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Pile design: the axial capacity shall be based on the end bearing and socket resistance in the rock only; skin friction in the liquefiable sand and in the settling clay shall be neglected or treated as negative skin friction (downdrag) for the design earthquake and consolidation settlement of the fill; pile lateral capacity shall be checked for the inertial load combined with either kinematic loads from the soil (lateral spreading) or with soil stiffness degradation, whichever governs; group effects and pile cap stiffness shall be considered."
+}

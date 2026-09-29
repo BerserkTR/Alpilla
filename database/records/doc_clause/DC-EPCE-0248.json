@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.020871Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.020871Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0017",
+    "reference:REF-CONS-0087",
+    "reference:REF-CONS-0088",
+    "reference:REF-CONS-0089",
+    "reference:REF-CONS-0090",
+    "reference:REF-CONS-0093",
+    "reference:REF-CONS-0097",
+    "reference:REF-CONS-0091",
+    "reference:REF-CONS-0092"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0248",
+  "section": "3",
+  "section_title": "Codes and standards",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "The following codes govern, in this order for a conflict between them: (1) Turkish legislation (Zoning Law, Building Earthquake Code TBDY 2018, Fire Regulation); (2) the Employer's Requirements; (3) TBDY 2018 for seismic actions and seismic detailing; (4) EN 1990 with EN 1991 (actions), EN 1992 (concrete), EN 1993 (steel) with National Annexes; (5) TS 500 where cited above; (6) ACI 351.3R for dynamic equipment foundations; (7) ISO 20816-2 for vibration evaluation; (8) EN ISO 1461 and ISO 12944-2 for corrosion protection."
+}

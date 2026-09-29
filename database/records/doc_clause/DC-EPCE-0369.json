@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.117295Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.117295Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06",
+    "reference:REF-CONS-0083",
+    "requirement:ER-14.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0369",
+  "section": "8",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The battery room ventilation shall be monitored by an airflow switch; on loss of ventilation the battery charger shall change to float voltage (boost charging inhibited) and an alarm shall be raised; hydrogen detectors shall alarm at 10 % LEL and trip the charger at 25 % LEL; the fans, motors and detectors shall be certified for Zone 2 IIC T1 in the room and the room shall be considered per IEC 60079-10-1; no ignition source or non-certified equipment is permitted in the room."
+}

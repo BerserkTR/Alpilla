@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.093652Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.093652Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0066",
+    "reference:REF-CONS-0017",
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0342",
+  "section": "16",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Tanks: the LDO tanks (2 x 3,800 m3, API 650) and fire water tanks (2 x 700 m3) shall be on piled ring walls with the seismic sloshing and base shear per API 650 Annex E adjusted to TBDY 2018 with I = 1.5, the freeboard for sloshing being not less than the calculated wave height."
+}

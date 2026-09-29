@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.054790Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.054790Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.04",
+    "reference:REF-CONS-0088"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0295",
+  "parameter": "Minimum concrete class - XS3 elements",
+  "section": "10",
+  "seq": 3,
+  "status": "assumption",
+  "value_text": "C40/50, w/c <= 0.40"
+}

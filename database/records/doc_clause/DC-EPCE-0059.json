@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.854606Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.854606Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0049",
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0059",
+  "section": "8",
+  "seq": 10,
+  "status": "preliminary",
+  "text": "Motor start shall be checked by the motor starting study for the worst case: minimum grid level of DP-OWNR-0049, maximum load on the bus, one UAT out of service and the emergency diesel generator supply for the safe shutdown loads. Sequenced starting shall be used for groups after a bus transfer (re-acceleration by priority)."
+}

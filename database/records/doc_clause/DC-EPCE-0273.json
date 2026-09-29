@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.038512Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.038512Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0009",
+    "reference:REF-CONS-0087"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0273",
+  "section": "6",
+  "seq": 13,
+  "status": "assumption",
+  "text": "Temperature actions: uniform temperature range of exposed steel structures from -15 degC to +45 degC (survival range DP-CASE-0009), solar heating of +20 K for dark-coloured surfaces in addition to the ambient; thermal expansion of pipe racks shall follow the piping stress analysis with anchor and guide loads supplied by the piping discipline."
+}

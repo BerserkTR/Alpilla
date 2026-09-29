@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.866581Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.866581Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-04.07",
+    "requirement:ER-04.08",
+    "requirement:ER-16.03",
+    "design_parameter:DP-CASE-0027",
+    "reference:REF-CONS-0020"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0088",
+  "section": "11",
+  "seq": 8,
+  "status": "preliminary",
+  "text": "Synchronisation: automatic synchronisers at the generator circuit breakers (with backup manual synch-check) and at the 380 kV bays; the generator AVR with PSS and voltage control shall meet the Grid Code requirements and shall be tested for the reactive capability of ER-04.08 (DP-CASE-0027)."
+}

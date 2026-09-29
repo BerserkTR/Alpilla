@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.930134Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.930134Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0210",
+  "section": "12",
+  "section_title": "Alarm management",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Alarm management follows EEMUA 191 and IEC 62682 / ISA-18.2, as accepted in TQ-026 for the TCS alarms: one plant alarm philosophy for the DCS, TCS and package alarms (ALP-EPC-00000-IC-RPT-0001); an alarm is configured only if it requires an operator action, has a documented cause, consequence, corrective action and response time (rationalisation), and has a priority."
+}

@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.325478Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.325478Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0558",
+  "section": "4",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Blast cleaning shall be applied within 4 hours of cleaning and before any visible rust (flash rust); surfaces with rust re-formed shall be re-blasted. Power-tool cleaning to St 3 is accepted only for touch-up and small areas."
+}

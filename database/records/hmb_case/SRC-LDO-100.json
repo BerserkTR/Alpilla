@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T03:01:08.798032Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T03:12:45.974176Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:28:18.660107Z",
     "updated_by": "EPCE"
   },
   "ambient_temperature": 15.0,
@@ -18,7 +18,8 @@
     "guarantee:PG-16",
     "guarantee:IG-09",
     "guarantee:IG-10",
-    "design_parameter:DP-OWNR-0051"
+    "design_parameter:DP-OWNR-0051",
+    "design_parameter:DP-CASE-0015"
   ],
   "fuel": "ldo",
   "fuel_formula": "C12H23",

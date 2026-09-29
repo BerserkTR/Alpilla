@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.145968Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.145968Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0395",
+  "section": "3",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Codes named in this document but not in the register (EN 50272-2, NFPA 15, NFPA 24, NFPA 13, NFPA 101, EN 13463, IEC 60079-14, IEC 60079-17, ISO 9612, ISO 11690, the Turkish regulation on noise exposure at work, the Turkish regulation on chemical agents at work and the Turkish regulation on emergency response) shall be registered before they are cited in a study."
+}

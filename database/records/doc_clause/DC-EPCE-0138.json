@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.889374Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.889374Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "block": "params:site,ambient,emissions,noise,operation",
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0138",
+  "section": "3",
+  "section_title": "Applicable design data",
+  "seq": 1,
+  "status": "confirmed"
+}

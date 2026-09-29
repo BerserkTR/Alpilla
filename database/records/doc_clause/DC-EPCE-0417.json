@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.167961Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.167961Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0083",
+    "design_parameter:DP-CASE-0021",
+    "design_parameter:DP-OWNR-0024",
+    "requirement:ER-14.06",
+    "design_parameter:DP-EPCE-0013"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0417",
+  "remarks": "Flash point of the LDO to be entered from the fuel data",
+  "section": "8",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Classification basis: natural gas (methane 85 to 98.5 mol %, gas group IIA, temperature class T1) at the fuel gas station, GT gas skid interface and gas piping; hydrogen (gas group IIC, T1) at the hydrogen sources and the battery rooms (and up to 5 vol % hydrogen admixture in the fuel gas capability of DP-CASE-0021, which shall be assessed as a release of a group IIC constituent for the equipment selection at the gas station); LDO handled below its flash point (DP-EPCE-0013) is not classified except at vents of the tanks (zone 2 in the vent zone); aqueous ammonia 24.5 % (IF-25) is not an explosive atmosphere at ambient conditions unless heated."
+}

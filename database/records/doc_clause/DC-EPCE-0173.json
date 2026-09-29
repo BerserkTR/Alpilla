@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.908322Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.908322Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.07",
+    "requirement:ER-12.03",
+    "reference:REF-CONS-0081"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0173",
+  "section": "8",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "The SIL of every safety instrumented function is determined by the HAZOP and layer of protection analysis (ER-14.07, ALP-EPC-00000-HS-HAZ-0007) and verified by calculation (PFDavg and architecture constraints, proof test interval, diagnostic coverage, common cause factor). The safety requirements specification defines function, safe state, SIL, response time, demand mode, proof test interval, bypass and reset rules."
+}

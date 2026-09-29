@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:42:18.624164Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:42:18.624164Z",
+    "updated_by": "EPCE"
+  },
+  "approved_by": "EPC engineering manager",
+  "based_on": [
+    "ALP-EPC-00000-GE-DBR-0001_A"
+  ],
+  "checked_by": "EPC mechanical lead",
+  "description": "First issue for Owner approval",
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "ALP-EPC-00000-ME-SPC-0001_A",
+  "issue_date": "2026-12-14",
+  "prepared_by": "EPCE",
+  "purpose": "IFR",
+  "revision": "A"
+}

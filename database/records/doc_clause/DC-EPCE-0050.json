@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.851431Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.851431Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0050",
+  "section": "8",
+  "section_title": "Motors: voltage level and starting",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Motors of 200 kW and above shall be supplied at 10.5 kV, smaller motors at 0.42 kV (400 V motors). The threshold of DEC-EPCE-0014 is the design criterion for the electrical load list; a deviation for a particular motor (e.g. a 190 kW motor with high starting duty) requires a decision."
+}

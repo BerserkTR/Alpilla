@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.014933Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.014933Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06",
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0239",
+  "section": "17",
+  "section_title": "Power supply, installation and testing of I&C equipment",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "I&C cabinets shall be installed in air-conditioned rooms (N+1 cooling, positive pressure, filtered air per ER-10.06), separated by function (DCS, SIS, TCS, CEMS) with the SIS in separate cabinets; cable entry from below with the fire and gas sealing; cabinet heat dissipation and temperature rise are part of the room HVAC design."
+}

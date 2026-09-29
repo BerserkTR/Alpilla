@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.323177Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.323177Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0092"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0556",
+  "section": "4",
+  "section_title": "Surface preparation",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Carbon steel surfaces to be coated shall be blast cleaned to Sa 2.5 (ISO 8501-1) with angular abrasive; surface profile 50 to 85 micrometres (medium, ISO 8503, comparator G or S) for systems with zinc-rich primer, 40 to 70 micrometres for other systems. Weld spatter, sharp edges (radiused to at least 2 mm) and laminations shall be removed prior to blasting (ISO 8501-3 grade P3)."
+}

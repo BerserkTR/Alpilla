@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.073652Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.073652Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0017"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0317",
+  "parameter": "Drift under DD-2 (life safety)",
+  "section": "12",
+  "seq": 8,
+  "status": "confirmed",
+  "value_text": "per TBDY 2018 limits (lambda x delta / hs limit for the ductility level)"
+}

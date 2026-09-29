@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.201308Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.201308Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0023",
+    "reference:REF-CONS-0024",
+    "reference:REF-CONS-0025"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0449",
+  "section": "4",
+  "section_title": "Codes, standards and general design rules",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Equipment shall comply with the Turkish regulations transposing the Pressure Equipment Directive 2014/68/EU and the Machinery Directive 2006/42/EC, and with the ATEX directive 2014/34/EU in classified areas. Each vendor shall provide the CE / conformity declaration and the technical file for the equipment supplied."
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.898811Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.898811Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.02"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0155",
+  "section": "6",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Automation levels: Level 1 individual drive and valve control (open / close, start / stop with interlocks); Level 2 group control (subsystem sequences with permissives, start of a redundant pump group on standby); Level 3 unit coordination (start-up, load control, shutdown, fuel transfer). Every level can be operated from the operator station in manual, automatic or step mode; a failure of a higher level shall leave the lower levels in the last state and operable."
+}

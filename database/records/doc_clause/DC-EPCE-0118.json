@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.879598Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.879598Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.01",
+    "requirement:ER-02.10",
+    "reference:REF-CONS-0080",
+    "design_parameter:DP-OWNR-0005",
+    "design_parameter:DP-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0118",
+  "section": "15",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The 380 kV GIS shall be indoors in a ventilated building with salt filtration (ER-11.01). Outdoor insulation (bushings, insulators, surge arresters, cable terminations) shall be designed for the very heavy pollution class of IEC 60815 with the salt aerosol and chloride deposition of DP-OWNR-0005 and DP-OWNR-0007 (ER-02.10), with the specific creepage of the class for the highest system voltage; the pollution class and creepage shall be confirmed by the insulation coordination study."
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.902930Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.902930Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0163",
+  "parameter": "I/O modules",
+  "remarks": "Signals of 2 x 100 % duty equipment on different I/O modules and different remote I/O cabinets",
+  "section": "7",
+  "seq": 4,
+  "status": "preliminary",
+  "value_text": "Redundant I/O modules and communication for the loops that trip or shut down a system; non-redundant modules with segregation of redundant equipment for the others"
+}

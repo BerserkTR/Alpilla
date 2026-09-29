@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.839291Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.839291Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0020",
+    "reference:REF-CONS-0021",
+    "reference:REF-CONS-0022",
+    "reference:REF-CONS-0014",
+    "requirement:ER-01.07"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0013",
+  "section": "4",
+  "section_title": "Codes, standards and precedence",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Precedence: (1) Turkish law and regulations (Grid Code, Heavy Current Installations Regulation, Earthing Regulation, Explosive Atmospheres Regulation), (2) the Employer's Requirements, (3) IEC standards for design, manufacture and testing, (4) IEEE / NFPA standards where cited or where no IEC standard exists. A stricter requirement always governs."
+}

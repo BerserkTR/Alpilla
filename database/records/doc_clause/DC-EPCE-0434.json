@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.185545Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.185545Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.07",
+    "reference:REF-CONS-0010",
+    "permit:PMT-015"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0434",
+  "remarks": "Lower tier assumed; the inventory of the fuel gas in the pipeline is part of the calculation",
+  "section": "11",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Major accident: the plant is a lower-tier establishment under the Major Accident Regulation because the LDO inventory (2 tanks per DEC-EPCE-0014) exceeds the lower-tier threshold of 2,500 t for petroleum products (notification PMT-015). The other dangerous substances (natural gas at the gas station, hydrogen, aqueous ammonia 24.5 % of about 54 t of solution per TQ-034, which is not 'ammonia, anhydrous' and counts under its hazard categories) are included in the inventory and the aggregation rule. The Major Accident Prevention Policy and the notification are prepared per HS-HAZ-0010 and updated when an inventory changes."
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.857607Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.857607Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.05",
+    "requirement:ER-14.06",
+    "reference:REF-CONS-0083"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0067",
+  "section": "9",
+  "seq": 7,
+  "status": "preliminary",
+  "text": "Batteries: valve-regulated lead-acid (VRLA) or nickel-cadmium with design life of at least 12 years, in separate rooms with a room temperature of 15 to 25 degC and ventilation for hydrogen (below 1 % H2 at any time, per IEC 60079-10-1 zoning of battery rooms). The 220 V DC voltage window is 187 to 242 V at the loads; the end-of-discharge voltage per cell shall be checked against the 187 V limit."
+}

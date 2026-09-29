@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.289359Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.289359Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.04"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0527",
+  "section": "6",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Titanium condenser tubes and CCW plates shall be isolated from carbon steel components in contact with seawater; carbon steel tube sheets shall have titanium cladding; water box and channel rubber lining shall be continuous with no exposed carbon steel in seawater contact."
+}

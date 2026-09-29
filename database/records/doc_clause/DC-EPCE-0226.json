@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.006026Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.006026Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.08",
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0226",
+  "section": "14",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Distribution: PTP (IEEE 1588, power profile IEEE C37.238) for the protection relays and TCS (as offered in TQ-IEC-004: TCS synchronised from the DCS master clock by PTP), NTP for servers and workstations, IRIG-B for recorders; accuracy of 1 ms or better at every time stamping device, and holdover accuracy of 1 ms or better for 24 hours after the loss of GPS."
+}

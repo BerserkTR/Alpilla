@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:43:19.825819Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:43:19.825819Z",
+    "updated_by": "EPCE"
+  },
+  "db_hash": "9eb5a8bc4867c2cb",
+  "engine": "technical_documents",
+  "file_count": 2,
+  "folder": "internal_deliveries/DLV-EPCE-0014_ALP-EPC-00000-PC-PRC-0001-Rev-A-IFR",
+  "id": "DLV-EPCE-0014",
+  "purpose": "IFR",
+  "recipients": "Owner (approval)",
+  "revisions": [
+    "ALP-EPC-00000-PC-PRC-0001_A"
+  ],
+  "title": "ALP-EPC-00000-PC-PRC-0001 Rev A IFR"
+}

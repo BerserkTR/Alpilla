@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.509154Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.509154Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0698",
+  "section": "4",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Earned value is reported in hours: earned hours = earned % x weight. The schedule performance index SPI = earned % / planned % at the data date; SPI and the difference planned - earned in percent points and in hours are reported for the total and for each discipline."
+}

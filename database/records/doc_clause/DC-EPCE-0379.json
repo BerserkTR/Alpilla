@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.126920Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.126920Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.03",
+    "requirement:ER-14.04",
+    "design_parameter:DP-CASE-0044",
+    "design_parameter:DP-CASE-0045",
+    "design_parameter:DP-EPCE-0010"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0379",
+  "section": "11",
+  "section_title": "Noise",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "The near-field noise of any HVAC equipment shall not exceed 85 dB(A) at 1 m (ER-14.03) and the contribution of the HVAC to the plant noise at the nearest receptor shall be included in the plant noise model (HS-STU-0001) so that the receptor limits at night (DP-CASE-0045) and during the day (DP-EPCE-0010) are met; the roof ventilators and chillers shall have attenuators and acoustic screens where required by the noise study, and a maximum sound power level per unit shall be set in the requisition from the noise study."
+}

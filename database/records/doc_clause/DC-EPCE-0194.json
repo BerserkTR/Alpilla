@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.920164Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.920164Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0014",
+    "design_parameter:DP-CASE-0013",
+    "decision:DEC-EPCE-0015"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0194",
+  "parameter": "Seawater and chlorinated water wetted parts",
+  "remarks": "Chloride per DP-OWNR-0014; residual oxidant per DEC-EPCE-0015",
+  "section": "10",
+  "seq": 8,
+  "status": "preliminary",
+  "value_text": "Titanium grade 2, super-duplex (UNS S32750) or 6Mo; not 316L"
+}

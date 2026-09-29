@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.012944Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.012944Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.05",
+    "reference:REF-CONS-0050"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0236",
+  "section": "16",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "On-line performance monitoring per ASME PTC 46 principles: the plant net output, net heat rate, GT, ST, HRSG, condenser and cooling water performance, corrected to the reference conditions and compared with the guarantee curves of the HMB and the vendor data; the calculations shall use validated measurements (deviation alarm and signal validation) and the calculation methods of the test codes (section 4); results shall be displayed to the operator and stored in the historian."
+}

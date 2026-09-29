@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.547198Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.547198Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02",
+    "decision:DEC-EPCE-0012"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0724",
+  "parameter": "Inspection and test plan records closed",
+  "section": "9",
+  "seq": 3,
+  "status": "preliminary",
+  "unit": "%",
+  "value": 10
+}

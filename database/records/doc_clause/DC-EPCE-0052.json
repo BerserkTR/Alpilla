@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.852100Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.852100Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0092",
+    "design_parameter:DP-CASE-0003"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0052",
+  "section": "8",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Motor enclosure: TEFC (IP55 minimum indoors, IP56 outdoors), marine grade C5 painting per ISO 12944-2, stainless steel fasteners and nameplates, space heaters for MV motors and motors with a standstill period, drain holes with protection against condensation. Seawater-side motors (CW pump house) shall have IP56 and an anti-corrosion coating suitable for C5-H."
+}

@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.259397Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.259397Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0011",
+    "design_parameter:DP-OWNR-0012",
+    "design_parameter:DP-OWNR-0013",
+    "design_parameter:DP-OWNR-0014",
+    "design_parameter:DP-OWNR-0015",
+    "design_parameter:DP-OWNR-0017",
+    "design_parameter:DP-OWNR-0019",
+    "requirement:ER-02.04"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0502",
+  "section": "3",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Seawater used for once-through cooling shall be assumed to have chloride concentration up to the maximum of DP-OWNR-0014, temperature range per DP-OWNR-0011 to DP-OWNR-0013, suspended solids up to the storm value of DP-OWNR-0017 and a jellyfish load per DP-OWNR-0019. Salinity is low (brackish, DP-OWNR-0015); the design shall however assume full-strength chloride corrosivity for pitting and crevice corrosion, since salinity varies with the pycnocline layer."
+}

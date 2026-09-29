@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.885456Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.885456Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016",
+    "requirement:ER-11.04"
+  ],
+  "block": "equipment:system=00B,10BB,20BB,00XJ",
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0130",
+  "section": "17",
+  "section_title": "Equipment covered by this document",
+  "seq": 1,
+  "status": "confirmed"
+}

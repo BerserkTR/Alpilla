@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.340303Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.340303Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-EL-CAL-0005"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0570",
+  "parameter": "Buried carbon steel piping",
+  "remarks": "Only where GRP piping is not used",
+  "section": "5",
+  "seq": 10,
+  "status": "preliminary",
+  "value_text": "3-layer polyethylene or polypropylene (external) or epoxy 400 micrometres plus wrapping; cathodic protection"
+}

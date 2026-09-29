@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.321991Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.321991Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0555",
+  "section": "3",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "The coating manufacturer shall be approved by IEPC; all coats of one system shall be from the same manufacturer. Coatings shall be free of lead and chromates, and shall satisfy the Turkish VOC regulations."
+}

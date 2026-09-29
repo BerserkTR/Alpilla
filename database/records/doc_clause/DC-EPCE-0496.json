@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.252833Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.252833Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0496",
+  "section": "1",
+  "seq": 3,
+  "status": "assumption",
+  "text": "Material selection is preliminary until the vendors' data and the seawater analysis of the detailed design are available; where the report states the choice open (e.g. GRP or HDPE for hypochlorite storage), the selection shall be recorded in the equipment register before IFC issue of the datasheet."
+}

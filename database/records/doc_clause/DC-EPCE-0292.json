@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.052579Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.052579Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.01",
+    "reference:REF-CONS-0093"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0292",
+  "section": "9",
+  "seq": 7,
+  "status": "assumption",
+  "text": "Settlement of the machine foundations shall be limited to the OEM values; until the OEM values are known the differential settlement along the shaft train shall not exceed 1 : 2000 and the total settlement shall not exceed 15 mm. Levelling monuments shall be installed and read during construction, hydrotest of the HRSG, first fill of the condenser and during the first year of operation."
+}

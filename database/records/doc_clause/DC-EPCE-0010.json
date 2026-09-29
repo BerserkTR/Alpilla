@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.838436Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.838436Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0051",
+    "requirement:ER-11.01"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0010",
+  "section": "3",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "The 380 kV export shall not exceed the connection capacity of DP-OWNR-0051. The rated connection current of the GIS line bays and the GSU rating shall be checked at the winter design case (WIN-NG-100) with the export limiter of TQ-IEC-007 in action."
+}

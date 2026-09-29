@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.039987Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.039987Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0087"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0275",
+  "section": "6",
+  "seq": 15,
+  "status": "assumption",
+  "text": "Pipe, vessel and equipment loads on supports shall be taken as empty, operating and hydrotest weight, with thrust, friction, anchor and safety valve reaction loads supplied by piping stress; the hydrotest load shall be combined with 30 % of the wind load and no seismic load, and the operating load with full wind and full seismic loads."
+}

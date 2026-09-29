@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.928851Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.928851Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0092",
+    "design_parameter:DP-OWNR-0014",
+    "design_parameter:DP-CASE-0003"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0208",
+  "section": "11",
+  "seq": 8,
+  "status": "preliminary",
+  "text": "Materials and construction: body materials per the piping class of the service; seawater services with titanium, super-duplex or rubber / ceramic-lined bodies; exterior coating per ISO 12944-2 C5-H; stainless steel 316L tubing and fittings, 6Mo where in the coastal zone; instrument air filter regulators of stainless steel."
+}

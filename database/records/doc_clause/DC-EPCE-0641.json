@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.428468Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.428468Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0037",
+    "design_parameter:DP-CASE-0038",
+    "design_parameter:DP-CASE-0039"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0641",
+  "section": "8",
+  "section_title": "Special systems",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Steam piping shall be arranged with drainage on all low points and dead legs with steam traps or manual drains, with continuous slope 1:250 in the direction of flow (minimum 1:100 for drain lines); warming and drain systems shall be arranged for the start-up regime of the plant (hot, warm and cold starts)."
+}

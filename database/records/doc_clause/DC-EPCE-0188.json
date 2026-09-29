@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.916734Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.916734Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0188",
+  "parameter": "Temperature",
+  "remarks": "Accuracy of the loop of 0.5 % of span or better",
+  "section": "10",
+  "seq": 2,
+  "status": "preliminary",
+  "value_text": "Pt100 class A in thermowells sized for the wake frequency (ASME PTC 19.3 TW), immersion length according to the process; thermocouples for above 400 degC"
+}

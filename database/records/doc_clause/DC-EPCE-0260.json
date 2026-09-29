@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.028801Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.028801Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.09",
+    "design_parameter:DP-EPCE-0015",
+    "clarification:TQ-041"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0260",
+  "section": "5",
+  "seq": 7,
+  "status": "confirmed",
+  "text": "The plant platform (+15.00 m) is far above the ER-02.09 minimum floor level of +1.90 m (TQ-041). Structures at the shoreline (intake head works, CW pump house, outfall seal pit) shall have their floors at least at +5.3 m (50-year wave run-up +4.8 m plus 0.5 m, TQ-041); parts below these levels (pits, sumps, intake and outfall works) shall be watertight and designed for flooding. The check is documented in CV-CAL-0001."
+}

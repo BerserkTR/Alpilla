@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.071142Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.071142Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0090"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0314",
+  "parameter": "Pipe rack beams",
+  "section": "12",
+  "seq": 5,
+  "status": "assumption",
+  "value_text": "span / 300; smaller if the pipe stress or drainage slope requires"
+}

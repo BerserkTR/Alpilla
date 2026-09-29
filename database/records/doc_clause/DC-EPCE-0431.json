@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.182124Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.182124Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.07",
+    "reference:REF-CONS-0081"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0431",
+  "section": "11",
+  "section_title": "Process safety studies and major accident",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "The process safety studies shall be carried out by the Contractor as required by ER-14.07: the HAZID (HS-HAZ-0001) at the start of the basic design; the HAZOP of every system node (fuel gas and gas station HS-HAZ-0002, water-steam cycle HS-HAZ-0003, LDO and ammonia HS-HAZ-0004, water treatment and chemicals HS-HAZ-0005, BOP utilities HS-HAZ-0006) on the P&IDs at IFR status, with the close-out report (HS-RPT-0004) before the P&IDs are issued for construction; the SIL determination (HS-HAZ-0007) per IEC 61511; the fire and explosion risk assessment (HS-HAZ-0009) and the QRA (HS-HAZ-0010)."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.424687Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.424687Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0091",
+    "document:ALP-EPC-00000-ME-SPC-0002"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0638",
+  "section": "7",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Supports shall be of standard types (hangers, guides, stops, anchors, spring supports) with hot-dip galvanised carbon steel outdoors (EN ISO 1461) and C5 coating; supports for stainless steel and GRP shall be isolated from the pipe with a suitable pad. Spring hangers shall have a load variation of maximum 25 %."
+}

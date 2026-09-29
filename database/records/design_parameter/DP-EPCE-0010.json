@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:26:59.669654Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:26:59.669654Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0007",
+    "requirement:ER-14.04"
+  ],
+  "category": "noise",
+  "condition": "LAeq day",
+  "id": "DP-EPCE-0010",
+  "parameter": "Noise at nearest receptor (day)",
+  "status": "confirmed",
+  "unit": "dB(A)",
+  "value": 55
+}

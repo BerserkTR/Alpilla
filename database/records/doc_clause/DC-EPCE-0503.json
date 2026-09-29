@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.260452Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.260452Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0015",
+    "design_parameter:DP-CASE-0017"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0503",
+  "section": "3",
+  "seq": 5,
+  "status": "confirmed",
+  "text": "Continuous chlorination of the seawater at 0.5 mg/l with pulse dosing to 2 mg/l, and a residual oxidant of up to 0.2 mg/l in the condenser and the CW outlet piping (dosing controlled on the outfall seal-pit value, DEC-EPCE-0015), shall be taken as the oxidant exposure of all wetted materials downstream of the dosing point; materials shall be tolerant of free chlorine at those levels without a loss of pitting resistance."
+}

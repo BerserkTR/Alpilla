@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.302617Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.302617Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0539",
+  "parameter": "GRP",
+  "remarks": "Design life 30 years per manufacturer's declaration",
+  "section": "8",
+  "seq": 8,
+  "status": "preliminary",
+  "value_text": "Not applicable (liner thickness per the manufacturer, minimum 2.5 mm resin-rich liner)"
+}

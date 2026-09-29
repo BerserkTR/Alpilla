@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.467834Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.467834Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "permit:PMT-006",
+    "permit:PMT-007",
+    "source:SRC-OWNR-0007",
+    "design_parameter:DP-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0670",
+  "parameter": "EIA 4.1 Marine: no marine works (dredging, trenching, pipe laying) between 1 May and 30 September",
+  "remarks": "ALP-EPC-00000-ME-PLN-0001 (marine operations plan); ALP-EPC-00000-CV-SPC-0005 (marine works specification); ALP-EPC-00UPA-CV-RPT-0001 (marine route survey); Level 3 schedule ALP-EPC-00000-PC-SCH-0001; permits PMT-006, PMT-007.",
+  "section": "3",
+  "seq": 12,
+  "status": "preliminary",
+  "value_text": "The marine works (intake and outfall, CWP-06-CV-01) are planned inside the window of DP-EPCE-0014; the finish milestone CWP-06-CV-01W is constrained to finish no later than 30 April, so that the float of the marine works is measured against the closure and cannot move the works into the closed period. Permit PMT-006 (applied, 180 days lead time) is needed at the opening of the window."
+}

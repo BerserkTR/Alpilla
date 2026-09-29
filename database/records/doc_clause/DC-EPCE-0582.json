@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.354497Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.354497Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0582",
+  "parameter": "Fuel gas",
+  "section": "7",
+  "seq": 6,
+  "status": "assumption",
+  "value_text": "RAL 1021 (yellow) with band for gas"
+}

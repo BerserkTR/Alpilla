@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.203659Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.203659Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0451",
+  "section": "4",
+  "seq": 3,
+  "status": "assumption",
+  "text": "Equipment shall be selected as proven design with at least 3 units of the same model in comparable service for at least 8,000 operating hours; prototypes require written approval of the Owner via IEPC."
+}

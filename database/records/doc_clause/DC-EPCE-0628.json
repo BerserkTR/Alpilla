@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.412034Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.412034Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0628",
+  "section": "6",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Rack elevations and clearances: minimum headroom under pipe racks over roads is 6.0 m (heavy transport routes 7.5 m), over the access ways and walkways 2.5 m, over platforms 2.2 m; clear vertical distance between pipe racks and cable trays is 0.3 m; clearance around insulated lines shall include insulation and cladding."
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.432292Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.432292Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-PI-SPC-0007",
+    "document:ALP-EPC-00000-ME-RPT-0002",
+    "decision:DEC-EPCE-0002"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0644",
+  "section": "8",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Seawater piping, underground, shall be GRP, in accordance with ALP-EPC-00000-PI-SPC-0007 and ALP-EPC-00000-PI-MRQ-0004, with concrete thrust blocks or restraints for bends, buried with sand bedding and protection against traffic load; steel fittings (flanges, valves) shall be lined or of super duplex per ALP-EPC-00000-ME-RPT-0002."
+}

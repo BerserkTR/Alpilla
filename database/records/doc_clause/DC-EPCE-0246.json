@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.019529Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.019529Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.06",
+    "requirement:ER-02.07"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0246",
+  "section": "1",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "This document is a design basis, not a specification. Values marked preliminary shall be confirmed by the site-specific seismic hazard study (ALP-EPC-00000-CV-STU-0001), the geotechnical interpretation report (ALP-EPC-00000-CV-RPT-0001) and the OEM foundation and interface data before the first issue for construction."
+}

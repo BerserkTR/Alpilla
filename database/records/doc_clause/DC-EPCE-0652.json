@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.443146Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.443146Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.01",
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0652",
+  "section": "1",
+  "section_title": "Purpose and scope",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "This matrix lists every binding condition of the positive EIA decision (Owner document ALP-OWN-ENV-001 Rev 0, source SRC-OWNR-0007) and shows for each condition how the design and the construction of the Works comply, and which project document is the evidence. It implements requirement ER-14.01."
+}

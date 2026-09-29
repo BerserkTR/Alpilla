@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.504386Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.504386Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-GE-PRC-0002"
+  ],
+  "block": "doc_types",
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0695",
+  "section": "3",
+  "seq": 6,
+  "status": "confirmed"
+}

@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.469203Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.469203Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "equipment:00PAA10AT001",
+    "source:SRC-OWNR-0007",
+    "design_parameter:DP-EPCE-0011"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0671",
+  "parameter": "EIA 4.2 Marine: fish return system at the screens; intake velocity at most 0.15 m/s",
+  "remarks": "ALP-EPC-00PAA-PR-STU-0001 (intake hydraulic model study); ALP-EPC-00PAA-ME-CAL-0001; ALP-EPC-00PAA-PR-SDS-0001; ALP-EPC-00UPA-CV-CVL-0001. Status preliminary.",
+  "section": "3",
+  "seq": 13,
+  "status": "preliminary",
+  "value_text": "The travelling band screens (equipment 00PAA10AT001 / 00PAA10AT002) are provided with a fish return trough and low-pressure screen wash; the intake structure is sized so that the through-screen velocity stays within the EIA value. The intake velocity limit is DP-EPCE-0011."
+}

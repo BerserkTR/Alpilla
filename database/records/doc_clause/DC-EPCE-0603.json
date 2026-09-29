@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.380344Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.380344Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "block": "tie_ins",
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0603",
+  "section": "3",
+  "seq": 2,
+  "status": "confirmed"
+}

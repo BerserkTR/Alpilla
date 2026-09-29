@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.064075Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.064075Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.03",
+    "reference:REF-CONS-0090",
+    "reference:REF-CONS-0017",
+    "design_parameter:DP-CASE-0009"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0305",
+  "section": "11",
+  "section_title": "Structural steel and corrosion protection",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Structural steel shall be designed per EN 1993-1-1 and EN 1993-1-8 with seismic detailing per TBDY 2018; fabrication and execution class EXC3 per EN 1090-2 for the power block structures and EXC2 for other structures; steel grades S355J2 for main members and S275JR for secondary members and grating supports; thick plates (t > 30 mm) and seismic energy dissipating members shall be tested for through-thickness properties (Z25) and Charpy J2 at -20 degC; the minimum service temperature is -15 degC (DP-CASE-0009)."
+}

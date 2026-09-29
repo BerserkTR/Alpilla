@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.199941Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.199941Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0002",
+    "reference:REF-CONS-0017"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0448",
+  "section": "3",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Equipment shall be designed for the seismic load of the site (DP-CASE-0002, TBDY 2018). Anchorage, lifting lugs, nozzle loads and internal parts shall be checked for the seismic acceleration in operation and for the transport and lifting load cases. Rotating equipment shall remain operable after the design earthquake, or shall be tripped by the protection system where the package specification states so."
+}

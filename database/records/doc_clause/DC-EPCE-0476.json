@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.230600Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.230600Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0476",
+  "section": "8",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "MV motors shall be designed for the short-circuit level of the MV switchgear and for direct on-line starting within the voltage dip and terminal voltage limits of the electrical design criteria (EL-DBR-0001 section 8). Larger motors shall be started through a variable frequency drive or a soft-starter where the starting study requires it."
+}

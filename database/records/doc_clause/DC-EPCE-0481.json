@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.236343Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.236343Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0005"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0481",
+  "section": "9",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Field instrument, valve and small equipment tags shall be identified by a stainless steel tag plate with the KKS number, wired to the equipment; equipment shall be identifiable from the ground."
+}

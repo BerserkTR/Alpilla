@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.516733Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.516733Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02",
+    "document:ALP-EPC-00000-GE-PRC-0002",
+    "document:ALP-EPC-00000-GE-PLN-0001",
+    "decision:DEC-EPCE-0013"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0703",
+  "section": "5",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "The reports are produced by the engines from the database (R-001): progress_report gives the document S-curve, KPIs, discipline breakdown and late documents; engineering_plan gives the master document list, the AWP structure (CWA, CWP, EWP, PWP), the monthly load per discipline, EWP and PWP float and the coverage and benchmark checks; release_control gives the release plan, the relations, the impacts and the gate status (see ALP-EPC-00000-GE-PRC-0002 section 10); schedule gives the CPM schedule as Excel, HTML Gantt and MS Project XML for import into Primavera P6; document_register gives the register with the status of each document."
+}

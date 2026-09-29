@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.051875Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.051875Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0088",
+    "reference:REF-CONS-0093"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0291",
+  "section": "9",
+  "seq": 6,
+  "status": "assumption",
+  "text": "Concrete of dynamic foundations: minimum class C35/45 with the exposure requirements of section 10; the minimum reinforcement shall be 0.25 % of the section in each face and direction for massive blocks (thermal cracking control per EN 1992-3 where applicable); thermal control of mass concrete pours shall limit the core-to-surface temperature difference to 20 K and the maximum core temperature to 65 degC (delayed ettringite formation); embedded anchor bolts, sleeves and grout shall be per the OEM installation drawing."
+}

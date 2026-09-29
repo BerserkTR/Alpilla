@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.097058Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.097058Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0047",
+    "reference:REF-CONS-0069",
+    "reference:REF-CONS-0071",
+    "reference:REF-CONS-0016"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0346",
+  "remarks": "ASHRAE, EN 16798-1, EN 12831, EN 14511, EN ISO 16890, EN 50272-2 and NFPA 90A are not in the register",
+  "section": "3",
+  "section_title": "Codes and standards",
+  "seq": 1,
+  "status": "assumption",
+  "text": "HVAC design shall follow ASHRAE Handbook and Standards (62.1 for ventilation, 55 for comfort, 90.1 for energy) or EN 16798-1 where more onerous, EN 12831 for heating loads, EN 14511 for chiller rating, EN ISO 16890 for particulate filters, EN 1822 for EPA filters, EN 50272-2 for battery rooms, NFPA 90A for air distribution fire and smoke control, NFPA 850 and NFPA 72 for fire protection and detection and the Turkish Fire Regulation for buildings."
+}

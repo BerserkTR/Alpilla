@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.227595Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.227595Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0063",
+    "reference:REF-CONS-0064",
+    "requirement:ER-15.05"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0473",
+  "section": "7",
+  "seq": 8,
+  "status": "preliminary",
+  "text": "Welding of pressure equipment and its non-destructive examination shall follow ALP-EPC-00000-PI-SPC-0003 and ASME Section IX or EN ISO 15614 as qualified by the manufacturer; welders and procedures shall be approved by an inspection body."
+}

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T03:01:08.797071Z",
     "created_by": "EPCE",
-    "rev": 3,
-    "updated_at": "2026-09-29T02:57:50.407641Z",
+    "rev": 4,
+    "updated_at": "2026-09-29T03:28:19.445740Z",
     "updated_by": "EPCE"
   },
   "ambient_temperature": 15.0,
@@ -15,7 +15,8 @@
   ],
   "check_refs": [
     "guarantee:PG-03",
-    "guarantee:IG-07"
+    "guarantee:IG-07",
+    "design_parameter:DP-CASE-0015"
   ],
   "fuel": "natural_gas",
   "fuel_composition": "CH4=93.0; C2H6=3.5; C3H8=0.8; iC4H10=0.15; nC4H10=0.15; C5H12=0.05; N2=1.55; CO2=0.8; O2=0.001; He=0.01",

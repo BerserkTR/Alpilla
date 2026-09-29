@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.524937Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.524937Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-GE-PLN-0001",
+    "decision:DEC-EPCE-0012",
+    "decision:DEC-EPCE-0007"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0709",
+  "section": "6",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Engineering timeline: the engineering documents are levelled against the capacity of each discipline (eng_resource records) in need-date order; EWP float is the time between the planned IFC of the EWP (plus its lead days) and the start of its CWP, PWP float is the time between the planned delivery on site of the material requisition and the CWP start. EWP and PWP with less than 20 working days float are listed as near-critical in ALP-EPC-00000-GE-PLN-0001 and in the monthly report."
+}

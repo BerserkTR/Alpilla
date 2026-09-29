@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.116369Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.116369Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06",
+    "reference:REF-CONS-0083"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0368",
+  "section": "8",
+  "section_title": "Battery rooms and hydrogen dilution",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Battery rooms shall be ventilated by two exhaust fans of 100 % capacity (duty / standby, 3,000 m3/h each per the equipment records) discharging directly to the outside at a safe location at least 1.5 m above the roof and away from air intakes; the air flow shall keep the hydrogen concentration below 1 vol % (25 % of the LEL of 4 vol %) at the maximum charging current calculated per EN 50272-2, and the required airflow shall be verified for the final battery type and capacity from the battery datasheet."
+}

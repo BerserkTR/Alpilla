@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.542775Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.542775Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-GE-PRC-0002",
+    "decision:DEC-EPCE-0009",
+    "decision:DEC-EPCE-0013"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0721",
+  "section": "8",
+  "seq": 8,
+  "status": "preliminary",
+  "text": "Procurement progress of a package is the sum of the credits of the steps completed (partial credit for manufacturing according to the supplier's certified progress); the progress of the procurement phase is the average of the packages weighted by the order value (or the budget hours when no order value is known). The steps follow the procurement gates of section 10 of ALP-EPC-00000-GE-PRC-0002 (enquiry, purchase order, manufacturing release, factory acceptance test, shipment). Delivery on site is compared with the need date of the first CWP start and the float is reported."
+}

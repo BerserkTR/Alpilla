@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.848007Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.848007Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.04",
+    "requirement:ER-04.09",
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0040",
+  "section": "7",
+  "seq": 3,
+  "status": "confirmed",
+  "text": "Unit auxiliary transformers (UAT): two transformers at 2 x 100 % (10BBT from the GT generator, 20BBT from the ST generator), connected between generator and generator circuit breaker so that the plant can run in house-load operation. Each UAT shall carry the full running plant load with the other out of service; the GT static frequency converter (start-up only) is supplied from 10BBT. The transformer ratings are in the records of 10BBT10 and 20BBT10 (DEC-EPCE-0016)."
+}

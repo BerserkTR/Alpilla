@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.497858Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.497858Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0691",
+  "section": "3",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The earned percentage of a document is the highest percentage of the progress rule that corresponds to a revision issued on or before the data date: the rule for the revision purpose (IFR, IFA, IFC, AB), or the rule STARTED while the document is in progress and no revision has been issued. A cancelled document is excluded from the totals. The percentages are records (progress_rule) and are given in the table below."
+}

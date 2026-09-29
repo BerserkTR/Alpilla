@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.060601Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.060601Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0088",
+    "reference:REF-CONS-0017",
+    "reference:REF-CONS-0089"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0302",
+  "parameter": "Reinforcement",
+  "section": "10",
+  "seq": 10,
+  "status": "assumption",
+  "value_text": "Ribbed B500C (ductility class C, TS 708), weldable; no reliance on coated or galvanised bars; corrosion-inhibiting admixture for XS3 elements"
+}

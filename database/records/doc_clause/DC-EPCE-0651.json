@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.441874Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.441874Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-PI-LST-0001"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0651",
+  "section": "10",
+  "seq": 3,
+  "status": "assumption",
+  "text": "Material take-off of pipes, valves and fittings shall be generated from the model, with a wastage of 5 % (10 % for small bore) plus the site spare; the valve list (ALP-EPC-00000-PI-LST-0001) shall be consistent with the piping and instrumentation diagrams."
+}

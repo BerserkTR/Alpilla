@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.083772Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.083772Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.05",
+    "design_parameter:DP-OWNR-0045",
+    "design_parameter:DP-OWNR-0046"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0330",
+  "section": "14",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Roads: internal asphalt roads shall be designed for 40 t axle loads to the heaviest delivery route (ER-13.05). The heaviest delivery route shall additionally be checked for the heaviest transport unit of the power island from the quay (400 t quay crane, heavy-lift port 18 km by sea, DP-OWNR-0046); the state road is limited to 120 t gross (DP-OWNR-0045), so transformers, rotors and other loads above this limit shall be shipped by sea and moved on site with self-propelled modular transporters; the route on site shall be checked for the bearing capacity of the fill and of buried services (culverts, duct banks with concrete cover or steel plate)."
+}

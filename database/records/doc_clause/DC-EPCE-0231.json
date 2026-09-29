@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.009742Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.009742Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.04"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0231",
+  "section": "15",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Redundancy: dual NOx and O2 analysers with automatic change-over so that an analyser failure does not lead to loss of valid data; availability of valid hourly means of 95 % or more; heated sample line and conditioning (extractive systems) with an alarm on the temperature and flow; calibration gases in certified cylinders with the flow control by the DAHS."
+}

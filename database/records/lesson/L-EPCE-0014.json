@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:49:33.431655Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:49:33.431655Z",
+    "updated_by": "EPCE"
+  },
+  "action": "Before each wave list the documents planned IFR on or before the wave date and not issued (engineering_plan MDL sheet, Latest issue empty) and include them or move the data date; trace the driving input of every negative float (MDL Driving input column) before raising a recovery TQ",
+  "id": "L-EPCE-0014",
+  "lesson": "Waves chosen by the network frontier left 173 tender-stage documents planned for first issue at NTP unissued; six design criteria issued six weeks late pushed the civil EWPs and three requisitions 1-23 wd behind, because their successors need them at IFR. A first recovery TQ (faster Owner review, TQ-042) was raised before tracing the driver and had no effect",
+  "status": "active",
+  "tags": [
+    "planning",
+    "document_control",
+    "verification"
+  ],
+  "title": "Choose release waves from the planned dates, and trace the driver before proposing a recovery"
+}

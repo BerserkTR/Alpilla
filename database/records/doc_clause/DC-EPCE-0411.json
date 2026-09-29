@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.162156Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.162156Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.07",
+    "requirement:ER-14.06"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0411",
+  "parameter": "Aqueous ammonia storage (2 x 30 m3) to air intakes, occupied buildings and boundary",
+  "remarks": "Inventory of about 54 t (TQ-034); confirm by dispersion in the QRA",
+  "section": "7",
+  "seq": 4,
+  "status": "assumption",
+  "value_text": "not less than 20 m to occupied buildings and air intakes; not less than 30 m to the plant boundary"
+}

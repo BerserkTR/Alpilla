@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.192510Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.192510Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0441",
+  "section": "1",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Where a package specification, a vendor standard and this specification conflict, the most stringent requirement applies until IEPC has resolved the conflict in writing. Deviations shall be listed in the vendor deviation list with the clause number of this specification."
+}

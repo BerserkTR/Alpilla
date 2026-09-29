@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.267530Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.267530Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0509",
+  "parameter": "Seawater, small bore piping (electro-chlorination, sample, wash water)",
+  "remarks": "Avoid 316L; PVC only below 40 degC",
+  "section": "4",
+  "seq": 4,
+  "status": "preliminary",
+  "value_text": "Super duplex or GRP / PVC-U / PP where pressure and temperature allow"
+}

@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.419774Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.419774Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0634",
+  "section": "6",
+  "seq": 8,
+  "status": "preliminary",
+  "text": "Piping connected to rotating equipment shall be arranged to avoid excess nozzle loads, with a removable spool at each pump suction; suction piping shall have an eccentric reducer flat side up, and straight run of 5 diameters at the pump suction."
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.218214Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.218214Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.03"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0464",
+  "section": "6",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Compressors (instrument and service air, nitrogen) shall be oil-free (screw or centrifugal) for instrument air; performance shall be tested per ISO 1217, with a specific power guarantee at rated pressure. Air receivers shall be pressure vessels according to the vessel section of this specification."
+}

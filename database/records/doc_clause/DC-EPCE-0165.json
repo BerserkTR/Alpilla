@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.904020Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.904020Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0165",
+  "parameter": "Operator stations and servers",
+  "section": "7",
+  "seq": 6,
+  "status": "confirmed",
+  "value_text": "Any operator station can perform any function of an operator; server and historian redundant"
+}

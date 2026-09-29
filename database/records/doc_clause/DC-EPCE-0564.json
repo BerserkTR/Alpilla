@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.332802Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.332802Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-ME-SPC-0003"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0564",
+  "parameter": "Carbon steel, hot surfaces above 400 degC, and stainless steel under insulation",
+  "remarks": "TSA is the default under insulation on carbon steel and stainless steel at 60 to 595 degC, to avoid corrosion and chloride stress corrosion cracking under insulation",
+  "section": "5",
+  "seq": 4,
+  "status": "preliminary",
+  "value_text": "Thermally sprayed aluminium (TSA) 200 micrometres minimum with sealer, per ISO 2063 (or a silicone aluminium alternative above 400 degC)"
+}

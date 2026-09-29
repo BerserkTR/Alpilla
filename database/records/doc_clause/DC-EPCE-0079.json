@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.862772Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.862772Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0002",
+    "reference:REF-CONS-0017",
+    "reference:REF-CONS-0069"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0079",
+  "section": "10",
+  "seq": 10,
+  "status": "preliminary",
+  "text": "Cable supports, trays and penetrations shall be designed for the seismic loads of the site (DP-CASE-0002); penetrations through fire walls and floors shall be sealed to the fire resistance of the wall; entries into buildings shall be sealed against gas and water."
+}

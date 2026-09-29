@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.847654Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.847654Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-04.10",
+    "design_parameter:DP-CASE-0031"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0039",
+  "section": "7",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "The auxiliary power consumption at base load shall not exceed the value of ER-04.10 (DP-CASE-0031); it is calculated in the electrical load list from the equipment records and checked against the HMB at every load-list issue."
+}

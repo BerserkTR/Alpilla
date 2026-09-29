@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.413405Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.413405Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-PI-RPT-0001"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0629",
+  "section": "6",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Space between parallel pipes shall allow flanges to be staggered with a minimum clear distance of 50 mm between the outside of the insulation of adjacent lines and 100 mm from steel; pipes shall be routed with bends and expansion loops as required by the stress analysis, rather than expansion joints (expansion joints are used only where approved by IEPC)."
+}

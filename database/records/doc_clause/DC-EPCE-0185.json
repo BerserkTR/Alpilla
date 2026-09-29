@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.914860Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.914860Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.06",
+    "reference:REF-CONS-0083",
+    "reference:REF-CONS-0025"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0185",
+  "section": "9",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Hazardous areas: intrinsically safe (Ex i) circuits with isolators / barriers for zone 0 / 1 instrument loops, or Ex d instruments; all field devices in zones are certified per ER-14.06. Ex i loops are documented with entity parameters and cable capacitance checks."
+}

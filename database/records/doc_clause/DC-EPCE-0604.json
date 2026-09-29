@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.381507Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.381507Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014",
+    "reference:REF-CONS-0055"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0604",
+  "section": "4",
+  "section_title": "Design pressure and design temperature",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "The design pressure of a line shall be the highest coincident of the following: maximum operating pressure plus 10 % (minimum 1.0 bar), the set pressure of the relief valve protecting the system, the shut-off head of the pump feeding the system, and the static head plus pressure at the tie-in; for steam and feedwater systems, the design pressure of the HRSG-connected piping is the drum or header design pressure of the equipment register."
+}

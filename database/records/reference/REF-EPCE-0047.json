@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:14.285254Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:14.285254Z",
+    "updated_by": "EPCE"
+  },
+  "applies_to": "Pump design standard cited in ME-SPC-0001 (only API 650 / ASME B31 etc. are registered)",
+  "code": "ISO 13709 / API 610",
+  "disciplines": [
+    "mechanical",
+    "piping"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-EPCE-0047",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "remarks": "Proposed with the wave-2 design criteria; to be agreed with the Owner and IEC in the next codes and standards round.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "proposed",
+  "title": "Centrifugal pumps for petroleum, petrochemical and natural gas industries"
+}

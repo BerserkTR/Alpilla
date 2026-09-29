@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.304964Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.304964Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0015"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0541",
+  "section": "9",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "The material entries of the equipment register (equipment.material) have been reviewed against this report. Inconsistencies found are listed as findings of this document and shall be resolved by update of the equipment register or by a technical query. Vendors shall confirm the materials on the datasheets with reference to the clauses of this report."
+}

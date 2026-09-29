@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.513480Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.513480Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0701",
+  "section": "5",
+  "section_title": "Monthly progress report",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "The progress report is issued monthly to the Owner for each cut-off. The cut-off is the data date of the project record (project.data_date), set as the last calendar day of the month; only revisions issued and actuals recorded on or before the cut-off count. The report is issued within 5 working days after the cut-off."
+}

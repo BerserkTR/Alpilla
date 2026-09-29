@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.880597Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.880597Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0073",
+    "reference:REF-CONS-0080"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0120",
+  "section": "15",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Standard insulation levels (Um / power frequency / lightning impulse): 420 kV / 1,050 kV (switching) / 1,425 kV; 12 kV / 28 kV / 75 kV for the 10.5 kV system; the generator terminal equipment per IEC 60034 and the IEC busduct data. The levels shall be confirmed by the insulation coordination study."
+}

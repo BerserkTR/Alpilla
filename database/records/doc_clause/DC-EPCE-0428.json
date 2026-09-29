@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.179237Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.179237Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.05",
+    "reference:REF-CONS-0069",
+    "reference:REF-CONS-0068",
+    "reference:REF-CONS-0048"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0428",
+  "section": "10",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Fire protection systems by hazard shall be: automatic foam (NFPA 11) and cooling water for the LDO tanks; deluge for oil-filled transformers (NFPA 15); water mist or CO2 (NFPA 12) for the gas turbine enclosure and the lube oil areas; gaseous or water mist for the control room floor voids and the cable rooms; automatic sprinklers or hydrants and hose reels for the buildings as required by the Fire Regulation; portable extinguishers in all buildings; hydrants with a maximum spacing of 60 m."
+}

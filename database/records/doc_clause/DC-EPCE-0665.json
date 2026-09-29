@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.460863Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.460863Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0017",
+    "decision:DEC-EPCE-0015",
+    "source:SRC-OWNR-0007",
+    "clarification:TQ-041"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0665",
+  "parameter": "EIA 2.3 Water: residual oxidant (as Cl2) at the outfall at most 0.1 mg/l",
+  "remarks": "ALP-EPC-00PBA-PR-SDS-0001 (electro-chlorination SDD); ALP-EPC-00PBA-ME-CAL-0001; ALP-EPC-00PBA-ME-SPC-0001; TRO analysers at the condenser outlet and the seal pit (ALP-EPC-00PAA-IC-DSH-0001). Status preliminary until the SDD is issued.",
+  "section": "3",
+  "seq": 7,
+  "status": "preliminary",
+  "value_text": "Seawater electro-chlorination per DEC-EPCE-0015: continuous low-level dosing at the intake with pulse dosing; residual oxidant measured at the condenser outlet and at the outfall seal pit, dosing controlled on the seal-pit value with set-point 0.08 mg/l and alarm at the limit DP-CASE-0017; the compliance point is the end of the outfall pipe, sampled at the seal pit, no mixing zone credited (TQ-041); no dechlorination."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.077606Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.077606Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.07",
+    "reference:REF-CONS-0087"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0322",
+  "section": "13",
+  "seq": 5,
+  "status": "assumption",
+  "text": "Shallow foundations, where accepted after ground improvement, shall be verified for bearing capacity per EN 1997-1 (design approach 2) with the seismic action and liquefaction included, and for uplift by groundwater at grade level; the allowable settlement shall be as given below."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.027456Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.027456Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0001"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0258",
+  "parameter": "Road and paved area level",
+  "section": "5",
+  "seq": 5,
+  "status": "assumption",
+  "value_text": "+15.00 m at the crown, minimum fall 0.5 %"
+}

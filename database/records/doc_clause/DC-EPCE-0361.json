@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.110273Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.110273Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06",
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0361",
+  "section": "6",
+  "section_title": "Design methodology and air quality",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Cooling and heating loads shall be calculated with a transient method (or the ASHRAE heat balance method) and include: equipment heat release from the electrical load list (heat losses of transformers, switchgear, UPS, chargers, drives, DCS cabinets), lighting, occupants, solar and conduction gains and fresh air; a 10 % design margin and a 5 % allowance for future additions shall be added to the calculated loads; the equipment heat release shall be taken from the equipment records and the electrical load list, not retyped."
+}

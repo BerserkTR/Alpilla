@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.849645Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.849645Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016",
+    "requirement:ER-11.04"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0045",
+  "section": "7",
+  "seq": 8,
+  "status": "confirmed",
+  "text": "LV distribution is in four pairs of 2 x 100 % transformers on different MV sections (DEC-EPCE-0016): GT and HRSG 00BFT10/20, ST, condenser and cooling 00BFT70/80, BOP, fuel and buildings 00BFT30/40, and CW intake and pump house 00BFT50/60 (10.5/0.42 kV). Each pair feeds a main switchboard with two sections (00BFA10/20, 00BFA11/21, 00BFA12/22; MCC 00BFA40 at the CW intake), each section with its own incomer and a normally open coupler with the interlock of section 6. Redundant process equipment (2 x 100 %, 2 x 50 % + spare) shall be assigned to different sections and different MV sections so that a single busbar or transformer failure never removes both."
+}

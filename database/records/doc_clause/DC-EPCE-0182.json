@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.913242Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.913242Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0182",
+  "section": "9",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Digital signals: dry contacts wetted at 24 V DC (or interposing relays for 220 V DC or 230 V AC signals) with line monitoring for the safety and critical signals; open circuit and short circuit monitoring for signals of trips and emergency stops."
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.309625Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.309625Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-15.04"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0545",
+  "section": "10",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Super duplex and duplex materials shall meet the ferrite content of 35 to 55 % (30 to 65 % in welds), and shall be tested for intermetallic phases (ASTM A923 method C) and the critical pitting temperature (ASTM G48 method A) with acceptance above 40 degC for super duplex."
+}

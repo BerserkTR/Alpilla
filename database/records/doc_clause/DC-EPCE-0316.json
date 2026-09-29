@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.072875Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.072875Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.06",
+    "reference:REF-CONS-0017"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0316",
+  "parameter": "Interstorey drift under DD-3 (functional recovery)",
+  "section": "12",
+  "seq": 7,
+  "status": "preliminary",
+  "value_text": "0.5 % of storey height"
+}

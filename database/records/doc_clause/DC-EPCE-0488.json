@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.244033Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.244033Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-06.08"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0488",
+  "section": "11",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Long-term storage and lay-up of equipment after installation shall follow the manufacturer's lay-up instructions; the dry and wet lay-up requirements for the HRSG and steam cycle equipment of ER-06.08 shall be observed."
+}

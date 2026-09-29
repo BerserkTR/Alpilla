@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.076773Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.076773Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.04",
+    "source:SRC-OWNR-0008"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0321",
+  "section": "13",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Pile concrete and reinforcement shall be XS2 / XA2 with the cover of section 10 and shall be placed with a polymer or bentonite support fluid and a tremie; sacrificial steel or increased cover shall be considered for the top part of the pile in the groundwater; the pile head shall be embedded in the cap by 100 mm."
+}

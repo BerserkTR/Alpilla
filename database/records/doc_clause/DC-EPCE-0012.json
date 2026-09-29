@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.838999Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.838999Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0047",
+    "design_parameter:DP-CASE-0001"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0012",
+  "section": "3",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "The groundwater level is only 1.5 m below site grade (DP-OWNR-0047 against DP-CASE-0001). Cable basements, cable trenches and earthing pits below +14.0 m shall be designed as water-tight structures or use water-blocked cables in sealed ducts; no MV cable shall lie in a trench that can flood."
+}

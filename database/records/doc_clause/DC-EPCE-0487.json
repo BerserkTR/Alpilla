@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.242964Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.242964Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-06.08",
+    "design_parameter:DP-CASE-0003"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0487",
+  "section": "11",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Equipment shall be preserved for shipment, storage on site for 12 months and up to 24 months where erection is delayed, in accordance with the vendor preservation procedure approved by IEPC: internal surfaces protected against corrosion, rotating machines rotated periodically, desiccant with humidity indicators for enclosed spaces, and all openings blanked or capped. Preservation records shall be maintained and handed over."
+}

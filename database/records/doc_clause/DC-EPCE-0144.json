@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.892831Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.892831Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0144",
+  "section": "5",
+  "section_title": "Control system architecture and philosophy",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "One integrated plant DCS shall control and monitor the balance of plant (BOP): fuel gas and LDO systems, HRSG auxiliaries, water-steam cycle auxiliaries, cooling water, water treatment, compressed air, HVAC, electrical systems, fire detection and utilities. The GT, ST and HRSG main protection and control functions are executed by the TCS of the power island supplier, integrated in the same operator environment (ER-12.01, TQ-026)."
+}

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.057984Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-29T02:47:15.294146Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:27:16.575898Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Switchgear And Controlgear",
@@ -21,8 +21,8 @@
   "material": "Steel enclosure, form 3b/4b, C5 coating",
   "mr": "MR-EL-005",
   "quantity": 1,
-  "redundancy": "1 x 100 %",
-  "remarks": "AL-16 0.18 + AL-22 0.30 + share of AL-13 = about 0.8 MW = 1,400 A. Short-circuit 65 kA / 1 s.",
+  "redundancy": "double-ended, 2 sections with tie (fed from 00BFA12/22)",
+  "remarks": "Compressed air (AL-16) and BOP utilities (part of AL-22) about 0.33 MW; busbar 1,600 A with spare for construction power re-use.",
   "service": "LV MCC BOP utilities (compressed air AL-16, closed cooling, misc AL-22)",
   "status": "preliminary",
   "supply": "IEPC",

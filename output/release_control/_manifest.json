@@ -1,14 +1,14 @@
 {
-  "code_hash": "1289f47d5f200da8",
-  "db_hash": "c00dc42b38459819",
+  "code_hash": "015bea8f803f619d",
+  "db_hash": "7d2f3d57bf9dd78a",
   "engine": "release_control",
   "engine_version": "1.2.0",
   "files": {
-    "ALP_release_control.xlsx": "a281e89e8ac9ef9fa3e64c8bcbeffc0f19c04c2fab694a39f346eca70464dfdb"
+    "ALP_release_control.xlsx": "4a6636e13d9579fc1e84a081e6b981ee97b0364dce625a334a5c8fa438478b49"
   },
-  "generated_at": "2026-09-29T02:52:27.520859Z",
-  "generated_by": "SETUP",
-  "git_commit": "c460705",
+  "generated_at": "2026-09-29T03:50:48.803670Z",
+  "generated_by": "EPCE",
+  "git_commit": "e89d9d3",
   "inputs": [
     "activity",
     "cwa",
@@ -26,7 +26,18 @@
     "system",
     "wbs"
   ],
-  "inputs_hash": "6d73bc5813f68e2b",
+  "inputs_hash": "8d097e95c5c15ddb",
   "options": {},
-  "warnings": []
+  "warnings": [
+    "gate G-CON-CWP CWP-01-CV-01: planned 2027-04-06 after the need date 2027-03-22 (-11 wd)",
+    "gate G-CON-CWP CWP-02-CV-01: planned 2027-04-12 after the need date 2027-03-22 (-15 wd)",
+    "gate G-CON-CWP CWP-12-CV-02: planned 2027-03-25 after the need date 2027-03-22 (-3 wd)",
+    "gate G-PRC-ENQ MR-EL-009: planned 2027-01-18 after the need date 2026-12-21 (-20 wd)",
+    "gate G-PRC-ENQ MR-ME-011: planned 2027-04-13 after the need date 2027-04-05 (-6 wd)",
+    "gate G-PRC-ENQ MR-PI-002: planned 2027-01-18 after the need date 2026-12-21 (-20 wd)",
+    "gate G-PRC-FAB MR-ME-011: planned 2027-08-02 after the need date 2027-07-28 (-3 wd)",
+    "gate G-PRC-PO MR-EL-009: planned 2027-03-11 after the need date 2027-02-08 (-23 wd)",
+    "gate G-PRC-PO MR-ME-011: planned 2027-05-28 after the need date 2027-05-17 (-9 wd)",
+    "gate G-PRC-PO MR-PI-002: planned 2027-03-18 after the need date 2027-02-22 (-18 wd)"
+  ]
 }

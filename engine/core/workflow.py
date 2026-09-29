@@ -6,7 +6,8 @@ requires (doc_type.input_maturity: IFR or IFC) and not before the data date; the
   approval class     : IFA = IFR + Owner review + update_days, IFC = IFA + 5 (approval code 1)
   review class       : IFC = IFR + Owner review + update_days
   information / internal: IFC = IFR + update_days
-Owner review = 10 working days (14 calendar days, ER-17.01), 15 for Basic Design Package documents (21 days).
+Owner review = 10 working days (14 calendar days, ER-17.01), 15 for Basic Design Package documents (21 days),
+or the period agreed for a document (document.owner_review_days).
 Supplier documents (originator not EPC) keep their committed planned dates (VDRL). Issued revisions replace the dates.
 Tender-stage documents (document.tender) exist from the bid design: first issue at the data date (NTP), then review.
 Supplier documents without committed dates are timed from their MR: po_weeks_ifr / po_weeks_final weeks after the PO
@@ -121,7 +122,8 @@ def _prep(d: DocT, t: dict) -> int:
 def _review_offsets(d: DocT, t: dict) -> tuple[int | None, int]:
     """(IFA - IFR or None, IFC - IFR)."""
     review = d.rec.get("review") or t.get("review", "review")
-    rv = (OWNER_REVIEW_BDP if d.rec.get("bdp") else OWNER_REVIEW) if review in ("approval", "review") else 0
+    rv = (d.rec.get("owner_review_days") or (OWNER_REVIEW_BDP if d.rec.get("bdp") else OWNER_REVIEW)) \
+        if review in ("approval", "review") else 0              # an agreed review period overrides ER-17.01
     upd = t.get("update_days", 5)
     if review == "approval":
         return rv + upd, rv + upd + APPROVAL_CODE

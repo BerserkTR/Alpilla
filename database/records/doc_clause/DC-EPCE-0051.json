@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.851781Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.851781Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014",
+    "reference:REF-CONS-0037"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0051",
+  "section": "8",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Motor ratings shall be the next standard IEC size above the mechanical duty plus margin of DEC-EPCE-0014 (pumps +10 % flow, +5 to +10 % head). Motors shall be IEC 60034-1 duty S1, insulation class F with temperature rise class B, service factor 1.0, efficiency class IE3 or better (IE4 for continuously running LV motors above 75 kW)."
+}

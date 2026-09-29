@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.118476Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.118476Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06",
+    "design_parameter:DP-CASE-0008"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0370",
+  "remarks": "OEM heat release is required; interface to power island",
+  "section": "9",
+  "section_title": "Turbine halls and process buildings",
+  "seq": 1,
+  "status": "assumption",
+  "text": "Turbine halls (gas turbine hall and steam turbine hall) shall be ventilated by roof ventilators (4 x 25 % groups per hall per the equipment records) with low-level louvred inlet openings fitted with salt drift eliminators and coarse filters; the airflow shall limit the hall temperature to ambient + 10 K at 40 degC with the heat release from the OEM (radiation and leakage of casings, generators, lube oil systems) and shall give at least 6 air changes per hour at the base ventilation, with the failure of one 25 % group not causing the design temperature to be exceeded by more than 3 K."
+}

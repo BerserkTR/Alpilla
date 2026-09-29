@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.090067Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.090067Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.01",
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0338",
+  "section": "15",
+  "seq": 4,
+  "status": "confirmed",
+  "text": "Construction constraints: no dredging, trenching or pipe laying between 1 May and 30 September (EIA condition, fish spawning); the marine works design and method statement shall be based on the window 1 October to 30 April, and the tie-in need date of the intake / outfall shall be checked against this window."
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.925225Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.925225Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0203",
+  "section": "11",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Pressure drop: the control valve differential pressure at normal flow shall be 25 % or more of the dynamic pressure drop of the system and at least 0.7 bar for liquid service; valves for pump minimum flow, bypass and spray are sized on their governing case (all-cases envelope)."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.044361Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.044361Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0017",
+    "requirement:ER-13.01"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0281",
+  "section": "7",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Seismic separation: buildings and structures with different dynamic behaviour shall be separated by seismic joints with a width not less than the sum of the DD-2 displacements (with a minimum of 100 mm for pipe rack to building and 150 mm for building to building); pipe crossings across joints shall be designed for the relative displacement. Turbine and generator foundations shall be independent of building foundations and floors (ER-13.01)."
+}

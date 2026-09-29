@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.065639Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.065639Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.03",
+    "requirement:ER-02.08",
+    "reference:REF-CONS-0091",
+    "reference:REF-CONS-0092",
+    "design_parameter:DP-CASE-0003"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0307",
+  "section": "11",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Corrosion protection: all outdoor structural steel shall be hot-dip galvanised per EN ISO 1461 (mean coating thickness not less than 85 microns for sections over 6 mm, 70 microns for 3 mm to 6 mm) as required by ER-13.03; the corrosivity category is C5 with durability H (DP-CASE-0003, more than 15 years to first major maintenance). Where galvanising is impractical (large welded assemblies, site-welded joints, steel in the splash zone, surfaces of members after erection damage), painting per ISO 12944 C5 high durability (or CX for the splash zone) with a duplex system shall be used per the painting and coating specification ALP-EPC-00000-ME-SPC-0002 and GE-SPC-0004; touch-up of galvanising damage with zinc-rich paint is required."
+}

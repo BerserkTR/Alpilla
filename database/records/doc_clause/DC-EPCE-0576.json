@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.347628Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.347628Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0576",
+  "section": "6",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Areas that shall not be coated: machined surfaces, nameplates, stainless steel instrument tubing, flange faces, gasket surfaces, bolt threads (only greased), and rotating shafts. They shall be masked and protected with removable preservatives during coating."
+}

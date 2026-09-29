@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.033649Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.033649Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0087"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0266",
+  "parameter": "Imposed load - offices, meeting rooms, gatehouse",
+  "section": "6",
+  "seq": 6,
+  "status": "assumption",
+  "value_text": "3.0 kN/m2"
+}

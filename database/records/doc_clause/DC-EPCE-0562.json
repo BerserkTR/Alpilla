@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.330178Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.330178Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0092",
+    "document:ALP-EPC-00000-EL-CAL-0005"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0562",
+  "parameter": "Carbon steel in the splash zone, seawater intake structures, pump house metalwork (CX / Im2)",
+  "remarks": "Combined with cathodic protection where immersed",
+  "section": "5",
+  "seq": 2,
+  "status": "preliminary",
+  "value_text": "Zinc-rich epoxy primer 60 micrometres + 2 x high-build epoxy (glass flake) 300 micrometres each; total DFT 700 micrometres minimum"
+}

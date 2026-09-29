@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.440526Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.440526Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0012"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0650",
+  "section": "10",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Isometric drawings, pipe support drawings and stress analysis reports shall be generated per system from the piping model and shall be given to the construction by the work packages defined in the AWP plan; the piping input from Plant 3D or E3D shall be imported into the database in the PCF format."
+}

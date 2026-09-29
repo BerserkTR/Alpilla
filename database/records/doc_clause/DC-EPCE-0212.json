@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.931433Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.931433Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0212",
+  "parameter": "Average alarm rate per operator (steady state)",
+  "remarks": "Measured over 30 days of stable operation",
+  "section": "12",
+  "seq": 3,
+  "status": "preliminary",
+  "value_text": "1 alarm per 10 min or less (manageable); never more than 2 per 10 min"
+}

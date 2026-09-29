@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.183184Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.183184Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.07",
+    "reference:REF-CONS-0010"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0432",
+  "remarks": "Criteria not yet agreed with the Owner",
+  "section": "11",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Risk acceptance criteria (project criteria, to be agreed with the Owner): individual risk of death for workers not more than 1 x 10^-3 per year (intolerable above) and for members of the public not more than 1 x 10^-4 per year, with risk reduced to as low as reasonably practicable and a broadly acceptable region below 1 x 10^-6 per year; the societal risk shall be shown on the FN curve; a fire, explosion or toxic release shall not cause the escalation to a second major hazard within the first 30 minutes for the design events (LDO tank fire, gas release at the station, ammonia release)."
+}

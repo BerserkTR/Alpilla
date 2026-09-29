@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.024833Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.024833Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-EPCE-0001",
+    "design_parameter:DP-EPCE-0004"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0254",
+  "section": "5",
+  "section_title": "Levels, datum and coordinates",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "All levels are orthometric heights in the TUDKA-99 datum and all coordinates are in the plant grid defined by DP-EPCE-0001 to DP-EPCE-0004 (site block, section 4). The plant grid rotation and scale factors shall be applied in the setting-out report ALP-EPC-00000-CV-RPT-0003."
+}

@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.010348Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.010348Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.04",
+    "requirement:ER-12.07",
+    "requirement:ER-14.01",
+    "reference:REF-CONS-0005",
+    "reference:REF-CONS-0003"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0232",
+  "section": "15",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Data acquisition and handling system (DAHS): calculation of the validated hourly, daily and annual means per the LCP Regulation and the environmental permit with the uncertainty deduction, storage of at least 5 years, reports for the authority, and transmission of the data to the environmental authority by the online link required by the permit; the DAHS is in its own zone (section 13) and signals to the DCS by hardwired 4-20 mA for the operator display and the control of the SCR."
+}

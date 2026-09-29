@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.087678Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.087678Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.06",
+    "design_parameter:DP-OWNR-0020",
+    "decision:DEC-EPCE-0002",
+    "source:SRC-OWNR-0007",
+    "design_parameter:DP-EPCE-0011"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0335",
+  "section": "15",
+  "section_title": "Marine works basis",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "The seawater intake and outfall pipelines shall be of HDPE or GRP with ballast weights and scour protection as required by ER-13.06 and designed for the 50-year wave condition Hs 4.4 m, Tp 8.5 s from the south-west (DP-OWNR-0020). The design flow is 38,000 m3/h (DEC-EPCE-0002); the intake velocity at the screens shall not exceed the EIA value (DP-EPCE-0011) and the water temperature range at the intake is 6 degC to 27 degC (DP-OWNR-0013, DP-OWNR-0012)."
+}

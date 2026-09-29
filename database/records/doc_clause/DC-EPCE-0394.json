@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.144774Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.144774Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0001",
+    "reference:REF-CONS-0002",
+    "reference:REF-CONS-0003",
+    "reference:REF-CONS-0004",
+    "reference:REF-CONS-0005",
+    "reference:REF-CONS-0006",
+    "reference:REF-CONS-0007",
+    "reference:REF-CONS-0008",
+    "reference:REF-CONS-0009",
+    "reference:REF-CONS-0010",
+    "reference:REF-CONS-0011",
+    "reference:REF-CONS-0012",
+    "reference:REF-CONS-0013",
+    "reference:REF-CONS-0014",
+    "reference:REF-CONS-0016",
+    "reference:REF-CONS-0069",
+    "reference:REF-CONS-0067",
+    "reference:REF-CONS-0068",
+    "reference:REF-CONS-0048",
+    "reference:REF-CONS-0070",
+    "reference:REF-CONS-0071",
+    "reference:REF-CONS-0083",
+    "reference:REF-CONS-0081",
+    "reference:REF-CONS-0084"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0394",
+  "section": "3",
+  "section_title": "Codes and standards",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "The HSE design shall comply with the Turkish legislation on the environment (Law 2872, EIA Regulation, Environmental Permit Regulation, industrial air pollution and large combustion plant regulations, Water Pollution Control Regulation, Noise Regulation, Waste Regulation, Soil Regulation), on occupational safety (Law 6331, Construction OHS Regulation, Work Equipment Regulation, Explosive Atmospheres Regulation), on the prevention of major accidents (Major Accident Regulation), and on fire (Regulation on Fire Protection of Buildings), and with the international codes NFPA 850, NFPA 30, NFPA 11, NFPA 12, NFPA 20, NFPA 72, IEC 60079-10-1, IEC 61511 and EN 14181."
+}

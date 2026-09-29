@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.014222Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.014222Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.06",
+    "requirement:ER-16.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0238",
+  "section": "16",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Fidelity and delivery: steady-state agreement with the HMB cases of 2 % or better on the main process variables and correct dynamic behaviour (trends and time constants) within 5 %; a minimum of 200 malfunctions; delivered 6 months before first fire (ER-12.06) and updated to the final logic before the start of the commissioning; the simulator is used to test the start-up sequences, the trip logic and the operator procedures before the site tests."
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.187497Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.187497Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.01",
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0436",
+  "section": "12",
+  "section_title": "EIA compliance and HSE in design",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Every condition of the positive EIA decision (SRC-OWNR-0007) shall be traced to the design measure and evidence in the EIA Conditions Compliance Matrix ALP-EPC-00000-HS-RPT-0001, which shall be updated at each design issue and shall be the record of compliance with ER-14.01; open conditions shall be raised as TQ or design actions."
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.138956Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.138956Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0389",
+  "section": "13",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Controls: the HVAC shall have a local controller per package with a serial link to the DCS (alarms for chiller trip, low pressure of a room, filter differential pressure, fan failure, high room temperature 3 K above the set point and smoke detection), automatic changeover of standby equipment, remote start and stop from the control room for the essential ventilation, and time delay restart after a power failure; the room temperature and pressure signals of the control and electrical rooms shall be hard-wired to the DCS."
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.906683Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.906683Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0170",
+  "section": "7",
+  "seq": 11,
+  "status": "preliminary",
+  "text": "Final elements shall go to the fail-safe position defined in the P&ID on loss of signal, loss of instrument air or loss of power; outputs of a failed controller go to the configured fail position; motors are not restarted automatically after a restore of the DCS (except the process-critical drives with an automatic restart defined in the functional design specification)."
+}

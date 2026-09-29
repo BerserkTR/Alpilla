@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.882976Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.882976Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.06"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0125",
+  "section": "16",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Protection coordination and relay settings (ALP-EPC-00000-EL-STU-0002): settings and time-current curves for generator, transformer, MV, LV and 380 kV protection, arc-flash incident energy per IEEE 1584 and labelling of boards, selectivity of LV devices, and verification of the clearing times of section 11 and the cable withstand of section 10."
+}

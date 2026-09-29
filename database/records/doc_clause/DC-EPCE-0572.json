@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.342745Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.342745Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0092"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0572",
+  "section": "6",
+  "section_title": "Application and dry film thickness",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Coating shall be applied by airless spray; brush or roller application is restricted to stripe coats and touch-up. A stripe coat shall be applied on all edges, welds, bolts, nuts and other difficult areas before the full coat of each of the first two coats."
+}

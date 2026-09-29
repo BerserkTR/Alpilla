@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.905157Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.905157Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.03"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0167",
+  "parameter": "Voting for trips",
+  "remarks": "Separate impulse lines and process taps for each sensor; the measurement for control is a fourth sensor or the median of the three",
+  "section": "7",
+  "seq": 8,
+  "status": "confirmed",
+  "value_text": "2oo3 for trip sensors of the protective functions; 1oo2 where the SIL calculation allows"
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.503001Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.503001Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-GE-PRC-0002"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0694",
+  "section": "3",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "The document types and their review class, preparation time and progressive share are held in the doc_type records and are listed below for reference; the release maturity of each type is defined in section 4 of ALP-EPC-00000-GE-PRC-0002."
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.436312Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.436312Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-ME-SPC-0003",
+    "design_parameter:DP-CASE-0007"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0647",
+  "section": "9",
+  "section_title": "Insulation, tracing and identification",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Insulation of piping shall be in accordance with ALP-EPC-00000-ME-SPC-0003 for personnel protection above 60 degC surface temperature at reachable heights (up to 2.2 m above the platform and 1.0 m sideways), for energy conservation and for freeze protection where required by the site minimum ambient temperature (DP-CASE-0007)."
+}

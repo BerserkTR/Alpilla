@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.850396Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.850396Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0047",
+  "section": "7",
+  "seq": 10,
+  "status": "preliminary",
+  "text": "LV MCCs 00BFA30 and 00BFA50 to 00BFA80 are double-ended: two bus sections with a tie, fed from the A and B sections of their main switchboard; 00BFA40 is the main board of the CW intake, fed directly from 00BFT50/60. Duplicated consumers are connected to different sections, so that the loss of one section never removes both units of a redundant pair."
+}

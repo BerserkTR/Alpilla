@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461313.1304050926
+2461313.1596296295
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461313.1304050926
+2461313.1596296295
   9
 $TDUUPDATE
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-37E
+380
   9
 $SURFTAB1
  70
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{B79E332E-DE62-4731-8776-8C6E935A7225}
+{32340CB4-C1BE-4693-9D9B-25DFD2B27A14}
   9
 $VERSIONGUID
   2
-{098AFF73-0AE2-46EB-A5D9-FEFACE25C7F6}
+{A288D410-FEA6-47AE-9398-F3FD2CE495FA}
   9
 $EXTNAMES
 290
@@ -3779,7 +3779,7 @@ AcAecLayerStandard
   0
 APPID
   5
-37B
+37D
 330
 3
 100
@@ -3793,7 +3793,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-37C
+37E
 330
 3
 100
@@ -29445,7 +29445,7 @@ AcDbText
  40
 2.1
   1
-fuel LHV from the composition (ISO 6976) 47.48 MJ/kg vs DP-CASE-0018 47.48 MJ/kg (-0.00 %)
+CW temperature rise 7.00 K vs DP-CASE-0015 <= 7.0 K (Condenser cooling water temperature rise)
   7
 ALPILLA
  11
@@ -29509,7 +29509,7 @@ AcDbText
  40
 2.1
   1
-auxiliary + transformer losses 1.88 % of gross vs DP-CASE-0031 <= 2.2 %
+fuel LHV from the composition (ISO 6976) 47.48 MJ/kg vs DP-CASE-0018 47.48 MJ/kg (-0.00 %)
   7
 ALPILLA
  11
@@ -29573,7 +29573,7 @@ AcDbText
  40
 2.1
   1
-condenser pressure 34.44 mbar(a) vs DP-OWNR-0021 <= 36.0 mbar(a)
+auxiliary + transformer losses 1.88 % of gross vs DP-CASE-0031 <= 2.2 %
   7
 ALPILLA
  11
@@ -29637,7 +29637,7 @@ AcDbText
  40
 2.1
   1
-gas flow 101,752 Sm3/h = 84.8 % of DP-OWNR-0033 (120,000 Sm3/h)
+condenser pressure 34.44 mbar(a) vs DP-OWNR-0021 <= 36.0 mbar(a)
   7
 ALPILLA
  11
@@ -29701,7 +29701,7 @@ AcDbText
  40
 2.1
   1
-net export 613.9 MW vs DP-OWNR-0051 connection capacity 640 MW (this case)
+gas flow 101,752 Sm3/h = 84.8 % of DP-OWNR-0033 (120,000 Sm3/h)
   7
 ALPILLA
  11
@@ -29765,7 +29765,7 @@ AcDbText
  40
 2.1
   1
-gross output 625.73 MW vs IG-01 >= 615.00 (margin +1.74 %)
+net export 613.9 MW vs DP-OWNR-0051 connection capacity 640 MW (this case)
   7
 ALPILLA
  11
@@ -29829,7 +29829,7 @@ AcDbText
  40
 2.1
   1
-gross heat rate 5,646.88 kJ/kWh vs IG-02 <= 5,735.00 (margin +1.54 %)
+gross output 625.73 MW vs IG-01 >= 615.00 (margin +1.74 %)
   7
 ALPILLA
  11
@@ -29893,7 +29893,7 @@ AcDbText
  40
 2.1
   1
-GT output 425.00 MW vs IG-03 >= 418.00 (margin +1.67 %)
+gross heat rate 5,646.88 kJ/kWh vs IG-02 <= 5,735.00 (margin +1.54 %)
   7
 ALPILLA
  11
@@ -29957,7 +29957,7 @@ AcDbText
  40
 2.1
   1
-condenser pressure 34.44 mbar(a) vs IG-04 <= 35.50 (margin +2.99 %)
+GT output 425.00 MW vs IG-03 >= 418.00 (margin +1.67 %)
   7
 ALPILLA
  11
@@ -30021,7 +30021,7 @@ AcDbText
  40
 2.1
   1
-net output 613.94 MW vs PG-01 >= 600.00 (margin +2.32 %)
+condenser pressure 34.44 mbar(a) vs IG-04 <= 35.50 (margin +2.99 %)
   7
 ALPILLA
  11
@@ -30085,7 +30085,7 @@ AcDbText
  40
 2.1
   1
-net heat rate 5,764.23 kJ/kWh vs PG-02 <= 5,860.00 (margin +1.63 %)
+net output 613.94 MW vs PG-01 >= 600.00 (margin +2.32 %)
   7
 ALPILLA
  11
@@ -30149,7 +30149,7 @@ AcDbText
  40
 2.1
   1
-CW temperature rise 7.00 K vs PG-13 <= 7.00 (margin +0.00 %)
+net heat rate 5,764.23 kJ/kWh vs PG-02 <= 5,860.00 (margin +1.63 %)
   7
 ALPILLA
  11
@@ -30213,7 +30213,7 @@ AcDbText
  40
 2.1
   1
-guarantee cover: at IG-01/IG-02 limits and this HMB's auxiliaries the net plant is 603.2 MW / 5,847 kJ/kWh vs Owner
+CW temperature rise 7.00 K vs PG-13 <= 7.00 (margin +0.00 %)
   7
 ALPILLA
  11
@@ -30237,6 +30237,38 @@ HMB-TABLE
 100
 AcDbText
  10
+576.0
+ 20
+283.4999999999992
+ 30
+0.0
+ 40
+2.1
+  1
+OK
+  7
+ALPILLA
+ 11
+576.0
+ 21
+283.4999999999992
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+365
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
 588.0
  20
 283.4999999999992
@@ -30245,7 +30277,7 @@ AcDbText
  40
 2.1
   1
-PG-01 600 MW / PG-02 5,860 kJ/kWh
+guarantee cover: at IG-01/IG-02 limits and this HMB's auxiliaries the net plant is 603.2 MW / 5,847 kJ/kWh vs Owner
   7
 ALPILLA
  11
@@ -30257,9 +30289,41 @@ ALPILLA
 100
 AcDbText
   0
+TEXT
+  5
+366
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+588.0
+ 20
+279.8999999999992
+ 30
+0.0
+ 40
+2.1
+  1
+PG-01 600 MW / PG-02 5,860 kJ/kWh
+  7
+ALPILLA
+ 11
+588.0
+ 21
+279.8999999999992
+ 31
+0.0
+100
+AcDbText
+  0
 LWPOLYLINE
   5
-365
+367
 330
 17
 100
@@ -30291,7 +30355,7 @@ AcDbPolyline
   0
 TEXT
   5
-366
+368
 330
 17
 100
@@ -30325,7 +30389,7 @@ AcDbText
   0
 TEXT
   5
-367
+369
 330
 17
 100
@@ -30359,7 +30423,7 @@ AcDbText
   0
 LINE
   5
-368
+36A
 330
 17
 100
@@ -30383,7 +30447,7 @@ AcDbLine
   0
 TEXT
   5
-369
+36B
 330
 17
 100
@@ -30417,7 +30481,7 @@ AcDbText
   0
 TEXT
   5
-36A
+36C
 330
 17
 100
@@ -30435,7 +30499,7 @@ AcDbText
  40
 2.6
   1
-015d1cd1c6fdda54 | 2026-09-29
+6b60fce553593bf5 | 2026-09-29
   7
 ALPILLA
  11
@@ -30451,7 +30515,7 @@ AcDbText
   0
 LINE
   5
-36B
+36D
 330
 17
 100
@@ -30475,7 +30539,7 @@ AcDbLine
   0
 TEXT
   5
-36C
+36E
 330
 17
 100
@@ -30509,7 +30573,7 @@ AcDbText
   0
 TEXT
   5
-36D
+36F
 330
 17
 100
@@ -30543,7 +30607,7 @@ AcDbText
   0
 LINE
   5
-36E
+370
 330
 17
 100
@@ -30567,7 +30631,7 @@ AcDbLine
   0
 TEXT
   5
-36F
+371
 330
 17
 100
@@ -30601,7 +30665,7 @@ AcDbText
   0
 TEXT
   5
-370
+372
 330
 17
 100
@@ -30635,7 +30699,7 @@ AcDbText
   0
 LINE
   5
-371
+373
 330
 17
 100
@@ -30659,7 +30723,7 @@ AcDbLine
   0
 TEXT
   5
-372
+374
 330
 17
 100
@@ -30693,7 +30757,7 @@ AcDbText
   0
 TEXT
   5
-373
+375
 330
 17
 100
@@ -30727,7 +30791,7 @@ AcDbText
   0
 LINE
   5
-374
+376
 330
 17
 100
@@ -30751,7 +30815,7 @@ AcDbLine
   0
 TEXT
   5
-375
+377
 330
 17
 100
@@ -30785,7 +30849,7 @@ AcDbText
   0
 TEXT
   5
-376
+378
 330
 17
 100
@@ -30819,7 +30883,7 @@ AcDbText
   0
 LINE
   5
-377
+379
 330
 17
 100
@@ -30843,7 +30907,7 @@ AcDbLine
   0
 TEXT
   5
-378
+37A
 330
 17
 100
@@ -30877,7 +30941,7 @@ AcDbText
   0
 TEXT
   5
-379
+37B
 330
 17
 100
@@ -30911,7 +30975,7 @@ AcDbText
   0
 LINE
   5
-37A
+37C
 330
 17
 100
@@ -32023,7 +32087,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-37D
+37F
   0
 DICTIONARYVAR
   5
@@ -32035,7 +32099,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-29T03:07:47.396528+00:00
+1.4.4 @ 2026-09-29T03:49:52.485150+00:00
   0
 VISUALSTYLE
   5
@@ -38589,7 +38653,7 @@ strokes_ogs.tif
   0
 DICTIONARYVAR
   5
-37D
+37F
 330
 2D
 100
@@ -38597,7 +38661,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-29T03:07:47.486604+00:00
+1.4.4 @ 2026-09-29T03:49:52.524122+00:00
   0
 ENDSEC
   0

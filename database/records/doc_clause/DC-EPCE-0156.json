@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.899344Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.899344Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.02",
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0156",
+  "section": "6",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Standby and duty-changeover of redundant equipment (2 x 100 %, 2 x 50 % + 1) shall be automatic: standby start on low discharge pressure or flow or on trip of the running unit within the process dead time, with alarm; equal running hours shall be balanced by selectable lead / lag."
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.310694Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.310694Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-ME-SPC-0002"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0546",
+  "section": "10",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Coating and lining of seawater equipment shall be inspected by holiday testing (spark test) of rubber linings and of coatings on the immersed surfaces before shipment and after installation."
+}

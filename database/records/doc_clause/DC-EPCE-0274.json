@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.039281Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.039281Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0087",
+    "reference:REF-CONS-0072"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0274",
+  "section": "6",
+  "seq": 14,
+  "status": "preliminary",
+  "text": "Crane and lifting loads shall be per EN 1991-3 and EN 13001 with dynamic factors of the crane class; the turbine hall overhead cranes shall be designed for the heaviest maintenance lift given by the OEM (rotor, casing or generator stator) with the vertical load on the runway beams, lateral loads and buffer forces combined with wind and seismic loads."
+}

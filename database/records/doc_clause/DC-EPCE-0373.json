@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.121354Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.121354Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06",
+    "decision:DEC-EPCE-0015"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0373",
+  "section": "9",
+  "seq": 4,
+  "status": "assumption",
+  "text": "Workshop, warehouse, water treatment and chemical rooms shall be ventilated by exhaust with make-up air from filtered louvred inlets; the chemical rooms (hypochlorite, acids, caustic, ammonia dosing) shall have dedicated exhaust of at least 10 air changes per hour with the discharge above roof level, corrosion-resistant (GRP / PP) ducts and fans, and shall be negative in pressure relative to adjacent rooms."
+}

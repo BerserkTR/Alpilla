@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.286148Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.286148Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0091"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0524",
+  "section": "5",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Aluminium and GRP items outdoors (fan impellers, louvres, cable trays) shall be checked for chloride attack; aluminium alloy 5xxx or 6xxx with anodising and paint is accepted for non-structural parts. Cable ladders shall be hot-dip galvanised or of GRP; stainless steel 316L in the splash zone."
+}

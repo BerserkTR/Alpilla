@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.202640Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.202640Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0450",
+  "section": "4",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Design, materials, manufacture, testing and documentation shall follow the codes named in the package specification. Where a code is not named, the order of precedence is: Turkish law, ISO / EN, API / ASME, vendor standard (with IEPC approval)."
+}

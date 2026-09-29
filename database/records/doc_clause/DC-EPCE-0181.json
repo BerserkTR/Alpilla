@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.912717Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.912717Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01",
+    "requirement:ER-12.07",
+    "decision:DEC-EPCE-0017"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0181",
+  "remarks": "To be recorded as a decision record",
+  "section": "9",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "Field instruments and control valve positioners use 4-20 mA HART; PROFIBUS PA and FOUNDATION Fieldbus are not used for field devices and PROFIBUS DP is not used between the DCS and the packages (DEC-EPCE-0017). Reasons: (a) the diagnostics of the instruments are available by HART without fieldbus segments; (b) a wiring failure affects a single loop, not a segment of several instruments and valves; (c) fewer protocols reduce the engineering, spare parts, testing and the cybersecurity attack surface of the IEC 62443 conduits; (d) the TCS integration is by OPC UA. Package PLCs and smart devices communicate by Modbus TCP or OPC UA; MV protection relays by IEC 61850."
+}

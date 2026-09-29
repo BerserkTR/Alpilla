@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.356956Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.356956Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0584",
+  "parameter": "Compressed air and nitrogen",
+  "section": "7",
+  "seq": 8,
+  "status": "assumption",
+  "value_text": "RAL 5012 (air, light blue) / RAL 6018 (nitrogen, green)"
+}

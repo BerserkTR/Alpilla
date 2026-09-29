@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.268741Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.268741Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0510",
+  "parameter": "Cycle water and steam, feedwater and condensate",
+  "remarks": "Consistent with tie-in data; erosion-corrosion: chromium content >= 0.1 % in wet / two-phase lines",
+  "section": "4",
+  "seq": 5,
+  "status": "preliminary",
+  "value_text": "Carbon steel (SA-106 Gr B / C) up to 400 degC; P22 (SA-335) for cold reheat and IP steam; P91 (SA-335) for HP and hot reheat steam; 13Cr or cast steel for condensate pump internals"
+}

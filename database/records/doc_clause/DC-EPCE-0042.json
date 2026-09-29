@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.848621Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.848621Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.04"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0042",
+  "section": "7",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Start-up power without generator in service shall come from the grid by back-feed through the GSU and the generator busduct (ER-11.04). The load flow study shall confirm that the back-feed voltage drop and the GSU tap position permit the start of the largest MV motor and the SFC."
+}

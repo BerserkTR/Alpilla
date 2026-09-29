@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.429676Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.429676Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0642",
+  "section": "8",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Fuel gas piping shall be all-welded with flanges only at equipment and valves; the piping shall be laid above ground on sleepers or racks with clearances to ignition sources, with double block and bleed at the GT connection; the pressure drop shall be compatible with the load limiter curve of the gas turbine at the tie-in point IF-01."
+}

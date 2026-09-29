@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.220356Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.220356Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0023",
+    "reference:REF-CONS-0062"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0466",
+  "section": "7",
+  "section_title": "Pressure vessels, tanks and heat exchangers",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Pressure equipment shall be designed, manufactured and certified per the Pressure Equipment Directive 2014/68/EU (conformity module and category per package specification) with EN 13445 or ASME Section VIII Div. 1 as design code; the code shall be stated on the datasheet and shall not be mixed within a vessel. Vessels with design pressure above 0.5 bar(g) but outside the scope of the directive shall be designed to the same codes."
+}

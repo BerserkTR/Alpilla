@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.909401Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.909401Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.03",
+    "reference:REF-CONS-0081"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0175",
+  "section": "8",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Devices in a SIF shall have an IEC 61508 certificate for the SIL, or prior-use justification per IEC 61511; the safety manual of each device applies; the installation shall not degrade the SIL."
+}

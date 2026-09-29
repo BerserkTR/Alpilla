@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.874158Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.874158Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.06",
+    "requirement:ER-11.07"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0106",
+  "section": "13",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Static electricity and earthing of hazardous area equipment shall be per the explosion protection document (ALP-EPC-00000-HS-RPT-0005); tanks, pipe flanges and loading equipment (LDO unloading) shall be bonded and connected to the earth grid."
+}

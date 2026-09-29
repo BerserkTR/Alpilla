@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.082959Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.082959Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.05",
+    "requirement:ER-14.01"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0329",
+  "section": "14",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Drainage systems shall be segregated: (a) clean rainwater, (b) potentially oily water (transformer bunds, LDO area, workshop, turbine hall floors) through oil separators before discharge, (c) chemical drains to the waste water treatment neutralisation, (d) sanitary. Bunds around LDO tanks, transformers and chemical stores shall contain the largest tank volume plus rainfall of the same intensity for 30 minutes and firewater (per HSE design criteria); the discharge of drainage to the sea shall meet the discharge limits of the EIA (HS-RPT-0001)."
+}

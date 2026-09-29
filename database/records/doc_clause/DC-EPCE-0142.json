@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.891705Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.891705Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.05",
+    "reference:REF-CONS-0050",
+    "reference:REF-CONS-0034",
+    "reference:REF-CONS-0036",
+    "reference:REF-CONS-0044",
+    "reference:REF-CONS-0046"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0142",
+  "section": "4",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "Performance calculations per ASME PTC 46 principles, with ASME PTC 22 (GT), PTC 6 (ST), PTC 4.4 (HRSG) and PTC 12.2 (condenser) as the basis of the on-line calculation methods."
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.067338Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.067338Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0016",
+    "reference:REF-CONS-0069",
+    "requirement:ER-13.03"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0309",
+  "remarks": "Ratings to be confirmed by the fire protection concept",
+  "section": "11",
+  "seq": 5,
+  "status": "assumption",
+  "text": "Fire protection of structural steel shall follow the fire resistance requirements of the Fire Regulation and NFPA 850 as determined in the fire protection concept (ALP-EPC-00000-HS-HAZ-0009): a minimum resistance of R 60 for the structures supporting or adjacent to LDO, gas station, transformers and the turbine hall and R 120 for the control and electrical building structure and for firewalls; passive fire protection shall be an intumescent coating compatible with the C5 system or concrete encasement."
+}

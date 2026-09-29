@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.894046Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.894046Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01",
+    "requirement:ER-12.07",
+    "reference:REF-CONS-0082"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0146",
+  "section": "5",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "The TCS shall be a separate IEC 62443 zone (section 13), connected to the DCS through a conduit with firewall; the OPC UA connection uses signed and encrypted sessions with certificates. A failure of the OPC UA link shall not affect the turbine control or protection; the DCS shall show the loss of link on the operator screens and revert to the hardwired signals for start / stop / trip."
+}

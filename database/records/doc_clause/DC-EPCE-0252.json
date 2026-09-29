@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.023458Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.023458Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0008",
+    "design_parameter:DP-OWNR-0047",
+    "requirement:ER-02.07"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0252",
+  "remarks": "The design level at grade is conservative pending the hydrogeological confirmation.",
+  "section": "4",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Groundwater is at +13.5 m a.s.l. (1.5 m below grade), brackish with chloride 3,000 mg/l to 8,000 mg/l, and shall be treated as aggressive to concrete (exposure XS2 and XA2 for buried elements). The design groundwater level for buoyancy and uplift checks of basements, pits and tanks shall be grade (+15.00 m); for settlement and effective stress checks the measured level +13.5 m applies with a sensitivity check at +14.5 m."
+}

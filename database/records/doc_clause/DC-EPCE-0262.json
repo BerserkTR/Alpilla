@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.030740Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.030740Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0087"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0262",
+  "section": "6",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Dead loads: self weight from actual densities (reinforced concrete 25 kN/m3, structural steel 78.5 kN/m3, engineered fill 20 kN/m3); permanent equipment loads, piping, cable trays, insulation, cladding and fireproofing shall be taken from the equipment weights in the database and the vendor drawings; where not yet known an allowance of 1.5 kN/m2 on platforms and 0.5 kN/m2 on roofs shall be added and tracked as an open item."
+}

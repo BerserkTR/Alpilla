@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.386306Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.386306Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0608",
+  "section": "4",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Line list entries (design and operating pressure and temperature, test pressure, class, insulation type, heat tracing) shall be extracted from the piping database; design values in the line list shall not be typed but shall be taken from the registers and the process data."
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.337723Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.337723Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0568",
+  "parameter": "Tanks and vessels, internal (LDO, demin water)",
+  "remarks": "Internal coating or linings for LDO and potable water tanks approved for the service",
+  "section": "5",
+  "seq": 8,
+  "status": "preliminary",
+  "value_text": "Epoxy or phenolic lining 300 to 500 micrometres, holiday tested"
+}

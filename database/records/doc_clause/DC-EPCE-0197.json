@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.921821Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.921821Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.06",
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0197",
+  "section": "10",
+  "seq": 11,
+  "status": "preliminary",
+  "text": "All instruments have a KKS tag, a datasheet generated from the instrument index and a calibration certificate; smart devices are configured by HART DTM / EDD and are documented in the asset management system. Local indicators shall be provided for every local measurement needed by the field operator, not as a substitute for a transmitter."
+}

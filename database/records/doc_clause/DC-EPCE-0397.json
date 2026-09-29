@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.147992Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.147992Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.02",
+    "design_parameter:DP-CASE-0040",
+    "design_parameter:DP-CASE-0041",
+    "design_parameter:DP-CASE-0042",
+    "design_parameter:DP-CASE-0043",
+    "design_parameter:DP-OWNR-0041",
+    "design_parameter:DP-OWNR-0042",
+    "design_parameter:DP-OWNR-0043",
+    "reference:REF-CONS-0084",
+    "reference:REF-CONS-0085",
+    "reference:REF-CONS-0086",
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0397",
+  "section": "4",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "Air emissions shall meet ER-14.02 and the EIA decision at the stack (65 m, EIA decision per the approved dispersion study); the values above apply to natural gas at the stated load range and to LDO firing for not more than 500 h/year; emissions shall be measured continuously by CEMS per EN 14181 (QAL1 certified per EN 15267-3, sampling location per EN 15259) with on-line reporting; the SCR ammonia slip shall be controlled at the stack to the limit above."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.136884Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.136884Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.05",
+    "reference:REF-CONS-0069"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0387",
+  "section": "12",
+  "seq": 4,
+  "status": "assumption",
+  "text": "Smoke extraction shall be provided for the corridors and escape stairs of the control, electrical and administration buildings (mechanical smoke extraction at 10 air changes per hour or natural smoke vents of 1 m2 aerodynamic area per 100 m2 of floor) with make-up air from outside, and for the cable basement and cable rooms by manual smoke extraction after the extinguishing; the smoke control fans shall be rated for 400 degC for 2 hours, supplied from the essential section and not subject to trips by the HVAC control."
+}

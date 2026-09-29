@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.838156Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.838156Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0049",
+    "design_parameter:DP-OWNR-0050",
+    "design_parameter:DP-CASE-0025"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0009",
+  "section": "3",
+  "seq": 3,
+  "status": "confirmed",
+  "text": "The 380 kV system operates within the voltage range of DP-OWNR-0050 and with the short-circuit level range of DP-OWNR-0049. The lower value shall be used for generator synchronisation, voltage regulation and minimum-fault protection sensitivity; the upper value for the equipment ratings of the GIS bays, together with the switchyard rating of DP-CASE-0025."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.850066Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.850066Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016",
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0046",
+  "section": "7",
+  "seq": 9,
+  "status": "preliminary",
+  "text": "The load of every LV transformer from the electrical load list, with the other transformer of its pair out of service, shall not exceed 80 % of its AN rating in any heat balance case (DEC-EPCE-0016); the remaining 20 % covers the 10 % load-list margin and design growth. A spare capacity of 20 % shall be provided in the number of feeders of every board."
+}

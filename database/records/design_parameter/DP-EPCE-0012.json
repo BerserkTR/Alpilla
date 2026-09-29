@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:27:01.101259Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:27:01.101259Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0007"
+  ],
+  "category": "water",
+  "condition": "above ambient salinity, maximum",
+  "id": "DP-EPCE-0012",
+  "parameter": "SWRO brine salinity excess at 50 m from the diffuser",
+  "status": "confirmed",
+  "unit": "%",
+  "value": 5
+}

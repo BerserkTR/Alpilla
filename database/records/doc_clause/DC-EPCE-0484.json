@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.239833Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.239833Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0484",
+  "section": "10",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Equipment shall be arranged with clear maintenance envelopes to allow removal of the largest component (motor, pump rotor, tube bundle, filter element) without dismantling of other equipment or piping; the envelope shall be shown in the layout. Vendors shall state the heaviest maintenance item and its removal path."
+}

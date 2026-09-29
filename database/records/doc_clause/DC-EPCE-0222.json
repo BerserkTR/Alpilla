@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.938268Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.938268Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.07",
+    "reference:REF-CONS-0082"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0222",
+  "section": "13",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "System hardening: role-based access with individual accounts (no shared accounts), password policy, removal of unused services and ports, USB and removable media control, application whitelisting on the servers and workstations, and malware protection compatible with the DCS supplier; every component has a documented baseline configuration."
+}

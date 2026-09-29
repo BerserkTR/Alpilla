@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.425912Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.425912Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0639",
+  "section": "7",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Loads on equipment nozzles shall be within the allowable loads of the vendor (or ISO 13707 / API 610, API 617, NEMA SM23) and shall be verified in the pipe stress analysis; pump suction nozzle loads at 2 x API 610 table values where approved by the pump vendor."
+}

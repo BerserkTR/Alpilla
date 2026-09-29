@@ -1,0 +1,20 @@
+{
+  "db_hash": "5338509ed0defea8",
+  "engine": "technical_documents",
+  "engine_version": "1.2.0",
+  "files": {
+    "ALP-EPC-00000-PI-SPC-0002.docx": "7322d9050fc94903d6af90f97bb2a76f6ac6e38e86ad089a587cc96d9399d805",
+    "ALP-EPC-00000-PI-SPC-0002.pdf": "6da9c9010f3ae27395ac0a1ba463f25a0a61e83224f55f19dfc77c3fb5f6e6f9"
+  },
+  "folder": "internal_deliveries/DLV-EPCE-0015_ALP-EPC-00000-PI-SPC-0002-Rev-A-IFR",
+  "generated_at": "2026-09-29T03:43:21.185640Z",
+  "git_commit": "e89d9d3",
+  "id": "DLV-EPCE-0015",
+  "inputs_hash": "ce8976d34c6fce7c",
+  "issued_at": "2026-09-29T03:43:40.297651Z",
+  "issued_by": "EPCE",
+  "purpose": "IFR",
+  "recipients": "Owner (approval)",
+  "remarks": "wave 2: first issue (TQ-041 answered, findings resolved)",
+  "title": "ALP-EPC-00000-PI-SPC-0002 Rev A IFR"
+}

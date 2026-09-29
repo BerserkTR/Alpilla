@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.278447Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.278447Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0018"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0517",
+  "parameter": "Fire water",
+  "remarks": "Fire water is SWRO permeate, no seawater admitted (DEC-EPCE-0018)",
+  "section": "4",
+  "seq": 12,
+  "status": "preliminary",
+  "value_text": "Ductile iron, carbon steel galvanised or GRP for underground; bronze or stainless internals of pumps and valves (fresh-water fire water)"
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.269843Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.269843Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0015"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0511",
+  "parameter": "Condensate and demineralised water",
+  "remarks": "AVT(O), ammonia, pH 9.2 to 9.6 per DEC-EPCE-0015",
+  "section": "4",
+  "seq": 6,
+  "status": "preliminary",
+  "value_text": "Carbon steel with 316L / 304L in demin storage and wetted parts of demin pumps; PP / PVC-U / 316L in the demin package"
+}

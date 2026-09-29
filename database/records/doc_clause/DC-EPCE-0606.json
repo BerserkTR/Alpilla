@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.383934Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.383934Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0606",
+  "section": "4",
+  "seq": 3,
+  "status": "confirmed",
+  "text": "Design pressure and design temperature of lines connected to equipment shall be not lower than the equipment design data (design_pressure, design_temperature in the equipment register) up to and including the first isolation valve, and shall agree with the piping class; lines shall not be rated lower than their relief device set pressure."
+}

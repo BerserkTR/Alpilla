@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.836333Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.836333Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0003",
+  "section": "1",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Out of scope: the I&C design criteria (ALP-EPC-00000-IC-DBR-0001), the cathodic protection design (ALP-EPC-00000-EL-CAL-0005) and the construction power supply (ALP-EPC-00000-EL-SLD-0002); they are referred to where they interface."
+}

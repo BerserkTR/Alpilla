@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.161143Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.161143Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0067"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0410",
+  "parameter": "LDO storage tanks to buildings, boundary and ignition sources",
+  "remarks": "Tank farm bund and drainage",
+  "section": "7",
+  "seq": 3,
+  "status": "assumption",
+  "value_text": "per NFPA 30, and not less than 15 m to buildings; dike volume per the drainage criteria"
+}

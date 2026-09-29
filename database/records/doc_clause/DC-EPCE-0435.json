@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.186524Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.186524Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.06",
+    "reference:REF-CONS-0014"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0435",
+  "section": "11",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Explosion protection document: an explosion protection document per the Explosive Atmospheres Regulation shall be prepared for the plant (HS-RPT-0005), consolidating the hazardous area classification, the equipment and the organisational measures; the design of buildings with a gas explosion risk shall include the explosion venting or blast loads as determined by the study."
+}

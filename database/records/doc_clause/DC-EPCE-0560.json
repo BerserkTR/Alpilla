@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.327755Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.327755Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0560",
+  "section": "4",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Stainless steel surfaces shall not be blasted with carbon steel grit; the surfaces shall be degreased and coated only with chloride-free coatings; contamination by iron shall be removed by pickling."
+}

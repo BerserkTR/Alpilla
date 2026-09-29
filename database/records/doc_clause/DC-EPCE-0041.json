@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.848277Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.848277Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0041",
+  "section": "7",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "With 10BBT out of service the plant runs from 20BBT. A GT start from 20BBT alone is possible only with the start-up auxiliary load limited to 5 MW besides the static frequency converter (short-time loading per IEC 60076-7, DEC-EPCE-0016); the load-flow and motor-starting study of section 16 confirms the limit, which is stated in the operating instructions."
+}

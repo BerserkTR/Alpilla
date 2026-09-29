@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.114455Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.114455Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0366",
+  "section": "7",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Pressurisation: control and electronic rooms and MV / LV / UPS / battery-adjacent electrical rooms shall be kept at a positive pressure of not less than 25 Pa (50 Pa for the control building and the electronic rooms) relative to the outside and to adjacent unconditioned spaces; the airflow at open doors shall be enough to keep 0.5 m/s in the door opening at the standard leakage of the building; the pressure shall be controlled by a pressure sensor per room (dual sensors on the control building) with modulating supply and relief dampers; loss of pressure shall raise an alarm in the control room."
+}

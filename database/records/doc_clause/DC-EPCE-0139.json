@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.889922Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.889922Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0003",
+    "design_parameter:DP-CASE-0002",
+    "design_parameter:DP-CASE-0007",
+    "design_parameter:DP-CASE-0009",
+    "design_parameter:DP-OWNR-0005",
+    "design_parameter:DP-OWNR-0007",
+    "design_parameter:DP-OWNR-0014",
+    "design_parameter:DP-CASE-0013",
+    "decision:DEC-EPCE-0015",
+    "requirement:ER-02.08"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0139",
+  "section": "3",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Field instruments and control equipment shall be rated for the ambient range of DP-CASE-0007 to DP-CASE-0009, the marine C5 atmosphere (DP-CASE-0003) with the salt and chloride loads of DP-OWNR-0005 and DP-OWNR-0007, and the seismic design of DP-CASE-0002. Seawater-wetted parts shall be designed for the chloride content and temperature of DP-OWNR-0014 and DP-CASE-0013 and the intermittent chlorination of DEC-EPCE-0015."
+}

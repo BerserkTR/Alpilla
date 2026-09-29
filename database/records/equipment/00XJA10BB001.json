@@ -2,15 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.056635Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-29T02:47:15.399877Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:38:34.868889Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Tank",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
-  "capacity": 2,
+  "capacity": 3,
   "capacity_unit": "m3",
   "cwa": "CWA-03",
   "cwp": "CWP-03-HV-01",
@@ -24,7 +24,7 @@
   "mr": "MR-EL-006",
   "quantity": 1,
   "redundancy": "1 x 100 %",
-  "remarks": "Atmospheric. 0.72 MW x 0.26 L/kWh = 190 L/h; 2 m3 = about 10 h autonomy (bulk supply from LDO storage for 24-72 h).",
+  "remarks": "8 h at rated load (about 250 l/h at 1,000 kW) = 2.0 m3 usable; 3 m3 nominal with unusable volume and 25 % margin (EL-DBR-0001 9.3)",
   "service": "Emergency diesel generator day tank",
   "status": "preliminary",
   "supply": "IEPC",

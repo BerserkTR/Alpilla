@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.331478Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.331478Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0563",
+  "parameter": "Carbon steel, hot surfaces from 120 degC to 400 degC, uninsulated",
+  "remarks": "Temperature range per the coating manufacturer's data sheet",
+  "section": "5",
+  "seq": 3,
+  "status": "preliminary",
+  "value_text": "Inorganic zinc silicate or silicone aluminium; total DFT 50 to 100 micrometres"
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.477030Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.477030Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0007",
+    "requirement:ER-14.01"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0676",
+  "section": "4",
+  "section_title": "Monitoring commitments",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Emissions: continuous measurement of the CEMS parameters with on-line reporting to the authority and the Owner; LDO operating hours are logged per firing period and reported in the monthly environmental report; the emission tests ALP-EPC-00000-CM-CMP-0006 are performed during the Tests on Completion (ER-16.05)."
+}

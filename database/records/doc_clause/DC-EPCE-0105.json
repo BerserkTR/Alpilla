@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.873623Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.873623Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.06",
+    "requirement:ER-10.06",
+    "reference:REF-CONS-0083"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0105",
+  "section": "13",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Electrical rooms, battery rooms and switchgear shall be located outside classified areas; where a room is close to a zone, the room shall be pressurised (overpressure of at least 50 Pa and airlocks) with filtered air taken from a non-hazardous location and with a fire and gas detection interlock; battery rooms shall have a ventilation of the hydrogen released (EN 50272-2) with hydrogen detection (alarm at 10 % LEL, charger trip at 25 % LEL, HV-DBR-0001 section 8)."
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.074365Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.074365Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.07",
+    "source:SRC-OWNR-0008",
+    "reference:REF-CONS-0017"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0318",
+  "section": "13",
+  "section_title": "Foundations",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Foundation solution: for all heavy and vibrating structures (GT, ST, generators, HRSG, stack, GSU transformers, condenser, main buildings, boiler feed and CW pumps, LDO and fire water tank rings) deep foundations shall be used: bored cast-in-place piles socketed into the weathered sandstone / marl at 18 m to 25 m depth, designed to EN 1997-1 and TBDY 2018 chapter 16; ground improvement (stone columns or deep soil mixing) is an option for lightly loaded structures, pipe racks, roads and small buildings, subject to demonstration of the liquefaction and settlement criteria."
+}

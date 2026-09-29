@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.529207Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.529207Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-GE-PRC-0002",
+    "decision:DEC-EPCE-0013"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0712",
+  "section": "7",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "A document with an input revised after its issue is reported as CHECK REQUIRED; a review code 3 is reported as blocking the release of the documents that use it; documents blocked by their inputs are reported with the blocking inputs from the release plan (python -m engine doc status <document>)."
+}

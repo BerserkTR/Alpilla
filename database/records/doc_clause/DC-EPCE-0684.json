@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.488082Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.488082Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "clarification:TQ-041",
+    "decision:DEC-EPCE-0015"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0684",
+  "section": "5",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Resolved before this issue: the chlorine compliance point and the transients of the CW rise (TQ-041); the brine interlock and the seal-pit control of the residual oxidant (DEC-EPCE-0015); design parameters for CO on LDO, the day noise limit, the intake velocity, the brine salinity and the marine works window; the finish constraint of the marine works."
+}

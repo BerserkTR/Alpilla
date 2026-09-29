@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.462140Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.462140Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0006",
+    "decision:DEC-EPCE-0015",
+    "permit:PMT-019",
+    "permit:PMT-022",
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0666",
+  "parameter": "EIA 2.4 Water: process and sanitary effluents treated to the Water Pollution Control Regulation sea-discharge limits",
+  "remarks": "ALP-EPC-00GNA-PR-SDS-0001 (waste water treatment SDD); ALP-EPC-00GUA-PR-SDS-0001 (sanitary); ALP-EPC-00GMA-PR-SDS-0001 (process drains); ALP-EPC-00000-PR-LST-0003; permits PMT-019, PMT-022.",
+  "section": "3",
+  "seq": 8,
+  "status": "preliminary",
+  "value_text": "Process effluents are collected by the process drains system and treated in the waste water treatment package with neutralisation by acid and caustic dosing (DEC-EPCE-0015); sanitary waste water is treated in a separate package; discharge quality is monitored and checked against the sea-discharge limits of the regulation in reference REF-CONS-0006; storm water discharge consent PMT-022."
+}

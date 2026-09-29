@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.112838Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.112838Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0047",
+    "design_parameter:DP-OWNR-0005",
+    "design_parameter:DP-OWNR-0007",
+    "design_parameter:DP-OWNR-0008",
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0364",
+  "remarks": "Filter classes to be confirmed by an air quality sampling of chloride and PM10",
+  "section": "7",
+  "section_title": "Filtration and pressurisation of buildings",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Filtration against salt and dust: the outdoor air intakes of all conditioned buildings shall have weather louvres with drift eliminators (removal of at least 99 % of droplets above 10 microns at the design face velocity of 2.5 m/s or less), followed by a G4 pre-filter and an F7 filter; the control building, electronic rooms, MV / LV rooms, UPS and battery rooms and the GIS building shall have a final F9 filter (EN ISO 16890 ePM1 >= 80 %), and the control building and electronic rooms shall in addition have an E10 EPA filter (EN 1822) or gas-phase filtration to keep the airborne chloride and sulphur gases at the ISA 71.04 severity G1 level."
+}

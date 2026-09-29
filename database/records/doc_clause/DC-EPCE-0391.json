@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.141316Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.141316Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.01",
+    "requirement:ER-14.05"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0391",
+  "section": "1",
+  "section_title": "Purpose and scope",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "This document defines the HSE design criteria of the Alpilla 600 MW combined cycle plant: environmental limits, noise, occupational exposure, safety distances, hazardous area classification basis, escape routes and access, ergonomics, fire protection basis, the process safety study programme and the major accident basis. It is the basis for the HSE studies (HAZID, HAZOP, SIL, QRA, fire risk assessment, explosion protection document) and for the design of all disciplines."
+}

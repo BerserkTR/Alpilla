@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.373016Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.373016Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0055"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0597",
+  "section": "2",
+  "section_title": "Codes and standards",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Power piping (steam, feedwater, condensate, boiler blowdown and drains, auxiliary steam, cooling water inside the power block, compressed air, fuel gas and LDO within the plant boundary) shall be designed to ASME B31.1."
+}

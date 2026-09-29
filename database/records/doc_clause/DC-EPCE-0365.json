@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.113667Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.113667Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0005",
+    "design_parameter:DP-OWNR-0008",
+    "design_parameter:DP-OWNR-0006",
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0365",
+  "section": "7",
+  "seq": 2,
+  "status": "assumption",
+  "text": "The filters shall be sized for the maximum sea-salt aerosol event (165 ug/m3, DP-OWNR-0005) and the PM10 episode (260 ug/m3, DP-OWNR-0008) with a filter change interval of at least 6 months at the annual mean salt concentration (14 ug/m3, DP-OWNR-0006); each filter bank shall have differential pressure monitoring with alarm at 2 times the clean value and a bypass-free arrangement (sealed frames); the filters shall be accessible and replaceable without interrupting the pressurisation of the room (see redundancy)."
+}

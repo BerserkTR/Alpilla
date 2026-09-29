@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.097873Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.097873Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0008"
+  ],
+  "block": "params:ambient",
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0347",
+  "section": "4",
+  "section_title": "Outdoor design conditions",
+  "seq": 1,
+  "status": "confirmed"
+}

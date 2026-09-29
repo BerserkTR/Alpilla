@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.893340Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.893340Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01",
+    "requirement:ER-12.07"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0145",
+  "remarks": "TQ-026 accepted with conditions; Owner acceptance of the TCS integration is pending (TQ-IEC-004)",
+  "section": "5",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Integration with the TCS: all TCS operation, alarms, trends and events are presented on the DCS operator stations with the DCS look and feel and with no separate operator HMI in normal operation; the TCS remains hardware of the power island supplier and keeps the turbine protection. The interface is via redundant OPC UA between the TCS servers and the DCS, with one KKS tag database exported to the DCS, plus hardwired signals for start, stop, emergency trips and the load set-point (TQ-026 and TQ-IEC-004)."
+}

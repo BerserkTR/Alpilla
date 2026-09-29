@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.174896Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.174896Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0016",
+    "reference:REF-CONS-0069"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0424",
+  "section": "9",
+  "seq": 5,
+  "status": "assumption",
+  "text": "Vehicle access: the fire brigade shall have access to all buildings and process areas from two directions at least, with the fire road width of 6 m and turning radius of 12.5 m, hydrants along the roads and clear access to the fire water tanks and pumps; the roads shall be designed per the civil design criteria (CV-DBR-0001)."
+}

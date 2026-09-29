@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:14.273318Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:14.273318Z",
+    "updated_by": "EPCE"
+  },
+  "applies_to": "Instrument and cabinet ingress protection (IC-DBR s.10)",
+  "code": "IEC 60529",
+  "disciplines": [
+    "electrical",
+    "i_and_c"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-EPCE-0024",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "remarks": "Proposed with the wave-2 design criteria; to be agreed with the Owner and IEC in the next codes and standards round.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "proposed",
+  "title": "Degrees of protection provided by enclosures (IP code)"
+}

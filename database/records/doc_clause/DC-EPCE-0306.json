@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.064850Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.064850Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.03",
+    "reference:REF-CONS-0090"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0306",
+  "section": "11",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Bolting: structural bolts M16 minimum, grade 8.8 hot-dip galvanised with matching nuts and washers; slip-critical and seismic connections grade 10.9 preloaded, galvanised or with a sherardised / zinc flake coating; anchor bolts galvanised, in sleeves to the OEM drawing. Welded connections in seismic force resisting systems shall use full penetration welds in the plastic hinge regions."
+}

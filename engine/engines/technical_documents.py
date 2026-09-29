@@ -27,6 +27,11 @@ from ..core.runner import Context, Engine, pdf_from_office
 HEAD = ["Item", "Value", "Unit", "Status", "Basis / remarks"]
 
 
+def _ids(refs) -> str:
+    """basis references printed as record ids (the entity is clear from the id prefix)"""
+    return ", ".join(r.split(":", 1)[-1] for r in refs or [])
+
+
 def _num(v):
     return f"{v:,.10g}" if isinstance(v, (int, float)) else ""
 
@@ -38,7 +43,7 @@ def _skey(sec: str):
 class TechnicalDocuments(Engine):
     name = "technical_documents"
     title = "Clause-based documents: design criteria, general specifications, reports, procedures, matrices (Word + PDF)"
-    version = "1.0.0"
+    version = "1.2.0"
     inputs = ["project", "document", "document_revision", "doc_type", "doc_clause", "design_parameter", "equipment",
               "guarantee", "hmb_case", "process_stream", "aux_load", "requirement", "decision", "permit", "tie_in",
               "progress_rule", "reference", "party", "system", "mr", "source", "contract"]
@@ -94,8 +99,10 @@ class TechnicalDocuments(Engine):
                 if c.get("parameter"):
                     head = head or c.get("table_head")
                     val = " ".join(filter(None, [_num(c.get("value")), c.get("value_text")]))
-                    basis = "; ".join(filter(None, [", ".join(c.get("basis_refs") or []), c.get("remarks")]))
-                    rows.append([c["parameter"], val, c.get("unit") or "", c.get("status") or "", basis])
+                    ids = _ids(c.get("basis_refs"))
+                    basis = "; ".join(filter(None, [ids, c.get("remarks")]))
+                    evidence = " ".join(filter(None, [c.get("remarks"), f"[{ids}]" if ids else ""]))   # matrix column
+                    rows.append([c["parameter"], val, c.get("unit") or "", c.get("status") or "", basis, evidence])
             self._flush(d, rows, head)
         # references
         refs = {r["id"]: r for r in s.records("reference")}
@@ -122,7 +129,7 @@ class TechnicalDocuments(Engine):
             w = [5.0, 4.2, 1.6, 1.8, 4.0]
         else:
             w = [16.6 / len(h)] * len(h)
-        d.table(h, [r[:len(h)] if len(h) == 5 else [r[0], r[1], r[4]][:len(h)] for r in rows], w, size=7)
+        d.table(h, [r[:5] if len(h) == 5 else [r[0], r[1], r[5]][:len(h)] for r in rows], w, size=7)
 
     # ------------------------------------------------------------------ automatic blocks
     def _block(self, ctx, d, no, spec):
@@ -137,7 +144,7 @@ class TechnicalDocuments(Engine):
                 return warn()
             d.table(["Parameter", "Value", "Condition", "Status", "Basis"],
                     [[p["parameter"], " ".join(filter(None, [_num(p.get("value")), p.get("value_text"), p.get("unit")])),
-                      p.get("condition") or "", p.get("status") or "", ", ".join(p.get("basis_refs") or [])] for p in ps],
+                      p.get("condition") or "", p.get("status") or "", _ids(p.get("basis_refs"))] for p in ps],
                     [5.0, 3.6, 3.4, 1.8, 2.8], size=7)
         elif kind == "equipment":
             how, _, sel = arg.partition("=")
@@ -153,12 +160,18 @@ class TechnicalDocuments(Engine):
                          f"{_num(e.get('rated_power'))} kW" if e.get("rated_power") else "",
                          (f"{e['voltage'] / 1000:g} kV" if e["voltage"] >= 1000 else f"{e['voltage']:g} V") if e.get("voltage") else ""]
                 return ", ".join(p for p in parts if p)
-            d.table(["Tag", "Description", "Service", "Redundancy", "Rating", "Design P / T", "Material"],
-                    [[e["id"], e.get("description", ""), e.get("service") or "", e.get("redundancy") or "", rating(e),
-                      " / ".join(filter(None, [f"{_num(e.get('design_pressure'))} barg" if e.get("design_pressure") is not None else "",
-                                               f"{_num(e.get('design_temperature'))} degC" if e.get("design_temperature") is not None else ""])),
-                      e.get("material") or ""] for e in sorted(eq, key=lambda e: e["id"])],
-                    [2.4, 3.2, 3.0, 1.8, 2.6, 1.8, 1.8], size=6.5)
+            def pt(e):
+                return " / ".join(filter(None, [f"{_num(e.get('design_pressure'))} barg" if e.get("design_pressure") is not None else "",
+                                                f"{_num(e.get('design_temperature'))} degC" if e.get("design_temperature") is not None else ""]))
+            eq = sorted(eq, key=lambda e: e["id"])
+            rows = [[e["id"], e.get("description", ""), e.get("service") or "", e.get("redundancy") or "", rating(e), pt(e),
+                     e.get("material") or ""] for e in eq]
+            if any(r[5] for r in rows):
+                d.table(["Tag", "Description", "Service", "Redundancy", "Rating", "Design P / T", "Material"], rows,
+                        [2.0, 3.4, 3.0, 2.0, 2.2, 1.4, 2.6], size=6.5)
+            else:                                   # no pressure equipment in the selection: no empty column
+                d.table(["Tag", "Description", "Service", "Redundancy", "Rating", "Material"], [r[:5] + r[6:] for r in rows],
+                        [2.0, 3.6, 3.2, 2.2, 2.6, 3.0], size=6.5)
         elif kind == "guarantees":
             g = sorted(s.records("guarantee"), key=lambda x: (x["contract"], x["id"]))
             d.table(["Id", "Guarantee", "Value", "Min / max", "Conditions"],
@@ -197,7 +210,7 @@ class TechnicalDocuments(Engine):
             d.table(["Point", "Service", "Status"], [[x["id"], x.get("service", ""), x.get("status", "")] for x in t],
                     [2.0, 12.0, 2.6], size=7)
         elif kind == "progress_rules":
-            p = sorted(s.records("progress_rule"), key=lambda x: x["id"])
+            p = sorted(s.records("progress_rule"), key=lambda x: (x["percent"], x["id"]))   # in step order
             if not p:
                 return warn()
             d.table(["Step", "% earned", "Remarks"], [[x["id"], _num(x["percent"]), x.get("remarks") or ""] for x in p],

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.552887Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.552887Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0728",
+  "section": "9",
+  "seq": 7,
+  "status": "preliminary",
+  "text": "Payment milestones of the contract are reported with their trigger and status; a milestone is claimed only when its trigger is met and evidenced by the document or certificate named in the contract."
+}

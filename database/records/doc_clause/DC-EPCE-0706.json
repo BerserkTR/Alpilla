@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.520860Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.520860Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02",
+    "document:ALP-EPC-00000-GE-PLN-0001",
+    "decision:DEC-EPCE-0012"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0706",
+  "section": "6",
+  "section_title": "Schedule levels, critical path and float",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "The schedule has three levels. Level 1: contract key dates and milestones (Notice to Proceed, back-feed energisation, GT first fire, first synchronisation in combined cycle, Taking-Over) as shown in ALP-EPC-00000-GE-PLN-0001. Level 2: phases and the work areas (CWA) with their construction work packages (CWP). Level 3: the CPM network of activities (activity records) with durations in working days, logic links (FS, SS, FF, SF with lags), constraints, deliverable documents and budget hours; it is issued as ALP-EPC-00000-PC-SCH-0001."
+}

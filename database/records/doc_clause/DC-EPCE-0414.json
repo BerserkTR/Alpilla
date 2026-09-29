@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.164959Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.164959Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.05"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0414",
+  "parameter": "Sodium hypochlorite and acid / caustic storage to ammonia storage",
+  "section": "7",
+  "seq": 7,
+  "status": "assumption",
+  "value_text": "separate bunds; not less than 10 m or a wall to avoid mixing of the chemicals"
+}

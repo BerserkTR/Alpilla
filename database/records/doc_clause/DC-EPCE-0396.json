@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.147065Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.147065Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.02"
+  ],
+  "block": "params:emissions",
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0396",
+  "section": "4",
+  "section_title": "Environmental limits",
+  "seq": 1,
+  "status": "confirmed"
+}

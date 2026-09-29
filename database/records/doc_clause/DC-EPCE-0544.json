@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.308504Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.308504Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-15.04",
+    "reference:REF-CONS-0065"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0544",
+  "section": "10",
+  "section_title": "Inspection, testing and material control",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Positive material identification (PMI) shall be carried out for 100 % of alloy piping, pressure parts of alloy materials and super duplex components; the tests shall be recorded and the result included in the material dossier."
+}

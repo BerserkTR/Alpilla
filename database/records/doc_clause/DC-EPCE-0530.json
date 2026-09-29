@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.292487Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.292487Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-EL-CAL-0005"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0530",
+  "section": "7",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Sacrificial anode systems shall be used for immersed structures and seawater equipment; impressed current systems shall be considered for buried piping only where the anode mass calculation shows more than 40 % saving over the design life. The interaction between the earthing system and the cathodic protection of buried steel shall be checked in the earthing design."
+}

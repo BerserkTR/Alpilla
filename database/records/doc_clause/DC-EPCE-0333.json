@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.086051Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.086051Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.05"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0333",
+  "parameter": "Vertical clearance over roads (pipe racks, bridges)",
+  "remarks": "Same as the piping design criteria (PI-SPC-0002 section 6)",
+  "section": "14",
+  "seq": 6,
+  "status": "assumption",
+  "value_text": "not less than 6.0 m; 7.5 m on the heavy transport route"
+}

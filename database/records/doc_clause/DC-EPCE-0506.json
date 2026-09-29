@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.263944Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.263944Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-08.03",
+    "requirement:ER-02.04"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0506",
+  "parameter": "Seawater, pumps, valves, strainers (wetted)",
+  "remarks": "Per ER-08.03; no 316L in stagnant chlorinated seawater",
+  "section": "4",
+  "section_title": "Materials by service",
+  "seq": 1,
+  "status": "preliminary",
+  "table_head": [
+    "Item",
+    "Value / rule",
+    "Remarks"
+  ],
+  "value_text": "Super duplex (UNS S32750 / S32760, PREN >= 40), 6Mo or titanium Gr 2; rubber-lined carbon steel for large casings and columns"
+}

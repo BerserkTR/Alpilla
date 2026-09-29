@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.445865Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.445865Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0654",
+  "section": "1",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Compliance values are not repeated in this matrix: each row cites the design parameter, guarantee, decision or permit record that holds the value. The EIA limit quoted in the condition column is the Owner's text and governs where it differs from a design value."
+}

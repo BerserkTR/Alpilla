@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.189438Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.189438Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.08",
+    "requirement:ER-14.07"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0438",
+  "section": "12",
+  "seq": 3,
+  "status": "assumption",
+  "text": "Future carbon capture: the space reservation and the tie-in points of ER-14.08 shall be included in the HAZID, the layout risk assessment and the safety distances, so that the future plant does not reduce the safety distances of section 7."
+}

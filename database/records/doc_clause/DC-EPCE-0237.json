@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.013618Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.013618Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.06"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0237",
+  "section": "16",
+  "seq": 4,
+  "status": "confirmed",
+  "text": "Operator training simulator (OTS): a high-fidelity, whole-plant simulator (ER-12.06) that contains the same DCS graphics and control functions (emulated controllers or the hardware of the DCS) and the TCS logic (or a validated model), with dynamic models of the GT, HRSG, ST, condenser, cycle, cooling water, water treatment, fuel systems and the electrical system; instructor station with malfunction, snapshot, replay and scenario functions; the specification is ALP-EPC-00CKA-GE-SPC-0001."
+}

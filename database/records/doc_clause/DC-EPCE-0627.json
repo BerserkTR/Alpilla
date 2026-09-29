@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.410811Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.410811Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0627",
+  "section": "6",
+  "section_title": "Layout: pipe racks, elevations and clearances",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Piping shall be arranged in pipe racks along the main routes with piperack tiers by service: steam and hot lines on the upper tier, process and utility water on the intermediate tier, cables and instrument on the separate trays; each rack shall have at least 20 % spare space and a 25 % spare load capacity for future lines."
+}

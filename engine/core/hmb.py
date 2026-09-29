@@ -266,6 +266,9 @@ def _checks(res: Result, refs: dict):
                 C.append(("OK" if not over else ("INFO" if lim else "WARN"),
                           f"net export {sm['net'] / 1000:,.1f} MW vs {rid} connection capacity {val:,.0f} MW (this case)"
                           + (f"; capability above the capacity, export limited: {lim}" if over and lim else "")))
+            elif unit == "K" and sm["cw_rise"] is not None:     # environmental limit, e.g. EIA condenser rise
+                C.append(("OK" if sm["cw_rise"] <= val else "WARN",
+                          f"CW temperature rise {sm['cw_rise']:.2f} K vs {rid} <= {val} K ({r.get('parameter', '')})"))
             elif unit.startswith("mbar"):
                 x = sm["condenser_pressure_mbar"]
                 if x is not None:

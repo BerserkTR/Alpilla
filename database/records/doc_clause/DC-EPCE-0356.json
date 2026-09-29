@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.105940Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.105940Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06",
+    "design_parameter:DP-CASE-0008"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0356",
+  "parameter": "Gas and steam turbine halls",
+  "remarks": "Ventilation by roof ventilators; heat gain from OEM",
+  "section": "5",
+  "seq": 6,
+  "status": "assumption",
+  "value_text": "maximum ambient + 10 K in summer, minimum +5 degC in winter"
+}

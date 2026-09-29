@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.246151Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.246151Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-15.04",
+    "reference:REF-CONS-0065"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0490",
+  "section": "12",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "Material certificates shall be EN 10204 type 3.1 for all pressure-retaining and load-carrying parts; type 3.2 for pressure parts with design pressure above 50 bar; positive material identification (PMI) shall be carried out on 100 % of alloy components and alloy piping of the package."
+}

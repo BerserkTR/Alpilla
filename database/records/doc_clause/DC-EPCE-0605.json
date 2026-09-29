@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.382759Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.382759Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014",
+    "design_parameter:DP-CASE-0009"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0605",
+  "section": "4",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The design temperature of a line shall be the maximum operating temperature plus 15 K for steam and water systems above 150 degC, plus 10 K for other systems, and minimum design metal temperature (MDMT) per the lowest ambient temperature of the site (DP-CASE-0009) or the lowest process temperature (Joule-Thomson cooling in gas pressure reduction), whichever is lower."
+}

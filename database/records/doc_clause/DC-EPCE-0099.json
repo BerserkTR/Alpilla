@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.871150Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.871150Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.12",
+    "requirement:ER-14.06",
+    "reference:REF-CONS-0079",
+    "design_parameter:DP-CASE-0043"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0099",
+  "section": "12",
+  "seq": 8,
+  "status": "preliminary",
+  "text": "Minimum protection levels: LPL I for the stack (65 m height), the LDO and ammonia storage, the gas receiving station and other structures containing hazardous areas; LPL II for the buildings that contain electronic systems (control, electrical and GIS buildings) unless the risk assessment permits less; the acceptable risk R1 (loss of human life) is 1E-5 per year or less."
+}

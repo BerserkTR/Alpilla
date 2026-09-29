@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.853894Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.853894Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0057",
+  "parameter": "Voltage dip on the busbar at the start of one motor",
+  "remarks": "With one UAT or one LV transformer out of service the limits shall still be met (15 % MV, 20 % LV) or the start blocked by interlock",
+  "section": "8",
+  "seq": 8,
+  "status": "preliminary",
+  "value_text": "10 % or less on the MV bus, 15 % or less on the LV bus (normal supply)"
+}

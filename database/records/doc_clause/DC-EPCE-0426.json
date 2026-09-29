@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.177181Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.177181Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-EPCE-0006",
+    "design_parameter:DP-EPCE-0007",
+    "decision:DEC-EPCE-0014",
+    "reference:REF-CONS-0070",
+    "reference:REF-CONS-0069",
+    "decision:DEC-EPCE-0018"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0426",
+  "section": "10",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "Fire water shall be provided for the design flow and pressure of DP-EPCE-0006 (the LDO tank, being the largest single hazard, plus a hose stream allowance, at 110 m head) with the storage of DP-EPCE-0007 (2 x 100 % tanks, 2 hours); the fire water is fresh water filled from the SWRO permeate (DEC-EPCE-0018); the fire pumps are one electric and one diesel pump each of 100 % (NFPA 20, DEC-EPCE-0014), the diesel pump shall start automatically on the low pressure of the ring main and the electric pump shall be supplied from the essential section; the fire water main shall be a buried looped ring main sectionalised so that no single break cuts the supply to more than one fire area."
+}

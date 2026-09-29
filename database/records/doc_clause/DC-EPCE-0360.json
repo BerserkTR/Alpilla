@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.109334Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.109334Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0360",
+  "parameter": "Gatehouse and fire station",
+  "section": "5",
+  "seq": 10,
+  "status": "assumption",
+  "value_text": "summer 26 degC, winter 20 degC"
+}

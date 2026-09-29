@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.466435Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.466435Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "permit:PMT-011",
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0669",
+  "parameter": "EIA 3.2 Noise, construction: noisy works (piling, blasting, steam blowing) only 07:00-19:00 weekdays and 08:00-17:00 Saturdays; steam blowing with 7 days' notice to the village and silencers",
+  "remarks": "ALP-EPC-00000-HS-PLN-0003 (construction environmental and social management plan); ALP-EPC-00000-CM-CMP-0001 (steam blowing procedure); permit PMT-011.",
+  "section": "3",
+  "seq": 11,
+  "status": "preliminary",
+  "value_text": "The construction method statements and the schedule restrict piling, blasting and steam blowing to the permitted hours; steam blowing is planned with temporary silencers and a 7-day notice issued through the Owner; the construction noise assessment report is a permit item (PMT-011)."
+}

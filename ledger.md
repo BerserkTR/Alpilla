@@ -105,6 +105,10 @@ Read before working. Add a lesson whenever something went wrong or a better way 
 - Lesson: soffice on PATH is not enough; engines skip PDFs with a WARN line instead of failing
 - Action: Install libreoffice-writer-nogui and libreoffice-calc-nogui (or full LibreOffice) and read the WARN lines after every engine run
 
+### L-EPCE-0014 () Choose release waves from the planned dates, and trace the driver before proposing a recovery [planning, document_control, verification]
+- Lesson: Waves chosen by the network frontier left 173 tender-stage documents planned for first issue at NTP unissued; six design criteria issued six weeks late pushed the civil EWPs and three requisitions 1-23 wd behind, because their successors need them at IFR. A first recovery TQ (faster Owner review, TQ-042) was raised before tracing the driver and had no effect
+- Action: Before each wave list the documents planned IFR on or before the wave date and not issued (engineering_plan MDL sheet, Latest issue empty) and include them or move the data date; trace the driving input of every negative float (MDL Driving input column) before raising a recovery TQ
+
 ### L-EPCE-0013 () Review against the document itself: before commenting and before closing a comment [review, vendor, document_control]
 - Lesson: EPC comments CMT-EPCE-0009/0010 claimed missing lift weights that were in table 1 of the IEC GA drawings (rejected, EPC review error); CMT-EPCE-0004 was closed on DS-104 Rev C although the pump tags were only in the TQ answer, not in the datasheet
 - Action: Search the revision text (pdftotext | grep) for the item before raising a comment and again before closing it; a TQ answer closes a question, only the revised document closes a review comment

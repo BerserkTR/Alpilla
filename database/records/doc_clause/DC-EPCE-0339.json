@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.090843Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.090843Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.02",
+    "reference:REF-CONS-0016"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0339",
+  "section": "16",
+  "section_title": "Buildings and structures",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "The buildings are: turbine hall (GT and ST), control and electrical building, GIS building, administration building, workshop / warehouse, water treatment building, gatehouse and fire station (ER-13.02). Steel frames with cladding shall be used for the turbine hall and the workshop; reinforced concrete or composite frames for the control and electrical building; the buildings shall have fire compartments and escape routes per the Fire Regulation and the HSE design criteria (HS-DBR-0001)."
+}

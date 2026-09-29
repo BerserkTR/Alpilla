@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.845741Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.845741Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016",
+    "reference:REF-CONS-0077"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0033",
+  "parameter": "0.42 kV switchgear",
+  "remarks": "Applies to every LV board and MCC; the interrupting rating of every device shall be equal to or above the bus rating",
+  "section": "6",
+  "seq": 4,
+  "status": "preliminary",
+  "value_text": "Rating of the switchboard equal to or above the calculated Ik'' (incl. motor contribution) plus 10 %, rounded to the next standard value (50, 65, 80, 100 kA)"
+}

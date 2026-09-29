@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.852437Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.852437Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014",
+    "reference:REF-CONS-0037"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0053",
+  "parameter": "Starting method: 0.42 kV motors",
+  "remarks": "Motors with high inertia use soft starters",
+  "section": "8",
+  "seq": 4,
+  "status": "preliminary",
+  "table_head": [
+    "Item",
+    "Criterion",
+    "Remarks"
+  ],
+  "value_text": "Direct on line up to 90 kW; soft starter or star-delta for 90 kW to 200 kW where the voltage dip limit is exceeded"
+}

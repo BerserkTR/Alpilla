@@ -176,6 +176,11 @@
       ],
       "description": "overrides the type's Owner review class"
     },
+    "owner_review_days": {
+      "type": "integer",
+      "unit": "working days",
+      "description": "Owner review period agreed for this document (overrides 10 / 15 working days of ER-17.01; cite the TQ in the reason)"
+    },
     "bdp": {
       "type": "boolean",
       "description": "part of the Basic Design Package (21-day Owner review, ER-17.01)"

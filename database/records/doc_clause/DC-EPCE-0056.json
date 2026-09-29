@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.853515Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.853515Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0037"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0056",
+  "parameter": "Voltage at the motor terminals during start",
+  "remarks": "Guarantees a minimum accelerating torque of 10 % margin against the load torque curve",
+  "section": "8",
+  "seq": 7,
+  "status": "preliminary",
+  "value_text": "Not less than 80 % of rated voltage (85 % for MV motors)"
+}

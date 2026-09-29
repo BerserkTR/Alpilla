@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.348790Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.348790Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0577",
+  "section": "7",
+  "section_title": "Colours",
+  "seq": 1,
+  "status": "assumption",
+  "text": "Colours shall follow RAL codes per service: process piping colour bands by service with the base colour of the structure; structural steel RAL 7035 (light grey); equipment RAL 7035 with service-coloured pipes below."
+}

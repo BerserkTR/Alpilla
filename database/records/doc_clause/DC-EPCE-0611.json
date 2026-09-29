@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.390177Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.390177Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0611",
+  "parameter": "HP steam, cold reheat, hot reheat (superheated)",
+  "remarks": "Total pressure drop of cold reheat and hot reheat as per the HMB limit",
+  "section": "5",
+  "seq": 2,
+  "status": "preliminary",
+  "table_head": [
+    "Service",
+    "Velocity / pressure drop limit",
+    "Remarks"
+  ],
+  "value_text": "30 to 60 m/s; pressure drop 0.3 bar/100 m for HP steam, 0.2 bar/100 m for reheat"
+}

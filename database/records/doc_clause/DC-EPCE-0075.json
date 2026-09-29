@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.861184Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.861184Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0075",
+    "reference:REF-CONS-0077"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0075",
+  "section": "10",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Short-circuit withstand: adiabatic verification (k2 S2 >= I2 t) with the maximum short-circuit current at the cable sending end and the total clearing time of the backup protection (not the instantaneous trip), including the screen of MV cables for the earth-fault current of the resistance-earthed system (300 A, 10 s) and for the double earth fault."
+}

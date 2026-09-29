@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.875239Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.875239Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0108",
+  "parameter": "Offices and workshops",
+  "remarks": "EN 12464-1",
+  "section": "14",
+  "seq": 2,
+  "status": "preliminary",
+  "value_text": "500 lx offices, 300 lx workshops"
+}

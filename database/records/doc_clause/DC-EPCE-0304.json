@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.063173Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.063173Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0088"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0304",
+  "section": "10",
+  "seq": 12,
+  "status": "preliminary",
+  "text": "Water-retaining structures (CW pumphouse, screens chamber, pits, sumps, tank farm recovery sump) shall be designed for leak tightness class 1 to 2 of EN 1992-3 and protected internally where the medium or the groundwater is aggressive (epoxy lining for oil sumps and chemical containment)."
+}

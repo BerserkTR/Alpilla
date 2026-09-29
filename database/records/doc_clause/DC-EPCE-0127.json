@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.884041Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.884041Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-04.07",
+    "requirement:ER-04.08",
+    "requirement:ER-04.09",
+    "requirement:ER-16.03",
+    "reference:REF-CONS-0020"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0127",
+  "section": "16",
+  "seq": 7,
+  "status": "preliminary",
+  "text": "Grid Code compliance and reactive capability (ALP-EPC-00000-EL-STU-0006): steady-state and dynamic simulation of the power island in the grid model of the TSO (frequency response, voltage control, fault ride-through, reactive capability at the generator and at the connection point per ER-04.08, PSS tuning, stability and house-load transition of ER-04.09), used as basis for the Grid Code tests of ER-16.03."
+}

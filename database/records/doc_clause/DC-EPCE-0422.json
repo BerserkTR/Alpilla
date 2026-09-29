@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.172979Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.172979Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.05",
+    "reference:REF-CONS-0013",
+    "reference:REF-CONS-0024"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0422",
+  "section": "9",
+  "seq": 3,
+  "status": "assumption",
+  "text": "Ergonomics: manually operated valves and controls with a handwheel centre between 0.6 m and 1.8 m above the working level (preferably 0.9 m to 1.5 m); local indicators readable between 1.0 m and 1.8 m; access clearance at least 0.8 m in front of operated equipment; the manual handling of loads above 25 kg shall be avoided by hoists, monorails or lifting lugs; equipment shall be laid out for maintenance with lay-down and lift paths agreed in the constructability and maintainability review (HS-RPT-0002)."
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.232984Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.232984Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0025"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0478",
+  "section": "8",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Motors above 200 kW shall have winding temperature sensors (2 per phase, PT100), bearing temperature sensors and vibration monitoring provisions; motors in classified areas shall be Ex certified (Ex d, Ex e or Ex p) for the zone and gas group per the hazardous area classification."
+}

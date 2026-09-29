@@ -138,6 +138,15 @@ def test_workflow_dates_review_classes_and_awp(project):
     assert not r.levelled
 
 
+def test_agreed_owner_review_period_overrides_er(project):
+    s = data(project)
+    s.update("document", "ALP-EPC-00PAC-PR-PID-0001", {"owner_review_days": 8}, R)     # agreed by TQ: 8 instead of 15
+    s.update("document", "ALP-EPC-00PAC-PR-LST-0001", {"owner_review_days": 6}, R)
+    d = workflow.compute(s).docs
+    pid, lst = d["ALP-EPC-00PAC-PR-PID-0001"], d["ALP-EPC-00PAC-PR-LST-0001"]
+    assert pid.ifa == pid.ifr + 8 + 15 and lst.ifc == lst.ifr + 6 + 10
+
+
 def test_workflow_input_loop_is_reported(project):
     s = data(project)
     s.update("document", "ALP-EPC-00000-PR-DBR-0001", {"inputs": ["ALP-EPC-00PAC-PI-ISO-0001"]}, R)

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.465016Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.465016Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0044",
+    "design_parameter:DP-CASE-0045",
+    "requirement:ER-14.03",
+    "requirement:ER-14.04",
+    "reference:REF-CONS-0007",
+    "source:SRC-OWNR-0007",
+    "design_parameter:DP-EPCE-0010"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0668",
+  "parameter": "EIA 3.1 Noise, operation: night and day limits at the nearest residential receptor",
+  "remarks": "ALP-EPC-00000-HS-STU-0001 (noise study); ALP-EPC-00000-HS-DBR-0001; noise survey ALP-EPC-00000-CM-TRP-0006. Status preliminary until the noise study is issued.",
+  "section": "3",
+  "seq": 10,
+  "status": "preliminary",
+  "value_text": "Plant noise is designed to the near-field limit DP-CASE-0044 and to the night limit at the nearest receptor DP-CASE-0045 (ER-14.03, ER-14.04); the noise study predicts the levels at the receptor with the equipment noise data and defines the attenuation (silencers, enclosures, cladding). The day limit of the EIA is DP-EPCE-0010."
+}

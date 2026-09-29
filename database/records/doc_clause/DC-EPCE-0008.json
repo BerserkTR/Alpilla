@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.837820Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.837820Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0003",
+    "design_parameter:DP-CASE-0007",
+    "design_parameter:DP-CASE-0008",
+    "design_parameter:DP-CASE-0009",
+    "requirement:ER-02.08"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0008",
+  "section": "3",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "Electrical equipment shall be rated for the ambient and site conditions of the parameters above, including the ambient temperature range for full capability (DP-CASE-0007, DP-CASE-0008), the survival range (DP-CASE-0009) and the C5 marine atmosphere (DP-CASE-0003)."
+}

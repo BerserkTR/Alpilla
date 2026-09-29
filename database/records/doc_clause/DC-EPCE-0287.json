@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.048901Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.048901Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0093",
+    "requirement:ER-13.01"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0287",
+  "section": "9",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Frequency separation: the natural frequencies of the coupled foundation - soil system in the vertical, horizontal and rocking modes and of the table-top structure shall differ by at least 20 % from the operating frequency (50 Hz, 3000 rpm), from twice the operating frequency where the OEM gives excitation at that frequency, and from every other excitation frequency of the OEM; the resonance zone shall not be crossed at a speed where sustained vibration is possible (transient crossing during run-up and coast-down shall be checked for amplitude)."
+}

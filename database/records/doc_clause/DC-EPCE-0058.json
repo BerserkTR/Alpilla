@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.854243Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.854243Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0037"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0058",
+  "parameter": "Start limits",
+  "remarks": "Data sheets of motors shall show the starting torque curve",
+  "section": "8",
+  "seq": 9,
+  "status": "preliminary",
+  "value_text": "Starting current 6.5 x In or less; starting time within stall time minus 10 %"
+}

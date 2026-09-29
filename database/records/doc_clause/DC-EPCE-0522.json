@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.284043Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.284043Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0092"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0522",
+  "section": "5",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Coating versus stainless steel: for carbon steel items above 2 m2 exposed surface in C5, coating (ISO 12944, system for durability H) is the default; stainless steel or duplex is selected where the maintenance access for repainting is not possible for 30 years, in seawater immersion, and for small items (fasteners, tags, instrument tubing)."
+}

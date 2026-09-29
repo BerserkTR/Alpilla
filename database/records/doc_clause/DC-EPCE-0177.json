@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.910472Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.910472Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.03",
+    "reference:REF-CONS-0081"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0177",
+  "section": "8",
+  "seq": 7,
+  "status": "preliminary",
+  "text": "Bypass and override: every SIS bypass is by a keylocked switch, alarmed on the DCS, time-limited by an administrative procedure and logged in the sequence of events; no permanent bypass; the automatic reset of a trip is not allowed. Proof tests are done on the intervals of the SIL verification and recorded."
+}

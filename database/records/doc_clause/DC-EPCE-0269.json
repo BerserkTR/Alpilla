@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.035799Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.035799Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0087"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0269",
+  "parameter": "Imposed load - grating platforms and walkways",
+  "section": "6",
+  "seq": 9,
+  "status": "assumption",
+  "value_text": "3.0 kN/m2 and 5 kN/m2 at maintenance laydown zones; 1.5 kN point load"
+}

@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:14.272269Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:14.272269Z",
+    "updated_by": "EPCE"
+  },
+  "applies_to": "Alarm management (IC-DBR s.12); named in TQ-026",
+  "code": "EEMUA 191 / IEC 62682 / ANSI-ISA-18.2",
+  "disciplines": [
+    "electrical",
+    "i_and_c"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-EPCE-0022",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "remarks": "Proposed with the wave-2 design criteria; to be agreed with the Owner and IEC in the next codes and standards round.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "proposed",
+  "title": "Alarm systems - design, management and procurement"
+}

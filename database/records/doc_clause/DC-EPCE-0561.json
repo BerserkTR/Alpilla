@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.328999Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.328999Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0092"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0561",
+  "parameter": "Carbon steel, outdoor, service temperature up to 120 degC, durability H (C5)",
+  "remarks": "ISO 12944-5 system for C5 high durability; total nominal DFT 320 micrometres is the design target",
+  "section": "5",
+  "section_title": "Coating systems",
+  "seq": 1,
+  "status": "preliminary",
+  "table_head": [
+    "System",
+    "Specification",
+    "Remarks"
+  ],
+  "value_text": "Zinc-rich epoxy primer 60 to 80 micrometres + epoxy MIO / high-build epoxy 120 to 160 micrometres + polyurethane top coat 50 to 60 micrometres; total DFT 280 micrometres minimum"
+}

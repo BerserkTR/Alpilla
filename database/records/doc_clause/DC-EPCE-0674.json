@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.473400Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.473400Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "permit:PMT-025",
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0674",
+  "parameter": "EIA 5.2 Archaeological chance-find procedure applies to all excavations",
+  "remarks": "ALP-EPC-00000-HS-PLN-0003; ALP-EPC-00000-HS-PLN-0002 (construction HSE plan); permit PMT-025.",
+  "section": "3",
+  "seq": 16,
+  "status": "preliminary",
+  "value_text": "The chance-find procedure is part of the CESMP and of every excavation permit-to-work: work stops, the find is protected and the notification is made through the Owner to the authority (permit item PMT-025); site staff receive the induction on the procedure."
+}

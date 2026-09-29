@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.173878Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.173878Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.05",
+    "reference:REF-CONS-0016"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0423",
+  "section": "9",
+  "seq": 4,
+  "status": "assumption",
+  "text": "Emergency lighting shall give at least 1 lux (at floor level) on escape routes and 5 lux at fire-fighting and first-aid equipment for 90 minutes (EL-DBR-0001 section 14) from the UPS / battery; escape and exit signs shall be photoluminescent or illuminated; the emergency response plan (HS-PLN-0005) shall define at least two assembly points, wind socks visible from all process areas, safety showers, first-aid stations and the fire station response."
+}

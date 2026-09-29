@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.345105Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.345105Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0574",
+  "section": "6",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Overcoating intervals and pot life shall follow the paint manufacturer's data sheet; where the interval is exceeded, the surface shall be roughened and cleaned. Coating shall not be applied when the temperature of the steel is below 5 degC (epoxy) or below the manufacturer's minimum, or when rain, fog or salt spray wets the surface."
+}

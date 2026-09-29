@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.402028Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.402028Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-EPCE-0006",
+    "reference:REF-CONS-0070"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0620",
+  "parameter": "Fire water",
+  "remarks": "Per NFPA 20 / NFPA 24; design flow DP-EPCE-0006",
+  "section": "5",
+  "seq": 11,
+  "status": "preliminary",
+  "value_text": "Up to 3.0 m/s in mains; 5 m/s in laterals at maximum demand"
+}

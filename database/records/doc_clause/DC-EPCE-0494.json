@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.250463Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.250463Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0034",
+    "requirement:ER-02.08"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0494",
+  "section": "1",
+  "section_title": "Purpose and scope",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "This report defines the environment classification of the site and the selection of materials and corrosion protection measures for the equipment, piping and structures of the 1 x 1 combined cycle power plant, for a design life of 30 years, exposed to a marine C5 atmosphere and to seawater from the Marmara coast."
+}

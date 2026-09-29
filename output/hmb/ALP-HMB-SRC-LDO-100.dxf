@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461313.1305555557
+2461313.1597800925
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461313.1305555557
+2461313.1597800925
   9
 $TDUUPDATE
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-338
+33A
   9
 $SURFTAB1
  70
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{DF2D7DAE-D77B-4925-B312-E28DF9E69EE1}
+{8A1BD5FE-5A9F-4237-B4AB-B592343049A7}
   9
 $VERSIONGUID
   2
-{A43D1CD5-1BC6-45F6-9A36-C2937D2A7B7E}
+{592CA74D-3C07-4BD4-92FC-E50DA29AE2C4}
   9
 $EXTNAMES
 290
@@ -3779,7 +3779,7 @@ AcAecLayerStandard
   0
 APPID
   5
-335
+337
 330
 3
 100
@@ -3793,7 +3793,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-336
+338
 330
 3
 100
@@ -27431,7 +27431,7 @@ AcDbText
  40
 2.1
   1
-net export 567.8 MW vs DP-OWNR-0051 connection capacity 640 MW (this case)
+CW temperature rise 6.65 K vs DP-CASE-0015 <= 7.0 K (Condenser cooling water temperature rise)
   7
 ALPILLA
  11
@@ -27495,7 +27495,7 @@ AcDbText
  40
 2.1
   1
-gross output 578.87 MW vs IG-09 >= 572.00 (margin +1.20 %)
+net export 567.8 MW vs DP-OWNR-0051 connection capacity 640 MW (this case)
   7
 ALPILLA
  11
@@ -27559,7 +27559,7 @@ AcDbText
  40
 2.1
   1
-gross heat rate 5,977.82 kJ/kWh vs IG-10 <= 6,020.00 (margin +0.70 %)
+gross output 578.87 MW vs IG-09 >= 572.00 (margin +1.20 %)
   7
 ALPILLA
  11
@@ -27623,7 +27623,7 @@ AcDbText
  40
 2.1
   1
-net output 567.80 MW vs PG-15 >= 560.00 (margin +1.39 %)
+gross heat rate 5,977.82 kJ/kWh vs IG-10 <= 6,020.00 (margin +0.70 %)
   7
 ALPILLA
  11
@@ -27687,7 +27687,7 @@ AcDbText
  40
 2.1
   1
-net heat rate 6,094.42 kJ/kWh vs PG-16 <= 6,150.00 (margin +0.90 %)
+net output 567.80 MW vs PG-15 >= 560.00 (margin +1.39 %)
   7
 ALPILLA
  11
@@ -27751,7 +27751,7 @@ AcDbText
  40
 2.1
   1
-guarantee cover: at IG-09/IG-10 limits and this HMB's auxiliaries the net plant is 560.9 MW / 6,139 kJ/kWh vs Owner
+net heat rate 6,094.42 kJ/kWh vs PG-16 <= 6,150.00 (margin +0.90 %)
   7
 ALPILLA
  11
@@ -27775,6 +27775,38 @@ HMB-TABLE
 100
 AcDbText
  10
+576.0
+ 20
+321.6999999999995
+ 30
+0.0
+ 40
+2.1
+  1
+OK
+  7
+ALPILLA
+ 11
+576.0
+ 21
+321.6999999999995
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+31F
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
 588.0
  20
 321.6999999999995
@@ -27783,7 +27815,7 @@ AcDbText
  40
 2.1
   1
-PG-15 560 MW / PG-16 6,150 kJ/kWh
+guarantee cover: at IG-09/IG-10 limits and this HMB's auxiliaries the net plant is 560.9 MW / 6,139 kJ/kWh vs Owner
   7
 ALPILLA
  11
@@ -27795,9 +27827,41 @@ ALPILLA
 100
 AcDbText
   0
+TEXT
+  5
+320
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+588.0
+ 20
+318.09999999999945
+ 30
+0.0
+ 40
+2.1
+  1
+PG-15 560 MW / PG-16 6,150 kJ/kWh
+  7
+ALPILLA
+ 11
+588.0
+ 21
+318.09999999999945
+ 31
+0.0
+100
+AcDbText
+  0
 LWPOLYLINE
   5
-31F
+321
 330
 17
 100
@@ -27829,7 +27893,7 @@ AcDbPolyline
   0
 TEXT
   5
-320
+322
 330
 17
 100
@@ -27863,7 +27927,7 @@ AcDbText
   0
 TEXT
   5
-321
+323
 330
 17
 100
@@ -27897,7 +27961,7 @@ AcDbText
   0
 LINE
   5
-322
+324
 330
 17
 100
@@ -27921,7 +27985,7 @@ AcDbLine
   0
 TEXT
   5
-323
+325
 330
 17
 100
@@ -27955,7 +28019,7 @@ AcDbText
   0
 TEXT
   5
-324
+326
 330
 17
 100
@@ -27973,7 +28037,7 @@ AcDbText
  40
 2.6
   1
-015d1cd1c6fdda54 | 2026-09-29
+6b60fce553593bf5 | 2026-09-29
   7
 ALPILLA
  11
@@ -27989,7 +28053,7 @@ AcDbText
   0
 LINE
   5
-325
+327
 330
 17
 100
@@ -28013,7 +28077,7 @@ AcDbLine
   0
 TEXT
   5
-326
+328
 330
 17
 100
@@ -28047,7 +28111,7 @@ AcDbText
   0
 TEXT
   5
-327
+329
 330
 17
 100
@@ -28081,7 +28145,7 @@ AcDbText
   0
 LINE
   5
-328
+32A
 330
 17
 100
@@ -28105,7 +28169,7 @@ AcDbLine
   0
 TEXT
   5
-329
+32B
 330
 17
 100
@@ -28139,7 +28203,7 @@ AcDbText
   0
 TEXT
   5
-32A
+32C
 330
 17
 100
@@ -28173,7 +28237,7 @@ AcDbText
   0
 LINE
   5
-32B
+32D
 330
 17
 100
@@ -28197,7 +28261,7 @@ AcDbLine
   0
 TEXT
   5
-32C
+32E
 330
 17
 100
@@ -28231,7 +28295,7 @@ AcDbText
   0
 TEXT
   5
-32D
+32F
 330
 17
 100
@@ -28265,7 +28329,7 @@ AcDbText
   0
 LINE
   5
-32E
+330
 330
 17
 100
@@ -28289,7 +28353,7 @@ AcDbLine
   0
 TEXT
   5
-32F
+331
 330
 17
 100
@@ -28323,7 +28387,7 @@ AcDbText
   0
 TEXT
   5
-330
+332
 330
 17
 100
@@ -28357,7 +28421,7 @@ AcDbText
   0
 LINE
   5
-331
+333
 330
 17
 100
@@ -28381,7 +28445,7 @@ AcDbLine
   0
 TEXT
   5
-332
+334
 330
 17
 100
@@ -28415,7 +28479,7 @@ AcDbText
   0
 TEXT
   5
-333
+335
 330
 17
 100
@@ -28449,7 +28513,7 @@ AcDbText
   0
 LINE
   5
-334
+336
 330
 17
 100
@@ -29561,7 +29625,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-337
+339
   0
 DICTIONARYVAR
   5
@@ -29573,7 +29637,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-29T03:08:00.840984+00:00
+1.4.4 @ 2026-09-29T03:50:05.527970+00:00
   0
 VISUALSTYLE
   5
@@ -36127,7 +36191,7 @@ strokes_ogs.tif
   0
 DICTIONARYVAR
   5
-337
+339
 330
 2D
 100
@@ -36135,7 +36199,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-29T03:08:00.874508+00:00
+1.4.4 @ 2026-09-29T03:50:05.562907+00:00
   0
 ENDSEC
   0

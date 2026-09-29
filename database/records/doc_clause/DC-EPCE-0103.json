@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.872806Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.872806Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.06",
+    "reference:REF-CONS-0083",
+    "design_parameter:DP-CASE-0021"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0103",
+  "section": "13",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Minimum equipment protection: zone 1 Ex d, Ex e, Ex p or Ex ia / ib; zone 2 Ex n / ec or better; zone 0 Ex ia only. Gas group IIB + H2 and temperature class T3 as the minimum for all classified areas (covers natural gas with the hydrogen admixture capability of DP-CASE-0021, LDO vapour and ammonia); group IIC in hydrogen areas (generators, hydrogen supply, battery rooms if classified), where T1 is sufficient. The classification report shall state the group and class per area; a lower group is not permitted without a recorded reason."
+}

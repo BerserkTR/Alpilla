@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.282949Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.282949Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0521",
+  "section": "5",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Uncoated stainless steel in the outdoor marine atmosphere shall be limited to super duplex, 6Mo and 316L with surface roughness Ra of 0.5 micrometre or better for exposed surfaces; 304 / 304L is not permitted outdoors. Where stainless steel is used for small bore piping, tubing and instrument fittings outdoors, 316L with electropolishing or a coating shall be used, and the tubing shall be of the grade 6Mo or 2507 in the splash zone."
+}

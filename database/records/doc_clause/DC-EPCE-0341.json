@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.092760Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.092760Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.08",
+    "requirement:ER-13.02"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0341",
+  "section": "16",
+  "seq": 3,
+  "status": "assumption",
+  "text": "Pipe racks and equipment supports shall be steel frames with the foundation solution of section 13; the design shall provide space for the future post-combustion carbon capture tie-in reservation (ER-14.08) as specified by the layout, without structural rework of the main racks."
+}

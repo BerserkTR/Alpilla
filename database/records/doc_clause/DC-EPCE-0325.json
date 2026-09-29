@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.079946Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.079946Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.01",
+    "reference:REF-CONS-0093"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0325",
+  "parameter": "Settlement - machine foundations",
+  "section": "13",
+  "seq": 8,
+  "status": "assumption",
+  "value_text": "OEM value; otherwise 1 / 2000 differential along shaft train and 15 mm total"
+}

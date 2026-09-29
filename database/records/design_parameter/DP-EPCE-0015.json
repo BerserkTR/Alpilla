@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:27:03.310816Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:27:03.310816Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0002",
+    "requirement:ER-02.09"
+  ],
+  "category": "site",
+  "condition": "national datum; +1.40 m with 0.5 m sea-level rise; floor levels >= +1.90 m (ER-02.09); shoreline run-up +4.8 m",
+  "id": "DP-EPCE-0015",
+  "parameter": "100-year coastal still water level",
+  "remarks": "TQ-041 answer (Owner, 2026-12-09)",
+  "status": "confirmed",
+  "unit": "m",
+  "value": 0.9
+}

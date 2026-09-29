@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.086849Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.086849Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.01",
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0334",
+  "section": "14",
+  "seq": 7,
+  "status": "confirmed",
+  "text": "Traffic: heavy vehicles shall use the approved routes and time windows of the EIA (no heavy traffic on the village road 07:30 to 09:00 and 16:00 to 18:00); the temporary works and the construction access design shall include this restriction."
+}

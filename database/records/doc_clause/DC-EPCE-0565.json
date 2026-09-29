@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.334042Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.334042Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-ME-SPC-0003"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0565",
+  "parameter": "Carbon steel, cold surfaces and insulated below 120 degC",
+  "remarks": "Cyclic services get TSA; refer to the insulation specification",
+  "section": "5",
+  "seq": 5,
+  "status": "preliminary",
+  "value_text": "Epoxy phenolic or epoxy 2 x 100 micrometres (total DFT 200 micrometres) under insulation for temperatures from -10 to 120 degC"
+}

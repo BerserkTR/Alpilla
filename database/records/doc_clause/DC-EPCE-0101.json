@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.871986Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.871986Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0043"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0101",
+  "section": "12",
+  "seq": 10,
+  "status": "assumption",
+  "text": "Stack obstruction lighting shall comply with the civil aviation requirements of Turkey; the lighting circuit is fed from the emergency board."
+}

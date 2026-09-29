@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.366940Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.366940Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-15.02",
+    "reference:REF-CONS-0092"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0592",
+  "parameter": "H4 - final coat",
+  "remarks": "Hold point before shipping or release",
+  "section": "8",
+  "seq": 5,
+  "status": "preliminary",
+  "value_text": "Total DFT, holiday detection for immersed and lined surfaces, adhesion pull-off test (ISO 4624) with minimum 5 MPa (3 MPa for TSA per ISO 2063)"
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.170965Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.170965Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.05",
+    "reference:REF-CONS-0016",
+    "reference:REF-CONS-0069"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0420",
+  "section": "9",
+  "section_title": "Escape routes, access and ergonomics",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Every building, platform and process area shall have at least two independent escape routes leading in opposite directions where the occupancy allows, with a maximum travel distance to a place of safety of 45 m (30 m within the turbine halls, gas station and other classified areas) and a maximum dead end of 15 m; the escape routes shall have a minimum clear width of 0.9 m (1.2 m for main escape routes and stairs from the control and administration buildings) and a minimum clear height of 2.1 m and shall be kept free of equipment and laydown."
+}

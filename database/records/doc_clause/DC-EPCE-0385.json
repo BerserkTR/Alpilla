@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.134327Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.134327Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0071",
+    "reference:REF-CONS-0069",
+    "requirement:ER-10.05"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0385",
+  "section": "12",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Smoke detection in the return / supply air of every AHU above 2,000 m3/h and in the room shall stop the fans and close the dampers automatically (NFPA 90A, NFPA 72), except the pressurisation units of the escape stairs and the smoke control fans, which continue in the smoke mode; the fire alarm system shall have a manual override for the fire brigade at the fire station and at the control room."
+}

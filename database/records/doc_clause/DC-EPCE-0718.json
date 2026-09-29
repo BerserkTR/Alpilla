@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.538466Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.538466Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02",
+    "decision:DEC-EPCE-0009"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0718",
+  "parameter": "Factory acceptance test passed",
+  "section": "8",
+  "seq": 5,
+  "status": "preliminary",
+  "unit": "%",
+  "value": 15
+}

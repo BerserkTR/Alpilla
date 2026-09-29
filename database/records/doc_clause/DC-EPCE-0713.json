@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.530601Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.530601Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-GE-PRC-0002",
+    "decision:DEC-EPCE-0013"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0713",
+  "section": "7",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Process gates (procurement, Owner acceptance, construction, commissioning, operations) are reported with their need date, planned date and gate float; every gate planned after its need date is reported as late and a technical query or recovery action is raised for it."
+}

@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.430894Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.430894Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0643",
+  "section": "8",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "LDO piping shall have leak detection at the flanges, and shall be arranged with trace heating as required for the pour point of the LDO; the piping shall be protected from spilled fuel and shall have slope towards the recovery sumps."
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.101540Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.101540Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0351",
+  "parameter": "Central control room and control building offices",
+  "remarks": "Occupied; fresh air per section 6",
+  "section": "5",
+  "section_title": "Indoor design conditions",
+  "seq": 1,
+  "status": "preliminary",
+  "table_head": [
+    "Room type",
+    "Design condition",
+    "Remarks"
+  ],
+  "value_text": "22 degC +/- 2 K, RH 40 to 60 %, non-condensing, all year"
+}

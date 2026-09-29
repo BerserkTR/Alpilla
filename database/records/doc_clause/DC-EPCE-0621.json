@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.403425Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.403425Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0621",
+  "parameter": "Fuel gas",
+  "remarks": "Noise and vibration check for regulator outlet piping",
+  "section": "5",
+  "seq": 12,
+  "status": "preliminary",
+  "value_text": "15 to 20 m/s (maximum 20 m/s downstream of pressure control); 0.2 bar/100 m"
+}

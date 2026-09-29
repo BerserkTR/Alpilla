@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.103184Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.103184Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0353",
+  "parameter": "Electrical rooms - MV and LV switchgear, transformers, UPS",
+  "remarks": "Equipment rated 40 degC; a 5 K margin is kept",
+  "section": "5",
+  "seq": 3,
+  "status": "preliminary",
+  "value_text": "maximum 35 degC, minimum 10 degC, RH <= 70 % non-condensing"
+}

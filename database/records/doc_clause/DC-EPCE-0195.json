@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.920727Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.920727Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0009",
+    "design_parameter:DP-CASE-0007"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0195",
+  "parameter": "Ambient temperature",
+  "remarks": "Freeze protection with insulation and self-limiting heating cable, monitored",
+  "section": "10",
+  "seq": 9,
+  "status": "preliminary",
+  "value_text": "-15 degC to +45 degC ambient, +70 degC sun-heated surface; heat tracing or heated enclosures for impulse lines below 0 degC"
+}

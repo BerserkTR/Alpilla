@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.164053Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.164053Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0069"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0413",
+  "parameter": "Oil-filled transformers to buildings and between units",
+  "section": "7",
+  "seq": 6,
+  "status": "confirmed",
+  "value_text": "15 m or a firewall rated 2 hours"
+}

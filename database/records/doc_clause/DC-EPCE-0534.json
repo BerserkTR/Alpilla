@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.296855Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.296855Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0534",
+  "parameter": "Carbon steel, cooling water (closed circuit), demin water, drains",
+  "remarks": "Coated or lined where the allowance is otherwise not adequate",
+  "section": "8",
+  "seq": 3,
+  "status": "preliminary",
+  "value_text": "3.0 mm"
+}

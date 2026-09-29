@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.154156Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.154156Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.03"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0403",
+  "section": "5",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Noise sources with a sound pressure level above 85 dB(A) at 1 m by the vendor data shall be fitted with acoustic insulation, silencers or enclosures by the vendor as part of the supply; noise levels in the requisitions shall be stated as sound power level and sound pressure level at 1 m; the noise limit shall be a guarantee with a test per the vendor."
+}

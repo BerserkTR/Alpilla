@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.229481Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.229481Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016",
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0475",
+  "section": "8",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "The supply voltage of motors shall follow the auxiliary electrical system concept: motors of 200 kW and above are supplied from the 10.5 kV medium-voltage system; motors below 200 kW from the 0.42 kV low-voltage system. The sizing basis and the voltage threshold shall not be deviated from without a change of the load list and of the decision."
+}

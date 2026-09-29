@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.841584Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.841584Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.04",
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0020",
+  "parameter": "Auxiliary MV system",
+  "remarks": "Neutral earthing resistor at each UAT star point; earth fault current limited to 300 A for 10 s",
+  "section": "5",
+  "seq": 4,
+  "status": "preliminary",
+  "value_text": "10.5 kV, resistance earthed"
+}

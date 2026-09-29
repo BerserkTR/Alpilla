@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.934028Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.934028Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0215",
+  "parameter": "Chattering alarms",
+  "section": "12",
+  "seq": 6,
+  "status": "preliminary",
+  "value_text": "None; deadband, on-delay and off-delay set per alarm; repeating alarms shall be corrected within the maintenance period"
+}

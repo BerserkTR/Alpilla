@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.892231Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.892231Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.06"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0143",
+  "section": "4",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Tagging and classification of instruments, loops and control functions shall follow KKS and the AVEVA class library of the Owner (ER-01.06); the instrument index (ALP-EPC-00000-IC-LST-0001) is the single source of the instrument data. Standards named in this document but not in the project register are proposed for registration (see findings)."
+}

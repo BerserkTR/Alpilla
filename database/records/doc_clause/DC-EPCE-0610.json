@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.388929Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.388929Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0610",
+  "section": "5",
+  "section_title": "Line sizing",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Lines shall be sized on the maximum flow of the heat and mass balance cases with the margins of the equipment sizing basis; the velocity and pressure drop limits below apply to maximum flow, and the smaller of the velocity and the pressure-drop criterion governs."
+}

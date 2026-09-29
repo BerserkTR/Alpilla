@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.043459Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.043459Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0017",
+    "requirement:ER-02.06"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0280",
+  "section": "7",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Non-structural elements and equipment: seismic forces on equipment, piping supports, cable trays, cladding and suspended items shall be calculated per TBDY 2018 chapter 6 with the floor acceleration amplification, Rp and ap factors given there and the importance factor I = 1.5 for critical equipment. Equipment anchorage shall be verified for the DD-2 forces with overstrength; vendors shall supply anchor bolt loads for the seismic case and confirm seismic qualification of their equipment (analysis or test) for 0.45 g at the foundation level."
+}

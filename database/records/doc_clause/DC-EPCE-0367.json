@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.115351Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.115351Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06",
+    "reference:REF-CONS-0083"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0367",
+  "section": "7",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "The outdoor air intakes shall be located at not less than 3 m above grade in non-hazardous areas (outside the classified zones of HS-HAZ-0008) on the upwind side of the fuel gas station, the LDO and ammonia storage and the stack, and shall be equipped with combustible gas detectors (2oo3 voting) that close the intake dampers and switch the unit to recirculation at 10 % LEL and with an ammonia detector for the areas near the SCR storage, so that hazardous gases cannot be drawn into the pressurised buildings."
+}

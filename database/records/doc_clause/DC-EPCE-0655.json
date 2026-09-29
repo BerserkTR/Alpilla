@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.447289Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.447289Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.01"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0655",
+  "section": "1",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "The matrix is a living document: it is re-issued with the evidence documents, and at the latest before the Tests on Completion, so that the acceptance criterion of ER-14.01 (no outstanding EIA non-conformities at Taking-Over) can be demonstrated."
+}

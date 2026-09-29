@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.129897Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.129897Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.03"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0381",
+  "parameter": "Room noise - control room and offices",
+  "section": "11",
+  "seq": 3,
+  "status": "assumption",
+  "value_text": "<= 40 dB(A) (control room), <= 45 dB(A) (offices, control room ancillary)"
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.015619Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.015619Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.08"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0240",
+  "section": "17",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Cabling: instrument, signal and communication cables per the cable criteria of the electrical design criteria (halogen-free flame-retardant inside buildings, fire-rated for the safety functions, separate trays from power cables, spare cores 20 %); fibre-optic cable for the networks between buildings, duplicated on separate routes."
+}

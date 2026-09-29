@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.188409Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.188409Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.05",
+    "reference:REF-CONS-0012",
+    "reference:REF-CONS-0095"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0437",
+  "section": "12",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "HSE in design: safety-in-design reviews shall be held at the end of the basic design (constructability and maintainability, HS-RPT-0002) and at 60 % of the detailed design (3D model review) using the HSE-in-design register (HS-PLN-0001) with the actions closed before IFC; the occupational health and safety risk assessment (HS-RPT-0006) and the construction HSE plan (HS-PLN-0002) shall use the design hazards identified; the construction and environmental management plan shall follow HS-PLN-0003."
+}

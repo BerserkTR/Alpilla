@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.846052Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.846052Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0034",
+  "parameter": "220 V DC",
+  "remarks": "Batteries plus chargers; the fuses / breakers shall interrupt at the bus level",
+  "section": "6",
+  "seq": 5,
+  "status": "preliminary",
+  "value_text": "Rating above the calculated battery short-circuit current at the bus"
+}

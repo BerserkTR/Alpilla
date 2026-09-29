@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.928126Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.928126Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01",
+    "requirement:ER-07.09"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0207",
+  "section": "11",
+  "seq": 7,
+  "status": "assumption",
+  "text": "Actuators and positioners: pneumatic spring-return actuators with fail position on loss of air and signal as on the P&ID; sized for the maximum differential pressure of the closed valve with a margin of 25 % at the minimum air supply pressure; digital positioners with HART and diagnostics; full stroke time 10 s or less for control valves (3 s or less for the turbine bypass and spray-water attemperation valves, subject to the TCS supplier), stroke time and fail position stated in the datasheet."
+}

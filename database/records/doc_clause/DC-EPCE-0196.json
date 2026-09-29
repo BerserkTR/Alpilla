@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.921258Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.921258Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0081"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0196",
+  "parameter": "Safety-related devices",
+  "section": "10",
+  "seq": 10,
+  "status": "confirmed",
+  "value_text": "IEC 61508 certified for the SIL, or prior use per IEC 61511"
+}

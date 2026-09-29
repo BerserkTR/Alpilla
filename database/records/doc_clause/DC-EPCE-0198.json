@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.922357Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.922357Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-07.10",
+    "reference:REF-CONS-0054",
+    "decision:DEC-EPCE-0015"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0198",
+  "section": "10",
+  "seq": 12,
+  "status": "preliminary",
+  "text": "Analysers: steam and water analysis system (00QUA10) per VGB-S-010 and DEC-EPCE-0015: cation conductivity, specific conductivity, pH, dissolved oxygen, sodium and silica at the sampling points of the cycle chemistry; two independent cation conductivity measurements per condenser water box half (ER-07.10); sample coolers and constant temperature and pressure conditioning; alarms and limits of the chemistry are a design input from the cycle chemistry criteria."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.939493Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.939493Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.07",
+    "reference:REF-CONS-0082"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0224",
+  "section": "13",
+  "seq": 6,
+  "status": "confirmed",
+  "text": "Security acceptance test per ALP-EPC-00000-IC-TST-0002 with the report ALP-EPC-00000-IC-TRP-0001: verification of zone separation, firewall rules, hardening, access control, backup and restore, with vulnerability scanning of the systems; findings above the accepted risk are closed before the plant handover."
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.399538Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.399538Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0023",
+    "decision:DEC-EPCE-0002"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0618",
+  "parameter": "Circulating seawater (GRP / lined CS)",
+  "remarks": "Above 3.0 m/s erosion, below 0.8 m/s fouling; velocity at sizing checked against the condenser tube velocity of DP-OWNR-0023",
+  "section": "5",
+  "seq": 9,
+  "status": "preliminary",
+  "value_text": "1.0 to 2.5 m/s; 3.0 m/s maximum in fittings"
+}

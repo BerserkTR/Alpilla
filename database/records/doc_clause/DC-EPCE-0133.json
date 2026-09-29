@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.886946Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.886946Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0133",
+  "section": "1",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Scope: the plant DCS (00CJA), remote I/O cabinets, the balance-of-plant safety instrumented system (00CJG), the historian, performance monitoring and simulator (00CKA), the continuous emission monitoring system (00CQA), telecommunication and security systems (00CYA), and all field instruments, analysers and control valves of the plant. The internal control of the gas turbine, steam turbine and generator is by the TCS of the power island supplier (IEC); this document defines only the interface and the rules that apply to the whole plant."
+}

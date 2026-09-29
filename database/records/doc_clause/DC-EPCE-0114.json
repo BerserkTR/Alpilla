@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.877813Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.877813Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0003",
+    "reference:REF-CONS-0092"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0114",
+  "section": "14",
+  "seq": 8,
+  "status": "preliminary",
+  "text": "Luminaires shall be LED, with a lifetime of L70B10 at 50,000 hours or more, maintenance factor 0.8, colour temperature 4,000 K indoors and outdoors, marine grade (aluminium with C5 coating, stainless steel 316L or GRP) and IP66 outdoors. Luminaires in classified areas shall be Ex certified per section 13."
+}

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.058695Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-29T02:47:15.295306Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:27:18.058793Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Switchgear And Controlgear",
@@ -21,8 +21,8 @@
   "material": "Steel enclosure, form 3b/4b, C5 coating",
   "mr": "MR-EL-005",
   "quantity": 1,
-  "redundancy": "1 x 100 %",
-  "remarks": "AL-17 HVAC and lighting 750 kW = 1,300 A; installed HVAC 700 kW in 00SAA. Short-circuit 65 kA / 1 s.",
+  "redundancy": "double-ended, 2 sections with tie (fed from 00BFA12/22)",
+  "remarks": "HVAC and lighting (AL-17, 750 kW) = 1,300 A; installed HVAC 00SAA10.",
   "service": "LV MCC buildings and HVAC (chillers, AHUs, lighting)",
   "status": "preliminary",
   "supply": "IEPC",

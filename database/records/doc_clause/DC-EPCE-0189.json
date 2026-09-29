@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.917256Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.917256Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.03"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0189",
+  "parameter": "Level",
+  "remarks": "Sensors on separate nozzles",
+  "section": "10",
+  "seq": 3,
+  "status": "preliminary",
+  "value_text": "Guided wave radar or DP with wet leg for the vessels; HRSG drum level by three DP transmitters (2oo3) plus independent measurement for the SIS"
+}

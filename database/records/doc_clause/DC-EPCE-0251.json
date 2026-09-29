@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.022786Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.022786Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0008",
+    "requirement:ER-02.07"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0251",
+  "section": "4",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The Site is at grade +15.00 m a.s.l. on Owner-placed engineered fill (1.5 m to 3.0 m, compacted to 95 % Standard Proctor). The typical profile per ALP-OWN-GEO-001 is: 0 m to 2.5 m engineered fill; 2.5 m to 9 m loose to medium dense silty sand (SPT N 6 to 18), liquefiable under the DD-2 earthquake; 9 m to 18 m soft to firm compressible clay (cu 30 to 70 kPa); 18 m to 25 m dense sand and gravel (SPT N > 40) where present; weathered sandstone / marl (UCS 5 MPa to 25 MPa) below, with the top of rock between about 18 m and 25 m. Depths are below grade."
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.089272Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.089272Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.06",
+    "design_parameter:DP-OWNR-0019",
+    "design_parameter:DP-OWNR-0017",
+    "reference:REF-CONS-0092"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0337",
+  "section": "15",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Marine concrete (intake structure, screen chamber, pumphouse, outfall diffuser blocks) shall be XS3 per section 10; steelwork in the marine zone shall be protected to ISO 12944 category CX (immersion / splash) or be of duplex stainless steel; the screens and rakes shall be designed for the jellyfish load of DP-OWNR-0019 and for the debris load of the storm suspended solids (DP-OWNR-0017)."
+}

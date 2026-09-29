@@ -1,0 +1,20 @@
+{
+  "db_hash": "8627354190240dbe",
+  "engine": "hmb",
+  "engine_version": "1.2.0",
+  "files": {
+    "ALP-EPC-00000-PR-HMB-0001.docx": "819b9282be7cabb8d9e07e5dc48a4317802913cf5d247b0ce7c810e6a2b1e2dd",
+    "ALP-EPC-00000-PR-HMB-0001.pdf": "319c9989cf5e8c49a091d44a2c5efd70cbd28d338c91017fcea0d249afa134cf"
+  },
+  "folder": "internal_deliveries/DLV-EPCE-0016_ALP-EPC-00000-PR-HMB-0001-Rev-A-IFR",
+  "generated_at": "2026-09-29T03:43:41.726732Z",
+  "git_commit": "e89d9d3",
+  "id": "DLV-EPCE-0016",
+  "inputs_hash": "d3a4d9ada94cdf39",
+  "issued_at": "2026-09-29T03:44:24.608023Z",
+  "issued_by": "EPCE",
+  "purpose": "IFR",
+  "recipients": "Owner (approval)",
+  "remarks": "wave 2: first issue (TQ-041 answered, findings resolved)",
+  "title": "ALP-EPC-00000-PR-HMB-0001 Rev A IFR"
+}

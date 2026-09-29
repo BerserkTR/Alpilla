@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.895629Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.895629Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01",
+    "requirement:ER-12.07",
+    "reference:REF-CONS-0082"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0149",
+  "section": "5",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Network architecture: a redundant plant network (ring or dual star with rapid recovery, 100 ms or less, to the controllers); separate networks for control (level 1), supervisory (level 2), the remote I/O, the safety network, and an OT DMZ (level 3.5) towards the Owner business network and remote access; each network shall be physically separate switches or VLAN with firewalls between zones."
+}

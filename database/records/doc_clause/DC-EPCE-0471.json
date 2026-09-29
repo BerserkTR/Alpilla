@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.225606Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.225606Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0022"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0471",
+  "section": "7",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Shell-and-tube heat exchangers shall comply with TEMA (class C or R by service) and the pressure vessel code. Plate heat exchangers shall have 10 % surface margin over the calculated duty with fouling factors per the datasheet and shall provide space for tube or plate removal. Seawater-cooled exchangers shall use titanium or higher-alloy plates or tubes; the fouling / cleanliness basis shall be the cleanliness factor of the condenser design where applicable."
+}

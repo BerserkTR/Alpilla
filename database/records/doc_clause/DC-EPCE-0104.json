@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.873205Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.873205Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.06"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0104",
+  "section": "13",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Electrical equipment shall be installed, inspected and maintained per IEC 60079-14 and IEC 60079-17, and recorded in the hazardous area electrical equipment register (ALP-EPC-00000-EL-LST-0004). Cable glands, conduit seals and earthing of Ex equipment are part of the certification."
+}

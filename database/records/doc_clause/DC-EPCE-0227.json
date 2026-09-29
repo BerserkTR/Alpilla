@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.006808Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.006808Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.08"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0227",
+  "section": "14",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Time base: UTC in all systems and storage, with the local time (UTC+3, no daylight saving) at the display; a loss of synchronisation is alarmed. Time-stamping of digital inputs for the SOE is in the input module."
+}

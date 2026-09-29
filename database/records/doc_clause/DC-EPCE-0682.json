@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.485322Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.485322Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0015",
+    "design_parameter:DP-CASE-0017",
+    "clarification:TQ-IEC-026"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0682",
+  "section": "5",
+  "section_title": "Open items",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Cooling water temperature rise (row 3.5): above the EIA limit in the cold cases with the heat-balance CW flow; TQ-IEC-026 asks IEC for the condenser design CW flow with the tube count and the re-issue of the heat balance cases; the CW pumps (00PAC10AP001/2) are re-rated with the answer."
+}

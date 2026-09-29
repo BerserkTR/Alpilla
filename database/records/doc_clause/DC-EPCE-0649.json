@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.439123Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.439123Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-PI-M3D-0001",
+    "document:ALP-EPC-00000-PI-M3D-0002",
+    "document:ALP-EPC-00000-PI-M3D-0003"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0649",
+  "section": "10",
+  "section_title": "Quality, models and deliverables",
+  "seq": 1,
+  "status": "assumption",
+  "text": "Piping design shall be produced in the 3D model with the model review stages (30 %, 60 %, 90 %) and clash detection; pipes of DN 50 and larger are modelled, small-bore piping (below DN 50) may be routed on site with approved standards."
+}

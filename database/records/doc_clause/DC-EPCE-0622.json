@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.404728Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.404728Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0622",
+  "parameter": "LDO",
+  "remarks": "Viscosity at the minimum temperature",
+  "section": "5",
+  "seq": 13,
+  "status": "preliminary",
+  "value_text": "Suction 0.5 to 1.0 m/s; discharge 1.0 to 2.0 m/s"
+}

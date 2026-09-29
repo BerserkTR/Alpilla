@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.900870Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.900870Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0159",
+  "section": "6",
+  "seq": 7,
+  "status": "preliminary",
+  "text": "Operator interface: DCS graphics based on the KKS structure, uniform colour and symbol standard (grey background, colour reserved for abnormal condition), navigation depth of three levels at most, overview, unit, system and detail displays; trends with 1 s resolution for tags on trip conditions; response of display calls of 2 s or less for 95 % of the calls and update of dynamic values of 1 s."
+}

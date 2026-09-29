@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.137934Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.137934Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.08",
+    "reference:REF-CONS-0092",
+    "design_parameter:DP-CASE-0003"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0388",
+  "section": "13",
+  "section_title": "Materials, controls and maintainability",
+  "seq": 1,
+  "status": "assumption",
+  "text": "Materials: supply and return ductwork indoors of galvanised sheet steel; outdoor ductwork, louvres and casings of stainless steel 316L or aluminium with a marine coating system, or hot-dip galvanised with paint to ISO 12944 C5 H per ALP-EPC-00000-ME-SPC-0002; fan and motor casings with a marine coating and IP55 minimum protection (IP56 for outdoor motors); chilled water pipes of carbon steel with a paint system per the painting specification and cellular glass or closed cell elastomeric insulation with an aluminium jacket outdoors."
+}

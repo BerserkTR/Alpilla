@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.437817Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.437817Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-ME-SPC-0002",
+    "decision:DEC-EPCE-0005"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0648",
+  "section": "9",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Piping identification (service name, flow arrow, colour band) shall follow ALP-EPC-00000-ME-SPC-0002 and the KKS numbering of the project; lines shall be tagged in the piping design database with the KKS number of the system."
+}

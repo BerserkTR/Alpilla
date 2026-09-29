@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.506373Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.506373Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02",
+    "document:ALP-EPC-00000-GE-PLN-0001"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0696",
+  "section": "3",
+  "seq": 7,
+  "status": "preliminary",
+  "text": "The overall document progress is the sum over all documents of (earned percentage x weight) divided by the sum of the weights. Progress of a discipline, of a work package (EWP) or of a system is computed the same way over the documents of that group; the discipline breakdown is a table of the monthly report."
+}

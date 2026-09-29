@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.036465Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.036465Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0087"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0270",
+  "parameter": "Imposed load - roofs not accessible",
+  "section": "6",
+  "seq": 10,
+  "status": "assumption",
+  "value_text": "0.4 kN/m2 (category H) plus 1.0 kN concentrated"
+}

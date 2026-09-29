@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.315992Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.315992Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.08"
+  ],
+  "block": "requirements:ER-02.08,ER-13.03",
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0550",
+  "section": "2",
+  "section_title": "Governing requirements and site data",
+  "seq": 1,
+  "status": "confirmed"
+}

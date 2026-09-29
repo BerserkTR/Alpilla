@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.021530Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.021530Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0249",
+  "section": "3",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Codes not in the project reference register but named in this document (EN 1997 geotechnical design, EN 206 concrete, EN 1994, EN 1998 as cross-check, EN 12699 / EN 1536 piling execution, TS 708, TS EN 197-1, EN 10025, EN 1090, ISO 4354 or EN 1991-1-4 wind, API 650 Annex B) shall be registered before they are cited in a specification."
+}

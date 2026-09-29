@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:27:01.851240Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:27:01.851240Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0004"
+  ],
+  "category": "backup_fuel",
+  "condition": "minimum, EN ISO 2719",
+  "id": "DP-EPCE-0013",
+  "parameter": "LDO flash point",
+  "status": "confirmed",
+  "unit": "degC",
+  "value": 55
+}

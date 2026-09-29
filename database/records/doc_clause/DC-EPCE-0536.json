@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.299113Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.299113Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0066"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0536",
+  "parameter": "Carbon steel tank bottoms and shell in LDO service",
+  "remarks": "API 650",
+  "section": "8",
+  "seq": 5,
+  "status": "preliminary",
+  "value_text": "1.5 mm shell; 3.0 mm bottom (internal coating and cathodic protection under bottom)"
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.475447Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.475447Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.01",
+    "reference:REF-CONS-0002"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0675",
+  "parameter": "Environmental Law (No. 2872) via ER-14.01: waste management",
+  "remarks": "ALP-EPC-00000-HS-PLN-0004 (waste management plan); ALP-EPC-00000-PR-LST-0003; ALP-EPC-00000-HS-PLN-0003.",
+  "section": "3",
+  "seq": 17,
+  "status": "preliminary",
+  "value_text": "Construction and operating waste is segregated, stored and disposed of through licensed carriers and facilities under the waste management plan; hazardous waste (used oil, spent catalyst, spent resins, chemical containers) has its own routes; the operating waste streams are quantified in the inventory."
+}

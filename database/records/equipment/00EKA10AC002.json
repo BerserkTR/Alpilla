@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.005327Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-29T02:47:15.317691Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:27:19.612188Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Plate Heat Exchanger",
@@ -27,7 +27,7 @@
   "rated_power": 7.5,
   "redundancy": "2 x 100 %",
   "remarks": "As heater A (2 x 100 %)",
-  "service": "Gas preheater B (electric)",
+  "service": "Fuel gas preheating at the receiving station (indirect water-bath, gas-fired burner 2.2 MW thermal)",
   "status": "preliminary",
   "supply": "IEPC",
   "system": "00EKA",

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.140169Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.140169Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0390",
+  "section": "13",
+  "seq": 3,
+  "status": "assumption",
+  "text": "Maintainability: filters, coils, fans and dampers shall be accessible from the platform or the floor with 1.0 m clear service space; equipment on roofs shall have access with guard rails and permanent lifting facilities for units heavier than 25 kg; a spare filter set for one year shall be included in the spare parts list."
+}

@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.018859Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.018859Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0017",
+    "reference:REF-CONS-0087",
+    "reference:REF-CONS-0088",
+    "reference:REF-CONS-0089",
+    "reference:REF-CONS-0090"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0245",
+  "section": "1",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Where TBDY 2018 and the Eurocodes give different requirements for the same check, the more onerous shall govern; for seismic actions and detailing TBDY 2018 governs, for all other actions and for steel and concrete member design the Eurocodes (EN 1990 to EN 1993 with the Turkish National Annexes) govern, TS 500 being used only where TBDY 2018 refers to it or where it is more onerous for the same check."
+}

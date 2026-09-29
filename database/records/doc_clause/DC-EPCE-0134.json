@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.887444Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.887444Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0134",
+  "section": "1",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Out of scope: electrical protection and switchgear control (ALP-EPC-00000-EL-DBR-0001), process design criteria and instrument data sheets; detail design of loops is in the DCS functional design specification (ALP-EPC-00000-IC-SPC-0005), the alarm management philosophy (ALP-EPC-00000-IC-RPT-0001), the OT cybersecurity concept (ALP-EPC-00000-IC-RPT-0002) and the BOP SIS safety requirements specification (ALP-EPC-00000-IC-SPC-0006)."
+}

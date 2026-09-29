@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.018216Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.018216Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.02"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0244",
+  "section": "1",
+  "section_title": "Purpose and scope",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "This document defines the civil and structural design criteria for the Alpilla 600 MW combined cycle power plant (1 x 1 multi-shaft, power island by IEC, balance of plant by IEPC). It applies to the design of all foundations, buildings, structures, pipe racks and supports, roads, drainage and the marine works (seawater intake and outfall) and is the basis for ALP-EPC-00000-CV-CAL-0001, CV-SPC-0001..0005 and the civil / structural drawings."
+}

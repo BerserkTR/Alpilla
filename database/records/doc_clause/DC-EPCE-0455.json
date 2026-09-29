@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.207997Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.207997Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-08.03",
+    "requirement:ER-10.01",
+    "requirement:ER-10.02"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0455",
+  "section": "5",
+  "section_title": "Pumps",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Centrifugal pumps in hydrocarbon (LDO), flammable, toxic or high-energy services (rated power above 150 kW or discharge pressure above 40 bar) shall comply with API 610 / ISO 13709. Pumps in water, utility and other non-hazardous services shall comply with ISO 5199 (or ISO 9908 for Class III up to 150 kW) or API 610 by package specification; vertical wet-pit circulating water pumps shall follow ANSI/HI 9.8 and the ER-08.03 requirements."
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.510485Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.510485Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-GE-PLN-0001",
+    "decision:DEC-EPCE-0007",
+    "decision:DEC-EPCE-0010"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0699",
+  "section": "4",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "The planned curve is re-baselined only when the MDL revision or the levelled workflow timeline is formally revised (change of scope, staffing or key dates); the baseline of each revision is kept, and the monthly report states which baseline the planned curve follows. Documents late against the plan are listed with the days late and the reason (input, review, capacity)."
+}

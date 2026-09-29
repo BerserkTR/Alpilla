@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.135430Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.135430Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0048",
+    "requirement:ER-10.05"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0386",
+  "section": "12",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Rooms protected by gaseous extinguishing (control room floor voids, electronic rooms, cable rooms, GT enclosure per the fire protection concept, CO2 / inert gas per NFPA 12) shall have their ventilation dampers closing before the discharge and a post-discharge purge extraction of at least 6 air changes per hour started manually after the fire brigade has confirmed the extinguishing; the room shall not be pressurised during the discharge."
+}

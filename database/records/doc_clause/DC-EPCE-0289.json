@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.050385Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.050385Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0097",
+    "reference:REF-CONS-0093"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0289",
+  "section": "9",
+  "seq": 4,
+  "status": "assumption",
+  "text": "Vibration limits: the vibration of the foundation under the OEM dynamic loads shall not exceed the OEM limits; where the OEM gives no limit the amplitude of the top of the foundation shall not exceed a peak velocity of 2.0 mm/s at the operating frequency (project limit). The machine vibration shall be evaluated per ISO 20816-2 (zone A / B for new machines; alarm at the zone B / C boundary and trip at C / D unless the OEM sets other levels) and the foundation shall not cause a change of the zone."
+}

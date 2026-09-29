@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.157119Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.157119Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.05",
+    "reference:REF-CONS-0011"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0406",
+  "section": "6",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Chemicals shall be stored and handled in closed systems where possible; the design shall provide safety showers and eye wash stations within 10 seconds (about 15 m) of every point where hazardous chemicals (ammonia, sodium hypochlorite, acids, caustic, hydrazine substitutes, LDO sampling) are handled, closed sample points, vent lines routed to safe locations, and no manual transfer of hazardous chemicals from drums without a closed transfer system."
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:44:24.930712Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:44:24.930712Z",
+    "updated_by": "EPCE"
+  },
+  "db_hash": "8627354190240dbe",
+  "engine": "hmb",
+  "file_count": 2,
+  "folder": "internal_deliveries/DLV-EPCE-0016_ALP-EPC-00000-PR-HMB-0001-Rev-A-IFR",
+  "id": "DLV-EPCE-0016",
+  "purpose": "IFR",
+  "recipients": "Owner (approval)",
+  "revisions": [
+    "ALP-EPC-00000-PR-HMB-0001_A"
+  ],
+  "title": "ALP-EPC-00000-PR-HMB-0001 Rev A IFR"
+}

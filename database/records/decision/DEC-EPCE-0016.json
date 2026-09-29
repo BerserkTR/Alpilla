@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-29T02:47:11.431927Z",
     "created_by": "EPCE",
-    "rev": 1,
-    "updated_at": "2026-09-29T02:47:11.431927Z",
+    "rev": 2,
+    "updated_at": "2026-09-29T03:26:52.540652Z",
     "updated_by": "EPCE"
   },
   "basis_refs": [
@@ -12,9 +12,9 @@
   ],
   "date": "2026-11-27",
   "decided_by": "IEPC engineering manager",
-  "decision": "Unit auxiliary transformers 2 x 100 %: 10BBT (GT, 31.5 MVA) also feeds the GT static frequency converter (8.5 MW) during start-up, 20BBT (ST, 16 MVA) carries the full running load with 10BBT out of service. 10.5 kV switchgear 2,000 A, 31.5 kA 1 s. LV distribution in 2 x 100 % transformer pairs: power block 00BFT10/20 2 x 3.15 MVA, BOP and water treatment 00BFT30/40 2 x 2.0 MVA, CW intake and pump house 00BFT50/60 2 x 1.0 MVA (10.5/0.42 kV). UPS 2 x 100 kVA and 220 V DC 2 x 100 % (2 batteries of 500 Ah, 2 chargers). Emergency diesel generator 1,250 kVA. Fire pumps: electric 160 kW on LV, diesel 200 kW.",
+  "decision": "Unit auxiliary transformers 2 x 100 %: 10BBT (GT, 31.5 MVA) also feeds the GT static frequency converter (8.5 MW) during start-up, 20BBT (ST, 16 MVA) carries the full running load with 10BBT out of service; a GT start from 20BBT alone is possible only with the start-up auxiliary load limited to 5 MW (short-time loading per IEC 60076-7, to be confirmed by the load-flow study). 10.5 kV switchgear 2,000 A, 31.5 kA 1 s; MV motors (200 kW and above) rated 10 kV. LV system 400 V nominal, transformers 10.5/0.42 kV Dyn11, LV motors rated 400 V, largest LV motor 160 kW. LV distribution in four 2 x 100 % transformer pairs, each pair feeding a main switchboard with two sections and an interlocked coupler (no continuous parallel operation): GT and HRSG 00BFT10/20 2 x 3.15 MVA (uk 8 %) -> 00BFA10/20; ST, condenser and cooling 00BFT70/80 2 x 1.6 MVA (uk 6 %) -> 00BFA11/21; BOP, fuel and buildings 00BFT30/40 2 x 3.15 MVA (uk 8 %) -> 00BFA12/22; CW intake and pump house 00BFT50/60 2 x 1.0 MVA (uk 6 %) -> MCC 00BFA40. Each transformer carries the full load of its pair at not more than 80 % of its rating in every heat balance case. MCCs are double-ended (two sections, fed from the A and B sections of their main switchboard). UPS 2 x 100 kVA and 220 V DC 2 x 100 % (2 batteries of 500 Ah, 2 chargers). Emergency diesel generator 1,250 kVA. Fire pumps: electric 160 kW on LV, diesel 200 kW.",
   "id": "DEC-EPCE-0016",
-  "rationale": "The equipment review found the LV transformers not able to carry the LV load 2 x 100 % (2 x 2.5 MVA for 5.3 MVA), two single transformers without redundancy, and single tags for redundant UPS and batteries.",
+  "rationale": "The first concept (two 3.15 MVA transformers for the whole power block) gave 94 % loading of one transformer at SRC with the running auxiliary loads; splitting GT/HRSG and ST/cooling loads and sizing the BOP pair for the LDO case keeps every transformer below 80 % and the LV short-circuit level at or below 80 kA.",
   "status": "agreed",
   "title": "Electrical auxiliary system concept (preliminary, before the electrical load list)"
 }

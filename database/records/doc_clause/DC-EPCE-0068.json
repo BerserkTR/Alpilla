@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.858399Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.858399Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.05",
+    "requirement:ER-11.06"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0068",
+  "section": "9",
+  "seq": 8,
+  "status": "preliminary",
+  "text": "Protection relays and breaker trip circuits shall be supplied from the 220 V DC system with the two protection groups (Main 1 / Main 2) on different batteries; the 24 V DC control voltage is derived from redundant DC/DC converters. All DC and UPS distributions have a supply monitoring alarm to the DCS."
+}

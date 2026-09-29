@@ -2,15 +2,15 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.057020Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-29T02:47:15.292549Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:27:14.140095Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Switchgear And Controlgear",
   "basis_refs": [
     "requirement:ER-01.06"
   ],
-  "capacity": 3200,
+  "capacity": 1600,
   "capacity_unit": "A",
   "cwa": "CWA-03",
   "cwp": "CWP-03-EL-01",
@@ -21,8 +21,8 @@
   "material": "Steel enclosure, form 3b/4b, C5 coating",
   "mr": "MR-EL-005",
   "quantity": 1,
-  "redundancy": "1 x 100 %",
-  "remarks": "AL-01..07 (2.6 MW) and AL-13 (0.32 MW) at 400 V about 4.4 kA if all through this MCC; 3,200 A per bus section, two sections A/B; GT package aux partly in vendor MCC (IEC). Short-circuit 65 kA / 1 s.",
+  "redundancy": "double-ended, 2 sections with tie (fed from 00BFA10/20)",
+  "remarks": "HRSG and power block BOP consumers (AL-05, part of AL-22) about 0.4 MW; the GT package MCC (IEC) is fed directly from 00BFA10/20.",
   "service": "LV MCC power block (GT/ST/HRSG auxiliaries, closed cooling water)",
   "status": "preliminary",
   "supply": "IEPC",

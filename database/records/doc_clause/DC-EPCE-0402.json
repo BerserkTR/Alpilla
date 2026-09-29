@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.153186Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.153186Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.03",
+    "requirement:ER-14.04",
+    "design_parameter:DP-CASE-0044",
+    "design_parameter:DP-CASE-0045",
+    "source:SRC-OWNR-0007",
+    "design_parameter:DP-EPCE-0010"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0402",
+  "section": "5",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "Equipment noise shall not exceed 85 dB(A) at 1 m from any equipment in normal operation (ER-14.03) and the plant noise shall not exceed 45 dB(A) LAeq at night (and the day limit DP-EPCE-0010 of the EIA) at the nearest sensitive receptor (ER-14.04); the requirement shall be verified by the noise study (HS-STU-0001), which shall use the sound power levels guaranteed by the suppliers, and by the noise survey after commissioning (ER-16.05)."
+}

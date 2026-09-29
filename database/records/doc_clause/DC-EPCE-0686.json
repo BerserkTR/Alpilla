@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.490796Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.490796Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02",
+    "document:ALP-EPC-00000-GE-PRC-0002",
+    "document:ALP-EPC-00000-GE-PLN-0001"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0686",
+  "section": "1",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The method is applied by the engines of the project (progress_report, engineering_plan, release_control, schedule) on the data in the database; no progress figure is typed into a report by hand. This procedure is consistent with section 10 of ALP-EPC-00000-GE-PRC-0002 (release control and process gates) and with ALP-EPC-00000-GE-PLN-0001 (engineering execution plan)."
+}

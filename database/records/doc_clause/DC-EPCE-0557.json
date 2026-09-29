@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.324347Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.324347Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0011"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0557",
+  "section": "4",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The steel surface temperature during blasting and coating shall be at least 3 K above the dew point, and relative humidity shall not exceed 85 %; abrasive shall be free from chlorides (conductivity of the water extract not above 250 microsiemens/cm) and soluble salts on the surface shall not exceed 20 mg/m2 of chloride (ISO 8502-6/9)."
+}

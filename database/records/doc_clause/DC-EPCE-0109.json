@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.875694Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.875694Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0109",
+  "parameter": "MV, LV, battery and electrical rooms",
+  "remarks": "Emergency lighting on the EDG board",
+  "section": "14",
+  "seq": 3,
+  "status": "preliminary",
+  "value_text": "200 lx at floor, 500 lx at switchgear front panels where read"
+}

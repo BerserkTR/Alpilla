@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.098815Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.098815Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0008",
+    "design_parameter:DP-OWNR-0001",
+    "design_parameter:DP-CASE-0009",
+    "requirement:ER-02.02"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0348",
+  "section": "4",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The cooling design shall be based on the maximum ambient dry-bulb temperature for full capability of 40 degC (DP-CASE-0008) and the site summer design condition (0.4 %, DP-OWNR-0001) for comfort cooling load calculations of buildings with a 10 % safety margin; equipment (air-cooled chillers, condensers, fans) shall be rated to give the required capacity at 40 degC and shall operate without damage at the survival range (-15 degC to +45 degC, DP-CASE-0009); the capacity derating between 40 degC and 45 degC shall be stated by the chiller supplier."
+}

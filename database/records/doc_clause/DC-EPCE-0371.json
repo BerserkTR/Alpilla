@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.119625Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.119625Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0083",
+    "requirement:ER-14.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0371",
+  "section": "9",
+  "seq": 2,
+  "status": "assumption",
+  "text": "The gas turbine hall and the fuel gas areas shall not depend on the HVAC for the safety ventilation of the GT enclosure (OEM); where the hall ventilation is used for the dilution of gas releases the ventilation shall be in operation continuously, the gas detection of the fire and gas system shall trip fuel gas supply and start the fans in high speed, and the hazardous area classification shall take credit only for the ventilation availability of the design."
+}

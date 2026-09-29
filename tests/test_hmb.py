@@ -63,6 +63,22 @@ def test_calculation_closes_and_computes_net():
     assert any("fuel LHV" in t for t in warn)                            # composition LHV differs from 49.5 MJ/kg
 
 
+def test_cw_rise_limit_is_checked():
+    """An environmental limit on the condenser CW rise (design_parameter in K) is checked in every case that lists it."""
+    case, streams, aux, _ = closed_case()
+    streams += [{"number": 25, "description": "CW in", "fluid": "seawater", "from_node": "SEA", "to_node": "COND",
+                 "mass_flow": 10000.0, "pressure": 2.5, "temperature": 8.0},
+                {"number": 26, "description": "CW out", "fluid": "seawater", "from_node": "COND", "to_node": "OUT",
+                 "mass_flow": 10000.0, "pressure": 1.7, "temperature": 15.3}]
+    refs = {"design_parameter:DP-9": {"id": "DP-9", "parameter": "Condenser cooling water temperature rise", "value": 7, "unit": "K"}}
+    res = hmb.calculate(case, streams, aux, refs)
+    assert res.summary["cw_rise"] == pytest.approx(7.3)
+    assert any(s == "WARN" and "CW temperature rise 7.30 K vs DP-9 <= 7 K" in t for s, t in res.checks)
+    streams[-1]["temperature"] = 14.5
+    res = hmb.calculate(case, streams, aux, refs)
+    assert any(s == "OK" and "CW temperature rise 6.50 K vs DP-9" in t for s, t in res.checks)
+
+
 def test_energy_imbalance_is_reported():
     case, streams, aux, _ = closed_case()
     streams[2]["temperature"] += 10.0                                    # vendor data inconsistent by 10 K

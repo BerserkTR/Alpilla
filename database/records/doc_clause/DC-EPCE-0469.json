@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.223531Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.223531Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0066",
+    "reference:REF-CONS-0067",
+    "decision:DEC-EPCE-0014",
+    "design_parameter:DP-EPCE-0013"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0469",
+  "section": "7",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Atmospheric storage tanks for LDO and fire water shall comply with API 650 (fixed cone roof; internal floating roof not required for LDO with the flash point of DP-EPCE-0013), with foundation ring wall and leak detection under the bottom. Tank bottoms shall have a slope and a sump for water draw-off. Tanks handling flammable liquids shall be designed with NFPA 30 spacing, venting and bund requirements. Shop-built tanks of demineralised water and chemicals shall comply with EN 14015 or the package standard (API 650 for steel tanks above 10 m3 in flammable service)."
+}

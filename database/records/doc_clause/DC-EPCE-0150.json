@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.896167Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.896167Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0150",
+  "section": "5",
+  "seq": 7,
+  "status": "assumption",
+  "text": "Control room: one central control room (CCR) from which the whole plant is operated by two operators (ER-12.01). The CCR shall have four operator workstations (two per operator, each with three screens), one shift supervisor workstation, one engineering workstation with access to the DCS and TCS engineering, one large screen display of the overview, and printers only for the alarm and event logs on demand. Field operator interface is by local panels and mobile devices with restricted rights."
+}

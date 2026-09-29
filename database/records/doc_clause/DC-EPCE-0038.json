@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.847319Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.847319Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0031",
+    "requirement:ER-04.10"
+  ],
+  "block": "aux_loads:SRC-NG-100",
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0038",
+  "section": "7",
+  "section_title": "Auxiliary power system and redundancy philosophy",
+  "seq": 1,
+  "status": "confirmed"
+}

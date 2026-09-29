@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.938874Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.938874Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.07"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0223",
+  "section": "13",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Patch and backup management: security patches are assessed by the suppliers within 30 days of the release and installed after a test on the offline test system; backups of all controller and server configurations after every change and at least weekly on the servers, with an offline copy; restore tested at least annually; logs sent to a central log server in the DMZ."
+}

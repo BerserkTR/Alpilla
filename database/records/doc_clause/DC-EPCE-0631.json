@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.415970Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.415970Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0631",
+  "section": "6",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Access and maintenance: valves, instruments, sampling points and flanges shall be accessible from grade, platforms or ladders; all operating and maintenance points above 2.2 m shall be reachable from a platform; extended stems or chains are not accepted, except for valves in remote locations approved by IEPC."
+}

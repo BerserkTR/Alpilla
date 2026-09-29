@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.861532Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.861532Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.08",
+    "reference:REF-CONS-0070"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0076",
+  "section": "10",
+  "seq": 7,
+  "status": "preliminary",
+  "text": "Fire performance: cables of safety circuits (fire pumps, emergency lighting, EDG, fire detection and alarm, UPS and DC distribution to the emergency loads, SIS logic power) shall be fire-rated to IEC 60331 for 90 minutes (180 minutes for the electric fire pump feeder, NFPA 20). Fire-rated cables shall not share tray with non-rated cables of other redundancy."
+}

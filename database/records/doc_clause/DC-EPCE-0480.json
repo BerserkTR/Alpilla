@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.235043Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.235043Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0005"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0480",
+  "section": "9",
+  "section_title": "Nameplates, tagging and marking",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Every equipment item shall be tagged with the KKS number of the project equipment register (VGB-S-811 and the project key list) on a stainless steel nameplate (316L, 1 mm minimum) fixed with stainless rivets or screws. The nameplate shall show: KKS tag, manufacturer, type and serial number, year of manufacture, design conditions, weight, and the CE / PED mark where applicable."
+}

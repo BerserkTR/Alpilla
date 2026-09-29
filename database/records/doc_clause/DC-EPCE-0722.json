@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.544207Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.544207Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02",
+    "decision:DEC-EPCE-0012"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0722",
+  "parameter": "CWP released (EWP complete, materials on site or confirmed)",
+  "remarks": "Credit of the step of a CWP; total 100 %",
+  "section": "9",
+  "section_title": "Construction and commissioning progress",
+  "seq": 1,
+  "status": "preliminary",
+  "table_head": [
+    "Step",
+    "Credit",
+    "Remarks"
+  ],
+  "unit": "%",
+  "value": 5
+}

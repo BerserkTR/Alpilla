@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.217179Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.217179Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-ME-RPT-0002"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0463",
+  "section": "6",
+  "section_title": "Fans, blowers and compressors",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Fans shall comply with ISO 5801 for performance and AMCA / ISO 14694 for vibration quality (balancing grade G 2.5 or better, BV-3 category). Fan static efficiency shall be stated at the duty point and shall not be lower than the ISO 12759 minimum efficiency grade applicable to the fan category. Impellers of aluminium or GRP in outdoor use shall be coated and electrically isolated from steel structures in accordance with ALP-EPC-00000-ME-RPT-0002."
+}

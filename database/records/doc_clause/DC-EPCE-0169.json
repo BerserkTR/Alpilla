@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.906159Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.906159Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01",
+    "requirement:ER-15.03"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0169",
+  "section": "7",
+  "seq": 10,
+  "status": "confirmed",
+  "text": "Failure of any single component of the DCS (controller, I/O module, power supply, network, workstation, server) shall cause no trip, no loss of view and no loss of control of any process. A failure shall be alarmed and displayed on the system diagnostics display; a power loss of one UPS branch shall not affect the DCS. The DCS supplier shall demonstrate this in the factory acceptance test (ER-15.03) by failure injection."
+}

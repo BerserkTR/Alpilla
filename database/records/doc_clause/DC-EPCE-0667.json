@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.463615Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.463615Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0015",
+    "decision:DEC-EPCE-0002",
+    "design_parameter:DP-OWNR-0015",
+    "equipment:00GBA10AP005",
+    "source:SRC-OWNR-0007",
+    "design_parameter:DP-EPCE-0012"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0667",
+  "parameter": "EIA 2.5 Water: SWRO brine not more than 5 % above ambient salinity at 50 m from the diffuser",
+  "remarks": "ALP-EPC-00GBA-PR-SDS-0001 (SWRO SDD); ALP-EPC-00GBA-ME-CAL-0001; ALP-EPC-00000-PR-STU-0003 (dilution); ALP-EPC-00PAA-IC-CNR-0001 (interlock). Status preliminary until the study is issued.",
+  "section": "3",
+  "seq": 9,
+  "status": "preliminary",
+  "value_text": "DEC-EPCE-0015 returns the SWRO brine (00GBA10AP005 / 00GBA10AP006) to the CW outfall seal pit only while at least one CW pump runs; the SWRO trips on loss of all CW pumps and the demineralised water storage covers the outage. The brine is diluted at least 1:200 by one CW pump, so the salinity excess stays far below DP-EPCE-0012; ambient salinity is DP-OWNR-0015."
+}

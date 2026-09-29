@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.041342Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.041342Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.06",
+    "reference:REF-CONS-0017"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0277",
+  "section": "7",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "Building importance class: BIS 1 (importance factor I = 1.5) shall be used for power block structures, the control and electrical building, the GIS and switchyard structures, fire water and fire station facilities, and the foundations and supports of critical equipment. Other buildings (administration, workshop, warehouse, gatehouse) shall be designed as BIS 3 (I = 1.0) unless they house emergency functions."
+}

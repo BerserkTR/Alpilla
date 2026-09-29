@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.265112Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.265112Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.04"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0507",
+  "parameter": "Seawater, condenser tubes and cooler plates",
+  "remarks": "Consistent with the equipment register for condenser and CCW coolers",
+  "section": "4",
+  "seq": 2,
+  "status": "preliminary",
+  "value_text": "Titanium Gr 2 tubes and plates; titanium-clad tube sheets; EPDM or FKM gaskets"
+}

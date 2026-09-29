@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.037845Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.037845Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0005",
+    "design_parameter:DP-CASE-0006",
+    "requirement:ER-02.05"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0272",
+  "section": "6",
+  "seq": 12,
+  "status": "preliminary",
+  "text": "Snow load: characteristic ground snow load per DP-CASE-0005, with the shape and exposure coefficients of EN 1991-1-3; drift accumulations shall be included at roof steps and at the turbine hall / auxiliary bay junctions. Rain: roof drainage shall be sized for the rainfall intensity of DP-CASE-0006 and the roof shall carry the ponding load of blocked primary drains up to the level of the overflow (secondary drainage of the same capacity, not counted in the primary capacity)."
+}

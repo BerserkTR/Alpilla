@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.068086Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.068086Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0090"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0310",
+  "parameter": "Vertical deflection - floor beams (imposed load)",
+  "section": "12",
+  "section_title": "Deflection and drift limits",
+  "seq": 1,
+  "status": "assumption",
+  "table_head": [
+    "Element",
+    "Limit",
+    "Remarks"
+  ],
+  "value_text": "span / 300; total span / 250"
+}

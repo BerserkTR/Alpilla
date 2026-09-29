@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.142492Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.142492Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.05",
+    "reference:REF-CONS-0095",
+    "reference:REF-OWNR-0001"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0392",
+  "section": "1",
+  "seq": 2,
+  "status": "confirmed",
+  "text": "The Contractor shall implement an ISO 45001-certified HSE management system and shall pursue a lost-time-injury target of zero (ER-14.05); the environmental management shall follow ISO 14001 as required by the Owner."
+}

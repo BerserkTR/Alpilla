@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.907241Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.907241Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.03",
+    "reference:REF-CONS-0081",
+    "reference:REF-CONS-0049"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0171",
+  "section": "8",
+  "section_title": "Safety instrumented systems",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "The safety instrumented system (SIS) shall be designed per IEC 61511 with SIL verification, including burner management (NFPA 85) and HRSG protection functions (ER-12.03). The SIS shall be physically and logically separate from the DCS: own logic solver, own I/O, own networks, own power supply, own engineering station, own sensors and final elements for each safety instrumented function."
+}

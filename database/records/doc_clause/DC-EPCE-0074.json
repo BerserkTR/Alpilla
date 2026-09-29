@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.860839Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.860839Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0077",
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0074",
+  "section": "10",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Voltage drop: 3 % or less at the steady load and 5 % or less from the LV transformer terminals to the load; 2 % or less on MV feeders at the steady load; during motor start the terminal voltage limit of section 8. The cable sizing shall use the load-list currents (design current plus 10 % margin) and the shortest protection setting, not the rated current of the breaker."
+}

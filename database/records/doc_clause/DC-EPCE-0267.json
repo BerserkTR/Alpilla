@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.034285Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.034285Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0087"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0267",
+  "parameter": "Imposed load - workshop and warehouse floors",
+  "section": "6",
+  "seq": 7,
+  "status": "assumption",
+  "value_text": "10 kN/m2 (plus forklift 3 t axle)"
+}

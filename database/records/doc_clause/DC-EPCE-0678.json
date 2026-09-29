@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.479864Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.479864Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0007",
+    "requirement:ER-14.01"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0678",
+  "section": "4",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Cooling water and chemicals: CW flow, condenser temperature rise, chlorine dosing rate, residual chlorine at the outfall and SWRO brine flow are logged in the plant historian and reported monthly during the marine monitoring period (construction and 3 years of operation, Owner's obligation)."
+}

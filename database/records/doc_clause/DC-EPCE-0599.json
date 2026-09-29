@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.375392Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.375392Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0059",
+    "reference:REF-CONS-0060",
+    "reference:REF-CONS-0061",
+    "reference:REF-SETUP-0002",
+    "reference:REF-CONS-0023"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0599",
+  "section": "2",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Piping components shall comply with ASME B16.5 (flanges up to NPS 24), B16.34 (valves), B16.25 (butt-welding ends) and B36.10M (pipe dimensions); larger flanges to ASME B16.47 series A. Pressure equipment directive category shall be shown on the class sheets for piping in the European Union scope."
+}

@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.226587Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.226587Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0472",
+  "section": "7",
+  "seq": 7,
+  "status": "preliminary",
+  "text": "Vessels shall have manholes (minimum DN 500, DN 600 for vessels above 2 m diameter), lifting lugs or trunnions designed for 1.5 x the empty weight (dynamic factor 2.0 for lifting of the full package), drain and vent connections at the lowest and highest points and earthing bosses (2 per vessel, on opposite sides)."
+}

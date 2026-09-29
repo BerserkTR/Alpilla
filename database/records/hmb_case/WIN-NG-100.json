@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T03:01:08.798527Z",
     "created_by": "EPCE",
-    "rev": 4,
-    "updated_at": "2026-09-29T02:57:50.410400Z",
+    "rev": 5,
+    "updated_at": "2026-09-29T03:28:23.043266Z",
     "updated_by": "EPCE"
   },
   "ambient_temperature": -4.8,
@@ -15,7 +15,8 @@
   ],
   "check_refs": [
     "design_parameter:DP-OWNR-0051",
-    "design_parameter:DP-OWNR-0033"
+    "design_parameter:DP-OWNR-0033",
+    "design_parameter:DP-CASE-0015"
   ],
   "export_limiter": "640 MW net at the 380 kV revenue meters (TQ-027, TP-E1)",
   "fuel": "natural_gas",

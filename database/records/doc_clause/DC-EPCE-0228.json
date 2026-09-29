@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.007521Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.007521Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.04",
+    "requirement:ER-14.02",
+    "design_parameter:DP-CASE-0040",
+    "design_parameter:DP-CASE-0041",
+    "design_parameter:DP-CASE-0042",
+    "design_parameter:DP-OWNR-0041",
+    "design_parameter:DP-OWNR-0043"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0228",
+  "section": "15",
+  "section_title": "Continuous emission monitoring (CEMS)",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "The CEMS on the stack (00CQA10) measures NOx, CO, O2, NH3, flow and moisture (ER-12.04), and dust when firing LDO, with stack temperature and pressure for the conversion of the values to the reference conditions (dry, 15 % O2, standard conditions) of the emission limits of DP-CASE-0040 to DP-CASE-0042 (gas) and DP-OWNR-0041 to DP-OWNR-0043 (LDO)."
+}

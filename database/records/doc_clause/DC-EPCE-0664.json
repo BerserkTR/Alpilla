@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.459605Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.459605Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0016",
+    "guarantee:PG-14",
+    "design_parameter:DP-OWNR-0012",
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0664",
+  "parameter": "EIA 2.2 Water: temperature excess at most 3 K at 100 m from the diffuser",
+  "remarks": "ALP-EPC-00000-PR-STU-0003 (CW thermal plume and outfall dispersion study); ALP-EPC-00UPA-CV-CVL-0001 (marine structures); guarantee PG-14 test procedure. Status preliminary until the plume study is issued.",
+  "section": "3",
+  "seq": 6,
+  "status": "preliminary",
+  "value_text": "The outfall diffuser is designed to keep the thermal plume excess at the edge of the mixing zone within DP-CASE-0016; this is performance guarantee PG-14 (must-rectify remedy, no tolerance) and is verified by the thermal plume survey of the EIA monitoring plan, summer conditions, base load. The seawater temperature basis is DP-OWNR-0012."
+}

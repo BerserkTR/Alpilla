@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.362751Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.362751Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-15.02"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0589",
+  "parameter": "H1 - before blasting",
+  "remarks": "Hold point",
+  "section": "8",
+  "seq": 2,
+  "status": "preliminary",
+  "table_head": [
+    "Hold / witness point",
+    "Inspection",
+    "Remarks"
+  ],
+  "value_text": "Surface condition, contamination (weld spatter, oil), edge treatment inspected"
+}

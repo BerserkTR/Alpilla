@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.158189Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.158189Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.05",
+    "reference:REF-CONS-0079",
+    "design_parameter:DP-OWNR-0009"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0407",
+  "section": "6",
+  "seq": 3,
+  "status": "assumption",
+  "text": "Other physical agents: thermal insulation or personnel protection shall be provided for surfaces above 60 degC that can be touched from platforms and walkways (protection to a height of 2.1 m and 0.8 m from the edge); confined spaces (tanks, pits, the condenser water boxes, the CW tunnel) shall have permanent gas monitoring connections, two access points where practical and rescue provisions; lightning protection per IEC 62305 for all buildings and structures with the ground flash density of the site (DP-OWNR-0009)."
+}

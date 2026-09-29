@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.884939Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.884939Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0129",
+  "section": "16",
+  "seq": 9,
+  "status": "preliminary",
+  "text": "Sizing calculations that follow from this document: cable sizing (ALP-EPC-00000-EL-CAL-0001), battery, UPS and DC (ALP-EPC-00000-EL-CAL-0002), EDG and transformers (ALP-EPC-00000-EL-CAL-0003) and lighting (ALP-EPC-00000-EL-CAL-0004). Each shall cite the criteria of this document by section."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.907782Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.907782Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.03",
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0172",
+  "section": "8",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The BOP SIS logic solver (00CJG10) shall be a redundant, IEC 61508 certified logic solver (2oo3 architecture, SIL 3 capable) for the BOP functions: fuel gas and LDO emergency shutdown, ammonia, chlorine / hypochlorite, fire and gas detection and other functions from the SIL determination. The GT, ST and HRSG protection functions supplied with the TCS are executed by the certified protection system of the power island supplier; the allocation of every function to the TCS or to the BOP SIS is fixed in the safety requirements specification (ALP-EPC-00000-IC-SPC-0006)."
+}

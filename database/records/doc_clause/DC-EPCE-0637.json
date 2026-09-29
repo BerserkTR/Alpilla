@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.423491Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.423491Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0002",
+    "design_parameter:DP-OWNR-0048",
+    "reference:REF-CONS-0017"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0637",
+  "section": "7",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Seismic loads for piping and supports shall be based on the site seismic parameters (PGA of DP-CASE-0002, site class ZD) per TBDY 2018; lines are analysed with the response spectrum or an equivalent static coefficient for the piping in the critical line list."
+}

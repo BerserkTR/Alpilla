@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.094525Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.094525Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0343",
+  "section": "1",
+  "section_title": "Purpose and scope",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "This document defines the design criteria of the heating, ventilation and air conditioning (HVAC) systems of the Alpilla 600 MW combined cycle plant: outdoor and indoor design conditions, air quality and filtration for the coastal atmosphere, pressurisation, redundancy, noise, and fire and smoke provisions. It covers the HVAC package 00SAA (chillers, chilled water pumps, air handling units, pressurisation units, hall ventilators and battery room exhaust) and the ventilation of the buildings of the plant."
+}

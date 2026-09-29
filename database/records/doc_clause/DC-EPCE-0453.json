@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.205910Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.205910Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0044",
+    "requirement:ER-14.03"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0453",
+  "section": "4",
+  "seq": 5,
+  "status": "confirmed",
+  "text": "Maximum allowable noise of any equipment in normal operation shall not exceed the near-field noise limit given in the table below, measured at 1 m distance in free field. Vendors shall guarantee the sound pressure level and sound power level for each equipment item and shall provide acoustic enclosures, silencers or lagging as needed, without impairing access for maintenance."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.551471Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.551471Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-GE-PLN-0001",
+    "decision:DEC-EPCE-0013"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0727",
+  "section": "9",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Commissioning progress is measured by systems: pre-commissioning, mechanical completion, cold commissioning, hot commissioning and system completion per the commissioning gates; the progress of the commissioning phase is the average of the systems weighted by the budget hours of their commissioning activities. Mechanical completion of the CWPs drives the key dates of Level 1, and the contractual tests (Tests on Completion) are shown as activities with their planned dates."
+}

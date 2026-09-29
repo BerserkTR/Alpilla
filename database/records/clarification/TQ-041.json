@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:26:56.678782Z",
+    "created_by": "EPCE",
+    "rev": 2,
+    "updated_at": "2026-09-29T03:26:57.446600Z",
+    "updated_by": "OWNR"
+  },
+  "contract": "ALP-EPC-001",
+  "discipline": "general",
+  "id": "TQ-041",
+  "impact": "technical_only",
+  "outcome": "owner_to_provide",
+  "proposal": "(1) Owner data; (2) end of pipe, measured at the outfall seal pit; (3) steady state only; (4) accepted.",
+  "question": "(1) ER-02.09 sets floor levels 0.5 m above the 100-year coastal flood level plus 0.5 m sea-level rise; ALP-OWN-MAR-001 gives storm surge -0.4 / +0.6 m and Hs 50-year 4.4 m but no 100-year flood level or wave run-up. Please provide both. (2) Residual oxidant <= 0.1 mg/l 'at the outfall' (EIA, DP-CASE-0017): please confirm the compliance point (end of pipe at the diffuser, or edge of a mixing zone). (3) The condenser rise <= 7 K (EIA): does it apply to start-up and trip bypass transients (IEC DS-105: 8.8 - 9.5 K)? (4) Fire water: 2 x 100 % tanks of 700 m3 filled from the SWRO permeate; one tank is refilled in about 10 h (NFPA 850: 8 h) while the other holds the full demand - please confirm acceptance by the Owner's insurer.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-12-01",
+  "references": [
+    "requirement:ER-02.09",
+    "source:SRC-OWNR-0002",
+    "source:SRC-OWNR-0007",
+    "design_parameter:DP-CASE-0017",
+    "design_parameter:DP-CASE-0015",
+    "requirement:ER-10.05"
+  ],
+  "responded_by": "OWNER",
+  "response": "(1) 100-year still water level +0.90 m (national datum, storm surge and barometric set-up, Owner's marine consultant 2025); with the 0.5 m sea-level rise +1.40 m, so the ER-02.09 minimum floor level is +1.90 m. Wave run-up on the shore revetment (50-year) +4.8 m: structures at the shoreline shall have their floors at least at +5.3 m. (2) The compliance point is the end of the outfall pipe; sampling at the outfall seal pit is accepted as representative (no dilution between seal pit and diffuser); no mixing zone is credited. (3) The 7 K applies to steady-state operation as an hourly mean in all ambient conditions; start-up and trip bypass transients up to 60 min are allowed and reported in the monthly environmental report. (4) Accepted by the insurer on the condition that both tanks have separate suction connections and a low-level alarm to the control room.",
+  "response_date": "2026-12-09",
+  "round": 10,
+  "status": "closed",
+  "subject": "Design criteria: coastal flood level, chlorine compliance point, CW rise in transients, fire water refill"
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.935283Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.935283Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01",
+    "requirement:ER-16.06"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0217",
+  "section": "12",
+  "seq": 8,
+  "status": "preliminary",
+  "text": "Alarm system performance (KPIs of EEMUA 191) shall be measured and reported monthly from the historian, and the alarm list (ALP-EPC-00000-IC-LST-0002) is under change control; a change of limit, priority or delay follows the management of change with the operator approval. The KPIs shall be met at the operational demonstration (ER-16.06) and reported."
+}

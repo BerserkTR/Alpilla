@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.418464Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.418464Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0633",
+  "section": "6",
+  "seq": 7,
+  "status": "preliminary",
+  "text": "Pipework shall be laid out to avoid pockets; drains shall be provided at each low point and vents at each high point of the pipework; hydrotest vents and drains shall be DN 20 minimum (DN 25 for lines above DN 300), with double isolation and blind flange for HP and high-temperature lines."
+}

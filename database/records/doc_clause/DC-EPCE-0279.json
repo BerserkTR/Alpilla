@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.042749Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.042749Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.06",
+    "reference:REF-CONS-0017"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0279",
+  "section": "7",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Functional recovery: critical systems (control building, electrical building, emergency diesel generator, fire water system, battery rooms, gas station) shall remain functional after a DD-3 event; for this condition the structures shall remain elastic, the interstorey drift shall not exceed 0.5 % of the storey height and the equipment supports and anchorages shall remain elastic."
+}

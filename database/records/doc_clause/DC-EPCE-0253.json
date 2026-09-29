@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.024163Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.024163Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0008",
+    "requirement:ER-02.07"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0253",
+  "section": "4",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "The Owner geotechnical baseline (12 boreholes to 30-45 m, 20 CPTu, 6 MASW) is information only. The Contractor shall carry out a confirmatory investigation before foundation design: at least one borehole with SPT and one CPTu to refusal within the footprint of each of the GT, ST, HRSG, stack, GSU transformer, main building and tank foundations, boreholes to at least 5 m into weathered rock at the pile positions, cross-hole or down-hole shear wave velocity at the turbine foundations, and consolidation and cyclic tests on the clay and sand layers. The results shall be issued in the geotechnical interpretation report ALP-EPC-00000-CV-RPT-0001."
+}

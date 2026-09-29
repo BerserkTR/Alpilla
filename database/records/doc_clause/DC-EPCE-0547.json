@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.311923Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.311923Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-PI-RPT-0001"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0547",
+  "section": "10",
+  "seq": 4,
+  "status": "assumption",
+  "text": "A corrosion monitoring programme shall be provided for the seawater systems: coupons or probes at the CW intake, at the condenser inlet and at the outfall; wall thickness surveys of the carbon steel piping (steam, feedwater, wet lines) at the first outage and at 5-year intervals, with the flow-accelerated corrosion (FAC) locations identified in the pipe stress and critical line list."
+}

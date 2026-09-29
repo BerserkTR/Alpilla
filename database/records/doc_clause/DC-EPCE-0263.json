@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.031543Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.031543Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0087"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0263",
+  "parameter": "Imposed load - turbine hall operating floor and laydown",
+  "remarks": "Laydown areas per OEM outage plan",
+  "section": "6",
+  "seq": 3,
+  "status": "assumption",
+  "value_text": "20 kN/m2 (or maintenance load case from OEM if greater)"
+}

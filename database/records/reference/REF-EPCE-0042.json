@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:14.281564Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:14.281564Z",
+    "updated_by": "EPCE"
+  },
+  "applies_to": "Transformer deluge, ring main and hydrants, building sprinklers",
+  "code": "NFPA 15 / NFPA 24 / NFPA 13",
+  "disciplines": [
+    "civil",
+    "hvac",
+    "hse"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-EPCE-0042",
+  "jurisdiction": "US",
+  "kind": "standard",
+  "remarks": "Proposed with the wave-2 design criteria; to be agreed with the Owner and IEC in the next codes and standards round.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "proposed",
+  "title": "Water spray fixed systems; private fire service mains; sprinkler systems"
+}

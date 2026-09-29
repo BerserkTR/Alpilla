@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.843349Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.843349Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.04"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0026",
+  "section": "5",
+  "seq": 10,
+  "status": "assumption",
+  "text": "The 10.5 kV resistance earthing limits the earth fault current to 300 A for 10 s so that motor and cable damage on an earth fault is limited and selective sensitive earth fault protection is possible. A change of the value shall be verified by the protection coordination study."
+}

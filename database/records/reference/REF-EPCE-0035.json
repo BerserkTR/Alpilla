@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:14.278296Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:14.278296Z",
+    "updated_by": "EPCE"
+  },
+  "applies_to": "Steel grades S355J2 / S275JR",
+  "code": "EN 10025",
+  "disciplines": [
+    "civil",
+    "hvac",
+    "hse"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-EPCE-0035",
+  "jurisdiction": "EU",
+  "kind": "standard",
+  "remarks": "Proposed with the wave-2 design criteria; to be agreed with the Owner and IEC in the next codes and standards round.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "proposed",
+  "title": "Hot rolled products of structural steels"
+}

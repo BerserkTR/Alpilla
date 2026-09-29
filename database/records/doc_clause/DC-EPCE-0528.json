@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.290386Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.290386Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-EL-CAL-0005"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0528",
+  "section": "6",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Stainless and super duplex components inside rubber-lined carbon steel bodies (discs, shafts, seats) shall be isolated with the lining; sacrificial anodes (zinc or aluminium) shall be provided in seawater boxes and pump columns where the coating or lining can be damaged, with the design per the cathodic protection design."
+}

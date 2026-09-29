@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.057672Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-29T02:47:15.293626Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:27:15.653798Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Switchgear And Controlgear",
@@ -21,8 +21,8 @@
   "material": "Steel enclosure, form 3b/4b, C5 coating",
   "mr": "MR-EL-005",
   "quantity": 1,
-  "redundancy": "1 x 100 %",
-  "remarks": "LV part of AL-15 (0.45 MW less 0.315 MW MV SWRO HP pump) plus AL-18 dosing; 0.3-0.6 MW = 1,000 A max; fed from 00BFT40 1.6 MVA. Short-circuit 50 kA / 1 s.",
+  "redundancy": "double-ended, 2 sections with tie (fed from 00BFA12/22)",
+  "remarks": "Water treatment and dosing (AL-15, AL-18) about 0.3 MW = 520 A; SWRO high-pressure pumps 90 kW on LV.",
   "service": "LV MCC water treatment (SWRO LV drives, demineralisation, polishing, dosing)",
   "status": "preliminary",
   "supply": "IEPC",

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.106781Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.106781Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0357",
+  "parameter": "Workshop and warehouse",
+  "section": "5",
+  "seq": 7,
+  "status": "assumption",
+  "value_text": "summer maximum 32 degC (ventilation), winter minimum 12 degC; office part 24 degC +/- 2 K"
+}

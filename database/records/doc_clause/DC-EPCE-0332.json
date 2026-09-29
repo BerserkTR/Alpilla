@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.085291Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.085291Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.05"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0332",
+  "parameter": "Road width and radii",
+  "section": "14",
+  "seq": 5,
+  "status": "assumption",
+  "value_text": "7.0 m for two lanes on the main route; inner turning radius 15 m for heavy transport"
+}

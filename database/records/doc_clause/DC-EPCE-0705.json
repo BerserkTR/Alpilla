@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.519573Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.519573Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0705",
+  "section": "5",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "A progress report figure that differs from the previous report without new data (baseline change, re-weighting, cancelled documents) is explained in the report. Issued revisions are frozen; a correction is a new revision and is shown as such."
+}

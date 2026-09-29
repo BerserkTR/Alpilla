@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.053323Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.053323Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.04",
+    "design_parameter:DP-CASE-0003",
+    "design_parameter:DP-OWNR-0007",
+    "source:SRC-OWNR-0008",
+    "reference:REF-CONS-0088"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0293",
+  "section": "10",
+  "section_title": "Concrete and reinforcement",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Concrete shall be designed per EN 1992-1-1 with the Turkish National Annex and TBDY 2018 / TS 500 for seismic detailing, and shall be specified per EN 206 and TS EN 197-1. The exposure classes shall be: XS1 for above-ground elements exposed to airborne salt (all outdoor elements, given corrosivity C5 and chloride deposition of the site); XS3 for elements in the tidal and splash zone and within 2 m above the maximum sea level (intake and outfall structures, CW pumphouse pit walls); XS2 and XA2 for elements below the groundwater level (foundations, basements, pits, tank foundations); XC4 / XF1 are not decisive."
+}

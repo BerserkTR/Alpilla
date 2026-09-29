@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.300375Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.300375Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0537",
+  "parameter": "Rubber-lined or coated carbon steel in seawater",
+  "remarks": "Lining is not a corrosion allowance",
+  "section": "8",
+  "seq": 6,
+  "status": "preliminary",
+  "value_text": "3.0 mm on the structural steel in addition to the lining"
+}

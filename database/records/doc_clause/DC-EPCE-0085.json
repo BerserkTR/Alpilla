@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.865247Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.865247Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.01",
+    "requirement:ER-11.06",
+    "reference:REF-CONS-0020",
+    "reference:REF-CONS-0074"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0085",
+  "section": "11",
+  "seq": 5,
+  "status": "assumption",
+  "text": "380 kV GIS protection: busbar differential (87B) with breaker failure (50BF) and bay units; line protection with line differential (87L), distance (21), directional earth fault, synchro-check and auto-reclose as required by the TSO; overall clearing time (fault to arc extinction) of 100 ms or less for the 380 kV system, breaker-failure backup within 250 ms. TSO requirements of the Grid Code prevail."
+}

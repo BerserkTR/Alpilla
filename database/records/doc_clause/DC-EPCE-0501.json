@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.258329Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.258329Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-OWNR-0005",
+    "design_parameter:DP-OWNR-0006",
+    "design_parameter:DP-OWNR-0007",
+    "design_parameter:DP-OWNR-0008"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0501",
+  "section": "3",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "The chloride deposition rate (maximum, DP-OWNR-0007) and the sea-salt aerosol concentrations (annual mean DP-OWNR-0006, event maximum DP-OWNR-0005) are the design basis for equipment enclosures, air intakes, insulation cladding and electrical equipment. Air intake filtration of rotating machines shall be designed for the sea-salt event value, including fine salt mist and PM10 events (DP-OWNR-0008)."
+}

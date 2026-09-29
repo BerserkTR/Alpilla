@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.149062Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.149062Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0015",
+    "design_parameter:DP-CASE-0016",
+    "design_parameter:DP-CASE-0017",
+    "decision:DEC-EPCE-0015",
+    "reference:REF-CONS-0006",
+    "source:SRC-OWNR-0007",
+    "design_parameter:DP-EPCE-0012",
+    "clarification:TQ-041"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0398",
+  "section": "4",
+  "seq": 3,
+  "status": "confirmed",
+  "text": "Water discharge: the temperature rise across the condenser shall not exceed 7 K in steady-state operation in all ambient conditions (TQ-041), the temperature excess at 100 m from the diffuser 3 K and the residual oxidant at the end of the outfall pipe 0.1 mg/l, sampled at the outfall seal pit without credit for mixing (DP-CASE-0015 to DP-CASE-0017, TQ-041); the electro-chlorination dosing shall follow DEC-EPCE-0015; process and sanitary effluents shall be treated to the sea-discharge limits of the Water Pollution Control Regulation before discharge to the CW outfall; the SWRO brine is returned only while a CW pump runs (DEC-EPCE-0015), so that the salinity excess at 50 m from the diffuser stays within DP-EPCE-0012."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.071979Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.071979Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0090"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0315",
+  "parameter": "Horizontal deflection of frames under wind (serviceability)",
+  "section": "12",
+  "seq": 6,
+  "status": "assumption",
+  "value_text": "height / 300 (industrial frames), height / 500 for frames carrying cranes or brittle cladding"
+}

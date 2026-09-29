@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.160106Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.160106Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.06",
+    "reference:REF-CONS-0083"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0409",
+  "parameter": "Fuel gas receiving station and gas preheaters to occupied buildings and ignition sources",
+  "remarks": "Confirm by QRA",
+  "section": "7",
+  "seq": 2,
+  "status": "assumption",
+  "value_text": "not less than 15 m; not less than 25 m to the plant boundary and public roads"
+}

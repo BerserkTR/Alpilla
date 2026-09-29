@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.080696Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.080696Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0066"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0326",
+  "parameter": "Settlement - storage tanks (LDO and fire water)",
+  "section": "13",
+  "seq": 9,
+  "status": "preliminary",
+  "value_text": "per API 650 Annex B (uniform and differential); tank rings on piles"
+}

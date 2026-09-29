@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.058350Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-29T02:47:15.294699Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:27:17.306860Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Switchgear And Controlgear",
@@ -21,8 +21,8 @@
   "material": "Steel enclosure, form 3b/4b, C5 coating",
   "mr": "MR-EL-005",
   "quantity": 1,
-  "redundancy": "1 x 100 %",
-  "remarks": "AL-19 0.06 + AL-20 0.03 MW on gas; LDO case 0.42 MW (AL-211) = 0.5 MW = 800 A. Short-circuit 65 kA / 1 s.",
+  "redundancy": "double-ended, 2 sections with tie (fed from 00BFA12/22)",
+  "remarks": "Fuel gas receiving station (AL-19) and LDO system (AL-20; 0.17 MW on LDO) = 300 A; Icw 50 kA 1 s.",
   "service": "LV MCC fuel gas and LDO (AL-19, AL-20, LDO forwarding 0.42 MW in LDO case)",
   "status": "preliminary",
   "supply": "IEPC",

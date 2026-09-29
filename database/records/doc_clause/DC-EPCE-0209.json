@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.929453Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.929453Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01",
+    "requirement:ER-15.03"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0209",
+  "section": "11",
+  "seq": 9,
+  "status": "preliminary",
+  "text": "Control valve datasheets and sizing shall be generated from the valve and instrument records; the manufacturer shall provide the sizing, noise, cavitation and actuator calculations for every valve with the tender, and shall state the flow at the three cases (minimum, normal, maximum)."
+}

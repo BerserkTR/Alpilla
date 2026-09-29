@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.248484Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.248484Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.06",
+    "requirement:ER-17.04"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0492",
+  "section": "12",
+  "seq": 4,
+  "status": "confirmed",
+  "text": "Vendors shall provide with each equipment item: certified drawings, datasheets in the format of the project, material certificates, test reports, O&M manual, list of commissioning and two-year operating spares with prices valid for 18 months, and special tools."
+}

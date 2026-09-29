@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.507824Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.507824Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02",
+    "document:ALP-EPC-00000-GE-PLN-0001"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0697",
+  "section": "4",
+  "section_title": "Planned progress, earned value and S-curve",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "The planned curve is built from the planned dates of each document (planned_ifr, planned_ifa, planned_ifc of the levelled workflow timeline of ALP-EPC-00000-GE-PLN-0001), each date credited with the percentage of its progress rule and the weight of the document; the earned curve is built from the issued revisions on their issue dates. Both are shown as weekly points as percentages of the total weight, the earned curve stops at the data date."
+}

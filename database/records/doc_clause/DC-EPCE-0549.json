@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.314742Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.314742Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0549",
+  "section": "1",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The specification applies to coating applied in the shop and on site to carbon and low-alloy steel, galvanised steel, and to stainless steel where a coating is required. It does not apply to the internal linings of seawater equipment (rubber lining) defined in the package specifications, nor to the finish of GT, ST and generator packages of IEC, which shall be equivalent and approved by IEPC."
+}

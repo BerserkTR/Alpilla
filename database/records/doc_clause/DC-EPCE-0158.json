@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.900333Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.900333Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01",
+    "requirement:ER-12.02"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0158",
+  "section": "6",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Manual operation of every automatic function shall be possible from the DCS; process-critical equipment (fire water, lube oil, turning gear, emergency drives) has a hardwired manual start / stop in the CCR or local panel that overrides the DCS in an emergency and is monitored by the DCS."
+}

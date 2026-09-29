@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.918921Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.918921Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0092"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0192",
+  "parameter": "Enclosure and ingress protection",
+  "remarks": "IEC 60529",
+  "section": "10",
+  "seq": 6,
+  "status": "preliminary",
+  "value_text": "IP66 / IP67 outdoors; junction boxes IP66; DCS cabinets in air-conditioned rooms IP42 minimum"
+}

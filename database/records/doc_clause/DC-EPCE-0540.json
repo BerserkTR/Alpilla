@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.303737Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.303737Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0015",
+    "reference:REF-CONS-0054"
+  ],
+  "document": "ALP-EPC-00000-ME-RPT-0002",
+  "id": "DC-EPCE-0540",
+  "section": "9",
+  "section_title": "Consistency with decisions and the equipment register",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "The cycle chemistry (AVT(O) with ammonia), the chlorination scheme and the water treatment concept of DEC-EPCE-0015 shall govern the selection of materials in contact with the chemicals; no copper alloys shall be used in the feedwater, condensate and steam systems, in ammonia, or in the wetted parts downstream of ammonia dosing."
+}

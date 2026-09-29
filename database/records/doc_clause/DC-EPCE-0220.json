@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.937066Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.937066Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.07",
+    "reference:REF-CONS-0082"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0220",
+  "section": "13",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "Zones: DCS (level 1 / 2), TCS (own zone, TQ-IEC-004), SIS (own zone, no direct connection to the business network), package PLCs, CEMS and DAHS, historian and simulator, engineering and remote access, telecom and security systems (CCTV, access control), and an OT DMZ (level 3.5) between the plant network and the Owner network. Conduits have industrial firewalls with default-deny rules, the allowed protocols and directions documented."
+}

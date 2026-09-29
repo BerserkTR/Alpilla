@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.387666Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.387666Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0055"
+  ],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0609",
+  "section": "4",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Hydrostatic test pressure shall be 1.5 x design pressure (adjusted for temperature per ASME B31.1); where hydrotest of steam lines can overload the supports, a temporary support or a pneumatic test with approved procedure shall be used. Seawater GRP piping shall be tested per manufacturer's instructions."
+}

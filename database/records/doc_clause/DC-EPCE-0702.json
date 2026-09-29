@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.515285Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.515285Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0702",
+  "section": "5",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The report contains: (1) summary and key dates with forecast and float; (2) overall progress planned versus earned, with the S-curve (engineering, procurement, construction, commissioning); (3) engineering: documents by status and discipline, documents issued in the month, late documents, documents in CHECK REQUIRED, review codes 3 and 4, open comments; (4) procurement: status of the requisitions, purchase orders and deliveries against the need dates; (5) construction: progress by CWP and work area, mechanical completion; (6) commissioning: systems by milestone; (7) critical and near-critical activities and float; (8) look-ahead of 3 months; (9) issues, risks and technical queries; (10) HSE and environmental data (compliance matrix ALP-EPC-00000-HS-RPT-0001)."
+}

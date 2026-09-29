@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.869402Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.869402Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.07",
+    "design_parameter:DP-CASE-0003"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0095",
+  "section": "12",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Materials: bare copper conductor of 120 mm2 for the main ring and grid meshes, 95 mm2 for risers and 50 mm2 for equipment connections, copper-clad or stainless steel rods, exothermic welded or compression joints below ground; no galvanised steel in direct contact with soil or seawater. Bonding to rebar of foundations is permitted where designed together with the cathodic protection (ALP-EPC-00000-EL-CAL-0005); isolating joints shall be provided where the cathodic protection requires them."
+}

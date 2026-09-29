@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.918370Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.918370Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0191",
+  "parameter": "Range selection",
+  "section": "10",
+  "seq": 5,
+  "status": "preliminary",
+  "value_text": "Normal operating value between 50 % and 70 % of the calibrated range; alarm and trip set points between 10 % and 90 %"
+}

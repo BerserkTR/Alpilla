@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:26:58.138408Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:26:58.138408Z",
+    "updated_by": "EPCE"
+  },
+  "contract": "ALP-CA-001",
+  "discipline": "process",
+  "id": "TQ-IEC-026",
+  "proposal": "Design CW flow about 38,700 m3/h (rise 6.8 K in WIN-NG-100), about 21,000 tubes; EPC re-rates the CW pumps.",
+  "question": "With the constant CW flow of the heat balance (10,197 kg/s, 36,113 m3/h) the condenser rise is 7.20 K in MIN-NG-100 and 7.28 K in WIN-NG-100 against the EIA limit of 7 K (DP-CASE-0015; steady state, TQ-041). The EPC CW pumps deliver 38,000 m3/h (DEC-EPCE-0002), which would give about 6.9 K but a tube velocity of 2.21 m/s (ER-07.07: 1.8 - 2.2 m/s). Please (a) set the condenser design CW flow so that the rise is at most 6.8 K in every steady-state case, with the tube count adjusted to keep 1.8 - 2.2 m/s, and (b) re-issue the heat balance cases and DS-105.",
+  "raised_by": "IEPC",
+  "raised_date": "2026-12-11",
+  "references": [
+    "design_parameter:DP-CASE-0015",
+    "requirement:ER-07.07",
+    "hmb_case:WIN-NG-100",
+    "hmb_case:MIN-NG-100",
+    "equipment:00PAC10AP001"
+  ],
+  "round": 10,
+  "status": "open",
+  "subject": "Condenser CW temperature rise above the EIA limit in the cold cases"
+}

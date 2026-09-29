@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.905670Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.905670Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0168",
+  "parameter": "Redundant sensors for control",
+  "remarks": "Signal validation and deviation alarm (2 % of span, 5 s)",
+  "section": "7",
+  "seq": 9,
+  "status": "preliminary",
+  "value_text": "Median selection of 3 sensors or the average of 2 with deviation alarm for the loops whose failure would trip the unit"
+}

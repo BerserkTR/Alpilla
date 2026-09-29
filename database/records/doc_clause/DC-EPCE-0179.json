@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.911661Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.911661Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.08",
+    "requirement:ER-12.05"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0179",
+  "section": "8",
+  "seq": 9,
+  "status": "preliminary",
+  "text": "Sequence of events: all SIS and TCS trips are time-stamped in the I/O modules at 1 ms resolution and delivered to the DCS sequence-of-events recorder; the SOE shall be stored for the required period of the historian (section 16)."
+}

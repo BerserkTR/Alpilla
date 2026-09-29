@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.414735Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.414735Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0630",
+  "section": "6",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Piping shall be routed in the 3D model, without interference with the equipment maintenance envelopes, crane paths, doors and escape routes; escape routes shall keep the widths of HS-DBR-0001 section 9 and be free of pipes below 2.2 m."
+}

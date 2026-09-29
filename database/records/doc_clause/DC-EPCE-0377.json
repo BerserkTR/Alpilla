@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.124971Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.124971Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0008",
+    "design_parameter:DP-CASE-0004",
+    "requirement:ER-02.08"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0377",
+  "section": "10",
+  "seq": 4,
+  "status": "assumption",
+  "text": "The chillers and pumps shall be selected for the maximum ambient of 40 degC, with the refrigerant a low-GWP fluid (R1234ze or R513A) and the coil fins epoxy or phenolic coated for C5; the air intakes and the layout shall avoid hot air recirculation and shall have a clearance for the wind (design wind of DP-CASE-0004) and shall be protected against salt spray by a wall or the layout."
+}

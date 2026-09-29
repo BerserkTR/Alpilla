@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.912169Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.912169Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0180",
+  "section": "9",
+  "section_title": "Signal standards and communication",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Analogue field signals shall be 4-20 mA, two-wire, loop-powered at 24 V DC, with HART (version 7). The failure signals per NAMUR NE43 (below 3.6 mA and above 21 mA are faults). HART variables and diagnostics are transferred to the asset management system of the DCS; device status per NAMUR NE107."
+}

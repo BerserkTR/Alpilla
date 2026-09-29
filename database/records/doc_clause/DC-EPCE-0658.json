@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.451414Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.451414Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.02",
+    "requirement:ER-14.04",
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0658",
+  "section": "2",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Where the design value is stricter than the EIA condition (for example the load range over which the NOx and CO limits apply, or the night noise level defined in the Employer's Requirements), the design value is the one to be met and guaranteed; the EIA condition remains the legal limit."
+}

@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461313.130509259
+2461313.1597337965
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461313.130509259
+2461313.1597337965
   9
 $TDUUPDATE
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-36B
+36D
   9
 $SURFTAB1
  70
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{28596B5B-68A7-49FB-99C5-08C4D695A3BF}
+{9B34CFE4-F67F-4F72-AF4D-C967FDAECEB1}
   9
 $VERSIONGUID
   2
-{F4A225AC-4910-49E0-A334-B06F1481BFA3}
+{2FF0DCB5-37CB-48AC-8ABA-3AAB8506C8C5}
   9
 $EXTNAMES
 290
@@ -3779,7 +3779,7 @@ AcAecLayerStandard
   0
 APPID
   5
-368
+36A
 330
 3
 100
@@ -3793,7 +3793,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-369
+36B
 330
 3
 100
@@ -29499,7 +29499,7 @@ TEXT
 100
 AcDbEntity
   8
-HMB-TABLE
+HMB-WARN
 100
 AcDbText
  10
@@ -29511,7 +29511,7 @@ AcDbText
  40
 2.1
   1
-OK
+WARN
   7
 ALPILLA
  11
@@ -29531,7 +29531,7 @@ TEXT
 100
 AcDbEntity
   8
-HMB-TABLE
+HMB-WARN
 100
 AcDbText
  10
@@ -29543,7 +29543,7 @@ AcDbText
  40
 2.1
   1
-gas flow 109,544 Sm3/h = 91.3 % of DP-OWNR-0033 (120,000 Sm3/h)
+CW temperature rise 7.20 K vs DP-CASE-0015 <= 7.0 K (Condenser cooling water temperature rise)
   7
 ALPILLA
  11
@@ -29575,7 +29575,7 @@ AcDbText
  40
 2.1
   1
-INFO
+OK
   7
 ALPILLA
  11
@@ -29607,7 +29607,7 @@ AcDbText
  40
 2.1
   1
-net export 662.8 MW vs DP-OWNR-0051 connection capacity 640 MW (this case); capability above the capacity, export
+gas flow 109,544 Sm3/h = 91.3 % of DP-OWNR-0033 (120,000 Sm3/h)
   7
 ALPILLA
  11
@@ -29631,6 +29631,38 @@ HMB-TABLE
 100
 AcDbText
  10
+576.0
+ 20
+318.6999999999995
+ 30
+0.0
+ 40
+2.1
+  1
+INFO
+  7
+ALPILLA
+ 11
+576.0
+ 21
+318.6999999999995
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+352
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
 588.0
  20
 318.6999999999995
@@ -29639,7 +29671,7 @@ AcDbText
  40
 2.1
   1
-limited: 640 MW net at the 380 kV revenue meters (TQ-027, TP-E1)
+net export 662.8 MW vs DP-OWNR-0051 connection capacity 640 MW (this case); capability above the capacity, export
   7
 ALPILLA
  11
@@ -29651,9 +29683,41 @@ ALPILLA
 100
 AcDbText
   0
+TEXT
+  5
+353
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+588.0
+ 20
+315.09999999999945
+ 30
+0.0
+ 40
+2.1
+  1
+limited: 640 MW net at the 380 kV revenue meters (TQ-027, TP-E1)
+  7
+ALPILLA
+ 11
+588.0
+ 21
+315.09999999999945
+ 31
+0.0
+100
+AcDbText
+  0
 LWPOLYLINE
   5
-352
+354
 330
 17
 100
@@ -29685,7 +29749,7 @@ AcDbPolyline
   0
 TEXT
   5
-353
+355
 330
 17
 100
@@ -29719,7 +29783,7 @@ AcDbText
   0
 TEXT
   5
-354
+356
 330
 17
 100
@@ -29753,7 +29817,7 @@ AcDbText
   0
 LINE
   5
-355
+357
 330
 17
 100
@@ -29777,7 +29841,7 @@ AcDbLine
   0
 TEXT
   5
-356
+358
 330
 17
 100
@@ -29811,7 +29875,7 @@ AcDbText
   0
 TEXT
   5
-357
+359
 330
 17
 100
@@ -29829,7 +29893,7 @@ AcDbText
  40
 2.6
   1
-015d1cd1c6fdda54 | 2026-09-29
+6b60fce553593bf5 | 2026-09-29
   7
 ALPILLA
  11
@@ -29845,7 +29909,7 @@ AcDbText
   0
 LINE
   5
-358
+35A
 330
 17
 100
@@ -29869,7 +29933,7 @@ AcDbLine
   0
 TEXT
   5
-359
+35B
 330
 17
 100
@@ -29903,7 +29967,7 @@ AcDbText
   0
 TEXT
   5
-35A
+35C
 330
 17
 100
@@ -29937,7 +30001,7 @@ AcDbText
   0
 LINE
   5
-35B
+35D
 330
 17
 100
@@ -29961,7 +30025,7 @@ AcDbLine
   0
 TEXT
   5
-35C
+35E
 330
 17
 100
@@ -29995,7 +30059,7 @@ AcDbText
   0
 TEXT
   5
-35D
+35F
 330
 17
 100
@@ -30029,7 +30093,7 @@ AcDbText
   0
 LINE
   5
-35E
+360
 330
 17
 100
@@ -30053,7 +30117,7 @@ AcDbLine
   0
 TEXT
   5
-35F
+361
 330
 17
 100
@@ -30087,7 +30151,7 @@ AcDbText
   0
 TEXT
   5
-360
+362
 330
 17
 100
@@ -30121,7 +30185,7 @@ AcDbText
   0
 LINE
   5
-361
+363
 330
 17
 100
@@ -30145,7 +30209,7 @@ AcDbLine
   0
 TEXT
   5
-362
+364
 330
 17
 100
@@ -30179,7 +30243,7 @@ AcDbText
   0
 TEXT
   5
-363
+365
 330
 17
 100
@@ -30213,7 +30277,7 @@ AcDbText
   0
 LINE
   5
-364
+366
 330
 17
 100
@@ -30237,7 +30301,7 @@ AcDbLine
   0
 TEXT
   5
-365
+367
 330
 17
 100
@@ -30271,7 +30335,7 @@ AcDbText
   0
 TEXT
   5
-366
+368
 330
 17
 100
@@ -30305,7 +30369,7 @@ AcDbText
   0
 LINE
   5
-367
+369
 330
 17
 100
@@ -31417,7 +31481,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-36A
+36C
   0
 DICTIONARYVAR
   5
@@ -31429,7 +31493,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-29T03:07:56.685117+00:00
+1.4.4 @ 2026-09-29T03:50:01.387373+00:00
   0
 VISUALSTYLE
   5
@@ -37983,7 +38047,7 @@ strokes_ogs.tif
   0
 DICTIONARYVAR
   5
-36A
+36C
 330
 2D
 100
@@ -37991,7 +38055,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-29T03:07:56.722948+00:00
+1.4.4 @ 2026-09-29T03:50:01.422279+00:00
   0
 ENDSEC
   0

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.122354Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.122354Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-10.06",
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-HV-DBR-0001",
+  "id": "DC-EPCE-0374",
+  "section": "10",
+  "section_title": "Chilled water plant and redundancy",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "The chilled water plant shall be N+1: three air-cooled screw chillers of 50 % duty each (3 x 50 %; two chillers in duty and one standby, 480 kW cooling each at 7/13 degC per the equipment records), two chilled water pumps 2 x 100 % and the associated valves and controls arranged so that the loss of any one chiller, pump or power feeder does not reduce the cooling of the electrical and control rooms; the chillers shall be supplied from different MCC sections (both sections of the essential distribution)."
+}

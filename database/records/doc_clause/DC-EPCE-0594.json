@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.369318Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.369318Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-02.08"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0594",
+  "section": "8",
+  "seq": 7,
+  "status": "preliminary",
+  "text": "A warranty of 2 years for the coating system shall apply from the taking-over, with a maintenance-free expectation of more than 15 years to the first major maintenance (durability H); the coating manufacturer shall confirm the system's suitability for C5."
+}

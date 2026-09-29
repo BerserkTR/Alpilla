@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.917837Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.917837Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.05"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0190",
+  "parameter": "Flow",
+  "remarks": "Meter uncertainty for performance test flows per ASME PTC 46 principles",
+  "section": "10",
+  "seq": 4,
+  "status": "preliminary",
+  "value_text": "Orifice / venturi (ISO 5167) with DP transmitter for steam, feedwater and gas; electromagnetic for conductive water; ultrasonic or vortex for others; fiscal gas metering as in the fuel gas station"
+}

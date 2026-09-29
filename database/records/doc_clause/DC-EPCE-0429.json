@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.180156Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.180156Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0071",
+    "reference:REF-CONS-0069",
+    "reference:REF-CONS-0083",
+    "requirement:ER-14.06"
+  ],
+  "document": "ALP-EPC-00000-HS-DBR-0001",
+  "id": "DC-EPCE-0429",
+  "section": "10",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Fire and gas detection: fire detection in all buildings and hazardous areas per NFPA 72 with addressable devices and a fire alarm panel in the control room and the fire station; combustible gas detectors (10 % LEL alarm, 20 % LEL high alarm, 40 % LEL trip of the gas supply where defined by the study) at the gas station, the GT enclosure inlets, the fuel gas skid, the hall ventilation intakes and the battery and hydrogen areas; ammonia detectors (25 ppm alarm, 50 ppm high) at the ammonia unloading and storage; the detector positions shall be based on the detector mapping study (HS-STU-0003)."
+}

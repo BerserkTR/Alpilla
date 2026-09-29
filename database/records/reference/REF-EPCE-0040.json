@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:14.280683Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:14.280683Z",
+    "updated_by": "EPCE"
+  },
+  "applies_to": "Filter classes G4 / F7 / F9 for salt and dust filtration",
+  "code": "EN ISO 16890",
+  "disciplines": [
+    "civil",
+    "hvac",
+    "hse"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-EPCE-0040",
+  "jurisdiction": "EU",
+  "kind": "standard",
+  "remarks": "Proposed with the wave-2 design criteria; to be agreed with the Owner and IEC in the next codes and standards round.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "proposed",
+  "title": "Air filters for general ventilation"
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.523616Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.523616Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-17.02",
+    "document:ALP-EPC-00000-GE-PLN-0001"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0708",
+  "section": "6",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "An activity is critical when its total float is zero or negative and it is not completed; near-critical activities have a float of less than 20 working days. Total float, free logic and constraints are reported for the key dates, and the longest path to Taking-Over is reported as a list of activities with float. Negative float is reported with its cause (capacity, logic, purchase order) before more staff or constraints are proposed."
+}

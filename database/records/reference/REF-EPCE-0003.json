@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:14.260715Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:14.260715Z",
+    "updated_by": "EPCE"
+  },
+  "applies_to": "Insulation levels and study EL-STU-0005 (EL-DBR s.15-16)",
+  "code": "IEC 60071-1/-2",
+  "disciplines": [
+    "electrical",
+    "i_and_c"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-EPCE-0003",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "remarks": "Proposed with the wave-2 design criteria; to be agreed with the Owner and IEC in the next codes and standards round.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "proposed",
+  "title": "Insulation co-ordination"
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.899851Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.899851Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.03",
+    "requirement:ER-12.08"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0157",
+  "section": "6",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Trip philosophy: process trips shall bring the plant to the safe state without an operator action; the hierarchy of trips is unit trip (GT, ST), HRSG trip, system trip and drive trip. Trip first-out and sequence of events at 1 ms resolution are recorded; a trip reset shall need a confirmed operator action after the cause has cleared."
+}

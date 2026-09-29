@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.219367Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.219367Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0097"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0465",
+  "section": "6",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Rotating equipment with rated power above 200 kW shall have a lateral and torsional analysis (where the driver is variable speed or the shaft train has more than one coupling) and shall be balanced to ISO 21940-11 grade G 2.5 (G 1 for high-speed machines above 3,600 rpm). The vibration limit shall be the alarm and trip set points given in ISO 20816."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.925866Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.925866Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-14.03",
+    "design_parameter:DP-CASE-0044"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0204",
+  "section": "11",
+  "seq": 4,
+  "status": "confirmed",
+  "text": "Noise: the sound pressure level shall not exceed 85 dB(A) at 1 m from the valve and the pipe (ER-14.03, DP-CASE-0044) in normal operation, calculated per IEC 60534-8-3 (aerodynamic) and IEC 60534-8-4 (hydrodynamic) without credit for insulation unless specified as part of the supply; low-noise trim, multistage trim, diffusers or a series of valves where the calculated level is higher; the manufacturer shall guarantee the level and measure it in the performance test when required."
+}

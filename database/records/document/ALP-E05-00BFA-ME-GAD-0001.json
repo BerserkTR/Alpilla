@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:04:04.514700Z",
     "created_by": "EPCE",
-    "rev": 5,
-    "updated_at": "2026-09-28T18:38:48.775612Z",
+    "rev": 6,
+    "updated_at": "2026-09-29T03:39:18.365940Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Drawing",
@@ -12,7 +12,11 @@
   "doc_type": "drawing",
   "equipment": [
     "00BFA10",
+    "00BFA11",
+    "00BFA12",
     "00BFA20",
+    "00BFA21",
+    "00BFA22",
     "00BFA30",
     "00BFA40",
     "00BFA50",
@@ -34,10 +38,10 @@
   "po_weeks_ifr": 6,
   "review": "review",
   "rule": "DL-V-GAD|MR-EL-005|1",
-  "sheets": 15,
+  "sheets": 19,
   "status": "planned",
   "system": "00BFA",
   "title": "LV Switchboards and MCCs - Supplier GA Drawings",
   "type_code": "GAD",
-  "weight": 26.5
+  "weight": 32.5
 }

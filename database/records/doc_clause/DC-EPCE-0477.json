@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.231775Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.231775Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-ME-SPC-0002",
+    "requirement:ER-02.08"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0477",
+  "section": "8",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Motors for outdoor installation shall have degree of protection IP55 as a minimum (IP56 for motors in the CW pump house, IP23 with heat exchange only in indoor dry rooms), corrosion protection per ISO 12944 C5 in accordance with ALP-EPC-00000-ME-SPC-0002 and anti-condensation heaters for motors above 15 kW."
+}

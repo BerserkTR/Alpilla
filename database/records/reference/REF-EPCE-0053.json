@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:14.290192Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:14.290192Z",
+    "updated_by": "EPCE"
+  },
+  "applies_to": "Coating inspection methods",
+  "code": "ISO 8502 / ISO 8503 / ISO 19840",
+  "disciplines": [
+    "mechanical",
+    "piping"
+  ],
+  "edition": "edition at Base Date",
+  "id": "REF-EPCE-0053",
+  "jurisdiction": "international",
+  "kind": "standard",
+  "remarks": "Proposed with the wave-2 design criteria; to be agreed with the Owner and IEC in the next codes and standards round.",
+  "responsible": [
+    "IEPC"
+  ],
+  "status": "proposed",
+  "title": "Surface cleanliness tests, surface profile and DFT measurement"
+}

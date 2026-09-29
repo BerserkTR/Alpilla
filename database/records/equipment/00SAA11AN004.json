@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T17:03:04.044169Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-29T02:47:15.379928Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:27:27.332059Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Fan",
@@ -24,7 +24,7 @@
   "mr": "MR-HV-001",
   "quantity": 1,
   "rated_power": 11.0,
-  "redundancy": "1 x 100 %",
+  "redundancy": "1 x 100 % unit with 2 x 100 % supply fans (N+1)",
   "remarks": "LV rooms, 22,000 m3/h; coil about 140 kW; rated power kept. Coil duties total 960 kW = chillers duty. Design pressure = casing 0.1 barg.",
   "service": "AHU - electrical building LV rooms",
   "status": "preliminary",

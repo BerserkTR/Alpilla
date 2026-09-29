@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.862324Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.862324Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0091",
+    "reference:REF-CONS-0092"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0078",
+  "section": "10",
+  "seq": 9,
+  "status": "preliminary",
+  "text": "Cable trays and ladders: hot-dip galvanised steel to EN ISO 1461 with C5 duplex coating or stainless steel 316L in the CW pump house and outdoor areas in direct spray; 30 % spare space on trays, 20 % spare cores (at least 2) in multicore cables, 25 % spare capacity in duct banks."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.034978Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.034978Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0087"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0268",
+  "parameter": "Imposed load - stairs, corridors and escape routes",
+  "section": "6",
+  "seq": 8,
+  "status": "assumption",
+  "value_text": "4.0 kN/m2"
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.343954Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.343954Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0092"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0002",
+  "id": "DC-EPCE-0573",
+  "section": "6",
+  "seq": 2,
+  "status": "preliminary",
+  "text": "The dry film thickness (DFT) shall be measured to ISO 19840; the '80/20' rule applies: 80 % of all readings shall be equal to or above the nominal DFT and no single reading shall be lower than 80 % of the nominal DFT; the maximum DFT shall not exceed 3 times the nominal DFT."
+}

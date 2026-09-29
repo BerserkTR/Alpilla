@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.891180Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.891180Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.03",
+    "requirement:ER-12.04",
+    "requirement:ER-12.07",
+    "requirement:ER-14.06",
+    "reference:REF-CONS-0081",
+    "reference:REF-CONS-0082",
+    "reference:REF-CONS-0083",
+    "reference:REF-CONS-0025",
+    "reference:REF-CONS-0084",
+    "reference:REF-CONS-0085",
+    "reference:REF-CONS-0086",
+    "reference:REF-CONS-0049",
+    "reference:REF-CONS-0076"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0141",
+  "section": "4",
+  "section_title": "Codes and standards",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "Functional safety: IEC 61511 (process sector) with IEC 61508 for device certification. Cybersecurity: IEC 62443 (all parts). Hazardous areas: IEC 60079-10-1, ATEX 2014/34/EU. Emission monitoring: EN 14181, EN 15267-3, EN 15259. Combustion and boiler protection: NFPA 85 (functions performed in the TCS and the SIS). Alarm management: EEMUA 191 and IEC 62682 / ISA-18.2. Control valves: IEC 60534. Enclosures: IEC 60529. Communication: IEC 61850, OPC UA (IEC 62541)."
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.470472Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.470472Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0007"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0672",
+  "parameter": "EIA 4.3 Marine: monitoring programme during construction and 3 years of operation (Owner's obligation, Contractor provides data)",
+  "remarks": "ALP-EPC-00000-HS-PLN-0003; ALP-EPC-00000-ME-PLN-0001; data lists in section 4 of this document.",
+  "section": "3",
+  "seq": 14,
+  "status": "preliminary",
+  "value_text": "The Contractor provides the construction data (marine works logs, dredged or trenched volumes, turbidity records, vessel movements) and the operating data (CW flow, temperatures, chlorination dosing and residual, brine flow) to the Owner at the frequency defined in section 4."
+}

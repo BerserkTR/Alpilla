@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.190415Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.190415Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-01.03"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0439",
+  "section": "1",
+  "section_title": "Purpose and scope",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "This specification defines the general mechanical requirements for rotating and static equipment of all balance-of-plant (BOP) mechanical packages of the 1 x 1 combined cycle power plant. It is appended to each package requisition and technical specification; package specifications may add to it and shall not relax it without a technical query approved by IEPC."
+}

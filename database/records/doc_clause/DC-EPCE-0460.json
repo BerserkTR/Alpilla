@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.213299Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.213299Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0460",
+  "section": "5",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Vibration of pumps and drivers shall be within zone A / B of ISO 10816-7 (rotodynamic pumps) and ISO 20816-3 (motors and other industrial machines) at all continuous operating points; acceptance is at the factory and at site testing. Pumps of 200 kW and above shall have provision for proximity probes or accelerometers on the bearings."
+}

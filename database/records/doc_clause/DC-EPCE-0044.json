@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.849297Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.849297Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-11.04"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0044",
+  "section": "7",
+  "seq": 7,
+  "status": "preliminary",
+  "text": "Transfer between sources shall be fast (open-transition, synchro-check, target total interruption of 100 ms or less) for planned and fault-initiated transfers, with residual-voltage supervision for slower transfers, and with load shedding of non-essential motors before re-closing. A transfer that would create a bus voltage below 0.75 pu at the moment of closing is not permitted."
+}

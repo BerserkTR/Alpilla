@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.194815Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.194815Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0003",
+    "requirement:ER-02.08"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0443",
+  "section": "3",
+  "section_title": "Site and ambient design data",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Equipment shall be designed for the site and ambient data below. Outdoor equipment shall be suitable for the marine C5 atmosphere of the site (see ALP-EPC-00000-ME-RPT-0002 and ALP-EPC-00000-ME-SPC-0002)."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.088457Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.088457Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-13.06",
+    "design_parameter:DP-OWNR-0020"
+  ],
+  "document": "ALP-EPC-00000-CV-DBR-0001",
+  "id": "DC-EPCE-0336",
+  "section": "15",
+  "seq": 2,
+  "status": "assumption",
+  "text": "Pipeline stability: the on-bottom stability shall be checked for the 50-year wave and current with the pipeline empty, during installation and operating (safety factor not less than 1.1 against flotation with the empty pipe, not less than 1.3 against sliding and lateral displacement); the pipelines shall be buried or protected by rock cover in the surf zone; scour and the effect of the wave climate on the trench backfill shall be assessed; the design life of the marine pipelines shall be 50 years for HDPE / GRP."
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.241905Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.241905Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-ME-SPC-0002",
+    "document:ALP-EPC-00000-ME-SPC-0003"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0486",
+  "section": "11",
+  "section_title": "Painting, insulation and preservation",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "Painting and coating of equipment shall follow ALP-EPC-00000-ME-SPC-0002; the insulation of hot equipment shall follow ALP-EPC-00000-ME-SPC-0003. Equipment delivered pre-painted shall have the coating system and DFT recorded in the ITP dossier."
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.882522Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.882522Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014",
+    "decision:DEC-EPCE-0016"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0124",
+  "section": "16",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Motor starting (same study): start of the largest MV and LV motors, group re-acceleration after transfer, and the SFC start, with the dip limits of section 8 and the EDG load steps of section 9."
+}

@@ -2,8 +2,8 @@
   "_meta": {
     "created_at": "2026-09-28T14:50:10.550159Z",
     "created_by": "EPCE",
-    "rev": 2,
-    "updated_at": "2026-09-28T15:06:11.891444Z",
+    "rev": 3,
+    "updated_at": "2026-09-29T03:27:23.544619Z",
     "updated_by": "EPCE"
   },
   "aveva_class": "Stack",
@@ -13,10 +13,13 @@
   "cwa": "CWA-01",
   "cwp": "CWP-01-ME-01",
   "description": "Stack 65 m, D 9.2 m, with silencer and CEMS platform",
+  "design_temperature": 150,
   "equipment_type": "stack",
   "id": "10HNE10",
+  "material": "Carbon steel S355 shell, C5 external coating, internal heat-resistant coating; 316L top section",
   "mr": "MR-SS-002",
   "quantity": 1,
+  "service": "HRSG exhaust stack with silencer and CEMS platform",
   "status": "preliminary",
   "supply": "IEPC",
   "system": "10HNE"

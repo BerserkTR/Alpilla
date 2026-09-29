@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.527856Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.527856Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-GE-PRC-0002",
+    "decision:DEC-EPCE-0013"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0711",
+  "section": "7",
+  "section_title": "Document status and release control",
+  "seq": 1,
+  "status": "preliminary",
+  "text": "The status of a document is the release status of ALP-EPC-00000-GE-PRC-0002 section 10: IFR (first issue), IFA (issued for approval), ACCEPTED (review code 1 or 2 on the latest issue; supplier documents when accepted by Istanbul EPC), IFC (issued for construction / final) and AB (as built). The status reported is that of the latest issued revision on the cut-off."
+}

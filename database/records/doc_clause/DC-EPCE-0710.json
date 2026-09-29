@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.526433Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.526433Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "document:ALP-EPC-00000-GE-PLN-0001",
+    "decision:DEC-EPCE-0013"
+  ],
+  "document": "ALP-EPC-00000-PC-PRC-0001",
+  "id": "DC-EPCE-0710",
+  "section": "6",
+  "seq": 5,
+  "status": "preliminary",
+  "text": "Every schedule change is followed by python -m engine gate and python -m engine run --stale. Documents or activities dated beyond the project end are a data error and shall be corrected, not reported as a plan."
+}

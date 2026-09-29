@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.896760Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.896760Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.01"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0151",
+  "section": "5",
+  "seq": 8,
+  "status": "preliminary",
+  "text": "Local control panels shall exist only for packages delivered with own PLC (e.g. SWRO, condensate polishing, chlorination, gas station, LDO unloading, compressors, water treatment); each package PLC shall be operated from the DCS through a serial or Ethernet link (Modbus TCP or OPC UA) and shall run its sequences autonomously; the local panel shall be the exception, used for maintenance and commissioning."
+}

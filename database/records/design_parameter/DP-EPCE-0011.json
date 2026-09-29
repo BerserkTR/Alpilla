@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:27:00.369798Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:27:00.369798Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "source:SRC-OWNR-0007"
+  ],
+  "category": "water",
+  "condition": "maximum, with fish return system",
+  "id": "DP-EPCE-0011",
+  "parameter": "CW intake velocity at the screens",
+  "status": "confirmed",
+  "unit": "m/s",
+  "value": 0.15
+}

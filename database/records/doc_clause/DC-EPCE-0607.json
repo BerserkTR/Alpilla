@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.385137Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.385137Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0607",
+  "section": "4",
+  "seq": 4,
+  "status": "preliminary",
+  "text": "Vacuum service shall be identified on the line list; piping and supports under vacuum (condenser, steam turbine exhaust) shall be designed for full vacuum with 1.5 bar external pressure and shall be checked for buckling."
+}

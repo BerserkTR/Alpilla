@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.458231Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.458231Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "design_parameter:DP-CASE-0015",
+    "decision:DEC-EPCE-0002",
+    "source:SRC-OWNR-0007",
+    "clarification:TQ-041",
+    "clarification:TQ-IEC-026",
+    "hmb_case:WIN-NG-100",
+    "hmb_case:MIN-NG-100"
+  ],
+  "document": "ALP-EPC-00000-HS-RPT-0001",
+  "id": "DC-EPCE-0663",
+  "parameter": "EIA 2.1 Water: cooling water temperature rise across the condenser at most 7 K",
+  "remarks": "ALP-EPC-00PAA-ME-CAL-0001 (CW sizing and hydraulic calculation); ALP-IEC-10MBA-PR-HMB-0001; ALP-EPC-00000-PR-HMB-0001 (plant heat balance, checks); ALP-EPC-00000-PR-STU-0003. Status open (TQ-IEC-026, see 5.1).",
+  "section": "3",
+  "seq": 5,
+  "status": "preliminary",
+  "value_text": "The circulating water flow (DEC-EPCE-0002) and the condenser are to keep the rise at or below DP-CASE-0015 in steady state in all ambient conditions (TQ-041). NOT MET in the cold cases: with the constant CW flow of the heat balance the rise is 7.20 K (MIN-NG-100) and 7.28 K (WIN-NG-100). IEC to raise the condenser design CW flow with the tube count and re-issue the cases (TQ-IEC-026); the hmb engine checks the rise of every case against DP-CASE-0015. Start-up and trip bypass transients up to 60 min are reported monthly (TQ-041)."
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.853132Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.853132Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014"
+  ],
+  "document": "ALP-EPC-00000-EL-DBR-0001",
+  "id": "DC-EPCE-0055",
+  "parameter": "Variable frequency drives",
+  "remarks": "Draws on the CW, condensate and feed pumps; the harmonic study shall show THD (V) <= 5 % at 10.5 kV and 0.42 kV busbars",
+  "section": "8",
+  "seq": 6,
+  "status": "preliminary",
+  "value_text": "Only where process control or energy savings justify them"
+}

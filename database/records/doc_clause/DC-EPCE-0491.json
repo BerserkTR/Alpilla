@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.247372Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.247372Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-15.03"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0491",
+  "section": "12",
+  "seq": 3,
+  "status": "preliminary",
+  "text": "Factory acceptance test shall include as a minimum: hydrostatic test of pressure parts, performance test (pumps of rated power above 200 kW at full speed), mechanical run test with vibration and bearing temperature recording, noise measurement for machines above 200 kW, and leak / functional tests of skids. Test procedures shall be approved before the test."
+}

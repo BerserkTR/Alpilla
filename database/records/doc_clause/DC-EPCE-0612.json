@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.391461Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.391461Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [],
+  "document": "ALP-EPC-00000-PI-SPC-0002",
+  "id": "DC-EPCE-0612",
+  "parameter": "LP steam and auxiliary steam",
+  "remarks": "Noise limit by check for control valve outlet piping",
+  "section": "5",
+  "seq": 3,
+  "status": "preliminary",
+  "value_text": "25 to 50 m/s (saturated 20 to 35 m/s); 0.2 bar/100 m"
+}

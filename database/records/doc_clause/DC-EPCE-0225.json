@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:23.940105Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:23.940105Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "requirement:ER-12.08"
+  ],
+  "document": "ALP-EPC-00000-IC-DBR-0001",
+  "id": "DC-EPCE-0225",
+  "section": "14",
+  "section_title": "Time synchronisation",
+  "seq": 1,
+  "status": "confirmed",
+  "text": "GPS time synchronisation of the DCS, TCS, protection relays, disturbance recorders, SIS and CEMS with sequence of events at 1 ms resolution (ER-12.08). Two redundant GPS master clocks (GNSS receivers with holdover) are installed in the CCR building; the GPS antennas are lightning protected and shielded against interference."
+}

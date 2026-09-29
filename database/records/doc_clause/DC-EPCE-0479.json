@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T03:35:24.234034Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T03:35:24.234034Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "reference:REF-CONS-0070"
+  ],
+  "document": "ALP-EPC-00000-ME-SPC-0001",
+  "id": "DC-EPCE-0479",
+  "section": "8",
+  "seq": 6,
+  "status": "preliminary",
+  "text": "Diesel-engine driven equipment (fire pump, emergency generator) shall comply with the package specification and NFPA 20 (fire pump); the engine ratings shall be given at the site altitude and the maximum ambient temperature."
+}
