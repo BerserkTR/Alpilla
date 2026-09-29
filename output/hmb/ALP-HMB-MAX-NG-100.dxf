@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461313.121412037
+2461313.126712963
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461313.121412037
+2461313.126712963
   9
 $TDUUPDATE
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-37A
+38E
   9
 $SURFTAB1
  70
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{98A6162F-9BED-4E31-BA7E-1370DE331CC2}
+{48655B1B-CDD1-435A-BCB4-989C4F2467B0}
   9
 $VERSIONGUID
   2
-{11DCA1E2-8B02-4054-AA45-0B6B10CFDAE4}
+{D6660399-946F-4805-96D1-F5964A16CF74}
   9
 $EXTNAMES
 290
@@ -1327,9 +1327,9 @@ ISM
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -1343,9 +1343,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -3779,7 +3779,7 @@ AcAecLayerStandard
   0
 APPID
   5
-377
+38B
 330
 3
 100
@@ -3793,7 +3793,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-378
+38C
 330
 3
 100
@@ -8045,9 +8045,43 @@ ALPILLA
 100
 AcDbText
   0
-CIRCLE
+TEXT
   5
 EA
+330
+17
+100
+AcDbEntity
+  8
+HMB-EQPT
+100
+AcDbText
+ 10
+100.0
+ 20
+300.0
+ 30
+0.0
+ 40
+2.8
+  1
+GAS PREHEATER BURNERS (EPC)
+  7
+ALPILLA
+ 72
+1
+ 11
+100.0
+ 21
+300.0
+ 31
+0.0
+100
+AcDbText
+  0
+CIRCLE
+  5
+EB
 330
 17
 100
@@ -8067,7 +8101,7 @@ AcDbCircle
   0
 TEXT
   5
-EB
+EC
 330
 17
 100
@@ -8103,7 +8137,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-EC
+ED
 330
 17
 100
@@ -8129,7 +8163,7 @@ AcDbPolyline
   0
 TEXT
   5
-ED
+EE
 330
 17
 100
@@ -8163,7 +8197,7 @@ AcDbText
   0
 CIRCLE
   5
-EE
+EF
 330
 17
 100
@@ -8183,7 +8217,7 @@ AcDbCircle
   0
 TEXT
   5
-EF
+F0
 330
 17
 100
@@ -8219,7 +8253,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-F0
+F1
 330
 17
 100
@@ -8245,7 +8279,7 @@ AcDbPolyline
   0
 TEXT
   5
-F1
+F2
 330
 17
 100
@@ -8279,7 +8313,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-F2
+F3
 330
 17
 100
@@ -8305,7 +8339,7 @@ AcDbPolyline
   0
 HATCH
   5
-F3
+F4
 330
 17
 100
@@ -8365,7 +8399,7 @@ SOLID
   0
 LWPOLYLINE
   5
-F4
+F5
 330
 17
 100
@@ -8397,7 +8431,7 @@ AcDbPolyline
   0
 HATCH
   5
-F5
+F6
 330
 17
 100
@@ -8463,7 +8497,7 @@ SOLID
   0
 TEXT
   5
-F6
+F7
 330
 17
 100
@@ -8499,7 +8533,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-F7
+F8
 330
 17
 100
@@ -8531,7 +8565,7 @@ AcDbPolyline
   0
 TEXT
   5
-F8
+F9
 330
 17
 100
@@ -8563,7 +8597,7 @@ AcDbText
   0
 TEXT
   5
-F9
+FA
 330
 17
 100
@@ -8597,7 +8631,7 @@ AcDbText
   0
 TEXT
   5
-FA
+FB
 330
 17
 100
@@ -8631,7 +8665,7 @@ AcDbText
   0
 TEXT
   5
-FB
+FC
 330
 17
 100
@@ -8665,7 +8699,7 @@ AcDbText
   0
 TEXT
   5
-FC
+FD
 330
 17
 100
@@ -8699,7 +8733,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-FD
+FE
 330
 17
 100
@@ -8729,7 +8763,7 @@ AcDbPolyline
   0
 HATCH
   5
-FE
+FF
 330
 17
 100
@@ -8789,7 +8823,7 @@ SOLID
   0
 LWPOLYLINE
   5
-FF
+100
 330
 17
 100
@@ -8821,7 +8855,7 @@ AcDbPolyline
   0
 HATCH
   5
-100
+101
 330
 17
 100
@@ -8887,7 +8921,7 @@ SOLID
   0
 TEXT
   5
-101
+102
 330
 17
 100
@@ -8923,7 +8957,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-102
+103
 330
 17
 100
@@ -8955,7 +8989,7 @@ AcDbPolyline
   0
 TEXT
   5
-103
+104
 330
 17
 100
@@ -8987,7 +9021,7 @@ AcDbText
   0
 TEXT
   5
-104
+105
 330
 17
 100
@@ -9021,7 +9055,7 @@ AcDbText
   0
 TEXT
   5
-105
+106
 330
 17
 100
@@ -9055,7 +9089,7 @@ AcDbText
   0
 TEXT
   5
-106
+107
 330
 17
 100
@@ -9089,7 +9123,7 @@ AcDbText
   0
 TEXT
   5
-107
+108
 330
 17
 100
@@ -9123,7 +9157,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-108
+109
 330
 17
 100
@@ -9153,7 +9187,7 @@ AcDbPolyline
   0
 HATCH
   5
-109
+10A
 330
 17
 100
@@ -9213,7 +9247,7 @@ SOLID
   0
 LWPOLYLINE
   5
-10A
+10B
 330
 17
 100
@@ -9245,7 +9279,7 @@ AcDbPolyline
   0
 HATCH
   5
-10B
+10C
 330
 17
 100
@@ -9311,7 +9345,7 @@ SOLID
   0
 TEXT
   5
-10C
+10D
 330
 17
 100
@@ -9347,7 +9381,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-10D
+10E
 330
 17
 100
@@ -9379,7 +9413,7 @@ AcDbPolyline
   0
 TEXT
   5
-10E
+10F
 330
 17
 100
@@ -9411,7 +9445,7 @@ AcDbText
   0
 TEXT
   5
-10F
+110
 330
 17
 100
@@ -9445,7 +9479,7 @@ AcDbText
   0
 TEXT
   5
-110
+111
 330
 17
 100
@@ -9479,7 +9513,7 @@ AcDbText
   0
 TEXT
   5
-111
+112
 330
 17
 100
@@ -9513,7 +9547,7 @@ AcDbText
   0
 TEXT
   5
-112
+113
 330
 17
 100
@@ -9547,7 +9581,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-113
+114
 330
 17
 100
@@ -9573,7 +9607,7 @@ AcDbPolyline
   0
 HATCH
   5
-114
+115
 330
 17
 100
@@ -9633,7 +9667,7 @@ SOLID
   0
 LWPOLYLINE
   5
-115
+116
 330
 17
 100
@@ -9665,7 +9699,7 @@ AcDbPolyline
   0
 HATCH
   5
-116
+117
 330
 17
 100
@@ -9731,7 +9765,7 @@ SOLID
   0
 TEXT
   5
-117
+118
 330
 17
 100
@@ -9767,7 +9801,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-118
+119
 330
 17
 100
@@ -9799,7 +9833,7 @@ AcDbPolyline
   0
 TEXT
   5
-119
+11A
 330
 17
 100
@@ -9831,7 +9865,7 @@ AcDbText
   0
 TEXT
   5
-11A
+11B
 330
 17
 100
@@ -9865,7 +9899,7 @@ AcDbText
   0
 TEXT
   5
-11B
+11C
 330
 17
 100
@@ -9899,7 +9933,7 @@ AcDbText
   0
 TEXT
   5
-11C
+11D
 330
 17
 100
@@ -9933,7 +9967,7 @@ AcDbText
   0
 TEXT
   5
-11D
+11E
 330
 17
 100
@@ -9967,7 +10001,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-11E
+11F
 330
 17
 100
@@ -9993,7 +10027,7 @@ AcDbPolyline
   0
 HATCH
   5
-11F
+120
 330
 17
 100
@@ -10053,7 +10087,7 @@ SOLID
   0
 LWPOLYLINE
   5
-120
+121
 330
 17
 100
@@ -10085,7 +10119,7 @@ AcDbPolyline
   0
 HATCH
   5
-121
+122
 330
 17
 100
@@ -10151,7 +10185,7 @@ SOLID
   0
 TEXT
   5
-122
+123
 330
 17
 100
@@ -10187,7 +10221,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-123
+124
 330
 17
 100
@@ -10219,7 +10253,7 @@ AcDbPolyline
   0
 TEXT
   5
-124
+125
 330
 17
 100
@@ -10251,7 +10285,7 @@ AcDbText
   0
 TEXT
   5
-125
+126
 330
 17
 100
@@ -10285,7 +10319,7 @@ AcDbText
   0
 TEXT
   5
-126
+127
 330
 17
 100
@@ -10319,7 +10353,7 @@ AcDbText
   0
 TEXT
   5
-127
+128
 330
 17
 100
@@ -10353,7 +10387,7 @@ AcDbText
   0
 TEXT
   5
-128
+129
 330
 17
 100
@@ -10387,7 +10421,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-129
+12A
 330
 17
 100
@@ -10413,7 +10447,7 @@ AcDbPolyline
   0
 HATCH
   5
-12A
+12B
 330
 17
 100
@@ -10473,7 +10507,7 @@ SOLID
   0
 LWPOLYLINE
   5
-12B
+12C
 330
 17
 100
@@ -10505,7 +10539,7 @@ AcDbPolyline
   0
 HATCH
   5
-12C
+12D
 330
 17
 100
@@ -10571,7 +10605,7 @@ SOLID
   0
 TEXT
   5
-12D
+12E
 330
 17
 100
@@ -10607,7 +10641,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-12E
+12F
 330
 17
 100
@@ -10639,7 +10673,7 @@ AcDbPolyline
   0
 TEXT
   5
-12F
+130
 330
 17
 100
@@ -10671,7 +10705,7 @@ AcDbText
   0
 TEXT
   5
-130
+131
 330
 17
 100
@@ -10705,7 +10739,7 @@ AcDbText
   0
 TEXT
   5
-131
+132
 330
 17
 100
@@ -10739,7 +10773,7 @@ AcDbText
   0
 TEXT
   5
-132
+133
 330
 17
 100
@@ -10773,7 +10807,7 @@ AcDbText
   0
 TEXT
   5
-133
+134
 330
 17
 100
@@ -10807,7 +10841,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-134
+135
 330
 17
 100
@@ -10833,7 +10867,7 @@ AcDbPolyline
   0
 HATCH
   5
-135
+136
 330
 17
 100
@@ -10893,7 +10927,7 @@ SOLID
   0
 LWPOLYLINE
   5
-136
+137
 330
 17
 100
@@ -10925,7 +10959,7 @@ AcDbPolyline
   0
 HATCH
   5
-137
+138
 330
 17
 100
@@ -10991,7 +11025,7 @@ SOLID
   0
 TEXT
   5
-138
+139
 330
 17
 100
@@ -11027,7 +11061,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-139
+13A
 330
 17
 100
@@ -11059,7 +11093,7 @@ AcDbPolyline
   0
 TEXT
   5
-13A
+13B
 330
 17
 100
@@ -11091,7 +11125,7 @@ AcDbText
   0
 TEXT
   5
-13B
+13C
 330
 17
 100
@@ -11125,7 +11159,7 @@ AcDbText
   0
 TEXT
   5
-13C
+13D
 330
 17
 100
@@ -11159,7 +11193,7 @@ AcDbText
   0
 TEXT
   5
-13D
+13E
 330
 17
 100
@@ -11193,7 +11227,7 @@ AcDbText
   0
 TEXT
   5
-13E
+13F
 330
 17
 100
@@ -11227,7 +11261,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-13F
+140
 330
 17
 100
@@ -11253,7 +11287,7 @@ AcDbPolyline
   0
 HATCH
   5
-140
+141
 330
 17
 100
@@ -11313,7 +11347,7 @@ SOLID
   0
 LWPOLYLINE
   5
-141
+142
 330
 17
 100
@@ -11345,7 +11379,7 @@ AcDbPolyline
   0
 HATCH
   5
-142
+143
 330
 17
 100
@@ -11411,7 +11445,7 @@ SOLID
   0
 TEXT
   5
-143
+144
 330
 17
 100
@@ -11447,7 +11481,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-144
+145
 330
 17
 100
@@ -11479,7 +11513,7 @@ AcDbPolyline
   0
 TEXT
   5
-145
+146
 330
 17
 100
@@ -11511,7 +11545,7 @@ AcDbText
   0
 TEXT
   5
-146
+147
 330
 17
 100
@@ -11545,7 +11579,7 @@ AcDbText
   0
 TEXT
   5
-147
+148
 330
 17
 100
@@ -11579,7 +11613,7 @@ AcDbText
   0
 TEXT
   5
-148
+149
 330
 17
 100
@@ -11613,7 +11647,7 @@ AcDbText
   0
 TEXT
   5
-149
+14A
 330
 17
 100
@@ -11647,7 +11681,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-14A
+14B
 330
 17
 100
@@ -11673,7 +11707,7 @@ AcDbPolyline
   0
 HATCH
   5
-14B
+14C
 330
 17
 100
@@ -11733,7 +11767,7 @@ SOLID
   0
 LWPOLYLINE
   5
-14C
+14D
 330
 17
 100
@@ -11765,7 +11799,7 @@ AcDbPolyline
   0
 HATCH
   5
-14D
+14E
 330
 17
 100
@@ -11831,7 +11865,7 @@ SOLID
   0
 TEXT
   5
-14E
+14F
 330
 17
 100
@@ -11867,7 +11901,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-14F
+150
 330
 17
 100
@@ -11899,7 +11933,7 @@ AcDbPolyline
   0
 TEXT
   5
-150
+151
 330
 17
 100
@@ -11931,7 +11965,7 @@ AcDbText
   0
 TEXT
   5
-151
+152
 330
 17
 100
@@ -11965,7 +11999,7 @@ AcDbText
   0
 TEXT
   5
-152
+153
 330
 17
 100
@@ -11999,7 +12033,7 @@ AcDbText
   0
 TEXT
   5
-153
+154
 330
 17
 100
@@ -12033,7 +12067,7 @@ AcDbText
   0
 TEXT
   5
-154
+155
 330
 17
 100
@@ -12067,7 +12101,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-155
+156
 330
 17
 100
@@ -12093,7 +12127,7 @@ AcDbPolyline
   0
 HATCH
   5
-156
+157
 330
 17
 100
@@ -12153,7 +12187,7 @@ SOLID
   0
 LWPOLYLINE
   5
-157
+158
 330
 17
 100
@@ -12185,7 +12219,7 @@ AcDbPolyline
   0
 HATCH
   5
-158
+159
 330
 17
 100
@@ -12251,7 +12285,7 @@ SOLID
   0
 TEXT
   5
-159
+15A
 330
 17
 100
@@ -12287,7 +12321,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-15A
+15B
 330
 17
 100
@@ -12319,7 +12353,7 @@ AcDbPolyline
   0
 TEXT
   5
-15B
+15C
 330
 17
 100
@@ -12351,7 +12385,7 @@ AcDbText
   0
 TEXT
   5
-15C
+15D
 330
 17
 100
@@ -12385,7 +12419,7 @@ AcDbText
   0
 TEXT
   5
-15D
+15E
 330
 17
 100
@@ -12419,7 +12453,7 @@ AcDbText
   0
 TEXT
   5
-15E
+15F
 330
 17
 100
@@ -12453,7 +12487,7 @@ AcDbText
   0
 TEXT
   5
-15F
+160
 330
 17
 100
@@ -12487,7 +12521,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-160
+161
 330
 17
 100
@@ -12521,7 +12555,7 @@ AcDbPolyline
   0
 HATCH
   5
-161
+162
 330
 17
 100
@@ -12581,7 +12615,7 @@ SOLID
   0
 LWPOLYLINE
   5
-162
+163
 330
 17
 100
@@ -12613,7 +12647,7 @@ AcDbPolyline
   0
 HATCH
   5
-163
+164
 330
 17
 100
@@ -12679,7 +12713,7 @@ SOLID
   0
 TEXT
   5
-164
+165
 330
 17
 100
@@ -12715,7 +12749,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-165
+166
 330
 17
 100
@@ -12747,7 +12781,7 @@ AcDbPolyline
   0
 TEXT
   5
-166
+167
 330
 17
 100
@@ -12779,7 +12813,7 @@ AcDbText
   0
 TEXT
   5
-167
+168
 330
 17
 100
@@ -12813,7 +12847,7 @@ AcDbText
   0
 TEXT
   5
-168
+169
 330
 17
 100
@@ -12847,7 +12881,7 @@ AcDbText
   0
 TEXT
   5
-169
+16A
 330
 17
 100
@@ -12881,7 +12915,7 @@ AcDbText
   0
 TEXT
   5
-16A
+16B
 330
 17
 100
@@ -12915,7 +12949,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-16B
+16C
 330
 17
 100
@@ -12941,7 +12975,7 @@ AcDbPolyline
   0
 HATCH
   5
-16C
+16D
 330
 17
 100
@@ -13001,7 +13035,7 @@ SOLID
   0
 LWPOLYLINE
   5
-16D
+16E
 330
 17
 100
@@ -13033,7 +13067,7 @@ AcDbPolyline
   0
 HATCH
   5
-16E
+16F
 330
 17
 100
@@ -13099,7 +13133,7 @@ SOLID
   0
 TEXT
   5
-16F
+170
 330
 17
 100
@@ -13135,7 +13169,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-170
+171
 330
 17
 100
@@ -13167,7 +13201,7 @@ AcDbPolyline
   0
 TEXT
   5
-171
+172
 330
 17
 100
@@ -13199,7 +13233,7 @@ AcDbText
   0
 TEXT
   5
-172
+173
 330
 17
 100
@@ -13233,7 +13267,7 @@ AcDbText
   0
 TEXT
   5
-173
+174
 330
 17
 100
@@ -13267,7 +13301,7 @@ AcDbText
   0
 TEXT
   5
-174
+175
 330
 17
 100
@@ -13301,7 +13335,7 @@ AcDbText
   0
 TEXT
   5
-175
+176
 330
 17
 100
@@ -13335,7 +13369,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-176
+177
 330
 17
 100
@@ -13369,7 +13403,7 @@ AcDbPolyline
   0
 HATCH
   5
-177
+178
 330
 17
 100
@@ -13429,7 +13463,7 @@ SOLID
   0
 LWPOLYLINE
   5
-178
+179
 330
 17
 100
@@ -13461,7 +13495,7 @@ AcDbPolyline
   0
 HATCH
   5
-179
+17A
 330
 17
 100
@@ -13527,7 +13561,7 @@ SOLID
   0
 TEXT
   5
-17A
+17B
 330
 17
 100
@@ -13563,7 +13597,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-17B
+17C
 330
 17
 100
@@ -13595,7 +13629,7 @@ AcDbPolyline
   0
 TEXT
   5
-17C
+17D
 330
 17
 100
@@ -13627,7 +13661,7 @@ AcDbText
   0
 TEXT
   5
-17D
+17E
 330
 17
 100
@@ -13661,7 +13695,7 @@ AcDbText
   0
 TEXT
   5
-17E
+17F
 330
 17
 100
@@ -13695,7 +13729,7 @@ AcDbText
   0
 TEXT
   5
-17F
+180
 330
 17
 100
@@ -13729,7 +13763,7 @@ AcDbText
   0
 TEXT
   5
-180
+181
 330
 17
 100
@@ -13763,7 +13797,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-181
+182
 330
 17
 100
@@ -13797,7 +13831,7 @@ AcDbPolyline
   0
 HATCH
   5
-182
+183
 330
 17
 100
@@ -13857,7 +13891,7 @@ SOLID
   0
 LWPOLYLINE
   5
-183
+184
 330
 17
 100
@@ -13889,7 +13923,7 @@ AcDbPolyline
   0
 HATCH
   5
-184
+185
 330
 17
 100
@@ -13955,7 +13989,7 @@ SOLID
   0
 TEXT
   5
-185
+186
 330
 17
 100
@@ -13991,7 +14025,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-186
+187
 330
 17
 100
@@ -14023,7 +14057,7 @@ AcDbPolyline
   0
 TEXT
   5
-187
+188
 330
 17
 100
@@ -14055,7 +14089,7 @@ AcDbText
   0
 TEXT
   5
-188
+189
 330
 17
 100
@@ -14089,7 +14123,7 @@ AcDbText
   0
 TEXT
   5
-189
+18A
 330
 17
 100
@@ -14123,7 +14157,7 @@ AcDbText
   0
 TEXT
   5
-18A
+18B
 330
 17
 100
@@ -14157,7 +14191,7 @@ AcDbText
   0
 TEXT
   5
-18B
+18C
 330
 17
 100
@@ -14191,7 +14225,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-18C
+18D
 330
 17
 100
@@ -14217,7 +14251,7 @@ AcDbPolyline
   0
 HATCH
   5
-18D
+18E
 330
 17
 100
@@ -14277,7 +14311,7 @@ SOLID
   0
 LWPOLYLINE
   5
-18E
+18F
 330
 17
 100
@@ -14309,7 +14343,7 @@ AcDbPolyline
   0
 HATCH
   5
-18F
+190
 330
 17
 100
@@ -14375,7 +14409,7 @@ SOLID
   0
 TEXT
   5
-190
+191
 330
 17
 100
@@ -14411,7 +14445,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-191
+192
 330
 17
 100
@@ -14443,7 +14477,7 @@ AcDbPolyline
   0
 TEXT
   5
-192
+193
 330
 17
 100
@@ -14475,7 +14509,7 @@ AcDbText
   0
 TEXT
   5
-193
+194
 330
 17
 100
@@ -14509,7 +14543,7 @@ AcDbText
   0
 TEXT
   5
-194
+195
 330
 17
 100
@@ -14543,7 +14577,7 @@ AcDbText
   0
 TEXT
   5
-195
+196
 330
 17
 100
@@ -14577,7 +14611,7 @@ AcDbText
   0
 TEXT
   5
-196
+197
 330
 17
 100
@@ -14611,7 +14645,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-197
+198
 330
 17
 100
@@ -14637,7 +14671,7 @@ AcDbPolyline
   0
 HATCH
   5
-198
+199
 330
 17
 100
@@ -14697,7 +14731,7 @@ SOLID
   0
 LWPOLYLINE
   5
-199
+19A
 330
 17
 100
@@ -14729,7 +14763,7 @@ AcDbPolyline
   0
 HATCH
   5
-19A
+19B
 330
 17
 100
@@ -14795,7 +14829,7 @@ SOLID
   0
 TEXT
   5
-19B
+19C
 330
 17
 100
@@ -14831,7 +14865,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-19C
+19D
 330
 17
 100
@@ -14863,7 +14897,7 @@ AcDbPolyline
   0
 TEXT
   5
-19D
+19E
 330
 17
 100
@@ -14895,7 +14929,7 @@ AcDbText
   0
 TEXT
   5
-19E
+19F
 330
 17
 100
@@ -14929,7 +14963,7 @@ AcDbText
   0
 TEXT
   5
-19F
+1A0
 330
 17
 100
@@ -14963,7 +14997,7 @@ AcDbText
   0
 TEXT
   5
-1A0
+1A1
 330
 17
 100
@@ -14997,7 +15031,7 @@ AcDbText
   0
 TEXT
   5
-1A1
+1A2
 330
 17
 100
@@ -15031,7 +15065,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1A2
+1A3
 330
 17
 100
@@ -15057,7 +15091,7 @@ AcDbPolyline
   0
 HATCH
   5
-1A3
+1A4
 330
 17
 100
@@ -15117,7 +15151,7 @@ SOLID
   0
 LWPOLYLINE
   5
-1A4
+1A5
 330
 17
 100
@@ -15149,7 +15183,7 @@ AcDbPolyline
   0
 HATCH
   5
-1A5
+1A6
 330
 17
 100
@@ -15215,7 +15249,7 @@ SOLID
   0
 TEXT
   5
-1A6
+1A7
 330
 17
 100
@@ -15251,7 +15285,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1A7
+1A8
 330
 17
 100
@@ -15283,7 +15317,7 @@ AcDbPolyline
   0
 TEXT
   5
-1A8
+1A9
 330
 17
 100
@@ -15315,7 +15349,7 @@ AcDbText
   0
 TEXT
   5
-1A9
+1AA
 330
 17
 100
@@ -15349,7 +15383,7 @@ AcDbText
   0
 TEXT
   5
-1AA
+1AB
 330
 17
 100
@@ -15383,7 +15417,7 @@ AcDbText
   0
 TEXT
   5
-1AB
+1AC
 330
 17
 100
@@ -15417,7 +15451,7 @@ AcDbText
   0
 TEXT
   5
-1AC
+1AD
 330
 17
 100
@@ -15451,7 +15485,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1AD
+1AE
 330
 17
 100
@@ -15467,11 +15501,11 @@ AcDbPolyline
  70
 0
  10
-132.0
+139.0
  20
 365.0
  10
-132.0
+139.0
  20
 60.0
  10
@@ -15485,7 +15519,7 @@ AcDbPolyline
   0
 HATCH
   5
-1AE
+1AF
 330
 17
 100
@@ -15545,7 +15579,7 @@ SOLID
   0
 LWPOLYLINE
   5
-1AF
+1B0
 330
 17
 100
@@ -15577,7 +15611,7 @@ AcDbPolyline
   0
 HATCH
   5
-1B0
+1B1
 330
 17
 100
@@ -15643,7 +15677,7 @@ SOLID
   0
 TEXT
   5
-1B1
+1B2
 330
 17
 100
@@ -15679,7 +15713,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1B2
+1B3
 330
 17
 100
@@ -15711,7 +15745,7 @@ AcDbPolyline
   0
 TEXT
   5
-1B3
+1B4
 330
 17
 100
@@ -15743,7 +15777,7 @@ AcDbText
   0
 TEXT
   5
-1B4
+1B5
 330
 17
 100
@@ -15777,7 +15811,7 @@ AcDbText
   0
 TEXT
   5
-1B5
+1B6
 330
 17
 100
@@ -15811,7 +15845,7 @@ AcDbText
   0
 TEXT
   5
-1B6
+1B7
 330
 17
 100
@@ -15845,7 +15879,7 @@ AcDbText
   0
 TEXT
   5
-1B7
+1B8
 330
 17
 100
@@ -15879,7 +15913,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1B8
+1B9
 330
 17
 100
@@ -15917,7 +15951,7 @@ AcDbPolyline
   0
 HATCH
   5
-1B9
+1BA
 330
 17
 100
@@ -15977,7 +16011,7 @@ SOLID
   0
 LWPOLYLINE
   5
-1BA
+1BB
 330
 17
 100
@@ -16009,7 +16043,7 @@ AcDbPolyline
   0
 HATCH
   5
-1BB
+1BC
 330
 17
 100
@@ -16075,7 +16109,7 @@ SOLID
   0
 TEXT
   5
-1BC
+1BD
 330
 17
 100
@@ -16111,7 +16145,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1BD
+1BE
 330
 17
 100
@@ -16143,7 +16177,7 @@ AcDbPolyline
   0
 TEXT
   5
-1BE
+1BF
 330
 17
 100
@@ -16175,7 +16209,7 @@ AcDbText
   0
 TEXT
   5
-1BF
+1C0
 330
 17
 100
@@ -16209,7 +16243,7 @@ AcDbText
   0
 TEXT
   5
-1C0
+1C1
 330
 17
 100
@@ -16243,7 +16277,7 @@ AcDbText
   0
 TEXT
   5
-1C1
+1C2
 330
 17
 100
@@ -16277,7 +16311,7 @@ AcDbText
   0
 TEXT
   5
-1C2
+1C3
 330
 17
 100
@@ -16311,7 +16345,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1C3
+1C4
 330
 17
 100
@@ -16341,7 +16375,7 @@ AcDbPolyline
   0
 HATCH
   5
-1C4
+1C5
 330
 17
 100
@@ -16401,7 +16435,7 @@ SOLID
   0
 LWPOLYLINE
   5
-1C5
+1C6
 330
 17
 100
@@ -16433,7 +16467,7 @@ AcDbPolyline
   0
 HATCH
   5
-1C6
+1C7
 330
 17
 100
@@ -16499,7 +16533,7 @@ SOLID
   0
 TEXT
   5
-1C7
+1C8
 330
 17
 100
@@ -16535,7 +16569,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1C8
+1C9
 330
 17
 100
@@ -16567,7 +16601,7 @@ AcDbPolyline
   0
 TEXT
   5
-1C9
+1CA
 330
 17
 100
@@ -16599,7 +16633,7 @@ AcDbText
   0
 TEXT
   5
-1CA
+1CB
 330
 17
 100
@@ -16633,7 +16667,7 @@ AcDbText
   0
 TEXT
   5
-1CB
+1CC
 330
 17
 100
@@ -16667,7 +16701,7 @@ AcDbText
   0
 TEXT
   5
-1CC
+1CD
 330
 17
 100
@@ -16701,7 +16735,7 @@ AcDbText
   0
 TEXT
   5
-1CD
+1CE
 330
 17
 100
@@ -16735,7 +16769,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1CE
+1CF
 330
 17
 100
@@ -16769,7 +16803,7 @@ AcDbPolyline
   0
 HATCH
   5
-1CF
+1D0
 330
 17
 100
@@ -16829,7 +16863,7 @@ SOLID
   0
 LWPOLYLINE
   5
-1D0
+1D1
 330
 17
 100
@@ -16861,7 +16895,7 @@ AcDbPolyline
   0
 HATCH
   5
-1D1
+1D2
 330
 17
 100
@@ -16927,7 +16961,7 @@ SOLID
   0
 TEXT
   5
-1D2
+1D3
 330
 17
 100
@@ -16963,7 +16997,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1D3
+1D4
 330
 17
 100
@@ -16995,7 +17029,7 @@ AcDbPolyline
   0
 TEXT
   5
-1D4
+1D5
 330
 17
 100
@@ -17027,7 +17061,7 @@ AcDbText
   0
 TEXT
   5
-1D5
+1D6
 330
 17
 100
@@ -17061,7 +17095,7 @@ AcDbText
   0
 TEXT
   5
-1D6
+1D7
 330
 17
 100
@@ -17095,7 +17129,7 @@ AcDbText
   0
 TEXT
   5
-1D7
+1D8
 330
 17
 100
@@ -17129,7 +17163,7 @@ AcDbText
   0
 TEXT
   5
-1D8
+1D9
 330
 17
 100
@@ -17163,7 +17197,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1D9
+1DA
 330
 17
 100
@@ -17201,7 +17235,7 @@ AcDbPolyline
   0
 HATCH
   5
-1DA
+1DB
 330
 17
 100
@@ -17261,7 +17295,7 @@ SOLID
   0
 LWPOLYLINE
   5
-1DB
+1DC
 330
 17
 100
@@ -17293,7 +17327,7 @@ AcDbPolyline
   0
 HATCH
   5
-1DC
+1DD
 330
 17
 100
@@ -17359,7 +17393,7 @@ SOLID
   0
 TEXT
   5
-1DD
+1DE
 330
 17
 100
@@ -17395,7 +17429,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1DE
+1DF
 330
 17
 100
@@ -17427,7 +17461,7 @@ AcDbPolyline
   0
 TEXT
   5
-1DF
+1E0
 330
 17
 100
@@ -17459,7 +17493,7 @@ AcDbText
   0
 TEXT
   5
-1E0
+1E1
 330
 17
 100
@@ -17493,7 +17527,7 @@ AcDbText
   0
 TEXT
   5
-1E1
+1E2
 330
 17
 100
@@ -17527,7 +17561,7 @@ AcDbText
   0
 TEXT
   5
-1E2
+1E3
 330
 17
 100
@@ -17561,7 +17595,7 @@ AcDbText
   0
 TEXT
   5
-1E3
+1E4
 330
 17
 100
@@ -17595,7 +17629,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1E4
+1E5
 330
 17
 100
@@ -17629,7 +17663,7 @@ AcDbPolyline
   0
 HATCH
   5
-1E5
+1E6
 330
 17
 100
@@ -17689,7 +17723,7 @@ SOLID
   0
 LWPOLYLINE
   5
-1E6
+1E7
 330
 17
 100
@@ -17721,7 +17755,7 @@ AcDbPolyline
   0
 HATCH
   5
-1E7
+1E8
 330
 17
 100
@@ -17787,7 +17821,7 @@ SOLID
   0
 TEXT
   5
-1E8
+1E9
 330
 17
 100
@@ -17823,7 +17857,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1E9
+1EA
 330
 17
 100
@@ -17855,7 +17889,7 @@ AcDbPolyline
   0
 TEXT
   5
-1EA
+1EB
 330
 17
 100
@@ -17887,7 +17921,7 @@ AcDbText
   0
 TEXT
   5
-1EB
+1EC
 330
 17
 100
@@ -17921,7 +17955,7 @@ AcDbText
   0
 TEXT
   5
-1EC
+1ED
 330
 17
 100
@@ -17955,7 +17989,7 @@ AcDbText
   0
 TEXT
   5
-1ED
+1EE
 330
 17
 100
@@ -17989,7 +18023,7 @@ AcDbText
   0
 TEXT
   5
-1EE
+1EF
 330
 17
 100
@@ -18023,7 +18057,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1EF
+1F0
 330
 17
 100
@@ -18049,7 +18083,7 @@ AcDbPolyline
   0
 HATCH
   5
-1F0
+1F1
 330
 17
 100
@@ -18109,7 +18143,7 @@ SOLID
   0
 LWPOLYLINE
   5
-1F1
+1F2
 330
 17
 100
@@ -18141,7 +18175,7 @@ AcDbPolyline
   0
 HATCH
   5
-1F2
+1F3
 330
 17
 100
@@ -18207,7 +18241,7 @@ SOLID
   0
 TEXT
   5
-1F3
+1F4
 330
 17
 100
@@ -18243,7 +18277,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1F4
+1F5
 330
 17
 100
@@ -18275,7 +18309,7 @@ AcDbPolyline
   0
 TEXT
   5
-1F5
+1F6
 330
 17
 100
@@ -18307,7 +18341,7 @@ AcDbText
   0
 TEXT
   5
-1F6
+1F7
 330
 17
 100
@@ -18341,7 +18375,7 @@ AcDbText
   0
 TEXT
   5
-1F7
+1F8
 330
 17
 100
@@ -18375,7 +18409,7 @@ AcDbText
   0
 TEXT
   5
-1F8
+1F9
 330
 17
 100
@@ -18409,7 +18443,7 @@ AcDbText
   0
 TEXT
   5
-1F9
+1FA
 330
 17
 100
@@ -18443,7 +18477,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1FA
+1FB
 330
 17
 100
@@ -18469,7 +18503,7 @@ AcDbPolyline
   0
 HATCH
   5
-1FB
+1FC
 330
 17
 100
@@ -18529,7 +18563,7 @@ SOLID
   0
 LWPOLYLINE
   5
-1FC
+1FD
 330
 17
 100
@@ -18561,7 +18595,7 @@ AcDbPolyline
   0
 HATCH
   5
-1FD
+1FE
 330
 17
 100
@@ -18627,7 +18661,7 @@ SOLID
   0
 TEXT
   5
-1FE
+1FF
 330
 17
 100
@@ -18663,7 +18697,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-1FF
+200
 330
 17
 100
@@ -18695,7 +18729,7 @@ AcDbPolyline
   0
 TEXT
   5
-200
+201
 330
 17
 100
@@ -18727,7 +18761,7 @@ AcDbText
   0
 TEXT
   5
-201
+202
 330
 17
 100
@@ -18761,7 +18795,7 @@ AcDbText
   0
 TEXT
   5
-202
+203
 330
 17
 100
@@ -18795,7 +18829,7 @@ AcDbText
   0
 TEXT
   5
-203
+204
 330
 17
 100
@@ -18829,7 +18863,7 @@ AcDbText
   0
 TEXT
   5
-204
+205
 330
 17
 100
@@ -18863,7 +18897,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-205
+206
 330
 17
 100
@@ -18901,7 +18935,7 @@ AcDbPolyline
   0
 HATCH
   5
-206
+207
 330
 17
 100
@@ -18961,7 +18995,7 @@ SOLID
   0
 LWPOLYLINE
   5
-207
+208
 330
 17
 100
@@ -18993,7 +19027,7 @@ AcDbPolyline
   0
 HATCH
   5
-208
+209
 330
 17
 100
@@ -19059,7 +19093,7 @@ SOLID
   0
 TEXT
   5
-209
+20A
 330
 17
 100
@@ -19095,7 +19129,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-20A
+20B
 330
 17
 100
@@ -19127,7 +19161,7 @@ AcDbPolyline
   0
 TEXT
   5
-20B
+20C
 330
 17
 100
@@ -19159,7 +19193,7 @@ AcDbText
   0
 TEXT
   5
-20C
+20D
 330
 17
 100
@@ -19193,7 +19227,7 @@ AcDbText
   0
 TEXT
   5
-20D
+20E
 330
 17
 100
@@ -19227,7 +19261,7 @@ AcDbText
   0
 TEXT
   5
-20E
+20F
 330
 17
 100
@@ -19261,7 +19295,7 @@ AcDbText
   0
 TEXT
   5
-20F
+210
 330
 17
 100
@@ -19295,7 +19329,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-210
+211
 330
 17
 100
@@ -19333,7 +19367,7 @@ AcDbPolyline
   0
 HATCH
   5
-211
+212
 330
 17
 100
@@ -19393,7 +19427,7 @@ SOLID
   0
 LWPOLYLINE
   5
-212
+213
 330
 17
 100
@@ -19425,7 +19459,7 @@ AcDbPolyline
   0
 HATCH
   5
-213
+214
 330
 17
 100
@@ -19491,7 +19525,7 @@ SOLID
   0
 TEXT
   5
-214
+215
 330
 17
 100
@@ -19527,7 +19561,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-215
+216
 330
 17
 100
@@ -19559,7 +19593,7 @@ AcDbPolyline
   0
 TEXT
   5
-216
+217
 330
 17
 100
@@ -19591,7 +19625,7 @@ AcDbText
   0
 TEXT
   5
-217
+218
 330
 17
 100
@@ -19625,7 +19659,7 @@ AcDbText
   0
 TEXT
   5
-218
+219
 330
 17
 100
@@ -19659,7 +19693,7 @@ AcDbText
   0
 TEXT
   5
-219
+21A
 330
 17
 100
@@ -19693,7 +19727,7 @@ AcDbText
   0
 TEXT
   5
-21A
+21B
 330
 17
 100
@@ -19727,41 +19761,15 @@ AcDbText
   0
 LWPOLYLINE
   5
-21B
-330
-17
-100
-AcDbEntity
-  8
-HMB-SCOPE
-  6
-DASHED
-100
-AcDbPolyline
- 90
-2
- 70
-0
- 10
-246.0
- 20
-365.0
- 10
-246.0
- 20
-300.0
-  0
-LWPOLYLINE
-  5
 21C
 330
 17
 100
 AcDbEntity
   8
-HMB-SCOPE
-  6
-DASHED
+HMB-FUEL
+370
+50
 100
 AcDbPolyline
  90
@@ -19769,15 +19777,15 @@ AcDbPolyline
  70
 0
  10
-286.0
+100.0
  20
-300.0
+330.0
  10
-286.0
+100.0
  20
-365.0
+306.0
   0
-LWPOLYLINE
+HATCH
   5
 21D
 330
@@ -19785,6 +19793,452 @@ LWPOLYLINE
 100
 AcDbEntity
   8
+HMB-FUEL
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+0
+ 73
+1
+ 93
+3
+ 10
+100.0
+ 20
+306.0
+ 10
+98.7
+ 20
+309.5
+ 10
+101.3
+ 20
+309.5
+ 97
+0
+ 75
+1
+ 76
+1
+ 98
+0
+  0
+LWPOLYLINE
+  5
+21E
+330
+17
+100
+AcDbEntity
+  8
+HMB-TAG
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+97.2
+ 20
+319.0
+ 10
+100.0
+ 20
+321.8
+ 10
+102.8
+ 20
+319.0
+ 10
+100.0
+ 20
+316.2
+  0
+HATCH
+  5
+21F
+330
+17
+100
+AcDbEntity
+  8
+HMB-TAG
+ 62
+255
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+0
+ 73
+1
+ 93
+4
+ 10
+97.2
+ 20
+319.0
+ 10
+100.0
+ 20
+321.8
+ 10
+102.8
+ 20
+319.0
+ 10
+100.0
+ 20
+316.2
+ 97
+0
+ 75
+1
+ 76
+1
+ 98
+0
+  0
+TEXT
+  5
+220
+330
+17
+100
+AcDbEntity
+  8
+HMB-TAG
+100
+AcDbText
+ 10
+100.0
+ 20
+319.0
+ 30
+0.0
+ 40
+2.3
+  1
+31
+  7
+ALPILLA
+ 72
+1
+ 11
+100.0
+ 21
+319.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+  0
+LWPOLYLINE
+  5
+221
+330
+17
+100
+AcDbEntity
+  8
+HMB-DATA
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+64.0
+ 20
+314.0
+ 10
+94.0
+ 20
+314.0
+ 10
+94.0
+ 20
+327.5
+ 10
+64.0
+ 20
+327.5
+  0
+TEXT
+  5
+222
+330
+17
+100
+AcDbEntity
+  8
+HMB-TAG
+100
+AcDbText
+ 10
+65.0
+ 20
+324.2
+ 30
+0.0
+ 40
+2.4
+  1
+31
+  7
+ALPILLA
+ 11
+65.0
+ 21
+324.2
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+223
+330
+17
+100
+AcDbEntity
+  8
+HMB-DATA
+100
+AcDbText
+ 10
+93.0
+ 20
+324.2
+ 30
+0.0
+ 40
+2.2
+  1
+0.02 kg/s
+  7
+ALPILLA
+ 72
+2
+ 11
+93.0
+ 21
+324.2
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+224
+330
+17
+100
+AcDbEntity
+  8
+HMB-DATA
+100
+AcDbText
+ 10
+93.0
+ 20
+321.09999999999997
+ 30
+0.0
+ 40
+2.2
+  1
+2.50 bar(a)
+  7
+ALPILLA
+ 72
+2
+ 11
+93.0
+ 21
+321.09999999999997
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+225
+330
+17
+100
+AcDbEntity
+  8
+HMB-DATA
+100
+AcDbText
+ 10
+93.0
+ 20
+318.0
+ 30
+0.0
+ 40
+2.2
+  1
+25.0 degC
+  7
+ALPILLA
+ 72
+2
+ 11
+93.0
+ 21
+318.0
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+226
+330
+17
+100
+AcDbEntity
+  8
+HMB-DATA
+100
+AcDbText
+ 10
+93.0
+ 20
+314.9
+ 30
+0.0
+ 40
+2.2
+  1
+0.0 kJ/kg
+  7
+ALPILLA
+ 72
+2
+ 11
+93.0
+ 21
+314.9
+ 31
+0.0
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+227
+330
+17
+100
+AcDbEntity
+  8
+HMB-SCOPE
+  6
+DASHED
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+246.0
+ 20
+365.0
+ 10
+246.0
+ 20
+300.0
+  0
+LWPOLYLINE
+  5
+228
+330
+17
+100
+AcDbEntity
+  8
+HMB-SCOPE
+  6
+DASHED
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+286.0
+ 20
+300.0
+ 10
+286.0
+ 20
+365.0
+  0
+LWPOLYLINE
+  5
+229
+330
+17
+100
+AcDbEntity
+  8
 HMB-SCOPE
   6
 DASHED
@@ -19805,7 +20259,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-21E
+22A
 330
 17
 100
@@ -19831,7 +20285,7 @@ AcDbPolyline
   0
 TEXT
   5
-21F
+22B
 330
 17
 100
@@ -19863,7 +20317,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-220
+22C
 330
 17
 100
@@ -19889,7 +20343,7 @@ AcDbPolyline
   0
 TEXT
   5
-221
+22D
 330
 17
 100
@@ -19921,7 +20375,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-222
+22E
 330
 17
 100
@@ -19947,7 +20401,7 @@ AcDbPolyline
   0
 TEXT
   5
-223
+22F
 330
 17
 100
@@ -19979,7 +20433,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-224
+230
 330
 17
 100
@@ -20005,7 +20459,7 @@ AcDbPolyline
   0
 TEXT
   5
-225
+231
 330
 17
 100
@@ -20037,7 +20491,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-226
+232
 330
 17
 100
@@ -20063,7 +20517,7 @@ AcDbPolyline
   0
 TEXT
   5
-227
+233
 330
 17
 100
@@ -20095,7 +20549,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-228
+234
 330
 17
 100
@@ -20121,7 +20575,7 @@ AcDbPolyline
   0
 TEXT
   5
-229
+235
 330
 17
 100
@@ -20153,7 +20607,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-22A
+236
 330
 17
 100
@@ -20179,7 +20633,7 @@ AcDbPolyline
   0
 TEXT
   5
-22B
+237
 330
 17
 100
@@ -20211,7 +20665,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-22C
+238
 330
 17
 100
@@ -20243,7 +20697,7 @@ AcDbPolyline
   0
 HATCH
   5
-22D
+239
 330
 17
 100
@@ -20309,7 +20763,7 @@ SOLID
   0
 TEXT
   5
-22E
+23A
 330
 17
 100
@@ -20345,7 +20799,7 @@ AcDbText
   0
 TEXT
   5
-22F
+23B
 330
 17
 100
@@ -20377,7 +20831,7 @@ AcDbText
   0
 TEXT
   5
-230
+23C
 330
 17
 100
@@ -20409,7 +20863,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-231
+23D
 330
 17
 100
@@ -20441,7 +20895,7 @@ AcDbPolyline
   0
 TEXT
   5
-232
+23E
 330
 17
 100
@@ -20475,7 +20929,7 @@ AcDbText
   0
 TEXT
   5
-233
+23F
 330
 17
 100
@@ -20507,7 +20961,7 @@ AcDbText
   0
 TEXT
   5
-234
+240
 330
 17
 100
@@ -20541,7 +20995,7 @@ AcDbText
   0
 TEXT
   5
-235
+241
 330
 17
 100
@@ -20575,7 +21029,7 @@ AcDbText
   0
 TEXT
   5
-236
+242
 330
 17
 100
@@ -20609,7 +21063,7 @@ AcDbText
   0
 TEXT
   5
-237
+243
 330
 17
 100
@@ -20643,7 +21097,7 @@ AcDbText
   0
 TEXT
   5
-238
+244
 330
 17
 100
@@ -20677,7 +21131,7 @@ AcDbText
   0
 TEXT
   5
-239
+245
 330
 17
 100
@@ -20711,7 +21165,7 @@ AcDbText
   0
 TEXT
   5
-23A
+246
 330
 17
 100
@@ -20743,7 +21197,7 @@ AcDbText
   0
 TEXT
   5
-23B
+247
 330
 17
 100
@@ -20777,7 +21231,7 @@ AcDbText
   0
 TEXT
   5
-23C
+248
 330
 17
 100
@@ -20811,7 +21265,7 @@ AcDbText
   0
 TEXT
   5
-23D
+249
 330
 17
 100
@@ -20845,7 +21299,7 @@ AcDbText
   0
 TEXT
   5
-23E
+24A
 330
 17
 100
@@ -20879,7 +21333,7 @@ AcDbText
   0
 TEXT
   5
-23F
+24B
 330
 17
 100
@@ -20913,7 +21367,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-240
+24C
 330
 17
 100
@@ -20937,7 +21391,7 @@ AcDbPolyline
   0
 TEXT
   5
-241
+24D
 330
 17
 100
@@ -20971,7 +21425,7 @@ AcDbText
   0
 TEXT
   5
-242
+24E
 330
 17
 100
@@ -21003,7 +21457,7 @@ AcDbText
   0
 TEXT
   5
-243
+24F
 330
 17
 100
@@ -21037,7 +21491,7 @@ AcDbText
   0
 TEXT
   5
-244
+250
 330
 17
 100
@@ -21071,7 +21525,7 @@ AcDbText
   0
 TEXT
   5
-245
+251
 330
 17
 100
@@ -21105,7 +21559,7 @@ AcDbText
   0
 TEXT
   5
-246
+252
 330
 17
 100
@@ -21139,7 +21593,7 @@ AcDbText
   0
 TEXT
   5
-247
+253
 330
 17
 100
@@ -21173,7 +21627,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-248
+254
 330
 17
 100
@@ -21197,7 +21651,7 @@ AcDbPolyline
   0
 TEXT
   5
-249
+255
 330
 17
 100
@@ -21231,7 +21685,7 @@ AcDbText
   0
 TEXT
   5
-24A
+256
 330
 17
 100
@@ -21263,7 +21717,7 @@ AcDbText
   0
 TEXT
   5
-24B
+257
 330
 17
 100
@@ -21297,7 +21751,7 @@ AcDbText
   0
 TEXT
   5
-24C
+258
 330
 17
 100
@@ -21331,7 +21785,7 @@ AcDbText
   0
 TEXT
   5
-24D
+259
 330
 17
 100
@@ -21365,7 +21819,7 @@ AcDbText
   0
 TEXT
   5
-24E
+25A
 330
 17
 100
@@ -21399,7 +21853,7 @@ AcDbText
   0
 TEXT
   5
-24F
+25B
 330
 17
 100
@@ -21433,7 +21887,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-250
+25C
 330
 17
 100
@@ -21457,7 +21911,7 @@ AcDbPolyline
   0
 TEXT
   5
-251
+25D
 330
 17
 100
@@ -21491,7 +21945,7 @@ AcDbText
   0
 TEXT
   5
-252
+25E
 330
 17
 100
@@ -21523,7 +21977,7 @@ AcDbText
   0
 TEXT
   5
-253
+25F
 330
 17
 100
@@ -21557,7 +22011,7 @@ AcDbText
   0
 TEXT
   5
-254
+260
 330
 17
 100
@@ -21591,7 +22045,7 @@ AcDbText
   0
 TEXT
   5
-255
+261
 330
 17
 100
@@ -21625,7 +22079,7 @@ AcDbText
   0
 TEXT
   5
-256
+262
 330
 17
 100
@@ -21659,7 +22113,7 @@ AcDbText
   0
 TEXT
   5
-257
+263
 330
 17
 100
@@ -21693,7 +22147,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-258
+264
 330
 17
 100
@@ -21717,7 +22171,7 @@ AcDbPolyline
   0
 TEXT
   5
-259
+265
 330
 17
 100
@@ -21751,7 +22205,7 @@ AcDbText
   0
 TEXT
   5
-25A
+266
 330
 17
 100
@@ -21783,7 +22237,7 @@ AcDbText
   0
 TEXT
   5
-25B
+267
 330
 17
 100
@@ -21817,7 +22271,7 @@ AcDbText
   0
 TEXT
   5
-25C
+268
 330
 17
 100
@@ -21851,7 +22305,7 @@ AcDbText
   0
 TEXT
   5
-25D
+269
 330
 17
 100
@@ -21885,7 +22339,7 @@ AcDbText
   0
 TEXT
   5
-25E
+26A
 330
 17
 100
@@ -21919,7 +22373,7 @@ AcDbText
   0
 TEXT
   5
-25F
+26B
 330
 17
 100
@@ -21953,7 +22407,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-260
+26C
 330
 17
 100
@@ -21977,7 +22431,7 @@ AcDbPolyline
   0
 TEXT
   5
-261
+26D
 330
 17
 100
@@ -22011,7 +22465,7 @@ AcDbText
   0
 TEXT
   5
-262
+26E
 330
 17
 100
@@ -22043,7 +22497,7 @@ AcDbText
   0
 TEXT
   5
-263
+26F
 330
 17
 100
@@ -22077,7 +22531,7 @@ AcDbText
   0
 TEXT
   5
-264
+270
 330
 17
 100
@@ -22111,7 +22565,7 @@ AcDbText
   0
 TEXT
   5
-265
+271
 330
 17
 100
@@ -22145,7 +22599,7 @@ AcDbText
   0
 TEXT
   5
-266
+272
 330
 17
 100
@@ -22179,7 +22633,7 @@ AcDbText
   0
 TEXT
   5
-267
+273
 330
 17
 100
@@ -22213,7 +22667,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-268
+274
 330
 17
 100
@@ -22237,7 +22691,7 @@ AcDbPolyline
   0
 TEXT
   5
-269
+275
 330
 17
 100
@@ -22271,7 +22725,7 @@ AcDbText
   0
 TEXT
   5
-26A
+276
 330
 17
 100
@@ -22303,7 +22757,7 @@ AcDbText
   0
 TEXT
   5
-26B
+277
 330
 17
 100
@@ -22337,7 +22791,7 @@ AcDbText
   0
 TEXT
   5
-26C
+278
 330
 17
 100
@@ -22371,7 +22825,7 @@ AcDbText
   0
 TEXT
   5
-26D
+279
 330
 17
 100
@@ -22405,7 +22859,7 @@ AcDbText
   0
 TEXT
   5
-26E
+27A
 330
 17
 100
@@ -22439,7 +22893,7 @@ AcDbText
   0
 TEXT
   5
-26F
+27B
 330
 17
 100
@@ -22473,7 +22927,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-270
+27C
 330
 17
 100
@@ -22497,7 +22951,7 @@ AcDbPolyline
   0
 TEXT
   5
-271
+27D
 330
 17
 100
@@ -22531,7 +22985,7 @@ AcDbText
   0
 TEXT
   5
-272
+27E
 330
 17
 100
@@ -22563,7 +23017,7 @@ AcDbText
   0
 TEXT
   5
-273
+27F
 330
 17
 100
@@ -22597,7 +23051,7 @@ AcDbText
   0
 TEXT
   5
-274
+280
 330
 17
 100
@@ -22631,7 +23085,7 @@ AcDbText
   0
 TEXT
   5
-275
+281
 330
 17
 100
@@ -22665,7 +23119,7 @@ AcDbText
   0
 TEXT
   5
-276
+282
 330
 17
 100
@@ -22699,7 +23153,7 @@ AcDbText
   0
 TEXT
   5
-277
+283
 330
 17
 100
@@ -22733,7 +23187,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-278
+284
 330
 17
 100
@@ -22757,7 +23211,7 @@ AcDbPolyline
   0
 TEXT
   5
-279
+285
 330
 17
 100
@@ -22791,7 +23245,7 @@ AcDbText
   0
 TEXT
   5
-27A
+286
 330
 17
 100
@@ -22823,7 +23277,7 @@ AcDbText
   0
 TEXT
   5
-27B
+287
 330
 17
 100
@@ -22857,7 +23311,7 @@ AcDbText
   0
 TEXT
   5
-27C
+288
 330
 17
 100
@@ -22891,7 +23345,7 @@ AcDbText
   0
 TEXT
   5
-27D
+289
 330
 17
 100
@@ -22925,7 +23379,7 @@ AcDbText
   0
 TEXT
   5
-27E
+28A
 330
 17
 100
@@ -22959,7 +23413,7 @@ AcDbText
   0
 TEXT
   5
-27F
+28B
 330
 17
 100
@@ -22993,7 +23447,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-280
+28C
 330
 17
 100
@@ -23017,7 +23471,7 @@ AcDbPolyline
   0
 TEXT
   5
-281
+28D
 330
 17
 100
@@ -23051,7 +23505,7 @@ AcDbText
   0
 TEXT
   5
-282
+28E
 330
 17
 100
@@ -23083,7 +23537,7 @@ AcDbText
   0
 TEXT
   5
-283
+28F
 330
 17
 100
@@ -23117,7 +23571,7 @@ AcDbText
   0
 TEXT
   5
-284
+290
 330
 17
 100
@@ -23151,7 +23605,7 @@ AcDbText
   0
 TEXT
   5
-285
+291
 330
 17
 100
@@ -23185,7 +23639,7 @@ AcDbText
   0
 TEXT
   5
-286
+292
 330
 17
 100
@@ -23219,7 +23673,7 @@ AcDbText
   0
 TEXT
   5
-287
+293
 330
 17
 100
@@ -23253,7 +23707,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-288
+294
 330
 17
 100
@@ -23277,7 +23731,7 @@ AcDbPolyline
   0
 TEXT
   5
-289
+295
 330
 17
 100
@@ -23311,7 +23765,7 @@ AcDbText
   0
 TEXT
   5
-28A
+296
 330
 17
 100
@@ -23343,7 +23797,7 @@ AcDbText
   0
 TEXT
   5
-28B
+297
 330
 17
 100
@@ -23377,7 +23831,7 @@ AcDbText
   0
 TEXT
   5
-28C
+298
 330
 17
 100
@@ -23411,7 +23865,7 @@ AcDbText
   0
 TEXT
   5
-28D
+299
 330
 17
 100
@@ -23445,7 +23899,7 @@ AcDbText
   0
 TEXT
   5
-28E
+29A
 330
 17
 100
@@ -23479,7 +23933,7 @@ AcDbText
   0
 TEXT
   5
-28F
+29B
 330
 17
 100
@@ -23513,7 +23967,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-290
+29C
 330
 17
 100
@@ -23537,7 +23991,7 @@ AcDbPolyline
   0
 TEXT
   5
-291
+29D
 330
 17
 100
@@ -23571,7 +24025,7 @@ AcDbText
   0
 TEXT
   5
-292
+29E
 330
 17
 100
@@ -23603,7 +24057,7 @@ AcDbText
   0
 TEXT
   5
-293
+29F
 330
 17
 100
@@ -23637,7 +24091,7 @@ AcDbText
   0
 TEXT
   5
-294
+2A0
 330
 17
 100
@@ -23671,7 +24125,7 @@ AcDbText
   0
 TEXT
   5
-295
+2A1
 330
 17
 100
@@ -23705,7 +24159,7 @@ AcDbText
   0
 TEXT
   5
-296
+2A2
 330
 17
 100
@@ -23739,7 +24193,7 @@ AcDbText
   0
 TEXT
   5
-297
+2A3
 330
 17
 100
@@ -23773,7 +24227,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-298
+2A4
 330
 17
 100
@@ -23797,7 +24251,7 @@ AcDbPolyline
   0
 TEXT
   5
-299
+2A5
 330
 17
 100
@@ -23831,7 +24285,7 @@ AcDbText
   0
 TEXT
   5
-29A
+2A6
 330
 17
 100
@@ -23863,7 +24317,7 @@ AcDbText
   0
 TEXT
   5
-29B
+2A7
 330
 17
 100
@@ -23897,7 +24351,7 @@ AcDbText
   0
 TEXT
   5
-29C
+2A8
 330
 17
 100
@@ -23931,7 +24385,7 @@ AcDbText
   0
 TEXT
   5
-29D
+2A9
 330
 17
 100
@@ -23965,7 +24419,7 @@ AcDbText
   0
 TEXT
   5
-29E
+2AA
 330
 17
 100
@@ -23999,7 +24453,7 @@ AcDbText
   0
 TEXT
   5
-29F
+2AB
 330
 17
 100
@@ -24033,7 +24487,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-2A0
+2AC
 330
 17
 100
@@ -24057,7 +24511,7 @@ AcDbPolyline
   0
 TEXT
   5
-2A1
+2AD
 330
 17
 100
@@ -24091,7 +24545,7 @@ AcDbText
   0
 TEXT
   5
-2A2
+2AE
 330
 17
 100
@@ -24123,7 +24577,7 @@ AcDbText
   0
 TEXT
   5
-2A3
+2AF
 330
 17
 100
@@ -24157,7 +24611,7 @@ AcDbText
   0
 TEXT
   5
-2A4
+2B0
 330
 17
 100
@@ -24191,7 +24645,7 @@ AcDbText
   0
 TEXT
   5
-2A5
+2B1
 330
 17
 100
@@ -24225,7 +24679,7 @@ AcDbText
   0
 TEXT
   5
-2A6
+2B2
 330
 17
 100
@@ -24259,7 +24713,7 @@ AcDbText
   0
 TEXT
   5
-2A7
+2B3
 330
 17
 100
@@ -24293,7 +24747,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-2A8
+2B4
 330
 17
 100
@@ -24317,7 +24771,7 @@ AcDbPolyline
   0
 TEXT
   5
-2A9
+2B5
 330
 17
 100
@@ -24351,7 +24805,7 @@ AcDbText
   0
 TEXT
   5
-2AA
+2B6
 330
 17
 100
@@ -24383,7 +24837,7 @@ AcDbText
   0
 TEXT
   5
-2AB
+2B7
 330
 17
 100
@@ -24417,7 +24871,7 @@ AcDbText
   0
 TEXT
   5
-2AC
+2B8
 330
 17
 100
@@ -24451,7 +24905,7 @@ AcDbText
   0
 TEXT
   5
-2AD
+2B9
 330
 17
 100
@@ -24485,7 +24939,7 @@ AcDbText
   0
 TEXT
   5
-2AE
+2BA
 330
 17
 100
@@ -24519,7 +24973,7 @@ AcDbText
   0
 TEXT
   5
-2AF
+2BB
 330
 17
 100
@@ -24553,7 +25007,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-2B0
+2BC
 330
 17
 100
@@ -24577,7 +25031,7 @@ AcDbPolyline
   0
 TEXT
   5
-2B1
+2BD
 330
 17
 100
@@ -24611,7 +25065,7 @@ AcDbText
   0
 TEXT
   5
-2B2
+2BE
 330
 17
 100
@@ -24643,7 +25097,7 @@ AcDbText
   0
 TEXT
   5
-2B3
+2BF
 330
 17
 100
@@ -24677,7 +25131,7 @@ AcDbText
   0
 TEXT
   5
-2B4
+2C0
 330
 17
 100
@@ -24711,7 +25165,7 @@ AcDbText
   0
 TEXT
   5
-2B5
+2C1
 330
 17
 100
@@ -24745,7 +25199,7 @@ AcDbText
   0
 TEXT
   5
-2B6
+2C2
 330
 17
 100
@@ -24779,7 +25233,7 @@ AcDbText
   0
 TEXT
   5
-2B7
+2C3
 330
 17
 100
@@ -24813,7 +25267,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-2B8
+2C4
 330
 17
 100
@@ -24837,7 +25291,7 @@ AcDbPolyline
   0
 TEXT
   5
-2B9
+2C5
 330
 17
 100
@@ -24871,7 +25325,7 @@ AcDbText
   0
 TEXT
   5
-2BA
+2C6
 330
 17
 100
@@ -24903,7 +25357,7 @@ AcDbText
   0
 TEXT
   5
-2BB
+2C7
 330
 17
 100
@@ -24937,7 +25391,7 @@ AcDbText
   0
 TEXT
   5
-2BC
+2C8
 330
 17
 100
@@ -24971,7 +25425,7 @@ AcDbText
   0
 TEXT
   5
-2BD
+2C9
 330
 17
 100
@@ -25005,7 +25459,7 @@ AcDbText
   0
 TEXT
   5
-2BE
+2CA
 330
 17
 100
@@ -25039,7 +25493,7 @@ AcDbText
   0
 TEXT
   5
-2BF
+2CB
 330
 17
 100
@@ -25073,7 +25527,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-2C0
+2CC
 330
 17
 100
@@ -25097,7 +25551,7 @@ AcDbPolyline
   0
 TEXT
   5
-2C1
+2CD
 330
 17
 100
@@ -25131,7 +25585,7 @@ AcDbText
   0
 TEXT
   5
-2C2
+2CE
 330
 17
 100
@@ -25163,7 +25617,7 @@ AcDbText
   0
 TEXT
   5
-2C3
+2CF
 330
 17
 100
@@ -25197,7 +25651,7 @@ AcDbText
   0
 TEXT
   5
-2C4
+2D0
 330
 17
 100
@@ -25231,7 +25685,7 @@ AcDbText
   0
 TEXT
   5
-2C5
+2D1
 330
 17
 100
@@ -25265,7 +25719,7 @@ AcDbText
   0
 TEXT
   5
-2C6
+2D2
 330
 17
 100
@@ -25299,7 +25753,7 @@ AcDbText
   0
 TEXT
   5
-2C7
+2D3
 330
 17
 100
@@ -25333,7 +25787,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-2C8
+2D4
 330
 17
 100
@@ -25357,7 +25811,7 @@ AcDbPolyline
   0
 TEXT
   5
-2C9
+2D5
 330
 17
 100
@@ -25391,7 +25845,7 @@ AcDbText
   0
 TEXT
   5
-2CA
+2D6
 330
 17
 100
@@ -25423,7 +25877,7 @@ AcDbText
   0
 TEXT
   5
-2CB
+2D7
 330
 17
 100
@@ -25457,7 +25911,7 @@ AcDbText
   0
 TEXT
   5
-2CC
+2D8
 330
 17
 100
@@ -25491,7 +25945,7 @@ AcDbText
   0
 TEXT
   5
-2CD
+2D9
 330
 17
 100
@@ -25525,7 +25979,7 @@ AcDbText
   0
 TEXT
   5
-2CE
+2DA
 330
 17
 100
@@ -25559,7 +26013,7 @@ AcDbText
   0
 TEXT
   5
-2CF
+2DB
 330
 17
 100
@@ -25593,7 +26047,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-2D0
+2DC
 330
 17
 100
@@ -25617,7 +26071,7 @@ AcDbPolyline
   0
 TEXT
   5
-2D1
+2DD
 330
 17
 100
@@ -25651,7 +26105,7 @@ AcDbText
   0
 TEXT
   5
-2D2
+2DE
 330
 17
 100
@@ -25683,7 +26137,7 @@ AcDbText
   0
 TEXT
   5
-2D3
+2DF
 330
 17
 100
@@ -25717,7 +26171,7 @@ AcDbText
   0
 TEXT
   5
-2D4
+2E0
 330
 17
 100
@@ -25751,7 +26205,7 @@ AcDbText
   0
 TEXT
   5
-2D5
+2E1
 330
 17
 100
@@ -25785,7 +26239,7 @@ AcDbText
   0
 TEXT
   5
-2D6
+2E2
 330
 17
 100
@@ -25819,7 +26273,7 @@ AcDbText
   0
 TEXT
   5
-2D7
+2E3
 330
 17
 100
@@ -25853,7 +26307,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-2D8
+2E4
 330
 17
 100
@@ -25877,7 +26331,7 @@ AcDbPolyline
   0
 TEXT
   5
-2D9
+2E5
 330
 17
 100
@@ -25911,7 +26365,7 @@ AcDbText
   0
 TEXT
   5
-2DA
+2E6
 330
 17
 100
@@ -25943,7 +26397,7 @@ AcDbText
   0
 TEXT
   5
-2DB
+2E7
 330
 17
 100
@@ -25977,7 +26431,7 @@ AcDbText
   0
 TEXT
   5
-2DC
+2E8
 330
 17
 100
@@ -26011,7 +26465,7 @@ AcDbText
   0
 TEXT
   5
-2DD
+2E9
 330
 17
 100
@@ -26045,7 +26499,7 @@ AcDbText
   0
 TEXT
   5
-2DE
+2EA
 330
 17
 100
@@ -26079,7 +26533,7 @@ AcDbText
   0
 TEXT
   5
-2DF
+2EB
 330
 17
 100
@@ -26113,7 +26567,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-2E0
+2EC
 330
 17
 100
@@ -26137,7 +26591,7 @@ AcDbPolyline
   0
 TEXT
   5
-2E1
+2ED
 330
 17
 100
@@ -26171,7 +26625,7 @@ AcDbText
   0
 TEXT
   5
-2E2
+2EE
 330
 17
 100
@@ -26203,7 +26657,7 @@ AcDbText
   0
 TEXT
   5
-2E3
+2EF
 330
 17
 100
@@ -26237,7 +26691,7 @@ AcDbText
   0
 TEXT
   5
-2E4
+2F0
 330
 17
 100
@@ -26271,7 +26725,7 @@ AcDbText
   0
 TEXT
   5
-2E5
+2F1
 330
 17
 100
@@ -26305,7 +26759,7 @@ AcDbText
   0
 TEXT
   5
-2E6
+2F2
 330
 17
 100
@@ -26339,7 +26793,7 @@ AcDbText
   0
 TEXT
   5
-2E7
+2F3
 330
 17
 100
@@ -26373,7 +26827,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-2E8
+2F4
 330
 17
 100
@@ -26397,7 +26851,7 @@ AcDbPolyline
   0
 TEXT
   5
-2E9
+2F5
 330
 17
 100
@@ -26431,7 +26885,7 @@ AcDbText
   0
 TEXT
   5
-2EA
+2F6
 330
 17
 100
@@ -26463,7 +26917,7 @@ AcDbText
   0
 TEXT
   5
-2EB
+2F7
 330
 17
 100
@@ -26497,7 +26951,7 @@ AcDbText
   0
 TEXT
   5
-2EC
+2F8
 330
 17
 100
@@ -26531,7 +26985,7 @@ AcDbText
   0
 TEXT
   5
-2ED
+2F9
 330
 17
 100
@@ -26565,7 +27019,7 @@ AcDbText
   0
 TEXT
   5
-2EE
+2FA
 330
 17
 100
@@ -26599,7 +27053,7 @@ AcDbText
   0
 TEXT
   5
-2EF
+2FB
 330
 17
 100
@@ -26633,7 +27087,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-2F0
+2FC
 330
 17
 100
@@ -26657,7 +27111,7 @@ AcDbPolyline
   0
 TEXT
   5
-2F1
+2FD
 330
 17
 100
@@ -26691,7 +27145,7 @@ AcDbText
   0
 TEXT
   5
-2F2
+2FE
 330
 17
 100
@@ -26723,7 +27177,7 @@ AcDbText
   0
 TEXT
   5
-2F3
+2FF
 330
 17
 100
@@ -26757,7 +27211,7 @@ AcDbText
   0
 TEXT
   5
-2F4
+300
 330
 17
 100
@@ -26791,7 +27245,7 @@ AcDbText
   0
 TEXT
   5
-2F5
+301
 330
 17
 100
@@ -26825,7 +27279,7 @@ AcDbText
   0
 TEXT
   5
-2F6
+302
 330
 17
 100
@@ -26859,7 +27313,7 @@ AcDbText
   0
 TEXT
   5
-2F7
+303
 330
 17
 100
@@ -26893,7 +27347,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-2F8
+304
 330
 17
 100
@@ -26917,7 +27371,7 @@ AcDbPolyline
   0
 TEXT
   5
-2F9
+305
 330
 17
 100
@@ -26951,7 +27405,7 @@ AcDbText
   0
 TEXT
   5
-2FA
+306
 330
 17
 100
@@ -26983,7 +27437,7 @@ AcDbText
   0
 TEXT
   5
-2FB
+307
 330
 17
 100
@@ -27017,7 +27471,7 @@ AcDbText
   0
 TEXT
   5
-2FC
+308
 330
 17
 100
@@ -27051,7 +27505,7 @@ AcDbText
   0
 TEXT
   5
-2FD
+309
 330
 17
 100
@@ -27085,7 +27539,7 @@ AcDbText
   0
 TEXT
   5
-2FE
+30A
 330
 17
 100
@@ -27119,7 +27573,7 @@ AcDbText
   0
 TEXT
   5
-2FF
+30B
 330
 17
 100
@@ -27153,7 +27607,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-300
+30C
 330
 17
 100
@@ -27177,7 +27631,7 @@ AcDbPolyline
   0
 TEXT
   5
-301
+30D
 330
 17
 100
@@ -27211,7 +27665,7 @@ AcDbText
   0
 TEXT
   5
-302
+30E
 330
 17
 100
@@ -27243,7 +27697,7 @@ AcDbText
   0
 TEXT
   5
-303
+30F
 330
 17
 100
@@ -27277,7 +27731,7 @@ AcDbText
   0
 TEXT
   5
-304
+310
 330
 17
 100
@@ -27311,7 +27765,7 @@ AcDbText
   0
 TEXT
   5
-305
+311
 330
 17
 100
@@ -27345,7 +27799,7 @@ AcDbText
   0
 TEXT
   5
-306
+312
 330
 17
 100
@@ -27379,7 +27833,7 @@ AcDbText
   0
 TEXT
   5
-307
+313
 330
 17
 100
@@ -27413,7 +27867,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-308
+314
 330
 17
 100
@@ -27437,7 +27891,7 @@ AcDbPolyline
   0
 TEXT
   5
-309
+315
 330
 17
 100
@@ -27471,7 +27925,7 @@ AcDbText
   0
 TEXT
   5
-30A
+316
 330
 17
 100
@@ -27503,7 +27957,7 @@ AcDbText
   0
 TEXT
   5
-30B
+317
 330
 17
 100
@@ -27537,7 +27991,7 @@ AcDbText
   0
 TEXT
   5
-30C
+318
 330
 17
 100
@@ -27571,7 +28025,7 @@ AcDbText
   0
 TEXT
   5
-30D
+319
 330
 17
 100
@@ -27605,7 +28059,7 @@ AcDbText
   0
 TEXT
   5
-30E
+31A
 330
 17
 100
@@ -27639,7 +28093,7 @@ AcDbText
   0
 TEXT
   5
-30F
+31B
 330
 17
 100
@@ -27673,7 +28127,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-310
+31C
 330
 17
 100
@@ -27697,7 +28151,7 @@ AcDbPolyline
   0
 TEXT
   5
-311
+31D
 330
 17
 100
@@ -27731,7 +28185,7 @@ AcDbText
   0
 TEXT
   5
-312
+31E
 330
 17
 100
@@ -27763,7 +28217,7 @@ AcDbText
   0
 TEXT
   5
-313
+31F
 330
 17
 100
@@ -27797,7 +28251,7 @@ AcDbText
   0
 TEXT
   5
-314
+320
 330
 17
 100
@@ -27831,7 +28285,7 @@ AcDbText
   0
 TEXT
   5
-315
+321
 330
 17
 100
@@ -27865,7 +28319,7 @@ AcDbText
   0
 TEXT
   5
-316
+322
 330
 17
 100
@@ -27899,7 +28353,7 @@ AcDbText
   0
 TEXT
   5
-317
+323
 330
 17
 100
@@ -27933,349 +28387,27 @@ AcDbText
   0
 LWPOLYLINE
   5
-318
-330
-17
-100
-AcDbEntity
-  8
-HMB-DATA
-100
-AcDbPolyline
- 90
-2
- 70
-0
- 10
-575.0
- 20
-440.59999999999934
- 10
-791.0
- 20
-440.59999999999934
-  0
-LWPOLYLINE
-  5
-319
-330
-17
-100
-AcDbEntity
-  8
-HMB-DATA
-100
-AcDbPolyline
- 90
-2
- 70
-0
- 10
-575.0
- 20
-574.0
- 10
-575.0
- 20
-440.59999999999934
-  0
-LWPOLYLINE
-  5
-31A
-330
-17
-100
-AcDbEntity
-  8
-HMB-DATA
-100
-AcDbPolyline
- 90
-2
- 70
-0
- 10
-583.0
- 20
-574.0
- 10
-583.0
- 20
-440.59999999999934
-  0
-LWPOLYLINE
-  5
-31B
-330
-17
-100
-AcDbEntity
-  8
-HMB-DATA
-100
-AcDbPolyline
- 90
-2
- 70
-0
- 10
-687.0
- 20
-574.0
- 10
-687.0
- 20
-440.59999999999934
-  0
-LWPOLYLINE
-  5
-31C
-330
-17
-100
-AcDbEntity
-  8
-HMB-DATA
-100
-AcDbPolyline
- 90
-2
- 70
-0
- 10
-709.0
- 20
-574.0
- 10
-709.0
- 20
-440.59999999999934
-  0
-LWPOLYLINE
-  5
-31D
-330
-17
-100
-AcDbEntity
-  8
-HMB-DATA
-100
-AcDbPolyline
- 90
-2
- 70
-0
- 10
-729.0
- 20
-574.0
- 10
-729.0
- 20
-440.59999999999934
-  0
-LWPOLYLINE
-  5
-31E
-330
-17
-100
-AcDbEntity
-  8
-HMB-DATA
-100
-AcDbPolyline
- 90
-2
- 70
-0
- 10
-749.0
- 20
-574.0
- 10
-749.0
- 20
-440.59999999999934
-  0
-LWPOLYLINE
-  5
-31F
-330
-17
-100
-AcDbEntity
-  8
-HMB-DATA
-100
-AcDbPolyline
- 90
-2
- 70
-0
- 10
-769.0
- 20
-574.0
- 10
-769.0
- 20
-440.59999999999934
-  0
-LWPOLYLINE
-  5
-320
-330
-17
-100
-AcDbEntity
-  8
-HMB-DATA
-100
-AcDbPolyline
- 90
-2
- 70
-0
- 10
-791.0
- 20
-574.0
- 10
-791.0
- 20
-440.59999999999934
-  0
-TEXT
-  5
-321
-330
-17
-100
-AcDbEntity
-  8
-HMB-DATA
-100
-AcDbText
- 10
-575.0
- 20
-437.09999999999934
- 30
-0.0
- 40
-1.9
-  1
-* energy flow m x h (reference: IAPWS-IF97 for water/steam, 25 degC sensible for gases, cp x T for seawater)
-  7
-ALPILLA
- 11
-575.0
- 21
-437.09999999999934
- 31
-0.0
-100
-AcDbText
-  0
-TEXT
-  5
-322
-330
-17
-100
-AcDbEntity
-  8
-HMB-TABLE
-100
-AcDbText
- 10
-575.0
- 20
-429.09999999999934
- 30
-0.0
- 40
-3.5
-  1
-PLANT POWER BALANCE
-  7
-ALPILLA
- 11
-575.0
- 21
-429.09999999999934
- 31
-0.0
-100
-AcDbText
-  0
-TEXT
-  5
-323
-330
-17
-100
-AcDbEntity
-  8
-HMB-TABLE
-100
-AcDbText
- 10
-576.0
- 20
-422.69999999999936
- 30
-0.0
- 40
-2.3
-  1
-GT output (generator terminals)
-  7
-ALPILLA
- 11
-576.0
- 21
-422.69999999999936
- 31
-0.0
-100
-AcDbText
-  0
-TEXT
-  5
 324
 330
 17
 100
 AcDbEntity
   8
-HMB-TABLE
+HMB-DATA
 100
-AcDbText
- 10
-725.0
- 20
-422.69999999999936
- 30
-0.0
- 40
-2.3
-  1
-348.23
-  7
-ALPILLA
- 72
+AcDbPolyline
+ 90
 2
- 11
-725.0
- 21
-422.69999999999936
- 31
-0.0
-100
-AcDbText
+ 70
+0
+ 10
+575.0
+ 20
+440.59999999999934
+ 10
+791.0
+ 20
+440.59999999999934
   0
 TEXT
   5
@@ -28289,21 +28421,23 @@ HMB-TABLE
 100
 AcDbText
  10
-728.0
+582.0
  20
-422.69999999999936
+437.29999999999933
  30
 0.0
  40
-2.3
+2.1
   1
-MW
+31
   7
 ALPILLA
+ 72
+2
  11
-728.0
+582.0
  21
-422.69999999999936
+437.29999999999933
  31
 0.0
 100
@@ -28321,21 +28455,21 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+584.0
  20
-418.2999999999994
+437.29999999999933
  30
 0.0
  40
-2.3
+2.1
   1
-ST output (generator terminals)
+Fuel gas to the station preheater burners (water-bath heaters)
   7
 ALPILLA
  11
-576.0
+584.0
  21
-418.2999999999994
+437.29999999999933
  31
 0.0
 100
@@ -28353,23 +28487,23 @@ HMB-TABLE
 100
 AcDbText
  10
-725.0
+708.0
  20
-418.2999999999994
+437.29999999999933
  30
 0.0
  40
-2.3
+2.1
   1
-175.84
+0.02
   7
 ALPILLA
  72
 2
  11
-725.0
+708.0
  21
-418.2999999999994
+437.29999999999933
  31
 0.0
 100
@@ -28389,19 +28523,21 @@ AcDbText
  10
 728.0
  20
-418.2999999999994
+437.29999999999933
  30
 0.0
  40
-2.3
+2.1
   1
-MW
+2.50
   7
 ALPILLA
+ 72
+2
  11
 728.0
  21
-418.2999999999994
+437.29999999999933
  31
 0.0
 100
@@ -28419,21 +28555,23 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+748.0
  20
-413.8999999999994
+437.29999999999933
  30
 0.0
  40
-2.3
+2.1
   1
-Gross output
+25.0
   7
 ALPILLA
+ 72
+2
  11
-576.0
+748.0
  21
-413.8999999999994
+437.29999999999933
  31
 0.0
 100
@@ -28451,23 +28589,23 @@ HMB-TABLE
 100
 AcDbText
  10
-725.0
+768.0
  20
-413.8999999999994
+437.29999999999933
  30
 0.0
  40
-2.3
+2.1
   1
-524.07
+0.0
   7
 ALPILLA
  72
 2
  11
-725.0
+768.0
  21
-413.8999999999994
+437.29999999999933
  31
 0.0
 100
@@ -28485,27 +28623,29 @@ HMB-TABLE
 100
 AcDbText
  10
-728.0
+790.0
  20
-413.8999999999994
+437.29999999999933
  30
 0.0
  40
-2.3
+2.1
   1
-MW
+0.0
   7
 ALPILLA
+ 72
+2
  11
-728.0
+790.0
  21
-413.8999999999994
+437.29999999999933
  31
 0.0
 100
 AcDbText
   0
-TEXT
+LWPOLYLINE
   5
 32C
 330
@@ -28513,31 +28653,23 @@ TEXT
 100
 AcDbEntity
   8
-HMB-TABLE
+HMB-DATA
 100
-AcDbText
+AcDbPolyline
+ 90
+2
+ 70
+0
  10
-576.0
+575.0
  20
-409.49999999999943
- 30
-0.0
- 40
-2.3
-  1
-Auxiliary loads
-  7
-ALPILLA
- 11
-576.0
- 21
-409.49999999999943
- 31
-0.0
-100
-AcDbText
+435.9999999999993
+ 10
+791.0
+ 20
+435.9999999999993
   0
-TEXT
+LWPOLYLINE
   5
 32D
 330
@@ -28545,33 +28677,23 @@ TEXT
 100
 AcDbEntity
   8
-HMB-TABLE
+HMB-DATA
 100
-AcDbText
- 10
-725.0
- 20
-409.49999999999943
- 30
-0.0
- 40
-2.3
-  1
--9.26
-  7
-ALPILLA
- 72
+AcDbPolyline
+ 90
 2
- 11
-725.0
- 21
-409.49999999999943
- 31
-0.0
-100
-AcDbText
+ 70
+0
+ 10
+575.0
+ 20
+574.0
+ 10
+575.0
+ 20
+435.9999999999993
   0
-TEXT
+LWPOLYLINE
   5
 32E
 330
@@ -28579,31 +28701,23 @@ TEXT
 100
 AcDbEntity
   8
-HMB-TABLE
+HMB-DATA
 100
-AcDbText
+AcDbPolyline
+ 90
+2
+ 70
+0
  10
-728.0
+583.0
  20
-409.49999999999943
- 30
-0.0
- 40
-2.3
-  1
-MW
-  7
-ALPILLA
- 11
-728.0
- 21
-409.49999999999943
- 31
-0.0
-100
-AcDbText
+574.0
+ 10
+583.0
+ 20
+435.9999999999993
   0
-TEXT
+LWPOLYLINE
   5
 32F
 330
@@ -28611,31 +28725,23 @@ TEXT
 100
 AcDbEntity
   8
-HMB-TABLE
+HMB-DATA
 100
-AcDbText
+AcDbPolyline
+ 90
+2
+ 70
+0
  10
-576.0
+687.0
  20
-405.09999999999945
- 30
-0.0
- 40
-2.3
-  1
-Transformer losses (GSU, UAT, MV/LV)
-  7
-ALPILLA
- 11
-576.0
- 21
-405.09999999999945
- 31
-0.0
-100
-AcDbText
+574.0
+ 10
+687.0
+ 20
+435.9999999999993
   0
-TEXT
+LWPOLYLINE
   5
 330
 330
@@ -28643,33 +28749,23 @@ TEXT
 100
 AcDbEntity
   8
-HMB-TABLE
+HMB-DATA
 100
-AcDbText
- 10
-725.0
- 20
-405.09999999999945
- 30
-0.0
- 40
-2.3
-  1
--1.52
-  7
-ALPILLA
- 72
+AcDbPolyline
+ 90
 2
- 11
-725.0
- 21
-405.09999999999945
- 31
-0.0
-100
-AcDbText
+ 70
+0
+ 10
+709.0
+ 20
+574.0
+ 10
+709.0
+ 20
+435.9999999999993
   0
-TEXT
+LWPOLYLINE
   5
 331
 330
@@ -28677,31 +28773,23 @@ TEXT
 100
 AcDbEntity
   8
-HMB-TABLE
+HMB-DATA
 100
-AcDbText
+AcDbPolyline
+ 90
+2
+ 70
+0
  10
-728.0
+729.0
  20
-405.09999999999945
- 30
-0.0
- 40
-2.3
-  1
-MW
-  7
-ALPILLA
- 11
-728.0
- 21
-405.09999999999945
- 31
-0.0
-100
-AcDbText
+574.0
+ 10
+729.0
+ 20
+435.9999999999993
   0
-TEXT
+LWPOLYLINE
   5
 332
 330
@@ -28709,31 +28797,23 @@ TEXT
 100
 AcDbEntity
   8
-HMB-TABLE
+HMB-DATA
 100
-AcDbText
+AcDbPolyline
+ 90
+2
+ 70
+0
  10
-576.0
+749.0
  20
-400.6999999999995
- 30
-0.0
- 40
-2.3
-  1
-NET OUTPUT (HV terminals)
-  7
-ALPILLA
- 11
-576.0
- 21
-400.6999999999995
- 31
-0.0
-100
-AcDbText
+574.0
+ 10
+749.0
+ 20
+435.9999999999993
   0
-TEXT
+LWPOLYLINE
   5
 333
 330
@@ -28741,33 +28821,23 @@ TEXT
 100
 AcDbEntity
   8
-HMB-TABLE
+HMB-DATA
 100
-AcDbText
- 10
-725.0
- 20
-400.6999999999995
- 30
-0.0
- 40
-2.3
-  1
-513.29
-  7
-ALPILLA
- 72
+AcDbPolyline
+ 90
 2
- 11
-725.0
- 21
-400.6999999999995
- 31
-0.0
-100
-AcDbText
+ 70
+0
+ 10
+769.0
+ 20
+574.0
+ 10
+769.0
+ 20
+435.9999999999993
   0
-TEXT
+LWPOLYLINE
   5
 334
 330
@@ -28775,29 +28845,21 @@ TEXT
 100
 AcDbEntity
   8
-HMB-TABLE
+HMB-DATA
 100
-AcDbText
+AcDbPolyline
+ 90
+2
+ 70
+0
  10
-728.0
+791.0
  20
-400.6999999999995
- 30
-0.0
- 40
-2.3
-  1
-MW
-  7
-ALPILLA
- 11
-728.0
- 21
-400.6999999999995
- 31
-0.0
-100
-AcDbText
+574.0
+ 10
+791.0
+ 20
+435.9999999999993
   0
 TEXT
   5
@@ -28807,25 +28869,25 @@ TEXT
 100
 AcDbEntity
   8
-HMB-TABLE
+HMB-DATA
 100
 AcDbText
  10
-576.0
+575.0
  20
-396.2999999999995
+432.4999999999993
  30
 0.0
  40
-2.3
+1.9
   1
-Heat input (LHV)
+* energy flow m x h (reference: IAPWS-IF97 for water/steam, 25 degC sensible for gases, cp x T for seawater)
   7
 ALPILLA
  11
-576.0
+575.0
  21
-396.2999999999995
+432.4999999999993
  31
 0.0
 100
@@ -28843,23 +28905,21 @@ HMB-TABLE
 100
 AcDbText
  10
-725.0
+575.0
  20
-396.2999999999995
+424.4999999999993
  30
 0.0
  40
-2.3
+3.5
   1
-831.37
+PLANT POWER BALANCE
   7
 ALPILLA
- 72
-2
  11
-725.0
+575.0
  21
-396.2999999999995
+424.4999999999993
  31
 0.0
 100
@@ -28877,21 +28937,21 @@ HMB-TABLE
 100
 AcDbText
  10
-728.0
+576.0
  20
-396.2999999999995
+418.09999999999934
  30
 0.0
  40
 2.3
   1
-MW
+GT output (generator terminals)
   7
 ALPILLA
  11
-728.0
+576.0
  21
-396.2999999999995
+418.09999999999934
  31
 0.0
 100
@@ -28909,21 +28969,23 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+725.0
  20
-391.8999999999995
+418.09999999999934
  30
 0.0
  40
 2.3
   1
-Gross heat rate (LHV)
+348.23
   7
 ALPILLA
+ 72
+2
  11
-576.0
+725.0
  21
-391.8999999999995
+418.09999999999934
  31
 0.0
 100
@@ -28941,23 +29003,21 @@ HMB-TABLE
 100
 AcDbText
  10
-725.0
+728.0
  20
-391.8999999999995
+418.09999999999934
  30
 0.0
  40
 2.3
   1
-5,711
+MW
   7
 ALPILLA
- 72
-2
  11
-725.0
+728.0
  21
-391.8999999999995
+418.09999999999934
  31
 0.0
 100
@@ -28975,21 +29035,21 @@ HMB-TABLE
 100
 AcDbText
  10
-728.0
+576.0
  20
-391.8999999999995
+413.69999999999936
  30
 0.0
  40
 2.3
   1
-kJ/kWh
+ST output (generator terminals)
   7
 ALPILLA
  11
-728.0
+576.0
  21
-391.8999999999995
+413.69999999999936
  31
 0.0
 100
@@ -29007,21 +29067,23 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+725.0
  20
-387.49999999999955
+413.69999999999936
  30
 0.0
  40
-2.5
+2.3
   1
-NET HEAT RATE (LHV)
+175.84
   7
 ALPILLA
+ 72
+2
  11
-576.0
+725.0
  21
-387.49999999999955
+413.69999999999936
  31
 0.0
 100
@@ -29039,23 +29101,21 @@ HMB-TABLE
 100
 AcDbText
  10
-725.0
+728.0
  20
-387.49999999999955
+413.69999999999936
  30
 0.0
  40
-2.5
+2.3
   1
-5,831
+MW
   7
 ALPILLA
- 72
-2
  11
-725.0
+728.0
  21
-387.49999999999955
+413.69999999999936
  31
 0.0
 100
@@ -29073,21 +29133,21 @@ HMB-TABLE
 100
 AcDbText
  10
-728.0
+576.0
  20
-387.49999999999955
+409.2999999999994
  30
 0.0
  40
 2.3
   1
-kJ/kWh
+Gross output
   7
 ALPILLA
  11
-728.0
+576.0
  21
-387.49999999999955
+409.2999999999994
  31
 0.0
 100
@@ -29105,21 +29165,23 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+725.0
  20
-383.09999999999957
+409.2999999999994
  30
 0.0
  40
 2.3
   1
-Net efficiency (LHV)
+524.07
   7
 ALPILLA
+ 72
+2
  11
-576.0
+725.0
  21
-383.09999999999957
+409.2999999999994
  31
 0.0
 100
@@ -29137,23 +29199,21 @@ HMB-TABLE
 100
 AcDbText
  10
-725.0
+728.0
  20
-383.09999999999957
+409.2999999999994
  30
 0.0
  40
 2.3
   1
-61.74
+MW
   7
 ALPILLA
- 72
-2
  11
-725.0
+728.0
  21
-383.09999999999957
+409.2999999999994
  31
 0.0
 100
@@ -29171,21 +29231,21 @@ HMB-TABLE
 100
 AcDbText
  10
-728.0
+576.0
  20
-383.09999999999957
+404.8999999999994
  30
 0.0
  40
 2.3
   1
-%
+Auxiliary loads
   7
 ALPILLA
  11
-728.0
+576.0
  21
-383.09999999999957
+404.8999999999994
  31
 0.0
 100
@@ -29203,21 +29263,23 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+725.0
  20
-378.6999999999996
+404.8999999999994
  30
 0.0
  40
 2.3
   1
-Fuel LHV (ISO 6976, from composition)
+-9.26
   7
 ALPILLA
+ 72
+2
  11
-576.0
+725.0
  21
-378.6999999999996
+404.8999999999994
  31
 0.0
 100
@@ -29235,23 +29297,21 @@ HMB-TABLE
 100
 AcDbText
  10
-725.0
+728.0
  20
-378.6999999999996
+404.8999999999994
  30
 0.0
  40
 2.3
   1
-47.48
+MW
   7
 ALPILLA
- 72
-2
  11
-725.0
+728.0
  21
-378.6999999999996
+404.8999999999994
  31
 0.0
 100
@@ -29269,21 +29329,21 @@ HMB-TABLE
 100
 AcDbText
  10
-728.0
+576.0
  20
-378.6999999999996
+400.49999999999943
  30
 0.0
  40
 2.3
   1
-MJ/kg
+Transformer losses (GSU, UAT, MV/LV)
   7
 ALPILLA
  11
-728.0
+576.0
  21
-378.6999999999996
+400.49999999999943
  31
 0.0
 100
@@ -29301,21 +29361,23 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+725.0
  20
-374.2999999999996
+400.49999999999943
  30
 0.0
  40
 2.3
   1
-Fuel gas flow
+-1.52
   7
 ALPILLA
+ 72
+2
  11
-576.0
+725.0
  21
-374.2999999999996
+400.49999999999943
  31
 0.0
 100
@@ -29333,23 +29395,21 @@ HMB-TABLE
 100
 AcDbText
  10
-725.0
+728.0
  20
-374.2999999999996
+400.49999999999943
  30
 0.0
  40
 2.3
   1
-86,054
+MW
   7
 ALPILLA
- 72
-2
  11
-725.0
+728.0
  21
-374.2999999999996
+400.49999999999943
  31
 0.0
 100
@@ -29367,21 +29427,21 @@ HMB-TABLE
 100
 AcDbText
  10
-728.0
+576.0
  20
-374.2999999999996
+396.09999999999945
  30
 0.0
  40
 2.3
   1
-Sm3/h
+NET OUTPUT (HV terminals)
   7
 ALPILLA
  11
-728.0
+576.0
  21
-374.2999999999996
+396.09999999999945
  31
 0.0
 100
@@ -29399,21 +29459,23 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+725.0
  20
-369.89999999999964
+396.09999999999945
  30
 0.0
  40
 2.3
   1
-Circulating water flow
+513.29
   7
 ALPILLA
+ 72
+2
  11
-576.0
+725.0
  21
-369.89999999999964
+396.09999999999945
  31
 0.0
 100
@@ -29431,23 +29493,21 @@ HMB-TABLE
 100
 AcDbText
  10
-725.0
+728.0
  20
-369.89999999999964
+396.09999999999945
  30
 0.0
  40
 2.3
   1
-36,190
+MW
   7
 ALPILLA
- 72
-2
  11
-725.0
+728.0
  21
-369.89999999999964
+396.09999999999945
  31
 0.0
 100
@@ -29465,21 +29525,21 @@ HMB-TABLE
 100
 AcDbText
  10
-728.0
+576.0
  20
-369.89999999999964
+391.6999999999995
  30
 0.0
  40
 2.3
   1
-m3/h
+Heat input (LHV)
   7
 ALPILLA
  11
-728.0
+576.0
  21
-369.89999999999964
+391.6999999999995
  31
 0.0
 100
@@ -29497,21 +29557,23 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+725.0
  20
-365.49999999999966
+391.6999999999995
  30
 0.0
  40
 2.3
   1
-GT load
+832.17
   7
 ALPILLA
+ 72
+2
  11
-576.0
+725.0
  21
-365.49999999999966
+391.6999999999995
  31
 0.0
 100
@@ -29529,23 +29591,21 @@ HMB-TABLE
 100
 AcDbText
  10
-725.0
+728.0
  20
-365.49999999999966
+391.6999999999995
  30
 0.0
  40
 2.3
   1
-100.00
+MW
   7
 ALPILLA
- 72
-2
  11
-725.0
+728.0
  21
-365.49999999999966
+391.6999999999995
  31
 0.0
 100
@@ -29563,21 +29623,21 @@ HMB-TABLE
 100
 AcDbText
  10
-728.0
+576.0
  20
-365.49999999999966
+387.2999999999995
  30
 0.0
  40
 2.3
   1
-%
+Gross heat rate (LHV)
   7
 ALPILLA
  11
-728.0
+576.0
  21
-365.49999999999966
+387.2999999999995
  31
 0.0
 100
@@ -29595,21 +29655,23 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+725.0
  20
-361.0999999999997
+387.2999999999995
  30
 0.0
  40
-2.5
+2.3
   1
-PLANT LOAD (NET, % OF SRC-NG-100)
+5,711
   7
 ALPILLA
+ 72
+2
  11
-576.0
+725.0
  21
-361.0999999999997
+387.2999999999995
  31
 0.0
 100
@@ -29627,23 +29689,21 @@ HMB-TABLE
 100
 AcDbText
  10
-725.0
+728.0
  20
-361.0999999999997
+387.2999999999995
  30
 0.0
  40
-2.5
+2.3
   1
-83.61
+kJ/kWh
   7
 ALPILLA
- 72
-2
  11
-725.0
+728.0
  21
-361.0999999999997
+387.2999999999995
  31
 0.0
 100
@@ -29661,21 +29721,21 @@ HMB-TABLE
 100
 AcDbText
  10
-728.0
+576.0
  20
-361.0999999999997
+382.8999999999995
  30
 0.0
  40
-2.3
+2.5
   1
-%
+NET HEAT RATE (LHV)
   7
 ALPILLA
  11
-728.0
+576.0
  21
-361.0999999999997
+382.8999999999995
  31
 0.0
 100
@@ -29693,21 +29753,23 @@ HMB-TABLE
 100
 AcDbText
  10
-575.0
+725.0
  20
-352.0999999999997
+382.8999999999995
  30
 0.0
  40
-3.5
+2.5
   1
-CHECKS (guarantees, limits, balances)
+5,836
   7
 ALPILLA
+ 72
+2
  11
-575.0
+725.0
  21
-352.0999999999997
+382.8999999999995
  31
 0.0
 100
@@ -29725,21 +29787,21 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+728.0
  20
-346.49999999999966
+382.8999999999995
  30
 0.0
  40
-2.1
+2.3
   1
-OK
+kJ/kWh
   7
 ALPILLA
  11
-576.0
+728.0
  21
-346.49999999999966
+382.8999999999995
  31
 0.0
 100
@@ -29757,21 +29819,21 @@ HMB-TABLE
 100
 AcDbText
  10
-588.0
+576.0
  20
-346.49999999999966
+378.49999999999955
  30
 0.0
  40
-2.1
+2.3
   1
-energy balance CMIX: residual -0.001 MW (tolerance 0.25 MW)
+Net efficiency (LHV)
   7
 ALPILLA
  11
-588.0
+576.0
  21
-346.49999999999966
+378.49999999999955
  31
 0.0
 100
@@ -29789,21 +29851,23 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+725.0
  20
-342.89999999999964
+378.49999999999955
  30
 0.0
  40
-2.1
+2.3
   1
-OK
+61.68
   7
 ALPILLA
+ 72
+2
  11
-576.0
+725.0
  21
-342.89999999999964
+378.49999999999955
  31
 0.0
 100
@@ -29821,21 +29885,21 @@ HMB-TABLE
 100
 AcDbText
  10
-588.0
+728.0
  20
-342.89999999999964
+378.49999999999955
  30
 0.0
  40
-2.1
+2.3
   1
-energy balance COND: residual -0.164 MW (tolerance 1.40 MW)
+%
   7
 ALPILLA
  11
-588.0
+728.0
  21
-342.89999999999964
+378.49999999999955
  31
 0.0
 100
@@ -29855,19 +29919,19 @@ AcDbText
  10
 576.0
  20
-339.2999999999996
+374.09999999999957
  30
 0.0
  40
-2.1
+2.3
   1
-OK
+Fuel LHV (ISO 6976, from composition)
   7
 ALPILLA
  11
 576.0
  21
-339.2999999999996
+374.09999999999957
  31
 0.0
 100
@@ -29885,21 +29949,23 @@ HMB-TABLE
 100
 AcDbText
  10
-588.0
+725.0
  20
-339.2999999999996
+374.09999999999957
  30
 0.0
  40
-2.1
+2.3
   1
-energy balance FGH: residual +0.003 MW (tolerance 0.25 MW)
+47.48
   7
 ALPILLA
+ 72
+2
  11
-588.0
+725.0
  21
-339.2999999999996
+374.09999999999957
  31
 0.0
 100
@@ -29917,21 +29983,21 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+728.0
  20
-335.6999999999996
+374.09999999999957
  30
 0.0
  40
-2.1
+2.3
   1
-OK
+MJ/kg
   7
 ALPILLA
  11
-576.0
+728.0
  21
-335.6999999999996
+374.09999999999957
  31
 0.0
 100
@@ -29949,21 +30015,21 @@ HMB-TABLE
 100
 AcDbText
  10
-588.0
+576.0
  20
-335.6999999999996
+369.6999999999996
  30
 0.0
  40
-2.1
+2.3
   1
-energy balance GT: residual -0.005 MW (tolerance 0.85 MW)
+Fuel gas flow
   7
 ALPILLA
  11
-588.0
+576.0
  21
-335.6999999999996
+369.6999999999996
  31
 0.0
 100
@@ -29981,21 +30047,23 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+725.0
  20
-332.09999999999957
+369.6999999999996
  30
 0.0
  40
-2.1
+2.3
   1
-OK
+86,136
   7
 ALPILLA
+ 72
+2
  11
-576.0
+725.0
  21
-332.09999999999957
+369.6999999999996
  31
 0.0
 100
@@ -30013,21 +30081,21 @@ HMB-TABLE
 100
 AcDbText
  10
-588.0
+728.0
  20
-332.09999999999957
+369.6999999999996
  30
 0.0
  40
-2.1
+2.3
   1
-energy balance HRSG: residual +1.830 MW vs stated casing loss 1.807 MW (tolerance 0.88 MW)
+Sm3/h
   7
 ALPILLA
  11
-588.0
+728.0
  21
-332.09999999999957
+369.6999999999996
  31
 0.0
 100
@@ -30047,19 +30115,19 @@ AcDbText
  10
 576.0
  20
-328.49999999999955
+365.2999999999996
  30
 0.0
  40
-2.1
+2.3
   1
-OK
+Circulating water flow
   7
 ALPILLA
  11
 576.0
  21
-328.49999999999955
+365.2999999999996
  31
 0.0
 100
@@ -30077,21 +30145,23 @@ HMB-TABLE
 100
 AcDbText
  10
-588.0
+725.0
  20
-328.49999999999955
+365.2999999999996
  30
 0.0
  40
-2.1
+2.3
   1
-energy balance PIPE: residual +0.331 MW (tolerance 1.04 MW)
+36,190
   7
 ALPILLA
+ 72
+2
  11
-588.0
+725.0
  21
-328.49999999999955
+365.2999999999996
  31
 0.0
 100
@@ -30109,21 +30179,21 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+728.0
  20
-324.8999999999995
+365.2999999999996
  30
 0.0
  40
-2.1
+2.3
   1
-OK
+m3/h
   7
 ALPILLA
  11
-576.0
+728.0
  21
-324.8999999999995
+365.2999999999996
  31
 0.0
 100
@@ -30141,21 +30211,21 @@ HMB-TABLE
 100
 AcDbText
  10
-588.0
+576.0
  20
-324.8999999999995
+360.89999999999964
  30
 0.0
  40
-2.1
+2.3
   1
-energy balance ST: residual -0.000 MW (tolerance 0.75 MW)
+GT load
   7
 ALPILLA
  11
-588.0
+576.0
  21
-324.8999999999995
+360.89999999999964
  31
 0.0
 100
@@ -30173,21 +30243,23 @@ HMB-TABLE
 100
 AcDbText
  10
-576.0
+725.0
  20
-321.2999999999995
+360.89999999999964
  30
 0.0
  40
-2.1
+2.3
   1
-OK
+100.00
   7
 ALPILLA
+ 72
+2
  11
-576.0
+725.0
  21
-321.2999999999995
+360.89999999999964
  31
 0.0
 100
@@ -30205,21 +30277,663 @@ HMB-TABLE
 100
 AcDbText
  10
-588.0
+728.0
  20
-321.2999999999995
+360.89999999999964
+ 30
+0.0
+ 40
+2.3
+  1
+%
+  7
+ALPILLA
+ 11
+728.0
+ 21
+360.89999999999964
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+361
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+576.0
+ 20
+356.49999999999966
+ 30
+0.0
+ 40
+2.5
+  1
+PLANT LOAD (NET, % OF SRC-NG-100)
+  7
+ALPILLA
+ 11
+576.0
+ 21
+356.49999999999966
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+362
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+725.0
+ 20
+356.49999999999966
+ 30
+0.0
+ 40
+2.5
+  1
+83.61
+  7
+ALPILLA
+ 72
+2
+ 11
+725.0
+ 21
+356.49999999999966
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+363
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+728.0
+ 20
+356.49999999999966
+ 30
+0.0
+ 40
+2.3
+  1
+%
+  7
+ALPILLA
+ 11
+728.0
+ 21
+356.49999999999966
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+364
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+575.0
+ 20
+347.49999999999966
+ 30
+0.0
+ 40
+3.5
+  1
+CHECKS (guarantees, limits, balances)
+  7
+ALPILLA
+ 11
+575.0
+ 21
+347.49999999999966
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+365
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+576.0
+ 20
+341.89999999999964
  30
 0.0
  40
 2.1
   1
-gas flow 86,054 Sm3/h = 71.7 % of DP-OWNR-0033 (120,000 Sm3/h)
+OK
+  7
+ALPILLA
+ 11
+576.0
+ 21
+341.89999999999964
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+366
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+588.0
+ 20
+341.89999999999964
+ 30
+0.0
+ 40
+2.1
+  1
+energy balance CMIX: residual -0.001 MW (tolerance 0.25 MW)
   7
 ALPILLA
  11
 588.0
  21
-321.2999999999995
+341.89999999999964
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+367
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+576.0
+ 20
+338.2999999999996
+ 30
+0.0
+ 40
+2.1
+  1
+OK
+  7
+ALPILLA
+ 11
+576.0
+ 21
+338.2999999999996
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+368
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+588.0
+ 20
+338.2999999999996
+ 30
+0.0
+ 40
+2.1
+  1
+energy balance COND: residual -0.164 MW (tolerance 1.40 MW)
+  7
+ALPILLA
+ 11
+588.0
+ 21
+338.2999999999996
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+369
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+576.0
+ 20
+334.6999999999996
+ 30
+0.0
+ 40
+2.1
+  1
+OK
+  7
+ALPILLA
+ 11
+576.0
+ 21
+334.6999999999996
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+36A
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+588.0
+ 20
+334.6999999999996
+ 30
+0.0
+ 40
+2.1
+  1
+energy balance FGH: residual +0.003 MW (tolerance 0.25 MW)
+  7
+ALPILLA
+ 11
+588.0
+ 21
+334.6999999999996
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+36B
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+576.0
+ 20
+331.09999999999957
+ 30
+0.0
+ 40
+2.1
+  1
+OK
+  7
+ALPILLA
+ 11
+576.0
+ 21
+331.09999999999957
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+36C
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+588.0
+ 20
+331.09999999999957
+ 30
+0.0
+ 40
+2.1
+  1
+energy balance GT: residual -0.005 MW (tolerance 0.85 MW)
+  7
+ALPILLA
+ 11
+588.0
+ 21
+331.09999999999957
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+36D
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+576.0
+ 20
+327.49999999999955
+ 30
+0.0
+ 40
+2.1
+  1
+OK
+  7
+ALPILLA
+ 11
+576.0
+ 21
+327.49999999999955
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+36E
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+588.0
+ 20
+327.49999999999955
+ 30
+0.0
+ 40
+2.1
+  1
+energy balance HRSG: residual +1.830 MW vs stated casing loss 1.807 MW (tolerance 0.88 MW)
+  7
+ALPILLA
+ 11
+588.0
+ 21
+327.49999999999955
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+36F
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+576.0
+ 20
+323.8999999999995
+ 30
+0.0
+ 40
+2.1
+  1
+OK
+  7
+ALPILLA
+ 11
+576.0
+ 21
+323.8999999999995
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+370
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+588.0
+ 20
+323.8999999999995
+ 30
+0.0
+ 40
+2.1
+  1
+energy balance PIPE: residual +0.331 MW (tolerance 1.04 MW)
+  7
+ALPILLA
+ 11
+588.0
+ 21
+323.8999999999995
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+371
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+576.0
+ 20
+320.2999999999995
+ 30
+0.0
+ 40
+2.1
+  1
+OK
+  7
+ALPILLA
+ 11
+576.0
+ 21
+320.2999999999995
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+372
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+588.0
+ 20
+320.2999999999995
+ 30
+0.0
+ 40
+2.1
+  1
+energy balance ST: residual -0.000 MW (tolerance 0.75 MW)
+  7
+ALPILLA
+ 11
+588.0
+ 21
+320.2999999999995
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+373
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+576.0
+ 20
+316.6999999999995
+ 30
+0.0
+ 40
+2.1
+  1
+OK
+  7
+ALPILLA
+ 11
+576.0
+ 21
+316.6999999999995
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+374
+330
+17
+100
+AcDbEntity
+  8
+HMB-TABLE
+100
+AcDbText
+ 10
+588.0
+ 20
+316.6999999999995
+ 30
+0.0
+ 40
+2.1
+  1
+gas flow 86,136 Sm3/h = 71.8 % of DP-OWNR-0033 (120,000 Sm3/h)
+  7
+ALPILLA
+ 11
+588.0
+ 21
+316.6999999999995
  31
 0.0
 100
@@ -30227,7 +30941,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-361
+375
 330
 17
 100
@@ -30259,7 +30973,7 @@ AcDbPolyline
   0
 TEXT
   5
-362
+376
 330
 17
 100
@@ -30293,7 +31007,7 @@ AcDbText
   0
 TEXT
   5
-363
+377
 330
 17
 100
@@ -30327,7 +31041,7 @@ AcDbText
   0
 LINE
   5
-364
+378
 330
 17
 100
@@ -30351,7 +31065,7 @@ AcDbLine
   0
 TEXT
   5
-365
+379
 330
 17
 100
@@ -30385,7 +31099,7 @@ AcDbText
   0
 TEXT
   5
-366
+37A
 330
 17
 100
@@ -30403,7 +31117,7 @@ AcDbText
  40
 2.6
   1
-a6baea26d6584942 | 2026-09-29
+b6f4b950c7f3b7e0 | 2026-09-29
   7
 ALPILLA
  11
@@ -30419,7 +31133,7 @@ AcDbText
   0
 LINE
   5
-367
+37B
 330
 17
 100
@@ -30443,7 +31157,7 @@ AcDbLine
   0
 TEXT
   5
-368
+37C
 330
 17
 100
@@ -30477,7 +31191,7 @@ AcDbText
   0
 TEXT
   5
-369
+37D
 330
 17
 100
@@ -30511,7 +31225,7 @@ AcDbText
   0
 LINE
   5
-36A
+37E
 330
 17
 100
@@ -30535,7 +31249,7 @@ AcDbLine
   0
 TEXT
   5
-36B
+37F
 330
 17
 100
@@ -30569,7 +31283,7 @@ AcDbText
   0
 TEXT
   5
-36C
+380
 330
 17
 100
@@ -30603,7 +31317,7 @@ AcDbText
   0
 LINE
   5
-36D
+381
 330
 17
 100
@@ -30627,7 +31341,7 @@ AcDbLine
   0
 TEXT
   5
-36E
+382
 330
 17
 100
@@ -30661,7 +31375,7 @@ AcDbText
   0
 TEXT
   5
-36F
+383
 330
 17
 100
@@ -30695,7 +31409,7 @@ AcDbText
   0
 LINE
   5
-370
+384
 330
 17
 100
@@ -30719,7 +31433,7 @@ AcDbLine
   0
 TEXT
   5
-371
+385
 330
 17
 100
@@ -30753,7 +31467,7 @@ AcDbText
   0
 TEXT
   5
-372
+386
 330
 17
 100
@@ -30787,7 +31501,7 @@ AcDbText
   0
 LINE
   5
-373
+387
 330
 17
 100
@@ -30811,7 +31525,7 @@ AcDbLine
   0
 TEXT
   5
-374
+388
 330
 17
 100
@@ -30845,7 +31559,7 @@ AcDbText
   0
 TEXT
   5
-375
+389
 330
 17
 100
@@ -30879,7 +31593,7 @@ AcDbText
   0
 LINE
   5
-376
+38A
 330
 17
 100
@@ -31991,7 +32705,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-379
+38D
   0
 DICTIONARYVAR
   5
@@ -32003,7 +32717,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-29T02:54:50.887398+00:00
+1.4.4 @ 2026-09-29T03:02:28.222606+00:00
   0
 VISUALSTYLE
   5
@@ -38557,7 +39271,7 @@ strokes_ogs.tif
   0
 DICTIONARYVAR
   5
-379
+38D
 330
 2D
 100
@@ -38565,7 +39279,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-29T02:54:50.931705+00:00
+1.4.4 @ 2026-09-29T03:02:28.264311+00:00
   0
 ENDSEC
   0

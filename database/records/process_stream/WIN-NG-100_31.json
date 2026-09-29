@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "created_at": "2026-09-29T02:57:49.525722Z",
+    "created_by": "EPCE",
+    "rev": 1,
+    "updated_at": "2026-09-29T02:57:49.525722Z",
+    "updated_by": "EPCE"
+  },
+  "basis_refs": [
+    "decision:DEC-EPCE-0014"
+  ],
+  "description": "Fuel gas to the station preheater burners (water-bath heaters)",
+  "fluid": "fuel_gas",
+  "from_node": "FGS",
+  "hmb_case": "WIN-NG-100",
+  "id": "WIN-NG-100_31",
+  "mass_flow": 0.0479,
+  "number": 31,
+  "pressure": 2.5,
+  "remarks": "heater duty 1,932 kW = 22.357 kg/s x 2.4 kJ/kgK x (41-5) K (JT cooling 16 K + lift to 25 degC); efficiency 0.85; gas supply 5 degC",
+  "status": "preliminary",
+  "temperature": 5,
+  "to_node": "PHB"
+}

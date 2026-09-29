@@ -119,6 +119,10 @@
       "unit": "%",
       "description": "casing heat loss, % of gas-side duty"
     },
+    "fuel_consumers": {
+      "type": "list",
+      "description": "nodes of other plant fuel consumers inside the plant fuel metering (e.g. station gas preheater burners): their fuel counts in the plant (net) heat rate, not in the power island (gross) heat rate"
+    },
     "check_refs": {
       "type": "ref_list",
       "to": [

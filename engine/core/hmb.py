@@ -158,7 +158,12 @@ def calculate(case: dict, streams: list[dict], aux_loads: list[dict], refs: dict
             aux_total += p
         res.aux.append(dict(a, kW=p, how=how))
     # plant summary
-    q_fuel = sum(s["mass_flow"] for s in res.streams if s["fluid"] in FUEL_FLUIDS and s["to_node"] == burner) * fuel["LHV_mass"] * 1000
+    q_burner = sum(s["mass_flow"] for s in res.streams if s["fluid"] in FUEL_FLUIDS and s["to_node"] == burner) * fuel["LHV_mass"] * 1000
+    # other plant fuel consumers inside the plant fuel metering (e.g. gas preheater burners): part of the plant heat rate,
+    # not of the power island (gross) heat rate
+    others = set(case.get("fuel_consumers") or [])
+    q_other = sum(s["mass_flow"] for s in res.streams if s["fluid"] in FUEL_FLUIDS and s["to_node"] in others) * fuel["LHV_mass"] * 1000
+    q_fuel = q_burner + q_other
     gross = P_gt + P_st
     net = gross - aux_total - tr_total
     sw = [s for s in res.streams if s["fluid"] == "seawater"]
@@ -166,10 +171,11 @@ def calculate(case: dict, streams: list[dict], aux_loads: list[dict], refs: dict
     cw_out = next((s for s in sw if s is not cw_in), None)
     cond_in = [s for s in res.streams if s["fluid"] == "steam" and cw_in and s["to_node"] == cw_in["to_node"]]
     rho_sw = 1000.0 + 0.76 * sal - 0.2 * (cw_in["temperature"] - 15.0) if cw_in else None
-    m_fuel = q_fuel / (fuel["LHV_mass"] * 1000)
+    m_fuel = q_fuel / (fuel["LHV_mass"] * 1000)            # plant fuel incl. other consumers
     res.summary = {
         "gt_output": P_gt, "st_output": P_st, "gross": gross, "aux": aux_total, "transformer_losses": tr_total, "net": net,
-        "heat_input": q_fuel, "gross_hr": q_fuel * 3600 / gross, "net_hr": q_fuel * 3600 / net, "net_eff": net / q_fuel,
+        "heat_input": q_fuel, "heat_input_gt": q_burner, "heat_input_other": q_other,
+        "gross_hr": q_burner * 3600 / gross, "net_hr": q_fuel * 3600 / net, "net_eff": net / q_fuel,
         "aux_pct_gross": (aux_total + tr_total) / gross * 100, "fuel_flow": m_fuel,
         "fuel_Sm3h": m_fuel / fuel["density_std"] * 3600 if fuel.get("density_std") else None,
         "plant_load_pct": net / reference["net"] * 100 if reference else None,
